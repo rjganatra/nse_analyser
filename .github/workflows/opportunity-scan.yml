@@ -2,7 +2,6 @@ name: Opportunity Scan (Daily)
 
 on:
   schedule:
-    # Every weekday at 6:30 AM IST (1:00 AM UTC) - after market opens
     - cron: '0 1 * * 1-5'
   workflow_dispatch:
 
