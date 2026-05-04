@@ -1,0 +1,135 @@
+{
+  "symbol": "ALKEM",
+  "name": "Alkem Laboratories Ltd",
+  "sector": "alkemlabs.com",
+  "screener_url": "https://www.screener.in/company/ALKEM/consolidated/",
+  "score_pct": 45.1,
+  "passes": 2,
+  "fails": 2,
+  "neutrals": 9,
+  "verdict": "Weak fundamentals",
+  "verdict_color": "red",
+  "criteria": [
+    {
+      "id": "c1",
+      "label": "Sales growth >= industry",
+      "result": "neutral",
+      "score": 0.5,
+      "detail": "Insufficient data. Benchmark: 10.0%",
+      "weight": 1.0
+    },
+    {
+      "id": "c2",
+      "label": "OPM > industry",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "OPM 20.0% vs benchmark 15.0%",
+      "weight": 1.0
+    },
+    {
+      "id": "c3",
+      "label": "EPS consistently increasing",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "EPS not rising: 150.2 -> 181.1 -> 198.3 (last 3Y)",
+      "weight": 1.5
+    },
+    {
+      "id": "c4",
+      "label": "Net margin >= industry",
+      "result": "neutral",
+      "score": 0.5,
+      "detail": "NPM unavailable",
+      "weight": 1.0
+    },
+    {
+      "id": "c5",
+      "label": "Reserves increasing",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Reserves: 10288.0 -> 11961.0 -> 13322.0 (last 3Y) Cr",
+      "weight": 1.0
+    },
+    {
+      "id": "c6",
+      "label": "Low / no debt",
+      "result": "neutral",
+      "score": 0.5,
+      "detail": "D/E unavailable",
+      "weight": 1.5
+    },
+    {
+      "id": "c7",
+      "label": "Cash on BS increasing",
+      "result": "neutral",
+      "score": 0.5,
+      "detail": "Insufficient data",
+      "weight": 1.0
+    },
+    {
+      "id": "c8",
+      "label": "Fixed assets increasing",
+      "result": "neutral",
+      "score": 0.5,
+      "detail": "Insufficient data",
+      "weight": 0.8
+    },
+    {
+      "id": "c9",
+      "label": "Negative NWC (bargaining power)",
+      "result": "neutral",
+      "score": 0.5,
+      "detail": "NWC = 0 Cr -- positive",
+      "weight": 1.0
+    },
+    {
+      "id": "c10",
+      "label": "CFO positive & increasing",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "CFO N/A Cr -- negative cash flow",
+      "weight": 2.0
+    },
+    {
+      "id": "c11",
+      "label": "CFI negative (investing in growth)",
+      "result": "neutral",
+      "score": 0.5,
+      "detail": "CFI = N/A Cr -- positive (possible asset sales)",
+      "weight": 1.0
+    },
+    {
+      "id": "c12",
+      "label": "CFF: debt repayment or growth",
+      "result": "neutral",
+      "score": 0.5,
+      "detail": "CFF unavailable",
+      "weight": 1.0
+    },
+    {
+      "id": "c13",
+      "label": "ROE > ROCE",
+      "result": "neutral",
+      "score": 0.5,
+      "detail": "ROE=N/A ROCE=20.0%",
+      "weight": 1.5
+    }
+  ],
+  "top_ratios": {
+    "Market Cap": 64045.0,
+    "Current Price": 5360.0,
+    "High / Low": 59344716.0,
+    "Stock P/E": 26.7,
+    "Book Value": 1116.0,
+    "Dividend Yield": 0.84,
+    "ROCE": 20.4,
+    "ROE": 19.4,
+    "Face Value": 2.0
+  },
+  "benchmark": {
+    "opm": 15.0,
+    "npm": 8.0,
+    "sg": 10.0
+  },
+  "scanned_at": "2026-05-04T16:58:04.803512+00:00"
+}

@@ -1,0 +1,135 @@
+{
+  "symbol": "M&MFIN",
+  "name": "Mahindra & Mahindra Financial Services Ltd",
+  "sector": "mahindrafinance.com",
+  "screener_url": "https://www.screener.in/company/M&MFIN/consolidated/",
+  "score_pct": 51.6,
+  "passes": 2,
+  "fails": 1,
+  "neutrals": 10,
+  "verdict": "Weak fundamentals",
+  "verdict_color": "red",
+  "criteria": [
+    {
+      "id": "c1",
+      "label": "Sales growth >= industry",
+      "result": "neutral",
+      "score": 0.5,
+      "detail": "Insufficient data. Benchmark: 10.0%",
+      "weight": 1.0
+    },
+    {
+      "id": "c2",
+      "label": "OPM > industry",
+      "result": "neutral",
+      "score": 0.5,
+      "detail": "OPM unavailable",
+      "weight": 1.0
+    },
+    {
+      "id": "c3",
+      "label": "EPS consistently increasing",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "EPS: 13.9 -> 16.3 -> 20.5 (last 3Y)",
+      "weight": 1.5
+    },
+    {
+      "id": "c4",
+      "label": "Net margin >= industry",
+      "result": "neutral",
+      "score": 0.5,
+      "detail": "NPM unavailable",
+      "weight": 1.0
+    },
+    {
+      "id": "c5",
+      "label": "Reserves increasing",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Reserves: 19686.0 -> 21282.0 -> 26361.0 (last 3Y) Cr",
+      "weight": 1.0
+    },
+    {
+      "id": "c6",
+      "label": "Low / no debt",
+      "result": "neutral",
+      "score": 0.5,
+      "detail": "D/E unavailable",
+      "weight": 1.5
+    },
+    {
+      "id": "c7",
+      "label": "Cash on BS increasing",
+      "result": "neutral",
+      "score": 0.5,
+      "detail": "Insufficient data",
+      "weight": 1.0
+    },
+    {
+      "id": "c8",
+      "label": "Fixed assets increasing",
+      "result": "neutral",
+      "score": 0.5,
+      "detail": "Insufficient data",
+      "weight": 0.8
+    },
+    {
+      "id": "c9",
+      "label": "Negative NWC (bargaining power)",
+      "result": "neutral",
+      "score": 0.5,
+      "detail": "NWC = 0 Cr -- positive",
+      "weight": 1.0
+    },
+    {
+      "id": "c10",
+      "label": "CFO positive & increasing",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "CFO N/A Cr -- negative cash flow",
+      "weight": 2.0
+    },
+    {
+      "id": "c11",
+      "label": "CFI negative (investing in growth)",
+      "result": "neutral",
+      "score": 0.5,
+      "detail": "CFI = N/A Cr -- positive (possible asset sales)",
+      "weight": 1.0
+    },
+    {
+      "id": "c12",
+      "label": "CFF: debt repayment or growth",
+      "result": "neutral",
+      "score": 0.5,
+      "detail": "CFF unavailable",
+      "weight": 1.0
+    },
+    {
+      "id": "c13",
+      "label": "ROE > ROCE",
+      "result": "neutral",
+      "score": 0.5,
+      "detail": "ROE=12.0% ROCE=N/A",
+      "weight": 1.5
+    }
+  ],
+  "top_ratios": {
+    "Market Cap": 42180.0,
+    "Current Price": 304.0,
+    "High / Low": 412236.0,
+    "Stock P/E": 14.3,
+    "Book Value": 192.0,
+    "Dividend Yield": 2.14,
+    "ROCE": 8.72,
+    "ROE": 12.3,
+    "Face Value": 2.0
+  },
+  "benchmark": {
+    "opm": 15.0,
+    "npm": 8.0,
+    "sg": 10.0
+  },
+  "scanned_at": "2026-05-04T17:12:11.334335+00:00"
+}
