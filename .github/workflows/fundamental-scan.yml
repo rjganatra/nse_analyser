@@ -1,0 +1,44 @@
+name: Fundamental Scan (Weekly)
+
+on:
+  schedule:
+    # Every Sunday at 6:00 AM IST (12:30 AM UTC Saturday night)
+    - cron: '30 0 * * 0'
+  workflow_dispatch:
+
+jobs:
+  fundamental-scan:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Cache pip
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run fundamental scan
+        run: python scan_fundamentals.py
+
+      - name: Commit and push results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add results/ docs/
+          git diff --staged --quiet || git commit -m "fundamentals: $(date -u '+%Y-%m-%d') - auto scan"
+          git push
