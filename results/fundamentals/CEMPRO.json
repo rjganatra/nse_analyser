@@ -116,9 +116,9 @@
     }
   ],
   "top_ratios": {
-    "Market Cap": 16445.0,
+    "Market Cap": 16431.0,
     "Current Price": 956.0,
-    "High / Low": 978477.0,
+    "High / Low": 978481.0,
     "Stock P/E": 27.5,
     "Book Value": 140.0,
     "Dividend Yield": 0.21,
@@ -131,5 +131,5 @@
     "npm": 18.0,
     "sg": 12.0
   },
-  "scanned_at": "2026-05-04T17:01:52.562451+00:00"
+  "scanned_at": "2026-05-05T02:49:01.898136+00:00"
 }

@@ -116,7 +116,7 @@
     }
   ],
   "top_ratios": {
-    "Market Cap": 31294.0,
+    "Market Cap": 31288.0,
     "Current Price": 109.0,
     "High / Low": 16277.7,
     "Stock P/E": null,
@@ -131,5 +131,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-04T17:15:11.570897+00:00"
+  "scanned_at": "2026-05-05T03:01:58.633239+00:00"
 }
