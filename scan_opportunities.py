@@ -1,4 +1,4 @@
-#!/usr/bin/env python3v
+#!/usr/bin/env python3
 """
 scan_opportunities.py
 Strategy 2: Daily opportunity scanner for all Nifty 500 stocks.
@@ -66,7 +66,7 @@ def run():
     print(f"\nFetching prices for {len(symbols)} stocks...\n")
 
     # Step 2: Bulk fetch all prices via yfinance
-    prices = fetch_bulk_prices(symbols, chunk_size=100)
+    prices = fetch_bulk_prices(symbols, max_workers=5)
 
     # Step 3: Classify each stock
     all_stocks    = []
