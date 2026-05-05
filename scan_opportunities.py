@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python3v
 """
 scan_opportunities.py
 Strategy 2: Daily opportunity scanner for all Nifty 500 stocks.
