@@ -1,135 +1,122 @@
 """
 fetchers/prices.py
-Fetches live price data for all Nifty 500 stocks using yfinance.
-Bulk downloads 52W high, 52W low, current price in one call.
-yfinance is free, no API key needed, no rate limits for bulk.
+Fetches 52W price data using yfinance.
+Downloads one stock at a time to avoid rate limits.
+Uses threading for speed while staying within limits.
 """
 
 import json
 import time
+import threading
 from pathlib import Path
+from concurrent.futures import ThreadPoolExecutor, as_completed
 import yfinance as yf
-import pandas as pd
 
 ROOT = Path(__file__).parent.parent
 PRICE_CACHE = ROOT / "results" / "prices.json"
 
 
 def _nse_ticker(symbol: str) -> str:
-    """Convert NSE symbol to Yahoo Finance ticker format."""
-    # Handle special cases
-    special = {
-        "M&M": "M%26M.NS",
-        "M&MFIN": "M%26MFIN.NS",
-    }
-    if symbol in special:
-        return special[symbol]
-    return f"{symbol}.NS"
+    special = {"M&M": "M%26M.NS", "M&MFIN": "M%26MFIN.NS", "J&KBANK": "J%26KBANK.NS"}
+    return special.get(symbol, f"{symbol}.NS")
 
 
-def fetch_bulk_prices(symbols: list[str], chunk_size: int = 100) -> dict[str, dict]:
-    """
-    Bulk fetch 52W high, 52W low, current price for all symbols.
-    Returns {symbol: {price, week52_high, week52_low, pct_above_52w_low, near_52w_low, change_1m_pct}}
-    """
-    print(f"  [prices] Fetching prices for {len(symbols)} stocks via yfinance...")
-    results = {}
-
-    # Split into chunks to avoid timeouts
-    chunks = [symbols[i:i+chunk_size] for i in range(0, len(symbols), chunk_size)]
-
-    for idx, chunk in enumerate(chunks):
-        tickers = [_nse_ticker(s) for s in chunk]
-        ticker_to_sym = {_nse_ticker(s): s for s in chunk}
-
-        print(f"  [prices] Chunk {idx+1}/{len(chunks)} ({len(chunk)} stocks)...")
+def _fetch_one(symbol: str) -> dict:
+    ticker = _nse_ticker(symbol)
+    for attempt in range(3):
         try:
-            data = yf.download(
-                tickers=tickers,
-                period="1y",
-                interval="1d",
-                group_by="ticker",
-                auto_adjust=True,
-                progress=False,
-                threads=True,
-            )
+            obj = yf.Ticker(ticker)
+            hist = obj.history(period="1y", auto_adjust=True)
+            if hist.empty or "Close" not in hist.columns:
+                return _empty(symbol, "no data")
 
-            for ticker, symbol in ticker_to_sym.items():
-                try:
-                    if len(chunk) == 1:
-                        df = data
-                    else:
-                        df = data[ticker] if ticker in data.columns.get_level_values(0) else None
+            close = hist["Close"].dropna()
+            if len(close) < 2:
+                return _empty(symbol, "insufficient history")
 
-                    if df is None or df.empty:
-                        results[symbol] = _empty(symbol)
-                        continue
+            current   = float(close.iloc[-1])
+            w52_high  = float(close.max())
+            w52_low   = float(close.min())
 
-                    df = df.dropna(subset=["Close"])
-                    if df.empty:
-                        results[symbol] = _empty(symbol)
-                        continue
+            pct_above = round(((current - w52_low)  / w52_low)  * 100, 1) if w52_low  > 0 else None
+            pct_below = round(((w52_high - current) / w52_high) * 100, 1) if w52_high > 0 else None
 
-                    close = df["Close"]
-                    current = float(close.iloc[-1])
-                    w52_high = float(close.max())
-                    w52_low  = float(close.min())
+            chg_1m = None
+            if len(close) >= 22:
+                chg_1m = round(((current - float(close.iloc[-22])) / float(close.iloc[-22])) * 100, 1)
 
-                    pct_above_low = round(((current - w52_low) / w52_low) * 100, 1) if w52_low > 0 else None
-                    pct_below_high = round(((w52_high - current) / w52_high) * 100, 1) if w52_high > 0 else None
-                    near_52w_low = (pct_above_low is not None and pct_above_low <= 30)
+            chg_3m = None
+            if len(close) >= 66:
+                chg_3m = round(((current - float(close.iloc[-66])) / float(close.iloc[-66])) * 100, 1)
 
-                    # 1-month return
-                    change_1m = None
-                    if len(close) >= 22:
-                        price_1m_ago = float(close.iloc[-22])
-                        change_1m = round(((current - price_1m_ago) / price_1m_ago) * 100, 1)
-
-                    # 3-month return
-                    change_3m = None
-                    if len(close) >= 66:
-                        price_3m_ago = float(close.iloc[-66])
-                        change_3m = round(((current - price_3m_ago) / price_3m_ago) * 100, 1)
-
-                    results[symbol] = {
-                        "symbol": symbol,
-                        "current_price": round(current, 2),
-                        "week52_high": round(w52_high, 2),
-                        "week52_low": round(w52_low, 2),
-                        "pct_above_52w_low": pct_above_low,
-                        "pct_below_52w_high": pct_below_high,
-                        "near_52w_low": near_52w_low,
-                        "change_1m_pct": change_1m,
-                        "change_3m_pct": change_3m,
-                    }
-
-                except Exception as e:
-                    results[symbol] = _empty(symbol, str(e))
+            return {
+                "symbol":             symbol,
+                "current_price":      round(current, 2),
+                "week52_high":        round(w52_high, 2),
+                "week52_low":         round(w52_low, 2),
+                "pct_above_52w_low":  pct_above,
+                "pct_below_52w_high": pct_below,
+                "near_52w_low":       pct_above is not None and pct_above <= 30,
+                "change_1m_pct":      chg_1m,
+                "change_3m_pct":      chg_3m,
+            }
 
         except Exception as e:
-            print(f"  [prices] Chunk {idx+1} failed: {e}")
-            for sym in chunk:
-                results[sym] = _empty(sym, str(e))
+            err = str(e)
+            if "rate" in err.lower() or "429" in err:
+                wait = (attempt + 1) * 10
+                print(f"    [{symbol}] rate limited, waiting {wait}s...")
+                time.sleep(wait)
+            else:
+                return _empty(symbol, err)
 
-        time.sleep(1)  # polite delay between chunks
-
-    # Save cache
-    PRICE_CACHE.parent.mkdir(exist_ok=True)
-    with open(PRICE_CACHE, "w") as f:
-        json.dump(results, f)
-
-    success = sum(1 for v in results.values() if v.get("current_price"))
-    print(f"  [prices] Done: {success}/{len(symbols)} stocks fetched successfully")
-    return results
+    return _empty(symbol, "max retries exceeded")
 
 
-def _empty(symbol: str, error: str = "") -> dict:
+def _empty(symbol, error=""):
     return {
         "symbol": symbol, "current_price": None, "week52_high": None,
         "week52_low": None, "pct_above_52w_low": None, "pct_below_52w_high": None,
         "near_52w_low": False, "change_1m_pct": None, "change_3m_pct": None,
         "error": error,
     }
+
+
+def fetch_bulk_prices(symbols: list[str], max_workers: int = 5) -> dict:
+    """
+    Fetch prices for all symbols using a thread pool.
+    max_workers=5 keeps us well under yfinance rate limits.
+    """
+    print(f"  [prices] Fetching {len(symbols)} stocks (5 threads, ~{len(symbols)//5//60+1} mins)...")
+    results = {}
+    done = 0
+    lock = threading.Lock()
+
+    def fetch_and_track(symbol):
+        nonlocal done
+        result = _fetch_one(symbol)
+        time.sleep(0.5)  # polite delay per request
+        with lock:
+            done += 1
+            if done % 50 == 0:
+                success = sum(1 for v in results.values() if v.get("current_price"))
+                print(f"  [prices] {done}/{len(symbols)} done, {success} successful...")
+        return symbol, result
+
+    with ThreadPoolExecutor(max_workers=max_workers) as executor:
+        futures = {executor.submit(fetch_and_track, sym): sym for sym in symbols}
+        for future in as_completed(futures):
+            symbol, result = future.result()
+            results[symbol] = result
+
+    success = sum(1 for v in results.values() if v.get("current_price"))
+    print(f"  [prices] Done: {success}/{len(symbols)} fetched successfully")
+
+    PRICE_CACHE.parent.mkdir(exist_ok=True)
+    with open(PRICE_CACHE, "w") as f:
+        json.dump(results, f)
+
+    return results
 
 
 def load_cached_prices() -> dict:
