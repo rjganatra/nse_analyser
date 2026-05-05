@@ -2,8 +2,10 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8"/>
-<meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>FundaScreen — NSE Analyzer</title>
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="theme-color" content="#08090a"/>
+<title>FundaScreen</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Syne:wght@400;600;800&display=swap" rel="stylesheet"/>
 <style>
@@ -19,279 +21,360 @@
   --accent:#818cf8;
   --mono:'IBM Plex Mono',monospace;
   --head:'Syne',sans-serif;
-  --r:8px;--rl:14px;
+  --r:10px;--rl:14px;
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
 }
-*{box-sizing:border-box;margin:0;padding:0}
-body{background:var(--bg);color:var(--text);font-family:var(--head);min-height:100vh}
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+html,body{background:var(--bg);color:var(--text);font-family:var(--head);min-height:100vh;overflow-x:hidden}
 
-/* Topbar */
-.topbar{display:flex;align-items:center;gap:0;border-bottom:1px solid var(--b1);background:var(--surf);position:sticky;top:0;z-index:100;height:52px}
-.logo{padding:0 20px;font-size:15px;font-weight:800;letter-spacing:.08em;color:var(--accent);border-right:1px solid var(--b1);height:100%;display:flex;align-items:center;white-space:nowrap}
-.nav-tabs{display:flex;height:100%}
-.nav-tab{padding:0 20px;font-size:13px;font-weight:600;cursor:pointer;border:none;background:transparent;color:var(--muted);border-bottom:2px solid transparent;height:100%;display:flex;align-items:center;gap:7px;transition:all .15s;white-space:nowrap}
-.nav-tab:hover{color:var(--text)}
-.nav-tab.active{color:var(--text);border-bottom-color:var(--accent)}
-.nav-tab .tab-count{font-size:10px;background:var(--card2);padding:2px 7px;border-radius:20px;font-family:var(--mono)}
-.topbar-right{margin-left:auto;display:flex;align-items:center;gap:12px;padding:0 20px}
-.scan-time{font-size:11px;font-family:var(--mono);color:var(--muted)}
+/* ── Bottom nav (mobile first) ── */
+.bottom-nav{
+  position:fixed;bottom:0;left:0;right:0;
+  background:var(--surf);border-top:1px solid var(--b1);
+  display:flex;z-index:100;
+  padding-bottom:var(--safe-bottom);
+}
+.bn-item{
+  flex:1;display:flex;flex-direction:column;align-items:center;
+  padding:10px 4px 8px;cursor:pointer;border:none;background:transparent;
+  color:var(--muted);font-family:var(--head);font-size:10px;font-weight:600;
+  letter-spacing:.04em;gap:4px;transition:color .15s;
+}
+.bn-item.active{color:var(--accent)}
+.bn-icon{font-size:20px;line-height:1}
+.bn-badge{
+  position:absolute;top:6px;
+  background:var(--accent);color:#0a0a0b;
+  font-size:9px;font-weight:800;padding:1px 5px;border-radius:20px;
+  font-family:var(--mono);
+}
+
+/* ── Top bar ── */
+.topbar{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:12px 16px;background:var(--surf);
+  border-bottom:1px solid var(--b1);position:sticky;top:0;z-index:50;
+}
+.logo{font-size:16px;font-weight:800;letter-spacing:.08em;color:var(--accent)}
+.topbar-right{display:flex;align-items:center;gap:8px}
 .badge{font-size:9px;font-weight:700;padding:3px 8px;border-radius:20px;letter-spacing:.06em}
 .badge.fresh{background:var(--gbg);color:var(--green);border:1px solid var(--gdim)}
 .badge.stale{background:var(--abg);color:var(--amber);border:1px solid var(--adim)}
-.badge.none{background:var(--card2);color:var(--muted);border:1px solid var(--b1)}
-.btn-settings{background:transparent;border:1px solid var(--b1);border-radius:var(--r);padding:5px 12px;color:var(--muted);font-size:12px;cursor:pointer;font-family:var(--head)}
-.btn-settings:hover{border-color:var(--accent);color:var(--text)}
+.scan-time{font-size:10px;font-family:var(--mono);color:var(--muted)}
+.btn-gear{background:transparent;border:1px solid var(--b1);border-radius:var(--r);padding:6px 10px;color:var(--muted);font-size:14px;cursor:pointer}
 
-/* Layout */
-.page{display:grid;grid-template-columns:260px 1fr;min-height:calc(100vh - 52px)}
-.sidebar{background:var(--surf);border-right:1px solid var(--b1);padding:16px;position:sticky;top:52px;height:calc(100vh - 52px);overflow-y:auto;display:flex;flex-direction:column;gap:4px}
-.main{padding:24px 28px;min-width:0;overflow-x:hidden}
+/* ── Page content ── */
+.page{padding:12px 12px calc(80px + var(--safe-bottom)) 12px}
 
-/* Sidebar */
-.sb-section{font-size:10px;font-weight:700;letter-spacing:.14em;color:var(--muted);text-transform:uppercase;padding:12px 8px 6px}
-.sb-item{display:flex;align-items:center;justify-content:space-between;padding:8px 10px;border-radius:var(--r);cursor:pointer;border:1px solid transparent;transition:all .12s}
-.sb-item:hover{background:var(--card);border-color:var(--b1)}
-.sb-item.active{background:var(--card);border-color:var(--accent)}
-.sb-left{display:flex;flex-direction:column;gap:1px}
-.sb-sym{font-size:13px;font-weight:600}
-.sb-sub{font-size:10px;font-family:var(--mono);color:var(--muted)}
-.sb-pill{font-size:9px;font-weight:700;padding:2px 7px;border-radius:20px;letter-spacing:.04em;flex-shrink:0}
-.sb-pill.green{background:var(--gbg);color:var(--green)}
-.sb-pill.amber{background:var(--abg);color:var(--amber)}
-.sb-pill.red{background:var(--rbg);color:var(--red)}
-.sb-pill.purple{background:var(--pbg);color:var(--purple)}
-.sb-star{background:none;border:none;color:var(--hint);cursor:pointer;font-size:14px;padding:2px 4px;flex-shrink:0}
-.sb-star.starred{color:var(--amber)}
-.sb-search{width:100%;background:var(--card);border:1px solid var(--b1);border-radius:var(--r);padding:7px 10px;font-family:var(--mono);font-size:12px;color:var(--text);outline:none;margin-bottom:4px}
-.sb-search:focus{border-color:var(--accent)}
-.sb-search::placeholder{color:var(--hint)}
-.filter-row{display:flex;gap:4px;flex-wrap:wrap;padding:0 0 6px}
-.fb{font-size:10px;padding:3px 10px;border-radius:20px;border:1px solid var(--b1);background:transparent;color:var(--muted);cursor:pointer;font-family:var(--head)}
-.fb.active{background:var(--card2);color:var(--text);border-color:var(--accent)}
-
-/* Main panels */
+/* ── Panels ── */
 .panel{display:none}
 .panel.active{display:block}
 
-/* Summary stats */
-.stat-row{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:24px}
-.stat{background:var(--card);border:1px solid var(--b1);border-radius:var(--rl);padding:14px 16px}
-.stat-label{font-size:9px;font-weight:700;letter-spacing:.12em;color:var(--muted);text-transform:uppercase;margin-bottom:6px}
-.stat-val{font-size:26px;font-weight:800;line-height:1}
-.stat-sub{font-size:11px;font-family:var(--mono);color:var(--muted);margin-top:3px}
+/* ── Search + filter bar ── */
+.search-bar{
+  display:flex;gap:8px;margin-bottom:12px;align-items:center;
+  position:sticky;top:53px;z-index:40;
+  background:var(--bg);padding:8px 0;
+}
+.search-bar input{
+  flex:1;background:var(--card);border:1px solid var(--b1);border-radius:var(--r);
+  padding:10px 14px;font-family:var(--mono);font-size:14px;color:var(--text);outline:none;
+}
+.search-bar input:focus{border-color:var(--accent)}
+.search-bar input::placeholder{color:var(--hint)}
+.filter-scroll{display:flex;gap:6px;overflow-x:auto;padding-bottom:2px;margin-bottom:10px;-webkit-overflow-scrolling:touch}
+.filter-scroll::-webkit-scrollbar{display:none}
+.fb{
+  flex-shrink:0;font-size:11px;padding:5px 14px;border-radius:20px;
+  border:1px solid var(--b1);background:transparent;color:var(--muted);
+  cursor:pointer;font-family:var(--head);white-space:nowrap;
+}
+.fb.active{background:var(--card2);color:var(--text);border-color:var(--accent)}
 
-/* Detail hero */
-.hero{background:var(--card);border:1px solid var(--b1);border-radius:var(--rl);padding:22px 26px;margin-bottom:18px;display:grid;grid-template-columns:88px 1fr auto;gap:20px;align-items:center}
-.ring{position:relative;width:80px;height:80px;flex-shrink:0}
-.ring svg{width:80px;height:80px}
-.ring-num{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:17px;font-weight:800;font-family:var(--mono)}
-.hero-name{font-size:19px;font-weight:800;margin-bottom:3px}
-.hero-sub{font-size:11px;font-family:var(--mono);color:var(--muted);margin-bottom:10px}
-.hero-sub a{color:var(--accent);text-decoration:none}
-.verdict{display:inline-flex;align-items:center;font-size:12px;font-weight:600;padding:5px 14px;border-radius:20px;letter-spacing:.03em}
-.verdict.green{background:var(--gbg);color:var(--green);border:1px solid var(--gdim)}
-.verdict.amber{background:var(--abg);color:var(--amber);border:1px solid var(--adim)}
-.verdict.red{background:var(--rbg);color:var(--red);border:1px solid var(--rdim)}
-.hero-right{display:flex;flex-direction:column;gap:10px;text-align:right}
-.hs-label{font-size:9px;letter-spacing:.1em;color:var(--muted);text-transform:uppercase;display:block}
-.hs-val{font-size:20px;font-weight:800;font-family:var(--mono)}
-.btn-watchlist{display:inline-flex;align-items:center;gap:5px;margin-top:8px;font-size:11px;padding:5px 12px;border-radius:var(--r);border:1px solid var(--b1);background:transparent;color:var(--muted);cursor:pointer;font-family:var(--head)}
-.btn-watchlist:hover,.btn-watchlist.active{border-color:var(--amber);color:var(--amber);background:var(--abg)}
+/* ── Stats row ── */
+.stat-row{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-bottom:14px}
+.stat{background:var(--card);border:1px solid var(--b1);border-radius:var(--rl);padding:12px 14px}
+.stat-label{font-size:9px;font-weight:700;letter-spacing:.1em;color:var(--muted);text-transform:uppercase;margin-bottom:5px}
+.stat-val{font-size:24px;font-weight:800;line-height:1}
+.stat-sub{font-size:10px;font-family:var(--mono);color:var(--muted);margin-top:3px}
 
-/* Ratios */
-.ratios{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:20px}
-.ratio-chip{background:var(--card);border:1px solid var(--b1);border-radius:var(--r);padding:8px 12px}
-.rk{font-size:9px;color:var(--muted);letter-spacing:.1em;text-transform:uppercase;margin-bottom:2px}
-.rv{font-size:14px;font-weight:500}
+/* ── Card list (mobile-optimised) ── */
+.card-list{display:flex;flex-direction:column;gap:8px}
+.stock-card{
+  background:var(--card);border:1px solid var(--b1);border-radius:var(--rl);
+  padding:14px;cursor:pointer;transition:border-color .15s;position:relative;
+  -webkit-user-select:none;user-select:none;
+}
+.stock-card:active{border-color:var(--accent);background:var(--card2)}
+.card-top{display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:8px}
+.card-sym{font-size:16px;font-weight:800}
+.card-name{font-size:11px;color:var(--muted);font-family:var(--mono);margin-top:1px}
+.card-right{display:flex;flex-direction:column;align-items:flex-end;gap:4px}
+.verdict-pill{font-size:10px;font-weight:700;padding:3px 10px;border-radius:20px;letter-spacing:.04em;white-space:nowrap}
+.verdict-pill.green{background:var(--gbg);color:var(--green);border:1px solid var(--gdim)}
+.verdict-pill.amber{background:var(--abg);color:var(--amber);border:1px solid var(--adim)}
+.verdict-pill.red{background:var(--rbg);color:var(--red);border:1px solid var(--rdim)}
+.star-btn{background:none;border:none;color:var(--hint);cursor:pointer;font-size:18px;padding:2px;flex-shrink:0}
+.star-btn.starred{color:var(--amber)}
+.card-metrics{display:flex;gap:12px;font-family:var(--mono);font-size:11px;flex-wrap:wrap}
+.cm{display:flex;flex-direction:column;gap:1px}
+.cm-label{font-size:9px;color:var(--muted);letter-spacing:.06em;text-transform:uppercase}
+.cm-val{font-size:13px;font-weight:600}
+.score-bar-wrap{margin-top:10px}
+.score-bar-bg{height:3px;background:var(--b2);border-radius:2px}
+.score-bar-fill{height:100%;border-radius:2px;transition:width .3s}
+.change-pos{color:var(--green)}
+.change-neg{color:var(--red)}
 
-/* Criteria grid */
-.sec-title{font-size:10px;font-weight:700;letter-spacing:.12em;color:var(--muted);text-transform:uppercase;margin-bottom:12px}
-.crit-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:10px;margin-bottom:28px}
-.cc{background:var(--card);border:1px solid var(--b1);border-radius:var(--r);padding:13px 15px 13px 19px;position:relative;overflow:hidden}
-.cc::before{content:'';position:absolute;left:0;top:0;bottom:0;width:3px}
-.cc.pass::before{background:var(--green)}
-.cc.fail::before{background:var(--red)}
-.cc.neutral::before{background:var(--amber)}
-.cc-num{font-size:9px;font-family:var(--mono);color:var(--hint);letter-spacing:.1em;margin-bottom:3px}
-.cc-label{font-size:12px;font-weight:600;margin-bottom:6px;padding-right:50px;line-height:1.4}
-.cc-detail{font-size:11px;font-family:var(--mono);color:var(--muted);line-height:1.5}
-.cc-badge{position:absolute;top:12px;right:12px;font-size:9px;font-weight:700;padding:2px 8px;border-radius:20px;letter-spacing:.06em}
-.cc-badge.pass{background:var(--gbg);color:var(--green)}
-.cc-badge.fail{background:var(--rbg);color:var(--red)}
-.cc-badge.neutral{background:var(--abg);color:var(--amber)}
-
-/* Opportunities */
-.opp-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px;margin-bottom:24px}
-.opp-card{background:var(--card);border:1px solid var(--b1);border-radius:var(--rl);padding:16px 18px;cursor:pointer;transition:border-color .15s;position:relative}
-.opp-card:hover{border-color:var(--accent)}
-.opp-card .star-btn{position:absolute;top:14px;right:14px;background:none;border:none;color:var(--hint);cursor:pointer;font-size:16px}
-.opp-card .star-btn.starred{color:var(--amber)}
-.opp-sym{font-size:15px;font-weight:800;margin-bottom:2px}
-.opp-name{font-size:11px;color:var(--muted);font-family:var(--mono);margin-bottom:12px;padding-right:30px}
-.opp-prices{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-bottom:12px}
-.opp-price-item .label{font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-bottom:2px}
-.opp-price-item .val{font-size:14px;font-weight:600;font-family:var(--mono)}
-.price-bar{height:4px;background:var(--b1);border-radius:2px;margin-bottom:12px;position:relative}
-.price-bar-fill{height:100%;border-radius:2px;background:linear-gradient(90deg,var(--green),var(--amber),var(--red))}
-.price-marker{position:absolute;top:-3px;width:10px;height:10px;border-radius:50%;background:var(--text);border:2px solid var(--bg);transform:translateX(-50%)}
-.tags{display:flex;gap:5px;flex-wrap:wrap}
+/* Tags */
+.tags{display:flex;gap:5px;flex-wrap:wrap;margin-top:8px}
 .tag{font-size:9px;font-weight:700;padding:2px 8px;border-radius:20px;letter-spacing:.04em}
-.tag.AT_52W_LOW{background:var(--gbg);color:var(--green)}
-.tag.NEAR_52W_LOW{background:var(--gbg);color:var(--green)}
+.tag.AT_52W_LOW,.tag.NEAR_52W_LOW{background:var(--gbg);color:var(--green)}
 .tag.DISCOUNTED_ZONE{background:var(--abg);color:var(--amber)}
 .tag.RECOVERY_1M,.tag.STRONG_RECOVERY_1M,.tag.STRONG_RECOVERY_3M{background:var(--bbg);color:var(--blue)}
 .tag.HEAVY_FALL_1M,.tag.HEAVY_FALL_3M{background:var(--rbg);color:var(--red)}
 .tag.NEAR_52W_HIGH{background:var(--pbg);color:var(--purple)}
-.change-pos{color:var(--green)}
-.change-neg{color:var(--red)}
 
-/* Rankings table */
-.rtable{width:100%;border-collapse:collapse;font-size:12px}
-.rtable th{text-align:left;padding:8px 12px;font-size:9px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);border-bottom:1px solid var(--b1);cursor:pointer;white-space:nowrap}
-.rtable th:hover{color:var(--text)}
-.rtable td{padding:10px 12px;border-bottom:1px solid var(--b1)}
-.rtable tr:hover td{background:var(--card)}
-.rtable tr:last-child td{border-bottom:none}
-
-/* Empty/Loading */
-.centered{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:300px;gap:10px;color:var(--muted);text-align:center;font-size:13px}
-.spinner{width:22px;height:22px;border:2px solid var(--b2);border-top-color:var(--accent);border-radius:50%;animation:spin .7s linear infinite}
-@keyframes spin{to{transform:rotate(360deg)}}
-.err{background:var(--rbg);border:1px solid var(--rdim);border-radius:var(--r);padding:14px;font-family:var(--mono);font-size:12px;color:var(--red)}
-
-/* Settings modal */
-.modal-bg{position:fixed;inset:0;background:rgba(0,0,0,.7);z-index:200;display:none;align-items:center;justify-content:center}
-.modal-bg.open{display:flex}
-.modal{background:var(--card);border:1px solid var(--b2);border-radius:var(--rl);padding:28px;width:480px;max-width:95vw}
-.modal h2{font-size:16px;font-weight:700;margin-bottom:6px}
-.modal p{font-size:12px;font-family:var(--mono);color:var(--muted);margin-bottom:20px;line-height:1.6}
-.modal label{font-size:11px;font-weight:600;letter-spacing:.06em;display:block;margin-bottom:5px;color:var(--muted)}
-.modal input{width:100%;background:var(--surf);border:1px solid var(--b2);border-radius:var(--r);padding:9px 12px;font-family:var(--mono);font-size:13px;color:var(--text);outline:none;margin-bottom:16px}
-.modal input:focus{border-color:var(--accent)}
-.modal-btns{display:flex;gap:8px;justify-content:flex-end}
-.btn-primary{background:var(--accent);border:none;border-radius:var(--r);padding:8px 18px;font-family:var(--head);font-size:13px;font-weight:700;color:#0a0a0b;cursor:pointer}
-.btn-secondary{background:transparent;border:1px solid var(--b2);border-radius:var(--r);padding:8px 18px;font-family:var(--head);font-size:13px;color:var(--text);cursor:pointer}
-
-/* Add to watchlist panel in sidebar */
-.add-stock-form{display:flex;gap:6px;margin-bottom:6px}
-.add-stock-form input{flex:1;background:var(--card);border:1px solid var(--b1);border-radius:var(--r);padding:6px 9px;font-family:var(--mono);font-size:12px;color:var(--text);outline:none}
-.add-stock-form input:focus{border-color:var(--accent)}
-.add-stock-form button{background:var(--accent);border:none;border-radius:var(--r);padding:6px 10px;font-family:var(--head);font-size:11px;font-weight:700;color:#0a0a0b;cursor:pointer;white-space:nowrap}
-
-@media(max-width:900px){
-  .page{grid-template-columns:1fr}
-  .sidebar{position:static;height:auto}
-  .main{padding:16px}
-  .stat-row{grid-template-columns:repeat(2,1fr)}
-  .hero{grid-template-columns:70px 1fr;grid-template-rows:auto auto}
-  .hero-right{grid-column:1/-1;flex-direction:row;text-align:left}
+/* ── Detail sheet (slides up) ── */
+.detail-overlay{
+  position:fixed;inset:0;z-index:200;background:rgba(0,0,0,.6);
+  display:none;align-items:flex-end;
 }
+.detail-overlay.open{display:flex}
+.detail-sheet{
+  background:var(--surf);border-radius:20px 20px 0 0;
+  width:100%;max-height:92vh;overflow-y:auto;
+  padding:0 0 calc(20px + var(--safe-bottom)) 0;
+  -webkit-overflow-scrolling:touch;
+}
+.sheet-handle{width:36px;height:4px;background:var(--b2);border-radius:2px;margin:12px auto 0}
+.sheet-header{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:16px 16px 0;margin-bottom:14px;
+}
+.sheet-title{font-size:18px;font-weight:800}
+.sheet-close{
+  background:var(--card);border:1px solid var(--b1);border-radius:50%;
+  width:32px;height:32px;display:flex;align-items:center;justify-content:center;
+  cursor:pointer;color:var(--muted);font-size:16px;border:none;
+}
+.sheet-body{padding:0 16px}
+.sheet-score-hero{
+  display:flex;align-items:center;gap:16px;
+  background:var(--card);border-radius:var(--rl);padding:16px;margin-bottom:14px;
+}
+.ring{position:relative;width:72px;height:72px;flex-shrink:0}
+.ring svg{width:72px;height:72px}
+.ring-num{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:15px;font-weight:800;font-family:var(--mono)}
+.sheet-info h2{font-size:15px;font-weight:800;margin-bottom:3px}
+.sheet-sub{font-size:10px;font-family:var(--mono);color:var(--muted);margin-bottom:8px}
+.sheet-sub a{color:var(--accent);text-decoration:none}
+.pf-row{display:flex;gap:10px;margin-top:6px;font-family:var(--mono);font-size:12px}
+
+.ratios-scroll{display:flex;gap:8px;overflow-x:auto;margin-bottom:14px;-webkit-overflow-scrolling:touch}
+.ratios-scroll::-webkit-scrollbar{display:none}
+.ratio-chip{flex-shrink:0;background:var(--card);border:1px solid var(--b1);border-radius:var(--r);padding:8px 12px}
+.rk{font-size:9px;color:var(--muted);letter-spacing:.08em;text-transform:uppercase;margin-bottom:2px}
+.rv{font-size:14px;font-weight:600}
+
+.crit-list{display:flex;flex-direction:column;gap:8px;margin-bottom:14px}
+.cc{
+  background:var(--card);border:1px solid var(--b1);border-radius:var(--r);
+  padding:12px 12px 12px 16px;position:relative;overflow:hidden;
+}
+.cc::before{content:'';position:absolute;left:0;top:0;bottom:0;width:3px}
+.cc.pass::before{background:var(--green)}
+.cc.fail::before{background:var(--red)}
+.cc.neutral::before{background:var(--amber)}
+.cc-top{display:flex;align-items:flex-start;justify-content:space-between;gap:8px;margin-bottom:5px}
+.cc-label{font-size:12px;font-weight:600;line-height:1.4}
+.cc-badge{font-size:9px;font-weight:700;padding:2px 7px;border-radius:20px;flex-shrink:0}
+.cc-badge.pass{background:var(--gbg);color:var(--green)}
+.cc-badge.fail{background:var(--rbg);color:var(--red)}
+.cc-badge.neutral{background:var(--abg);color:var(--amber)}
+.cc-detail{font-size:11px;font-family:var(--mono);color:var(--muted);line-height:1.5}
+.sec-title{font-size:10px;font-weight:700;letter-spacing:.12em;color:var(--muted);text-transform:uppercase;margin-bottom:10px}
+
+/* ── Settings modal ── */
+.modal-bg{position:fixed;inset:0;background:rgba(0,0,0,.7);z-index:300;display:none;align-items:flex-end}
+.modal-bg.open{display:flex}
+.modal{
+  background:var(--card);border-radius:20px 20px 0 0;width:100%;
+  padding:20px 20px calc(20px + var(--safe-bottom));
+}
+.modal h2{font-size:16px;font-weight:700;margin-bottom:6px}
+.modal p{font-size:12px;font-family:var(--mono);color:var(--muted);margin-bottom:16px;line-height:1.6}
+.modal label{font-size:11px;font-weight:600;display:block;margin-bottom:4px;color:var(--muted)}
+.modal input{
+  width:100%;background:var(--surf);border:1px solid var(--b2);border-radius:var(--r);
+  padding:10px 12px;font-family:var(--mono);font-size:13px;color:var(--text);
+  outline:none;margin-bottom:14px;
+}
+.modal input:focus{border-color:var(--accent)}
+.btn-primary{
+  width:100%;background:var(--accent);border:none;border-radius:var(--r);
+  padding:14px;font-family:var(--head);font-size:14px;font-weight:700;
+  color:#0a0a0b;cursor:pointer;letter-spacing:.04em;
+}
+
+/* ── Empty / loading ── */
+.centered{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:40vh;gap:12px;color:var(--muted);text-align:center;font-size:13px;font-family:var(--mono)}
+.spinner{width:24px;height:24px;border:2px solid var(--b2);border-top-color:var(--accent);border-radius:50%;animation:spin .7s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.err{background:var(--rbg);border:1px solid var(--rdim);border-radius:var(--r);padding:14px;font-family:var(--mono);font-size:12px;color:var(--red);margin:8px 0}
+
+/* ── Load more ── */
+.load-more{
+  width:100%;margin-top:12px;padding:12px;border-radius:var(--r);
+  background:transparent;border:1px solid var(--b2);color:var(--muted);
+  font-family:var(--head);font-size:13px;cursor:pointer;
+}
+.load-more:active{background:var(--card)}
 </style>
 </head>
 <body>
 
-<!-- Topbar -->
+<!-- Top bar -->
 <div class="topbar">
   <div class="logo">FUNDASCREEN</div>
-  <div class="nav-tabs">
-    <button class="nav-tab active" id="tab-opportunities" onclick="switchTab('opportunities')">
-      Opportunities <span class="tab-count" id="cnt-opp">--</span>
-    </button>
-    <button class="nav-tab" id="tab-fundamentals" onclick="switchTab('fundamentals')">
-      Fundamentals <span class="tab-count" id="cnt-fund">--</span>
-    </button>
-    <button class="nav-tab" id="tab-watchlist" onclick="switchTab('watchlist')">
-      My Watchlist <span class="tab-count" id="cnt-watch">--</span>
-    </button>
-  </div>
   <div class="topbar-right">
-    <span class="scan-time" id="scanTimeOpp"></span>
     <span class="badge none" id="freshBadge">--</span>
-    <button class="btn-settings" onclick="openSettings()">Settings</button>
+    <button class="btn-gear" onclick="openSettings()">&#9881;</button>
   </div>
 </div>
 
+<!-- Page content -->
 <div class="page">
-  <!-- Sidebar -->
-  <aside class="sidebar" id="sidebar">
-    <input class="sb-search" id="sbSearch" placeholder="Search symbol..." oninput="renderSidebar()"/>
-    <div class="filter-row" id="filterRow"></div>
-    <div id="sbList"></div>
-  </aside>
 
-  <!-- Main -->
-  <main class="main">
-    <!-- Opportunities panel -->
-    <div class="panel active" id="panel-opportunities">
-      <div id="oppContent"><div class="centered"><div class="spinner"></div><span>Loading opportunity data...</span></div></div>
+  <!-- Opportunities panel -->
+  <div class="panel active" id="panel-opp">
+    <div class="search-bar">
+      <input id="searchOpp" placeholder="Search symbol..." oninput="renderOpp()"/>
     </div>
+    <div class="filter-scroll" id="filterOpp">
+      <button class="fb active" onclick="setOppFilter('all',this)">All Opportunities</button>
+      <button class="fb" onclick="setOppFilter('52low',this)">Near 52W Low</button>
+      <button class="fb" onclick="setOppFilter('recovery',this)">Recovering</button>
+      <button class="fb" onclick="setOppFilter('falling',this)">Still Falling</button>
+    </div>
+    <div id="oppStats"></div>
+    <div id="oppList"><div class="centered"><div class="spinner"></div>Loading...</div></div>
+    <button class="load-more" id="loadMoreOpp" style="display:none" onclick="loadMoreOpp()">Load more</button>
+  </div>
 
-    <!-- Fundamentals panel -->
-    <div class="panel" id="panel-fundamentals">
-      <div id="fundContent"><div class="centered"><div class="spinner"></div><span>Loading fundamental data...</span></div></div>
+  <!-- Fundamentals panel -->
+  <div class="panel" id="panel-fund">
+    <div class="search-bar">
+      <input id="searchFund" placeholder="Search symbol..." oninput="renderFund()"/>
     </div>
+    <div class="filter-scroll" id="filterFund">
+      <button class="fb active" onclick="setFundFilter('all',this)">All</button>
+      <button class="fb" onclick="setFundFilter('green',this)">Strong</button>
+      <button class="fb" onclick="setFundFilter('amber',this)">Moderate</button>
+      <button class="fb" onclick="setFundFilter('red',this)">Weak</button>
+    </div>
+    <div id="fundStats"></div>
+    <div id="fundList"><div class="centered"><div class="spinner"></div>Loading...</div></div>
+    <button class="load-more" id="loadMoreFund" style="display:none" onclick="loadMoreFund()">Load more</button>
+  </div>
 
-    <!-- Watchlist panel -->
-    <div class="panel" id="panel-watchlist">
-      <div id="watchContent"><div class="centered"><span>Your starred stocks appear here.</span></div></div>
-    </div>
-  </main>
+  <!-- Watchlist panel -->
+  <div class="panel" id="panel-watch">
+    <div id="watchList"><div class="centered">Star any stock to save it here</div></div>
+  </div>
+
 </div>
 
-<!-- Settings Modal -->
-<div class="modal-bg" id="settingsModal">
+<!-- Bottom navigation -->
+<nav class="bottom-nav">
+  <button class="bn-item active" id="bn-opp" onclick="switchTab('opp')">
+    <span class="bn-icon">&#128200;</span>
+    <span>Opportunities</span>
+    <span class="bn-badge" id="cnt-opp" style="display:none"></span>
+  </button>
+  <button class="bn-item" id="bn-fund" onclick="switchTab('fund')">
+    <span class="bn-icon">&#128202;</span>
+    <span>Fundamentals</span>
+  </button>
+  <button class="bn-item" id="bn-watch" onclick="switchTab('watch')">
+    <span class="bn-icon">&#9733;</span>
+    <span>Watchlist</span>
+    <span class="bn-badge" id="cnt-watch" style="display:none"></span>
+  </button>
+</nav>
+
+<!-- Detail sheet -->
+<div class="detail-overlay" id="detailOverlay" onclick="closeDetail(event)">
+  <div class="detail-sheet" id="detailSheet">
+    <div class="sheet-handle"></div>
+    <div class="sheet-header">
+      <div class="sheet-title" id="sheetTitle"></div>
+      <button class="sheet-close" onclick="closeDetailSheet()">&#10005;</button>
+    </div>
+    <div class="sheet-body" id="sheetBody"></div>
+  </div>
+</div>
+
+<!-- Settings -->
+<div class="modal-bg" id="settingsModal" onclick="if(event.target===this)closeSettings()">
   <div class="modal">
     <h2>Settings</h2>
-    <p>To add stocks to your watchlist from the website, paste a GitHub Personal Access Token with <strong>repo</strong> scope. This lets the site update your custom_watchlist.json directly.<br/><br/>Get one at: github.com/settings/tokens</p>
-    <label>GitHub Token (stored locally in your browser only)</label>
-    <input id="ghTokenInput" type="password" placeholder="ghp_xxxxxxxxxxxx"/>
-    <label>Repo (e.g. rjganatra/stock-analyzer)</label>
-    <input id="ghRepoInput" placeholder="rjganatra/stock-analyzer" value="rjganatra/stock-analyzer"/>
-    <div class="modal-btns">
-      <button class="btn-secondary" onclick="closeSettings()">Cancel</button>
-      <button class="btn-primary" onclick="saveSettings()">Save</button>
-    </div>
+    <p>To sync your watchlist to GitHub, add a Personal Access Token (repo scope).<br/>Get one at github.com/settings/tokens</p>
+    <label>GitHub Token</label>
+    <input id="ghToken" type="password" placeholder="ghp_xxxxxxxxxxxx"/>
+    <label>Repo</label>
+    <input id="ghRepo" placeholder="rjganatra/stock-analyzer" value="rjganatra/stock-analyzer"/>
+    <button class="btn-primary" onclick="saveSettings()">Save Settings</button>
   </div>
 </div>
 
 <script>
 // ── State ──────────────────────────────────────────────────────────────────
-let oppData     = null;
-let fundSummary = null;
-let activeTab   = 'opportunities';
-let activeSymbol = null;
-let fundFilter  = 'all';
-let oppFilter   = 'all';
-let watchlist   = JSON.parse(localStorage.getItem('watchlist') || '[]');
-let settings    = JSON.parse(localStorage.getItem('settings') || '{"token":"","repo":"rjganatra/stock-analyzer"}');
+let oppData  = null;
+let fundData = null;
+let activeTab = 'opp';
+let oppFilter = 'all';
+let fundFilter = 'all';
+let watchlist = JSON.parse(localStorage.getItem('wl') || '[]');
+let settings  = JSON.parse(localStorage.getItem('cfg') || '{"token":"","repo":"rjganatra/stock-analyzer"}');
+let oppPage   = 1;
+let fundPage  = 1;
+const PAGE_SIZE = 30;
 
 // ── Boot ───────────────────────────────────────────────────────────────────
-async function boot() {
-  await Promise.all([loadOpportunities(), loadFundamentals()]);
-  renderSidebar();
-}
+(async function boot() {
+  updateWatchBadge();
+  await Promise.all([loadOpp(), loadFund()]);
+})();
 
-async function loadOpportunities() {
+async function loadOpp() {
   try {
     const r = await fetch('opportunities.json?t=' + Date.now());
-    if (!r.ok) throw new Error('opportunities.json not found -- run Opportunity Scan workflow first.');
+    if (!r.ok) throw new Error('Run the Opportunity Scan workflow first in your GitHub repo.');
     oppData = await r.json();
-    document.getElementById('cnt-opp').textContent = oppData.meta.opportunities || 0;
-    updateTopbar(oppData.meta);
-    renderOpportunities();
+    const meta = oppData.meta || {};
+    const scanned = meta.scanned_at ? new Date(meta.scanned_at) : null;
+    const ageHrs  = scanned ? (Date.now() - scanned) / 3600000 : 999;
+    const badge   = document.getElementById('freshBadge');
+    badge.textContent = ageHrs < 25 ? 'LIVE' : 'STALE';
+    badge.className   = 'badge ' + (ageHrs < 25 ? 'fresh' : 'stale');
+    const cnt = document.getElementById('cnt-opp');
+    cnt.textContent = meta.opportunities || 0;
+    cnt.style.display = (meta.opportunities > 0) ? '' : 'none';
+    renderOpp();
   } catch(e) {
-    document.getElementById('oppContent').innerHTML = `<div class="err">${e.message}</div>`;
+    document.getElementById('oppList').innerHTML = `<div class="err">${e.message}</div>`;
   }
 }
 
-async function loadFundamentals() {
+async function loadFund() {
   try {
     const r = await fetch('fundamentals_summary.json?t=' + Date.now());
-    if (!r.ok) throw new Error('fundamentals_summary.json not found -- run Fundamental Scan workflow first.');
-    fundSummary = await r.json();
-    document.getElementById('cnt-fund').textContent = fundSummary.stocks.length;
-    renderFundamentals();
+    if (!r.ok) throw new Error('Run the Fundamental Scan workflow first.');
+    fundData = await r.json();
+    renderFund();
   } catch(e) {
-    document.getElementById('fundContent').innerHTML = `<div class="err">${e.message}</div>`;
+    document.getElementById('fundList').innerHTML = `<div class="err">${e.message}</div>`;
   }
 }
 
@@ -299,402 +382,330 @@ async function loadFundamentals() {
 function switchTab(tab) {
   activeTab = tab;
   document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
-  document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.bn-item').forEach(b => b.classList.remove('active'));
   document.getElementById('panel-' + tab).classList.add('active');
-  document.getElementById('tab-' + tab).classList.add('active');
-  renderSidebar();
-  if (tab === 'watchlist') renderWatchlist();
+  document.getElementById('bn-' + tab).classList.add('active');
+  if (tab === 'watch') renderWatch();
 }
 
-// ── Topbar ─────────────────────────────────────────────────────────────────
-function updateTopbar(meta) {
-  const scanned = meta.scanned_at ? new Date(meta.scanned_at) : null;
-  const ageHrs  = scanned ? (Date.now() - scanned) / 3600000 : 999;
-  if (scanned) {
-    document.getElementById('scanTimeOpp').textContent =
-      scanned.toLocaleDateString('en-IN',{day:'numeric',month:'short'}) + ' ' +
-      scanned.toLocaleTimeString('en-IN',{hour:'2-digit',minute:'2-digit'});
-  }
-  const badge = document.getElementById('freshBadge');
-  badge.textContent = ageHrs < 25 ? 'FRESH' : ageHrs < 72 ? 'TODAY' : 'STALE';
-  badge.className   = 'badge ' + (ageHrs < 25 ? 'fresh' : 'stale');
+// ── Opportunities ──────────────────────────────────────────────────────────
+function getOppStocks() {
+  if (!oppData) return [];
+  const q = document.getElementById('searchOpp').value.toUpperCase().trim();
+  let stocks = oppData.all_stocks || [];
+
+  if (oppFilter === '52low')    stocks = stocks.filter(s => s.tags.some(t => t.includes('52W_LOW') || t === 'DISCOUNTED_ZONE'));
+  else if (oppFilter === 'recovery') stocks = stocks.filter(s => s.tags.some(t => t.includes('RECOVERY')));
+  else if (oppFilter === 'falling')  stocks = stocks.filter(s => s.tags.some(t => t.includes('HEAVY_FALL')));
+  else stocks = stocks.filter(s => s.is_opportunity);
+
+  if (q) stocks = stocks.filter(s => s.symbol.includes(q) || (s.name||'').toUpperCase().includes(q));
+  return stocks;
 }
 
-// ── Sidebar ────────────────────────────────────────────────────────────────
-function renderSidebar() {
-  const search = (document.getElementById('sbSearch').value || '').toUpperCase().trim();
-  const fr = document.getElementById('filterRow');
-  const sl = document.getElementById('sbList');
-
-  if (activeTab === 'opportunities' && oppData) {
-    fr.innerHTML = ['all','52W Low','Recovery','Falling'].map(f =>
-      `<button class="fb ${oppFilter===f?'active':''}" onclick="setOppFilter('${f}',this)">${f}</button>`).join('');
-
-    let stocks = oppData.all_stocks || [];
-    if (oppFilter === '52W Low') stocks = stocks.filter(s => s.tags.some(t => t.includes('52W_LOW') || t === 'DISCOUNTED_ZONE'));
-    else if (oppFilter === 'Recovery') stocks = stocks.filter(s => s.tags.some(t => t.includes('RECOVERY')));
-    else if (oppFilter === 'Falling') stocks = stocks.filter(s => s.tags.some(t => t.includes('HEAVY_FALL')));
-    else stocks = stocks.filter(s => s.is_opportunity);
-    if (search) stocks = stocks.filter(s => s.symbol.includes(search) || (s.name||'').toUpperCase().includes(search));
-
-    sl.innerHTML = stocks.slice(0,100).map(s => `
-      <div class="sb-item ${s.symbol===activeSymbol?'active':''}" onclick="showOppDetail('${s.symbol}')">
-        <div class="sb-left">
-          <span class="sb-sym">${s.symbol}</span>
-          <span class="sb-sub">${s.pct_above_52w_low!=null ? '+'+s.pct_above_52w_low+'% from 52W low' : s.sector||''}</span>
-        </div>
-        <div style="display:flex;flex-direction:column;align-items:flex-end;gap:3px">
-          ${s.tags.slice(0,1).map(t=>`<span class="sb-pill ${tagColor(t)}">${tagShort(t)}</span>`).join('')}
-          <button class="sb-star ${watchlist.includes(s.symbol)?'starred':''}" onclick="event.stopPropagation();toggleWatch('${s.symbol}')">&#9733;</button>
-        </div>
-      </div>`).join('') || '<div style="padding:12px 8px;font-size:12px;color:var(--muted)">No stocks match</div>';
-
-  } else if (activeTab === 'fundamentals' && fundSummary) {
-    fr.innerHTML = ['all','green','amber','red'].map(f =>
-      `<button class="fb ${fundFilter===f?'active':''}" onclick="setFundFilter('${f}',this)">${f==='all'?'All':f==='green'?'Strong':f==='amber'?'Moderate':'Weak'}</button>`).join('');
-
-    let stocks = fundSummary.stocks || [];
-    if (fundFilter !== 'all') stocks = stocks.filter(s => s.verdict_color === fundFilter);
-    if (search) stocks = stocks.filter(s => s.symbol.includes(search) || (s.name||'').toUpperCase().includes(search));
-
-    sl.innerHTML = stocks.slice(0,100).map(s => `
-      <div class="sb-item ${s.symbol===activeSymbol?'active':''}" onclick="showFundDetail('${s.symbol}')">
-        <div class="sb-left">
-          <span class="sb-sym">${s.symbol}</span>
-          <span class="sb-sub">${s.score_pct}% -- ${s.passes}P ${s.fails}F</span>
-        </div>
-        <div style="display:flex;flex-direction:column;align-items:flex-end;gap:3px">
-          <span class="sb-pill ${s.verdict_color}">${s.verdict_color==='green'?'STR':s.verdict_color==='amber'?'MOD':'WEK'}</span>
-          <button class="sb-star ${watchlist.includes(s.symbol)?'starred':''}" onclick="event.stopPropagation();toggleWatch('${s.symbol}')">&#9733;</button>
-        </div>
-      </div>`).join('') || '<div style="padding:12px 8px;font-size:12px;color:var(--muted)">No stocks match</div>';
-
-  } else if (activeTab === 'watchlist') {
-    fr.innerHTML = '';
-    const wStocks = (fundSummary?.stocks || []).filter(s => watchlist.includes(s.symbol));
-    if (!wStocks.length) {
-      sl.innerHTML = '<div style="padding:12px 8px;font-size:12px;color:var(--muted)">Star stocks to add them here</div>';
-    } else {
-      sl.innerHTML = wStocks.map(s => `
-        <div class="sb-item ${s.symbol===activeSymbol?'active':''}" onclick="showFundDetail('${s.symbol}');switchTab('fundamentals')">
-          <div class="sb-left">
-            <span class="sb-sym">${s.symbol}</span>
-            <span class="sb-sub">${s.score_pct}%</span>
-          </div>
-          <button class="sb-star starred" onclick="event.stopPropagation();toggleWatch('${s.symbol}')">&#9733;</button>
-        </div>`).join('');
-    }
-  }
-}
-
-function setFundFilter(f, btn) { fundFilter = f; renderSidebar(); }
-function setOppFilter(f, btn)  { oppFilter  = f; renderSidebar(); }
-
-// ── Watchlist ──────────────────────────────────────────────────────────────
-function toggleWatch(symbol) {
-  if (watchlist.includes(symbol)) {
-    watchlist = watchlist.filter(s => s !== symbol);
-  } else {
-    watchlist.push(symbol);
-  }
-  localStorage.setItem('watchlist', JSON.stringify(watchlist));
-  document.getElementById('cnt-watch').textContent = watchlist.length;
-  renderSidebar();
-  if (activeTab === 'watchlist') renderWatchlist();
-
-  // Sync to GitHub if token is set
-  if (settings.token && settings.repo) syncWatchlistToGithub();
-}
-
-async function syncWatchlistToGithub() {
-  try {
-    const repo    = settings.repo;
-    const token   = settings.token;
-    const path    = 'custom_watchlist.json';
-    const apiBase = `https://api.github.com/repos/${repo}/contents/${path}`;
-
-    // Get current file SHA
-    const getRes = await fetch(apiBase, {headers: {'Authorization': `token ${token}`, 'Accept': 'application/vnd.github.v3+json'}});
-    const getSha = getRes.ok ? (await getRes.json()).sha : null;
-
-    const content = btoa(JSON.stringify({
-      custom_stocks: watchlist,
-      notes: "Managed by FundaScreen website. Do not edit manually.",
-      updated_at: new Date().toISOString()
-    }, null, 2));
-
-    await fetch(apiBase, {
-      method: 'PUT',
-      headers: {'Authorization': `token ${token}`, 'Content-Type': 'application/json'},
-      body: JSON.stringify({
-        message: `watchlist: update via website - ${new Date().toISOString().split('T')[0]}`,
-        content: content,
-        ...(getSha && {sha: getSha})
-      })
-    });
-  } catch(e) {
-    console.warn('GitHub sync failed:', e.message);
-  }
-}
-
-function renderWatchlist() {
-  const el = document.getElementById('watchContent');
-  if (!watchlist.length) {
-    el.innerHTML = '<div class="centered"><span>Star any stock to add it to your watchlist.</span></div>';
-    return;
-  }
-  const stocks = (fundSummary?.stocks || []).filter(s => watchlist.includes(s.symbol));
-  const oppMap  = {};
-  (oppData?.all_stocks || []).forEach(s => oppMap[s.symbol] = s);
-
-  el.innerHTML = `
-    <div class="sec-title">Your Watchlist (${watchlist.length} stocks)</div>
-    <div class="opp-grid">${stocks.map(s => {
-      const op = oppMap[s.symbol];
-      const sc = s.verdict_color === 'green' ? 'var(--green)' : s.verdict_color === 'amber' ? 'var(--amber)' : 'var(--red)';
-      return `<div class="opp-card" onclick="showFundDetail('${s.symbol}');switchTab('fundamentals')">
-        <button class="star-btn starred" onclick="event.stopPropagation();toggleWatch('${s.symbol}')">&#9733;</button>
-        <div class="opp-sym">${s.symbol}</div>
-        <div class="opp-name">${s.name || ''} &middot; ${s.sector || ''}</div>
-        <div style="display:flex;gap:12px;font-family:var(--mono);font-size:12px;margin-bottom:8px">
-          <div><span style="color:var(--muted);font-size:10px">SCORE </span><span style="color:${sc};font-weight:700">${s.score_pct}%</span></div>
-          ${op ? `<div><span style="color:var(--muted);font-size:10px">PRICE </span><span>&#8377;${op.current_price||'--'}</span></div>` : ''}
-          ${op?.change_1m_pct != null ? `<div><span style="color:var(--muted);font-size:10px">1M </span><span class="${op.change_1m_pct>=0?'change-pos':'change-neg'}">${op.change_1m_pct>0?'+':''}${op.change_1m_pct}%</span></div>` : ''}
-        </div>
-        <span class="verdict ${s.verdict_color}">${s.verdict}</span>
-      </div>`;
-    }).join('')}</div>`;
-}
-
-// ── Opportunity rendering ──────────────────────────────────────────────────
-function renderOpportunities() {
+function renderOpp() {
+  oppPage = 1;
   if (!oppData) return;
-  const el = document.getElementById('oppContent');
-  const meta = oppData.meta;
-  const opps = oppData.opportunities || [];
+  const stocks = getOppStocks();
+  const meta = oppData.meta || {};
+  const near52    = (oppData.all_stocks||[]).filter(s=>s.tags.some(t=>t.includes('52W_LOW')||t==='DISCOUNTED_ZONE')).length;
+  const recovery  = (oppData.all_stocks||[]).filter(s=>s.tags.some(t=>t.includes('RECOVERY'))).length;
+  const falling   = (oppData.all_stocks||[]).filter(s=>s.tags.some(t=>t.includes('HEAVY_FALL'))).length;
 
-  const near52 = opps.filter(s => s.tags.some(t => ['AT_52W_LOW','NEAR_52W_LOW','DISCOUNTED_ZONE'].includes(t)));
-  const recovery = opps.filter(s => s.tags.some(t => t.includes('RECOVERY')));
-  const falling  = opps.filter(s => s.tags.some(t => t.includes('HEAVY_FALL')));
-
-  el.innerHTML = `
+  document.getElementById('oppStats').innerHTML = `
     <div class="stat-row">
-      <div class="stat"><div class="stat-label">Near 52W Low</div><div class="stat-val" style="color:var(--green)">${near52.length}</div><div class="stat-sub">within 30% of 52W low</div></div>
-      <div class="stat"><div class="stat-label">Recovering</div><div class="stat-val" style="color:var(--blue)">${recovery.length}</div><div class="stat-sub">up 20%+ in 1 month</div></div>
-      <div class="stat"><div class="stat-label">Still Falling</div><div class="stat-val" style="color:var(--red)">${falling.length}</div><div class="stat-sub">down 20%+ in 1 month</div></div>
-      <div class="stat"><div class="stat-label">Total Scanned</div><div class="stat-val">${meta.success}</div><div class="stat-sub">Nifty 500 stocks</div></div>
-    </div>
+      <div class="stat"><div class="stat-label">Near 52W Low</div><div class="stat-val" style="color:var(--green)">${near52}</div><div class="stat-sub">within 30%</div></div>
+      <div class="stat"><div class="stat-label">Recovering</div><div class="stat-val" style="color:var(--blue)">${recovery}</div><div class="stat-sub">+20% in 1M</div></div>
+      <div class="stat"><div class="stat-label">Still Falling</div><div class="stat-val" style="color:var(--red)">${falling}</div><div class="stat-sub">-20% in 1M</div></div>
+      <div class="stat"><div class="stat-label">Scanned</div><div class="stat-val">${meta.success||0}</div><div class="stat-sub">Nifty 500</div></div>
+    </div>`;
 
-    ${near52.length ? `
-    <div class="sec-title">Discounted Zone -- Near 52-Week Low</div>
-    <div class="opp-grid">${near52.slice(0,20).map(s => oppCard(s)).join('')}</div>` : ''}
+  const visible = stocks.slice(0, oppPage * PAGE_SIZE);
+  document.getElementById('oppList').innerHTML = visible.length
+    ? `<div class="card-list">${visible.map(s => oppCard(s)).join('')}</div>`
+    : '<div class="centered">No stocks match this filter</div>';
 
-    ${recovery.length ? `
-    <div class="sec-title">Recovery in Progress -- Strong 1-Month Bounce</div>
-    <div class="opp-grid">${recovery.slice(0,20).map(s => oppCard(s)).join('')}</div>` : ''}
-
-    ${falling.length ? `
-    <div class="sec-title">Still Falling -- Watch for Entry</div>
-    <div class="opp-grid">${falling.slice(0,20).map(s => oppCard(s)).join('')}</div>` : ''}
-  `;
+  const lm = document.getElementById('loadMoreOpp');
+  lm.style.display = stocks.length > visible.length ? '' : 'none';
+  if (stocks.length > visible.length)
+    lm.textContent = `Load more (${stocks.length - visible.length} remaining)`;
 }
+
+function loadMoreOpp() { oppPage++; renderOpp(); }
 
 function oppCard(s) {
-  const pct = s.pct_above_52w_low;
-  const barPct = pct != null ? Math.min(pct, 100) : 0;
+  const starred = watchlist.includes(s.symbol);
   const chg1m = s.change_1m_pct;
   const chg3m = s.change_3m_pct;
-  const starred = watchlist.includes(s.symbol);
-
-  return `<div class="opp-card" onclick="showOppDetail('${s.symbol}')">
-    <button class="star-btn ${starred?'starred':''}" onclick="event.stopPropagation();toggleWatch('${s.symbol}')">&#9733;</button>
-    <div class="opp-sym">${s.symbol}</div>
-    <div class="opp-name">${s.name || ''} &middot; ${s.sector || ''}</div>
-    <div class="opp-prices">
-      <div class="opp-price-item"><div class="label">Current</div><div class="val">&#8377;${s.current_price||'--'}</div></div>
-      <div class="opp-price-item"><div class="label">52W Low</div><div class="val" style="color:var(--green)">&#8377;${s.week52_low||'--'}</div></div>
-      <div class="opp-price-item"><div class="label">52W High</div><div class="val" style="color:var(--red)">&#8377;${s.week52_high||'--'}</div></div>
+  const pct   = s.pct_above_52w_low;
+  return `<div class="stock-card" onclick="showOppDetail('${s.symbol}')">
+    <div class="card-top">
+      <div>
+        <div class="card-sym">${s.symbol}</div>
+        <div class="card-name">${(s.name||'').slice(0,28)} &middot; ${s.sector||''}</div>
+      </div>
+      <div class="card-right">
+        <button class="star-btn ${starred?'starred':''}" onclick="event.stopPropagation();toggleWatch('${s.symbol}')">&#9733;</button>
+      </div>
     </div>
-    <div class="price-bar"><div class="price-bar-fill" style="width:100%"></div><div class="price-marker" style="left:${barPct}%"></div></div>
-    <div style="display:flex;gap:14px;font-family:var(--mono);font-size:11px;margin-bottom:10px">
-      ${pct != null ? `<span><span style="color:var(--muted)">from low </span><span style="color:var(--amber);font-weight:600">+${pct}%</span></span>` : ''}
-      ${chg1m != null ? `<span><span style="color:var(--muted)">1M </span><span class="${chg1m>=0?'change-pos':'change-neg'};font-weight:600">${chg1m>0?'+':''}${chg1m}%</span></span>` : ''}
-      ${chg3m != null ? `<span><span style="color:var(--muted)">3M </span><span class="${chg3m>=0?'change-pos':'change-neg'}">${chg3m>0?'+':''}${chg3m}%</span></span>` : ''}
+    <div class="card-metrics">
+      ${s.current_price!=null?`<div class="cm"><div class="cm-label">Price</div><div class="cm-val">&#8377;${s.current_price}</div></div>`:''}
+      ${pct!=null?`<div class="cm"><div class="cm-label">From 52W Low</div><div class="cm-val" style="color:var(--amber)">+${pct}%</div></div>`:''}
+      ${chg1m!=null?`<div class="cm"><div class="cm-label">1 Month</div><div class="cm-val ${chg1m>=0?'change-pos':'change-neg'}">${chg1m>0?'+':''}${chg1m}%</div></div>`:''}
+      ${chg3m!=null?`<div class="cm"><div class="cm-label">3 Month</div><div class="cm-val ${chg3m>=0?'change-pos':'change-neg'}">${chg3m>0?'+':''}${chg3m}%</div></div>`:''}
     </div>
-    <div class="tags">${s.tags.map(t=>`<span class="tag ${t}">${tagLabel(t)}</span>`).join('')}</div>
+    <div class="tags">${(s.tags||[]).map(t=>`<span class="tag ${t}">${tagLabel(t)}</span>`).join('')}</div>
   </div>`;
 }
 
-// ── Fundamental rendering ─────────────────────────────────────────────────
-function renderFundamentals() {
-  if (!fundSummary) return;
-  const el = document.getElementById('fundContent');
-  const s  = fundSummary.stocks || [];
-  const strong   = s.filter(x => x.verdict_color === 'green').length;
-  const moderate = s.filter(x => x.verdict_color === 'amber').length;
-  const weak     = s.filter(x => x.verdict_color === 'red').length;
-
-  el.innerHTML = `
-    <div class="stat-row">
-      <div class="stat"><div class="stat-label">Strong</div><div class="stat-val" style="color:var(--green)">${strong}</div><div class="stat-sub">score >= 78%</div></div>
-      <div class="stat"><div class="stat-label">Moderate</div><div class="stat-val" style="color:var(--amber)">${moderate}</div><div class="stat-sub">score 58-78%</div></div>
-      <div class="stat"><div class="stat-label">Weak / Avoid</div><div class="stat-val" style="color:var(--red)">${weak}</div><div class="stat-sub">score < 58%</div></div>
-      <div class="stat"><div class="stat-label">Total Scanned</div><div class="stat-val">${s.length}</div><div class="stat-sub">Nifty 500 stocks</div></div>
-    </div>
-    <div class="sec-title">All stocks -- click any to see full 13-criteria breakdown</div>
-    <table class="rtable">
-      <thead><tr>
-        <th>#</th><th>Symbol</th><th>Sector</th><th>Score</th><th>Verdict</th>
-        <th>Pass</th><th>Fail</th><th>Neutral</th><th></th>
-      </tr></thead>
-      <tbody>${s.map((st,i) => {
-        const sc = st.verdict_color==='green'?'var(--green)':st.verdict_color==='amber'?'var(--amber)':'var(--red)';
-        return `<tr>
-          <td style="color:var(--hint);font-family:var(--mono)">#${i+1}</td>
-          <td><span style="font-weight:700;cursor:pointer;color:var(--text)" onclick="showFundDetail('${st.symbol}')">${st.symbol}</span>
-              <div style="font-size:10px;color:var(--muted);font-family:var(--mono)">${(st.name||'').slice(0,22)}</div></td>
-          <td style="font-size:11px;color:var(--muted)">${st.sector||'--'}</td>
-          <td style="font-family:var(--mono);font-weight:700;color:${sc}">${st.score_pct}%</td>
-          <td><span class="verdict ${st.verdict_color}" style="font-size:10px">${st.verdict}</span></td>
-          <td style="font-family:var(--mono);color:var(--green)">${st.passes}</td>
-          <td style="font-family:var(--mono);color:var(--red)">${st.fails}</td>
-          <td style="font-family:var(--mono);color:var(--amber)">${st.neutrals}</td>
-          <td><button class="sb-star ${watchlist.includes(st.symbol)?'starred':''}" onclick="toggleWatch('${st.symbol}')">&#9733;</button></td>
-        </tr>`;
-      }).join('')}</tbody>
-    </table>`;
+function setOppFilter(f, btn) {
+  oppFilter = f;
+  document.querySelectorAll('#filterOpp .fb').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  renderOpp();
 }
 
-// ── Detail views ──────────────────────────────────────────────────────────
-async function showFundDetail(symbol) {
-  activeSymbol = symbol;
-  renderSidebar();
-  const el = document.getElementById('fundContent');
+// ── Fundamentals ───────────────────────────────────────────────────────────
+function getFundStocks() {
+  if (!fundData) return [];
+  const q = document.getElementById('searchFund').value.toUpperCase().trim();
+  let stocks = fundData.stocks || [];
+  if (fundFilter !== 'all') stocks = stocks.filter(s => s.verdict_color === fundFilter);
+  if (q) stocks = stocks.filter(s => s.symbol.includes(q) || (s.name||'').toUpperCase().includes(q));
+  return stocks;
+}
 
-  let detail = null;
-  try {
-    const r = await fetch(`fundamentals/${symbol}.json?t=` + Date.now());
-    if (r.ok) detail = await r.json();
-  } catch(e) {}
+function renderFund() {
+  fundPage = 1;
+  if (!fundData) return;
+  const stocks = fundData.stocks || [];
+  const strong = stocks.filter(s=>s.verdict_color==='green').length;
+  const mod    = stocks.filter(s=>s.verdict_color==='amber').length;
+  const weak   = stocks.filter(s=>s.verdict_color==='red').length;
 
-  if (!detail) {
-    detail = fundSummary?.stocks?.find(s => s.symbol === symbol);
-  }
-  if (!detail) { el.innerHTML = `<div class="err">No data for ${symbol}</div>`; return; }
+  document.getElementById('fundStats').innerHTML = `
+    <div class="stat-row">
+      <div class="stat"><div class="stat-label">Strong</div><div class="stat-val" style="color:var(--green)">${strong}</div><div class="stat-sub">score &gt;= 78%</div></div>
+      <div class="stat"><div class="stat-label">Moderate</div><div class="stat-val" style="color:var(--amber)">${mod}</div><div class="stat-sub">score 58-78%</div></div>
+      <div class="stat"><div class="stat-label">Weak</div><div class="stat-val" style="color:var(--red)">${weak}</div><div class="stat-sub">score &lt; 58%</div></div>
+      <div class="stat"><div class="stat-label">Total</div><div class="stat-val">${stocks.length}</div><div class="stat-sub">scanned</div></div>
+    </div>`;
 
-  const vc = detail.verdict_color || 'amber';
-  const pct = detail.score_pct || 0;
-  const scoreColor = vc==='green'?'var(--green)':vc==='amber'?'var(--amber)':'var(--red)';
-  const r = 30; const circ = 2*Math.PI*r;
-  const ratioKeys = ['Market Cap','P/E','ROE %','ROCE %','Debt / Equity','Div. Yield %'];
-  const top = detail.top_ratios || {};
-  const oppInfo = (oppData?.all_stocks||[]).find(s => s.symbol === symbol);
-  const starred = watchlist.includes(symbol);
-  const criteria = detail.criteria || [];
+  const filtered = getFundStocks();
+  const visible  = filtered.slice(0, fundPage * PAGE_SIZE);
 
-  el.innerHTML = `
-    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px">
-      <button onclick="renderFundamentals()" style="background:none;border:none;color:var(--muted);cursor:pointer;font-family:var(--mono);font-size:12px">Back to all stocks</button>
-      <button class="btn-watchlist ${starred?'active':''}" onclick="toggleWatch('${symbol}');this.classList.toggle('active')">
-        &#9733; ${starred?'In Watchlist':'Add to Watchlist'}
-      </button>
+  document.getElementById('fundList').innerHTML = visible.length
+    ? `<div class="card-list">${visible.map(s => fundCard(s)).join('')}</div>`
+    : '<div class="centered">No stocks match</div>';
+
+  const lm = document.getElementById('loadMoreFund');
+  lm.style.display = filtered.length > visible.length ? '' : 'none';
+  if (filtered.length > visible.length)
+    lm.textContent = `Load more (${filtered.length - visible.length} remaining)`;
+}
+
+function loadMoreFund() { fundPage++; renderFund(); }
+
+function fundCard(s) {
+  const sc = s.verdict_color==='green'?'var(--green)':s.verdict_color==='amber'?'var(--amber)':'var(--red)';
+  const starred = watchlist.includes(s.symbol);
+  const oppInfo = (oppData?.all_stocks||[]).find(x=>x.symbol===s.symbol);
+  return `<div class="stock-card" onclick="showFundDetail('${s.symbol}')">
+    <div class="card-top">
+      <div>
+        <div class="card-sym">${s.symbol}</div>
+        <div class="card-name">${(s.name||'').slice(0,28)} &middot; ${s.sector||''}</div>
+      </div>
+      <div class="card-right">
+        <button class="star-btn ${starred?'starred':''}" onclick="event.stopPropagation();toggleWatch('${s.symbol}')">&#9733;</button>
+        <span class="verdict-pill ${s.verdict_color}">${s.verdict_color==='green'?'STRONG':s.verdict_color==='amber'?'MODERATE':'WEAK'}</span>
+      </div>
     </div>
-    <div class="hero">
+    <div class="card-metrics">
+      <div class="cm"><div class="cm-label">Score</div><div class="cm-val" style="color:${sc}">${s.score_pct}%</div></div>
+      <div class="cm"><div class="cm-label">Pass/Fail</div><div class="cm-val">${s.passes}P ${s.fails}F ${s.neutrals}N</div></div>
+      ${oppInfo?.current_price?`<div class="cm"><div class="cm-label">Price</div><div class="cm-val">&#8377;${oppInfo.current_price}</div></div>`:''}
+      ${oppInfo?.change_1m_pct!=null?`<div class="cm"><div class="cm-label">1M</div><div class="cm-val ${oppInfo.change_1m_pct>=0?'change-pos':'change-neg'}">${oppInfo.change_1m_pct>0?'+':''}${oppInfo.change_1m_pct}%</div></div>`:''}
+    </div>
+    <div class="score-bar-wrap">
+      <div class="score-bar-bg"><div class="score-bar-fill" style="width:${s.score_pct}%;background:${sc}"></div></div>
+    </div>
+  </div>`;
+}
+
+function setFundFilter(f, btn) {
+  fundFilter = f;
+  document.querySelectorAll('#filterFund .fb').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  renderFund();
+}
+
+// ── Watchlist ──────────────────────────────────────────────────────────────
+function toggleWatch(symbol) {
+  watchlist = watchlist.includes(symbol)
+    ? watchlist.filter(s => s !== symbol)
+    : [...watchlist, symbol];
+  localStorage.setItem('wl', JSON.stringify(watchlist));
+  updateWatchBadge();
+  renderOpp(); renderFund();
+  if (activeTab === 'watch') renderWatch();
+  if (settings.token && settings.repo) syncToGitHub();
+}
+
+function updateWatchBadge() {
+  const el = document.getElementById('cnt-watch');
+  el.textContent = watchlist.length;
+  el.style.display = watchlist.length > 0 ? '' : 'none';
+}
+
+function renderWatch() {
+  const el = document.getElementById('watchList');
+  if (!watchlist.length) { el.innerHTML = '<div class="centered">Star stocks to add them here</div>'; return; }
+  const fundStocks = (fundData?.stocks||[]).filter(s=>watchlist.includes(s.symbol));
+  const oppMap = {};
+  (oppData?.all_stocks||[]).forEach(s=>oppMap[s.symbol]=s);
+  el.innerHTML = `<div class="card-list">${fundStocks.map(s=>fundCard(s)).join('')}</div>` ||
+    `<div class="centered">Scan data not yet available for your watchlist stocks</div>`;
+}
+
+async function syncToGitHub() {
+  try {
+    const api = `https://api.github.com/repos/${settings.repo}/contents/custom_watchlist.json`;
+    const get = await fetch(api, {headers:{'Authorization':`token ${settings.token}`,'Accept':'application/vnd.github.v3+json'}});
+    const sha = get.ok ? (await get.json()).sha : null;
+    const content = btoa(JSON.stringify({custom_stocks:watchlist,updated_at:new Date().toISOString()},null,2));
+    await fetch(api, {method:'PUT',headers:{'Authorization':`token ${settings.token}`,'Content-Type':'application/json'},
+      body:JSON.stringify({message:`watchlist: ${new Date().toISOString().split('T')[0]}`,content,...(sha&&{sha})})});
+  } catch(e) { console.warn('GitHub sync failed:', e.message); }
+}
+
+// ── Detail sheets ──────────────────────────────────────────────────────────
+async function showFundDetail(symbol) {
+  document.getElementById('sheetTitle').textContent = symbol;
+  document.getElementById('sheetBody').innerHTML = '<div class="centered"><div class="spinner"></div></div>';
+  openDetailSheet();
+
+  let d = null;
+  try {
+    const r = await fetch(`fundamentals/${symbol}.json?t=`+Date.now());
+    if (r.ok) d = await r.json();
+  } catch(e) {}
+  if (!d) d = fundData?.stocks?.find(s=>s.symbol===symbol);
+  if (!d) { document.getElementById('sheetBody').innerHTML = '<div class="err">No data available</div>'; return; }
+
+  const vc = d.verdict_color||'amber';
+  const pct = d.score_pct||0;
+  const sc = vc==='green'?'var(--green)':vc==='amber'?'var(--amber)':'var(--red)';
+  const rv = 28; const circ = 2*Math.PI*rv;
+  const top = d.top_ratios||{};
+  const ratioKeys = ['P/E','ROE %','ROCE %','Debt / Equity','Div. Yield %','Current Price'];
+  const oppInfo = (oppData?.all_stocks||[]).find(s=>s.symbol===symbol);
+  const starred = watchlist.includes(symbol);
+  const criteria = d.criteria||[];
+
+  document.getElementById('sheetBody').innerHTML = `
+    <div class="sheet-score-hero">
       <div class="ring">
-        <svg viewBox="0 0 70 70">
-          <circle fill="none" stroke="var(--hint)" stroke-width="5" cx="35" cy="35" r="${r}"/>
-          <circle fill="none" stroke="${scoreColor}" stroke-width="5" stroke-linecap="round"
-            cx="35" cy="35" r="${r}"
+        <svg viewBox="0 0 64 64">
+          <circle fill="none" stroke="var(--hint)" stroke-width="5" cx="32" cy="32" r="${rv}"/>
+          <circle fill="none" stroke="${sc}" stroke-width="5" stroke-linecap="round"
+            cx="32" cy="32" r="${rv}"
             stroke-dasharray="${circ.toFixed(1)}"
             stroke-dashoffset="${(circ-(pct/100)*circ).toFixed(1)}"
-            transform="rotate(-90 35 35)"/>
+            transform="rotate(-90 32 32)"/>
         </svg>
-        <div class="ring-num" style="color:${scoreColor}">${pct}%</div>
+        <div class="ring-num" style="color:${sc}">${pct}%</div>
       </div>
-      <div>
-        <div class="hero-name">${detail.name||symbol}</div>
-        <div class="hero-sub">${symbol} &middot; ${detail.sector||'NSE'} &middot; <a href="${detail.screener_url||'#'}" target="_blank">Screener.in &nearr;</a></div>
-        <span class="verdict ${vc}">${detail.verdict}</span>
-      </div>
-      <div class="hero-right">
-        <div><span class="hs-label">Pass / Fail / N/A</span><span class="hs-val" style="color:${scoreColor}">${detail.passes} / ${detail.fails} / ${detail.neutrals}</span></div>
-        ${oppInfo?.current_price ? `<div><span class="hs-label">Current Price</span><span class="hs-val">&#8377;${oppInfo.current_price}</span></div>` : ''}
-        ${oppInfo?.change_1m_pct != null ? `<div><span class="hs-label">1-Month Change</span><span class="hs-val ${oppInfo.change_1m_pct>=0?'change-pos':'change-neg'}">${oppInfo.change_1m_pct>0?'+':''}${oppInfo.change_1m_pct}%</span></div>` : ''}
+      <div class="sheet-info">
+        <h2>${d.name||symbol}</h2>
+        <div class="sheet-sub">${symbol} &middot; ${d.sector||'NSE'} &middot; <a href="${d.screener_url||'#'}" target="_blank">Screener &#8599;</a></div>
+        <span class="verdict-pill ${vc}">${d.verdict}</span>
+        <div class="pf-row">
+          <span style="color:var(--green)">&#10003; ${d.passes}</span>
+          <span style="color:var(--red)">&#10007; ${d.fails}</span>
+          <span style="color:var(--amber)">&#8213; ${d.neutrals}</span>
+        </div>
       </div>
     </div>
-    ${ratioKeys.filter(k=>top[k]!=null).length ? `<div class="ratios">${ratioKeys.filter(k=>top[k]!=null).map(k=>`<div class="ratio-chip"><div class="rk">${k}</div><div class="rv">${top[k]}</div></div>`).join('')}</div>` : ''}
-    <div class="sec-title">13-criteria breakdown</div>
-    <div class="crit-grid">${criteria.length ? criteria.map((c,i)=>`
-      <div class="cc ${c.result}">
-        <div class="cc-num">C${String(i+1).padStart(2,'0')} &middot; WEIGHT ${c.weight}x</div>
-        <div class="cc-label">${c.label}</div>
-        <div class="cc-detail">${c.detail}</div>
-        <span class="cc-badge ${c.result}">${c.result.toUpperCase()}</span>
-      </div>`).join('') : '<div style="color:var(--muted);font-size:13px">Run the Fundamental Scan workflow to see breakdown.</div>'}</div>
+
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px">
+      <div class="sec-title" style="margin:0">Key Ratios</div>
+      <button onclick="toggleWatch('${symbol}')" style="background:${starred?'var(--abg)':'transparent'};border:1px solid ${starred?'var(--adim)':'var(--b1)'};border-radius:var(--r);padding:5px 12px;color:${starred?'var(--amber)':'var(--muted)'};font-size:11px;cursor:pointer;font-family:var(--head)">
+        &#9733; ${starred?'Saved':'Save'}
+      </button>
+    </div>
+
+    <div class="ratios-scroll">
+      ${ratioKeys.filter(k=>top[k]!=null).map(k=>`<div class="ratio-chip"><div class="rk">${k}</div><div class="rv">${top[k]}</div></div>`).join('')}
+      ${oppInfo?.current_price?`<div class="ratio-chip"><div class="rk">Live Price</div><div class="rv">&#8377;${oppInfo.current_price}</div></div>`:''}
+      ${oppInfo?.change_1m_pct!=null?`<div class="ratio-chip"><div class="rk">1M Change</div><div class="rv ${oppInfo.change_1m_pct>=0?'change-pos':'change-neg'}">${oppInfo.change_1m_pct>0?'+':''}${oppInfo.change_1m_pct}%</div></div>`:''}
+    </div>
+
+    <div class="sec-title">13 Criteria Breakdown</div>
+    <div class="crit-list">
+      ${criteria.length ? criteria.map((c,i)=>`
+        <div class="cc ${c.result}">
+          <div class="cc-top">
+            <div class="cc-label">C${i+1}. ${c.label}</div>
+            <span class="cc-badge ${c.result}">${c.result.toUpperCase()}</span>
+          </div>
+          <div class="cc-detail">${c.detail}</div>
+        </div>`).join('')
+        : '<div class="centered" style="min-height:80px">Run Fundamental Scan to see breakdown</div>'}
+    </div>
   `;
 }
 
 async function showOppDetail(symbol) {
-  activeSymbol = symbol;
-  renderSidebar();
-  // Show full opp detail inline
-  const opp = (oppData?.all_stocks||[]).find(s => s.symbol === symbol);
+  document.getElementById('sheetTitle').textContent = symbol;
+  const opp = (oppData?.all_stocks||[]).find(s=>s.symbol===symbol);
   if (!opp) return;
-  document.getElementById('oppContent').innerHTML = `
-    <button onclick="renderOpportunities()" style="background:none;border:none;color:var(--muted);cursor:pointer;font-family:var(--mono);font-size:12px;margin-bottom:20px">Back to opportunities</button>
-    ${oppCard(opp)}
-    <div style="margin-top:20px">
-      <button class="btn-watchlist ${watchlist.includes(symbol)?'active':''}" onclick="toggleWatch('${symbol}')">
-        &#9733; ${watchlist.includes(symbol)?'In Watchlist':'Add to Watchlist'}
+  const starred = watchlist.includes(symbol);
+
+  document.getElementById('sheetBody').innerHTML = `
+    <div style="background:var(--card);border-radius:var(--rl);padding:16px;margin-bottom:14px">
+      <div style="font-size:15px;font-weight:800;margin-bottom:3px">${opp.name||symbol}</div>
+      <div style="font-size:11px;font-family:var(--mono);color:var(--muted);margin-bottom:14px">${opp.sector||''}</div>
+      <div class="card-metrics" style="margin-bottom:14px">
+        ${opp.current_price!=null?`<div class="cm"><div class="cm-label">Current</div><div class="cm-val">&#8377;${opp.current_price}</div></div>`:''}
+        <div class="cm"><div class="cm-label">52W Low</div><div class="cm-val" style="color:var(--green)">&#8377;${opp.week52_low||'--'}</div></div>
+        <div class="cm"><div class="cm-label">52W High</div><div class="cm-val" style="color:var(--red)">&#8377;${opp.week52_high||'--'}</div></div>
+        ${opp.pct_above_52w_low!=null?`<div class="cm"><div class="cm-label">From 52W Low</div><div class="cm-val" style="color:var(--amber)">+${opp.pct_above_52w_low}%</div></div>`:''}
+        ${opp.change_1m_pct!=null?`<div class="cm"><div class="cm-label">1M Return</div><div class="cm-val ${opp.change_1m_pct>=0?'change-pos':'change-neg'}">${opp.change_1m_pct>0?'+':''}${opp.change_1m_pct}%</div></div>`:''}
+        ${opp.change_3m_pct!=null?`<div class="cm"><div class="cm-label">3M Return</div><div class="cm-val ${opp.change_3m_pct>=0?'change-pos':'change-neg'}">${opp.change_3m_pct>0?'+':''}${opp.change_3m_pct}%</div></div>`:''}
+      </div>
+      <div class="tags">${(opp.tags||[]).map(t=>`<span class="tag ${t}">${tagLabel(t)}</span>`).join('')}</div>
+    </div>
+    <div style="display:flex;gap:8px">
+      <button onclick="toggleWatch('${symbol}');this.textContent=watchlist.includes('${symbol}')?'&#9733; Saved':'&#9733; Save'" 
+        style="flex:1;padding:12px;border-radius:var(--r);border:1px solid var(--b1);background:transparent;color:var(--text);font-family:var(--head);font-size:13px;cursor:pointer">
+        ${starred?'&#9733; Saved':'&#9733; Save'}
       </button>
-      <button class="btn-watchlist" style="margin-left:8px" onclick="showFundDetail('${symbol}');switchTab('fundamentals')">
-        View Full Fundamentals
+      <button onclick="closeDetailSheet();setTimeout(()=>{switchTab('fund');showFundDetail('${symbol}')},300)"
+        style="flex:1;padding:12px;border-radius:var(--r);border:1px solid var(--b1);background:transparent;color:var(--text);font-family:var(--head);font-size:13px;cursor:pointer">
+        View Fundamentals
       </button>
     </div>
   `;
+  openDetailSheet();
 }
+
+function openDetailSheet()  { document.getElementById('detailOverlay').classList.add('open'); document.body.style.overflow='hidden'; }
+function closeDetailSheet() { document.getElementById('detailOverlay').classList.remove('open'); document.body.style.overflow=''; }
+function closeDetail(e)     { if (e.target === document.getElementById('detailOverlay')) closeDetailSheet(); }
 
 // ── Helpers ────────────────────────────────────────────────────────────────
 function tagLabel(t) {
-  return {AT_52W_LOW:'AT 52W LOW',NEAR_52W_LOW:'NEAR 52W LOW',DISCOUNTED_ZONE:'DISCOUNTED',
-          RECOVERY_1M:'RECOVERING 1M',STRONG_RECOVERY_1M:'STRONG RECOVERY',STRONG_RECOVERY_3M:'STRONG RECOVERY 3M',
-          HEAVY_FALL_1M:'HEAVY FALL 1M',HEAVY_FALL_3M:'HEAVY FALL 3M',NEAR_52W_HIGH:'NEAR 52W HIGH'}[t] || t;
-}
-function tagShort(t) {
-  return {AT_52W_LOW:'52W LOW',NEAR_52W_LOW:'NEAR LOW',DISCOUNTED_ZONE:'DISC',
-          RECOVERY_1M:'RCVRY',STRONG_RECOVERY_1M:'S-RCVRY',HEAVY_FALL_1M:'FALL',NEAR_52W_HIGH:'52W HI'}[t] || t;
-}
-function tagColor(t) {
-  if (t.includes('52W_LOW')||t==='DISCOUNTED_ZONE') return 'green';
-  if (t.includes('RECOVERY')) return 'purple';
-  if (t.includes('FALL')) return 'red';
-  if (t.includes('HIGH')) return 'purple';
-  return 'amber';
+  const map = {AT_52W_LOW:'AT 52W LOW',NEAR_52W_LOW:'NEAR 52W LOW',DISCOUNTED_ZONE:'DISCOUNTED -30%',
+    RECOVERY_1M:'+20% IN 1M',STRONG_RECOVERY_1M:'+40% IN 1M',STRONG_RECOVERY_3M:'+50% IN 3M',
+    HEAVY_FALL_1M:'-20% IN 1M',HEAVY_FALL_3M:'-30% IN 3M',NEAR_52W_HIGH:'NEAR 52W HIGH'};
+  return map[t] || t;
 }
 
 // ── Settings ───────────────────────────────────────────────────────────────
-function openSettings() {
-  document.getElementById('ghTokenInput').value = settings.token || '';
-  document.getElementById('ghRepoInput').value  = settings.repo  || 'rjganatra/stock-analyzer';
-  document.getElementById('settingsModal').classList.add('open');
-}
+function openSettings()  { document.getElementById('ghToken').value=settings.token||''; document.getElementById('ghRepo').value=settings.repo||'rjganatra/stock-analyzer'; document.getElementById('settingsModal').classList.add('open'); }
 function closeSettings() { document.getElementById('settingsModal').classList.remove('open'); }
-function saveSettings() {
-  settings.token = document.getElementById('ghTokenInput').value.trim();
-  settings.repo  = document.getElementById('ghRepoInput').value.trim();
-  localStorage.setItem('settings', JSON.stringify(settings));
-  closeSettings();
-}
-
-// Close modal on bg click
-document.getElementById('settingsModal').addEventListener('click', function(e){
-  if (e.target === this) closeSettings();
-});
-
-// Init watchlist count
-document.getElementById('cnt-watch').textContent = watchlist.length;
-
-boot();
+function saveSettings()  { settings.token=document.getElementById('ghToken').value.trim(); settings.repo=document.getElementById('ghRepo').value.trim(); localStorage.setItem('cfg',JSON.stringify(settings)); closeSettings(); }
 </script>
 </body>
 </html>
