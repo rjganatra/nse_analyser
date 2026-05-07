@@ -3,513 +3,404 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1"/>
-<meta name="apple-mobile-web-app-capable" content="yes"/>
 <meta name="theme-color" content="#08090a"/>
 <title>FundaScreen</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Syne:wght@400;600;800&display=swap" rel="stylesheet"/>
 <style>
 :root{
   --bg:#08090a;--surf:#0f1012;--card:#15161a;--card2:#1c1d22;
-  --b1:#25262c;--b2:#32333b;
-  --text:#f0f0f2;--muted:#7a7b85;--hint:#35363e;
+  --b1:#25262c;--b2:#32333b;--text:#f0f0f2;--muted:#7a7b85;--hint:#35363e;
   --green:#34d399;--gdim:#065f46;--gbg:#022c20;
   --amber:#fbbf24;--adim:#92400e;--abg:#3d1a04;
   --red:#f87171;--rdim:#7f1d1d;--rbg:#2d0808;
-  --blue:#60a5fa;--bbg:#1a2f50;
-  --purple:#a78bfa;--pbg:#2e1065;
+  --blue:#60a5fa;--bbg:#1a2f50;--purple:#a78bfa;--pbg:#2e1065;
   --accent:#818cf8;
-  --mono:'IBM Plex Mono',monospace;
-  --head:'Syne',sans-serif;
-  --r:10px;--rl:14px;
-  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --mono:'IBM Plex Mono',monospace;--head:'Syne',sans-serif;
+  --r:10px;--rl:14px;--safe-b:env(safe-area-inset-bottom,0px);
 }
 *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
 html,body{background:var(--bg);color:var(--text);font-family:var(--head);min-height:100vh;overflow-x:hidden}
-
-/* ── Bottom nav (mobile first) ── */
-.bottom-nav{
-  position:fixed;bottom:0;left:0;right:0;
-  background:var(--surf);border-top:1px solid var(--b1);
-  display:flex;z-index:100;
-  padding-bottom:var(--safe-bottom);
-}
-.bn-item{
-  flex:1;display:flex;flex-direction:column;align-items:center;
-  padding:10px 4px 8px;cursor:pointer;border:none;background:transparent;
-  color:var(--muted);font-family:var(--head);font-size:10px;font-weight:600;
-  letter-spacing:.04em;gap:4px;transition:color .15s;
-}
-.bn-item.active{color:var(--accent)}
-.bn-icon{font-size:20px;line-height:1}
-.bn-badge{
-  position:absolute;top:6px;
-  background:var(--accent);color:#0a0a0b;
-  font-size:9px;font-weight:800;padding:1px 5px;border-radius:20px;
-  font-family:var(--mono);
-}
-
-/* ── Top bar ── */
-.topbar{
-  display:flex;align-items:center;justify-content:space-between;
-  padding:12px 16px;background:var(--surf);
-  border-bottom:1px solid var(--b1);position:sticky;top:0;z-index:50;
-}
+.topbar{display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:var(--surf);border-bottom:1px solid var(--b1);position:sticky;top:0;z-index:50}
 .logo{font-size:16px;font-weight:800;letter-spacing:.08em;color:var(--accent)}
 .topbar-right{display:flex;align-items:center;gap:8px}
 .badge{font-size:9px;font-weight:700;padding:3px 8px;border-radius:20px;letter-spacing:.06em}
 .badge.fresh{background:var(--gbg);color:var(--green);border:1px solid var(--gdim)}
 .badge.stale{background:var(--abg);color:var(--amber);border:1px solid var(--adim)}
-.scan-time{font-size:10px;font-family:var(--mono);color:var(--muted)}
+.badge.none{background:var(--card2);color:var(--muted)}
 .btn-gear{background:transparent;border:1px solid var(--b1);border-radius:var(--r);padding:6px 10px;color:var(--muted);font-size:14px;cursor:pointer}
-
-/* ── Page content ── */
-.page{padding:12px 12px calc(80px + var(--safe-bottom)) 12px}
-
-/* ── Panels ── */
-.panel{display:none}
-.panel.active{display:block}
-
-/* ── Search + filter bar ── */
-.search-bar{
-  display:flex;gap:8px;margin-bottom:12px;align-items:center;
-  position:sticky;top:53px;z-index:40;
-  background:var(--bg);padding:8px 0;
-}
-.search-bar input{
-  flex:1;background:var(--card);border:1px solid var(--b1);border-radius:var(--r);
-  padding:10px 14px;font-family:var(--mono);font-size:14px;color:var(--text);outline:none;
-}
+.bottom-nav{position:fixed;bottom:0;left:0;right:0;background:var(--surf);border-top:1px solid var(--b1);display:flex;z-index:100;padding-bottom:var(--safe-b)}
+.bn-item{flex:1;display:flex;flex-direction:column;align-items:center;padding:10px 4px 8px;cursor:pointer;border:none;background:transparent;color:var(--muted);font-family:var(--head);font-size:10px;font-weight:600;letter-spacing:.04em;gap:4px;transition:color .15s;position:relative}
+.bn-item.active{color:var(--accent)}
+.bn-icon{font-size:20px;line-height:1}
+.bn-badge{position:absolute;top:6px;right:calc(50% - 14px);background:var(--accent);color:#0a0a0b;font-size:9px;font-weight:800;padding:1px 5px;border-radius:20px;font-family:var(--mono)}
+.page{padding:12px 12px calc(80px + var(--safe-b)) 12px}
+.panel{display:none}.panel.active{display:block}
+.search-bar{display:flex;gap:8px;margin-bottom:10px;position:sticky;top:53px;z-index:40;background:var(--bg);padding:8px 0}
+.search-bar input{flex:1;background:var(--card);border:1px solid var(--b1);border-radius:var(--r);padding:10px 14px;font-family:var(--mono);font-size:14px;color:var(--text);outline:none}
 .search-bar input:focus{border-color:var(--accent)}
 .search-bar input::placeholder{color:var(--hint)}
-.filter-scroll{display:flex;gap:6px;overflow-x:auto;padding-bottom:2px;margin-bottom:10px;-webkit-overflow-scrolling:touch}
+.filter-scroll{display:flex;gap:6px;overflow-x:auto;padding-bottom:4px;margin-bottom:10px;-webkit-overflow-scrolling:touch;scrollbar-width:none}
 .filter-scroll::-webkit-scrollbar{display:none}
-.fb{
-  flex-shrink:0;font-size:11px;padding:5px 14px;border-radius:20px;
-  border:1px solid var(--b1);background:transparent;color:var(--muted);
-  cursor:pointer;font-family:var(--head);white-space:nowrap;
-}
+.fb{flex-shrink:0;font-size:11px;padding:5px 14px;border-radius:20px;border:1px solid var(--b1);background:transparent;color:var(--muted);cursor:pointer;font-family:var(--head);white-space:nowrap}
 .fb.active{background:var(--card2);color:var(--text);border-color:var(--accent)}
-
-/* ── Stats row ── */
 .stat-row{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-bottom:14px}
 .stat{background:var(--card);border:1px solid var(--b1);border-radius:var(--rl);padding:12px 14px}
 .stat-label{font-size:9px;font-weight:700;letter-spacing:.1em;color:var(--muted);text-transform:uppercase;margin-bottom:5px}
 .stat-val{font-size:24px;font-weight:800;line-height:1}
 .stat-sub{font-size:10px;font-family:var(--mono);color:var(--muted);margin-top:3px}
-
-/* ── Card list (mobile-optimised) ── */
 .card-list{display:flex;flex-direction:column;gap:8px}
-.stock-card{
-  background:var(--card);border:1px solid var(--b1);border-radius:var(--rl);
-  padding:14px;cursor:pointer;transition:border-color .15s;position:relative;
-  -webkit-user-select:none;user-select:none;
-}
+.stock-card{background:var(--card);border:1px solid var(--b1);border-radius:var(--rl);padding:14px;cursor:pointer;transition:border-color .15s;position:relative}
 .stock-card:active{border-color:var(--accent);background:var(--card2)}
 .card-top{display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:8px}
 .card-sym{font-size:16px;font-weight:800}
-.card-name{font-size:11px;color:var(--muted);font-family:var(--mono);margin-top:1px}
-.card-right{display:flex;flex-direction:column;align-items:flex-end;gap:4px}
+.card-name{font-size:11px;color:var(--muted);font-family:var(--mono);margin-top:1px;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.card-right{display:flex;flex-direction:column;align-items:flex-end;gap:5px}
+.price-big{font-size:18px;font-weight:800;font-family:var(--mono)}
+.star-btn{background:none;border:none;color:var(--hint);cursor:pointer;font-size:18px;padding:0}
+.star-btn.starred{color:var(--amber)}
+/* 52W bar */
+.w52-wrap{margin:10px 0 6px}
+.w52-labels{display:flex;justify-content:space-between;font-family:var(--mono);font-size:10px;color:var(--muted);margin-bottom:4px}
+.w52-bar{height:6px;background:var(--b2);border-radius:3px;position:relative}
+.w52-range{position:absolute;top:0;height:100%;background:linear-gradient(90deg,var(--green),var(--amber),var(--red));border-radius:3px}
+.w52-cursor{position:absolute;top:-3px;width:12px;height:12px;border-radius:50%;background:var(--text);border:2px solid var(--bg);transform:translateX(-50%)}
+.w52-current{text-align:center;font-family:var(--mono);font-size:11px;color:var(--text);font-weight:500;margin-top:5px}
+.card-metrics{display:flex;gap:10px;font-family:var(--mono);font-size:11px;flex-wrap:wrap;margin-top:4px}
+.cm .cm-label{font-size:9px;color:var(--muted);letter-spacing:.06em;text-transform:uppercase}
+.cm .cm-val{font-size:12px;font-weight:600;margin-top:1px}
 .verdict-pill{font-size:10px;font-weight:700;padding:3px 10px;border-radius:20px;letter-spacing:.04em;white-space:nowrap}
 .verdict-pill.green{background:var(--gbg);color:var(--green);border:1px solid var(--gdim)}
 .verdict-pill.amber{background:var(--abg);color:var(--amber);border:1px solid var(--adim)}
 .verdict-pill.red{background:var(--rbg);color:var(--red);border:1px solid var(--rdim)}
-.star-btn{background:none;border:none;color:var(--hint);cursor:pointer;font-size:18px;padding:2px;flex-shrink:0}
-.star-btn.starred{color:var(--amber)}
-.card-metrics{display:flex;gap:12px;font-family:var(--mono);font-size:11px;flex-wrap:wrap}
-.cm{display:flex;flex-direction:column;gap:1px}
-.cm-label{font-size:9px;color:var(--muted);letter-spacing:.06em;text-transform:uppercase}
-.cm-val{font-size:13px;font-weight:600}
-.score-bar-wrap{margin-top:10px}
-.score-bar-bg{height:3px;background:var(--b2);border-radius:2px}
-.score-bar-fill{height:100%;border-radius:2px;transition:width .3s}
-.change-pos{color:var(--green)}
-.change-neg{color:var(--red)}
-
-/* Tags */
+.score-track{height:3px;background:var(--b2);border-radius:2px;margin-top:10px}
+.score-fill{height:100%;border-radius:2px;transition:width .3s}
 .tags{display:flex;gap:5px;flex-wrap:wrap;margin-top:8px}
 .tag{font-size:9px;font-weight:700;padding:2px 8px;border-radius:20px;letter-spacing:.04em}
 .tag.AT_52W_LOW,.tag.NEAR_52W_LOW{background:var(--gbg);color:var(--green)}
 .tag.DISCOUNTED_ZONE{background:var(--abg);color:var(--amber)}
-.tag.RECOVERY_1M,.tag.STRONG_RECOVERY_1M,.tag.STRONG_RECOVERY_3M{background:var(--bbg);color:var(--blue)}
+.tag.RECOVERY_1M,.tag.STRONG_RECOVERY_1M{background:var(--bbg);color:var(--blue)}
 .tag.HEAVY_FALL_1M,.tag.HEAVY_FALL_3M{background:var(--rbg);color:var(--red)}
 .tag.NEAR_52W_HIGH{background:var(--pbg);color:var(--purple)}
-
-/* ── Detail sheet (slides up) ── */
-.detail-overlay{
-  position:fixed;inset:0;z-index:200;background:rgba(0,0,0,.6);
-  display:none;align-items:flex-end;
-}
+.change-pos{color:var(--green)}.change-neg{color:var(--red)}
+.detail-overlay{position:fixed;inset:0;z-index:200;background:rgba(0,0,0,.6);display:none;align-items:flex-end}
 .detail-overlay.open{display:flex}
-.detail-sheet{
-  background:var(--surf);border-radius:20px 20px 0 0;
-  width:100%;max-height:92vh;overflow-y:auto;
-  padding:0 0 calc(20px + var(--safe-bottom)) 0;
-  -webkit-overflow-scrolling:touch;
-}
+.detail-sheet{background:var(--surf);border-radius:20px 20px 0 0;width:100%;max-height:92vh;overflow-y:auto;padding:0 0 calc(20px + var(--safe-b)) 0;-webkit-overflow-scrolling:touch}
 .sheet-handle{width:36px;height:4px;background:var(--b2);border-radius:2px;margin:12px auto 0}
-.sheet-header{
-  display:flex;align-items:center;justify-content:space-between;
-  padding:16px 16px 0;margin-bottom:14px;
-}
+.sheet-header{display:flex;align-items:center;justify-content:space-between;padding:16px 16px 0;margin-bottom:14px}
 .sheet-title{font-size:18px;font-weight:800}
-.sheet-close{
-  background:var(--card);border:1px solid var(--b1);border-radius:50%;
-  width:32px;height:32px;display:flex;align-items:center;justify-content:center;
-  cursor:pointer;color:var(--muted);font-size:16px;border:none;
-}
+.sheet-close{background:var(--card);border:none;border-radius:50%;width:32px;height:32px;display:flex;align-items:center;justify-content:center;cursor:pointer;color:var(--muted);font-size:16px}
 .sheet-body{padding:0 16px}
-.sheet-score-hero{
-  display:flex;align-items:center;gap:16px;
-  background:var(--card);border-radius:var(--rl);padding:16px;margin-bottom:14px;
-}
 .ring{position:relative;width:72px;height:72px;flex-shrink:0}
 .ring svg{width:72px;height:72px}
 .ring-num{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:15px;font-weight:800;font-family:var(--mono)}
-.sheet-info h2{font-size:15px;font-weight:800;margin-bottom:3px}
-.sheet-sub{font-size:10px;font-family:var(--mono);color:var(--muted);margin-bottom:8px}
-.sheet-sub a{color:var(--accent);text-decoration:none}
-.pf-row{display:flex;gap:10px;margin-top:6px;font-family:var(--mono);font-size:12px}
-
-.ratios-scroll{display:flex;gap:8px;overflow-x:auto;margin-bottom:14px;-webkit-overflow-scrolling:touch}
+.ratios-scroll{display:flex;gap:8px;overflow-x:auto;margin-bottom:14px;-webkit-overflow-scrolling:touch;scrollbar-width:none}
 .ratios-scroll::-webkit-scrollbar{display:none}
 .ratio-chip{flex-shrink:0;background:var(--card);border:1px solid var(--b1);border-radius:var(--r);padding:8px 12px}
 .rk{font-size:9px;color:var(--muted);letter-spacing:.08em;text-transform:uppercase;margin-bottom:2px}
 .rv{font-size:14px;font-weight:600}
-
 .crit-list{display:flex;flex-direction:column;gap:8px;margin-bottom:14px}
-.cc{
-  background:var(--card);border:1px solid var(--b1);border-radius:var(--r);
-  padding:12px 12px 12px 16px;position:relative;overflow:hidden;
-}
+.cc{background:var(--card);border:1px solid var(--b1);border-radius:var(--r);padding:12px 12px 12px 16px;position:relative;overflow:hidden}
 .cc::before{content:'';position:absolute;left:0;top:0;bottom:0;width:3px}
-.cc.pass::before{background:var(--green)}
-.cc.fail::before{background:var(--red)}
-.cc.neutral::before{background:var(--amber)}
+.cc.pass::before{background:var(--green)}.cc.fail::before{background:var(--red)}.cc.neutral::before{background:var(--amber)}
 .cc-top{display:flex;align-items:flex-start;justify-content:space-between;gap:8px;margin-bottom:5px}
 .cc-label{font-size:12px;font-weight:600;line-height:1.4}
 .cc-badge{font-size:9px;font-weight:700;padding:2px 7px;border-radius:20px;flex-shrink:0}
-.cc-badge.pass{background:var(--gbg);color:var(--green)}
-.cc-badge.fail{background:var(--rbg);color:var(--red)}
-.cc-badge.neutral{background:var(--abg);color:var(--amber)}
+.cc-badge.pass{background:var(--gbg);color:var(--green)}.cc-badge.fail{background:var(--rbg);color:var(--red)}.cc-badge.neutral{background:var(--abg);color:var(--amber)}
 .cc-detail{font-size:11px;font-family:var(--mono);color:var(--muted);line-height:1.5}
 .sec-title{font-size:10px;font-weight:700;letter-spacing:.12em;color:var(--muted);text-transform:uppercase;margin-bottom:10px}
-
-/* ── Settings modal ── */
 .modal-bg{position:fixed;inset:0;background:rgba(0,0,0,.7);z-index:300;display:none;align-items:flex-end}
 .modal-bg.open{display:flex}
-.modal{
-  background:var(--card);border-radius:20px 20px 0 0;width:100%;
-  padding:20px 20px calc(20px + var(--safe-bottom));
-}
+.modal{background:var(--card);border-radius:20px 20px 0 0;width:100%;padding:20px 20px calc(20px + var(--safe-b))}
 .modal h2{font-size:16px;font-weight:700;margin-bottom:6px}
 .modal p{font-size:12px;font-family:var(--mono);color:var(--muted);margin-bottom:16px;line-height:1.6}
 .modal label{font-size:11px;font-weight:600;display:block;margin-bottom:4px;color:var(--muted)}
-.modal input{
-  width:100%;background:var(--surf);border:1px solid var(--b2);border-radius:var(--r);
-  padding:10px 12px;font-family:var(--mono);font-size:13px;color:var(--text);
-  outline:none;margin-bottom:14px;
-}
+.modal input{width:100%;background:var(--surf);border:1px solid var(--b2);border-radius:var(--r);padding:10px 12px;font-family:var(--mono);font-size:13px;color:var(--text);outline:none;margin-bottom:14px}
 .modal input:focus{border-color:var(--accent)}
-.btn-primary{
-  width:100%;background:var(--accent);border:none;border-radius:var(--r);
-  padding:14px;font-family:var(--head);font-size:14px;font-weight:700;
-  color:#0a0a0b;cursor:pointer;letter-spacing:.04em;
-}
-
-/* ── Empty / loading ── */
+.btn-primary{width:100%;background:var(--accent);border:none;border-radius:var(--r);padding:14px;font-family:var(--head);font-size:14px;font-weight:700;color:#0a0a0b;cursor:pointer}
 .centered{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:40vh;gap:12px;color:var(--muted);text-align:center;font-size:13px;font-family:var(--mono)}
 .spinner{width:24px;height:24px;border:2px solid var(--b2);border-top-color:var(--accent);border-radius:50%;animation:spin .7s linear infinite}
 @keyframes spin{to{transform:rotate(360deg)}}
-.err{background:var(--rbg);border:1px solid var(--rdim);border-radius:var(--r);padding:14px;font-family:var(--mono);font-size:12px;color:var(--red);margin:8px 0}
-
-/* ── Load more ── */
-.load-more{
-  width:100%;margin-top:12px;padding:12px;border-radius:var(--r);
-  background:transparent;border:1px solid var(--b2);color:var(--muted);
-  font-family:var(--head);font-size:13px;cursor:pointer;
-}
-.load-more:active{background:var(--card)}
+.err{background:var(--rbg);border:1px solid var(--rdim);border-radius:var(--r);padding:14px;font-family:var(--mono);font-size:12px;color:var(--red);margin:8px 0;line-height:1.6}
+.load-more{width:100%;margin-top:12px;padding:12px;border-radius:var(--r);background:transparent;border:1px solid var(--b2);color:var(--muted);font-family:var(--head);font-size:13px;cursor:pointer}
 </style>
 </head>
 <body>
-
-<!-- Top bar -->
 <div class="topbar">
   <div class="logo">FUNDASCREEN</div>
   <div class="topbar-right">
+    <span id="scanTime" style="font-size:10px;font-family:var(--mono);color:var(--muted)"></span>
     <span class="badge none" id="freshBadge">--</span>
     <button class="btn-gear" onclick="openSettings()">&#9881;</button>
   </div>
 </div>
 
-<!-- Page content -->
 <div class="page">
-
-  <!-- Opportunities panel -->
   <div class="panel active" id="panel-opp">
-    <div class="search-bar">
-      <input id="searchOpp" placeholder="Search symbol..." oninput="renderOpp()"/>
-    </div>
-    <div class="filter-scroll" id="filterOpp">
-      <button class="fb active" onclick="setOppFilter('all',this)">All Opportunities</button>
-      <button class="fb" onclick="setOppFilter('52low',this)">Near 52W Low</button>
-      <button class="fb" onclick="setOppFilter('recovery',this)">Recovering</button>
-      <button class="fb" onclick="setOppFilter('falling',this)">Still Falling</button>
+    <div class="search-bar"><input id="searchOpp" placeholder="Search symbol or name..." oninput="renderOpp()"/></div>
+    <div class="filter-scroll">
+      <button class="fb active" onclick="setFilter('opp','all',this)">All</button>
+      <button class="fb" onclick="setFilter('opp','52low',this)">Near 52W Low</button>
+      <button class="fb" onclick="setFilter('opp','high',this)">Near 52W High</button>
+      <button class="fb" onclick="setFilter('opp','all_stocks',this)">All 500 Stocks</button>
     </div>
     <div id="oppStats"></div>
     <div id="oppList"><div class="centered"><div class="spinner"></div>Loading...</div></div>
-    <button class="load-more" id="loadMoreOpp" style="display:none" onclick="loadMoreOpp()">Load more</button>
+    <button class="load-more" id="lmOpp" style="display:none" onclick="loadMore('opp')">Load more</button>
   </div>
 
-  <!-- Fundamentals panel -->
   <div class="panel" id="panel-fund">
-    <div class="search-bar">
-      <input id="searchFund" placeholder="Search symbol..." oninput="renderFund()"/>
-    </div>
-    <div class="filter-scroll" id="filterFund">
-      <button class="fb active" onclick="setFundFilter('all',this)">All</button>
-      <button class="fb" onclick="setFundFilter('green',this)">Strong</button>
-      <button class="fb" onclick="setFundFilter('amber',this)">Moderate</button>
-      <button class="fb" onclick="setFundFilter('red',this)">Weak</button>
+    <div class="search-bar"><input id="searchFund" placeholder="Search symbol or name..." oninput="renderFund()"/></div>
+    <div class="filter-scroll">
+      <button class="fb active" onclick="setFilter('fund','all',this)">All</button>
+      <button class="fb" onclick="setFilter('fund','green',this)">Strong</button>
+      <button class="fb" onclick="setFilter('fund','amber',this)">Moderate</button>
+      <button class="fb" onclick="setFilter('fund','red',this)">Weak</button>
     </div>
     <div id="fundStats"></div>
     <div id="fundList"><div class="centered"><div class="spinner"></div>Loading...</div></div>
-    <button class="load-more" id="loadMoreFund" style="display:none" onclick="loadMoreFund()">Load more</button>
+    <button class="load-more" id="lmFund" style="display:none" onclick="loadMore('fund')">Load more</button>
   </div>
 
-  <!-- Watchlist panel -->
   <div class="panel" id="panel-watch">
     <div id="watchList"><div class="centered">Star any stock to save it here</div></div>
   </div>
-
 </div>
 
-<!-- Bottom navigation -->
 <nav class="bottom-nav">
   <button class="bn-item active" id="bn-opp" onclick="switchTab('opp')">
-    <span class="bn-icon">&#128200;</span>
-    <span>Opportunities</span>
+    <span class="bn-icon">&#128200;</span><span>Opportunities</span>
     <span class="bn-badge" id="cnt-opp" style="display:none"></span>
   </button>
   <button class="bn-item" id="bn-fund" onclick="switchTab('fund')">
-    <span class="bn-icon">&#128202;</span>
-    <span>Fundamentals</span>
+    <span class="bn-icon">&#128202;</span><span>Fundamentals</span>
   </button>
   <button class="bn-item" id="bn-watch" onclick="switchTab('watch')">
-    <span class="bn-icon">&#9733;</span>
-    <span>Watchlist</span>
+    <span class="bn-icon">&#9733;</span><span>Watchlist</span>
     <span class="bn-badge" id="cnt-watch" style="display:none"></span>
   </button>
 </nav>
 
-<!-- Detail sheet -->
-<div class="detail-overlay" id="detailOverlay" onclick="closeDetail(event)">
-  <div class="detail-sheet" id="detailSheet">
+<div class="detail-overlay" id="overlay" onclick="if(event.target===this)closeSheet()">
+  <div class="detail-sheet" id="sheet">
     <div class="sheet-handle"></div>
     <div class="sheet-header">
       <div class="sheet-title" id="sheetTitle"></div>
-      <button class="sheet-close" onclick="closeDetailSheet()">&#10005;</button>
+      <button class="sheet-close" onclick="closeSheet()">&#10005;</button>
     </div>
     <div class="sheet-body" id="sheetBody"></div>
   </div>
 </div>
 
-<!-- Settings -->
 <div class="modal-bg" id="settingsModal" onclick="if(event.target===this)closeSettings()">
   <div class="modal">
     <h2>Settings</h2>
-    <p>To sync your watchlist to GitHub, add a Personal Access Token (repo scope).<br/>Get one at github.com/settings/tokens</p>
+    <p>GitHub token (repo scope) lets the website sync your watchlist back to the repo automatically.</p>
     <label>GitHub Token</label>
     <input id="ghToken" type="password" placeholder="ghp_xxxxxxxxxxxx"/>
     <label>Repo</label>
-    <input id="ghRepo" placeholder="rjganatra/stock-analyzer" value="rjganatra/stock-analyzer"/>
-    <button class="btn-primary" onclick="saveSettings()">Save Settings</button>
+    <input id="ghRepo" value="rjganatra/stock-analyzer"/>
+    <button class="btn-primary" onclick="saveSettings()">Save</button>
   </div>
 </div>
 
 <script>
-// ── State ──────────────────────────────────────────────────────────────────
 let oppData  = null;
 let fundData = null;
 let activeTab = 'opp';
-let oppFilter = 'all';
-let fundFilter = 'all';
+let oppFilter = 'all', fundFilter = 'all';
+let oppPage = 1, fundPage = 1;
+const PG = 30;
 let watchlist = JSON.parse(localStorage.getItem('wl') || '[]');
-let settings  = JSON.parse(localStorage.getItem('cfg') || '{"token":"","repo":"rjganatra/stock-analyzer"}');
-let oppPage   = 1;
-let fundPage  = 1;
-const PAGE_SIZE = 30;
+let cfg = JSON.parse(localStorage.getItem('cfg') || '{"token":"","repo":"rjganatra/stock-analyzer"}');
 
-// ── Boot ───────────────────────────────────────────────────────────────────
-(async function boot() {
+(async function(){
   updateWatchBadge();
   await Promise.all([loadOpp(), loadFund()]);
 })();
 
-async function loadOpp() {
-  try {
-    const r = await fetch('opportunities.json?t=' + Date.now());
-    if (!r.ok) throw new Error('Run the Opportunity Scan workflow first in your GitHub repo.');
+async function loadOpp(){
+  try{
+    const r = await fetch('opportunities.json?t='+Date.now());
+    if(!r.ok) throw new Error('Run the Opportunity Scan workflow first in GitHub Actions.');
     oppData = await r.json();
-    const meta = oppData.meta || {};
-    const scanned = meta.scanned_at ? new Date(meta.scanned_at) : null;
-    const ageHrs  = scanned ? (Date.now() - scanned) / 3600000 : 999;
-    const badge   = document.getElementById('freshBadge');
-    badge.textContent = ageHrs < 25 ? 'LIVE' : 'STALE';
-    badge.className   = 'badge ' + (ageHrs < 25 ? 'fresh' : 'stale');
+    const m = oppData.meta||{};
+    const scanned = m.scanned_at ? new Date(m.scanned_at) : null;
+    const age = scanned ? (Date.now()-scanned)/3600000 : 999;
+    document.getElementById('scanTime').textContent = scanned
+      ? scanned.toLocaleDateString('en-IN',{day:'numeric',month:'short'})+' '+
+        scanned.toLocaleTimeString('en-IN',{hour:'2-digit',minute:'2-digit'}) : '';
+    const b = document.getElementById('freshBadge');
+    b.textContent = age<25?'LIVE':'STALE';
+    b.className = 'badge '+(age<25?'fresh':'stale');
     const cnt = document.getElementById('cnt-opp');
-    cnt.textContent = meta.opportunities || 0;
-    cnt.style.display = (meta.opportunities > 0) ? '' : 'none';
+    cnt.textContent = m.opportunities||0;
+    cnt.style.display = (m.opportunities>0)?'':'none';
     renderOpp();
-  } catch(e) {
-    document.getElementById('oppList').innerHTML = `<div class="err">${e.message}</div>`;
+  }catch(e){
+    document.getElementById('oppList').innerHTML =
+      `<div class="err">${e.message}<br><br>
+       Steps to fix:<br>
+       1. Go to repo Settings → Pages → Source → GitHub Actions<br>
+       2. Run "Opportunity Scan" workflow manually from Actions tab</div>`;
   }
 }
 
-async function loadFund() {
-  try {
-    const r = await fetch('fundamentals_summary.json?t=' + Date.now());
-    if (!r.ok) throw new Error('Run the Fundamental Scan workflow first.');
+async function loadFund(){
+  try{
+    const r = await fetch('fundamentals_summary.json?t='+Date.now());
+    if(!r.ok) throw new Error('Run the Fundamental Scan workflow first.');
     fundData = await r.json();
     renderFund();
-  } catch(e) {
-    document.getElementById('fundList').innerHTML = `<div class="err">${e.message}</div>`;
+  }catch(e){
+    document.getElementById('fundList').innerHTML =
+      `<div class="err">${e.message}</div>`;
   }
 }
 
-// ── Tab switching ──────────────────────────────────────────────────────────
-function switchTab(tab) {
-  activeTab = tab;
-  document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
-  document.querySelectorAll('.bn-item').forEach(b => b.classList.remove('active'));
-  document.getElementById('panel-' + tab).classList.add('active');
-  document.getElementById('bn-' + tab).classList.add('active');
-  if (tab === 'watch') renderWatch();
+function switchTab(tab){
+  activeTab=tab;
+  document.querySelectorAll('.panel').forEach(p=>p.classList.remove('active'));
+  document.querySelectorAll('.bn-item').forEach(b=>b.classList.remove('active'));
+  document.getElementById('panel-'+tab).classList.add('active');
+  document.getElementById('bn-'+tab).classList.add('active');
+  if(tab==='watch') renderWatch();
 }
 
-// ── Opportunities ──────────────────────────────────────────────────────────
-function getOppStocks() {
-  if (!oppData) return [];
-  const q = document.getElementById('searchOpp').value.toUpperCase().trim();
-  let stocks = oppData.all_stocks || [];
+function setFilter(panel, f, btn){
+  if(panel==='opp') oppFilter=f; else fundFilter=f;
+  btn.closest('.filter-scroll').querySelectorAll('.fb').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  if(panel==='opp'){ oppPage=1; renderOpp(); } else { fundPage=1; renderFund(); }
+}
 
-  if (oppFilter === '52low')    stocks = stocks.filter(s => s.tags.some(t => t.includes('52W_LOW') || t === 'DISCOUNTED_ZONE'));
-  else if (oppFilter === 'recovery') stocks = stocks.filter(s => s.tags.some(t => t.includes('RECOVERY')));
-  else if (oppFilter === 'falling')  stocks = stocks.filter(s => s.tags.some(t => t.includes('HEAVY_FALL')));
-  else stocks = stocks.filter(s => s.is_opportunity);
+function loadMore(panel){
+  if(panel==='opp'){ oppPage++; renderOpp(); } else { fundPage++; renderFund(); }
+}
 
-  if (q) stocks = stocks.filter(s => s.symbol.includes(q) || (s.name||'').toUpperCase().includes(q));
+// ── 52W bar ───────────────────────────────────────────────────────────────
+function w52Bar(current, low, high){
+  if(!current || !low || !high || high<=low) return '';
+  const pct = Math.min(Math.max(((current-low)/(high-low))*100, 0), 100);
+  return `
+    <div class="w52-wrap">
+      <div class="w52-labels">
+        <span>52W Low &#8377;${low.toLocaleString('en-IN')}</span>
+        <span>52W High &#8377;${high.toLocaleString('en-IN')}</span>
+      </div>
+      <div class="w52-bar">
+        <div class="w52-range" style="left:0;right:0"></div>
+        <div class="w52-cursor" style="left:${pct.toFixed(1)}%"></div>
+      </div>
+      <div class="w52-current">Current &#8377;${current.toLocaleString('en-IN')} — ${pct.toFixed(0)}% of 52W range</div>
+    </div>`;
+}
+
+// ── Opportunity rendering ─────────────────────────────────────────────────
+function getOppStocks(){
+  if(!oppData) return [];
+  const q = (document.getElementById('searchOpp').value||'').toUpperCase().trim();
+  let stocks = oppData.all_stocks||[];
+  if(oppFilter==='52low') stocks=stocks.filter(s=>s.near_52w_low);
+  else if(oppFilter==='high') stocks=stocks.filter(s=>s.tags&&s.tags.includes('NEAR_52W_HIGH'));
+  else if(oppFilter==='all') stocks=stocks.filter(s=>s.is_opportunity);
+  // 'all_stocks' shows everything
+  if(q) stocks=stocks.filter(s=>s.symbol.includes(q)||(s.name||'').toUpperCase().includes(q));
   return stocks;
 }
 
-function renderOpp() {
-  oppPage = 1;
-  if (!oppData) return;
-  const stocks = getOppStocks();
-  const meta = oppData.meta || {};
-  const near52    = (oppData.all_stocks||[]).filter(s=>s.tags.some(t=>t.includes('52W_LOW')||t==='DISCOUNTED_ZONE')).length;
-  const recovery  = (oppData.all_stocks||[]).filter(s=>s.tags.some(t=>t.includes('RECOVERY'))).length;
-  const falling   = (oppData.all_stocks||[]).filter(s=>s.tags.some(t=>t.includes('HEAVY_FALL'))).length;
+function renderOpp(){
+  oppPage = oppPage||1;
+  if(!oppData) return;
+  const m=oppData.meta||{};
+  const near52=(oppData.all_stocks||[]).filter(s=>s.near_52w_low).length;
+  const priced=(oppData.all_stocks||[]).filter(s=>s.current_price).length;
 
-  document.getElementById('oppStats').innerHTML = `
+  document.getElementById('oppStats').innerHTML=`
     <div class="stat-row">
       <div class="stat"><div class="stat-label">Near 52W Low</div><div class="stat-val" style="color:var(--green)">${near52}</div><div class="stat-sub">within 30%</div></div>
-      <div class="stat"><div class="stat-label">Recovering</div><div class="stat-val" style="color:var(--blue)">${recovery}</div><div class="stat-sub">+20% in 1M</div></div>
-      <div class="stat"><div class="stat-label">Still Falling</div><div class="stat-val" style="color:var(--red)">${falling}</div><div class="stat-sub">-20% in 1M</div></div>
-      <div class="stat"><div class="stat-label">Scanned</div><div class="stat-val">${meta.success||0}</div><div class="stat-sub">Nifty 500</div></div>
+      <div class="stat"><div class="stat-label">Opportunities</div><div class="stat-val" style="color:var(--amber)">${m.opportunities||0}</div><div class="stat-sub">flagged stocks</div></div>
+      <div class="stat"><div class="stat-label">Priced</div><div class="stat-val">${priced}</div><div class="stat-sub">of ${m.total||0} stocks</div></div>
+      <div class="stat"><div class="stat-label">Source</div><div class="stat-val" style="font-size:12px;padding-top:4px">Screener</div><div class="stat-sub">.in</div></div>
     </div>`;
 
-  const visible = stocks.slice(0, oppPage * PAGE_SIZE);
-  document.getElementById('oppList').innerHTML = visible.length
-    ? `<div class="card-list">${visible.map(s => oppCard(s)).join('')}</div>`
-    : '<div class="centered">No stocks match this filter</div>';
+  const stocks = getOppStocks();
+  const visible = stocks.slice(0, oppPage*PG);
 
-  const lm = document.getElementById('loadMoreOpp');
-  lm.style.display = stocks.length > visible.length ? '' : 'none';
-  if (stocks.length > visible.length)
-    lm.textContent = `Load more (${stocks.length - visible.length} remaining)`;
+  document.getElementById('oppList').innerHTML = visible.length
+    ? `<div class="card-list">${visible.map(s=>oppCard(s)).join('')}</div>`
+    : `<div class="centered">No stocks match — try "All 500 Stocks" filter</div>`;
+
+  const lm = document.getElementById('lmOpp');
+  lm.style.display = stocks.length>visible.length ? '' : 'none';
+  if(stocks.length>visible.length) lm.textContent=`Load more (${stocks.length-visible.length} remaining)`;
 }
 
-function loadMoreOpp() { oppPage++; renderOpp(); }
-
-function oppCard(s) {
-  const starred = watchlist.includes(s.symbol);
-  const chg1m = s.change_1m_pct;
-  const chg3m = s.change_3m_pct;
-  const pct   = s.pct_above_52w_low;
+function oppCard(s){
+  const starred=watchlist.includes(s.symbol);
+  const pct=s.pct_above_52w_low;
   return `<div class="stock-card" onclick="showOppDetail('${s.symbol}')">
     <div class="card-top">
       <div>
         <div class="card-sym">${s.symbol}</div>
-        <div class="card-name">${(s.name||'').slice(0,28)} &middot; ${s.sector||''}</div>
+        <div class="card-name">${s.name||''}</div>
       </div>
       <div class="card-right">
+        ${s.current_price ? `<div class="price-big">&#8377;${s.current_price.toLocaleString('en-IN')}</div>` : '<div style="font-size:11px;color:var(--hint)">No price</div>'}
         <button class="star-btn ${starred?'starred':''}" onclick="event.stopPropagation();toggleWatch('${s.symbol}')">&#9733;</button>
       </div>
     </div>
+    ${w52Bar(s.current_price, s.week52_low, s.week52_high)}
     <div class="card-metrics">
-      ${s.current_price!=null?`<div class="cm"><div class="cm-label">Price</div><div class="cm-val">&#8377;${s.current_price}</div></div>`:''}
       ${pct!=null?`<div class="cm"><div class="cm-label">From 52W Low</div><div class="cm-val" style="color:var(--amber)">+${pct}%</div></div>`:''}
-      ${chg1m!=null?`<div class="cm"><div class="cm-label">1 Month</div><div class="cm-val ${chg1m>=0?'change-pos':'change-neg'}">${chg1m>0?'+':''}${chg1m}%</div></div>`:''}
-      ${chg3m!=null?`<div class="cm"><div class="cm-label">3 Month</div><div class="cm-val ${chg3m>=0?'change-pos':'change-neg'}">${chg3m>0?'+':''}${chg3m}%</div></div>`:''}
+      ${s.pct_below_52w_high!=null?`<div class="cm"><div class="cm-label">From 52W High</div><div class="cm-val" style="color:var(--red)">-${s.pct_below_52w_high}%</div></div>`:''}
+      ${s.sector?`<div class="cm"><div class="cm-label">Sector</div><div class="cm-val" style="color:var(--muted)">${s.sector}</div></div>`:''}
     </div>
-    <div class="tags">${(s.tags||[]).map(t=>`<span class="tag ${t}">${tagLabel(t)}</span>`).join('')}</div>
+    ${(s.tags||[]).length?`<div class="tags">${s.tags.map(t=>`<span class="tag ${t}">${tagLabel(t)}</span>`).join('')}</div>`:''}
   </div>`;
 }
 
-function setOppFilter(f, btn) {
-  oppFilter = f;
-  document.querySelectorAll('#filterOpp .fb').forEach(b => b.classList.remove('active'));
-  btn.classList.add('active');
-  renderOpp();
-}
-
-// ── Fundamentals ───────────────────────────────────────────────────────────
-function getFundStocks() {
-  if (!fundData) return [];
-  const q = document.getElementById('searchFund').value.toUpperCase().trim();
-  let stocks = fundData.stocks || [];
-  if (fundFilter !== 'all') stocks = stocks.filter(s => s.verdict_color === fundFilter);
-  if (q) stocks = stocks.filter(s => s.symbol.includes(q) || (s.name||'').toUpperCase().includes(q));
+// ── Fundamental rendering ─────────────────────────────────────────────────
+function getFundStocks(){
+  if(!fundData) return [];
+  const q=(document.getElementById('searchFund').value||'').toUpperCase().trim();
+  let stocks=fundData.stocks||[];
+  if(fundFilter!=='all') stocks=stocks.filter(s=>s.verdict_color===fundFilter);
+  if(q) stocks=stocks.filter(s=>s.symbol.includes(q)||(s.name||'').toUpperCase().includes(q));
   return stocks;
 }
 
-function renderFund() {
-  fundPage = 1;
-  if (!fundData) return;
-  const stocks = fundData.stocks || [];
-  const strong = stocks.filter(s=>s.verdict_color==='green').length;
-  const mod    = stocks.filter(s=>s.verdict_color==='amber').length;
-  const weak   = stocks.filter(s=>s.verdict_color==='red').length;
+function renderFund(){
+  fundPage=fundPage||1;
+  if(!fundData) return;
+  const stocks=fundData.stocks||[];
+  const strong=stocks.filter(s=>s.verdict_color==='green').length;
+  const mod=stocks.filter(s=>s.verdict_color==='amber').length;
+  const weak=stocks.filter(s=>s.verdict_color==='red').length;
 
-  document.getElementById('fundStats').innerHTML = `
+  document.getElementById('fundStats').innerHTML=`
     <div class="stat-row">
-      <div class="stat"><div class="stat-label">Strong</div><div class="stat-val" style="color:var(--green)">${strong}</div><div class="stat-sub">score &gt;= 78%</div></div>
-      <div class="stat"><div class="stat-label">Moderate</div><div class="stat-val" style="color:var(--amber)">${mod}</div><div class="stat-sub">score 58-78%</div></div>
-      <div class="stat"><div class="stat-label">Weak</div><div class="stat-val" style="color:var(--red)">${weak}</div><div class="stat-sub">score &lt; 58%</div></div>
+      <div class="stat"><div class="stat-label">Strong</div><div class="stat-val" style="color:var(--green)">${strong}</div><div class="stat-sub">score &gt;=78%</div></div>
+      <div class="stat"><div class="stat-label">Moderate</div><div class="stat-val" style="color:var(--amber)">${mod}</div><div class="stat-sub">58-78%</div></div>
+      <div class="stat"><div class="stat-label">Weak</div><div class="stat-val" style="color:var(--red)">${weak}</div><div class="stat-sub">&lt;58%</div></div>
       <div class="stat"><div class="stat-label">Total</div><div class="stat-val">${stocks.length}</div><div class="stat-sub">scanned</div></div>
     </div>`;
 
-  const filtered = getFundStocks();
-  const visible  = filtered.slice(0, fundPage * PAGE_SIZE);
+  const filtered=getFundStocks();
+  const visible=filtered.slice(0,fundPage*PG);
 
   document.getElementById('fundList').innerHTML = visible.length
-    ? `<div class="card-list">${visible.map(s => fundCard(s)).join('')}</div>`
+    ? `<div class="card-list">${visible.map(s=>fundCard(s)).join('')}</div>`
     : '<div class="centered">No stocks match</div>';
 
-  const lm = document.getElementById('loadMoreFund');
-  lm.style.display = filtered.length > visible.length ? '' : 'none';
-  if (filtered.length > visible.length)
-    lm.textContent = `Load more (${filtered.length - visible.length} remaining)`;
+  const lm=document.getElementById('lmFund');
+  lm.style.display=filtered.length>visible.length?'':'none';
+  if(filtered.length>visible.length) lm.textContent=`Load more (${filtered.length-visible.length} remaining)`;
 }
 
-function loadMoreFund() { fundPage++; renderFund(); }
-
-function fundCard(s) {
-  const sc = s.verdict_color==='green'?'var(--green)':s.verdict_color==='amber'?'var(--amber)':'var(--red)';
-  const starred = watchlist.includes(s.symbol);
-  const oppInfo = (oppData?.all_stocks||[]).find(x=>x.symbol===s.symbol);
+function fundCard(s){
+  const sc=s.verdict_color==='green'?'var(--green)':s.verdict_color==='amber'?'var(--amber)':'var(--red)';
+  const starred=watchlist.includes(s.symbol);
+  const opp=(oppData?.all_stocks||[]).find(x=>x.symbol===s.symbol);
   return `<div class="stock-card" onclick="showFundDetail('${s.symbol}')">
     <div class="card-top">
       <div>
@@ -517,94 +408,119 @@ function fundCard(s) {
         <div class="card-name">${(s.name||'').slice(0,28)} &middot; ${s.sector||''}</div>
       </div>
       <div class="card-right">
-        <button class="star-btn ${starred?'starred':''}" onclick="event.stopPropagation();toggleWatch('${s.symbol}')">&#9733;</button>
-        <span class="verdict-pill ${s.verdict_color}">${s.verdict_color==='green'?'STRONG':s.verdict_color==='amber'?'MODERATE':'WEAK'}</span>
+        ${opp?.current_price?`<div class="price-big">&#8377;${opp.current_price.toLocaleString('en-IN')}</div>`:''}
+        <div style="display:flex;align-items:center;gap:6px">
+          <span class="verdict-pill ${s.verdict_color}">${s.verdict_color==='green'?'STRONG':s.verdict_color==='amber'?'MOD':'WEAK'}</span>
+          <button class="star-btn ${starred?'starred':''}" onclick="event.stopPropagation();toggleWatch('${s.symbol}')">&#9733;</button>
+        </div>
       </div>
     </div>
+    ${opp?.current_price&&opp?.week52_low&&opp?.week52_high ? w52Bar(opp.current_price,opp.week52_low,opp.week52_high) : ''}
     <div class="card-metrics">
       <div class="cm"><div class="cm-label">Score</div><div class="cm-val" style="color:${sc}">${s.score_pct}%</div></div>
-      <div class="cm"><div class="cm-label">Pass/Fail</div><div class="cm-val">${s.passes}P ${s.fails}F ${s.neutrals}N</div></div>
-      ${oppInfo?.current_price?`<div class="cm"><div class="cm-label">Price</div><div class="cm-val">&#8377;${oppInfo.current_price}</div></div>`:''}
-      ${oppInfo?.change_1m_pct!=null?`<div class="cm"><div class="cm-label">1M</div><div class="cm-val ${oppInfo.change_1m_pct>=0?'change-pos':'change-neg'}">${oppInfo.change_1m_pct>0?'+':''}${oppInfo.change_1m_pct}%</div></div>`:''}
+      <div class="cm"><div class="cm-label">Pass/Fail</div><div class="cm-val">${s.passes}P ${s.fails}F</div></div>
+      ${s.top_ratios?.['ROE %']?`<div class="cm"><div class="cm-label">ROE</div><div class="cm-val">${s.top_ratios['ROE %']}%</div></div>`:''}
+      ${s.top_ratios?.['ROCE %']?`<div class="cm"><div class="cm-label">ROCE</div><div class="cm-val">${s.top_ratios['ROCE %']}%</div></div>`:''}
     </div>
-    <div class="score-bar-wrap">
-      <div class="score-bar-bg"><div class="score-bar-fill" style="width:${s.score_pct}%;background:${sc}"></div></div>
-    </div>
+    <div class="score-track"><div class="score-fill" style="width:${s.score_pct}%;background:${sc}"></div></div>
   </div>`;
 }
 
-function setFundFilter(f, btn) {
-  fundFilter = f;
-  document.querySelectorAll('#filterFund .fb').forEach(b => b.classList.remove('active'));
-  btn.classList.add('active');
-  renderFund();
-}
-
-// ── Watchlist ──────────────────────────────────────────────────────────────
-function toggleWatch(symbol) {
-  watchlist = watchlist.includes(symbol)
-    ? watchlist.filter(s => s !== symbol)
-    : [...watchlist, symbol];
-  localStorage.setItem('wl', JSON.stringify(watchlist));
+// ── Watchlist ─────────────────────────────────────────────────────────────
+function toggleWatch(symbol){
+  watchlist=watchlist.includes(symbol)?watchlist.filter(s=>s!==symbol):[...watchlist,symbol];
+  localStorage.setItem('wl',JSON.stringify(watchlist));
   updateWatchBadge();
   renderOpp(); renderFund();
-  if (activeTab === 'watch') renderWatch();
-  if (settings.token && settings.repo) syncToGitHub();
+  if(activeTab==='watch') renderWatch();
+  if(cfg.token&&cfg.repo) syncGitHub();
 }
-
-function updateWatchBadge() {
-  const el = document.getElementById('cnt-watch');
-  el.textContent = watchlist.length;
-  el.style.display = watchlist.length > 0 ? '' : 'none';
+function updateWatchBadge(){
+  const el=document.getElementById('cnt-watch');
+  el.textContent=watchlist.length;
+  el.style.display=watchlist.length>0?'':'none';
 }
-
-function renderWatch() {
-  const el = document.getElementById('watchList');
-  if (!watchlist.length) { el.innerHTML = '<div class="centered">Star stocks to add them here</div>'; return; }
-  const fundStocks = (fundData?.stocks||[]).filter(s=>watchlist.includes(s.symbol));
-  const oppMap = {};
-  (oppData?.all_stocks||[]).forEach(s=>oppMap[s.symbol]=s);
-  el.innerHTML = `<div class="card-list">${fundStocks.map(s=>fundCard(s)).join('')}</div>` ||
-    `<div class="centered">Scan data not yet available for your watchlist stocks</div>`;
+function renderWatch(){
+  const el=document.getElementById('watchList');
+  if(!watchlist.length){el.innerHTML='<div class="centered">Star stocks to add them here</div>';return;}
+  const fundStocks=(fundData?.stocks||[]).filter(s=>watchlist.includes(s.symbol));
+  const oppOnly=watchlist.filter(s=>!fundStocks.find(f=>f.symbol===s));
+  let html='<div class="card-list">';
+  html+=fundStocks.map(s=>fundCard(s)).join('');
+  oppOnly.forEach(sym=>{
+    const o=(oppData?.all_stocks||[]).find(s=>s.symbol===sym);
+    if(o) html+=oppCard(o);
+  });
+  html+='</div>';
+  el.innerHTML=html;
 }
-
-async function syncToGitHub() {
-  try {
-    const api = `https://api.github.com/repos/${settings.repo}/contents/custom_watchlist.json`;
-    const get = await fetch(api, {headers:{'Authorization':`token ${settings.token}`,'Accept':'application/vnd.github.v3+json'}});
-    const sha = get.ok ? (await get.json()).sha : null;
-    const content = btoa(JSON.stringify({custom_stocks:watchlist,updated_at:new Date().toISOString()},null,2));
-    await fetch(api, {method:'PUT',headers:{'Authorization':`token ${settings.token}`,'Content-Type':'application/json'},
+async function syncGitHub(){
+  try{
+    const api=`https://api.github.com/repos/${cfg.repo}/contents/custom_watchlist.json`;
+    const get=await fetch(api,{headers:{'Authorization':`token ${cfg.token}`,'Accept':'application/vnd.github.v3+json'}});
+    const sha=get.ok?(await get.json()).sha:null;
+    const content=btoa(JSON.stringify({custom_stocks:watchlist,updated_at:new Date().toISOString()},null,2));
+    await fetch(api,{method:'PUT',headers:{'Authorization':`token ${cfg.token}`,'Content-Type':'application/json'},
       body:JSON.stringify({message:`watchlist: ${new Date().toISOString().split('T')[0]}`,content,...(sha&&{sha})})});
-  } catch(e) { console.warn('GitHub sync failed:', e.message); }
+  }catch(e){console.warn('sync failed:',e.message);}
 }
 
-// ── Detail sheets ──────────────────────────────────────────────────────────
-async function showFundDetail(symbol) {
-  document.getElementById('sheetTitle').textContent = symbol;
-  document.getElementById('sheetBody').innerHTML = '<div class="centered"><div class="spinner"></div></div>';
-  openDetailSheet();
+// ── Detail sheets ─────────────────────────────────────────────────────────
+async function showOppDetail(symbol){
+  document.getElementById('sheetTitle').textContent=symbol;
+  document.getElementById('sheetBody').innerHTML='<div class="centered"><div class="spinner"></div></div>';
+  openSheet();
+  const s=(oppData?.all_stocks||[]).find(x=>x.symbol===symbol);
+  if(!s){document.getElementById('sheetBody').innerHTML='<div class="err">No data</div>';return;}
+  const starred=watchlist.includes(symbol);
+  document.getElementById('sheetBody').innerHTML=`
+    <div style="background:var(--card);border-radius:var(--rl);padding:16px;margin-bottom:12px">
+      <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:4px">
+        <div>
+          <div style="font-size:18px;font-weight:800">${s.symbol}</div>
+          <div style="font-size:11px;color:var(--muted);font-family:var(--mono)">${s.name||''}</div>
+          <div style="font-size:11px;color:var(--muted);font-family:var(--mono)">${s.sector||''}</div>
+        </div>
+        ${s.current_price?`<div style="text-align:right"><div style="font-size:24px;font-weight:800;font-family:var(--mono)">&#8377;${s.current_price.toLocaleString('en-IN')}</div></div>`:''}
+      </div>
+      ${w52Bar(s.current_price,s.week52_low,s.week52_high)}
+      <div style="display:flex;gap:12px;font-family:var(--mono);font-size:12px;margin-top:10px;flex-wrap:wrap">
+        ${s.pct_above_52w_low!=null?`<div><span style="color:var(--muted)">From 52W low: </span><span style="color:var(--amber);font-weight:600">+${s.pct_above_52w_low}%</span></div>`:''}
+        ${s.pct_below_52w_high!=null?`<div><span style="color:var(--muted)">From 52W high: </span><span style="color:var(--red)">-${s.pct_below_52w_high}%</span></div>`:''}
+      </div>
+      ${(s.tags||[]).length?`<div class="tags" style="margin-top:10px">${s.tags.map(t=>`<span class="tag ${t}">${tagLabel(t)}</span>`).join('')}</div>`:''}
+    </div>
+    <div style="display:flex;gap:8px;margin-bottom:12px">
+      <button onclick="toggleWatch('${symbol}');this.textContent=watchlist.includes('${symbol}')?'&#9733; Saved':'&#9733; Save';this.style.borderColor=watchlist.includes('${symbol}')?'var(--adim)':'var(--b1)';this.style.color=watchlist.includes('${symbol}')?'var(--amber)':'var(--muted)'"
+        style="flex:1;padding:11px;border-radius:var(--r);border:1px solid ${starred?'var(--adim)':'var(--b1)'};background:transparent;color:${starred?'var(--amber)':'var(--muted)'};font-family:var(--head);font-size:13px;cursor:pointer">
+        ${starred?'&#9733; Saved':'&#9733; Save'}
+      </button>
+      <button onclick="closeSheet();setTimeout(()=>{switchTab('fund');showFundDetail('${symbol}')},300)"
+        style="flex:1;padding:11px;border-radius:var(--r);border:1px solid var(--b1);background:transparent;color:var(--text);font-family:var(--head);font-size:13px;cursor:pointer">
+        View Fundamentals
+      </button>
+    </div>
+    ${s.screener_url?`<a href="${s.screener_url}" target="_blank" style="display:block;text-align:center;font-family:var(--mono);font-size:11px;color:var(--accent);text-decoration:none;padding:8px">View on Screener.in &#8599;</a>`:''}
+  `;
+}
 
-  let d = null;
-  try {
-    const r = await fetch(`fundamentals/${symbol}.json?t=`+Date.now());
-    if (r.ok) d = await r.json();
-  } catch(e) {}
-  if (!d) d = fundData?.stocks?.find(s=>s.symbol===symbol);
-  if (!d) { document.getElementById('sheetBody').innerHTML = '<div class="err">No data available</div>'; return; }
-
-  const vc = d.verdict_color||'amber';
-  const pct = d.score_pct||0;
-  const sc = vc==='green'?'var(--green)':vc==='amber'?'var(--amber)':'var(--red)';
-  const rv = 28; const circ = 2*Math.PI*rv;
-  const top = d.top_ratios||{};
-  const ratioKeys = ['P/E','ROE %','ROCE %','Debt / Equity','Div. Yield %','Current Price'];
-  const oppInfo = (oppData?.all_stocks||[]).find(s=>s.symbol===symbol);
-  const starred = watchlist.includes(symbol);
-  const criteria = d.criteria||[];
-
-  document.getElementById('sheetBody').innerHTML = `
-    <div class="sheet-score-hero">
+async function showFundDetail(symbol){
+  document.getElementById('sheetTitle').textContent=symbol;
+  document.getElementById('sheetBody').innerHTML='<div class="centered"><div class="spinner"></div></div>';
+  openSheet();
+  let d=null;
+  try{const r=await fetch(`fundamentals/${symbol}.json?t=`+Date.now());if(r.ok) d=await r.json();}catch(e){}
+  if(!d) d=fundData?.stocks?.find(s=>s.symbol===symbol);
+  if(!d){document.getElementById('sheetBody').innerHTML='<div class="err">No data. Run the Fundamental Scan workflow.</div>';return;}
+  const vc=d.verdict_color||'amber';
+  const pct=d.score_pct||0;
+  const sc=vc==='green'?'var(--green)':vc==='amber'?'var(--amber)':'var(--red)';
+  const rv=28;const circ=2*Math.PI*rv;
+  const top=d.top_ratios||{};
+  const opp=(oppData?.all_stocks||[]).find(s=>s.symbol===symbol);
+  const starred=watchlist.includes(symbol);
+  document.getElementById('sheetBody').innerHTML=`
+    <div style="background:var(--card);border-radius:var(--rl);padding:16px;margin-bottom:14px;display:flex;gap:16px;align-items:center">
       <div class="ring">
         <svg viewBox="0 0 64 64">
           <circle fill="none" stroke="var(--hint)" stroke-width="5" cx="32" cy="32" r="${rv}"/>
@@ -616,34 +532,34 @@ async function showFundDetail(symbol) {
         </svg>
         <div class="ring-num" style="color:${sc}">${pct}%</div>
       </div>
-      <div class="sheet-info">
-        <h2>${d.name||symbol}</h2>
-        <div class="sheet-sub">${symbol} &middot; ${d.sector||'NSE'} &middot; <a href="${d.screener_url||'#'}" target="_blank">Screener &#8599;</a></div>
+      <div style="flex:1">
+        <div style="font-size:15px;font-weight:800">${d.name||symbol}</div>
+        <div style="font-size:10px;font-family:var(--mono);color:var(--muted);margin:2px 0 8px">${symbol} &middot; ${d.sector||''}</div>
         <span class="verdict-pill ${vc}">${d.verdict}</span>
-        <div class="pf-row">
-          <span style="color:var(--green)">&#10003; ${d.passes}</span>
-          <span style="color:var(--red)">&#10007; ${d.fails}</span>
-          <span style="color:var(--amber)">&#8213; ${d.neutrals}</span>
+        <div style="font-family:var(--mono);font-size:11px;margin-top:8px;display:flex;gap:10px">
+          <span style="color:var(--green)">&#10003; ${d.passes} pass</span>
+          <span style="color:var(--red)">&#10007; ${d.fails} fail</span>
+          <span style="color:var(--amber)">&#8213; ${d.neutrals} N/A</span>
         </div>
       </div>
     </div>
-
-    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px">
-      <div class="sec-title" style="margin:0">Key Ratios</div>
-      <button onclick="toggleWatch('${symbol}')" style="background:${starred?'var(--abg)':'transparent'};border:1px solid ${starred?'var(--adim)':'var(--b1)'};border-radius:var(--r);padding:5px 12px;color:${starred?'var(--amber)':'var(--muted)'};font-size:11px;cursor:pointer;font-family:var(--head)">
-        &#9733; ${starred?'Saved':'Save'}
-      </button>
-    </div>
-
+    ${opp?.current_price&&opp?.week52_low&&opp?.week52_high?`
+    <div style="background:var(--card);border-radius:var(--rl);padding:14px;margin-bottom:14px">
+      <div style="font-size:10px;font-weight:700;letter-spacing:.1em;color:var(--muted);text-transform:uppercase;margin-bottom:8px">Price</div>
+      ${w52Bar(opp.current_price,opp.week52_low,opp.week52_high)}
+    </div>`:''}
     <div class="ratios-scroll">
-      ${ratioKeys.filter(k=>top[k]!=null).map(k=>`<div class="ratio-chip"><div class="rk">${k}</div><div class="rv">${top[k]}</div></div>`).join('')}
-      ${oppInfo?.current_price?`<div class="ratio-chip"><div class="rk">Live Price</div><div class="rv">&#8377;${oppInfo.current_price}</div></div>`:''}
-      ${oppInfo?.change_1m_pct!=null?`<div class="ratio-chip"><div class="rk">1M Change</div><div class="rv ${oppInfo.change_1m_pct>=0?'change-pos':'change-neg'}">${oppInfo.change_1m_pct>0?'+':''}${oppInfo.change_1m_pct}%</div></div>`:''}
+      ${['Current Price','Market Cap','P/E','ROE %','ROCE %','Debt / Equity','52W High','52W Low'].filter(k=>top[k]!=null).map(k=>`<div class="ratio-chip"><div class="rk">${k}</div><div class="rv">${k.includes('Price')||k.includes('52W')?'&#8377;':''}${top[k]}</div></div>`).join('')}
     </div>
-
+    <div style="display:flex;gap:8px;margin-bottom:14px">
+      <button onclick="toggleWatch('${symbol}')" style="flex:1;padding:11px;border-radius:var(--r);border:1px solid ${starred?'var(--adim)':'var(--b1)'};background:transparent;color:${starred?'var(--amber)':'var(--muted)'};font-family:var(--head);font-size:13px;cursor:pointer">
+        ${starred?'&#9733; Saved':'&#9733; Save'}
+      </button>
+      ${d.screener_url?`<a href="${d.screener_url}" target="_blank" style="flex:1;padding:11px;border-radius:var(--r);border:1px solid var(--b1);color:var(--accent);font-family:var(--head);font-size:13px;text-decoration:none;text-align:center">Screener.in &#8599;</a>`:''}
+    </div>
     <div class="sec-title">13 Criteria Breakdown</div>
     <div class="crit-list">
-      ${criteria.length ? criteria.map((c,i)=>`
+      ${(d.criteria||[]).length?(d.criteria||[]).map((c,i)=>`
         <div class="cc ${c.result}">
           <div class="cc-top">
             <div class="cc-label">C${i+1}. ${c.label}</div>
@@ -651,61 +567,16 @@ async function showFundDetail(symbol) {
           </div>
           <div class="cc-detail">${c.detail}</div>
         </div>`).join('')
-        : '<div class="centered" style="min-height:80px">Run Fundamental Scan to see breakdown</div>'}
-    </div>
-  `;
+      :'<div class="centered" style="min-height:60px">Run Fundamental Scan to see breakdown</div>'}
+    </div>`;
 }
 
-async function showOppDetail(symbol) {
-  document.getElementById('sheetTitle').textContent = symbol;
-  const opp = (oppData?.all_stocks||[]).find(s=>s.symbol===symbol);
-  if (!opp) return;
-  const starred = watchlist.includes(symbol);
-
-  document.getElementById('sheetBody').innerHTML = `
-    <div style="background:var(--card);border-radius:var(--rl);padding:16px;margin-bottom:14px">
-      <div style="font-size:15px;font-weight:800;margin-bottom:3px">${opp.name||symbol}</div>
-      <div style="font-size:11px;font-family:var(--mono);color:var(--muted);margin-bottom:14px">${opp.sector||''}</div>
-      <div class="card-metrics" style="margin-bottom:14px">
-        ${opp.current_price!=null?`<div class="cm"><div class="cm-label">Current</div><div class="cm-val">&#8377;${opp.current_price}</div></div>`:''}
-        <div class="cm"><div class="cm-label">52W Low</div><div class="cm-val" style="color:var(--green)">&#8377;${opp.week52_low||'--'}</div></div>
-        <div class="cm"><div class="cm-label">52W High</div><div class="cm-val" style="color:var(--red)">&#8377;${opp.week52_high||'--'}</div></div>
-        ${opp.pct_above_52w_low!=null?`<div class="cm"><div class="cm-label">From 52W Low</div><div class="cm-val" style="color:var(--amber)">+${opp.pct_above_52w_low}%</div></div>`:''}
-        ${opp.change_1m_pct!=null?`<div class="cm"><div class="cm-label">1M Return</div><div class="cm-val ${opp.change_1m_pct>=0?'change-pos':'change-neg'}">${opp.change_1m_pct>0?'+':''}${opp.change_1m_pct}%</div></div>`:''}
-        ${opp.change_3m_pct!=null?`<div class="cm"><div class="cm-label">3M Return</div><div class="cm-val ${opp.change_3m_pct>=0?'change-pos':'change-neg'}">${opp.change_3m_pct>0?'+':''}${opp.change_3m_pct}%</div></div>`:''}
-      </div>
-      <div class="tags">${(opp.tags||[]).map(t=>`<span class="tag ${t}">${tagLabel(t)}</span>`).join('')}</div>
-    </div>
-    <div style="display:flex;gap:8px">
-      <button onclick="toggleWatch('${symbol}');this.textContent=watchlist.includes('${symbol}')?'&#9733; Saved':'&#9733; Save'" 
-        style="flex:1;padding:12px;border-radius:var(--r);border:1px solid var(--b1);background:transparent;color:var(--text);font-family:var(--head);font-size:13px;cursor:pointer">
-        ${starred?'&#9733; Saved':'&#9733; Save'}
-      </button>
-      <button onclick="closeDetailSheet();setTimeout(()=>{switchTab('fund');showFundDetail('${symbol}')},300)"
-        style="flex:1;padding:12px;border-radius:var(--r);border:1px solid var(--b1);background:transparent;color:var(--text);font-family:var(--head);font-size:13px;cursor:pointer">
-        View Fundamentals
-      </button>
-    </div>
-  `;
-  openDetailSheet();
-}
-
-function openDetailSheet()  { document.getElementById('detailOverlay').classList.add('open'); document.body.style.overflow='hidden'; }
-function closeDetailSheet() { document.getElementById('detailOverlay').classList.remove('open'); document.body.style.overflow=''; }
-function closeDetail(e)     { if (e.target === document.getElementById('detailOverlay')) closeDetailSheet(); }
-
-// ── Helpers ────────────────────────────────────────────────────────────────
-function tagLabel(t) {
-  const map = {AT_52W_LOW:'AT 52W LOW',NEAR_52W_LOW:'NEAR 52W LOW',DISCOUNTED_ZONE:'DISCOUNTED -30%',
-    RECOVERY_1M:'+20% IN 1M',STRONG_RECOVERY_1M:'+40% IN 1M',STRONG_RECOVERY_3M:'+50% IN 3M',
-    HEAVY_FALL_1M:'-20% IN 1M',HEAVY_FALL_3M:'-30% IN 3M',NEAR_52W_HIGH:'NEAR 52W HIGH'};
-  return map[t] || t;
-}
-
-// ── Settings ───────────────────────────────────────────────────────────────
-function openSettings()  { document.getElementById('ghToken').value=settings.token||''; document.getElementById('ghRepo').value=settings.repo||'rjganatra/stock-analyzer'; document.getElementById('settingsModal').classList.add('open'); }
-function closeSettings() { document.getElementById('settingsModal').classList.remove('open'); }
-function saveSettings()  { settings.token=document.getElementById('ghToken').value.trim(); settings.repo=document.getElementById('ghRepo').value.trim(); localStorage.setItem('cfg',JSON.stringify(settings)); closeSettings(); }
+function openSheet(){document.getElementById('overlay').classList.add('open');document.body.style.overflow='hidden';}
+function closeSheet(){document.getElementById('overlay').classList.remove('open');document.body.style.overflow='';}
+function tagLabel(t){return{AT_52W_LOW:'AT 52W LOW',NEAR_52W_LOW:'NEAR 52W LOW',DISCOUNTED_ZONE:'DISCOUNTED',RECOVERY_1M:'+20% IN 1M',STRONG_RECOVERY_1M:'+40% IN 1M',HEAVY_FALL_1M:'-20% IN 1M',HEAVY_FALL_3M:'-30% IN 3M',NEAR_52W_HIGH:'NEAR 52W HIGH'}[t]||t;}
+function openSettings(){document.getElementById('ghToken').value=cfg.token||'';document.getElementById('ghRepo').value=cfg.repo||'';document.getElementById('settingsModal').classList.add('open');}
+function closeSettings(){document.getElementById('settingsModal').classList.remove('open');}
+function saveSettings(){cfg.token=document.getElementById('ghToken').value.trim();cfg.repo=document.getElementById('ghRepo').value.trim();localStorage.setItem('cfg',JSON.stringify(cfg));closeSettings();}
 </script>
 </body>
 </html>
