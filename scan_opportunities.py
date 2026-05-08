@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-scan_opportunities.py - Uses Screener.in top ratios for price + 52W data.
-Posts ALL stocks to website so you can verify prices are correct.
+scan_opportunities.py - Daily opportunity scan via Screener.in.
+Fetches price, 52W, PE, PB, ROE, ROCE, D/E, Div Yield for all 500 stocks.
 """
 
 import json
@@ -47,7 +47,7 @@ def run():
     meta_map = {s["symbol"]: s for s in universe}
     total    = len(symbols)
 
-    print(f"\nFetching price + 52W data for {total} stocks from Screener.in...\n")
+    print(f"\nFetching data for {total} stocks from Screener.in...\n")
 
     all_stocks    = []
     opportunities = []
@@ -63,29 +63,43 @@ def run():
                 errors.append(symbol)
                 continue
 
-            pd   = raw.get("price_data", {})
-            info = meta_map.get(symbol, {})
-            tags = classify(pd)
+            pd      = raw.get("price_data", {})
+            top     = raw.get("top_ratios", {})
+            nse_inf = meta_map.get(symbol, {})
+            tags    = classify(pd)
+
+            # Use NSE sector if Screener didn't return a clean one
+            sector = raw.get("sector") or nse_inf.get("sector", "")
 
             entry = {
                 "symbol":             symbol,
-                "name":               raw.get("name") or info.get("name", symbol),
-                "sector":             raw.get("sector") or info.get("sector", ""),
+                "name":               raw.get("name") or nse_inf.get("name", symbol),
+                "sector":             sector,
                 "current_price":      pd.get("current_price"),
                 "week52_high":        pd.get("week52_high"),
                 "week52_low":         pd.get("week52_low"),
                 "pct_above_52w_low":  pd.get("pct_above_52w_low"),
                 "pct_below_52w_high": pd.get("pct_below_52w_high"),
                 "near_52w_low":       pd.get("near_52w_low", False),
-                "change_1m_pct":      None,
-                "change_3m_pct":      None,
                 "tags":               tags,
                 "is_opportunity":     len(tags) > 0,
                 "screener_url":       raw.get("url", ""),
-                "top_ratios":         raw.get("top_ratios", {}),
+                # All ratios for display on website
+                "ratios": {
+                    "pe":           top.get("P/E"),
+                    "industry_pe":  top.get("Industry P/E"),
+                    "pb":           top.get("P/B"),
+                    "roe":          top.get("ROE %"),
+                    "roce":         top.get("ROCE %"),
+                    "de":           top.get("Debt / Equity"),
+                    "div_yield":    top.get("Div. Yield %"),
+                    "market_cap":   top.get("Market Cap"),
+                },
             }
 
-            price_str = f"₹{pd.get('current_price')} | 52W: ₹{pd.get('week52_low')}-₹{pd.get('week52_high')}"
+            price_str = (f"₹{pd.get('current_price')} | "
+                         f"52W: ₹{pd.get('week52_low')}-₹{pd.get('week52_high')} | "
+                         f"PE={top.get('P/E')} ROE={top.get('ROE %')} ROCE={top.get('ROCE %')}")
             print(f"-- {price_str} | tags={tags or 'none'}")
 
             all_stocks.append(entry)
@@ -96,12 +110,13 @@ def run():
             print(f"-- EXCEPTION: {e}")
             errors.append(symbol)
 
-    # Sort opportunities by closest to 52W low
     priority = {"AT_52W_LOW": 0, "NEAR_52W_LOW": 1, "DISCOUNTED_ZONE": 2, "NEAR_52W_HIGH": 3}
-    opportunities.sort(key=lambda x: min((priority.get(t, 9) for t in x["tags"]), default=9))
+    opportunities.sort(
+        key=lambda x: min((priority.get(t, 9) for t in x["tags"]), default=9)
+    )
     all_stocks.sort(key=lambda x: (x.get("pct_above_52w_low") or 999))
 
-    priced = sum(1 for s in all_stocks if s["current_price"])
+    priced  = sum(1 for s in all_stocks if s["current_price"])
     payload = {
         "meta": {
             "strategy":      "opportunities",
@@ -110,27 +125,27 @@ def run():
             "success":       priced,
             "opportunities": len(opportunities),
             "errors":        len(errors),
-            "data_source":   "Screener.in top ratios",
+            "data_source":   "Screener.in",
         },
         "opportunities": opportunities,
         "all_stocks":    all_stocks,
     }
 
-    for path in [ROOT / "results" / "opportunities.json", DOCS_DIR / "opportunities.json"]:
+    for path in [ROOT/"results"/"opportunities.json", DOCS_DIR/"opportunities.json"]:
         with open(path, "w") as f:
             json.dump(payload, f, indent=2, default=str)
 
     near_low = [s for s in opportunities
-                if any(t in s["tags"] for t in ["AT_52W_LOW", "NEAR_52W_LOW", "DISCOUNTED_ZONE"])]
+                if any(t in s["tags"] for t in ["AT_52W_LOW","NEAR_52W_LOW","DISCOUNTED_ZONE"])]
 
     print(f"\n{'='*60}")
     print(f"  DONE: {priced}/{total} priced | {len(errors)} errors")
-    print(f"  Opportunities: {len(opportunities)} | Near 52W low: {len(near_low)}")
+    print(f"  Near 52W low: {len(near_low)}")
     if near_low:
-        print(f"\n  Top near 52W low:")
-        for s in near_low[:10]:
+        for s in near_low[:5]:
             print(f"    {s['symbol']:12} ₹{s['current_price']} | "
-                  f"52W low ₹{s['week52_low']} | +{s['pct_above_52w_low']}% above low")
+                  f"52W low ₹{s['week52_low']} | +{s['pct_above_52w_low']}% | "
+                  f"PE={s['ratios'].get('pe')} ROE={s['ratios'].get('roe')}")
     print(f"{'='*60}\n")
 
 
