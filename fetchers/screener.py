@@ -1,8 +1,8 @@
 """
 fetchers/screener.py
-Scrapes Screener.in. Top ratios bar works from GitHub Actions.
-Parses: Current Price, 52W High/Low, ROE, ROCE, D/E, P/E, Market Cap.
-Also attempts detailed tables (P&L, BS, CF) — works if not blocked.
+Scrapes Screener.in top ratios bar — works from GitHub Actions IPs.
+Fetches: Price, 52W High/Low, P/E, Industry P/E, P/B, ROE, ROCE, D/E, Div Yield, Market Cap.
+Also attempts P&L / BS / CF tables when not blocked.
 """
 
 import re
@@ -31,7 +31,6 @@ def _get(symbol: str) -> tuple[BeautifulSoup | None, str]:
                 h1 = soup.find("h1")
                 if h1 and "not found" in h1.get_text().lower():
                     return None, ""
-                # Valid page has top-ratios section
                 if soup.find(id="top-ratios") or soup.find("section"):
                     return soup, url
         except Exception as e:
@@ -51,16 +50,9 @@ def _num(text: str) -> float | None:
 
 
 def _parse_top_ratios(soup: BeautifulSoup) -> dict:
-    """
-    Parse the top ratios bar. Handles special cases:
-    - 'High / Low' field: '3,886 / 2,425' -> week52_high, week52_low
-    - All numeric fields parsed normally
-    """
+    """Parse Screener.in top ratios bar into structured dict."""
     out = {}
-    section = soup.find(id="top-ratios")
-    if not section:
-        # Try finding ratio list anywhere on page
-        section = soup
+    section = soup.find(id="top-ratios") or soup
 
     for li in section.select("li"):
         name_el = li.find("span", class_="name")
@@ -71,9 +63,8 @@ def _parse_top_ratios(soup: BeautifulSoup) -> dict:
         name = name_el.get_text(strip=True)
         raw  = val_el.get_text(strip=True)
 
-        # Special case: "High / Low" contains 52W high and low separated by "/"
+        # "High / Low" field = 52W high and low
         if "High" in name and "Low" in name:
-            # raw looks like "3,886 / 2,425" or "₹3,886 / ₹2,425"
             parts = re.split(r"\s*/\s*", raw)
             if len(parts) == 2:
                 out["week52_high"] = _num(parts[0])
@@ -84,30 +75,57 @@ def _parse_top_ratios(soup: BeautifulSoup) -> dict:
         if val is not None:
             out[name] = val
 
-    # Map common Screener field names to standard keys
+    # Normalise to standard keys
     key_map = {
-        "Current Price": "current_price",
-        "Stock P/E":     "pe",
-        "Market Cap":    "market_cap",
-        "Book Value":    "book_value",
-        "Dividend Yield":"div_yield",
-        "ROCE":          "roce",
-        "ROE":           "roe",
-        "Debt / Equity": "debt_to_equity",
-        "Face Value":    "face_value",
+        "Current Price":  "current_price",
+        "Stock P/E":      "pe",
+        "Industry P/E":   "industry_pe",
+        "P/B":            "pb",
+        "Price to Book":  "pb",
+        "Market Cap":     "market_cap",
+        "Book Value":     "book_value",
+        "Dividend Yield": "div_yield",
+        "ROCE":           "roce",
+        "ROE":            "roe",
+        "Debt / Equity":  "debt_to_equity",
+        "Face Value":     "face_value",
+        "EPS":            "eps",
+        "Sales Growth":   "sales_growth",
     }
     mapped = {}
     for k, v in out.items():
-        std_key = key_map.get(k, k)
-        mapped[std_key] = v
+        mapped[key_map.get(k, k)] = v
 
-    # Also keep original keys for top_ratios display
-    mapped["_raw"] = out
+    mapped["_raw"] = out   # keep originals for display
     return mapped
 
 
+def _parse_sector(soup: BeautifulSoup) -> str:
+    """
+    Extract sector from Screener.in company page.
+    Screener shows sector as a link like: Sector > Industry
+    We want the sector/industry text, NOT the company website URL.
+    """
+    # Method 1: look for links inside company-info that point to screener sector pages
+    for a in soup.select("a[href*='/screen/'], a[href*='/screens/']"):
+        text = a.get_text(strip=True)
+        if text and len(text) > 2 and len(text) < 50:
+            return text
+
+    # Method 2: look for .company-ratios or sub-heading near name
+    for el in soup.select(".company-links a, .sub span, .company-info a"):
+        text = el.get_text(strip=True)
+        href = el.get("href", "")
+        # Skip external URLs (company websites)
+        if "http" in href or "www" in href:
+            continue
+        if text and 2 < len(text) < 60:
+            return text
+
+    return ""
+
+
 def _parse_table(soup: BeautifulSoup, *section_ids) -> dict:
-    """Try multiple section IDs, return first found table as {label: [values]}"""
     for sid in section_ids:
         sec = soup.find("section", {"id": sid})
         if not sec:
@@ -168,32 +186,37 @@ def fetch(symbol: str, delay: float = 2.0) -> dict:
     if soup is None:
         return {"error": f"{symbol} not found on Screener.in"}
 
-    h1     = soup.find("h1")
-    name   = h1.get_text(strip=True) if h1 else symbol
-    sec_el = soup.select_one(".company-links a")
-    sector = sec_el.get_text(strip=True) if sec_el else ""
+    h1   = soup.find("h1")
+    name = h1.get_text(strip=True) if h1 else symbol
 
-    # ── Top ratios (always works) ─────────────────────────────────────────
-    ratios = _parse_top_ratios(soup)
+    # Use our improved sector parser — avoids picking up company website URL
+    sector = _parse_sector(soup)
 
+    # Top ratios (always works from any IP)
+    ratios        = _parse_top_ratios(soup)
     current_price = ratios.get("current_price")
     week52_high   = ratios.get("week52_high")
     week52_low    = ratios.get("week52_low")
     roe_val       = ratios.get("roe")
     roce_val      = ratios.get("roce")
     d2e           = ratios.get("debt_to_equity")
+    pe_val        = ratios.get("pe")
+    industry_pe   = ratios.get("industry_pe")
+    pb_val        = ratios.get("pb")
+    div_yield     = ratios.get("div_yield")
+    market_cap    = ratios.get("market_cap")
 
+    # 52W calculations
     pct_above_52w_low  = None
     pct_below_52w_high = None
     near_52w_low       = False
-
     if current_price and week52_low and week52_low > 0:
         pct_above_52w_low = round(((current_price - week52_low) / week52_low) * 100, 1)
         near_52w_low      = pct_above_52w_low <= 30
     if current_price and week52_high and week52_high > 0:
         pct_below_52w_high = round(((week52_high - current_price) / week52_high) * 100, 1)
 
-    # ── Detailed tables (may or may not work depending on IP) ─────────────
+    # Detailed tables (may be blocked by Screener on AWS IPs, works locally)
     pl  = _parse_table(soup, "profit-loss")
     bs  = _parse_table(soup, "balance-sheet")
     cf  = _parse_table(soup, "cash-flow")
@@ -216,29 +239,34 @@ def fetch(symbol: str, delay: float = 2.0) -> dict:
     roe_s  = _get_row(rat, "Return on Equity %", "ROE %")
     roce_s = _get_row(rat, "ROCE %", "Return on Capital Employed")
 
-    # Fall back to top ratios for ROE/ROCE if tables empty
+    # Fall back to top ratios values if tables empty
     if not roe_s  and roe_val:  roe_s  = [roe_val]
     if not roce_s and roce_val: roce_s = [roce_val]
 
     nwc = ((_last(rec) or 0) + (_last(inv) or 0)) - (_last(pay) or 0)
 
     tables_found = [n for n, t in [("P&L", pl), ("BS", bs), ("CF", cf), ("Ratios", rat)] if t]
-    print(f"    tables={tables_found or 'none'} | "
-          f"price=₹{current_price} | 52W={week52_low}-{week52_high} | "
-          f"ROE={roe_val} ROCE={roce_val}")
+    print(f"    tables={tables_found or 'none'} | price=₹{current_price} | "
+          f"52W={week52_low}-{week52_high} | ROE={roe_val} ROCE={roce_val} "
+          f"PE={pe_val} PB={pb_val} D/E={d2e}")
 
     return {
-        "symbol": symbol, "name": name, "sector": sector, "url": url,
+        "symbol": symbol,
+        "name":   name,
+        "sector": sector,
+        "url":    url,
         "top_ratios": {
-            "Market Cap":    ratios.get("market_cap"),
-            "P/E":           ratios.get("pe"),
-            "ROE %":         roe_val,
-            "ROCE %":        roce_val,
-            "Debt / Equity": d2e,
-            "Div. Yield %":  ratios.get("div_yield"),
-            "Current Price": current_price,
-            "52W High":      week52_high,
-            "52W Low":       week52_low,
+            "Current Price":  current_price,
+            "Market Cap":     market_cap,
+            "P/E":            pe_val,
+            "Industry P/E":   industry_pe,
+            "P/B":            pb_val,
+            "ROE %":          roe_val,
+            "ROCE %":         roce_val,
+            "Debt / Equity":  d2e,
+            "Div. Yield %":   div_yield,
+            "52W High":       week52_high,
+            "52W Low":        week52_low,
         },
         "price_data": {
             "current_price":      current_price,
