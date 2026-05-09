@@ -1,7 +1,7 @@
 {
   "meta": {
     "strategy": "opportunities",
-    "scanned_at": "2026-05-09T01:02:49.075542+00:00",
+    "scanned_at": "2026-05-09T23:25:40.569295+00:00",
     "total": 504,
     "success": 469,
     "opportunities": 316,
@@ -194,7 +194,7 @@
     {
       "symbol": "HCLTECH",
       "name": "HCL Technologies Ltd",
-      "sector": "Information Technology",
+      "sector": "IT",
       "current_price": 1198.0,
       "week52_high": 1780.0,
       "week52_low": 1177.0,
@@ -376,7 +376,7 @@
     {
       "symbol": "INFY",
       "name": "Infosys Ltd",
-      "sector": "Information Technology",
+      "sector": "IT",
       "current_price": 1179.0,
       "week52_high": 1728.0,
       "week52_low": 1150.0,
@@ -480,7 +480,7 @@
     {
       "symbol": "MPHASIS",
       "name": "Mphasis Ltd",
-      "sector": "Information Technology",
+      "sector": "IT",
       "current_price": 2214.0,
       "week52_high": 3037.0,
       "week52_low": 2013.0,
@@ -584,7 +584,7 @@
     {
       "symbol": "TCS",
       "name": "Tata Consultancy Services Ltd",
-      "sector": "Information Technology",
+      "sector": "IT",
       "current_price": 2394.0,
       "week52_high": 3630.0,
       "week52_low": 2346.0,
@@ -714,7 +714,7 @@
     {
       "symbol": "WIPRO",
       "name": "Wipro Ltd",
-      "sector": "Information Technology",
+      "sector": "IT",
       "current_price": 198.0,
       "week52_high": 273.0,
       "week52_low": 186.0,
@@ -818,7 +818,7 @@
     {
       "symbol": "ALKEM",
       "name": "Alkem Laboratories Ltd",
-      "sector": "Healthcare",
+      "sector": "Pharma",
       "current_price": 5586.0,
       "week52_high": 5934.0,
       "week52_low": 4716.0,
@@ -922,7 +922,7 @@
     {
       "symbol": "BANKBARODA",
       "name": "Bank of Baroda",
-      "sector": "Financial Services",
+      "sector": "Banking",
       "current_price": 264.0,
       "week52_high": 326.0,
       "week52_low": 224.0,
@@ -974,7 +974,7 @@
     {
       "symbol": "BPCL",
       "name": "Bharat Petroleum Corporation Ltd",
-      "sector": "Oil Gas & Consumable Fuels",
+      "sector": "Oil & Gas",
       "current_price": 303.0,
       "week52_high": 392.0,
       "week52_low": 267.0,
@@ -1182,7 +1182,7 @@
     {
       "symbol": "CENTRALBK",
       "name": "Central Bank of India",
-      "sector": "Financial Services",
+      "sector": "Banking",
       "current_price": 36.5,
       "week52_high": 41.2,
       "week52_low": 31.3,
@@ -1286,7 +1286,7 @@
     {
       "symbol": "CIPLA",
       "name": "Cipla Ltd",
-      "sector": "Healthcare",
+      "sector": "Pharma",
       "current_price": 1347.0,
       "week52_high": 1673.0,
       "week52_low": 1166.0,
@@ -1364,7 +1364,7 @@
     {
       "symbol": "DIVISLAB",
       "name": "Divis Laboratories Ltd",
-      "sector": "Healthcare",
+      "sector": "Pharma",
       "current_price": 6710.0,
       "week52_high": 7078.0,
       "week52_low": 5636.0,
@@ -1416,7 +1416,7 @@
     {
       "symbol": "DRREDDY",
       "name": "Dr Reddys Laboratories Ltd",
-      "sector": "Healthcare",
+      "sector": "Pharma",
       "current_price": 1294.0,
       "week52_high": 1380.0,
       "week52_low": 1143.0,
@@ -1833,7 +1833,7 @@
     {
       "symbol": "IOC",
       "name": "Indian Oil Corporation Ltd",
-      "sector": "Oil Gas & Consumable Fuels",
+      "sector": "Oil & Gas",
       "current_price": 145.0,
       "week52_high": 189.0,
       "week52_low": 130.0,
@@ -1859,7 +1859,7 @@
     {
       "symbol": "IOB",
       "name": "Indian Overseas Bank",
-      "sector": "Financial Services",
+      "sector": "Banking",
       "current_price": 34.8,
       "week52_high": 42.8,
       "week52_low": 31.2,
@@ -1911,7 +1911,7 @@
     {
       "symbol": "IGL",
       "name": "Indraprastha Gas Ltd",
-      "sector": "Oil Gas & Consumable Fuels",
+      "sector": "Oil & Gas",
       "current_price": 166.0,
       "week52_high": 229.0,
       "week52_low": 142.0,
@@ -2405,7 +2405,7 @@
     {
       "symbol": "OIL",
       "name": "Oil India Ltd",
-      "sector": "Oil Gas & Consumable Fuels",
+      "sector": "Oil & Gas",
       "current_price": 454.0,
       "week52_high": 524.0,
       "week52_low": 385.0,
@@ -2483,7 +2483,7 @@
     {
       "symbol": "PERSISTENT",
       "name": "Persistent Systems Ltd",
-      "sector": "Information Technology",
+      "sector": "IT",
       "current_price": 5114.0,
       "week52_high": 6599.0,
       "week52_low": 4449.0,
@@ -2639,7 +2639,7 @@
     {
       "symbol": "RELIANCE",
       "name": "Reliance Industries Ltd",
-      "sector": "Oil Gas & Consumable Fuels",
+      "sector": "Oil & Gas",
       "current_price": 1435.0,
       "week52_high": 1612.0,
       "week52_low": 1290.0,
@@ -2717,7 +2717,7 @@
     {
       "symbol": "SUNPHARMA",
       "name": "Sun Pharmaceutical Industries Ltd",
-      "sector": "Healthcare",
+      "sector": "Pharma",
       "current_price": 1848.0,
       "week52_high": 1858.0,
       "week52_low": 1547.0,
@@ -2875,7 +2875,7 @@
     {
       "symbol": "TECHM",
       "name": "Tech Mahindra Ltd",
-      "sector": "Information Technology",
+      "sector": "IT",
       "current_price": 1463.0,
       "week52_high": 1854.0,
       "week52_low": 1304.0,
@@ -3500,7 +3500,7 @@
     {
       "symbol": "BANKINDIA",
       "name": "Bank of India",
-      "sector": "Financial Services",
+      "sector": "Banking",
       "current_price": 140.0,
       "week52_high": 178.0,
       "week52_low": 109.0,
@@ -4020,7 +4020,7 @@
     {
       "symbol": "GAIL",
       "name": "GAIL (India) Ltd",
-      "sector": "Oil Gas & Consumable Fuels",
+      "sector": "Oil & Gas",
       "current_price": 166.0,
       "week52_high": 203.0,
       "week52_low": 134.0,
@@ -4202,7 +4202,7 @@
     {
       "symbol": "HINDPETRO",
       "name": "Hindustan Petroleum Corporation Ltd",
-      "sector": "Oil Gas & Consumable Fuels",
+      "sector": "Oil & Gas",
       "current_price": 387.0,
       "week52_high": 508.0,
       "week52_low": 316.0,
@@ -4462,7 +4462,7 @@
     {
       "symbol": "IPCALAB",
       "name": "Ipca Laboratories Ltd",
-      "sector": "Healthcare",
+      "sector": "Pharma",
       "current_price": 1553.0,
       "week52_high": 1624.0,
       "week52_low": 1252.0,
@@ -4671,7 +4671,7 @@
     {
       "symbol": "LTTS",
       "name": "L&T Technology Services Ltd",
-      "sector": "Information Technology",
+      "sector": "IT",
       "current_price": 3803.0,
       "week52_high": 4747.0,
       "week52_low": 3010.0,
@@ -4827,7 +4827,7 @@
     {
       "symbol": "LUPIN",
       "name": "Lupin Ltd",
-      "sector": "Healthcare",
+      "sector": "Pharma",
       "current_price": 2380.0,
       "week52_high": 2494.0,
       "week52_low": 1837.0,
@@ -4907,7 +4907,7 @@
     {
       "symbol": "MAZDOCK",
       "name": "Mazagon Dock Shipbuilders Ltd",
-      "sector": "Capital Goods",
+      "sector": "Aerospace & Defence",
       "current_price": 2657.0,
       "week52_high": 3778.0,
       "week52_low": 2057.0,
@@ -5064,7 +5064,7 @@
     {
       "symbol": "ONGC",
       "name": "Oil & Natural Gas Corpn Ltd",
-      "sector": "Oil Gas & Consumable Fuels",
+      "sector": "Oil & Gas",
       "current_price": 279.0,
       "week52_high": 308.0,
       "week52_low": 229.0,
@@ -5168,7 +5168,7 @@
     {
       "symbol": "PETRONET",
       "name": "Petronet LNG Ltd",
-      "sector": "Oil Gas & Consumable Fuels",
+      "sector": "Oil & Gas",
       "current_price": 284.0,
       "week52_high": 326.0,
       "week52_low": 235.0,
@@ -5873,7 +5873,7 @@
     {
       "symbol": "UCOBANK",
       "name": "UCO Bank",
-      "sector": "Financial Services",
+      "sector": "Banking",
       "current_price": 26.8,
       "week52_high": 35.1,
       "week52_low": 22.2,
@@ -6419,7 +6419,7 @@
     {
       "symbol": "AUROPHARMA",
       "name": "Aurobindo Pharma Ltd",
-      "sector": "Healthcare",
+      "sector": "Pharma",
       "current_price": 1487.0,
       "week52_high": 1514.0,
       "week52_low": 1016.0,
@@ -6497,7 +6497,7 @@
     {
       "symbol": "MAHABANK",
       "name": "Bank of Maharashtra",
-      "sector": "Financial Services",
+      "sector": "Banking",
       "current_price": 83.9,
       "week52_high": 85.9,
       "week52_low": 49.8,
@@ -7917,8 +7917,8 @@
         "pe": 11.7,
         "industry_pe": null,
         "pb": null,
-        "roe": 10.5,
-        "roce": 9.81,
+        "roe": 15.5,
+        "roce": 14.3,
         "de": null,
         "div_yield": 1.94,
         "market_cap": 15793.0
@@ -8241,7 +8241,7 @@
     {
       "symbol": "HCLTECH",
       "name": "HCL Technologies Ltd",
-      "sector": "Information Technology",
+      "sector": "IT",
       "current_price": 1198.0,
       "week52_high": 1780.0,
       "week52_low": 1177.0,
@@ -8267,7 +8267,7 @@
     {
       "symbol": "TCS",
       "name": "Tata Consultancy Services Ltd",
-      "sector": "Information Technology",
+      "sector": "IT",
       "current_price": 2394.0,
       "week52_high": 3630.0,
       "week52_low": 2346.0,
@@ -8319,7 +8319,7 @@
     {
       "symbol": "INFY",
       "name": "Infosys Ltd",
-      "sector": "Information Technology",
+      "sector": "IT",
       "current_price": 1179.0,
       "week52_high": 1728.0,
       "week52_low": 1150.0,
@@ -8631,7 +8631,7 @@
     {
       "symbol": "WIPRO",
       "name": "Wipro Ltd",
-      "sector": "Information Technology",
+      "sector": "IT",
       "current_price": 198.0,
       "week52_high": 273.0,
       "week52_low": 186.0,
@@ -8969,7 +8969,7 @@
     {
       "symbol": "MPHASIS",
       "name": "Mphasis Ltd",
-      "sector": "Information Technology",
+      "sector": "IT",
       "current_price": 2214.0,
       "week52_high": 3037.0,
       "week52_low": 2013.0,
@@ -9125,7 +9125,7 @@
     {
       "symbol": "RELIANCE",
       "name": "Reliance Industries Ltd",
-      "sector": "Oil Gas & Consumable Fuels",
+      "sector": "Oil & Gas",
       "current_price": 1435.0,
       "week52_high": 1612.0,
       "week52_low": 1290.0,
@@ -9203,7 +9203,7 @@
     {
       "symbol": "IOC",
       "name": "Indian Oil Corporation Ltd",
-      "sector": "Oil Gas & Consumable Fuels",
+      "sector": "Oil & Gas",
       "current_price": 145.0,
       "week52_high": 189.0,
       "week52_low": 130.0,
@@ -9229,7 +9229,7 @@
     {
       "symbol": "IOB",
       "name": "Indian Overseas Bank",
-      "sector": "Financial Services",
+      "sector": "Banking",
       "current_price": 34.8,
       "week52_high": 42.8,
       "week52_low": 31.2,
@@ -9463,7 +9463,7 @@
     {
       "symbol": "TECHM",
       "name": "Tech Mahindra Ltd",
-      "sector": "Information Technology",
+      "sector": "IT",
       "current_price": 1463.0,
       "week52_high": 1854.0,
       "week52_low": 1304.0,
@@ -9749,7 +9749,7 @@
     {
       "symbol": "DRREDDY",
       "name": "Dr Reddys Laboratories Ltd",
-      "sector": "Healthcare",
+      "sector": "Pharma",
       "current_price": 1294.0,
       "week52_high": 1380.0,
       "week52_low": 1143.0,
@@ -9827,7 +9827,7 @@
     {
       "symbol": "BPCL",
       "name": "Bharat Petroleum Corporation Ltd",
-      "sector": "Oil Gas & Consumable Fuels",
+      "sector": "Oil & Gas",
       "current_price": 303.0,
       "week52_high": 392.0,
       "week52_low": 267.0,
@@ -10087,7 +10087,7 @@
     {
       "symbol": "PERSISTENT",
       "name": "Persistent Systems Ltd",
-      "sector": "Information Technology",
+      "sector": "IT",
       "current_price": 5114.0,
       "week52_high": 6599.0,
       "week52_low": 4449.0,
@@ -10217,7 +10217,7 @@
     {
       "symbol": "CIPLA",
       "name": "Cipla Ltd",
-      "sector": "Healthcare",
+      "sector": "Pharma",
       "current_price": 1347.0,
       "week52_high": 1673.0,
       "week52_low": 1166.0,
@@ -10477,7 +10477,7 @@
     {
       "symbol": "CENTRALBK",
       "name": "Central Bank of India",
-      "sector": "Financial Services",
+      "sector": "Banking",
       "current_price": 36.5,
       "week52_high": 41.2,
       "week52_low": 31.3,
@@ -10660,7 +10660,7 @@
     {
       "symbol": "IGL",
       "name": "Indraprastha Gas Ltd",
-      "sector": "Oil Gas & Consumable Fuels",
+      "sector": "Oil & Gas",
       "current_price": 166.0,
       "week52_high": 229.0,
       "week52_low": 142.0,
@@ -10790,7 +10790,7 @@
     {
       "symbol": "BANKBARODA",
       "name": "Bank of Baroda",
-      "sector": "Financial Services",
+      "sector": "Banking",
       "current_price": 264.0,
       "week52_high": 326.0,
       "week52_low": 224.0,
@@ -10816,7 +10816,7 @@
     {
       "symbol": "OIL",
       "name": "Oil India Ltd",
-      "sector": "Oil Gas & Consumable Fuels",
+      "sector": "Oil & Gas",
       "current_price": 454.0,
       "week52_high": 524.0,
       "week52_low": 385.0,
@@ -10868,7 +10868,7 @@
     {
       "symbol": "ALKEM",
       "name": "Alkem Laboratories Ltd",
-      "sector": "Healthcare",
+      "sector": "Pharma",
       "current_price": 5586.0,
       "week52_high": 5934.0,
       "week52_low": 4716.0,
@@ -10973,7 +10973,7 @@
     {
       "symbol": "DIVISLAB",
       "name": "Divis Laboratories Ltd",
-      "sector": "Healthcare",
+      "sector": "Pharma",
       "current_price": 6710.0,
       "week52_high": 7078.0,
       "week52_low": 5636.0,
@@ -11129,7 +11129,7 @@
     {
       "symbol": "SUNPHARMA",
       "name": "Sun Pharmaceutical Industries Ltd",
-      "sector": "Healthcare",
+      "sector": "Pharma",
       "current_price": 1848.0,
       "week52_high": 1858.0,
       "week52_low": 1547.0,
@@ -11572,7 +11572,7 @@
     {
       "symbol": "UCOBANK",
       "name": "UCO Bank",
-      "sector": "Financial Services",
+      "sector": "Banking",
       "current_price": 26.8,
       "week52_high": 35.1,
       "week52_low": 22.2,
@@ -11677,7 +11677,7 @@
     {
       "symbol": "PETRONET",
       "name": "Petronet LNG Ltd",
-      "sector": "Oil Gas & Consumable Fuels",
+      "sector": "Oil & Gas",
       "current_price": 284.0,
       "week52_high": 326.0,
       "week52_low": 235.0,
@@ -12042,7 +12042,7 @@
     {
       "symbol": "ONGC",
       "name": "Oil & Natural Gas Corpn Ltd",
-      "sector": "Oil Gas & Consumable Fuels",
+      "sector": "Oil & Gas",
       "current_price": 279.0,
       "week52_high": 308.0,
       "week52_low": 229.0,
@@ -12173,7 +12173,7 @@
     {
       "symbol": "HINDPETRO",
       "name": "Hindustan Petroleum Corporation Ltd",
-      "sector": "Oil Gas & Consumable Fuels",
+      "sector": "Oil & Gas",
       "current_price": 387.0,
       "week52_high": 508.0,
       "week52_low": 316.0,
@@ -12667,7 +12667,7 @@
     {
       "symbol": "GAIL",
       "name": "GAIL (India) Ltd",
-      "sector": "Oil Gas & Consumable Fuels",
+      "sector": "Oil & Gas",
       "current_price": 166.0,
       "week52_high": 203.0,
       "week52_low": 134.0,
@@ -12719,7 +12719,7 @@
     {
       "symbol": "IPCALAB",
       "name": "Ipca Laboratories Ltd",
-      "sector": "Healthcare",
+      "sector": "Pharma",
       "current_price": 1553.0,
       "week52_high": 1624.0,
       "week52_low": 1252.0,
@@ -13215,7 +13215,7 @@
     {
       "symbol": "LTTS",
       "name": "L&T Technology Services Ltd",
-      "sector": "Information Technology",
+      "sector": "IT",
       "current_price": 3803.0,
       "week52_high": 4747.0,
       "week52_low": 3010.0,
@@ -13762,7 +13762,7 @@
     {
       "symbol": "BANKINDIA",
       "name": "Bank of India",
-      "sector": "Financial Services",
+      "sector": "Banking",
       "current_price": 140.0,
       "week52_high": 178.0,
       "week52_low": 109.0,
@@ -14023,7 +14023,7 @@
     {
       "symbol": "MAZDOCK",
       "name": "Mazagon Dock Shipbuilders Ltd",
-      "sector": "Capital Goods",
+      "sector": "Aerospace & Defence",
       "current_price": 2657.0,
       "week52_high": 3778.0,
       "week52_low": 2057.0,
@@ -14127,7 +14127,7 @@
     {
       "symbol": "LUPIN",
       "name": "Lupin Ltd",
-      "sector": "Healthcare",
+      "sector": "Pharma",
       "current_price": 2380.0,
       "week52_high": 2494.0,
       "week52_low": 1837.0,
@@ -14282,7 +14282,7 @@
     {
       "symbol": "MGL",
       "name": "Mahanagar Gas Ltd",
-      "sector": "Oil Gas & Consumable Fuels",
+      "sector": "Oil & Gas",
       "current_price": 1173.0,
       "week52_high": 1587.0,
       "week52_low": 900.0,
@@ -14498,7 +14498,7 @@
     {
       "symbol": "SBIN",
       "name": "State Bank of India",
-      "sector": "Financial Services",
+      "sector": "Banking",
       "current_price": 1019.0,
       "week52_high": 1235.0,
       "week52_low": 779.0,
@@ -14814,7 +14814,7 @@
     {
       "symbol": "UNIONBANK",
       "name": "Union Bank of India",
-      "sector": "Financial Services",
+      "sector": "Banking",
       "current_price": 166.0,
       "week52_high": 205.0,
       "week52_low": 125.0,
@@ -15206,7 +15206,7 @@
     {
       "symbol": "CANBK",
       "name": "Canara Bank",
-      "sector": "Financial Services",
+      "sector": "Banking",
       "current_price": 134.0,
       "week52_high": 163.0,
       "week52_low": 99.8,
@@ -15522,7 +15522,7 @@
     {
       "symbol": "COFORGE",
       "name": "Coforge Ltd",
-      "sector": "Information Technology",
+      "sector": "IT",
       "current_price": 1368.0,
       "week52_high": 1994.0,
       "week52_low": 1008.0,
@@ -15938,7 +15938,7 @@
     {
       "symbol": "HAL",
       "name": "Hindustan Aeronautics Ltd",
-      "sector": "Capital Goods",
+      "sector": "Aerospace & Defence",
       "current_price": 4788.0,
       "week52_high": 5166.0,
       "week52_low": 3479.0,
@@ -16256,7 +16256,7 @@
     {
       "symbol": "BEL",
       "name": "Bharat Electronics Ltd",
-      "sector": "Capital Goods",
+      "sector": "Aerospace & Defence",
       "current_price": 440.0,
       "week52_high": 473.0,
       "week52_low": 316.0,
@@ -17016,7 +17016,7 @@
     {
       "symbol": "BEML",
       "name": "BEML Ltd",
-      "sector": "Capital Goods",
+      "sector": "Aerospace & Defence",
       "current_price": 1951.0,
       "week52_high": 2437.0,
       "week52_low": 1355.0,
@@ -17356,7 +17356,7 @@
     {
       "symbol": "AUROPHARMA",
       "name": "Aurobindo Pharma Ltd",
-      "sector": "Healthcare",
+      "sector": "Pharma",
       "current_price": 1487.0,
       "week52_high": 1514.0,
       "week52_low": 1016.0,
@@ -17706,7 +17706,7 @@
     {
       "symbol": "COCHINSHIP",
       "name": "Cochin Shipyard Ltd",
-      "sector": "Capital Goods",
+      "sector": "Aerospace & Defence",
       "current_price": 1777.0,
       "week52_high": 2547.0,
       "week52_low": 1187.0,
@@ -17730,7 +17730,7 @@
     {
       "symbol": "OFSS",
       "name": "Oracle Financial Services Software Ltd",
-      "sector": "Information Technology",
+      "sector": "IT",
       "current_price": 9346.0,
       "week52_high": 9950.0,
       "week52_low": 6232.0,
@@ -18002,7 +18002,7 @@
     {
       "symbol": "INDIANB",
       "name": "Indian Bank",
-      "sector": "Financial Services",
+      "sector": "Banking",
       "current_price": 866.0,
       "week52_high": 1001.0,
       "week52_low": 563.0,
@@ -18856,7 +18856,7 @@
     {
       "symbol": "MAHABANK",
       "name": "Bank of Maharashtra",
-      "sector": "Financial Services",
+      "sector": "Banking",
       "current_price": 83.9,
       "week52_high": 85.9,
       "week52_low": 49.8,
@@ -19672,8 +19672,8 @@
         "pe": 11.7,
         "industry_pe": null,
         "pb": null,
-        "roe": 10.5,
-        "roce": 9.81,
+        "roe": 15.5,
+        "roce": 14.3,
         "de": null,
         "div_yield": 1.94,
         "market_cap": 15793.0
@@ -20236,7 +20236,7 @@
     {
       "symbol": "BDL",
       "name": "Bharat Dynamics Ltd",
-      "sector": "Capital Goods",
+      "sector": "Aerospace & Defence",
       "current_price": null,
       "week52_high": null,
       "week52_low": null,
@@ -20380,7 +20380,7 @@
     {
       "symbol": "DATAPATTNS",
       "name": "Data Patterns (India) Ltd",
-      "sector": "Capital Goods",
+      "sector": "Aerospace & Defence",
       "current_price": null,
       "week52_high": null,
       "week52_low": null,
@@ -20404,7 +20404,7 @@
     {
       "symbol": "GRSE",
       "name": "Garden Reach Shipbuilders & Engineers Ltd",
-      "sector": "Capital Goods",
+      "sector": "Aerospace & Defence",
       "current_price": null,
       "week52_high": null,
       "week52_low": null,
