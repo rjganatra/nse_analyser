@@ -1,7 +1,8 @@
 """
 fetchers/screener.py
-Scrapes Screener.in top ratios — works from GitHub Actions.
-Sector is passed in from NSE universe (reliable) — Screener sector is unreliable.
+Scrapes Screener.in top ratios. Works from GitHub Actions IPs.
+Industry P/E is parsed from the full page text as fallback since
+Screener sometimes renders it outside the standard li structure.
 """
 
 import re
@@ -51,6 +52,7 @@ def _num(text: str) -> float | None:
 def _parse_top_ratios(soup: BeautifulSoup) -> dict:
     out = {}
     section = soup.find(id="top-ratios") or soup
+
     for li in section.select("li"):
         name_el = li.find("span", class_="name")
         val_el  = li.find("span", class_="value")
@@ -59,7 +61,7 @@ def _parse_top_ratios(soup: BeautifulSoup) -> dict:
         name = name_el.get_text(strip=True)
         raw  = val_el.get_text(strip=True)
 
-        # "High / Low" = 52W range
+        # 52W High / Low field
         if "High" in name and "Low" in name:
             parts = re.split(r"\s*/\s*", raw)
             if len(parts) == 2:
@@ -71,28 +73,38 @@ def _parse_top_ratios(soup: BeautifulSoup) -> dict:
         if val is not None:
             out[name] = val
 
-    # Normalise keys
+    # Normalise common key names
     key_map = {
-        "Current Price":  "current_price",
-        "Stock P/E":      "pe",
-        "Industry P/E":   "industry_pe",
-        "P/B":            "pb",
+        "Current Price":       "current_price",
+        "Stock P/E":           "pe",
+        "P/E":                 "pe",
+        "Industry P/E":        "industry_pe",
+        "P/B":                 "pb",
         "Price to Book Value": "pb",
-        "Market Cap":     "market_cap",
-        "Book Value":     "book_value",
-        "Dividend Yield": "div_yield",
-        "ROCE":           "roce",
-        "ROE":            "roe",
-        "Debt / Equity":  "debt_to_equity",
-        "Face Value":     "face_value",
-        "EPS":            "eps_ttm",
-        "Intrinsic Value":"intrinsic_value",
-        "Graham Number":  "graham_number",
-        "PEG Ratio":      "peg",
+        "Market Cap":          "market_cap",
+        "Book Value":          "book_value",
+        "Dividend Yield":      "div_yield",
+        "ROCE":                "roce",
+        "ROE":                 "roe",
+        "Debt / Equity":       "debt_to_equity",
+        "Face Value":          "face_value",
     }
     mapped = {}
     for k, v in out.items():
         mapped[key_map.get(k, k)] = v
+
+    # ── Industry P/E fallback: scan full page text ────────────────────────
+    # Screener sometimes renders it as plain text outside the li structure
+    if "industry_pe" not in mapped or mapped["industry_pe"] is None:
+        page_text = soup.get_text(" ", strip=True)
+        # Patterns: "Industry P/E 45.2" or "Industry PE: 45.2"
+        m = re.search(
+            r"[Ii]ndustry\s+P[/\s]?E[:\s]+([0-9]+\.?[0-9]*)",
+            page_text
+        )
+        if m:
+            mapped["industry_pe"] = float(m.group(1))
+
     mapped["_raw"] = out
     return mapped
 
@@ -151,10 +163,6 @@ def _get_row(table: dict, *keys) -> list:
 
 
 def fetch(symbol: str, delay: float = 2.0, nse_sector: str = "") -> dict:
-    """
-    nse_sector: pass the sector from NSE universe CSV — it's more reliable
-    than parsing it from Screener's HTML.
-    """
     symbol = symbol.upper().strip()
     time.sleep(delay)
 
@@ -165,10 +173,6 @@ def fetch(symbol: str, delay: float = 2.0, nse_sector: str = "") -> dict:
     h1   = soup.find("h1")
     name = h1.get_text(strip=True) if h1 else symbol
 
-    # Always use NSE sector if provided — Screener HTML sector is unreliable
-    sector = nse_sector
-
-    # Top ratios
     ratios        = _parse_top_ratios(soup)
     current_price = ratios.get("current_price")
     week52_high   = ratios.get("week52_high")
@@ -219,12 +223,14 @@ def fetch(symbol: str, delay: float = 2.0, nse_sector: str = "") -> dict:
     nwc = ((_last(rec) or 0) + (_last(inv) or 0)) - (_last(pay) or 0)
     tables_found = [n for n, t in [("P&L", pl), ("BS", bs), ("CF", cf), ("Ratios", rat)] if t]
 
-    print(f"    tables={tables_found or 'none'} | price=₹{current_price} | "
-          f"52W={week52_low}-{week52_high} | PE={pe_val} IndPE={industry_pe} "
-          f"ROE={roe_val} ROCE={roce_val} D/E={d2e}")
+    print(f"    tables={tables_found or 'none'} | "
+          f"price=₹{current_price} | 52W={week52_low}-{week52_high} | "
+          f"PE={pe_val} IndPE={industry_pe} ROE={roe_val} ROCE={roce_val} D/E={d2e}")
 
     return {
-        "symbol": symbol, "name": name, "sector": sector, "url": url,
+        "symbol": symbol, "name": name,
+        "sector": nse_sector,  # always from NSE universe
+        "url": url,
         "top_ratios": {
             "Current Price":  current_price,
             "Market Cap":     market_cap,
