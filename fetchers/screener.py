@@ -1,8 +1,7 @@
 """
 fetchers/screener.py
-Scrapes Screener.in top ratios bar — works from GitHub Actions IPs.
-Fetches: Price, 52W High/Low, P/E, Industry P/E, P/B, ROE, ROCE, D/E, Div Yield, Market Cap.
-Also attempts P&L / BS / CF tables when not blocked.
+Scrapes Screener.in top ratios — works from GitHub Actions.
+Sector is passed in from NSE universe (reliable) — Screener sector is unreliable.
 """
 
 import re
@@ -50,20 +49,17 @@ def _num(text: str) -> float | None:
 
 
 def _parse_top_ratios(soup: BeautifulSoup) -> dict:
-    """Parse Screener.in top ratios bar into structured dict."""
     out = {}
     section = soup.find(id="top-ratios") or soup
-
     for li in section.select("li"):
         name_el = li.find("span", class_="name")
         val_el  = li.find("span", class_="value")
         if not name_el or not val_el:
             continue
-
         name = name_el.get_text(strip=True)
         raw  = val_el.get_text(strip=True)
 
-        # "High / Low" field = 52W high and low
+        # "High / Low" = 52W range
         if "High" in name and "Low" in name:
             parts = re.split(r"\s*/\s*", raw)
             if len(parts) == 2:
@@ -75,13 +71,13 @@ def _parse_top_ratios(soup: BeautifulSoup) -> dict:
         if val is not None:
             out[name] = val
 
-    # Normalise to standard keys
+    # Normalise keys
     key_map = {
         "Current Price":  "current_price",
         "Stock P/E":      "pe",
         "Industry P/E":   "industry_pe",
         "P/B":            "pb",
-        "Price to Book":  "pb",
+        "Price to Book Value": "pb",
         "Market Cap":     "market_cap",
         "Book Value":     "book_value",
         "Dividend Yield": "div_yield",
@@ -89,40 +85,16 @@ def _parse_top_ratios(soup: BeautifulSoup) -> dict:
         "ROE":            "roe",
         "Debt / Equity":  "debt_to_equity",
         "Face Value":     "face_value",
-        "EPS":            "eps",
-        "Sales Growth":   "sales_growth",
+        "EPS":            "eps_ttm",
+        "Intrinsic Value":"intrinsic_value",
+        "Graham Number":  "graham_number",
+        "PEG Ratio":      "peg",
     }
     mapped = {}
     for k, v in out.items():
         mapped[key_map.get(k, k)] = v
-
-    mapped["_raw"] = out   # keep originals for display
+    mapped["_raw"] = out
     return mapped
-
-
-def _parse_sector(soup: BeautifulSoup) -> str:
-    """
-    Extract sector from Screener.in company page.
-    Screener shows sector as a link like: Sector > Industry
-    We want the sector/industry text, NOT the company website URL.
-    """
-    # Method 1: look for links inside company-info that point to screener sector pages
-    for a in soup.select("a[href*='/screen/'], a[href*='/screens/']"):
-        text = a.get_text(strip=True)
-        if text and len(text) > 2 and len(text) < 50:
-            return text
-
-    # Method 2: look for .company-ratios or sub-heading near name
-    for el in soup.select(".company-links a, .sub span, .company-info a"):
-        text = el.get_text(strip=True)
-        href = el.get("href", "")
-        # Skip external URLs (company websites)
-        if "http" in href or "www" in href:
-            continue
-        if text and 2 < len(text) < 60:
-            return text
-
-    return ""
 
 
 def _parse_table(soup: BeautifulSoup, *section_ids) -> dict:
@@ -178,7 +150,11 @@ def _get_row(table: dict, *keys) -> list:
     return []
 
 
-def fetch(symbol: str, delay: float = 2.0) -> dict:
+def fetch(symbol: str, delay: float = 2.0, nse_sector: str = "") -> dict:
+    """
+    nse_sector: pass the sector from NSE universe CSV — it's more reliable
+    than parsing it from Screener's HTML.
+    """
     symbol = symbol.upper().strip()
     time.sleep(delay)
 
@@ -189,10 +165,10 @@ def fetch(symbol: str, delay: float = 2.0) -> dict:
     h1   = soup.find("h1")
     name = h1.get_text(strip=True) if h1 else symbol
 
-    # Use our improved sector parser — avoids picking up company website URL
-    sector = _parse_sector(soup)
+    # Always use NSE sector if provided — Screener HTML sector is unreliable
+    sector = nse_sector
 
-    # Top ratios (always works from any IP)
+    # Top ratios
     ratios        = _parse_top_ratios(soup)
     current_price = ratios.get("current_price")
     week52_high   = ratios.get("week52_high")
@@ -206,7 +182,6 @@ def fetch(symbol: str, delay: float = 2.0) -> dict:
     div_yield     = ratios.get("div_yield")
     market_cap    = ratios.get("market_cap")
 
-    # 52W calculations
     pct_above_52w_low  = None
     pct_below_52w_high = None
     near_52w_low       = False
@@ -216,7 +191,6 @@ def fetch(symbol: str, delay: float = 2.0) -> dict:
     if current_price and week52_high and week52_high > 0:
         pct_below_52w_high = round(((week52_high - current_price) / week52_high) * 100, 1)
 
-    # Detailed tables (may be blocked by Screener on AWS IPs, works locally)
     pl  = _parse_table(soup, "profit-loss")
     bs  = _parse_table(soup, "balance-sheet")
     cf  = _parse_table(soup, "cash-flow")
@@ -239,22 +213,18 @@ def fetch(symbol: str, delay: float = 2.0) -> dict:
     roe_s  = _get_row(rat, "Return on Equity %", "ROE %")
     roce_s = _get_row(rat, "ROCE %", "Return on Capital Employed")
 
-    # Fall back to top ratios values if tables empty
     if not roe_s  and roe_val:  roe_s  = [roe_val]
     if not roce_s and roce_val: roce_s = [roce_val]
 
     nwc = ((_last(rec) or 0) + (_last(inv) or 0)) - (_last(pay) or 0)
-
     tables_found = [n for n, t in [("P&L", pl), ("BS", bs), ("CF", cf), ("Ratios", rat)] if t]
+
     print(f"    tables={tables_found or 'none'} | price=₹{current_price} | "
-          f"52W={week52_low}-{week52_high} | ROE={roe_val} ROCE={roce_val} "
-          f"PE={pe_val} PB={pb_val} D/E={d2e}")
+          f"52W={week52_low}-{week52_high} | PE={pe_val} IndPE={industry_pe} "
+          f"ROE={roe_val} ROCE={roce_val} D/E={d2e}")
 
     return {
-        "symbol": symbol,
-        "name":   name,
-        "sector": sector,
-        "url":    url,
+        "symbol": symbol, "name": name, "sector": sector, "url": url,
         "top_ratios": {
             "Current Price":  current_price,
             "Market Cap":     market_cap,
@@ -279,8 +249,7 @@ def fetch(symbol: str, delay: float = 2.0) -> dict:
         "series": {
             "sales": sales, "opm_pct": opm, "npm_pct": npm, "eps": eps,
             "reserves": res, "debt": debt, "fixed_assets": fa, "cash_bs": cash,
-            "cfo": cfo, "cfi": cfi, "cff": cff,
-            "roe": roe_s, "roce": roce_s,
+            "cfo": cfo, "cfi": cfi, "cff": cff, "roe": roe_s, "roce": roce_s,
         },
         "derived": {
             "sales_avg_growth":        _growth(sales),
