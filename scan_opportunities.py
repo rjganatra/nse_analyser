@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-scan_opportunities.py - Daily opportunity scan via Screener.in.
-Fetches price, 52W, PE, PB, ROE, ROCE, D/E, Div Yield for all 500 stocks.
+scan_opportunities.py - Daily. Fetches price, 52W, all ratios from Screener.in.
+Runs at 12:00 PM IST and 5:00 PM IST on weekdays.
 """
 
 import json
@@ -24,15 +24,12 @@ def classify(stock: dict) -> list[str]:
     tags     = []
     pct_low  = stock.get("pct_above_52w_low")
     pct_high = stock.get("pct_below_52w_high")
-
     if pct_low is not None:
         if pct_low <= 10:   tags.append("AT_52W_LOW")
         elif pct_low <= 20: tags.append("NEAR_52W_LOW")
         elif pct_low <= 30: tags.append("DISCOUNTED_ZONE")
-
     if pct_high is not None and pct_high <= 5:
         tags.append("NEAR_52W_HIGH")
-
     return tags
 
 
@@ -49,32 +46,31 @@ def run():
 
     print(f"\nFetching data for {total} stocks from Screener.in...\n")
 
-    all_stocks    = []
-    opportunities = []
-    errors        = []
+    all_stocks = []
+    errors     = []
 
     for i, symbol in enumerate(symbols, 1):
         print(f"[{i}/{total}] {symbol}", end=" ", flush=True)
         try:
-            raw = fetch(symbol, delay=2.0)
+            nse_info = meta_map.get(symbol, {})
+            # Pass NSE sector directly — reliable, avoids Screener HTML parsing issues
+            nse_sector = nse_info.get("sector", "")
+
+            raw = fetch(symbol, delay=2.0, nse_sector=nse_sector)
 
             if "error" in raw:
                 print(f"-- ERROR: {raw['error']}")
                 errors.append(symbol)
                 continue
 
-            pd      = raw.get("price_data", {})
-            top     = raw.get("top_ratios", {})
-            nse_inf = meta_map.get(symbol, {})
-            tags    = classify(pd)
-
-            # Use NSE sector if Screener didn't return a clean one
-            sector = raw.get("sector") or nse_inf.get("sector", "")
+            pd   = raw.get("price_data", {})
+            top  = raw.get("top_ratios", {})
+            tags = classify(pd)
 
             entry = {
                 "symbol":             symbol,
-                "name":               raw.get("name") or nse_inf.get("name", symbol),
-                "sector":             sector,
+                "name":               raw.get("name") or nse_info.get("name", symbol),
+                "sector":             nse_sector,   # always use NSE sector
                 "current_price":      pd.get("current_price"),
                 "week52_high":        pd.get("week52_high"),
                 "week52_low":         pd.get("week52_low"),
@@ -84,36 +80,32 @@ def run():
                 "tags":               tags,
                 "is_opportunity":     len(tags) > 0,
                 "screener_url":       raw.get("url", ""),
-                # All ratios for display on website
                 "ratios": {
-                    "pe":           top.get("P/E"),
-                    "industry_pe":  top.get("Industry P/E"),
-                    "pb":           top.get("P/B"),
-                    "roe":          top.get("ROE %"),
-                    "roce":         top.get("ROCE %"),
-                    "de":           top.get("Debt / Equity"),
-                    "div_yield":    top.get("Div. Yield %"),
-                    "market_cap":   top.get("Market Cap"),
+                    "pe":          top.get("P/E"),
+                    "industry_pe": top.get("Industry P/E"),
+                    "pb":          top.get("P/B"),
+                    "roe":         top.get("ROE %"),
+                    "roce":        top.get("ROCE %"),
+                    "de":          top.get("Debt / Equity"),
+                    "div_yield":   top.get("Div. Yield %"),
+                    "market_cap":  top.get("Market Cap"),
                 },
             }
 
-            price_str = (f"₹{pd.get('current_price')} | "
-                         f"52W: ₹{pd.get('week52_low')}-₹{pd.get('week52_high')} | "
-                         f"PE={top.get('P/E')} ROE={top.get('ROE %')} ROCE={top.get('ROCE %')}")
-            print(f"-- {price_str} | tags={tags or 'none'}")
+            print(f"-- ₹{pd.get('current_price')} | "
+                  f"52W:{pd.get('week52_low')}-{pd.get('week52_high')} | "
+                  f"PE={top.get('P/E')} IndPE={top.get('Industry P/E')} "
+                  f"ROE={top.get('ROE %')} | tags={tags or 'none'}")
 
             all_stocks.append(entry)
-            if tags:
-                opportunities.append(entry)
 
         except Exception as e:
             print(f"-- EXCEPTION: {e}")
             errors.append(symbol)
 
+    opportunities = [s for s in all_stocks if s["is_opportunity"]]
     priority = {"AT_52W_LOW": 0, "NEAR_52W_LOW": 1, "DISCOUNTED_ZONE": 2, "NEAR_52W_HIGH": 3}
-    opportunities.sort(
-        key=lambda x: min((priority.get(t, 9) for t in x["tags"]), default=9)
-    )
+    opportunities.sort(key=lambda x: min((priority.get(t,9) for t in x["tags"]), default=9))
     all_stocks.sort(key=lambda x: (x.get("pct_above_52w_low") or 999))
 
     priced  = sum(1 for s in all_stocks if s["current_price"])
@@ -137,15 +129,13 @@ def run():
 
     near_low = [s for s in opportunities
                 if any(t in s["tags"] for t in ["AT_52W_LOW","NEAR_52W_LOW","DISCOUNTED_ZONE"])]
-
     print(f"\n{'='*60}")
     print(f"  DONE: {priced}/{total} priced | {len(errors)} errors")
     print(f"  Near 52W low: {len(near_low)}")
-    if near_low:
-        for s in near_low[:5]:
-            print(f"    {s['symbol']:12} ₹{s['current_price']} | "
-                  f"52W low ₹{s['week52_low']} | +{s['pct_above_52w_low']}% | "
-                  f"PE={s['ratios'].get('pe')} ROE={s['ratios'].get('roe')}")
+    for s in near_low[:5]:
+        print(f"    {s['symbol']:12} ₹{s['current_price']} | "
+              f"52W low ₹{s['week52_low']} | +{s['pct_above_52w_low']}% | "
+              f"PE={s['ratios'].get('pe')} IndPE={s['ratios'].get('industry_pe')}")
     print(f"{'='*60}\n")
 
 
