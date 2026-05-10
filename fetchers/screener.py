@@ -1,8 +1,6 @@
 """
 fetchers/screener.py
-Scrapes Screener.in top ratios. Works from GitHub Actions IPs.
-Industry P/E is parsed from the full page text as fallback since
-Screener sometimes renders it outside the standard li structure.
+Scrapes Screener.in. Includes retry logic and rate-limit detection.
 """
 
 import re
@@ -18,21 +16,49 @@ HEADERS = {
     ),
     "Accept-Language": "en-US,en;q=0.9",
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Connection": "keep-alive",
+}
+
+# Some NSE symbols differ from Screener.in slugs
+SYMBOL_MAP = {
+    "M&M":       "M-and-M",
+    "M&MFIN":    "M-and-MFIN",
+    "L&TFH":     "L-and-TFH",
+    "BAJAJ-AUTO":"BAJAJ-AUTO",
 }
 
 
 def _get(symbol: str) -> tuple[BeautifulSoup | None, str]:
+    slug = SYMBOL_MAP.get(symbol, symbol)
     for path in ["/consolidated/", "/"]:
-        url = f"https://www.screener.in/company/{symbol}{path}"
+        url = f"https://www.screener.in/company/{slug}{path}"
         try:
             r = requests.get(url, headers=HEADERS, timeout=25)
-            if r.status_code == 200:
-                soup = BeautifulSoup(r.text, "lxml")
-                h1 = soup.find("h1")
-                if h1 and "not found" in h1.get_text().lower():
-                    return None, ""
-                if soup.find(id="top-ratios") or soup.find("section"):
-                    return soup, url
+
+            # Detect rate limiting (429 or redirected to login/captcha)
+            if r.status_code == 429:
+                return "rate_limited", url
+            if r.status_code != 200:
+                continue
+
+            soup = BeautifulSoup(r.text, "lxml")
+
+            # Detect CAPTCHA / block page
+            page_text = soup.get_text(" ", strip=True).lower()
+            if any(kw in page_text for kw in ["captcha", "too many requests", "access denied", "robot"]):
+                return "rate_limited", url
+
+            # Detect 404 / not found
+            h1 = soup.find("h1")
+            if h1 and "not found" in h1.get_text().lower():
+                return None, ""
+
+            # Valid page must have top-ratios or at least a section
+            if soup.find(id="top-ratios") or soup.find("section"):
+                return soup, url
+
+        except requests.exceptions.Timeout:
+            print(f"    [screener] {symbol} timeout")
         except Exception as e:
             print(f"    [screener] {symbol} error: {e}")
     return None, ""
@@ -52,7 +78,6 @@ def _num(text: str) -> float | None:
 def _parse_top_ratios(soup: BeautifulSoup) -> dict:
     out = {}
     section = soup.find(id="top-ratios") or soup
-
     for li in section.select("li"):
         name_el = li.find("span", class_="name")
         val_el  = li.find("span", class_="value")
@@ -61,7 +86,6 @@ def _parse_top_ratios(soup: BeautifulSoup) -> dict:
         name = name_el.get_text(strip=True)
         raw  = val_el.get_text(strip=True)
 
-        # 52W High / Low field
         if "High" in name and "Low" in name:
             parts = re.split(r"\s*/\s*", raw)
             if len(parts) == 2:
@@ -73,35 +97,22 @@ def _parse_top_ratios(soup: BeautifulSoup) -> dict:
         if val is not None:
             out[name] = val
 
-    # Normalise common key names
     key_map = {
-        "Current Price":       "current_price",
-        "Stock P/E":           "pe",
-        "P/E":                 "pe",
-        "Industry P/E":        "industry_pe",
-        "P/B":                 "pb",
-        "Price to Book Value": "pb",
-        "Market Cap":          "market_cap",
-        "Book Value":          "book_value",
-        "Dividend Yield":      "div_yield",
-        "ROCE":                "roce",
-        "ROE":                 "roe",
-        "Debt / Equity":       "debt_to_equity",
-        "Face Value":          "face_value",
+        "Current Price": "current_price", "Stock P/E": "pe", "P/E": "pe",
+        "Industry P/E":  "industry_pe",  "P/B": "pb",
+        "Price to Book Value": "pb",     "Market Cap": "market_cap",
+        "Book Value":    "book_value",   "Dividend Yield": "div_yield",
+        "ROCE": "roce",  "ROE": "roe",   "Debt / Equity": "debt_to_equity",
+        "Face Value":    "face_value",
     }
     mapped = {}
     for k, v in out.items():
         mapped[key_map.get(k, k)] = v
 
-    # ── Industry P/E fallback: scan full page text ────────────────────────
-    # Screener sometimes renders it as plain text outside the li structure
-    if "industry_pe" not in mapped or mapped["industry_pe"] is None:
+    # Industry P/E fallback — scan full page text
+    if not mapped.get("industry_pe"):
         page_text = soup.get_text(" ", strip=True)
-        # Patterns: "Industry P/E 45.2" or "Industry PE: 45.2"
-        m = re.search(
-            r"[Ii]ndustry\s+P[/\s]?E[:\s]+([0-9]+\.?[0-9]*)",
-            page_text
-        )
+        m = re.search(r"[Ii]ndustry\s+P[/\s]?E[:\s]+([0-9]+\.?[0-9]*)", page_text)
         if m:
             mapped["industry_pe"] = float(m.group(1))
 
@@ -138,9 +149,7 @@ def _last(lst) -> float | None:
 
 def _increasing(lst, n=3) -> bool | None:
     c = [v for v in (lst or []) if v is not None]
-    if len(c) < n:
-        return None
-    return c[-1] > c[0]
+    return (c[-1] > c[0]) if len(c) >= n else None
 
 
 def _growth(lst) -> float | None:
@@ -148,7 +157,7 @@ def _growth(lst) -> float | None:
     if len(c) < 2:
         return None
     g = [(c[i]-c[i-1])/abs(c[i-1])*100
-         for i in range(1, len(c)) if c[i-1] and c[i-1] != 0]
+         for i in range(1, len(c)) if c[i-1] != 0]
     return round(sum(g)/len(g), 2) if g else None
 
 
@@ -162,13 +171,31 @@ def _get_row(table: dict, *keys) -> list:
     return []
 
 
-def fetch(symbol: str, delay: float = 2.0, nse_sector: str = "") -> dict:
+def fetch(symbol: str, delay: float = 2.5, nse_sector: str = "") -> dict:
     symbol = symbol.upper().strip()
-    time.sleep(delay)
 
-    soup, url = _get(symbol)
-    if soup is None:
-        return {"error": f"{symbol} not found on Screener.in"}
+    for attempt in range(3):
+        time.sleep(delay if attempt == 0 else delay * (attempt + 1))
+
+        result = _get(symbol)
+        soup, url = result
+
+        if soup == "rate_limited":
+            wait = 30 * (attempt + 1)
+            print(f"    [screener] {symbol} rate limited — waiting {wait}s (attempt {attempt+1}/3)...")
+            time.sleep(wait)
+            continue
+
+        if soup is None:
+            if attempt < 2:
+                print(f"    [screener] {symbol} no data, retrying...")
+                continue
+            return {"error": f"{symbol} not found on Screener.in"}
+
+        # Successfully got a page
+        break
+    else:
+        return {"error": f"{symbol} blocked after 3 retries — rate limited"}
 
     h1   = soup.find("h1")
     name = h1.get_text(strip=True) if h1 else symbol
@@ -186,14 +213,13 @@ def fetch(symbol: str, delay: float = 2.0, nse_sector: str = "") -> dict:
     div_yield     = ratios.get("div_yield")
     market_cap    = ratios.get("market_cap")
 
-    pct_above_52w_low  = None
-    pct_below_52w_high = None
-    near_52w_low       = False
+    pct_above = pct_below = None
+    near_52w  = False
     if current_price and week52_low and week52_low > 0:
-        pct_above_52w_low = round(((current_price - week52_low) / week52_low) * 100, 1)
-        near_52w_low      = pct_above_52w_low <= 30
+        pct_above = round(((current_price - week52_low) / week52_low) * 100, 1)
+        near_52w  = pct_above <= 30
     if current_price and week52_high and week52_high > 0:
-        pct_below_52w_high = round(((week52_high - current_price) / week52_high) * 100, 1)
+        pct_below = round(((week52_high - current_price) / week52_high) * 100, 1)
 
     pl  = _parse_table(soup, "profit-loss")
     bs  = _parse_table(soup, "balance-sheet")
@@ -221,36 +247,27 @@ def fetch(symbol: str, delay: float = 2.0, nse_sector: str = "") -> dict:
     if not roce_s and roce_val: roce_s = [roce_val]
 
     nwc = ((_last(rec) or 0) + (_last(inv) or 0)) - (_last(pay) or 0)
-    tables_found = [n for n, t in [("P&L", pl), ("BS", bs), ("CF", cf), ("Ratios", rat)] if t]
+    tables = [n for n, t in [("P&L",pl),("BS",bs),("CF",cf),("Ratios",rat)] if t]
 
-    print(f"    tables={tables_found or 'none'} | "
-          f"price=₹{current_price} | 52W={week52_low}-{week52_high} | "
+    print(f"    tables={tables or 'none'} | price=₹{current_price} | "
+          f"52W={week52_low}-{week52_high} | "
           f"PE={pe_val} IndPE={industry_pe} ROE={roe_val} ROCE={roce_val} D/E={d2e}")
 
     return {
         "symbol": symbol, "name": name,
-        "sector": nse_sector,  # always from NSE universe
-        "url": url,
+        "sector": nse_sector, "url": url,
         "top_ratios": {
-            "Current Price":  current_price,
-            "Market Cap":     market_cap,
-            "P/E":            pe_val,
-            "Industry P/E":   industry_pe,
-            "P/B":            pb_val,
-            "ROE %":          roe_val,
-            "ROCE %":         roce_val,
-            "Debt / Equity":  d2e,
-            "Div. Yield %":   div_yield,
-            "52W High":       week52_high,
+            "Current Price":  current_price, "Market Cap":    market_cap,
+            "P/E":            pe_val,        "Industry P/E":  industry_pe,
+            "P/B":            pb_val,        "ROE %":         roe_val,
+            "ROCE %":         roce_val,      "Debt / Equity": d2e,
+            "Div. Yield %":   div_yield,     "52W High":      week52_high,
             "52W Low":        week52_low,
         },
         "price_data": {
-            "current_price":      current_price,
-            "week52_high":        week52_high,
-            "week52_low":         week52_low,
-            "pct_above_52w_low":  pct_above_52w_low,
-            "pct_below_52w_high": pct_below_52w_high,
-            "near_52w_low":       near_52w_low,
+            "current_price": current_price, "week52_high": week52_high,
+            "week52_low":    week52_low,    "pct_above_52w_low":  pct_above,
+            "pct_below_52w_high": pct_below, "near_52w_low": near_52w,
         },
         "series": {
             "sales": sales, "opm_pct": opm, "npm_pct": npm, "eps": eps,
