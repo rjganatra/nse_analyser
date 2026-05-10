@@ -1,11 +1,11 @@
 {
   "meta": {
     "strategy": "opportunities",
-    "scanned_at": "2026-05-09T23:25:40.569295+00:00",
+    "scanned_at": "2026-05-10T05:45:46.293991+00:00",
     "total": 504,
-    "success": 469,
-    "opportunities": 316,
-    "errors": 4,
+    "success": 466,
+    "opportunities": 315,
+    "errors": 7,
     "data_source": "Screener.in"
   },
   "opportunities": [
@@ -2244,32 +2244,6 @@
         "de": null,
         "div_yield": 1.5,
         "market_cap": 507360.0
-      }
-    },
-    {
-      "symbol": "M&M",
-      "name": "Mahindra & Mahindra Ltd",
-      "sector": "Automobile and Auto Components",
-      "current_price": 3330.0,
-      "week52_high": 3840.0,
-      "week52_low": 2896.0,
-      "pct_above_52w_low": 15.0,
-      "pct_below_52w_high": 13.3,
-      "near_52w_low": true,
-      "tags": [
-        "NEAR_52W_LOW"
-      ],
-      "is_opportunity": true,
-      "screener_url": "https://www.screener.in/company/M&M/consolidated/",
-      "ratios": {
-        "pe": 23.4,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 20.8,
-        "roce": 15.4,
-        "de": null,
-        "div_yield": 0.76,
-        "market_cap": 414145.0
       }
     },
     {
@@ -10137,32 +10111,6 @@
       }
     },
     {
-      "symbol": "M&M",
-      "name": "Mahindra & Mahindra Ltd",
-      "sector": "Automobile and Auto Components",
-      "current_price": 3330.0,
-      "week52_high": 3840.0,
-      "week52_low": 2896.0,
-      "pct_above_52w_low": 15.0,
-      "pct_below_52w_high": 13.3,
-      "near_52w_low": true,
-      "tags": [
-        "NEAR_52W_LOW"
-      ],
-      "is_opportunity": true,
-      "screener_url": "https://www.screener.in/company/M&M/consolidated/",
-      "ratios": {
-        "pe": 23.4,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 20.8,
-        "roce": 15.4,
-        "de": null,
-        "div_yield": 0.76,
-        "market_cap": 414145.0
-      }
-    },
-    {
       "symbol": "3MINDIA",
       "name": "3M India Ltd",
       "sector": "Diversified",
@@ -16350,30 +16298,6 @@
       }
     },
     {
-      "symbol": "M&MFIN",
-      "name": "Mahindra & Mahindra Financial Services Ltd",
-      "sector": "Financial Services",
-      "current_price": 339.0,
-      "week52_high": 412.0,
-      "week52_low": 243.0,
-      "pct_above_52w_low": 39.5,
-      "pct_below_52w_high": 17.7,
-      "near_52w_low": false,
-      "tags": [],
-      "is_opportunity": false,
-      "screener_url": "https://www.screener.in/company/M&MFIN/consolidated/",
-      "ratios": {
-        "pe": 16.0,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 12.3,
-        "roce": 8.72,
-        "de": null,
-        "div_yield": 2.21,
-        "market_cap": 47134.0
-      }
-    },
-    {
       "symbol": "PFC",
       "name": "Power Finance Corporation Ltd",
       "sector": "Financial Services",
@@ -17825,30 +17749,6 @@
         "de": null,
         "div_yield": 0.16,
         "market_cap": 13159.0
-      }
-    },
-    {
-      "symbol": "ABB",
-      "name": "ABB India Ltd",
-      "sector": "Capital Goods",
-      "current_price": 7012.0,
-      "week52_high": 7825.0,
-      "week52_low": 4638.0,
-      "pct_above_52w_low": 51.2,
-      "pct_below_52w_high": 10.4,
-      "near_52w_low": false,
-      "tags": [],
-      "is_opportunity": false,
-      "screener_url": "https://www.screener.in/company/ABB/consolidated/",
-      "ratios": {
-        "pe": 97.6,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 22.4,
-        "roce": 29.9,
-        "de": null,
-        "div_yield": 0.56,
-        "market_cap": 148601.0
       }
     },
     {
