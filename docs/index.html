@@ -10,8 +10,9 @@
 [data-theme="dark"]{--bg:#08090a;--surf:#0f1012;--card:#15161a;--card2:#1c1d22;--b1:#25262c;--b2:#32333b;--text:#f0f0f2;--muted:#7a7b85;--hint:#35363e;--shadow:0 2px 12px rgba(0,0,0,.4)}
 [data-theme="light"]{--bg:#f4f4f7;--surf:#fff;--card:#fff;--card2:#f0f0f2;--b1:#d1d1d6;--b2:#c7c7cc;--text:#1c1c1e;--muted:#6e6e73;--hint:#aeaeb2;--shadow:0 2px 8px rgba(0,0,0,.07)}
 :root{--green:#34d399;--gdim:#065f46;--gbg:#022c20;--amber:#fbbf24;--adim:#92400e;--abg:#3d1a04;--red:#f87171;--rdim:#7f1d1d;--rbg:#2d0808;--blue:#60a5fa;--bbg:#1a2f50;--purple:#a78bfa;--pbg:#2e1065;--accent:#818cf8;--mono:'IBM Plex Mono',monospace;--head:'Syne',sans-serif;--r:10px;--rl:14px;--nav:56px;--safe:env(safe-area-inset-bottom,0px)}
-*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent;touch-action:manipulation}
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
 html,body{background:var(--bg);color:var(--text);font-family:var(--head);min-height:100vh;overflow-x:hidden;transition:background .2s,color .2s}
+button,a,.card,.pill,.mb-p,.sd-opt,.sb-btn,.mn-i{touch-action:manipulation}
 
 /* Topbar */
 .topbar{display:flex;align-items:center;justify-content:space-between;padding:0 20px;background:var(--surf);border-bottom:1px solid var(--b1);position:sticky;top:0;z-index:100;height:52px;box-shadow:var(--shadow)}
@@ -131,7 +132,7 @@ html,body{background:var(--bg);color:var(--text);font-family:var(--head);min-hei
 .tag.NEAR_52W_HIGH{background:var(--pbg);color:var(--purple)}
 
 /* Load more */
-.lm{width:100%;margin-top:16px;padding:13px;border-radius:var(--r);background:transparent;border:1px solid var(--b2);color:var(--muted);font-family:var(--head);font-size:13px;cursor:pointer;transition:all .15s}
+.lm{width:100%;margin-top:16px;padding:13px;border-radius:var(--r);background:transparent;border:1px solid var(--b2);color:var(--muted);font-family:var(--head);font-size:16px;cursor:pointer;transition:all .15s;touch-action:manipulation;-webkit-touch-callout:none}
 .lm:hover{border-color:var(--accent);color:var(--text)}
 
 /* Detail panel */
@@ -465,7 +466,12 @@ document.addEventListener('click',e=>{
 });
 
 // ── Tab ────────────────────────────────────────────────────────────────────
+// Save scroll position per tab
+const tabY={opp:0,fund:0,watch:0};
+
 function switchTab(tab){
+  // Save current tab scroll
+  tabY[activeTab]=window.scrollY;
   activeTab=tab; oppPg=1; fundPg=1;
   ['opp','fund','watch'].forEach(t=>{
     document.getElementById('panel-'+t).classList.toggle('on',t===tab);
@@ -476,6 +482,8 @@ function switchTab(tab){
   document.getElementById('verdictBlock').style.display=tab==='fund'?'':'none';
   buildMobBar();
   if(tab==='watch') renderWatch();
+  // Restore scroll for this tab
+  requestAnimationFrame(()=>window.scrollTo({top:tabY[tab],behavior:'instant'}));
 }
 
 // ── Mobile filter bar ─────────────────────────────────────────────────────
