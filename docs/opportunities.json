@@ -1,11 +1,11 @@
 {
   "meta": {
     "strategy": "opportunities",
-    "scanned_at": "2026-05-10T05:45:46.293991+00:00",
+    "scanned_at": "2026-05-11T03:41:36.489116+00:00",
     "total": 504,
-    "success": 466,
+    "success": 467,
     "opportunities": 315,
-    "errors": 7,
+    "errors": 6,
     "data_source": "Screener.in"
   },
   "opportunities": [
@@ -3226,10 +3226,10 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/AFFLE/consolidated/",
       "ratios": {
-        "pe": 48.4,
+        "pe": 46.6,
         "industry_pe": null,
         "pb": null,
-        "roe": 14.0,
+        "roe": 13.8,
         "roce": 16.8,
         "de": null,
         "div_yield": 0.0,
@@ -3493,7 +3493,7 @@
         "roe": 12.5,
         "roce": 5.93,
         "de": null,
-        "div_yield": 2.9,
+        "div_yield": 3.33,
         "market_cap": 63633.0
       }
     },
@@ -3513,11 +3513,11 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/BLUEDART/consolidated/",
       "ratios": {
-        "pe": 46.4,
+        "pe": 48.1,
         "industry_pe": null,
         "pb": null,
-        "roe": 16.2,
-        "roce": 16.3,
+        "roe": 16.8,
+        "roce": 16.6,
         "de": null,
         "div_yield": 0.44,
         "market_cap": 13483.0
@@ -11351,10 +11351,10 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/AFFLE/consolidated/",
       "ratios": {
-        "pe": 48.4,
+        "pe": 46.6,
         "industry_pe": null,
         "pb": null,
-        "roe": 14.0,
+        "roe": 13.8,
         "roce": 16.8,
         "de": null,
         "div_yield": 0.0,
@@ -11821,11 +11821,11 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/BLUEDART/consolidated/",
       "ratios": {
-        "pe": 46.4,
+        "pe": 48.1,
         "industry_pe": null,
         "pb": null,
-        "roe": 16.2,
-        "roce": 16.3,
+        "roe": 16.8,
+        "roce": 16.6,
         "de": null,
         "div_yield": 0.44,
         "market_cap": 13483.0
@@ -13729,7 +13729,7 @@
         "roe": 12.5,
         "roce": 5.93,
         "de": null,
-        "div_yield": 2.9,
+        "div_yield": 3.33,
         "market_cap": 63633.0
       }
     },
@@ -17749,6 +17749,30 @@
         "de": null,
         "div_yield": 0.16,
         "market_cap": 13159.0
+      }
+    },
+    {
+      "symbol": "ABB",
+      "name": "ABB India Ltd",
+      "sector": "Capital Goods",
+      "current_price": 7012.0,
+      "week52_high": 7825.0,
+      "week52_low": 4638.0,
+      "pct_above_52w_low": 51.2,
+      "pct_below_52w_high": 10.4,
+      "near_52w_low": false,
+      "tags": [],
+      "is_opportunity": false,
+      "screener_url": "https://www.screener.in/company/ABB/consolidated/",
+      "ratios": {
+        "pe": 97.6,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 22.4,
+        "roce": 29.9,
+        "de": null,
+        "div_yield": 0.56,
+        "market_cap": 148601.0
       }
     },
     {
