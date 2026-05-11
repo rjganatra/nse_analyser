@@ -1,6 +1,7 @@
 """
 fetchers/screener.py
-Scrapes Screener.in. Includes retry logic and rate-limit detection.
+Primary data source. Falls back to yfinance for stocks
+that Screener.in returns 403 (login-restricted pages).
 """
 
 import re
@@ -19,41 +20,125 @@ HEADERS = {
     "Connection": "keep-alive",
 }
 
-# Some NSE symbols differ from Screener.in slugs
 SYMBOL_MAP = {
     "M&M":       "M-and-M",
     "M&MFIN":    "M-and-MFIN",
-    "L&TFH":     "L-and-TFH",
     "BAJAJ-AUTO":"BAJAJ-AUTO",
 }
 
+NSE_TO_YF = {
+    "M&M":    "M%26M.NS", "M&MFIN": "M%26MFIN.NS",
+    "J&KBANK":"J%26KBANK.NS", "ARE&M": "ARE%26M.NS",
+}
 
-def _get(symbol: str) -> tuple[BeautifulSoup | None, str]:
+
+# ── yfinance fallback (only for 403 stocks) ───────────────────────────────
+
+def _fetch_yfinance(symbol: str, nse_sector: str) -> dict:
+    """Fallback for stocks Screener.in returns 403 on."""
+    try:
+        import yfinance as yf
+        import math
+
+        def sf(v):
+            try:
+                f = float(v)
+                return None if (math.isnan(f) or math.isinf(f)) else f
+            except Exception:
+                return None
+
+        ticker = NSE_TO_YF.get(symbol, f"{symbol}.NS")
+        obj    = yf.Ticker(ticker)
+        info   = obj.info or {}
+
+        current = sf(info.get("currentPrice") or info.get("regularMarketPrice"))
+        w52h    = sf(info.get("fiftyTwoWeekHigh"))
+        w52l    = sf(info.get("fiftyTwoWeekLow"))
+        roe     = sf(info.get("returnOnEquity"))
+        roe     = round(roe * 100, 1) if roe else None
+        d2e     = sf(info.get("debtToEquity"))
+        d2e     = round(d2e / 100, 2) if d2e else None
+
+        pct_above = pct_below = None
+        near_52w  = False
+        if current and w52l and w52l > 0:
+            pct_above = round(((current - w52l) / w52l) * 100, 1)
+            near_52w  = pct_above <= 30
+        if current and w52h and w52h > 0:
+            pct_below = round(((w52h - current) / w52h) * 100, 1)
+
+        print(f"    [yfinance fallback] price=₹{current} 52W={w52l}-{w52h} ROE={roe} D/E={d2e}")
+
+        return {
+            "symbol": symbol,
+            "name":   info.get("longName") or info.get("shortName") or symbol,
+            "sector": nse_sector,
+            "url":    f"https://www.screener.in/company/{symbol}/consolidated/",
+            "top_ratios": {
+                "Current Price":  current,
+                "Market Cap":     sf(info.get("marketCap")),
+                "P/E":            sf(info.get("trailingPE")),
+                "Industry P/E":   None,
+                "P/B":            sf(info.get("priceToBook")),
+                "ROE %":          roe,
+                "ROCE %":         None,
+                "Debt / Equity":  d2e,
+                "Div. Yield %":   round((sf(info.get("dividendYield")) or 0) * 100, 2),
+                "52W High":       w52h,
+                "52W Low":        w52l,
+            },
+            "price_data": {
+                "current_price": current, "week52_high": w52h,
+                "week52_low":    w52l,    "pct_above_52w_low":  pct_above,
+                "pct_below_52w_high": pct_below, "near_52w_low": near_52w,
+            },
+            "series": {k: [] for k in ["sales","opm_pct","npm_pct","eps","reserves",
+                                        "debt","fixed_assets","cash_bs","cfo","cfi","cff","roe","roce"]},
+            "derived": {
+                "sales_avg_growth": None, "eps_increasing": None,
+                "reserves_increasing": None, "cash_increasing": None,
+                "fixed_assets_increasing": None,
+                "cfo_positive": False, "cfo_increasing": None, "cfi_negative": False,
+                "nwc": 0, "nwc_negative": False,
+                "debt_to_equity": d2e, "roe": roe, "roce": None,
+                "opm": None, "npm": None,
+                "last_cfo": None, "last_cfi": None, "last_cff": None,
+            },
+            "_source": "yfinance",
+        }
+    except Exception as e:
+        return {"error": f"{symbol} yfinance fallback failed: {e}"}
+
+
+# ── Screener scraper ───────────────────────────────────────────────────────
+
+def _get(symbol: str) -> tuple:
+    """Returns (soup, url) or ('403', url) or (None, '')"""
     slug = SYMBOL_MAP.get(symbol, symbol)
     for path in ["/consolidated/", "/"]:
         url = f"https://www.screener.in/company/{slug}{path}"
         try:
             r = requests.get(url, headers=HEADERS, timeout=25)
 
-            # Detect rate limiting (429 or redirected to login/captcha)
+            if r.status_code == 403:
+                return "403", url
+
             if r.status_code == 429:
-                return "rate_limited", url
+                return "429", url
+
             if r.status_code != 200:
                 continue
 
             soup = BeautifulSoup(r.text, "lxml")
 
-            # Detect CAPTCHA / block page
             page_text = soup.get_text(" ", strip=True).lower()
-            if any(kw in page_text for kw in ["captcha", "too many requests", "access denied", "robot"]):
-                return "rate_limited", url
+            if any(kw in page_text for kw in ["captcha", "too many requests", "access denied"]):
+                return "429", url
 
-            # Detect 404 / not found
             h1 = soup.find("h1")
             if h1 and "not found" in h1.get_text().lower():
                 return None, ""
 
-            # Valid page must have top-ratios or at least a section
             if soup.find(id="top-ratios") or soup.find("section"):
                 return soup, url
 
@@ -61,6 +146,7 @@ def _get(symbol: str) -> tuple[BeautifulSoup | None, str]:
             print(f"    [screener] {symbol} timeout")
         except Exception as e:
             print(f"    [screener] {symbol} error: {e}")
+
     return None, ""
 
 
@@ -75,7 +161,7 @@ def _num(text: str) -> float | None:
         return None
 
 
-def _parse_top_ratios(soup: BeautifulSoup) -> dict:
+def _parse_top_ratios(soup) -> dict:
     out = {}
     section = soup.find(id="top-ratios") or soup
     for li in section.select("li"):
@@ -99,17 +185,14 @@ def _parse_top_ratios(soup: BeautifulSoup) -> dict:
 
     key_map = {
         "Current Price": "current_price", "Stock P/E": "pe", "P/E": "pe",
-        "Industry P/E":  "industry_pe",  "P/B": "pb",
-        "Price to Book Value": "pb",     "Market Cap": "market_cap",
-        "Book Value":    "book_value",   "Dividend Yield": "div_yield",
-        "ROCE": "roce",  "ROE": "roe",   "Debt / Equity": "debt_to_equity",
-        "Face Value":    "face_value",
+        "Industry P/E":  "industry_pe",   "P/B": "pb",
+        "Price to Book Value": "pb",      "Market Cap": "market_cap",
+        "Book Value": "book_value",       "Dividend Yield": "div_yield",
+        "ROCE": "roce", "ROE": "roe",     "Debt / Equity": "debt_to_equity",
     }
-    mapped = {}
-    for k, v in out.items():
-        mapped[key_map.get(k, k)] = v
+    mapped = {key_map.get(k, k): v for k, v in out.items()}
 
-    # Industry P/E fallback — scan full page text
+    # Industry P/E full-page fallback
     if not mapped.get("industry_pe"):
         page_text = soup.get_text(" ", strip=True)
         m = re.search(r"[Ii]ndustry\s+P[/\s]?E[:\s]+([0-9]+\.?[0-9]*)", page_text)
@@ -120,7 +203,7 @@ def _parse_top_ratios(soup: BeautifulSoup) -> dict:
     return mapped
 
 
-def _parse_table(soup: BeautifulSoup, *section_ids) -> dict:
+def _parse_table(soup, *section_ids) -> dict:
     for sid in section_ids:
         sec = soup.find("section", {"id": sid})
         if not sec:
@@ -142,26 +225,25 @@ def _parse_table(soup: BeautifulSoup, *section_ids) -> dict:
     return {}
 
 
-def _last(lst) -> float | None:
+def _last(lst):
     c = [v for v in (lst or []) if v is not None]
     return c[-1] if c else None
 
 
-def _increasing(lst, n=3) -> bool | None:
+def _increasing(lst, n=3):
     c = [v for v in (lst or []) if v is not None]
     return (c[-1] > c[0]) if len(c) >= n else None
 
 
-def _growth(lst) -> float | None:
+def _growth(lst):
     c = [v for v in (lst or []) if v is not None]
     if len(c) < 2:
         return None
-    g = [(c[i]-c[i-1])/abs(c[i-1])*100
-         for i in range(1, len(c)) if c[i-1] != 0]
+    g = [(c[i]-c[i-1])/abs(c[i-1])*100 for i in range(1,len(c)) if c[i-1]!=0]
     return round(sum(g)/len(g), 2) if g else None
 
 
-def _get_row(table: dict, *keys) -> list:
+def _get_row(table, *keys):
     for k in keys:
         if k in table:
             return table[k]
@@ -173,34 +255,31 @@ def _get_row(table: dict, *keys) -> list:
 
 def fetch(symbol: str, delay: float = 2.5, nse_sector: str = "") -> dict:
     symbol = symbol.upper().strip()
+    time.sleep(delay)
 
-    for attempt in range(3):
-        time.sleep(delay if attempt == 0 else delay * (attempt + 1))
+    soup, url = _get(symbol)
 
-        result = _get(symbol)
-        soup, url = result
+    # 403 → yfinance fallback (login-restricted stocks)
+    if soup == "403":
+        print(f"    [screener] {symbol} returned 403 — using yfinance fallback")
+        time.sleep(1)
+        return _fetch_yfinance(symbol, nse_sector)
 
-        if soup == "rate_limited":
-            wait = 30 * (attempt + 1)
-            print(f"    [screener] {symbol} rate limited — waiting {wait}s (attempt {attempt+1}/3)...")
-            time.sleep(wait)
-            continue
+    # 429 → wait and retry once
+    if soup == "429":
+        print(f"    [screener] {symbol} rate limited — waiting 30s...")
+        time.sleep(30)
+        soup, url = _get(symbol)
+        if soup in ("429", "403", None):
+            return _fetch_yfinance(symbol, nse_sector)
 
-        if soup is None:
-            if attempt < 2:
-                print(f"    [screener] {symbol} no data, retrying...")
-                continue
-            return {"error": f"{symbol} not found on Screener.in"}
+    if soup is None:
+        return {"error": f"{symbol} not found on Screener.in"}
 
-        # Successfully got a page
-        break
-    else:
-        return {"error": f"{symbol} blocked after 3 retries — rate limited"}
+    h1      = soup.find("h1")
+    name    = h1.get_text(strip=True) if h1 else symbol
+    ratios  = _parse_top_ratios(soup)
 
-    h1   = soup.find("h1")
-    name = h1.get_text(strip=True) if h1 else symbol
-
-    ratios        = _parse_top_ratios(soup)
     current_price = ratios.get("current_price")
     week52_high   = ratios.get("week52_high")
     week52_low    = ratios.get("week52_low")
@@ -246,7 +325,7 @@ def fetch(symbol: str, delay: float = 2.5, nse_sector: str = "") -> dict:
     if not roe_s  and roe_val:  roe_s  = [roe_val]
     if not roce_s and roce_val: roce_s = [roce_val]
 
-    nwc = ((_last(rec) or 0) + (_last(inv) or 0)) - (_last(pay) or 0)
+    nwc    = ((_last(rec) or 0) + (_last(inv) or 0)) - (_last(pay) or 0)
     tables = [n for n, t in [("P&L",pl),("BS",bs),("CF",cf),("Ratios",rat)] if t]
 
     print(f"    tables={tables or 'none'} | price=₹{current_price} | "
@@ -254,15 +333,12 @@ def fetch(symbol: str, delay: float = 2.5, nse_sector: str = "") -> dict:
           f"PE={pe_val} IndPE={industry_pe} ROE={roe_val} ROCE={roce_val} D/E={d2e}")
 
     return {
-        "symbol": symbol, "name": name,
-        "sector": nse_sector, "url": url,
+        "symbol": symbol, "name": name, "sector": nse_sector, "url": url,
         "top_ratios": {
-            "Current Price":  current_price, "Market Cap":    market_cap,
-            "P/E":            pe_val,        "Industry P/E":  industry_pe,
-            "P/B":            pb_val,        "ROE %":         roe_val,
-            "ROCE %":         roce_val,      "Debt / Equity": d2e,
-            "Div. Yield %":   div_yield,     "52W High":      week52_high,
-            "52W Low":        week52_low,
+            "Current Price": current_price, "Market Cap": market_cap,
+            "P/E": pe_val,   "Industry P/E": industry_pe, "P/B": pb_val,
+            "ROE %": roe_val, "ROCE %": roce_val, "Debt / Equity": d2e,
+            "Div. Yield %": div_yield, "52W High": week52_high, "52W Low": week52_low,
         },
         "price_data": {
             "current_price": current_price, "week52_high": week52_high,
@@ -294,4 +370,5 @@ def fetch(symbol: str, delay: float = 2.5, nse_sector: str = "") -> dict:
             "last_cfi":                _last(cfi),
             "last_cff":                _last(cff),
         },
+        "_source": "screener",
     }
