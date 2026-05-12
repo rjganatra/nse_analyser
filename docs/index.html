@@ -2,7 +2,7 @@
 <html lang="en" data-theme="dark">
 <head>
 <meta charset="UTF-8"/>
-<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
 <meta name="theme-color" content="#08090a"/>
 <title>FundaScreen — NSE Analyzer</title>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Syne:wght@400;600;800&display=swap" rel="stylesheet"/>
@@ -12,7 +12,7 @@
 :root{--green:#34d399;--gdim:#065f46;--gbg:#022c20;--amber:#fbbf24;--adim:#92400e;--abg:#3d1a04;--red:#f87171;--rdim:#7f1d1d;--rbg:#2d0808;--blue:#60a5fa;--bbg:#1a2f50;--purple:#a78bfa;--pbg:#2e1065;--accent:#818cf8;--mono:'IBM Plex Mono',monospace;--head:'Syne',sans-serif;--r:10px;--rl:14px;--nav:56px;--safe:env(safe-area-inset-bottom,0px)}
 *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
 html,body{background:var(--bg);color:var(--text);font-family:var(--head);min-height:100vh;overflow-x:hidden;transition:background .2s,color .2s}
-button,a,.card,.pill,.mb-p,.sd-opt,.sb-btn,.mn-i{touch-action:manipulation}
+button,a,.card,.pill,.mb-p,.sd-opt,.sb-btn,
 
 /* Topbar */
 .topbar{display:flex;align-items:center;justify-content:space-between;padding:0 20px;background:var(--surf);border-bottom:1px solid var(--b1);position:sticky;top:0;z-index:100;height:52px;box-shadow:var(--shadow)}
@@ -45,7 +45,7 @@ button,a,.card,.pill,.mb-p,.sd-opt,.sb-btn,.mn-i{touch-action:manipulation}
 .fb-lbl{font-size:10px;font-weight:700;letter-spacing:.1em;color:var(--muted);text-transform:uppercase}
 
 /* Search input */
-.srch{width:100%;background:var(--card);border:1px solid var(--b1);border-radius:var(--r);padding:9px 12px;font-family:var(--mono);font-size:13px;color:var(--text);outline:none;transition:border .15s}
+.srch{width:100%;background:var(--card);border:1px solid var(--b1);border-radius:var(--r);padding:9px 12px;font-family:var(--mono);font-size:16px;color:var(--text);outline:none;transition:border .15s}
 .srch:focus{border-color:var(--accent)}
 .srch::placeholder{color:var(--hint)}
 
@@ -185,8 +185,8 @@ button,a,.card,.pill,.mb-p,.sd-opt,.sb-btn,.mn-i{touch-action:manipulation}
   .grid{grid-template-columns:1fr;gap:8px;padding:0 12px}
   .lm{margin:8px 12px;width:calc(100% - 24px)}
   .mob-bar{display:flex!important}
-  .mob-nav{display:flex!important}
-  .mob-srch{display:flex!important}
+  
+  
   .scan-info{display:none}
   .logo em{display:none}
   .topbar{padding:0 14px;height:48px}
@@ -233,11 +233,6 @@ button,a,.card,.pill,.mb-p,.sd-opt,.sb-btn,.mn-i{touch-action:manipulation}
     <button class="ico-btn" onclick="toggleTheme()" id="themeBtn">&#9681;</button>
     <button class="ico-btn" onclick="openSettings()">&#9881;</button>
   </div>
-</div>
-
-<!-- Mobile search -->
-<div class="mob-srch" id="mobSrch">
-  <input placeholder="Search symbol or company..." oninput="onSearch(this.value)"/>
 </div>
 
 <!-- Mobile filter trigger -->
@@ -390,19 +385,7 @@ button,a,.card,.pill,.mb-p,.sd-opt,.sb-btn,.mn-i{touch-action:manipulation}
   </main>
 </div>
 
-<nav class="mob-nav">
-  <button class="mn-i on" id="mn-opp" onclick="switchTab('opp')">
-    <span class="mn-ic">&#128200;</span><span>Opportunities</span>
-    <span class="mn-b" id="mb-opp-ct" style="display:none"></span>
-  </button>
-  <button class="mn-i" id="mn-fund" onclick="switchTab('fund')">
-    <span class="mn-ic">&#128202;</span><span>Fundamentals</span>
-  </button>
-  <button class="mn-i" id="mn-watch" onclick="switchTab('watch')">
-    <span class="mn-ic">&#9733;</span><span>Watchlist</span>
-    <span class="mn-b" id="mb-watch-ct" style="display:none"></span>
-  </button>
-</nav>
+
 
 <!-- Detail overlay -->
 <div class="overlay" id="overlay" onclick="if(event.target===this)closeDetail()">
@@ -986,21 +969,30 @@ function openSettings(){document.getElementById('ghToken').value=cfg.token||'';d
 function closeSettings(){document.getElementById('settingsModal').classList.remove('on');}
 function saveSettings(){cfg.token=document.getElementById('ghToken').value.trim();cfg.repo=document.getElementById('ghRepo').value.trim();localStorage.setItem('cfg',JSON.stringify(cfg));closeSettings();}
 
-  // Prevent double-tap zoom on Android (Chrome ignores CSS user-scalable)
-  let _lastTap = 0;
-  document.addEventListener('touchend', function(e) {
-    const now = Date.now();
-    const dt  = now - _lastTap;
-    if (dt < 300 && dt > 0) {
-      e.preventDefault();
-    }
-    _lastTap = now;
+  // Prevent pinch zoom (multi-touch)
+  document.addEventListener('touchstart', function(e) {
+    if (e.touches.length > 1) { e.preventDefault(); }
   }, { passive: false });
 
-  // Prevent pinch zoom
-  document.addEventListener('touchstart', function(e) {
-    if (e.touches.length > 1) e.preventDefault();
+  // Prevent double-tap zoom — track time between taps
+  let _lt = 0;
+  document.addEventListener('touchend', function(e) {
+    const now = Date.now();
+    if (now - _lt < 350 && now - _lt > 0) {
+      e.preventDefault();
+      // Still fire click so buttons work
+      if (e.target && e.target.click) e.target.click();
+    }
+    _lt = now;
   }, { passive: false });
+
+  // Prevent scroll-zoom on input focus (iOS)
+  document.querySelectorAll('input,select,textarea').forEach(el => {
+    el.addEventListener('focus', () => {
+      document.querySelector('meta[name=viewport]').content =
+        'width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=0';
+    });
+  });
 
 </script>
 </body>
