@@ -194,26 +194,33 @@ button,a,.card,.pill,.mb-p,.sd-opt,.sb-btn,.mn-i{touch-action:manipulation}
   .overlay{align-items:flex-end;justify-content:center}
 }
 
-/* Mobile search bar */
-.mob-srch{display:none;padding:8px 12px;background:var(--bg);border-bottom:1px solid var(--b1);position:sticky;top:48px;z-index:90;gap:8px}
-.mob-srch input{flex:1;background:var(--card);border:1px solid var(--b1);border-radius:var(--r);padding:9px 12px;font-family:var(--mono);font-size:14px;color:var(--text);outline:none}
-.mob-srch input:focus{border-color:var(--accent)}
-.mob-srch input::placeholder{color:var(--hint)}
 
-/* Mobile filter bar */
-.mob-bar{display:none;overflow-x:auto;padding:6px 12px;gap:6px;background:var(--bg);border-bottom:1px solid var(--b1);position:sticky;top:calc(48px + 53px);z-index:89;-webkit-overflow-scrolling:touch;scrollbar-width:none}
-.mob-bar::-webkit-scrollbar{display:none}
-.mb-p{flex-shrink:0;font-size:11px;padding:5px 13px;border-radius:20px;border:1px solid var(--b1);background:transparent;color:var(--muted);cursor:pointer;font-family:var(--head);white-space:nowrap}
-.mb-p.on{background:var(--card2);color:var(--text);border-color:var(--accent)}
-.mb-sep{flex-shrink:0;width:1px;background:var(--b2);margin:2px 4px;align-self:stretch}
+/* Mobile filter bar (replaces mob-bar) */
+.mob-filter-bar{display:none;align-items:center;justify-content:space-between;padding:8px 12px;background:var(--surf);border-bottom:1px solid var(--b1);position:sticky;top:48px;z-index:90;gap:8px}
+.mob-tab-btn{flex-shrink:0;font-size:12px;padding:6px 14px;border-radius:20px;border:1px solid var(--b1);background:transparent;color:var(--muted);cursor:pointer;font-family:var(--head);font-weight:600;white-space:nowrap;touch-action:manipulation}
+.mob-tab-btn.on{background:var(--card2);color:var(--accent);border-color:var(--accent)}
+.mob-filter-btn{flex-shrink:0;display:flex;align-items:center;gap:5px;font-size:12px;padding:6px 14px;border-radius:20px;border:1px solid var(--accent);background:var(--card2);color:var(--accent);cursor:pointer;font-family:var(--head);font-weight:700;white-space:nowrap;touch-action:manipulation;position:relative}
+.filter-dot{position:absolute;top:-2px;right:-2px;width:8px;height:8px;border-radius:50%;background:var(--amber)}
+/* Filter bottom sheet */
+.fsheet-bg{position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:250;display:none;align-items:flex-end}
+.fsheet-bg.on{display:flex}
+.fsheet{background:var(--surf);width:100%;border-radius:20px 20px 0 0;max-height:85vh;overflow-y:auto;padding-bottom:var(--safe)}
+.fsheet-hdr{display:flex;align-items:center;justify-content:space-between;padding:16px 20px;border-bottom:1px solid var(--b1);position:sticky;top:0;background:var(--surf);z-index:10}
+.fsheet-body{padding:16px 20px}
+.fs-label{font-size:10px;font-weight:700;letter-spacing:.12em;color:var(--muted);text-transform:uppercase;margin:14px 0 8px}
+.fs-label:first-child{margin-top:0}
+.fs-inp{width:100%;background:var(--card);border:1px solid var(--b1);border-radius:var(--r);padding:10px 14px;font-family:var(--mono);font-size:16px;color:var(--text);outline:none;margin-bottom:4px}
+.fs-inp:focus{border-color:var(--accent)}
+.mob-sector-list{max-height:160px;overflow-y:auto;background:var(--card);border:1px solid var(--b1);border-radius:var(--r);margin-bottom:4px;display:none}
+.mob-sector-list:has(.mob-sec-opt){display:block}
+.mob-sec-opt{padding:10px 14px;font-size:13px;cursor:pointer;font-family:var(--head);transition:background .1s;touch-action:manipulation}
+.mob-sec-opt:hover,.mob-sec-opt.sel{background:var(--card2);color:var(--accent)}
+.fsheet-body .pills{gap:6px;margin-bottom:4px}
+.fsheet-body .pill{font-size:12px;padding:7px 16px}
+@media(max-width:768px){.mob-filter-bar{display:flex!important}}
+@media(min-width:769px){.mob-filter-bar{display:none!important}.fsheet-bg{display:none!important}}
 
-/* Mobile nav */
-.mob-nav{display:none;position:fixed;bottom:0;left:0;right:0;background:var(--surf);border-top:1px solid var(--b1);z-index:150;padding-bottom:var(--safe)}
-.mn-i{flex:1;display:flex;flex-direction:column;align-items:center;padding:10px 4px 8px;cursor:pointer;border:none;background:transparent;color:var(--muted);font-family:var(--head);font-size:10px;font-weight:600;gap:4px;transition:color .15s;position:relative}
-.mn-i.on{color:var(--accent)}
-.mn-ic{font-size:20px;line-height:1}
-.mn-b{position:absolute;top:6px;right:calc(50% - 16px);background:var(--accent);color:#0a0a0b;font-size:9px;font-weight:800;padding:1px 5px;border-radius:20px;font-family:var(--mono)}
-@media(min-width:769px){.mob-nav,.mob-bar,.mob-srch{display:none!important}}
+
 </style>
 </head>
 <body>
@@ -233,8 +240,67 @@ button,a,.card,.pill,.mb-p,.sd-opt,.sb-btn,.mn-i{touch-action:manipulation}
   <input placeholder="Search symbol or company..." oninput="onSearch(this.value)"/>
 </div>
 
-<!-- Mobile filter bar -->
-<div class="mob-bar" id="mobBar"></div>
+<!-- Mobile filter trigger -->
+<div class="mob-filter-bar" id="mobFilterBar">
+  <div style="display:flex;gap:8px;overflow-x:auto;padding:0 4px;scrollbar-width:none;-webkit-overflow-scrolling:touch">
+    <button class="mob-tab-btn on" id="mbt-opp" onclick="switchTab('opp')">&#128200; Opportunities</button>
+    <button class="mob-tab-btn" id="mbt-fund" onclick="switchTab('fund')">&#128202; Fundamentals</button>
+    <button class="mob-tab-btn" id="mbt-watch" onclick="switchTab('watch')">&#9733; Watchlist</button>
+  </div>
+  <button class="mob-filter-btn" onclick="openFilterSheet()" id="filterTrigger">
+    <span id="filterIcon">&#9776;</span> Filter
+    <span class="filter-dot" id="filterDot" style="display:none"></span>
+  </button>
+</div>
+
+<!-- Filter bottom sheet -->
+<div class="fsheet-bg" id="fsheetBg" onclick="closeFilterSheet()">
+  <div class="fsheet" id="fsheet" onclick="event.stopPropagation()">
+    <div class="fsheet-hdr">
+      <span style="font-size:15px;font-weight:800">Filters</span>
+      <div style="display:flex;gap:8px">
+        <button onclick="clearFilters()" style="background:transparent;border:1px solid var(--b1);border-radius:var(--r);padding:5px 12px;color:var(--muted);font-family:var(--head);font-size:12px;cursor:pointer">Clear</button>
+        <button onclick="closeFilterSheet()" style="background:var(--accent);border:none;border-radius:var(--r);padding:5px 14px;color:#0a0a0b;font-family:var(--head);font-size:12px;font-weight:700;cursor:pointer">Done</button>
+      </div>
+    </div>
+    <div class="fsheet-body">
+      <div class="fs-label">Search</div>
+      <input class="fs-inp" id="mobSearch" placeholder="Symbol or company..." oninput="onSearch(this.value)"/>
+
+      <div class="fs-label" id="fs-sig-lbl">Price Signal</div>
+      <div class="pills" id="fs-signal">
+        <button class="pill on" onclick="setF('tag','all',this)">All</button>
+        <button class="pill" onclick="setF('tag','52low',this)">Near 52W Low</button>
+        <button class="pill" onclick="setF('tag','high',this)">Near 52W High</button>
+        <button class="pill" onclick="setF('tag','browse',this)">Browse All 500</button>
+      </div>
+
+      <div class="fs-label" id="fs-vrd-lbl">Verdict</div>
+      <div class="pills" id="fs-verdict">
+        <button class="pill on" onclick="setF('verdict','all',this)">All</button>
+        <button class="pill" onclick="setF('verdict','green',this)">Strong</button>
+        <button class="pill" onclick="setF('verdict','amber',this)">Moderate</button>
+        <button class="pill" onclick="setF('verdict','red',this)">Weak</button>
+      </div>
+
+      <div class="fs-label">Sector</div>
+      <input class="fs-inp" id="mobSectorInp" placeholder="Type to search sectors..."
+        autocomplete="off" oninput="filterMobSectors(this.value)" onfocus="showMobSectors()"/>
+      <div class="mob-sector-list" id="mobSectorList"></div>
+
+      <div class="fs-label">Sort by</div>
+      <div class="pills" id="fs-sort">
+        <button class="pill on" onclick="setF('sort','default',this)">Default</button>
+        <button class="pill" onclick="setF('sort','52low',this)">52W Low</button>
+        <button class="pill" onclick="setF('sort','price_asc',this)">Price &#8595;</button>
+        <button class="pill" onclick="setF('sort','price_desc',this)">Price &#8593;</button>
+        <button class="pill" onclick="setF('sort','roe_desc',this)">ROE &#8593;</button>
+        <button class="pill" onclick="setF('sort','pe_asc',this)">P/E &#8595;</button>
+        <button class="pill" onclick="setF('sort','score_desc',this)">Score &#8593;</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 <div class="app">
   <aside class="sidebar">
@@ -489,28 +555,82 @@ function switchTab(tab){
 
 // ── Mobile filter bar ─────────────────────────────────────────────────────
 function buildMobBar(){
-  const bar=document.getElementById('mobBar');
-  bar.innerHTML='';
-  const add=(label,key,val)=>{
-    const b=document.createElement('button');
-    b.className='mb-p'+(F[key]===val?' on':'');
-    b.textContent=label;
-    b.onclick=()=>setF(key,val,null);
-    bar.appendChild(b);
-  };
-  const sep=()=>{const s=document.createElement('div');s.className='mb-sep';bar.appendChild(s);};
-  if(activeTab==='opp'){
-    add('All','tag','all'); add('52W Low','tag','52low');
-    add('52W High','tag','high'); add('Browse All','tag','browse');
-  } else if(activeTab==='fund'){
-    add('All','verdict','all'); add('Strong','verdict','green');
-    add('Moderate','verdict','amber'); add('Weak','verdict','red');
+  // Update mobile tab buttons
+  ['opp','fund','watch'].forEach(t=>{
+    const b=document.getElementById('mbt-'+t);
+    if(b) b.classList.toggle('on', t===activeTab);
+  });
+  // Show/hide filter sections based on active tab
+  const sigLbl=document.getElementById('fs-sig-lbl');
+  const sigPills=document.getElementById('fs-signal');
+  const vrdLbl=document.getElementById('fs-vrd-lbl');
+  const vrdPills=document.getElementById('fs-verdict');
+  if(sigLbl) sigLbl.style.display = activeTab==='opp'?'':'none';
+  if(sigPills) sigPills.style.display = activeTab==='opp'?'':'none';
+  if(vrdLbl) vrdLbl.style.display = activeTab==='fund'?'':'none';
+  if(vrdPills) vrdPills.style.display = activeTab==='fund'?'':'none';
+  // Show filter dot if any filter active
+  const dot=document.getElementById('filterDot');
+  if(dot){
+    const active = F.tag!=='all'||F.verdict!=='all'||F.sector!=='all'||F.sort!=='default'||F.q;
+    dot.style.display = active ? '' : 'none';
   }
-  if(allSectors.length>0){
-    sep();
-    add('All Sectors','sector','all');
-    allSectors.forEach(s=>add(s,'sector',s));
-  }
+}
+
+function openFilterSheet(){
+  document.getElementById('fsheetBg').classList.add('on');
+  document.body.style.overflow='hidden';
+  // Sync search input
+  const ms=document.getElementById('mobSearch');
+  if(ms) ms.value=F.q?F.q.toLowerCase():'';
+  // Sync sector
+  const si=document.getElementById('mobSectorInp');
+  if(si) si.value=F.sector==='all'?'':F.sector;
+  renderMobSectors('');
+}
+
+function closeFilterSheet(){
+  document.getElementById('fsheetBg').classList.remove('on');
+  document.body.style.overflow='';
+}
+
+function clearFilters(){
+  F={tag:'all',verdict:'all',sector:'all',sort:'default',q:''};
+  oppPg=1; fundPg=1; tabY['opp']=0; tabY['fund']=0;
+  // Reset all pill groups in sheet
+  ['fs-signal','fs-verdict','fs-sort'].forEach(id=>{
+    const el=document.getElementById(id);
+    if(el){
+      el.querySelectorAll('.pill').forEach((p,i)=>{
+        p.classList.toggle('on', i===0);
+        p.classList.remove('g','a','r');
+      });
+    }
+  });
+  document.getElementById('mobSearch').value='';
+  document.getElementById('mobSectorInp').value='';
+  renderMobSectors('');
+  renderOpp(); renderFund(); buildMobBar();
+}
+
+function renderMobSectors(q){
+  const list=document.getElementById('mobSectorList');
+  if(!list) return;
+  const filtered=q?allSectors.filter(s=>s.toLowerCase().includes(q.toLowerCase())):allSectors;
+  const items=[{l:'All Sectors',v:'all'},...filtered.map(s=>({l:s,v:s}))];
+  list.innerHTML=items.map(({l,v})=>
+    `<div class="mob-sec-opt${F.sector===v?' sel':''}" onclick="selectMobSector('${v}','${l}')">${l}</div>`
+  ).join('');
+}
+
+function filterMobSectors(q){ renderMobSectors(q); }
+function showMobSectors(){ renderMobSectors(document.getElementById('mobSectorInp').value||''); }
+
+function selectMobSector(val,label){
+  F.sector=val;
+  document.getElementById('mobSectorInp').value=val==='all'?'':label;
+  renderMobSectors('');
+  oppPg=1; fundPg=1; renderOpp(); renderFund(); buildMobBar();
 }
 
 // ── Filters ────────────────────────────────────────────────────────────────
@@ -865,6 +985,23 @@ function tl(t){return{AT_52W_LOW:'AT 52W LOW',NEAR_52W_LOW:'NEAR 52W LOW',DISCOU
 function openSettings(){document.getElementById('ghToken').value=cfg.token||'';document.getElementById('ghRepo').value=cfg.repo||'';document.getElementById('settingsModal').classList.add('on');}
 function closeSettings(){document.getElementById('settingsModal').classList.remove('on');}
 function saveSettings(){cfg.token=document.getElementById('ghToken').value.trim();cfg.repo=document.getElementById('ghRepo').value.trim();localStorage.setItem('cfg',JSON.stringify(cfg));closeSettings();}
+
+  // Prevent double-tap zoom on Android (Chrome ignores CSS user-scalable)
+  let _lastTap = 0;
+  document.addEventListener('touchend', function(e) {
+    const now = Date.now();
+    const dt  = now - _lastTap;
+    if (dt < 300 && dt > 0) {
+      e.preventDefault();
+    }
+    _lastTap = now;
+  }, { passive: false });
+
+  // Prevent pinch zoom
+  document.addEventListener('touchstart', function(e) {
+    if (e.touches.length > 1) e.preventDefault();
+  }, { passive: false });
+
 </script>
 </body>
 </html>
