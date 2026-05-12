@@ -2,7 +2,7 @@
 <html lang="en" data-theme="dark">
 <head>
 <meta charset="UTF-8"/>
-<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
 <meta name="theme-color" content="#08090a"/>
 <title>FundaScreen — NSE Analyzer</title>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Syne:wght@400;600;800&display=swap" rel="stylesheet"/>
@@ -470,9 +470,10 @@ document.addEventListener('click',e=>{
 const tabY={opp:0,fund:0,watch:0};
 
 function switchTab(tab){
-  // Save current tab scroll
-  tabY[activeTab]=window.scrollY;
-  activeTab=tab; oppPg=1; fundPg=1;
+  // Save scroll position of current tab before leaving
+  tabY[activeTab] = window.scrollY;
+  activeTab = tab;
+  // Do NOT reset page counters — preserves card count when returning to tab
   ['opp','fund','watch'].forEach(t=>{
     document.getElementById('panel-'+t).classList.toggle('on',t===tab);
     document.getElementById('sb-'+t)?.classList.toggle('on',t===tab);
@@ -482,8 +483,8 @@ function switchTab(tab){
   document.getElementById('verdictBlock').style.display=tab==='fund'?'':'none';
   buildMobBar();
   if(tab==='watch') renderWatch();
-  // Restore scroll for this tab
-  requestAnimationFrame(()=>window.scrollTo({top:tabY[tab],behavior:'instant'}));
+  // Wait for DOM to fully update before restoring scroll
+  setTimeout(()=>window.scrollTo({top:tabY[tab],behavior:'instant'}), 80);
 }
 
 // ── Mobile filter bar ─────────────────────────────────────────────────────
@@ -515,7 +516,9 @@ function buildMobBar(){
 // ── Filters ────────────────────────────────────────────────────────────────
 function onSearch(q){
   F.q=q.toUpperCase().trim();
-  oppPg=1; fundPg=1; renderOpp(); renderFund();
+  oppPg=1; fundPg=1;
+  tabY['opp']=0; tabY['fund']=0;
+  renderOpp(); renderFund();
 }
 
 function setF(key,val,btn){
@@ -528,7 +531,10 @@ function setF(key,val,btn){
     if(val==='amber') btn.classList.add('a');
     if(val==='red')   btn.classList.add('r');
   }
-  oppPg=1; fundPg=1; renderOpp(); renderFund(); buildMobBar();
+  // Reset pages on filter change (intentional re-render from top)
+  oppPg=1; fundPg=1;
+  tabY['opp']=0; tabY['fund']=0;
+  renderOpp(); renderFund(); buildMobBar();
 }
 
 function applyF(stocks,isOpp){
@@ -599,6 +605,8 @@ function renderFund(){
 }
 
 function more(tab){
+  // Blur to prevent Android auto-zoom after DOM update
+  if(document.activeElement) document.activeElement.blur();
   if(tab==='opp'){oppPg++;renderOpp();}else{fundPg++;renderFund();}
 }
 
