@@ -44,12 +44,12 @@ jobs:
       - name: Run fundamental scan
         run: python scan_fundamentals.py
 
-      - name: Commit and push results
+      - name: Commit results
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add results/ docs/
-          git diff --staged --quiet || git commit -m "fundamentals: $(date -u '+%Y-%m-%d') - auto scan"
+          git diff --staged --quiet || git commit -m "fund-scan: $(date -u '+%Y-%m-%d')"
           git push
 
       - name: Setup Pages
