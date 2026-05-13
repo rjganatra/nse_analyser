@@ -452,7 +452,7 @@ async function loadOpp(){
     b.textContent=age<25?'LIVE':'STALE'; b.className='badge '+(age<25?'fresh':'stale');
     document.getElementById('cnt-opp').textContent=m.opportunities||0;
     const mc=document.getElementById('mb-opp-ct');
-    mc.textContent=m.opportunities||0; mc.style.display=(m.opportunities>0)?'':'none';
+    if(mc){mc.textContent=m.opportunities||0; mc.style.display=(m.opportunities>0)?'':'none';}
     buildSectors(); renderOpp(); buildMobBar();
   }catch(e){
     document.getElementById('oppGrid').innerHTML=`<div class="err" style="grid-column:1/-1">${e.message.replace(/\n/g,'<br>')}</div>`;
@@ -813,8 +813,8 @@ function toggleWatch(sym){
 
 function updateCounts(){
   document.getElementById('cnt-watch').textContent=watchlist.length;
-  const mc=document.getElementById('mb-watch-ct');
-  if(mc){mc.textContent=watchlist.length;mc.style.display=watchlist.length>0?'':'none';}
+  const mc2=document.getElementById('mb-watch-ct');
+  if(mc2){mc2.textContent=watchlist.length;mc2.style.display=watchlist.length>0?'':'none';}
 }
 
 async function syncGH(){
