@@ -116,10 +116,10 @@ button,a,.card,.pill,.mb-p,.sd-opt,.sb-btn,
 .bw-pct{font-size:11px;color:var(--muted);margin-left:6px}
 
 /* Ratio chips */
-.chips{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-top:12px}
-.chip{background:var(--card2);border:1px solid var(--b1);border-radius:8px;padding:7px 10px;min-width:0;overflow:hidden}
-.ch-l{font-size:9px;color:var(--muted);letter-spacing:.05em;text-transform:uppercase;margin-bottom:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.ch-v{font-size:13px;font-weight:700;font-family:var(--mono);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:block}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.chip{background:var(--card2);border:1px solid var(--b1);border-radius:8px;padding:5px 10px;flex-shrink:0}
+.ch-l{font-size:9px;color:var(--muted);letter-spacing:.06em;text-transform:uppercase;margin-bottom:2px;white-space:nowrap}
+.ch-v{font-size:13px;font-weight:700;font-family:var(--mono)}
 .ch-v.g{color:var(--green)}.ch-v.a{color:var(--amber)}.ch-v.r{color:var(--red)}
 
 /* Tags */
@@ -729,8 +729,7 @@ function w52(cur,lo,hi){
 }
 
 function chip(label,val,cls){
-  // Always render chip slot so 3-col grid stays aligned
-  if(val==null) return `<div class="chip" style="opacity:.3"><div class="ch-l">${label}</div><div class="ch-v">—</div></div>`;
+  if(val==null) return '';
   const v=typeof val==='number'?val.toFixed(val<10?1:0):val;
   return `<div class="chip"><div class="ch-l">${label}</div><div class="ch-v ${cls||''}">${v}</div></div>`;
 }
@@ -754,45 +753,9 @@ function oppCard(s){
     </div>
     ${w52(s.current_price,s.week52_low,s.week52_high)}
     <div class="chips">
-      ${chip('P/E',r.pe,'')}
-      ${chip('Ind P/E',r.industry_pe,'')}
-      ${r.roe!=null?chip('ROE %',r.roe,rC(r.roe,8,15)):chip('ROE %',null,'')}
-      ${r.roce!=null?chip('ROCE %',r.roce,rC(r.roce,8,15)):chip('ROCE %',null,'')}
-      ${r.de!=null?chip('D/E',r.de,r.de<0.5?'g':r.de<1?'a':'r'):chip('D/E',null,'')}
-      ${chip('Div Yield',r.div_yield,'')}
-    </div>
-    ${(s.tags||[]).length?`<div class="tags">${s.tags.map(t=>`<span class="tag ${t}">${tl(t)}</span>`).join('')}</div>`:''}
-  </div>`;
-}
-
-function fundCard(s){
-  const sc=s.verdict_color==='green'?'var(--green)':s.verdict_color==='amber'?'var(--amber)':'var(--red)';
-  const on=watchlist.includes(s.symbol);
-  const opp=(oppData?.all_stocks||[]).find(x=>x.symbol===s.symbol);
-  const r=s.top_ratios||{};
-  return `<div class="card" onclick="showDetail('fund','${s.symbol}')">
-    <div class="card-top">
-      <div class="c-l">
-        <div class="c-sym">${s.symbol}</div>
-        <div class="c-name">${(s.name||'').slice(0,32)}</div>
-        ${s.sector?`<span class="c-sec">${s.sector}</span>`:''}
-      </div>
-      <div class="c-r">
-        <div class="c-price">${opp?.current_price?'₹'+opp.current_price.toLocaleString('en-IN'):'—'}</div>
-        <div style="display:flex;align-items:center;gap:8px">
-          <span class="vp ${s.verdict_color}">${s.verdict_color==='green'?'STRONG':s.verdict_color==='amber'?'MOD':'WEAK'}</span>
-          <button class="star ${on?'on':''}" onclick="event.stopPropagation();toggleWatch('${s.symbol}')">&#9733;</button>
-        </div>
-      </div>
-    </div>
-    ${opp?.current_price&&opp?.week52_low&&opp?.week52_high?w52(opp.current_price,opp.week52_low,opp.week52_high):''}
-    <div class="chips">
       ${chip('Score',s.score_pct+'%',s.verdict_color==='green'?'g':s.verdict_color==='amber'?'a':'r')}
-      ${chip('Pass/Fail',s.passes+'P '+s.fails+'F','')}
-      ${r['ROE %']!=null?chip('ROE %',r['ROE %'],rC(r['ROE %'],8,15)):chip('ROE %',null,'')}
-      ${r['ROCE %']!=null?chip('ROCE %',r['ROCE %'],rC(r['ROCE %'],8,15)):chip('ROCE %',null,'')}
-      ${r['P/E']!=null?chip('P/E',r['P/E'],''):chip('P/E',null,'')}
-      ${r['Debt / Equity']!=null?chip('D/E',r['Debt / Equity'],r['Debt / Equity']<0.5?'g':r['Debt / Equity']<1?'a':'r'):chip('D/E',null,'')}
+      ${r['ROE %']!=null?chip('ROE %',r['ROE %'],rC(r['ROE %'],8,15)):''}
+      ${r['Debt / Equity']!=null?chip('D/E',r['Debt / Equity'],r['Debt / Equity']<0.5?'g':r['Debt / Equity']<1?'a':'r'):''}
     </div>
     <div class="score-t"><div class="score-f" style="width:${s.score_pct}%;background:${sc}"></div></div>
   </div>`;
