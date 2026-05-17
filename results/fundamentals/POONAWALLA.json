@@ -1,21 +1,21 @@
 {
   "symbol": "POONAWALLA",
   "name": "Poonawalla Fincorp Ltd",
-  "sector": "poonawallafincorp.com",
+  "sector": "Financial Services",
   "screener_url": "https://www.screener.in/company/POONAWALLA/consolidated/",
-  "score_pct": 41.8,
-  "passes": 1,
-  "fails": 2,
-  "neutrals": 10,
+  "score_pct": 46.1,
+  "passes": 4,
+  "fails": 3,
+  "neutrals": 6,
   "verdict": "Weak fundamentals",
   "verdict_color": "red",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data. Benchmark: 10.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Avg growth 17.1% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "fail",
       "score": 0.0,
-      "detail": "EPS not rising: 21.7 -> -1.3 -> 4.4 (last 3Y)",
+      "detail": "EPS not rising: 21.7 -> -1.3 -> 6.7 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 8013.0 -> 8020.0 -> 9712.0 (last 3Y) Cr",
+      "detail": "Reserves: 8013.0 -> 8020.0 -> 10187.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Fixed assets: 194.0 -> 244.0 -> 427.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -87,15 +87,15 @@
       "label": "CFO positive & increasing",
       "result": "fail",
       "score": 0.0,
-      "detail": "CFO N/A Cr -- negative cash flow",
+      "detail": "CFO -21786.0 Cr -- negative cash flow",
       "weight": 2.0
     },
     {
       "id": "c11",
       "label": "CFI negative (investing in growth)",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFI = N/A Cr -- positive (possible asset sales)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFI = -1340.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -103,33 +103,35 @@
       "label": "CFF: debt repayment or growth",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFF unavailable",
+      "detail": "CFF = 23387.0 Cr -- raising capital (verify if for growth)",
       "weight": 1.0
     },
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "ROE=-1.0% ROCE=N/A",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "ROE 6.0% <= ROCE 7.5% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Market Cap": 38476.0,
-    "Current Price": 437.0,
-    "High / Low": 570361.0,
-    "Stock P/E": 110.0,
-    "Book Value": 122.0,
-    "Dividend Yield": 0.0,
-    "ROCE": 4.77,
-    "ROE": -1.28,
-    "Face Value": 2.0
+    "Current Price": 413.0,
+    "Market Cap": 36388.0,
+    "P/E": 67.2,
+    "Industry P/E": null,
+    "P/B": null,
+    "ROE %": 5.85,
+    "ROCE %": 7.5,
+    "Debt / Equity": null,
+    "Div. Yield %": 0.0,
+    "52W High": 570.0,
+    "52W Low": 361.0
   },
   "benchmark": {
     "opm": 15.0,
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-05T03:02:19.369562+00:00"
+  "scanned_at": "2026-05-17T06:09:39.302681+00:00"
 }

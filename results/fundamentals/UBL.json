@@ -1,21 +1,21 @@
 {
   "symbol": "UBL",
   "name": "United Breweries Ltd",
-  "sector": "unitedbreweries.com",
+  "sector": "Fast Moving Consumer Goods",
   "screener_url": "https://www.screener.in/company/UBL/consolidated/",
-  "score_pct": 48.4,
-  "passes": 2,
-  "fails": 2,
-  "neutrals": 9,
+  "score_pct": 52.6,
+  "passes": 4,
+  "fails": 3,
+  "neutrals": 6,
   "verdict": "Weak fundamentals",
   "verdict_color": "red",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data. Benchmark: 12.0%",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "Avg growth 8.0% below benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -23,7 +23,7 @@
       "label": "OPM > industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "OPM 9.0% below benchmark 22.0%",
+      "detail": "OPM 9.0% below benchmark 16.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 15.5 -> 16.7 -> 15.5 (last 3Y)",
+      "detail": "EPS: 15.5 -> 16.7 -> 15.6 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 4152.0 -> 4337.0 -> 4317.0 (last 3Y) Cr",
+      "detail": "Reserves: 4152.0 -> 4337.0 -> 4496.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Fixed assets: 1776.0 -> 1749.0 -> 2050.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -85,17 +85,17 @@
     {
       "id": "c10",
       "label": "CFO positive & increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "CFO N/A Cr -- negative cash flow",
+      "result": "neutral",
+      "score": 0.5,
+      "detail": "CFO positive (435.0 Cr) but not consistently growing",
       "weight": 2.0
     },
     {
       "id": "c11",
       "label": "CFI negative (investing in growth)",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFI = N/A Cr -- positive (possible asset sales)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFI = -409.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -103,33 +103,35 @@
       "label": "CFF: debt repayment or growth",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFF unavailable",
+      "detail": "CFF = 92.0 Cr -- raising capital (verify if for growth)",
       "weight": 1.0
     },
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "ROE=N/A ROCE=14.0%",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "ROE 8.4% <= ROCE 11.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Market Cap": 38685.0,
-    "Current Price": 1463.0,
-    "High / Low": 22451401.0,
-    "Stock P/E": 92.1,
-    "Book Value": 164.0,
-    "Dividend Yield": 0.68,
-    "ROCE": 13.9,
-    "ROE": 10.8,
-    "Face Value": 1.0
+    "Current Price": 1368.0,
+    "Market Cap": 36165.0,
+    "P/E": 96.7,
+    "Industry P/E": null,
+    "P/B": null,
+    "ROE %": 8.42,
+    "ROCE %": 10.7,
+    "Debt / Equity": null,
+    "Div. Yield %": 0.73,
+    "52W High": 2135.0,
+    "52W Low": 1360.0
   },
   "benchmark": {
-    "opm": 22.0,
-    "npm": 18.0,
-    "sg": 12.0
+    "opm": 16.0,
+    "npm": 10.0,
+    "sg": 10.0
   },
-  "scanned_at": "2026-05-05T03:07:07.675502+00:00"
+  "scanned_at": "2026-05-17T06:16:06.961967+00:00"
 }

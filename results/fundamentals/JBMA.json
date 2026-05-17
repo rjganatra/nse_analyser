@@ -1,21 +1,21 @@
 {
   "symbol": "JBMA",
   "name": "JBM Auto Ltd",
-  "sector": "jbmgroup.com",
+  "sector": "Automobile and Auto Components",
   "screener_url": "https://www.screener.in/company/JBMA/consolidated/",
-  "score_pct": 48.4,
-  "passes": 2,
+  "score_pct": 62.4,
+  "passes": 6,
   "fails": 2,
-  "neutrals": 9,
-  "verdict": "Weak fundamentals",
-  "verdict_color": "red",
+  "neutrals": 5,
+  "verdict": "Moderate -- dig deeper",
+  "verdict_color": "amber",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data. Benchmark: 10.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Avg growth 14.8% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -23,7 +23,7 @@
       "label": "OPM > industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "OPM 11.0% below benchmark 15.0%",
+      "detail": "OPM 11.0% below benchmark 12.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 7.6 -> 8.5 -> 8.9 (last 3Y)",
+      "detail": "EPS: 7.6 -> 8.5 -> 9.2 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 1144.0 -> 1327.0 -> 1394.0 (last 3Y) Cr",
+      "detail": "Reserves: 1144.0 -> 1327.0 -> 1515.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Fixed assets: 1729.0 -> 1720.0 -> 1620.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -87,15 +87,15 @@
       "label": "CFO positive & increasing",
       "result": "fail",
       "score": 0.0,
-      "detail": "CFO N/A Cr -- negative cash flow",
+      "detail": "CFO -60.0 Cr -- negative cash flow",
       "weight": 2.0
     },
     {
       "id": "c11",
       "label": "CFI negative (investing in growth)",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFI = N/A Cr -- positive (possible asset sales)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFI = -258.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -103,33 +103,35 @@
       "label": "CFF: debt repayment or growth",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFF unavailable",
+      "detail": "CFF = 314.0 Cr -- raising capital (verify if for growth)",
       "weight": 1.0
     },
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "ROE=N/A ROCE=14.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "ROE 15.6% > ROCE 15.0% -- leverage working for shareholders",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Market Cap": 14868.0,
-    "Current Price": 629.0,
-    "High / Low": 790477.0,
-    "Stock P/E": 68.6,
-    "Book Value": 59.9,
-    "Dividend Yield": 0.14,
-    "ROCE": 14.2,
-    "ROE": 16.1,
-    "Face Value": 1.0
+    "Current Price": 642.0,
+    "Market Cap": 15173.0,
+    "P/E": 67.6,
+    "Industry P/E": null,
+    "P/B": null,
+    "ROE %": 15.6,
+    "ROCE %": 14.8,
+    "Debt / Equity": null,
+    "Div. Yield %": 0.13,
+    "52W High": 790.0,
+    "52W Low": 477.0
   },
   "benchmark": {
-    "opm": 15.0,
-    "npm": 8.0,
+    "opm": 12.0,
+    "npm": 6.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-05T02:56:29.220310+00:00"
+  "scanned_at": "2026-05-17T06:01:43.451712+00:00"
 }

@@ -1,21 +1,21 @@
 {
   "symbol": "SIEMENS",
   "name": "Siemens Ltd",
-  "sector": "siemens.co.in",
+  "sector": "Capital Goods",
   "screener_url": "https://www.screener.in/company/SIEMENS/consolidated/",
-  "score_pct": 48.4,
-  "passes": 2,
-  "fails": 2,
-  "neutrals": 9,
+  "score_pct": 52.6,
+  "passes": 4,
+  "fails": 3,
+  "neutrals": 6,
   "verdict": "Weak fundamentals",
   "verdict_color": "red",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data. Benchmark: 10.0%",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "Avg growth 5.4% below benchmark 12.0%",
       "weight": 1.0
     },
     {
@@ -23,7 +23,7 @@
       "label": "OPM > industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "OPM 12.0% below benchmark 15.0%",
+      "detail": "OPM 12.0% below benchmark 22.0%",
       "weight": 1.0
     },
     {
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Fixed assets: 3038.0 -> 3112.0 -> 2641.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -85,9 +85,9 @@
     {
       "id": "c10",
       "label": "CFO positive & increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "CFO N/A Cr -- negative cash flow",
+      "result": "neutral",
+      "score": 0.5,
+      "detail": "CFO positive (375.0 Cr) but not consistently growing",
       "weight": 2.0
     },
     {
@@ -95,41 +95,43 @@
       "label": "CFI negative (investing in growth)",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFI = N/A Cr -- positive (possible asset sales)",
+      "detail": "CFI = 3120.0 Cr -- positive (possible asset sales)",
       "weight": 1.0
     },
     {
       "id": "c12",
       "label": "CFF: debt repayment or growth",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFF unavailable",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFF = -3186.0 Cr -- net debt repayment",
       "weight": 1.0
     },
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "ROE=N/A ROCE=16.0%",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "ROE 11.8% <= ROCE 16.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Market Cap": 136540.0,
-    "Current Price": 3834.0,
-    "High / Low": 39302787.0,
-    "Stock P/E": 83.5,
-    "Book Value": 371.0,
-    "Dividend Yield": 0.0,
-    "ROCE": 15.8,
-    "ROE": 11.8,
-    "Face Value": 2.0
+    "Current Price": 3588.0,
+    "Market Cap": 127772.0,
+    "P/E": 78.1,
+    "Industry P/E": null,
+    "P/B": null,
+    "ROE %": 11.8,
+    "ROCE %": 15.8,
+    "Debt / Equity": null,
+    "Div. Yield %": 0.0,
+    "52W High": 3930.0,
+    "52W Low": 2826.0
   },
   "benchmark": {
-    "opm": 15.0,
-    "npm": 8.0,
-    "sg": 10.0
+    "opm": 22.0,
+    "npm": 18.0,
+    "sg": 12.0
   },
-  "scanned_at": "2026-05-05T03:04:11.227213+00:00"
+  "scanned_at": "2026-05-17T06:12:09.154984+00:00"
 }

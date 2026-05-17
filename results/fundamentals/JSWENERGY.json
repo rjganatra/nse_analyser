@@ -1,21 +1,21 @@
 {
   "symbol": "JSWENERGY",
   "name": "JSW Energy Ltd",
-  "sector": "jsw.in",
+  "sector": "Power",
   "screener_url": "https://www.screener.in/company/JSWENERGY/consolidated/",
-  "score_pct": 54.9,
-  "passes": 3,
-  "fails": 1,
-  "neutrals": 9,
-  "verdict": "Weak fundamentals",
-  "verdict_color": "red",
+  "score_pct": 65.7,
+  "passes": 6,
+  "fails": 2,
+  "neutrals": 5,
+  "verdict": "Moderate -- dig deeper",
+  "verdict_color": "amber",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data. Benchmark: 10.0%",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "Avg growth 8.5% below benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -23,7 +23,7 @@
       "label": "OPM > industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "OPM 51.0% vs benchmark 15.0%",
+      "detail": "OPM 53.0% vs benchmark 25.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 10.5 -> 11.2 -> 13.0 (last 3Y)",
+      "detail": "EPS: 10.5 -> 11.2 -> 12.7 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 19191.0 -> 25616.0 -> 27377.0 (last 3Y) Cr",
+      "detail": "Reserves: 19191.0 -> 25616.0 -> 28995.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Fixed assets: 28946.0 -> 54155.0 -> 74578.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -85,17 +85,17 @@
     {
       "id": "c10",
       "label": "CFO positive & increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "CFO N/A Cr -- negative cash flow",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFO 9898.0 Cr: 6234.0 -> 3838.0 -> 9898.0 (last 3Y) Cr",
       "weight": 2.0
     },
     {
       "id": "c11",
       "label": "CFI negative (investing in growth)",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFI = N/A Cr -- positive (possible asset sales)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFI = -20271.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -103,33 +103,35 @@
       "label": "CFF: debt repayment or growth",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFF unavailable",
+      "detail": "CFF = 10617.0 Cr -- raising capital (verify if for growth)",
       "weight": 1.0
     },
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "ROE=N/A ROCE=6.0%",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "ROE 7.9% <= ROCE 8.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Market Cap": 98813.0,
-    "Current Price": 562.0,
-    "High / Low": 588428.0,
-    "Stock P/E": 42.7,
-    "Book Value": 167.0,
-    "Dividend Yield": 0.36,
-    "ROCE": 6.49,
-    "ROE": 7.41,
-    "Face Value": 10.0
+    "Current Price": 515.0,
+    "Market Cap": 90509.0,
+    "P/E": 39.6,
+    "Industry P/E": null,
+    "P/B": null,
+    "ROE %": 7.86,
+    "ROCE %": 8.29,
+    "Debt / Equity": null,
+    "Div. Yield %": 0.39,
+    "52W High": 588.0,
+    "52W Low": 428.0
   },
   "benchmark": {
-    "opm": 15.0,
-    "npm": 8.0,
+    "opm": 25.0,
+    "npm": 10.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-05T02:56:43.983706+00:00"
+  "scanned_at": "2026-05-17T06:02:03.197732+00:00"
 }

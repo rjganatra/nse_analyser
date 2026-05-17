@@ -1,21 +1,21 @@
 {
   "symbol": "HUDCO",
   "name": "Housing & Urban Development Corporation Ltd",
-  "sector": "hudco.org.in",
+  "sector": "Financial Services",
   "screener_url": "https://www.screener.in/company/HUDCO/consolidated/",
-  "score_pct": 41.8,
-  "passes": 1,
+  "score_pct": 55.9,
+  "passes": 5,
   "fails": 2,
-  "neutrals": 10,
+  "neutrals": 6,
   "verdict": "Weak fundamentals",
   "verdict_color": "red",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data. Benchmark: 10.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Avg growth 14.1% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "fail",
       "score": 0.0,
-      "detail": "EPS not rising: 10.6 -> 13.5 -> 13.9 (last 3Y)",
+      "detail": "EPS not rising: 10.6 -> 13.5 -> 20.1 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 14611.0 -> 15966.0 -> 16033.0 (last 3Y) Cr",
+      "detail": "Reserves: 14611.0 -> 15966.0 -> 19974.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Fixed assets: 88.0 -> 88.0 -> 88.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -87,15 +87,15 @@
       "label": "CFO positive & increasing",
       "result": "fail",
       "score": 0.0,
-      "detail": "CFO N/A Cr -- negative cash flow",
+      "detail": "CFO -33912.0 Cr -- negative cash flow",
       "weight": 2.0
     },
     {
       "id": "c11",
       "label": "CFI negative (investing in growth)",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFI = N/A Cr -- positive (possible asset sales)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFI = -884.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -103,33 +103,35 @@
       "label": "CFF: debt repayment or growth",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFF unavailable",
+      "detail": "CFF = 34793.0 Cr -- raising capital (verify if for growth)",
       "weight": 1.0
     },
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "ROE=16.0% ROCE=N/A",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "ROE 20.0% > ROCE 8.4% -- leverage working for shareholders",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Market Cap": 44346.0,
-    "Current Price": 222.0,
-    "High / Low": 254159.0,
-    "Stock P/E": 16.0,
-    "Book Value": 90.1,
-    "Dividend Yield": 2.05,
-    "ROCE": 9.62,
-    "ROE": 15.7,
-    "Face Value": 10.0
+    "Current Price": 207.0,
+    "Market Cap": 41345.0,
+    "P/E": 10.2,
+    "Industry P/E": null,
+    "P/B": null,
+    "ROE %": 20.2,
+    "ROCE %": 8.41,
+    "Debt / Equity": null,
+    "Div. Yield %": 2.2,
+    "52W High": 254.0,
+    "52W Low": 159.0
   },
   "benchmark": {
     "opm": 15.0,
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-05T02:54:34.452392+00:00"
+  "scanned_at": "2026-05-17T05:59:07.931162+00:00"
 }

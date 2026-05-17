@@ -1,21 +1,21 @@
 {
   "symbol": "HDBFS",
   "name": "HDB Financial Services Ltd",
-  "sector": "hdbfs.com",
+  "sector": "Financial Services",
   "screener_url": "https://www.screener.in/company/HDBFS/consolidated/",
-  "score_pct": 51.6,
-  "passes": 2,
+  "score_pct": 62.4,
+  "passes": 5,
   "fails": 1,
-  "neutrals": 10,
-  "verdict": "Weak fundamentals",
-  "verdict_color": "red",
+  "neutrals": 7,
+  "verdict": "Moderate -- dig deeper",
+  "verdict_color": "amber",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data. Benchmark: 10.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Avg growth 23.9% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Fixed assets: 387.0 -> 511.0 -> 735.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -87,7 +87,7 @@
       "label": "CFO positive & increasing",
       "result": "fail",
       "score": 0.0,
-      "detail": "CFO N/A Cr -- negative cash flow",
+      "detail": "CFO -13626.0 Cr -- negative cash flow",
       "weight": 2.0
     },
     {
@@ -95,7 +95,7 @@
       "label": "CFI negative (investing in growth)",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFI = N/A Cr -- positive (possible asset sales)",
+      "detail": "CFI = 1159.0 Cr -- positive (possible asset sales)",
       "weight": 1.0
     },
     {
@@ -103,33 +103,35 @@
       "label": "CFF: debt repayment or growth",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFF unavailable",
+      "detail": "CFF = 12770.0 Cr -- raising capital (verify if for growth)",
       "weight": 1.0
     },
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "ROE=15.0% ROCE=N/A",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "ROE 15.0% > ROCE 9.8% -- leverage working for shareholders",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Market Cap": 55242.0,
-    "Current Price": 665.0,
-    "High / Low": 892555.0,
-    "Stock P/E": 25.4,
-    "Book Value": null,
-    "Dividend Yield": 0.3,
-    "ROCE": 9.79,
-    "ROE": 14.7,
-    "Face Value": 10.0
+    "Current Price": 675.0,
+    "Market Cap": 56044.0,
+    "P/E": 25.8,
+    "Industry P/E": null,
+    "P/B": null,
+    "ROE %": 14.7,
+    "ROCE %": 9.79,
+    "Debt / Equity": null,
+    "Div. Yield %": 0.59,
+    "52W High": 892.0,
+    "52W Low": 555.0
   },
   "benchmark": {
     "opm": 15.0,
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-05T02:53:39.012658+00:00"
+  "scanned_at": "2026-05-17T05:57:52.105772+00:00"
 }

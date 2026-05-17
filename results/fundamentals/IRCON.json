@@ -1,21 +1,21 @@
 {
   "symbol": "IRCON",
   "name": "Ircon International Ltd",
-  "sector": "ircon.org",
+  "sector": "Construction",
   "screener_url": "https://www.screener.in/company/IRCON/consolidated/",
-  "score_pct": 38.6,
-  "passes": 1,
-  "fails": 3,
-  "neutrals": 9,
+  "score_pct": 33.0,
+  "passes": 2,
+  "fails": 5,
+  "neutrals": 6,
   "verdict": "Avoid",
   "verdict_color": "red",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data. Benchmark: 10.0%",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "Avg growth 9.7% below benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Fixed assets: 1736.0 -> 2453.0 -> 3471.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -87,7 +87,7 @@
       "label": "CFO positive & increasing",
       "result": "fail",
       "score": 0.0,
-      "detail": "CFO N/A Cr -- negative cash flow",
+      "detail": "CFO -1110.0 Cr -- negative cash flow",
       "weight": 2.0
     },
     {
@@ -95,7 +95,7 @@
       "label": "CFI negative (investing in growth)",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFI = N/A Cr -- positive (possible asset sales)",
+      "detail": "CFI = 54.0 Cr -- positive (possible asset sales)",
       "weight": 1.0
     },
     {
@@ -103,33 +103,35 @@
       "label": "CFF: debt repayment or growth",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFF unavailable",
+      "detail": "CFF = 1156.0 Cr -- raising capital (verify if for growth)",
       "weight": 1.0
     },
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "ROE=N/A ROCE=12.0%",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "ROE 11.3% <= ROCE 12.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Market Cap": 14476.0,
-    "Current Price": 154.0,
-    "High / Low": 226114.0,
-    "Stock P/E": 23.6,
-    "Book Value": 68.7,
-    "Dividend Yield": 1.72,
-    "ROCE": 11.6,
-    "ROE": 11.3,
-    "Face Value": 2.0
+    "Current Price": 143.0,
+    "Market Cap": 13416.0,
+    "P/E": 21.8,
+    "Industry P/E": null,
+    "P/B": null,
+    "ROE %": 11.3,
+    "ROCE %": 11.6,
+    "Debt / Equity": null,
+    "Div. Yield %": 1.86,
+    "52W High": 226.0,
+    "52W Low": 114.0
   },
   "benchmark": {
     "opm": 15.0,
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-05T02:55:06.888965+00:00"
+  "scanned_at": "2026-05-17T05:59:51.512627+00:00"
 }

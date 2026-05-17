@@ -1,29 +1,29 @@
 {
   "symbol": "BOSCHLTD",
   "name": "Bosch Ltd",
-  "sector": "bosch.in",
+  "sector": "Automobile and Auto Components",
   "screener_url": "https://www.screener.in/company/BOSCHLTD/consolidated/",
-  "score_pct": 48.4,
-  "passes": 2,
+  "score_pct": 69.0,
+  "passes": 7,
   "fails": 2,
-  "neutrals": 9,
-  "verdict": "Weak fundamentals",
-  "verdict_color": "red",
+  "neutrals": 4,
+  "verdict": "Moderate -- dig deeper",
+  "verdict_color": "amber",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data. Benchmark: 10.0%",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "Avg growth 7.8% below benchmark 10.0%",
       "weight": 1.0
     },
     {
       "id": "c2",
       "label": "OPM > industry",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "OPM 13.0% below benchmark 15.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "OPM 13.0% vs benchmark 12.0%",
       "weight": 1.0
     },
     {
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Fixed assets: 1770.0 -> 1622.0 -> 1669.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -85,51 +85,53 @@
     {
       "id": "c10",
       "label": "CFO positive & increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "CFO N/A Cr -- negative cash flow",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFO 2373.0 Cr: 1214.0 -> 1258.0 -> 2373.0 (last 3Y) Cr",
       "weight": 2.0
     },
     {
       "id": "c11",
       "label": "CFI negative (investing in growth)",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFI = N/A Cr -- positive (possible asset sales)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFI = -1955.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
       "id": "c12",
       "label": "CFF: debt repayment or growth",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFF unavailable",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFF = -529.0 Cr -- net debt repayment",
       "weight": 1.0
     },
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "ROE=N/A ROCE=21.0%",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "ROE 15.6% <= ROCE 21.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Market Cap": 105735.0,
-    "Current Price": 35850.0,
-    "High / Low": 4194528610.0,
-    "Stock P/E": 45.7,
-    "Book Value": 4753.0,
-    "Dividend Yield": 1.43,
-    "ROCE": 21.1,
-    "ROE": 15.6,
-    "Face Value": 10.0
+    "Current Price": 37740.0,
+    "Market Cap": 111309.0,
+    "P/E": 48.2,
+    "Industry P/E": null,
+    "P/B": null,
+    "ROE %": 15.6,
+    "ROCE %": 21.1,
+    "Debt / Equity": null,
+    "Div. Yield %": 1.36,
+    "52W High": 41945.0,
+    "52W Low": 28610.0
   },
   "benchmark": {
-    "opm": 15.0,
-    "npm": 8.0,
+    "opm": 12.0,
+    "npm": 6.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-05T02:48:08.884890+00:00"
+  "scanned_at": "2026-05-17T05:50:19.336176+00:00"
 }

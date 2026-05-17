@@ -1,21 +1,21 @@
 {
   "symbol": "NHPC",
   "name": "NHPC Ltd",
-  "sector": "nhpcindia.com",
+  "sector": "Power",
   "screener_url": "https://www.screener.in/company/NHPC/consolidated/",
-  "score_pct": 54.9,
-  "passes": 3,
+  "score_pct": 69.0,
+  "passes": 6,
   "fails": 1,
-  "neutrals": 9,
-  "verdict": "Weak fundamentals",
-  "verdict_color": "red",
+  "neutrals": 6,
+  "verdict": "Moderate -- dig deeper",
+  "verdict_color": "amber",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data. Benchmark: 10.0%",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "Avg growth 3.6% below benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -23,7 +23,7 @@
       "label": "OPM > industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "OPM 46.0% vs benchmark 15.0%",
+      "detail": "OPM 45.0% vs benchmark 25.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 3.6 -> 3.0 -> 3.1 (last 3Y)",
+      "detail": "EPS: 3.6 -> 3.0 -> 3.8 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 28624.0 -> 29623.0 -> 31195.0 (last 3Y) Cr",
+      "detail": "Reserves: 28624.0 -> 29623.0 -> 31392.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Fixed assets: 21474.0 -> 22168.0 -> 50494.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -85,17 +85,17 @@
     {
       "id": "c10",
       "label": "CFO positive & increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "CFO N/A Cr -- negative cash flow",
+      "result": "neutral",
+      "score": 0.5,
+      "detail": "CFO positive (3294.0 Cr) but not consistently growing",
       "weight": 2.0
     },
     {
       "id": "c11",
       "label": "CFI negative (investing in growth)",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFI = N/A Cr -- positive (possible asset sales)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFI = -11139.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -103,33 +103,35 @@
       "label": "CFF: debt repayment or growth",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFF unavailable",
+      "detail": "CFF = 8928.0 Cr -- raising capital (verify if for growth)",
       "weight": 1.0
     },
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "ROE=N/A ROCE=7.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "ROE 9.3% > ROCE 6.0% -- leverage working for shareholders",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Market Cap": 83655.0,
-    "Current Price": 83.3,
-    "High / Low": null,
-    "Stock P/E": 26.5,
-    "Book Value": 41.0,
-    "Dividend Yield": 2.29,
-    "ROCE": 7.42,
-    "ROE": 7.53,
-    "Face Value": 10.0
+    "Current Price": 76.8,
+    "Market Cap": 77136.0,
+    "P/E": 20.5,
+    "Industry P/E": null,
+    "P/B": null,
+    "ROE %": 9.29,
+    "ROCE %": 5.73,
+    "Debt / Equity": null,
+    "Div. Yield %": 2.49,
+    "52W High": 92.3,
+    "52W Low": 68.7
   },
   "benchmark": {
-    "opm": 15.0,
-    "npm": 8.0,
+    "opm": 25.0,
+    "npm": 10.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-05T03:00:01.770493+00:00"
+  "scanned_at": "2026-05-17T06:06:32.267070+00:00"
 }

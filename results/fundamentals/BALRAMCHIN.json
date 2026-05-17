@@ -1,21 +1,21 @@
 {
   "symbol": "BALRAMCHIN",
   "name": "Balrampur Chini Mills Ltd",
-  "sector": "chini.com",
+  "sector": "Fast Moving Consumer Goods",
   "screener_url": "https://www.screener.in/company/BALRAMCHIN/consolidated/",
-  "score_pct": 48.4,
-  "passes": 2,
+  "score_pct": 69.0,
+  "passes": 6,
   "fails": 2,
-  "neutrals": 9,
-  "verdict": "Weak fundamentals",
-  "verdict_color": "red",
+  "neutrals": 5,
+  "verdict": "Moderate -- dig deeper",
+  "verdict_color": "amber",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data. Benchmark: 10.0%",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "Avg growth 7.6% below benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -23,7 +23,7 @@
       "label": "OPM > industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "OPM 13.0% below benchmark 15.0%",
+      "detail": "OPM 12.0% below benchmark 16.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 26.5 -> 21.6 -> 22.2 (last 3Y)",
+      "detail": "EPS: 26.5 -> 21.6 -> 18.7 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 3381.0 -> 3775.0 -> 3899.0 (last 3Y) Cr",
+      "detail": "Reserves: 3381.0 -> 3775.0 -> 4118.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Fixed assets: 2639.0 -> 2645.0 -> 2604.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -85,17 +85,17 @@
     {
       "id": "c10",
       "label": "CFO positive & increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "CFO N/A Cr -- negative cash flow",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFO 599.0 Cr: 178.0 -> 425.0 -> 599.0 (last 3Y) Cr",
       "weight": 2.0
     },
     {
       "id": "c11",
       "label": "CFI negative (investing in growth)",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFI = N/A Cr -- positive (possible asset sales)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFI = -947.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -103,33 +103,35 @@
       "label": "CFF: debt repayment or growth",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFF unavailable",
+      "detail": "CFF = 347.0 Cr -- raising capital (verify if for growth)",
       "weight": 1.0
     },
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "ROE=N/A ROCE=10.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "ROE 9.5% > ROCE 9.0% -- leverage working for shareholders",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Market Cap": 10599.0,
-    "Current Price": 525.0,
-    "High / Low": 628393.0,
-    "Stock P/E": 23.7,
-    "Book Value": 194.0,
-    "Dividend Yield": 0.67,
-    "ROCE": 10.2,
-    "ROE": 11.0,
-    "Face Value": 1.0
+    "Current Price": 540.0,
+    "Market Cap": 10897.0,
+    "P/E": 28.8,
+    "Industry P/E": null,
+    "P/B": null,
+    "ROE %": 9.54,
+    "ROCE %": 9.28,
+    "Debt / Equity": null,
+    "Div. Yield %": 0.65,
+    "52W High": 628.0,
+    "52W Low": 393.0
   },
   "benchmark": {
-    "opm": 15.0,
-    "npm": 8.0,
+    "opm": 16.0,
+    "npm": 10.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-05T02:46:58.432912+00:00"
+  "scanned_at": "2026-05-17T05:48:44.619437+00:00"
 }

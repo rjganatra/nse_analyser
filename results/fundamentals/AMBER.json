@@ -1,21 +1,21 @@
 {
   "symbol": "AMBER",
   "name": "Amber Enterprises India Ltd",
-  "sector": "ambergroupindia.com",
+  "sector": "Consumer Durables",
   "screener_url": "https://www.screener.in/company/AMBER/consolidated/",
-  "score_pct": 48.4,
-  "passes": 2,
+  "score_pct": 65.7,
+  "passes": 6,
   "fails": 2,
-  "neutrals": 9,
-  "verdict": "Weak fundamentals",
-  "verdict_color": "red",
+  "neutrals": 5,
+  "verdict": "Moderate -- dig deeper",
+  "verdict_color": "amber",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data. Benchmark: 10.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Avg growth 26.4% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -23,7 +23,7 @@
       "label": "OPM > industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "OPM 7.0% below benchmark 15.0%",
+      "detail": "OPM 7.0% below benchmark 16.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 39.4 -> 72.0 -> 47.9 (last 3Y)",
+      "detail": "EPS: 39.4 -> 72.0 -> 50.5 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 2031.0 -> 2252.0 -> 3612.0 (last 3Y) Cr",
+      "detail": "Reserves: 2031.0 -> 2252.0 -> 4337.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Fixed assets: 2825.0 -> 3040.0 -> 5879.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -85,17 +85,17 @@
     {
       "id": "c10",
       "label": "CFO positive & increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "CFO N/A Cr -- negative cash flow",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFO 240.0 Cr: 965.0 -> 711.0 -> 240.0 (last 3Y) Cr",
       "weight": 2.0
     },
     {
       "id": "c11",
       "label": "CFI negative (investing in growth)",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFI = N/A Cr -- positive (possible asset sales)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFI = -3074.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -103,33 +103,35 @@
       "label": "CFF: debt repayment or growth",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFF unavailable",
+      "detail": "CFF = 2683.0 Cr -- raising capital (verify if for growth)",
       "weight": 1.0
     },
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "ROE=N/A ROCE=14.0%",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "ROE 6.0% <= ROCE 10.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Market Cap": 28178.0,
-    "Current Price": 8007.0,
-    "High / Low": 86265400.0,
-    "Stock P/E": 121.0,
-    "Book Value": 1037.0,
-    "Dividend Yield": 0.0,
-    "ROCE": 14.5,
-    "ROE": 11.3,
-    "Face Value": 10.0
+    "Current Price": 8476.0,
+    "Market Cap": 29854.0,
+    "P/E": 151.0,
+    "Industry P/E": null,
+    "P/B": null,
+    "ROE %": 5.95,
+    "ROCE %": 10.2,
+    "Debt / Equity": null,
+    "Div. Yield %": 0.0,
+    "52W High": 8974.0,
+    "52W Low": 5400.0
   },
   "benchmark": {
-    "opm": 15.0,
-    "npm": 8.0,
+    "opm": 16.0,
+    "npm": 10.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-05T02:45:27.307456+00:00"
+  "scanned_at": "2026-05-17T05:46:41.237932+00:00"
 }

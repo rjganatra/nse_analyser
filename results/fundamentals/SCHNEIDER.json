@@ -1,7 +1,7 @@
 {
   "symbol": "SCHNEIDER",
   "name": "Schneider Electric Infrastructure Ltd",
-  "sector": "schneider-infra.in",
+  "sector": "Capital Goods",
   "screener_url": "https://www.screener.in/company/SCHNEIDER/consolidated/",
   "score_pct": 43.5,
   "passes": 0,
@@ -116,20 +116,22 @@
     }
   ],
   "top_ratios": {
-    "Market Cap": null,
     "Current Price": null,
-    "High / Low": null,
-    "Stock P/E": null,
-    "Book Value": null,
-    "Dividend Yield": null,
-    "ROCE": null,
-    "ROE": null,
-    "Face Value": null
+    "Market Cap": null,
+    "P/E": null,
+    "Industry P/E": null,
+    "P/B": null,
+    "ROE %": null,
+    "ROCE %": null,
+    "Debt / Equity": null,
+    "Div. Yield %": null,
+    "52W High": null,
+    "52W Low": null
   },
   "benchmark": {
-    "opm": 12.0,
-    "npm": 5.0,
+    "opm": 22.0,
+    "npm": 18.0,
     "sg": 12.0
   },
-  "scanned_at": "2026-05-05T03:03:53.565675+00:00"
+  "scanned_at": "2026-05-17T06:11:45.448400+00:00"
 }

@@ -1,21 +1,21 @@
 {
   "symbol": "RVNL",
   "name": "Rail Vikas Nigam Ltd",
-  "sector": "rvnl.org",
+  "sector": "Construction",
   "screener_url": "https://www.screener.in/company/RVNL/consolidated/",
-  "score_pct": 48.4,
-  "passes": 2,
+  "score_pct": 65.7,
+  "passes": 6,
   "fails": 2,
-  "neutrals": 9,
-  "verdict": "Weak fundamentals",
-  "verdict_color": "red",
+  "neutrals": 5,
+  "verdict": "Moderate -- dig deeper",
+  "verdict_color": "amber",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data. Benchmark: 10.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Avg growth 19.7% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Fixed assets: 367.0 -> 1027.0 -> 1003.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -85,9 +85,9 @@
     {
       "id": "c10",
       "label": "CFO positive & increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "CFO N/A Cr -- negative cash flow",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFO 1878.0 Cr: -4064.0 -> 2956.0 -> 1878.0 (last 3Y) Cr",
       "weight": 2.0
     },
     {
@@ -95,41 +95,43 @@
       "label": "CFI negative (investing in growth)",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFI = N/A Cr -- positive (possible asset sales)",
+      "detail": "CFI = 1629.0 Cr -- positive (possible asset sales)",
       "weight": 1.0
     },
     {
       "id": "c12",
       "label": "CFF: debt repayment or growth",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFF unavailable",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFF = -1484.0 Cr -- net debt repayment",
       "weight": 1.0
     },
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "ROE=N/A ROCE=15.0%",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "ROE 14.0% <= ROCE 15.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Market Cap": 61852.0,
-    "Current Price": 297.0,
-    "High / Low": 448248.0,
-    "Stock P/E": 53.9,
-    "Book Value": 45.8,
-    "Dividend Yield": 0.58,
-    "ROCE": 14.7,
-    "ROE": 14.0,
-    "Face Value": 10.0
+    "Current Price": 283.0,
+    "Market Cap": 59006.0,
+    "P/E": 51.4,
+    "Industry P/E": null,
+    "P/B": null,
+    "ROE %": 14.0,
+    "ROCE %": 14.7,
+    "Debt / Equity": null,
+    "Div. Yield %": 0.61,
+    "52W High": 448.0,
+    "52W Low": 248.0
   },
   "benchmark": {
     "opm": 15.0,
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-05T03:02:54.792402+00:00"
+  "scanned_at": "2026-05-17T06:10:26.660216+00:00"
 }

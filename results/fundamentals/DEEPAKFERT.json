@@ -1,29 +1,29 @@
 {
   "symbol": "DEEPAKFERT",
   "name": "Deepak Fertilisers & Petrochemicals Corp Ltd",
-  "sector": "dfpcl.com",
+  "sector": "Chemicals",
   "screener_url": "https://www.screener.in/company/DEEPAKFERT/consolidated/",
-  "score_pct": 54.9,
-  "passes": 3,
-  "fails": 1,
-  "neutrals": 9,
-  "verdict": "Weak fundamentals",
-  "verdict_color": "red",
+  "score_pct": 69.0,
+  "passes": 7,
+  "fails": 2,
+  "neutrals": 4,
+  "verdict": "Moderate -- dig deeper",
+  "verdict_color": "amber",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data. Benchmark: 10.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Avg growth 11.7% vs benchmark 11.0%",
       "weight": 1.0
     },
     {
       "id": "c2",
       "label": "OPM > industry",
-      "result": "pass",
-      "score": 1.0,
-      "detail": "OPM 16.0% vs benchmark 15.0%",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "OPM 16.0% below benchmark 18.0%",
       "weight": 1.0
     },
     {
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Fixed assets: 6258.0 -> 6292.0 -> 6211.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -85,51 +85,53 @@
     {
       "id": "c10",
       "label": "CFO positive & increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "CFO N/A Cr -- negative cash flow",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFO 1880.0 Cr: 493.0 -> 732.0 -> 1880.0 (last 3Y) Cr",
       "weight": 2.0
     },
     {
       "id": "c11",
       "label": "CFI negative (investing in growth)",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFI = N/A Cr -- positive (possible asset sales)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFI = -1062.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
       "id": "c12",
       "label": "CFF: debt repayment or growth",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFF unavailable",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFF = -689.0 Cr -- net debt repayment",
       "weight": 1.0
     },
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "ROE=N/A ROCE=16.0%",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "ROE 15.6% <= ROCE 16.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Market Cap": 16273.0,
-    "Current Price": 1289.0,
-    "High / Low": 1779865.0,
-    "Stock P/E": 18.6,
-    "Book Value": 516.0,
-    "Dividend Yield": 0.78,
-    "ROCE": 15.7,
-    "ROE": 15.6,
-    "Face Value": 10.0
+    "Current Price": 1318.0,
+    "Market Cap": 16644.0,
+    "P/E": 19.0,
+    "Industry P/E": null,
+    "P/B": null,
+    "ROE %": 15.6,
+    "ROCE %": 15.7,
+    "Debt / Equity": null,
+    "Div. Yield %": 0.76,
+    "52W High": 1779.0,
+    "52W Low": 865.0
   },
   "benchmark": {
-    "opm": 15.0,
-    "npm": 8.0,
-    "sg": 10.0
+    "opm": 18.0,
+    "npm": 10.0,
+    "sg": 11.0
   },
-  "scanned_at": "2026-05-05T02:50:35.271485+00:00"
+  "scanned_at": "2026-05-17T05:53:43.144007+00:00"
 }

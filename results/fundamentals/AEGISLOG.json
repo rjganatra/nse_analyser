@@ -1,21 +1,21 @@
 {
   "symbol": "AEGISLOG",
   "name": "Aegis Logistics Ltd",
-  "sector": "aegisindia.com",
+  "sector": "Oil Gas & Consumable Fuels",
   "screener_url": "https://www.screener.in/company/AEGISLOG/consolidated/",
-  "score_pct": 54.9,
-  "passes": 3,
-  "fails": 1,
-  "neutrals": 9,
-  "verdict": "Weak fundamentals",
-  "verdict_color": "red",
+  "score_pct": 82.0,
+  "passes": 8,
+  "fails": 0,
+  "neutrals": 5,
+  "verdict": "Strong buy candidate",
+  "verdict_color": "green",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data. Benchmark: 10.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Avg growth 10.6% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Fixed assets: 4139.0 -> 5086.0 -> 6390.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -85,17 +85,17 @@
     {
       "id": "c10",
       "label": "CFO positive & increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "CFO N/A Cr -- negative cash flow",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFO 558.0 Cr: 358.0 -> 656.0 -> 558.0 (last 3Y) Cr",
       "weight": 2.0
     },
     {
       "id": "c11",
       "label": "CFI negative (investing in growth)",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFI = N/A Cr -- positive (possible asset sales)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFI = -1463.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -103,33 +103,35 @@
       "label": "CFF: debt repayment or growth",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFF unavailable",
+      "detail": "CFF = 1283.0 Cr -- raising capital (verify if for growth)",
       "weight": 1.0
     },
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "ROE=N/A ROCE=13.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "ROE 15.5% > ROCE 13.0% -- leverage working for shareholders",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Market Cap": 25216.0,
-    "Current Price": 718.0,
-    "High / Low": 946576.0,
-    "Stock P/E": 32.8,
-    "Book Value": 169.0,
-    "Dividend Yield": 1.01,
-    "ROCE": 13.2,
-    "ROE": 15.5,
-    "Face Value": 1.0
+    "Current Price": 674.0,
+    "Market Cap": 23663.0,
+    "P/E": 30.8,
+    "Industry P/E": null,
+    "P/B": null,
+    "ROE %": 15.5,
+    "ROCE %": 13.2,
+    "Debt / Equity": null,
+    "Div. Yield %": 1.08,
+    "52W High": 946.0,
+    "52W Low": 576.0
   },
   "benchmark": {
     "opm": 15.0,
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-05T02:45:04.244165+00:00"
+  "scanned_at": "2026-05-17T05:46:09.770201+00:00"
 }

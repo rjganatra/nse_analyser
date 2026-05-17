@@ -1,21 +1,21 @@
 {
   "symbol": "DEEPAKNTR",
   "name": "Deepak Nitrite Ltd",
-  "sector": "godeepak.com",
+  "sector": "Chemicals",
   "screener_url": "https://www.screener.in/company/DEEPAKNTR/consolidated/",
-  "score_pct": 48.4,
-  "passes": 2,
+  "score_pct": 65.7,
+  "passes": 6,
   "fails": 2,
-  "neutrals": 9,
-  "verdict": "Weak fundamentals",
-  "verdict_color": "red",
+  "neutrals": 5,
+  "verdict": "Moderate -- dig deeper",
+  "verdict_color": "amber",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data. Benchmark: 10.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Avg growth 20.0% vs benchmark 11.0%",
       "weight": 1.0
     },
     {
@@ -23,7 +23,7 @@
       "label": "OPM > industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "OPM 12.0% below benchmark 15.0%",
+      "detail": "OPM 12.0% below benchmark 18.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 59.5 -> 51.1 -> 39.1 (last 3Y)",
+      "detail": "EPS: 59.5 -> 51.1 -> 40.4 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 4769.0 -> 5361.0 -> 5488.0 (last 3Y) Cr",
+      "detail": "Reserves: 4769.0 -> 5361.0 -> 5810.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Fixed assets: 2293.0 -> 2457.0 -> 3270.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -85,17 +85,17 @@
     {
       "id": "c10",
       "label": "CFO positive & increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "CFO N/A Cr -- negative cash flow",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFO 539.0 Cr: 874.0 -> 625.0 -> 539.0 (last 3Y) Cr",
       "weight": 2.0
     },
     {
       "id": "c11",
       "label": "CFI negative (investing in growth)",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFI = N/A Cr -- positive (possible asset sales)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFI = -669.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -103,33 +103,35 @@
       "label": "CFF: debt repayment or growth",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFF unavailable",
+      "detail": "CFF = 193.0 Cr -- raising capital (verify if for growth)",
       "weight": 1.0
     },
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "ROE=N/A ROCE=16.0%",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "ROE 10.0% <= ROCE 11.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Market Cap": 23900.0,
-    "Current Price": 1752.0,
-    "High / Low": 21741280.0,
-    "Stock P/E": 44.1,
-    "Book Value": 404.0,
-    "Dividend Yield": 0.43,
-    "ROCE": 16.3,
-    "ROE": 13.4,
-    "Face Value": 2.0
+    "Current Price": 1826.0,
+    "Market Cap": 24911.0,
+    "P/E": 44.5,
+    "Industry P/E": null,
+    "P/B": null,
+    "ROE %": 9.97,
+    "ROCE %": 11.5,
+    "Debt / Equity": null,
+    "Div. Yield %": 0.41,
+    "52W High": 2174.0,
+    "52W Low": 1280.0
   },
   "benchmark": {
-    "opm": 15.0,
-    "npm": 8.0,
-    "sg": 10.0
+    "opm": 18.0,
+    "npm": 10.0,
+    "sg": 11.0
   },
-  "scanned_at": "2026-05-05T02:50:38.163229+00:00"
+  "scanned_at": "2026-05-17T05:53:47.186407+00:00"
 }

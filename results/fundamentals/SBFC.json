@@ -1,21 +1,21 @@
 {
   "symbol": "SBFC",
   "name": "SBFC Finance Ltd",
-  "sector": "sbfc.com",
+  "sector": "Financial Services",
   "screener_url": "https://www.screener.in/company/SBFC/consolidated/",
-  "score_pct": 51.6,
-  "passes": 2,
+  "score_pct": 62.4,
+  "passes": 5,
   "fails": 1,
-  "neutrals": 10,
-  "verdict": "Weak fundamentals",
-  "verdict_color": "red",
+  "neutrals": 7,
+  "verdict": "Moderate -- dig deeper",
+  "verdict_color": "amber",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data. Benchmark: 10.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Avg growth 35.2% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Fixed assets: 296.0 -> 300.0 -> 308.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -87,7 +87,7 @@
       "label": "CFO positive & increasing",
       "result": "fail",
       "score": 0.0,
-      "detail": "CFO N/A Cr -- negative cash flow",
+      "detail": "CFO -1415.0 Cr -- negative cash flow",
       "weight": 2.0
     },
     {
@@ -95,7 +95,7 @@
       "label": "CFI negative (investing in growth)",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFI = N/A Cr -- positive (possible asset sales)",
+      "detail": "CFI = 174.0 Cr -- positive (possible asset sales)",
       "weight": 1.0
     },
     {
@@ -103,33 +103,35 @@
       "label": "CFF: debt repayment or growth",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFF unavailable",
+      "detail": "CFF = 1281.0 Cr -- raising capital (verify if for growth)",
       "weight": 1.0
     },
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "ROE=12.0% ROCE=N/A",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "ROE 12.0% > ROCE 11.6% -- leverage working for shareholders",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Market Cap": 10338.0,
-    "Current Price": 93.4,
-    "High / Low": 12379.6,
-    "Stock P/E": 29.9,
-    "Book Value": 29.4,
-    "Dividend Yield": 0.0,
-    "ROCE": 11.6,
-    "ROE": 11.6,
-    "Face Value": 10.0
+    "Current Price": 91.4,
+    "Market Cap": 10115.0,
+    "P/E": 29.3,
+    "Industry P/E": null,
+    "P/B": null,
+    "ROE %": 11.6,
+    "ROCE %": 11.6,
+    "Debt / Equity": null,
+    "Div. Yield %": 0.0,
+    "52W High": 123.0,
+    "52W Low": 79.6
   },
   "benchmark": {
     "opm": 15.0,
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-05T03:03:15.369399+00:00"
+  "scanned_at": "2026-05-17T06:10:54.261466+00:00"
 }

@@ -1,21 +1,21 @@
 {
   "symbol": "MFSL",
   "name": "Max Financial Services Ltd",
-  "sector": "maxfinancialservices.com",
+  "sector": "Financial Services",
   "screener_url": "https://www.screener.in/company/MFSL/consolidated/",
-  "score_pct": 38.6,
-  "passes": 1,
-  "fails": 3,
-  "neutrals": 9,
-  "verdict": "Avoid",
+  "score_pct": 50.7,
+  "passes": 4,
+  "fails": 4,
+  "neutrals": 5,
+  "verdict": "Weak fundamentals",
   "verdict_color": "red",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data. Benchmark: 10.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Avg growth 13.8% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "fail",
       "score": 0.0,
-      "detail": "EPS not rising: 9.8 -> 9.5 -> 4.1 (last 3Y)",
+      "detail": "EPS not rising: 9.8 -> 9.5 -> 2.4 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 3797.0 -> 5206.0 -> 5235.0 (last 3Y) Cr",
+      "detail": "Reserves: 3797.0 -> 5206.0 -> 5213.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "Fixed assets: 612.0 -> 610.0 -> 607.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -85,17 +85,17 @@
     {
       "id": "c10",
       "label": "CFO positive & increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "CFO N/A Cr -- negative cash flow",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFO 11473.0 Cr: 6104.0 -> 8352.0 -> 11473.0 (last 3Y) Cr",
       "weight": 2.0
     },
     {
       "id": "c11",
       "label": "CFI negative (investing in growth)",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFI = N/A Cr -- positive (possible asset sales)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFI = -11125.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -103,33 +103,35 @@
       "label": "CFF: debt repayment or growth",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFF unavailable",
+      "detail": "CFF = 567.0 Cr -- raising capital (verify if for growth)",
       "weight": 1.0
     },
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "ROE=N/A ROCE=8.0%",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "ROE 1.6% <= ROCE 3.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Market Cap": 55450.0,
-    "Current Price": 1607.0,
-    "High / Low": 18921247.0,
-    "Stock P/E": 386.0,
-    "Book Value": 154.0,
-    "Dividend Yield": 0.0,
-    "ROCE": 8.13,
-    "ROE": 7.26,
-    "Face Value": 2.0
+    "Current Price": 1604.0,
+    "Market Cap": 55356.0,
+    "P/E": 666.0,
+    "Industry P/E": null,
+    "P/B": null,
+    "ROE %": 1.57,
+    "ROCE %": 2.95,
+    "Debt / Equity": null,
+    "Div. Yield %": 0.0,
+    "52W High": 1892.0,
+    "52W Low": 1356.0
   },
   "benchmark": {
     "opm": 15.0,
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-05T02:59:24.115358+00:00"
+  "scanned_at": "2026-05-17T06:05:41.096308+00:00"
 }

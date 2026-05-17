@@ -1,21 +1,21 @@
 {
   "symbol": "NEULANDLAB",
   "name": "Neuland Laboratories Ltd",
-  "sector": "neulandlabs.com",
+  "sector": "Healthcare",
   "screener_url": "https://www.screener.in/company/NEULANDLAB/consolidated/",
-  "score_pct": 54.9,
-  "passes": 3,
+  "score_pct": 72.2,
+  "passes": 7,
   "fails": 1,
-  "neutrals": 9,
-  "verdict": "Weak fundamentals",
-  "verdict_color": "red",
+  "neutrals": 5,
+  "verdict": "Moderate -- dig deeper",
+  "verdict_color": "amber",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data. Benchmark: 10.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Avg growth 15.1% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -23,7 +23,7 @@
       "label": "OPM > industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "OPM 20.0% vs benchmark 15.0%",
+      "detail": "OPM 28.0% vs benchmark 15.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 233.9 -> 202.7 -> 139.6 (last 3Y)",
+      "detail": "EPS: 233.9 -> 202.7 -> 283.7 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 1270.0 -> 1512.0 -> 1607.0 (last 3Y) Cr",
+      "detail": "Reserves: 1270.0 -> 1512.0 -> 1862.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Fixed assets: 824.0 -> 955.0 -> 1178.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -85,17 +85,17 @@
     {
       "id": "c10",
       "label": "CFO positive & increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "CFO N/A Cr -- negative cash flow",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFO 347.0 Cr: 261.0 -> 317.0 -> 347.0 (last 3Y) Cr",
       "weight": 2.0
     },
     {
       "id": "c11",
       "label": "CFI negative (investing in growth)",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFI = N/A Cr -- positive (possible asset sales)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFI = -424.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -103,33 +103,35 @@
       "label": "CFF: debt repayment or growth",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFF unavailable",
+      "detail": "CFF = 21.0 Cr -- raising capital (verify if for growth)",
       "weight": 1.0
     },
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "ROE=N/A ROCE=19.0%",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "ROE 21.4% <= ROCE 27.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Market Cap": 20687.0,
-    "Current Price": 16124.0,
-    "High / Low": 1974810578.0,
-    "Stock P/E": 115.0,
-    "Book Value": 1263.0,
-    "Dividend Yield": 0.07,
-    "ROCE": 18.7,
-    "ROE": 14.8,
-    "Face Value": 10.0
+    "Current Price": 16590.0,
+    "Market Cap": 21285.0,
+    "P/E": 58.5,
+    "Industry P/E": null,
+    "P/B": null,
+    "ROE %": 21.4,
+    "ROCE %": 26.6,
+    "Debt / Equity": null,
+    "Div. Yield %": 0.07,
+    "52W High": 19748.0,
+    "52W Low": 11011.0
   },
   "benchmark": {
     "opm": 15.0,
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-05T03:00:36.456309+00:00"
+  "scanned_at": "2026-05-17T06:07:19.660076+00:00"
 }

@@ -1,21 +1,21 @@
 {
   "symbol": "NUVOCO",
   "name": "Nuvoco Vistas Corporation Ltd",
-  "sector": "nuvoco.com",
+  "sector": "Construction Materials",
   "screener_url": "https://www.screener.in/company/NUVOCO/consolidated/",
-  "score_pct": 54.9,
-  "passes": 3,
-  "fails": 1,
-  "neutrals": 9,
-  "verdict": "Weak fundamentals",
-  "verdict_color": "red",
+  "score_pct": 65.7,
+  "passes": 6,
+  "fails": 2,
+  "neutrals": 5,
+  "verdict": "Moderate -- dig deeper",
+  "verdict_color": "amber",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data. Benchmark: 10.0%",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "Avg growth 9.5% below benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Fixed assets: 15027.0 -> 14702.0 -> 14686.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -85,17 +85,17 @@
     {
       "id": "c10",
       "label": "CFO positive & increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "CFO N/A Cr -- negative cash flow",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFO 1485.0 Cr: 1593.0 -> 1329.0 -> 1485.0 (last 3Y) Cr",
       "weight": 2.0
     },
     {
       "id": "c11",
       "label": "CFI negative (investing in growth)",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFI = N/A Cr -- positive (possible asset sales)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFI = -2500.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -103,33 +103,35 @@
       "label": "CFF: debt repayment or growth",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFF unavailable",
+      "detail": "CFF = 927.0 Cr -- raising capital (verify if for growth)",
       "weight": 1.0
     },
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "ROE=N/A ROCE=7.0%",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "ROE 4.0% <= ROCE 7.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Market Cap": 10374.0,
-    "Current Price": 290.0,
-    "High / Low": 478276.0,
-    "Stock P/E": 26.6,
-    "Book Value": 286.0,
-    "Dividend Yield": 0.0,
-    "ROCE": 7.07,
-    "ROE": 4.05,
-    "Face Value": 10.0
+    "Current Price": 327.0,
+    "Market Cap": 11672.0,
+    "P/E": 29.9,
+    "Industry P/E": null,
+    "P/B": null,
+    "ROE %": 4.05,
+    "ROCE %": 7.07,
+    "Debt / Equity": null,
+    "Div. Yield %": 0.0,
+    "52W High": 478.0,
+    "52W Low": 276.0
   },
   "benchmark": {
     "opm": 15.0,
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-05T03:00:51.068124+00:00"
+  "scanned_at": "2026-05-17T06:07:39.647296+00:00"
 }

@@ -1,21 +1,21 @@
 {
   "symbol": "ZEEL",
   "name": "Zee Entertainment Enterprises Ltd",
-  "sector": "zee.com",
+  "sector": "Media Entertainment & Publication",
   "screener_url": "https://www.screener.in/company/ZEEL/consolidated/",
-  "score_pct": 38.6,
-  "passes": 1,
-  "fails": 3,
-  "neutrals": 9,
-  "verdict": "Avoid",
+  "score_pct": 44.1,
+  "passes": 3,
+  "fails": 5,
+  "neutrals": 5,
+  "verdict": "Weak fundamentals",
   "verdict_color": "red",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data. Benchmark: 10.0%",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "Avg growth 5.6% below benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "Fixed assets: 1204.0 -> 1005.0 -> 951.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -85,17 +85,17 @@
     {
       "id": "c10",
       "label": "CFO positive & increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "CFO N/A Cr -- negative cash flow",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFO 1186.0 Cr: 129.0 -> 714.0 -> 1186.0 (last 3Y) Cr",
       "weight": 2.0
     },
     {
       "id": "c11",
       "label": "CFI negative (investing in growth)",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFI = N/A Cr -- positive (possible asset sales)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFI = -1602.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -103,33 +103,35 @@
       "label": "CFF: debt repayment or growth",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFF unavailable",
+      "detail": "CFF = 23.0 Cr -- raising capital (verify if for growth)",
       "weight": 1.0
     },
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "ROE=N/A ROCE=9.0%",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "ROE 6.7% <= ROCE 9.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Market Cap": 8723.0,
-    "Current Price": 90.8,
-    "High / Low": 15268.0,
-    "Stock P/E": 15.3,
-    "Book Value": 121.0,
-    "Dividend Yield": 2.68,
-    "ROCE": 9.21,
-    "ROE": 6.71,
-    "Face Value": 1.0
+    "Current Price": 88.3,
+    "Market Cap": 8485.0,
+    "P/E": 14.9,
+    "Industry P/E": null,
+    "P/B": null,
+    "ROE %": 6.71,
+    "ROCE %": 9.21,
+    "Debt / Equity": null,
+    "Div. Yield %": 2.75,
+    "52W High": 152.0,
+    "52W Low": 68.0
   },
   "benchmark": {
     "opm": 15.0,
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-05T03:08:03.647260+00:00"
+  "scanned_at": "2026-05-17T06:17:22.543849+00:00"
 }

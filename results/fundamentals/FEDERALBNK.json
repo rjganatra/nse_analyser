@@ -1,21 +1,21 @@
 {
   "symbol": "FEDERALBNK",
   "name": "Federal Bank Ltd",
-  "sector": "federalbank.co.in",
+  "sector": "Financial Services",
   "screener_url": "https://www.screener.in/company/FEDERALBNK/consolidated/",
-  "score_pct": 51.6,
-  "passes": 2,
-  "fails": 1,
-  "neutrals": 10,
-  "verdict": "Weak fundamentals",
-  "verdict_color": "red",
+  "score_pct": 72.2,
+  "passes": 6,
+  "fails": 0,
+  "neutrals": 7,
+  "verdict": "Moderate -- dig deeper",
+  "verdict_color": "amber",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data. Benchmark: 10.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Avg growth 13.7% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Fixed assets: 996.0 -> 1456.0 -> 1528.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -85,17 +85,17 @@
     {
       "id": "c10",
       "label": "CFO positive & increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "CFO N/A Cr -- negative cash flow",
+      "result": "neutral",
+      "score": 0.5,
+      "detail": "CFO positive (4349.0 Cr) but not consistently growing",
       "weight": 2.0
     },
     {
       "id": "c11",
       "label": "CFI negative (investing in growth)",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFI = N/A Cr -- positive (possible asset sales)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFI = -11109.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -103,33 +103,35 @@
       "label": "CFF: debt repayment or growth",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFF unavailable",
+      "detail": "CFF = 2069.0 Cr -- raising capital (verify if for growth)",
       "weight": 1.0
     },
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "ROE=12.0% ROCE=N/A",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "ROE 12.0% > ROCE 6.4% -- leverage working for shareholders",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Market Cap": 71268.0,
-    "Current Price": 289.0,
-    "High / Low": 302183.0,
-    "Stock P/E": 16.4,
-    "Book Value": 162.0,
-    "Dividend Yield": 0.42,
-    "ROCE": 6.39,
-    "ROE": 11.6,
-    "Face Value": 2.0
+    "Current Price": 281.0,
+    "Market Cap": 69351.0,
+    "P/E": 16.0,
+    "Industry P/E": null,
+    "P/B": null,
+    "ROE %": 11.6,
+    "ROCE %": 6.39,
+    "Debt / Equity": null,
+    "Div. Yield %": 0.43,
+    "52W High": 302.0,
+    "52W Low": 185.0
   },
   "benchmark": {
     "opm": 15.0,
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-05T02:51:54.844304+00:00"
+  "scanned_at": "2026-05-17T05:55:32.626257+00:00"
 }

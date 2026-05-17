@@ -1,11 +1,11 @@
 {
   "symbol": "TIMKEN",
   "name": "Timken India Ltd",
-  "sector": "timken.com",
+  "sector": "Capital Goods",
   "screener_url": "https://www.screener.in/company/TIMKEN/consolidated/",
-  "score_pct": 46.7,
-  "passes": 1,
-  "fails": 1,
+  "score_pct": 40.2,
+  "passes": 0,
+  "fails": 2,
   "neutrals": 11,
   "verdict": "Weak fundamentals",
   "verdict_color": "red",
@@ -15,15 +15,15 @@
       "label": "Sales growth >= industry",
       "result": "neutral",
       "score": 0.5,
-      "detail": "Insufficient data. Benchmark: 10.0%",
+      "detail": "Insufficient data. Benchmark: 12.0%",
       "weight": 1.0
     },
     {
       "id": "c2",
       "label": "OPM > industry",
-      "result": "pass",
-      "score": 1.0,
-      "detail": "OPM 19.0% vs benchmark 15.0%",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "OPM 19.0% below benchmark 22.0%",
       "weight": 1.0
     },
     {
@@ -116,20 +116,22 @@
     }
   ],
   "top_ratios": {
-    "Market Cap": 26142.0,
-    "Current Price": 3475.0,
-    "High / Low": 36802565.0,
-    "Stock P/E": 59.6,
-    "Book Value": null,
-    "Dividend Yield": 1.04,
-    "ROCE": null,
-    "ROE": null,
-    "Face Value": 10.0
+    "Current Price": 3531.0,
+    "Market Cap": 26561.0,
+    "P/E": 60.6,
+    "Industry P/E": null,
+    "P/B": null,
+    "ROE %": null,
+    "ROCE %": null,
+    "Debt / Equity": null,
+    "Div. Yield %": 1.02,
+    "52W High": 3680.0,
+    "52W Low": 2800.0
   },
   "benchmark": {
-    "opm": 15.0,
-    "npm": 8.0,
-    "sg": 10.0
+    "opm": 22.0,
+    "npm": 18.0,
+    "sg": 12.0
   },
-  "scanned_at": "2026-05-05T03:06:17.732066+00:00"
+  "scanned_at": "2026-05-17T06:14:59.400624+00:00"
 }

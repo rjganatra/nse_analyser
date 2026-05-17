@@ -1,21 +1,21 @@
 {
   "symbol": "GODREJPROP",
   "name": "Godrej Properties Ltd",
-  "sector": "godrejproperties.com",
+  "sector": "Realty",
   "screener_url": "https://www.screener.in/company/GODREJPROP/consolidated/",
-  "score_pct": 48.4,
-  "passes": 2,
+  "score_pct": 59.2,
+  "passes": 5,
   "fails": 2,
-  "neutrals": 9,
-  "verdict": "Weak fundamentals",
-  "verdict_color": "red",
+  "neutrals": 6,
+  "verdict": "Moderate -- dig deeper",
+  "verdict_color": "amber",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data. Benchmark: 10.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Avg growth 22.5% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Fixed assets: 997.0 -> 1271.0 -> 1711.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -87,7 +87,7 @@
       "label": "CFO positive & increasing",
       "result": "fail",
       "score": 0.0,
-      "detail": "CFO N/A Cr -- negative cash flow",
+      "detail": "CFO -2003.0 Cr -- negative cash flow",
       "weight": 2.0
     },
     {
@@ -95,7 +95,7 @@
       "label": "CFI negative (investing in growth)",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFI = N/A Cr -- positive (possible asset sales)",
+      "detail": "CFI = 622.0 Cr -- positive (possible asset sales)",
       "weight": 1.0
     },
     {
@@ -103,33 +103,35 @@
       "label": "CFF: debt repayment or growth",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFF unavailable",
+      "detail": "CFF = 938.0 Cr -- raising capital (verify if for growth)",
       "weight": 1.0
     },
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "ROE=N/A ROCE=8.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "ROE 10.2% > ROCE 8.0% -- leverage working for shareholders",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Market Cap": 57223.0,
-    "Current Price": 1900.0,
-    "High / Low": 25061434.0,
-    "Stock P/E": 30.6,
-    "Book Value": 636.0,
-    "Dividend Yield": 0.0,
-    "ROCE": 8.28,
-    "ROE": 10.2,
-    "Face Value": 5.0
+    "Current Price": 1714.0,
+    "Market Cap": 51630.0,
+    "P/E": 27.7,
+    "Industry P/E": null,
+    "P/B": null,
+    "ROE %": 10.2,
+    "ROCE %": 8.28,
+    "Debt / Equity": null,
+    "Div. Yield %": 0.58,
+    "52W High": 2506.0,
+    "52W Low": 1434.0
   },
   "benchmark": {
     "opm": 15.0,
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-05T02:53:04.224131+00:00"
+  "scanned_at": "2026-05-17T05:57:08.442759+00:00"
 }

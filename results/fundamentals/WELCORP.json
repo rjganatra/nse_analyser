@@ -1,21 +1,21 @@
 {
   "symbol": "WELCORP",
   "name": "Welspun Corp Ltd",
-  "sector": "welspuncorp.com",
+  "sector": "Capital Goods",
   "screener_url": "https://www.screener.in/company/WELCORP/consolidated/",
-  "score_pct": 48.4,
-  "passes": 2,
-  "fails": 2,
-  "neutrals": 9,
-  "verdict": "Weak fundamentals",
-  "verdict_color": "red",
+  "score_pct": 59.2,
+  "passes": 5,
+  "fails": 3,
+  "neutrals": 5,
+  "verdict": "Moderate -- dig deeper",
+  "verdict_color": "amber",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data. Benchmark: 10.0%",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "Avg growth 10.4% below benchmark 12.0%",
       "weight": 1.0
     },
     {
@@ -23,7 +23,7 @@
       "label": "OPM > industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "OPM 13.0% below benchmark 15.0%",
+      "detail": "OPM 13.0% below benchmark 22.0%",
       "weight": 1.0
     },
     {
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Fixed assets: 4800.0 -> 4707.0 -> 5218.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -85,9 +85,9 @@
     {
       "id": "c10",
       "label": "CFO positive & increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "CFO N/A Cr -- negative cash flow",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFO 1504.0 Cr: -185.0 -> 1306.0 -> 1504.0 (last 3Y) Cr",
       "weight": 2.0
     },
     {
@@ -95,41 +95,43 @@
       "label": "CFI negative (investing in growth)",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFI = N/A Cr -- positive (possible asset sales)",
+      "detail": "CFI = 194.0 Cr -- positive (possible asset sales)",
       "weight": 1.0
     },
     {
       "id": "c12",
       "label": "CFF: debt repayment or growth",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFF unavailable",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFF = -1369.0 Cr -- net debt repayment",
       "weight": 1.0
     },
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "ROE=N/A ROCE=21.0%",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "ROE 18.6% <= ROCE 21.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Market Cap": 32681.0,
-    "Current Price": 1239.0,
-    "High / Low": 1290706.0,
-    "Stock P/E": 21.1,
-    "Book Value": 311.0,
-    "Dividend Yield": 0.4,
-    "ROCE": 21.2,
-    "ROE": 18.6,
-    "Face Value": 5.0
+    "Current Price": 1309.0,
+    "Market Cap": 34530.0,
+    "P/E": 22.2,
+    "Industry P/E": null,
+    "P/B": null,
+    "ROE %": 18.6,
+    "ROCE %": 21.2,
+    "Debt / Equity": null,
+    "Div. Yield %": 0.38,
+    "52W High": 1410.0,
+    "52W Low": 710.0
   },
   "benchmark": {
-    "opm": 15.0,
-    "npm": 8.0,
-    "sg": 10.0
+    "opm": 22.0,
+    "npm": 18.0,
+    "sg": 12.0
   },
-  "scanned_at": "2026-05-05T03:07:42.949893+00:00"
+  "scanned_at": "2026-05-17T06:16:54.752223+00:00"
 }

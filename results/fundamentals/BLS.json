@@ -1,21 +1,21 @@
 {
   "symbol": "BLS",
   "name": "BLS International Services Ltd",
-  "sector": "blsinternational.com",
+  "sector": "Consumer Services",
   "screener_url": "https://www.screener.in/company/BLS/consolidated/",
-  "score_pct": 54.9,
-  "passes": 3,
-  "fails": 1,
-  "neutrals": 9,
-  "verdict": "Weak fundamentals",
-  "verdict_color": "red",
+  "score_pct": 82.0,
+  "passes": 8,
+  "fails": 0,
+  "neutrals": 5,
+  "verdict": "Strong buy candidate",
+  "verdict_color": "green",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data. Benchmark: 10.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Avg growth 22.9% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -23,7 +23,7 @@
       "label": "OPM > industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "OPM 27.0% vs benchmark 15.0%",
+      "detail": "OPM 27.0% vs benchmark 16.0%",
       "weight": 1.0
     },
     {
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Fixed assets: 296.0 -> 1363.0 -> 1494.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -85,17 +85,17 @@
     {
       "id": "c10",
       "label": "CFO positive & increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "CFO N/A Cr -- negative cash flow",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFO 829.0 Cr: 261.0 -> 350.0 -> 829.0 (last 3Y) Cr",
       "weight": 2.0
     },
     {
       "id": "c11",
       "label": "CFI negative (investing in growth)",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFI = N/A Cr -- positive (possible asset sales)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFI = -1119.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -103,33 +103,35 @@
       "label": "CFF: debt repayment or growth",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFF unavailable",
+      "detail": "CFF = 158.0 Cr -- raising capital (verify if for growth)",
       "weight": 1.0
     },
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "ROE=N/A ROCE=34.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "ROE 34.3% > ROCE 34.0% -- leverage working for shareholders",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Market Cap": 11479.0,
-    "Current Price": 279.0,
-    "High / Low": 422218.0,
-    "Stock P/E": 17.8,
-    "Book Value": 51.7,
-    "Dividend Yield": 0.72,
-    "ROCE": 33.6,
-    "ROE": 34.3,
-    "Face Value": 1.0
+    "Current Price": 253.0,
+    "Market Cap": 10413.0,
+    "P/E": 16.2,
+    "Industry P/E": null,
+    "P/B": null,
+    "ROE %": 34.3,
+    "ROCE %": 33.6,
+    "Debt / Equity": null,
+    "Div. Yield %": 0.79,
+    "52W High": 422.0,
+    "52W Low": 218.0
   },
   "benchmark": {
-    "opm": 15.0,
-    "npm": 8.0,
+    "opm": 16.0,
+    "npm": 10.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-05T02:46:34.839379+00:00"
+  "scanned_at": "2026-05-17T05:48:13.068849+00:00"
 }

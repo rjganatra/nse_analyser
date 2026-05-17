@@ -1,21 +1,21 @@
 {
   "symbol": "TIINDIA",
   "name": "Tube Investments of India Ltd",
-  "sector": "tiindia.com",
+  "sector": "Automobile and Auto Components",
   "screener_url": "https://www.screener.in/company/TIINDIA/consolidated/",
-  "score_pct": 48.4,
-  "passes": 2,
+  "score_pct": 65.7,
+  "passes": 6,
   "fails": 2,
-  "neutrals": 9,
-  "verdict": "Weak fundamentals",
-  "verdict_color": "red",
+  "neutrals": 5,
+  "verdict": "Moderate -- dig deeper",
+  "verdict_color": "amber",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data. Benchmark: 10.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Avg growth 23.1% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -23,7 +23,7 @@
       "label": "OPM > industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "OPM 9.0% below benchmark 15.0%",
+      "detail": "OPM 10.0% below benchmark 12.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 62.4 -> 34.8 -> 30.9 (last 3Y)",
+      "detail": "EPS: 62.4 -> 34.8 -> 32.9 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 5086.0 -> 5516.0 -> 7499.0 (last 3Y) Cr",
+      "detail": "Reserves: 5086.0 -> 5516.0 -> 7732.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Fixed assets: 4393.0 -> 5210.0 -> 6321.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -85,17 +85,17 @@
     {
       "id": "c10",
       "label": "CFO positive & increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "CFO N/A Cr -- negative cash flow",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFO 1161.0 Cr: 1306.0 -> 1213.0 -> 1161.0 (last 3Y) Cr",
       "weight": 2.0
     },
     {
       "id": "c11",
       "label": "CFI negative (investing in growth)",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFI = N/A Cr -- positive (possible asset sales)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFI = -3953.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -103,33 +103,35 @@
       "label": "CFF: debt repayment or growth",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFF unavailable",
+      "detail": "CFF = 2668.0 Cr -- raising capital (verify if for growth)",
       "weight": 1.0
     },
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "ROE=N/A ROCE=22.0%",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "ROE 9.9% <= ROCE 17.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Market Cap": 56246.0,
-    "Current Price": 2906.0,
-    "High / Low": 34202165.0,
-    "Stock P/E": 91.0,
-    "Book Value": 389.0,
-    "Dividend Yield": 0.12,
-    "ROCE": 21.8,
-    "ROE": 12.8,
-    "Face Value": 1.0
+    "Current Price": 2850.0,
+    "Market Cap": 55168.0,
+    "P/E": 83.8,
+    "Industry P/E": null,
+    "P/B": null,
+    "ROE %": 9.91,
+    "ROCE %": 17.0,
+    "Debt / Equity": null,
+    "Div. Yield %": 0.12,
+    "52W High": 3420.0,
+    "52W Low": 2165.0
   },
   "benchmark": {
-    "opm": 15.0,
-    "npm": 8.0,
+    "opm": 12.0,
+    "npm": 6.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-05T03:06:47.122235+00:00"
+  "scanned_at": "2026-05-17T06:15:39.049130+00:00"
 }

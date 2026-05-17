@@ -1,7 +1,7 @@
 {
   "symbol": "IRFC",
   "name": "Indian Railway Finance Corporation Ltd",
-  "sector": "irfc.co.in",
+  "sector": "Financial Services",
   "screener_url": "https://www.screener.in/company/IRFC/consolidated/",
   "score_pct": 43.5,
   "passes": 0,
@@ -116,20 +116,22 @@
     }
   ],
   "top_ratios": {
-    "Market Cap": null,
     "Current Price": null,
-    "High / Low": null,
-    "Stock P/E": null,
-    "Book Value": null,
-    "Dividend Yield": null,
-    "ROCE": null,
-    "ROE": null,
-    "Face Value": null
+    "Market Cap": null,
+    "P/E": null,
+    "Industry P/E": null,
+    "P/B": null,
+    "ROE %": null,
+    "ROCE %": null,
+    "Debt / Equity": null,
+    "Div. Yield %": null,
+    "52W High": null,
+    "52W Low": null
   },
   "benchmark": {
     "opm": 15.0,
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-05T02:55:45.013152+00:00"
+  "scanned_at": "2026-05-17T06:00:42.726726+00:00"
 }

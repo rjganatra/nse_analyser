@@ -1,21 +1,21 @@
 {
   "symbol": "NBCC",
   "name": "NBCC (India) Ltd",
-  "sector": "nbccindia.in",
+  "sector": "Construction",
   "screener_url": "https://www.screener.in/company/NBCC/consolidated/",
-  "score_pct": 48.4,
-  "passes": 2,
+  "score_pct": 65.7,
+  "passes": 6,
   "fails": 2,
-  "neutrals": 9,
-  "verdict": "Weak fundamentals",
-  "verdict_color": "red",
+  "neutrals": 5,
+  "verdict": "Moderate -- dig deeper",
+  "verdict_color": "amber",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data. Benchmark: 10.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Avg growth 11.1% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Fixed assets: 185.0 -> 531.0 -> 527.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -85,9 +85,9 @@
     {
       "id": "c10",
       "label": "CFO positive & increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "CFO N/A Cr -- negative cash flow",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFO 657.0 Cr: -374.0 -> -6.0 -> 657.0 (last 3Y) Cr",
       "weight": 2.0
     },
     {
@@ -95,41 +95,43 @@
       "label": "CFI negative (investing in growth)",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFI = N/A Cr -- positive (possible asset sales)",
+      "detail": "CFI = 573.0 Cr -- positive (possible asset sales)",
       "weight": 1.0
     },
     {
       "id": "c12",
       "label": "CFF: debt repayment or growth",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFF unavailable",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFF = -269.0 Cr -- net debt repayment",
       "weight": 1.0
     },
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "ROE=N/A ROCE=33.0%",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "ROE 25.5% <= ROCE 33.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Market Cap": 24980.0,
-    "Current Price": 92.5,
-    "High / Low": 13177.2,
-    "Stock P/E": 37.6,
-    "Book Value": 9.89,
-    "Dividend Yield": 0.72,
-    "ROCE": 33.2,
-    "ROE": 25.5,
-    "Face Value": 1.0
+    "Current Price": 93.8,
+    "Market Cap": 25331.0,
+    "P/E": 38.2,
+    "Industry P/E": null,
+    "P/B": null,
+    "ROE %": 25.5,
+    "ROCE %": 33.2,
+    "Debt / Equity": null,
+    "Div. Yield %": 0.71,
+    "52W High": 131.0,
+    "52W Low": 77.2
   },
   "benchmark": {
     "opm": 15.0,
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-05T02:59:55.967432+00:00"
+  "scanned_at": "2026-05-17T06:06:24.329641+00:00"
 }

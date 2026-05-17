@@ -1,21 +1,21 @@
 {
   "symbol": "ANGELONE",
   "name": "Angel One Ltd",
-  "sector": "angelbroking.com",
+  "sector": "Financial Services",
   "screener_url": "https://www.screener.in/company/ANGELONE/consolidated/",
-  "score_pct": 54.9,
-  "passes": 3,
+  "score_pct": 69.0,
+  "passes": 7,
   "fails": 1,
-  "neutrals": 9,
-  "verdict": "Weak fundamentals",
-  "verdict_color": "red",
+  "neutrals": 5,
+  "verdict": "Moderate -- dig deeper",
+  "verdict_color": "amber",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data. Benchmark: 10.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Avg growth 28.6% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Fixed assets: 409.0 -> 499.0 -> 514.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -87,15 +87,15 @@
       "label": "CFO positive & increasing",
       "result": "fail",
       "score": 0.0,
-      "detail": "CFO N/A Cr -- negative cash flow",
+      "detail": "CFO -4142.0 Cr -- negative cash flow",
       "weight": 2.0
     },
     {
       "id": "c11",
       "label": "CFI negative (investing in growth)",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFI = N/A Cr -- positive (possible asset sales)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFI = -111.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -103,33 +103,35 @@
       "label": "CFF: debt repayment or growth",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFF unavailable",
+      "detail": "CFF = 3656.0 Cr -- raising capital (verify if for growth)",
       "weight": 1.0
     },
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "ROE=N/A ROCE=15.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "ROE 15.6% > ROCE 15.0% -- leverage working for shareholders",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Market Cap": 28027.0,
-    "Current Price": 308.0,
-    "High / Low": 330209.0,
-    "Stock P/E": 30.6,
-    "Book Value": 67.2,
-    "Dividend Yield": 1.56,
-    "ROCE": 14.8,
-    "ROE": 15.6,
-    "Face Value": 1.0
+    "Current Price": 307.0,
+    "Market Cap": 27985.0,
+    "P/E": 30.6,
+    "Industry P/E": null,
+    "P/B": null,
+    "ROE %": 15.6,
+    "ROCE %": 14.8,
+    "Debt / Equity": null,
+    "Div. Yield %": 1.56,
+    "52W High": 335.0,
+    "52W Low": 209.0
   },
   "benchmark": {
     "opm": 15.0,
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-05T02:45:39.036099+00:00"
+  "scanned_at": "2026-05-17T05:46:57.173392+00:00"
 }

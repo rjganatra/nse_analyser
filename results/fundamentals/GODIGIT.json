@@ -1,7 +1,7 @@
 {
   "symbol": "GODIGIT",
   "name": "Go Digit General Insurance Ltd",
-  "sector": "godigit.com",
+  "sector": "Financial Services",
   "screener_url": "https://www.screener.in/company/GODIGIT/consolidated/",
   "score_pct": 43.5,
   "passes": 0,
@@ -15,7 +15,7 @@
       "label": "Sales growth >= industry",
       "result": "neutral",
       "score": 0.5,
-      "detail": "Insufficient data. Benchmark: 12.0%",
+      "detail": "Insufficient data. Benchmark: 10.0%",
       "weight": 1.0
     },
     {
@@ -116,20 +116,22 @@
     }
   ],
   "top_ratios": {
-    "Market Cap": null,
     "Current Price": null,
-    "High / Low": null,
-    "Stock P/E": null,
-    "Book Value": null,
-    "Dividend Yield": null,
-    "ROCE": null,
-    "ROE": null,
-    "Face Value": null
+    "Market Cap": null,
+    "P/E": null,
+    "Industry P/E": null,
+    "P/B": null,
+    "ROE %": null,
+    "ROCE %": null,
+    "Debt / Equity": null,
+    "Div. Yield %": null,
+    "52W High": null,
+    "52W Low": null
   },
   "benchmark": {
-    "opm": 22.0,
-    "npm": 18.0,
-    "sg": 12.0
+    "opm": 15.0,
+    "npm": 8.0,
+    "sg": 10.0
   },
-  "scanned_at": "2026-05-05T02:52:49.733102+00:00"
+  "scanned_at": "2026-05-17T05:56:48.370610+00:00"
 }

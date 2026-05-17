@@ -1,21 +1,21 @@
 {
   "symbol": "LLOYDSME",
   "name": "Lloyds Metals & Energy Ltd",
-  "sector": "lloyds.in",
+  "sector": "Metals & Mining",
   "screener_url": "https://www.screener.in/company/LLOYDSME/consolidated/",
-  "score_pct": 54.9,
-  "passes": 3,
-  "fails": 1,
-  "neutrals": 9,
-  "verdict": "Weak fundamentals",
-  "verdict_color": "red",
+  "score_pct": 82.0,
+  "passes": 8,
+  "fails": 0,
+  "neutrals": 5,
+  "verdict": "Strong buy candidate",
+  "verdict_color": "green",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data. Benchmark: 10.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Avg growth 68.7% vs benchmark 8.0%",
       "weight": 1.0
     },
     {
@@ -23,7 +23,7 @@
       "label": "OPM > industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "OPM 31.0% vs benchmark 15.0%",
+      "detail": "OPM 36.0% vs benchmark 14.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 24.6 -> 27.7 -> 46.2 (last 3Y)",
+      "detail": "EPS: 24.6 -> 27.7 -> 65.4 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 2760.0 -> 6350.0 -> 7653.0 (last 3Y) Cr",
+      "detail": "Reserves: 2760.0 -> 6350.0 -> 13815.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Fixed assets: 1235.0 -> 1613.0 -> 13169.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -85,17 +85,17 @@
     {
       "id": "c10",
       "label": "CFO positive & increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "CFO N/A Cr -- negative cash flow",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFO 2921.0 Cr: 1701.0 -> 1205.0 -> 2921.0 (last 3Y) Cr",
       "weight": 2.0
     },
     {
       "id": "c11",
       "label": "CFI negative (investing in growth)",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFI = N/A Cr -- positive (possible asset sales)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFI = -10543.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -103,33 +103,35 @@
       "label": "CFF: debt repayment or growth",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFF unavailable",
+      "detail": "CFF = 8633.0 Cr -- raising capital (verify if for growth)",
       "weight": 1.0
     },
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "ROE=N/A ROCE=38.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "ROE 36.3% > ROCE 27.0% -- leverage working for shareholders",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Market Cap": 101161.0,
-    "Current Price": 1798.0,
-    "High / Low": 18151043.0,
-    "Stock P/E": 41.1,
-    "Book Value": 142.0,
-    "Dividend Yield": 0.06,
-    "ROCE": 38.3,
-    "ROE": 31.4,
-    "Face Value": 1.0
+    "Current Price": 1734.0,
+    "Market Cap": 97587.0,
+    "P/E": 26.5,
+    "Industry P/E": null,
+    "P/B": null,
+    "ROE %": 36.3,
+    "ROCE %": 27.2,
+    "Debt / Equity": null,
+    "Div. Yield %": 0.06,
+    "52W High": 1863.0,
+    "52W Low": 1043.0
   },
   "benchmark": {
-    "opm": 15.0,
-    "npm": 8.0,
-    "sg": 10.0
+    "opm": 14.0,
+    "npm": 7.0,
+    "sg": 8.0
   },
-  "scanned_at": "2026-05-05T02:58:46.362085+00:00"
+  "scanned_at": "2026-05-17T06:04:48.940139+00:00"
 }

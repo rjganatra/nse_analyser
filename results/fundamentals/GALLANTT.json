@@ -1,29 +1,29 @@
 {
   "symbol": "GALLANTT",
   "name": "Gallantt Ispat Ltd.",
-  "sector": "gallantt.com",
+  "sector": "Capital Goods",
   "screener_url": "https://www.screener.in/company/GALLANTT/consolidated/",
-  "score_pct": 54.9,
-  "passes": 3,
-  "fails": 1,
-  "neutrals": 9,
-  "verdict": "Weak fundamentals",
-  "verdict_color": "red",
+  "score_pct": 65.7,
+  "passes": 6,
+  "fails": 2,
+  "neutrals": 5,
+  "verdict": "Moderate -- dig deeper",
+  "verdict_color": "amber",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data. Benchmark: 10.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Avg growth 26.2% vs benchmark 12.0%",
       "weight": 1.0
     },
     {
       "id": "c2",
       "label": "OPM > industry",
-      "result": "pass",
-      "score": 1.0,
-      "detail": "OPM 17.0% vs benchmark 15.0%",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "OPM 16.0% below benchmark 22.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 9.3 -> 16.6 -> 19.9 (last 3Y)",
+      "detail": "EPS: 9.3 -> 16.6 -> 20.1 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 2209.0 -> 2601.0 -> 2864.0 (last 3Y) Cr",
+      "detail": "Reserves: 2209.0 -> 2601.0 -> 3075.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Fixed assets: 1894.0 -> 1807.0 -> 1856.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -85,17 +85,17 @@
     {
       "id": "c10",
       "label": "CFO positive & increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "CFO N/A Cr -- negative cash flow",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFO 602.0 Cr: 344.0 -> 579.0 -> 602.0 (last 3Y) Cr",
       "weight": 2.0
     },
     {
       "id": "c11",
       "label": "CFI negative (investing in growth)",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFI = N/A Cr -- positive (possible asset sales)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFI = -627.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -103,33 +103,35 @@
       "label": "CFF: debt repayment or growth",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFF unavailable",
+      "detail": "CFF = 121.0 Cr -- raising capital (verify if for growth)",
       "weight": 1.0
     },
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "ROE=N/A ROCE=19.0%",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "ROE 15.7% <= ROCE 18.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Market Cap": 21052.0,
-    "Current Price": 872.0,
-    "High / Low": 948397.0,
-    "Stock P/E": 43.9,
-    "Book Value": 129.0,
-    "Dividend Yield": 0.14,
-    "ROCE": 19.2,
-    "ROE": 15.1,
-    "Face Value": 10.0
+    "Current Price": 745.0,
+    "Market Cap": 17973.0,
+    "P/E": 37.1,
+    "Industry P/E": null,
+    "P/B": null,
+    "ROE %": 15.7,
+    "ROCE %": 18.2,
+    "Debt / Equity": null,
+    "Div. Yield %": 0.17,
+    "52W High": 948.0,
+    "52W Low": 422.0
   },
   "benchmark": {
-    "opm": 15.0,
-    "npm": 8.0,
-    "sg": 10.0
+    "opm": 22.0,
+    "npm": 18.0,
+    "sg": 12.0
   },
-  "scanned_at": "2026-05-05T02:52:26.726153+00:00"
+  "scanned_at": "2026-05-17T05:56:16.515113+00:00"
 }

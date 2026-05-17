@@ -1,21 +1,21 @@
 {
   "symbol": "OLAELEC",
   "name": "Ola Electric Mobility Ltd",
-  "sector": "olaelectric.com",
+  "sector": "Automobile and Auto Components",
   "screener_url": "https://www.screener.in/company/OLAELEC/consolidated/",
-  "score_pct": 41.8,
-  "passes": 1,
-  "fails": 3,
-  "neutrals": 9,
+  "score_pct": 46.1,
+  "passes": 4,
+  "fails": 4,
+  "neutrals": 5,
   "verdict": "Weak fundamentals",
   "verdict_color": "red",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data. Benchmark: 10.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Avg growth 7568.7% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -23,7 +23,7 @@
       "label": "OPM > industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "OPM -54.0% below benchmark 15.0%",
+      "detail": "OPM -54.0% below benchmark 12.0%",
       "weight": 1.0
     },
     {
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Fixed assets: 2491.0 -> 3154.0 -> 3439.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -87,15 +87,15 @@
       "label": "CFO positive & increasing",
       "result": "fail",
       "score": 0.0,
-      "detail": "CFO N/A Cr -- negative cash flow",
+      "detail": "CFO -2391.0 Cr -- negative cash flow",
       "weight": 2.0
     },
     {
       "id": "c11",
       "label": "CFI negative (investing in growth)",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFI = N/A Cr -- positive (possible asset sales)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFI = -2864.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -103,33 +103,35 @@
       "label": "CFF: debt repayment or growth",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFF unavailable",
+      "detail": "CFF = 5429.0 Cr -- raising capital (verify if for growth)",
       "weight": 1.0
     },
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "ROE=N/A ROCE=-28.0%",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "ROE -108.0% <= ROCE -28.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Market Cap": 16060.0,
-    "Current Price": 36.4,
-    "High / Low": null,
-    "Stock P/E": null,
-    "Book Value": 9.84,
-    "Dividend Yield": 0.0,
-    "ROCE": -28.1,
-    "ROE": -108.0,
-    "Face Value": 10.0
+    "Current Price": 35.7,
+    "Market Cap": 15738.0,
+    "P/E": null,
+    "Industry P/E": null,
+    "P/B": null,
+    "ROE %": -108.0,
+    "ROCE %": -28.1,
+    "Debt / Equity": null,
+    "Div. Yield %": 0.0,
+    "52W High": 71.2,
+    "52W Low": 21.2
   },
   "benchmark": {
-    "opm": 15.0,
-    "npm": 8.0,
+    "opm": 12.0,
+    "npm": 6.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-05T03:01:02.776204+00:00"
+  "scanned_at": "2026-05-17T06:07:55.644043+00:00"
 }

@@ -1,7 +1,7 @@
 {
   "symbol": "MSUMI",
   "name": "Motherson Sumi Wiring India Ltd",
-  "sector": "mswil.motherson.com",
+  "sector": "Automobile and Auto Components",
   "screener_url": "https://www.screener.in/company/MSUMI/consolidated/",
   "score_pct": 43.5,
   "passes": 0,
@@ -116,20 +116,22 @@
     }
   ],
   "top_ratios": {
-    "Market Cap": null,
     "Current Price": null,
-    "High / Low": null,
-    "Stock P/E": null,
-    "Book Value": null,
-    "Dividend Yield": null,
-    "ROCE": null,
-    "ROE": null,
-    "Face Value": null
+    "Market Cap": null,
+    "P/E": null,
+    "Industry P/E": null,
+    "P/B": null,
+    "ROE %": null,
+    "ROCE %": null,
+    "Debt / Equity": null,
+    "Div. Yield %": null,
+    "52W High": null,
+    "52W Low": null
   },
   "benchmark": {
-    "opm": 15.0,
-    "npm": 8.0,
+    "opm": 12.0,
+    "npm": 6.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-05T02:59:38.531358+00:00"
+  "scanned_at": "2026-05-17T06:06:00.668764+00:00"
 }

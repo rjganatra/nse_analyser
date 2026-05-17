@@ -1,21 +1,21 @@
 {
   "symbol": "NUVAMA",
   "name": "Nuvama Wealth Management Ltd",
-  "sector": "nuvama.com",
+  "sector": "Financial Services",
   "screener_url": "https://www.screener.in/company/NUVAMA/consolidated/",
-  "score_pct": 54.9,
-  "passes": 3,
+  "score_pct": 69.0,
+  "passes": 7,
   "fails": 1,
-  "neutrals": 9,
-  "verdict": "Weak fundamentals",
-  "verdict_color": "red",
+  "neutrals": 5,
+  "verdict": "Moderate -- dig deeper",
+  "verdict_color": "amber",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data. Benchmark: 10.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Avg growth 36.0% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 35.4 -> 54.8 -> 56.9 (last 3Y)",
+      "detail": "EPS: 35.4 -> 54.8 -> 57.2 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 2859.0 -> 3454.0 -> 3754.0 (last 3Y) Cr",
+      "detail": "Reserves: 2859.0 -> 3454.0 -> 4085.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Fixed assets: 290.0 -> 312.0 -> 289.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -87,15 +87,15 @@
       "label": "CFO positive & increasing",
       "result": "fail",
       "score": 0.0,
-      "detail": "CFO N/A Cr -- negative cash flow",
+      "detail": "CFO -3014.0 Cr -- negative cash flow",
       "weight": 2.0
     },
     {
       "id": "c11",
       "label": "CFI negative (investing in growth)",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFI = N/A Cr -- positive (possible asset sales)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFI = -128.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -103,33 +103,35 @@
       "label": "CFF: debt repayment or growth",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFF unavailable",
+      "detail": "CFF = 3181.0 Cr -- raising capital (verify if for growth)",
       "weight": 1.0
     },
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "ROE=N/A ROCE=20.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "ROE 27.4% > ROCE 17.0% -- leverage working for shareholders",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Market Cap": 24199.0,
-    "Current Price": 1329.0,
-    "High / Low": 17021097.0,
-    "Stock P/E": 23.6,
-    "Book Value": 208.0,
-    "Dividend Yield": 2.17,
-    "ROCE": 20.4,
-    "ROE": 30.9,
-    "Face Value": 2.0
+    "Current Price": 1458.0,
+    "Market Cap": 26571.0,
+    "P/E": 25.5,
+    "Industry P/E": null,
+    "P/B": null,
+    "ROE %": 27.4,
+    "ROCE %": 17.5,
+    "Debt / Equity": null,
+    "Div. Yield %": 1.91,
+    "52W High": 1702.0,
+    "52W Low": 1097.0
   },
   "benchmark": {
     "opm": 15.0,
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-05T03:00:47.998119+00:00"
+  "scanned_at": "2026-05-17T06:07:35.611322+00:00"
 }

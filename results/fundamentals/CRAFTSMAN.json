@@ -1,21 +1,21 @@
 {
   "symbol": "CRAFTSMAN",
   "name": "Craftsman Automation Ltd",
-  "sector": "craftsmanautomation.com",
+  "sector": "Automobile and Auto Components",
   "screener_url": "https://www.screener.in/company/CRAFTSMAN/consolidated/",
-  "score_pct": 45.1,
-  "passes": 2,
+  "score_pct": 62.4,
+  "passes": 6,
   "fails": 2,
-  "neutrals": 9,
-  "verdict": "Weak fundamentals",
-  "verdict_color": "red",
+  "neutrals": 5,
+  "verdict": "Moderate -- dig deeper",
+  "verdict_color": "amber",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data. Benchmark: 10.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Avg growth 26.6% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "fail",
       "score": 0.0,
-      "detail": "EPS not rising: 144.1 -> 81.6 -> 140.2 (last 3Y)",
+      "detail": "EPS not rising: 144.1 -> 81.6 -> 161.0 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 1647.0 -> 2845.0 -> 3018.0 (last 3Y) Cr",
+      "detail": "Reserves: 1647.0 -> 2845.0 -> 3252.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Fixed assets: 2567.0 -> 3670.0 -> 4676.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -85,17 +85,17 @@
     {
       "id": "c10",
       "label": "CFO positive & increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "CFO N/A Cr -- negative cash flow",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFO 522.0 Cr: 513.0 -> 283.0 -> 522.0 (last 3Y) Cr",
       "weight": 2.0
     },
     {
       "id": "c11",
       "label": "CFI negative (investing in growth)",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFI = N/A Cr -- positive (possible asset sales)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFI = -1313.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -103,33 +103,35 @@
       "label": "CFF: debt repayment or growth",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFF unavailable",
+      "detail": "CFF = 827.0 Cr -- raising capital (verify if for growth)",
       "weight": 1.0
     },
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "ROE=N/A ROCE=12.0%",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "ROE 12.8% <= ROCE 14.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Market Cap": 18319.0,
-    "Current Price": 7679.0,
-    "High / Low": 82204420.0,
-    "Stock P/E": 52.2,
-    "Book Value": 1270.0,
-    "Dividend Yield": 0.07,
-    "ROCE": 11.7,
-    "ROE": 9.41,
-    "Face Value": 5.0
+    "Current Price": 8462.0,
+    "Market Cap": 20188.0,
+    "P/E": 51.3,
+    "Industry P/E": null,
+    "P/B": null,
+    "ROE %": 12.8,
+    "ROCE %": 14.2,
+    "Debt / Equity": null,
+    "Div. Yield %": 0.13,
+    "52W High": 9750.0,
+    "52W Low": 5100.0
   },
   "benchmark": {
     "opm": 12.0,
     "npm": 6.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-05T02:50:03.435414+00:00"
+  "scanned_at": "2026-05-17T05:52:59.205164+00:00"
 }

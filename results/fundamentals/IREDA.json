@@ -1,21 +1,21 @@
 {
   "symbol": "IREDA",
   "name": "Indian Renewable Energy Development Agency Ltd",
-  "sector": "ireda.in",
+  "sector": "Financial Services",
   "screener_url": "https://www.screener.in/company/IREDA/consolidated/",
-  "score_pct": 41.8,
-  "passes": 1,
+  "score_pct": 55.9,
+  "passes": 5,
   "fails": 2,
-  "neutrals": 10,
+  "neutrals": 6,
   "verdict": "Weak fundamentals",
   "verdict_color": "red",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data. Benchmark: 10.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Avg growth 31.5% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Fixed assets: 361.0 -> 349.0 -> 336.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -87,15 +87,15 @@
       "label": "CFO positive & increasing",
       "result": "fail",
       "score": 0.0,
-      "detail": "CFO N/A Cr -- negative cash flow",
+      "detail": "CFO -14460.0 Cr -- negative cash flow",
       "weight": 2.0
     },
     {
       "id": "c11",
       "label": "CFI negative (investing in growth)",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFI = N/A Cr -- positive (possible asset sales)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFI = -518.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -103,33 +103,35 @@
       "label": "CFF: debt repayment or growth",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFF unavailable",
+      "detail": "CFF = 14960.0 Cr -- raising capital (verify if for growth)",
       "weight": 1.0
     },
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "ROE=18.0% ROCE=N/A",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "ROE 18.0% > ROCE 9.4% -- leverage working for shareholders",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Market Cap": 38026.0,
-    "Current Price": 135.0,
-    "High / Low": 187109.0,
-    "Stock P/E": 20.2,
-    "Book Value": 46.0,
-    "Dividend Yield": 0.44,
-    "ROCE": 9.37,
-    "ROE": 18.0,
-    "Face Value": 10.0
+    "Current Price": 127.0,
+    "Market Cap": 35705.0,
+    "P/E": 19.0,
+    "Industry P/E": null,
+    "P/B": null,
+    "ROE %": 18.0,
+    "ROCE %": 9.37,
+    "Debt / Equity": null,
+    "Div. Yield %": 0.47,
+    "52W High": 187.0,
+    "52W Low": 109.0
   },
   "benchmark": {
     "opm": 15.0,
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-05T02:55:48.076084+00:00"
+  "scanned_at": "2026-05-17T06:00:46.660732+00:00"
 }

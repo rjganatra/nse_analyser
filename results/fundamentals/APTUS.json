@@ -1,21 +1,21 @@
 {
   "symbol": "APTUS",
   "name": "Aptus Value Housing Finance India Ltd",
-  "sector": "aptusindia.com",
+  "sector": "Financial Services",
   "screener_url": "https://www.screener.in/company/APTUS/consolidated/",
-  "score_pct": 51.6,
-  "passes": 2,
+  "score_pct": 65.7,
+  "passes": 6,
   "fails": 1,
-  "neutrals": 10,
-  "verdict": "Weak fundamentals",
-  "verdict_color": "red",
+  "neutrals": 6,
+  "verdict": "Moderate -- dig deeper",
+  "verdict_color": "amber",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data. Benchmark: 10.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Avg growth 38.1% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 12.3 -> 15.0 -> 17.8 (last 3Y)",
+      "detail": "EPS: 12.3 -> 15.0 -> 18.8 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 3668.0 -> 4217.0 -> 4557.0 (last 3Y) Cr",
+      "detail": "Reserves: 3668.0 -> 4217.0 -> 4960.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Fixed assets: 22.0 -> 35.0 -> 39.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -87,15 +87,15 @@
       "label": "CFO positive & increasing",
       "result": "fail",
       "score": 0.0,
-      "detail": "CFO N/A Cr -- negative cash flow",
+      "detail": "CFO -592.0 Cr -- negative cash flow",
       "weight": 2.0
     },
     {
       "id": "c11",
       "label": "CFI negative (investing in growth)",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFI = N/A Cr -- positive (possible asset sales)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFI = -72.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -103,33 +103,35 @@
       "label": "CFF: debt repayment or growth",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFF unavailable",
+      "detail": "CFF = 822.0 Cr -- raising capital (verify if for growth)",
       "weight": 1.0
     },
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "ROE=19.0% ROCE=N/A",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "ROE 20.0% > ROCE 15.4% -- leverage working for shareholders",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Market Cap": 13089.0,
-    "Current Price": 261.0,
-    "High / Low": 365193.0,
-    "Stock P/E": 14.7,
-    "Book Value": 93.0,
-    "Dividend Yield": 1.72,
-    "ROCE": 15.0,
-    "ROE": 18.6,
-    "Face Value": 2.0
+    "Current Price": 264.0,
+    "Market Cap": 13242.0,
+    "P/E": 14.0,
+    "Industry P/E": null,
+    "P/B": null,
+    "ROE %": 20.1,
+    "ROCE %": 15.4,
+    "Debt / Equity": null,
+    "Div. Yield %": 1.7,
+    "52W High": 365.0,
+    "52W Low": 193.0
   },
   "benchmark": {
     "opm": 15.0,
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-05T02:45:56.665215+00:00"
+  "scanned_at": "2026-05-17T05:47:21.005299+00:00"
 }

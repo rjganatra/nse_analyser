@@ -1,21 +1,21 @@
 {
   "symbol": "TECHNOE",
   "name": "Techno Electric & Engineering Company Ltd",
-  "sector": "techno.co.in",
+  "sector": "Construction",
   "screener_url": "https://www.screener.in/company/TECHNOE/consolidated/",
-  "score_pct": 48.4,
-  "passes": 2,
-  "fails": 2,
-  "neutrals": 9,
-  "verdict": "Weak fundamentals",
-  "verdict_color": "red",
+  "score_pct": 60.5,
+  "passes": 5,
+  "fails": 3,
+  "neutrals": 5,
+  "verdict": "Moderate -- dig deeper",
+  "verdict_color": "amber",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data. Benchmark: 10.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Avg growth 122.1% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "Fixed assets: 76.0 -> 70.0 -> 89.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -85,17 +85,17 @@
     {
       "id": "c10",
       "label": "CFO positive & increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "CFO N/A Cr -- negative cash flow",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFO 453.0 Cr: 93.0 -> -198.0 -> 453.0 (last 3Y) Cr",
       "weight": 2.0
     },
     {
       "id": "c11",
       "label": "CFI negative (investing in growth)",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFI = N/A Cr -- positive (possible asset sales)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFI = -1630.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -103,33 +103,35 @@
       "label": "CFF: debt repayment or growth",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFF unavailable",
+      "detail": "CFF = 1175.0 Cr -- raising capital (verify if for growth)",
       "weight": 1.0
     },
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "ROE=N/A ROCE=17.0%",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "ROE 12.8% <= ROCE 17.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Market Cap": 15124.0,
-    "Current Price": 1300.0,
-    "High / Low": 1655870.0,
-    "Stock P/E": 32.3,
-    "Book Value": 335.0,
-    "Dividend Yield": 0.69,
-    "ROCE": 16.5,
-    "ROE": 12.8,
-    "Face Value": 2.0
+    "Current Price": 1196.0,
+    "Market Cap": 13909.0,
+    "P/E": 29.7,
+    "Industry P/E": null,
+    "P/B": null,
+    "ROE %": 12.8,
+    "ROCE %": 16.5,
+    "Debt / Equity": null,
+    "Div. Yield %": 0.75,
+    "52W High": 1655.0,
+    "52W Low": 870.0
   },
   "benchmark": {
     "opm": 15.0,
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-05T03:05:57.085408+00:00"
+  "scanned_at": "2026-05-17T06:14:31.717220+00:00"
 }

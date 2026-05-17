@@ -1,21 +1,21 @@
 {
   "symbol": "ADANIENT",
   "name": "Adani Enterprises Ltd",
-  "sector": "adani.com",
+  "sector": "Metals & Mining",
   "screener_url": "https://www.screener.in/company/ADANIENT/consolidated/",
-  "score_pct": 48.4,
-  "passes": 2,
+  "score_pct": 59.2,
+  "passes": 5,
   "fails": 2,
-  "neutrals": 9,
-  "verdict": "Weak fundamentals",
-  "verdict_color": "red",
+  "neutrals": 6,
+  "verdict": "Moderate -- dig deeper",
+  "verdict_color": "amber",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data. Benchmark: 10.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Avg growth 9.9% vs benchmark 8.0%",
       "weight": 1.0
     },
     {
@@ -23,7 +23,7 @@
       "label": "OPM > industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "OPM 14.0% below benchmark 15.0%",
+      "detail": "OPM 14.0% below benchmark 14.0%",
       "weight": 1.0
     },
     {
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Fixed assets: 65978.0 -> 77260.0 -> 138112.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -85,17 +85,17 @@
     {
       "id": "c10",
       "label": "CFO positive & increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "CFO N/A Cr -- negative cash flow",
+      "result": "neutral",
+      "score": 0.5,
+      "detail": "CFO positive (2357.0 Cr) but not consistently growing",
       "weight": 2.0
     },
     {
       "id": "c11",
       "label": "CFI negative (investing in growth)",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFI = N/A Cr -- positive (possible asset sales)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFI = -28438.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -103,33 +103,35 @@
       "label": "CFF: debt repayment or growth",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFF unavailable",
+      "detail": "CFF = 28484.0 Cr -- raising capital (verify if for growth)",
       "weight": 1.0
     },
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "ROE=N/A ROCE=6.0%",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "ROE 4.8% <= ROCE 6.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Market Cap": 323366.0,
-    "Current Price": 2486.0,
-    "High / Low": 26131753.0,
-    "Stock P/E": 102.0,
-    "Book Value": 627.0,
-    "Dividend Yield": 0.05,
-    "ROCE": 6.0,
-    "ROE": 4.84,
-    "Face Value": 1.0
+    "Current Price": 2716.0,
+    "Market Cap": 353326.0,
+    "P/E": 111.0,
+    "Industry P/E": null,
+    "P/B": null,
+    "ROE %": 4.84,
+    "ROCE %": 6.0,
+    "Debt / Equity": null,
+    "Div. Yield %": 0.05,
+    "52W High": 2803.0,
+    "52W Low": 1753.0
   },
   "benchmark": {
-    "opm": 15.0,
-    "npm": 8.0,
-    "sg": 10.0
+    "opm": 14.0,
+    "npm": 7.0,
+    "sg": 8.0
   },
-  "scanned_at": "2026-05-05T02:44:32.479872+00:00"
+  "scanned_at": "2026-05-17T05:45:26.461592+00:00"
 }

@@ -1,21 +1,21 @@
 {
   "symbol": "SHRIRAMFIN",
   "name": "Shriram Finance Ltd",
-  "sector": "stfc.in",
+  "sector": "Financial Services",
   "screener_url": "https://www.screener.in/company/SHRIRAMFIN/consolidated/",
-  "score_pct": 51.6,
-  "passes": 2,
+  "score_pct": 65.7,
+  "passes": 6,
   "fails": 1,
-  "neutrals": 10,
-  "verdict": "Weak fundamentals",
-  "verdict_color": "red",
+  "neutrals": 6,
+  "verdict": "Moderate -- dig deeper",
+  "verdict_color": "amber",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data. Benchmark: 10.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Avg growth 17.1% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Fixed assets: 3718.0 -> 2914.0 -> 2635.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -87,15 +87,15 @@
       "label": "CFO positive & increasing",
       "result": "fail",
       "score": 0.0,
-      "detail": "CFO N/A Cr -- negative cash flow",
+      "detail": "CFO -13281.0 Cr -- negative cash flow",
       "weight": 2.0
     },
     {
       "id": "c11",
       "label": "CFI negative (investing in growth)",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFI = N/A Cr -- positive (possible asset sales)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFI = -243.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -103,33 +103,35 @@
       "label": "CFF: debt repayment or growth",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFF unavailable",
+      "detail": "CFF = 8587.0 Cr -- raising capital (verify if for growth)",
       "weight": 1.0
     },
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "ROE=16.0% ROCE=N/A",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "ROE 16.0% > ROCE 11.5% -- leverage working for shareholders",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Market Cap": 225964.0,
-    "Current Price": 960.0,
-    "High / Low": 1108566.0,
-    "Stock P/E": 22.5,
-    "Book Value": 350.0,
-    "Dividend Yield": 1.03,
-    "ROCE": 11.5,
-    "ROE": 16.4,
-    "Face Value": 2.0
+    "Current Price": 938.0,
+    "Market Cap": 220672.0,
+    "P/E": 22.0,
+    "Industry P/E": null,
+    "P/B": null,
+    "ROE %": 16.4,
+    "ROCE %": 11.5,
+    "Debt / Equity": null,
+    "Div. Yield %": 1.15,
+    "52W High": 1108.0,
+    "52W Low": 566.0
   },
   "benchmark": {
     "opm": 15.0,
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-05T03:04:02.426044+00:00"
+  "scanned_at": "2026-05-17T06:11:57.350293+00:00"
 }

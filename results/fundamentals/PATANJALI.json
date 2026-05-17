@@ -1,21 +1,21 @@
 {
   "symbol": "PATANJALI",
   "name": "Patanjali Foods Ltd",
-  "sector": "patanjalifoods.com",
+  "sector": "Fast Moving Consumer Goods",
   "screener_url": "https://www.screener.in/company/PATANJALI/consolidated/",
-  "score_pct": 48.4,
-  "passes": 2,
-  "fails": 2,
-  "neutrals": 9,
-  "verdict": "Weak fundamentals",
-  "verdict_color": "red",
+  "score_pct": 72.2,
+  "passes": 7,
+  "fails": 1,
+  "neutrals": 5,
+  "verdict": "Moderate -- dig deeper",
+  "verdict_color": "amber",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data. Benchmark: 10.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Avg growth 18.5% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -23,7 +23,7 @@
       "label": "OPM > industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "OPM 5.0% below benchmark 15.0%",
+      "detail": "OPM 5.0% below benchmark 16.0%",
       "weight": 1.0
     },
     {
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Fixed assets: 5241.0 -> 5553.0 -> 5508.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -85,51 +85,53 @@
     {
       "id": "c10",
       "label": "CFO positive & increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "CFO N/A Cr -- negative cash flow",
+      "result": "neutral",
+      "score": 0.5,
+      "detail": "CFO positive (197.0 Cr) but not consistently growing",
       "weight": 2.0
     },
     {
       "id": "c11",
       "label": "CFI negative (investing in growth)",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFI = N/A Cr -- positive (possible asset sales)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFI = -14.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
       "id": "c12",
       "label": "CFF: debt repayment or growth",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFF unavailable",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFF = -611.0 Cr -- net debt repayment",
       "weight": 1.0
     },
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "ROE=N/A ROCE=2.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "ROE 11.4% > ROCE 2.0% -- leverage working for shareholders",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Market Cap": 49645.0,
-    "Current Price": 456.0,
-    "High / Low": 654451.0,
-    "Stock P/E": 29.6,
-    "Book Value": 111.0,
-    "Dividend Yield": 0.77,
-    "ROCE": null,
-    "ROE": 11.4,
-    "Face Value": 2.0
+    "Current Price": 460.0,
+    "Market Cap": 50036.0,
+    "P/E": 29.8,
+    "Industry P/E": null,
+    "P/B": null,
+    "ROE %": 11.4,
+    "ROCE %": null,
+    "Debt / Equity": null,
+    "Div. Yield %": 0.76,
+    "52W High": 654.0,
+    "52W Low": 438.0
   },
   "benchmark": {
-    "opm": 15.0,
-    "npm": 8.0,
+    "opm": 16.0,
+    "npm": 10.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-05T03:01:44.022894+00:00"
+  "scanned_at": "2026-05-17T06:08:51.590892+00:00"
 }

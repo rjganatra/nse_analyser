@@ -1,21 +1,21 @@
 {
   "symbol": "ACUTAAS",
   "name": "Acutaas Chemicals Ltd",
-  "sector": "amiorganics.com",
+  "sector": "Healthcare",
   "screener_url": "https://www.screener.in/company/ACUTAAS/consolidated/",
-  "score_pct": 54.9,
-  "passes": 3,
+  "score_pct": 72.2,
+  "passes": 7,
   "fails": 1,
-  "neutrals": 9,
-  "verdict": "Weak fundamentals",
-  "verdict_color": "red",
+  "neutrals": 5,
+  "verdict": "Moderate -- dig deeper",
+  "verdict_color": "amber",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data. Benchmark: 10.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Avg growth 27.5% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Fixed assets: 427.0 -> 570.0 -> 745.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -85,17 +85,17 @@
     {
       "id": "c10",
       "label": "CFO positive & increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "CFO N/A Cr -- negative cash flow",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFO 292.0 Cr: 125.0 -> 118.0 -> 292.0 (last 3Y) Cr",
       "weight": 2.0
     },
     {
       "id": "c11",
       "label": "CFI negative (investing in growth)",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFI = N/A Cr -- positive (possible asset sales)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFI = -266.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -103,33 +103,35 @@
       "label": "CFF: debt repayment or growth",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFF unavailable",
+      "detail": "CFF = 4.0 Cr -- raising capital (verify if for growth)",
       "weight": 1.0
     },
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "ROE=N/A ROCE=32.0%",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "ROE 24.0% <= ROCE 32.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Market Cap": 21912.0,
-    "Current Price": 2676.0,
-    "High / Low": 27111059.0,
-    "Stock P/E": 61.5,
-    "Book Value": 202.0,
-    "Dividend Yield": 0.06,
-    "ROCE": 31.6,
-    "ROE": 24.0,
-    "Face Value": 5.0
+    "Current Price": 2731.0,
+    "Market Cap": 22359.0,
+    "P/E": 62.8,
+    "Industry P/E": null,
+    "P/B": null,
+    "ROE %": 24.0,
+    "ROCE %": 31.6,
+    "Debt / Equity": null,
+    "Div. Yield %": 0.05,
+    "52W High": 2850.0,
+    "52W Low": 1059.0
   },
   "benchmark": {
     "opm": 15.0,
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-05T02:44:26.702350+00:00"
+  "scanned_at": "2026-05-17T05:45:18.581412+00:00"
 }

@@ -1,21 +1,21 @@
 {
   "symbol": "JYOTICNC",
   "name": "Jyoti CNC Automation Ltd",
-  "sector": "jyoti.co.in",
+  "sector": "Capital Goods",
   "screener_url": "https://www.screener.in/company/JYOTICNC/consolidated/",
-  "score_pct": 54.9,
-  "passes": 3,
-  "fails": 1,
-  "neutrals": 9,
-  "verdict": "Weak fundamentals",
-  "verdict_color": "red",
+  "score_pct": 59.2,
+  "passes": 6,
+  "fails": 2,
+  "neutrals": 5,
+  "verdict": "Moderate -- dig deeper",
+  "verdict_color": "amber",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data. Benchmark: 10.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Avg growth 15.3% vs benchmark 12.0%",
       "weight": 1.0
     },
     {
@@ -23,7 +23,7 @@
       "label": "OPM > industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "OPM 27.0% vs benchmark 15.0%",
+      "detail": "OPM 27.0% vs benchmark 22.0%",
       "weight": 1.0
     },
     {
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Fixed assets: 322.0 -> 469.0 -> 560.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -87,15 +87,15 @@
       "label": "CFO positive & increasing",
       "result": "fail",
       "score": 0.0,
-      "detail": "CFO N/A Cr -- negative cash flow",
+      "detail": "CFO -105.0 Cr -- negative cash flow",
       "weight": 2.0
     },
     {
       "id": "c11",
       "label": "CFI negative (investing in growth)",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFI = N/A Cr -- positive (possible asset sales)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFI = -329.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -103,33 +103,35 @@
       "label": "CFF: debt repayment or growth",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFF unavailable",
+      "detail": "CFF = 145.0 Cr -- raising capital (verify if for growth)",
       "weight": 1.0
     },
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "ROE=N/A ROCE=24.0%",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "ROE 21.2% <= ROCE 24.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Market Cap": 17251.0,
-    "Current Price": 759.0,
-    "High / Low": 1331687.0,
-    "Stock P/E": 48.7,
-    "Book Value": 80.5,
-    "Dividend Yield": 0.0,
-    "ROCE": 24.4,
-    "ROE": 21.2,
-    "Face Value": 2.0
+    "Current Price": 707.0,
+    "Market Cap": 16087.0,
+    "P/E": 45.4,
+    "Industry P/E": null,
+    "P/B": null,
+    "ROE %": 21.2,
+    "ROCE %": 24.4,
+    "Debt / Equity": null,
+    "Div. Yield %": 0.0,
+    "52W High": 1331.0,
+    "52W Low": 687.0
   },
   "benchmark": {
-    "opm": 15.0,
-    "npm": 8.0,
-    "sg": 10.0
+    "opm": 22.0,
+    "npm": 18.0,
+    "sg": 12.0
   },
-  "scanned_at": "2026-05-05T02:57:25.167549+00:00"
+  "scanned_at": "2026-05-17T06:02:58.472166+00:00"
 }

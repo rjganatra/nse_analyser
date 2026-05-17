@@ -1,29 +1,29 @@
 {
   "symbol": "INOXWIND",
   "name": "Inox Wind Ltd",
-  "sector": "inoxwind.com",
+  "sector": "Capital Goods",
   "screener_url": "https://www.screener.in/company/INOXWIND/consolidated/",
-  "score_pct": 54.9,
-  "passes": 3,
-  "fails": 1,
-  "neutrals": 9,
-  "verdict": "Weak fundamentals",
-  "verdict_color": "red",
+  "score_pct": 65.7,
+  "passes": 6,
+  "fails": 2,
+  "neutrals": 5,
+  "verdict": "Moderate -- dig deeper",
+  "verdict_color": "amber",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data. Benchmark: 10.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Avg growth 37.8% vs benchmark 12.0%",
       "weight": 1.0
     },
     {
       "id": "c2",
       "label": "OPM > industry",
-      "result": "pass",
-      "score": 1.0,
-      "detail": "OPM 21.0% vs benchmark 15.0%",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "OPM 21.0% below benchmark 22.0%",
       "weight": 1.0
     },
     {
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Fixed assets: 1843.0 -> 2291.0 -> 2388.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -85,17 +85,17 @@
     {
       "id": "c10",
       "label": "CFO positive & increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "CFO N/A Cr -- negative cash flow",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFO 138.0 Cr: -1100.0 -> -366.0 -> 138.0 (last 3Y) Cr",
       "weight": 2.0
     },
     {
       "id": "c11",
       "label": "CFI negative (investing in growth)",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFI = N/A Cr -- positive (possible asset sales)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFI = -406.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -103,33 +103,35 @@
       "label": "CFF: debt repayment or growth",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFF unavailable",
+      "detail": "CFF = 277.0 Cr -- raising capital (verify if for growth)",
       "weight": 1.0
     },
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "ROE=N/A ROCE=12.0%",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "ROE 11.7% <= ROCE 12.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Market Cap": 17867.0,
-    "Current Price": 103.0,
-    "High / Low": 19874.9,
-    "Stock P/E": 35.6,
-    "Book Value": 38.6,
-    "Dividend Yield": 0.0,
-    "ROCE": 11.5,
-    "ROE": 11.7,
-    "Face Value": 10.0
+    "Current Price": 95.5,
+    "Market Cap": 16510.0,
+    "P/E": 32.9,
+    "Industry P/E": null,
+    "P/B": null,
+    "ROE %": 11.7,
+    "ROCE %": 11.5,
+    "Debt / Equity": null,
+    "Div. Yield %": 0.0,
+    "52W High": 198.0,
+    "52W Low": 74.9
   },
   "benchmark": {
-    "opm": 15.0,
-    "npm": 8.0,
-    "sg": 10.0
+    "opm": 22.0,
+    "npm": 18.0,
+    "sg": 12.0
   },
-  "scanned_at": "2026-05-05T02:56:05.800266+00:00"
+  "scanned_at": "2026-05-17T06:01:10.402457+00:00"
 }

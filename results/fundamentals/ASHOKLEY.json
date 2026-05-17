@@ -1,29 +1,29 @@
 {
   "symbol": "ASHOKLEY",
   "name": "Ashok Leyland Ltd",
-  "sector": "ashokleyland.com",
+  "sector": "Capital Goods",
   "screener_url": "https://www.screener.in/company/ASHOKLEY/consolidated/",
-  "score_pct": 54.9,
-  "passes": 3,
+  "score_pct": 75.5,
+  "passes": 7,
   "fails": 1,
-  "neutrals": 9,
-  "verdict": "Weak fundamentals",
-  "verdict_color": "red",
+  "neutrals": 5,
+  "verdict": "Moderate -- dig deeper",
+  "verdict_color": "amber",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data. Benchmark: 10.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Avg growth 16.0% vs benchmark 12.0%",
       "weight": 1.0
     },
     {
       "id": "c2",
       "label": "OPM > industry",
-      "result": "pass",
-      "score": 1.0,
-      "detail": "OPM 19.0% vs benchmark 15.0%",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "OPM 19.0% below benchmark 22.0%",
       "weight": 1.0
     },
     {
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Fixed assets: 8157.0 -> 8837.0 -> 9499.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -85,17 +85,17 @@
     {
       "id": "c10",
       "label": "CFO positive & increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "CFO N/A Cr -- negative cash flow",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFO 128.0 Cr: -4499.0 -> -6258.0 -> 128.0 (last 3Y) Cr",
       "weight": 2.0
     },
     {
       "id": "c11",
       "label": "CFI negative (investing in growth)",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFI = N/A Cr -- positive (possible asset sales)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFI = -5759.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -103,33 +103,35 @@
       "label": "CFF: debt repayment or growth",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFF unavailable",
+      "detail": "CFF = 6958.0 Cr -- raising capital (verify if for growth)",
       "weight": 1.0
     },
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "ROE=N/A ROCE=14.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "ROE 28.8% > ROCE 14.0% -- leverage working for shareholders",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Market Cap": 94434.0,
-    "Current Price": 161.0,
-    "High / Low": 215107.0,
-    "Stock P/E": 26.2,
-    "Book Value": 21.4,
-    "Dividend Yield": 1.94,
-    "ROCE": 14.3,
-    "ROE": 28.8,
-    "Face Value": 1.0
+    "Current Price": 153.0,
+    "Market Cap": 89946.0,
+    "P/E": 25.0,
+    "Industry P/E": null,
+    "P/B": null,
+    "ROE %": 28.8,
+    "ROCE %": 14.3,
+    "Debt / Equity": null,
+    "Div. Yield %": 2.04,
+    "52W High": 215.0,
+    "52W Low": 115.0
   },
   "benchmark": {
-    "opm": 15.0,
-    "npm": 8.0,
-    "sg": 10.0
+    "opm": 22.0,
+    "npm": 18.0,
+    "sg": 12.0
   },
-  "scanned_at": "2026-05-05T02:46:02.437389+00:00"
+  "scanned_at": "2026-05-17T05:47:28.923078+00:00"
 }

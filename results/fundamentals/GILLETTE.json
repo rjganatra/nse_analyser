@@ -1,7 +1,7 @@
 {
   "symbol": "GILLETTE",
   "name": "Gillette India Ltd",
-  "sector": "pg.com/en_IN",
+  "sector": "Fast Moving Consumer Goods",
   "screener_url": "https://www.screener.in/company/GILLETTE/consolidated/",
   "score_pct": 43.5,
   "passes": 0,
@@ -116,20 +116,22 @@
     }
   ],
   "top_ratios": {
-    "Market Cap": null,
     "Current Price": null,
-    "High / Low": null,
-    "Stock P/E": null,
-    "Book Value": null,
-    "Dividend Yield": null,
-    "ROCE": null,
-    "ROE": null,
-    "Face Value": null
+    "Market Cap": null,
+    "P/E": null,
+    "Industry P/E": null,
+    "P/B": null,
+    "ROE %": null,
+    "ROCE %": null,
+    "Debt / Equity": null,
+    "Div. Yield %": null,
+    "52W High": null,
+    "52W Low": null
   },
   "benchmark": {
-    "opm": 15.0,
-    "npm": 8.0,
+    "opm": 16.0,
+    "npm": 10.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-05T02:52:35.347954+00:00"
+  "scanned_at": "2026-05-17T05:56:28.496765+00:00"
 }

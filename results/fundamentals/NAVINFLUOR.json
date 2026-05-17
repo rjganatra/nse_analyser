@@ -1,21 +1,21 @@
 {
   "symbol": "NAVINFLUOR",
   "name": "Navin Fluorine International Ltd",
-  "sector": "nfil.in",
+  "sector": "Chemicals",
   "screener_url": "https://www.screener.in/company/NAVINFLUOR/consolidated/",
-  "score_pct": 54.9,
-  "passes": 3,
+  "score_pct": 72.2,
+  "passes": 7,
   "fails": 1,
-  "neutrals": 9,
-  "verdict": "Weak fundamentals",
-  "verdict_color": "red",
+  "neutrals": 5,
+  "verdict": "Moderate -- dig deeper",
+  "verdict_color": "amber",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data. Benchmark: 10.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Avg growth 17.6% vs benchmark 11.0%",
       "weight": 1.0
     },
     {
@@ -23,7 +23,7 @@
       "label": "OPM > industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "OPM 33.0% vs benchmark 15.0%",
+      "detail": "OPM 33.0% vs benchmark 18.0%",
       "weight": 1.0
     },
     {
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Fixed assets: 1875.0 -> 2736.0 -> 3324.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -85,17 +85,17 @@
     {
       "id": "c10",
       "label": "CFO positive & increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "CFO N/A Cr -- negative cash flow",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFO 894.0 Cr: 750.0 -> 571.0 -> 894.0 (last 3Y) Cr",
       "weight": 2.0
     },
     {
       "id": "c11",
       "label": "CFI negative (investing in growth)",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFI = N/A Cr -- positive (possible asset sales)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFI = -1235.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -103,33 +103,35 @@
       "label": "CFF: debt repayment or growth",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFF unavailable",
+      "detail": "CFF = 344.0 Cr -- raising capital (verify if for growth)",
       "weight": 1.0
     },
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "ROE=N/A ROCE=21.0%",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "ROE 20.3% <= ROCE 21.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Market Cap": 34835.0,
-    "Current Price": 6796.0,
-    "High / Low": 72084188.0,
-    "Stock P/E": 52.1,
-    "Book Value": 775.0,
-    "Dividend Yield": 0.18,
-    "ROCE": 21.4,
-    "ROE": 20.3,
-    "Face Value": 2.0
+    "Current Price": 7001.0,
+    "Market Cap": 35909.0,
+    "P/E": 53.7,
+    "Industry P/E": null,
+    "P/B": null,
+    "ROE %": 20.3,
+    "ROCE %": 21.4,
+    "Debt / Equity": null,
+    "Div. Yield %": 0.22,
+    "52W High": 7208.0,
+    "52W Low": 4188.0
   },
   "benchmark": {
-    "opm": 15.0,
-    "npm": 8.0,
-    "sg": 10.0
+    "opm": 18.0,
+    "npm": 10.0,
+    "sg": 11.0
   },
-  "scanned_at": "2026-05-05T03:00:27.788799+00:00"
+  "scanned_at": "2026-05-17T06:07:07.773204+00:00"
 }

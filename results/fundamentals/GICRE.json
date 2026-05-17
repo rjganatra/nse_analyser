@@ -1,21 +1,21 @@
 {
   "symbol": "GICRE",
   "name": "General Insurance Corporation of India",
-  "sector": "gicre.in",
+  "sector": "Financial Services",
   "screener_url": "https://www.screener.in/company/GICRE/consolidated/",
-  "score_pct": 45.1,
-  "passes": 2,
+  "score_pct": 59.2,
+  "passes": 6,
   "fails": 2,
-  "neutrals": 9,
-  "verdict": "Weak fundamentals",
-  "verdict_color": "red",
+  "neutrals": 5,
+  "verdict": "Moderate -- dig deeper",
+  "verdict_color": "amber",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data. Benchmark: 10.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Avg growth 13.8% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Fixed assets: 318.0 -> 327.0 -> 329.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -85,51 +85,53 @@
     {
       "id": "c10",
       "label": "CFO positive & increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "CFO N/A Cr -- negative cash flow",
+      "result": "neutral",
+      "score": 0.5,
+      "detail": "CFO positive (1976.0 Cr) but not consistently growing",
       "weight": 2.0
     },
     {
       "id": "c11",
       "label": "CFI negative (investing in growth)",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFI = N/A Cr -- positive (possible asset sales)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFI = -275.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
       "id": "c12",
       "label": "CFF: debt repayment or growth",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFF unavailable",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFF = -1754.0 Cr -- net debt repayment",
       "weight": 1.0
     },
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "ROE=N/A ROCE=13.0%",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "ROE 11.0% <= ROCE 13.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Market Cap": 71816.0,
-    "Current Price": 409.0,
-    "High / Low": 447350.0,
-    "Stock P/E": 7.46,
-    "Book Value": 402.0,
-    "Dividend Yield": 2.44,
-    "ROCE": 13.3,
-    "ROE": 11.0,
-    "Face Value": 5.0
+    "Current Price": 387.0,
+    "Market Cap": 67974.0,
+    "P/E": 7.06,
+    "Industry P/E": null,
+    "P/B": null,
+    "ROE %": 11.0,
+    "ROCE %": 13.3,
+    "Debt / Equity": null,
+    "Div. Yield %": 2.58,
+    "52W High": 447.0,
+    "52W Low": 350.0
   },
   "benchmark": {
     "opm": 15.0,
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-05T02:52:32.500500+00:00"
+  "scanned_at": "2026-05-17T05:56:24.500510+00:00"
 }

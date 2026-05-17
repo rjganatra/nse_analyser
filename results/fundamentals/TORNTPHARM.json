@@ -1,21 +1,21 @@
 {
   "symbol": "TORNTPHARM",
   "name": "Torrent Pharmaceuticals Ltd",
-  "sector": "torrentpharma.com",
+  "sector": "Healthcare",
   "screener_url": "https://www.screener.in/company/TORNTPHARM/consolidated/",
-  "score_pct": 54.9,
-  "passes": 3,
+  "score_pct": 75.5,
+  "passes": 8,
   "fails": 1,
-  "neutrals": 9,
-  "verdict": "Weak fundamentals",
-  "verdict_color": "red",
+  "neutrals": 4,
+  "verdict": "Moderate -- dig deeper",
+  "verdict_color": "amber",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data. Benchmark: 10.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Avg growth 10.6% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -23,7 +23,7 @@
       "label": "OPM > industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "OPM 33.0% vs benchmark 20.0%",
+      "detail": "OPM 33.0% vs benchmark 15.0%",
       "weight": 1.0
     },
     {
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Fixed assets: 8138.0 -> 7947.0 -> 7841.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -85,51 +85,53 @@
     {
       "id": "c10",
       "label": "CFO positive & increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "CFO N/A Cr -- negative cash flow",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFO 2585.0 Cr: 2368.0 -> 3266.0 -> 2585.0 (last 3Y) Cr",
       "weight": 2.0
     },
     {
       "id": "c11",
       "label": "CFI negative (investing in growth)",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFI = N/A Cr -- positive (possible asset sales)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFI = -549.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
       "id": "c12",
       "label": "CFF: debt repayment or growth",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFF unavailable",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFF = -2298.0 Cr -- net debt repayment",
       "weight": 1.0
     },
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "ROE=N/A ROCE=27.0%",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "ROE 26.5% <= ROCE 27.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Market Cap": 143900.0,
-    "Current Price": 4252.0,
-    "High / Low": 44833101.0,
-    "Stock P/E": 62.4,
-    "Book Value": 250.0,
-    "Dividend Yield": 0.75,
-    "ROCE": 27.0,
-    "ROE": 26.5,
-    "Face Value": 5.0
+    "Current Price": 4406.0,
+    "Market Cap": 149109.0,
+    "P/E": 64.7,
+    "Industry P/E": null,
+    "P/B": null,
+    "ROE %": 26.5,
+    "ROCE %": 27.0,
+    "Debt / Equity": null,
+    "Div. Yield %": 0.73,
+    "52W High": 4556.0,
+    "52W Low": 3102.0
   },
   "benchmark": {
-    "opm": 20.0,
-    "npm": 12.0,
+    "opm": 15.0,
+    "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-05T03:06:26.601908+00:00"
+  "scanned_at": "2026-05-17T06:15:11.295525+00:00"
 }
