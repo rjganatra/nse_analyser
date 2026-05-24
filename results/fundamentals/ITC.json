@@ -15,7 +15,7 @@
       "label": "Sales growth >= industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "Avg growth 7.3% below benchmark 10.0%",
+      "detail": "Avg growth 6.9% below benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -23,7 +23,7 @@
       "label": "OPM > industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "OPM 34.0% vs benchmark 16.0%",
+      "detail": "OPM 35.0% vs benchmark 16.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 16.4 -> 27.8 -> 28.0 (last 3Y)",
+      "detail": "EPS: 16.4 -> 27.8 -> 16.5 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 73259.0 -> 68779.0 -> 69819.0 (last 3Y) Cr",
+      "detail": "Reserves: 73259.0 -> 68779.0 -> 71254.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -71,7 +71,7 @@
       "label": "Fixed assets increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Fixed assets: 27820.0 -> 21955.0 -> 22400.0 (last 3Y) Cr",
+      "detail": "Fixed assets: 27820.0 -> 21955.0 -> 22545.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -87,7 +87,7 @@
       "label": "CFO positive & increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFO 17627.0 Cr: 18878.0 -> 17179.0 -> 17627.0 (last 3Y) Cr",
+      "detail": "CFO 18464.0 Cr: 17179.0 -> 17627.0 -> 18464.0 (last 3Y) Cr",
       "weight": 2.0
     },
     {
@@ -95,7 +95,7 @@
       "label": "CFI negative (investing in growth)",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFI = -564.0 Cr -- investing actively",
+      "detail": "CFI = -2321.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -103,7 +103,7 @@
       "label": "CFF: debt repayment or growth",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFF = -17037.0 Cr -- net debt repayment",
+      "detail": "CFF = -16147.0 Cr -- net debt repayment",
       "weight": 1.0
     },
     {
@@ -111,20 +111,20 @@
       "label": "ROE > ROCE",
       "result": "fail",
       "score": 0.0,
-      "detail": "ROE 27.3% <= ROCE 37.0% -- leverage not adding value",
+      "detail": "ROE 29.3% <= ROCE 39.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Current Price": 309.0,
-    "Market Cap": 387724.0,
-    "P/E": 18.8,
+    "Current Price": 302.0,
+    "Market Cap": 378014.0,
+    "P/E": 18.1,
     "Industry P/E": null,
     "P/B": null,
-    "ROE %": 27.3,
-    "ROCE %": 36.8,
+    "ROE %": 29.3,
+    "ROCE %": 38.9,
     "Debt / Equity": null,
-    "Div. Yield %": 4.64,
+    "Div. Yield %": 4.81,
     "52W High": 444.0,
     "52W Low": 287.0
   },
@@ -133,5 +133,5 @@
     "npm": 10.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-17T05:59:59.399060+00:00"
+  "scanned_at": "2026-05-24T06:12:58.348942+00:00"
 }

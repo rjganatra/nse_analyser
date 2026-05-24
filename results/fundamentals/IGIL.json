@@ -3,10 +3,10 @@
   "name": "International Gemmological Institute (India) Ltd",
   "sector": "Services",
   "screener_url": "https://www.screener.in/company/IGIL/consolidated/",
-  "score_pct": 70.6,
-  "passes": 7,
+  "score_pct": 75.5,
+  "passes": 8,
   "fails": 1,
-  "neutrals": 5,
+  "neutrals": 4,
   "verdict": "Moderate -- dig deeper",
   "verdict_color": "amber",
   "criteria": [
@@ -15,7 +15,7 @@
       "label": "Sales growth >= industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "Avg growth 37.2% vs benchmark 10.0%",
+      "detail": "Avg growth 29.2% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -29,9 +29,9 @@
     {
       "id": "c3",
       "label": "EPS consistently increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Trend: 9.9 -> 12.3 (last 2Y)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "EPS: 9.9 -> 12.3 -> 13.2 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -116,15 +116,15 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 327.0,
-    "Market Cap": 14116.0,
-    "P/E": 26.6,
+    "Current Price": 373.0,
+    "Market Cap": 16117.0,
+    "P/E": 28.2,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 43.0,
     "ROCE %": 53.6,
     "Debt / Equity": null,
-    "Div. Yield %": 0.77,
+    "Div. Yield %": 0.67,
     "52W High": 442.0,
     "52W Low": 287.0
   },
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-17T06:01:23.457401+00:00"
+  "scanned_at": "2026-05-24T06:14:20.644263+00:00"
 }

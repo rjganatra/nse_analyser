@@ -3,19 +3,19 @@
   "name": "Ircon International Ltd",
   "sector": "Construction",
   "screener_url": "https://www.screener.in/company/IRCON/consolidated/",
-  "score_pct": 33.0,
-  "passes": 2,
-  "fails": 5,
-  "neutrals": 6,
-  "verdict": "Avoid",
+  "score_pct": 42.8,
+  "passes": 4,
+  "fails": 4,
+  "neutrals": 5,
+  "verdict": "Weak fundamentals",
   "verdict_color": "red",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "Avg growth 9.7% below benchmark 10.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Avg growth 12.4% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "fail",
       "score": 0.0,
-      "detail": "EPS not rising: 9.9 -> 7.7 -> 6.5 (last 3Y)",
+      "detail": "EPS not rising: 9.9 -> 7.7 -> 6.3 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 5683.0 -> 6138.0 -> 6270.0 (last 3Y) Cr",
+      "detail": "Reserves: 5683.0 -> 6138.0 -> 6451.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -71,7 +71,7 @@
       "label": "Fixed assets increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Fixed assets: 1736.0 -> 2453.0 -> 3471.0 (last 3Y) Cr",
+      "detail": "Fixed assets: 1736.0 -> 2453.0 -> 3524.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -87,15 +87,15 @@
       "label": "CFO positive & increasing",
       "result": "fail",
       "score": 0.0,
-      "detail": "CFO -1110.0 Cr -- negative cash flow",
+      "detail": "CFO -618.0 Cr -- negative cash flow",
       "weight": 2.0
     },
     {
       "id": "c11",
       "label": "CFI negative (investing in growth)",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFI = 54.0 Cr -- positive (possible asset sales)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFI = -366.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -103,7 +103,7 @@
       "label": "CFF: debt repayment or growth",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFF = 1156.0 Cr -- raising capital (verify if for growth)",
+      "detail": "CFF = 801.0 Cr -- raising capital (verify if for growth)",
       "weight": 1.0
     },
     {
@@ -111,20 +111,20 @@
       "label": "ROE > ROCE",
       "result": "fail",
       "score": 0.0,
-      "detail": "ROE 11.3% <= ROCE 12.0% -- leverage not adding value",
+      "detail": "ROE 9.2% <= ROCE 10.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Current Price": 143.0,
-    "Market Cap": 13416.0,
-    "P/E": 21.8,
+    "Current Price": 141.0,
+    "Market Cap": 13252.0,
+    "P/E": 22.2,
     "Industry P/E": null,
     "P/B": null,
-    "ROE %": 11.3,
-    "ROCE %": 11.6,
+    "ROE %": 9.19,
+    "ROCE %": 9.69,
     "Debt / Equity": null,
-    "Div. Yield %": 1.86,
+    "Div. Yield %": 1.88,
     "52W High": 226.0,
     "52W Low": 114.0
   },
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-17T05:59:51.512627+00:00"
+  "scanned_at": "2026-05-24T06:12:50.526560+00:00"
 }

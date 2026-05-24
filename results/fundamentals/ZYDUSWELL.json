@@ -3,19 +3,19 @@
   "name": "Zydus Wellness Ltd",
   "sector": "Fast Moving Consumer Goods",
   "screener_url": "https://www.screener.in/company/ZYDUSWELL/consolidated/",
-  "score_pct": 78.8,
-  "passes": 8,
-  "fails": 1,
-  "neutrals": 4,
-  "verdict": "Strong buy candidate",
-  "verdict_color": "green",
+  "score_pct": 65.7,
+  "passes": 6,
+  "fails": 2,
+  "neutrals": 5,
+  "verdict": "Moderate -- dig deeper",
+  "verdict_color": "amber",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "Avg growth 22.5% vs benchmark 10.0%",
+      "detail": "Avg growth 25.9% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 8.4 -> 10.9 -> 6.5 (last 3Y)",
+      "detail": "EPS: 8.4 -> 10.9 -> 6.2 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 5294.0 -> 5608.0 -> 5642.0 (last 3Y) Cr",
+      "detail": "Reserves: 5294.0 -> 5608.0 -> 5762.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -71,7 +71,7 @@
       "label": "Fixed assets increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Fixed assets: 4708.0 -> 5125.0 -> 8446.0 (last 3Y) Cr",
+      "detail": "Fixed assets: 4708.0 -> 5125.0 -> 8596.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -87,7 +87,7 @@
       "label": "CFO positive & increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFO 380.0 Cr: 92.0 -> 246.0 -> 380.0 (last 3Y) Cr",
+      "detail": "CFO 226.0 Cr: 246.0 -> 380.0 -> 226.0 (last 3Y) Cr",
       "weight": 2.0
     },
     {
@@ -95,34 +95,34 @@
       "label": "CFI negative (investing in growth)",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFI = -207.0 Cr -- investing actively",
+      "detail": "CFI = -2910.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
       "id": "c12",
       "label": "CFF: debt repayment or growth",
-      "result": "pass",
-      "score": 1.0,
-      "detail": "CFF = -186.0 Cr -- net debt repayment",
+      "result": "neutral",
+      "score": 0.5,
+      "detail": "CFF = 2698.0 Cr -- raising capital (verify if for growth)",
       "weight": 1.0
     },
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "pass",
-      "score": 1.0,
-      "detail": "ROE 6.0% > ROCE 6.0% -- leverage working for shareholders",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "ROE 4.0% <= ROCE 5.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Current Price": 502.0,
-    "Market Cap": 15976.0,
-    "P/E": 66.4,
+    "Current Price": 490.0,
+    "Market Cap": 15603.0,
+    "P/E": 67.2,
     "Industry P/E": null,
     "P/B": null,
-    "ROE %": 6.02,
-    "ROCE %": 6.16,
+    "ROE %": 4.04,
+    "ROCE %": 4.96,
     "Debt / Equity": null,
     "Div. Yield %": 0.24,
     "52W High": 552.0,
@@ -133,5 +133,5 @@
     "npm": 10.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-17T06:17:38.492435+00:00"
+  "scanned_at": "2026-05-24T06:30:30.775016+00:00"
 }

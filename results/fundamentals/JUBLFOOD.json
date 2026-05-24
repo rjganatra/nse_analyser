@@ -3,12 +3,12 @@
   "name": "Jubilant Foodworks Ltd",
   "sector": "Consumer Services",
   "screener_url": "https://www.screener.in/company/JUBLFOOD/consolidated/",
-  "score_pct": 75.5,
-  "passes": 8,
-  "fails": 1,
+  "score_pct": 85.3,
+  "passes": 9,
+  "fails": 0,
   "neutrals": 4,
-  "verdict": "Moderate -- dig deeper",
-  "verdict_color": "amber",
+  "verdict": "Strong buy candidate",
+  "verdict_color": "green",
   "criteria": [
     {
       "id": "c1",
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 6.0 -> 3.2 -> 6.0 (last 3Y)",
+      "detail": "EPS: 6.0 -> 3.2 -> 6.5 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 2039.0 -> 1971.0 -> 2036.0 (last 3Y) Cr",
+      "detail": "Reserves: 2039.0 -> 1971.0 -> 2160.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -71,7 +71,7 @@
       "label": "Fixed assets increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Fixed assets: 6184.0 -> 6434.0 -> 6744.0 (last 3Y) Cr",
+      "detail": "Fixed assets: 6184.0 -> 6434.0 -> 7402.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -87,7 +87,7 @@
       "label": "CFO positive & increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFO 1668.0 Cr: 1026.0 -> 1010.0 -> 1668.0 (last 3Y) Cr",
+      "detail": "CFO 1894.0 Cr: 1010.0 -> 1668.0 -> 1894.0 (last 3Y) Cr",
       "weight": 2.0
     },
     {
@@ -95,7 +95,7 @@
       "label": "CFI negative (investing in growth)",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFI = -850.0 Cr -- investing actively",
+      "detail": "CFI = -1084.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -103,28 +103,28 @@
       "label": "CFF: debt repayment or growth",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFF = -849.0 Cr -- net debt repayment",
+      "detail": "CFF = -780.0 Cr -- net debt repayment",
       "weight": 1.0
     },
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "ROE 10.4% <= ROCE 13.0% -- leverage not adding value",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "ROE 18.9% > ROCE 15.0% -- leverage working for shareholders",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Current Price": 461.0,
-    "Market Cap": 30442.0,
-    "P/E": 92.0,
+    "Current Price": 437.0,
+    "Market Cap": 28812.0,
+    "P/E": 69.3,
     "Industry P/E": null,
     "P/B": null,
-    "ROE %": 10.4,
-    "ROCE %": 13.1,
+    "ROE %": 18.9,
+    "ROCE %": 14.6,
     "Debt / Equity": null,
-    "Div. Yield %": 0.26,
+    "Div. Yield %": 0.27,
     "52W High": 720.0,
     "52W Low": 409.0
   },
@@ -133,5 +133,5 @@
     "npm": 10.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-17T06:02:42.678885+00:00"
+  "scanned_at": "2026-05-24T06:15:40.581615+00:00"
 }

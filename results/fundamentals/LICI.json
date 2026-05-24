@@ -3,9 +3,9 @@
   "name": "Life Insurance Corporation of India",
   "sector": "Financial Services",
   "screener_url": "https://www.screener.in/company/LICI/consolidated/",
-  "score_pct": 40.8,
-  "passes": 3,
-  "fails": 5,
+  "score_pct": 50.7,
+  "passes": 4,
+  "fails": 4,
   "neutrals": 5,
   "verdict": "Weak fundamentals",
   "verdict_color": "red",
@@ -15,7 +15,7 @@
       "label": "Sales growth >= industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "Avg growth 7.5% below benchmark 10.0%",
+      "detail": "Avg growth 8.0% below benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -23,7 +23,7 @@
       "label": "OPM > industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "OPM 6.0% below benchmark 15.0%",
+      "detail": "OPM 5.0% below benchmark 15.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 64.7 -> 76.4 -> 83.8 (last 3Y)",
+      "detail": "EPS: 64.7 -> 76.4 -> 90.8 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 76422.0 -> 120901.0 -> 135608.0 (last 3Y) Cr",
+      "detail": "Reserves: 76422.0 -> 120901.0 -> 170280.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -71,7 +71,7 @@
       "label": "Fixed assets increasing",
       "result": "fail",
       "score": 0.0,
-      "detail": "Fixed assets: 20667.0 -> 21330.0 -> 4530.0 (last 3Y) Cr",
+      "detail": "Fixed assets: 20667.0 -> 21330.0 -> 4757.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -109,22 +109,22 @@
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "ROE 45.7% <= ROCE 53.0% -- leverage not adding value",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "ROE 37.8% > ROCE 35.0% -- leverage working for shareholders",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Current Price": 799.0,
-    "Market Cap": 505462.0,
-    "P/E": 9.53,
+    "Current Price": 813.0,
+    "Market Cap": 514191.0,
+    "P/E": 8.95,
     "Industry P/E": null,
     "P/B": null,
-    "ROE %": 45.7,
-    "ROCE %": 53.1,
+    "ROE %": 37.8,
+    "ROCE %": 35.1,
     "Debt / Equity": null,
-    "Div. Yield %": 1.5,
+    "Div. Yield %": 1.23,
     "52W High": 980.0,
     "52W Low": 722.0
   },
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-17T06:04:41.020472+00:00"
+  "scanned_at": "2026-05-24T06:17:39.237408+00:00"
 }

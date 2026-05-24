@@ -3,10 +3,10 @@
   "name": "JSW Cement Ltd",
   "sector": "Construction Materials",
   "screener_url": "https://www.screener.in/company/JSWCEMENT/consolidated/",
-  "score_pct": 65.7,
+  "score_pct": 72.2,
   "passes": 7,
-  "fails": 2,
-  "neutrals": 4,
+  "fails": 1,
+  "neutrals": 5,
   "verdict": "Moderate -- dig deeper",
   "verdict_color": "amber",
   "criteria": [
@@ -15,7 +15,7 @@
       "label": "Sales growth >= industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "Avg growth 14.6% vs benchmark 10.0%",
+      "detail": "Avg growth 15.2% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -23,7 +23,7 @@
       "label": "OPM > industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "OPM 18.0% vs benchmark 15.0%",
+      "detail": "OPM 19.0% vs benchmark 15.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "fail",
       "score": 0.0,
-      "detail": "EPS not rising: 0.9 -> -1.1 -> -11.3 (last 3Y)",
+      "detail": "EPS not rising: 0.9 -> -1.1 -> -5.5 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 1478.0 -> 1366.0 -> 4718.0 (last 3Y) Cr",
+      "detail": "Reserves: 1478.0 -> 1366.0 -> 5209.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -71,7 +71,7 @@
       "label": "Fixed assets increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Fixed assets: 6189.0 -> 6785.0 -> 6820.0 (last 3Y) Cr",
+      "detail": "Fixed assets: 6189.0 -> 6785.0 -> 8498.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -87,7 +87,7 @@
       "label": "CFO positive & increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFO 737.0 Cr: 653.0 -> 1408.0 -> 737.0 (last 3Y) Cr",
+      "detail": "CFO 1170.0 Cr: 1408.0 -> 737.0 -> 1170.0 (last 3Y) Cr",
       "weight": 2.0
     },
     {
@@ -95,34 +95,34 @@
       "label": "CFI negative (investing in growth)",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFI = -558.0 Cr -- investing actively",
+      "detail": "CFI = -1649.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
       "id": "c12",
       "label": "CFF: debt repayment or growth",
-      "result": "pass",
-      "score": 1.0,
-      "detail": "CFF = -232.0 Cr -- net debt repayment",
+      "result": "neutral",
+      "score": 0.5,
+      "detail": "CFF = 861.0 Cr -- raising capital (verify if for growth)",
       "weight": 1.0
     },
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "ROE -4.8% <= ROCE 5.0% -- leverage not adding value",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "ROE 14.6% > ROCE 11.0% -- leverage working for shareholders",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Current Price": 123.0,
-    "Market Cap": 16793.0,
-    "P/E": 52.2,
+    "Current Price": 138.0,
+    "Market Cap": 18813.0,
+    "P/E": 28.9,
     "Industry P/E": null,
     "P/B": null,
-    "ROE %": -4.81,
-    "ROCE %": 4.64,
+    "ROE %": 14.6,
+    "ROCE %": 11.0,
     "Debt / Equity": null,
     "Div. Yield %": 0.0,
     "52W High": 162.0,
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-17T06:01:55.297260+00:00"
+  "scanned_at": "2026-05-24T06:14:52.608676+00:00"
 }

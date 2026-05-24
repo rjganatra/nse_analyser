@@ -3,9 +3,9 @@
   "name": "Indian Oil Corporation Ltd",
   "sector": "Oil & Gas",
   "screener_url": "https://www.screener.in/company/IOC/consolidated/",
-  "score_pct": 62.4,
-  "passes": 6,
-  "fails": 3,
+  "score_pct": 72.2,
+  "passes": 7,
+  "fails": 2,
   "neutrals": 4,
   "verdict": "Moderate -- dig deeper",
   "verdict_color": "amber",
@@ -15,7 +15,7 @@
       "label": "Sales growth >= industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "Avg growth 6.6% below benchmark 10.0%",
+      "detail": "Avg growth 8.1% below benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -23,7 +23,7 @@
       "label": "OPM > industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "OPM 9.0% below benchmark 15.0%",
+      "detail": "OPM 10.0% below benchmark 15.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 29.6 -> 9.6 -> 25.3 (last 3Y)",
+      "detail": "EPS: 29.6 -> 9.6 -> 29.8 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 169645.0 -> 172716.0 -> 183317.0 (last 3Y) Cr",
+      "detail": "Reserves: 169645.0 -> 172716.0 -> 205746.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -71,7 +71,7 @@
       "label": "Fixed assets increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Fixed assets: 195998.0 -> 201142.0 -> 209847.0 (last 3Y) Cr",
+      "detail": "Fixed assets: 195998.0 -> 201142.0 -> 211722.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -87,7 +87,7 @@
       "label": "CFO positive & increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFO 34699.0 Cr: 29644.0 -> 71146.0 -> 34699.0 (last 3Y) Cr",
+      "detail": "CFO 76142.0 Cr: 71146.0 -> 34699.0 -> 76142.0 (last 3Y) Cr",
       "weight": 2.0
     },
     {
@@ -95,7 +95,7 @@
       "label": "CFI negative (investing in growth)",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFI = -31848.0 Cr -- investing actively",
+      "detail": "CFI = -22274.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -103,28 +103,28 @@
       "label": "CFF: debt repayment or growth",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFF = -3425.0 Cr -- net debt repayment",
+      "detail": "CFF = -52672.0 Cr -- net debt repayment",
       "weight": 1.0
     },
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "ROE 6.5% <= ROCE 7.0% -- leverage not adding value",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "ROE 20.7% > ROCE 19.0% -- leverage working for shareholders",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Current Price": 134.0,
-    "Market Cap": 189902.0,
-    "P/E": 5.31,
+    "Current Price": 139.0,
+    "Market Cap": 196949.0,
+    "P/E": 4.68,
     "Industry P/E": null,
     "P/B": null,
-    "ROE %": 6.51,
-    "ROCE %": 7.36,
+    "ROE %": 20.7,
+    "ROCE %": 18.8,
     "Debt / Equity": null,
-    "Div. Yield %": 5.21,
+    "Div. Yield %": 5.02,
     "52W High": 189.0,
     "52W Low": 130.0
   },
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-17T06:00:30.977345+00:00"
+  "scanned_at": "2026-05-24T06:13:29.660845+00:00"
 }

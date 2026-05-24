@@ -3,10 +3,10 @@
   "name": "Prestige Estates Projects Ltd",
   "sector": "Realty",
   "screener_url": "https://www.screener.in/company/PRESTIGE/consolidated/",
-  "score_pct": 65.7,
-  "passes": 6,
+  "score_pct": 72.2,
+  "passes": 7,
   "fails": 1,
-  "neutrals": 6,
+  "neutrals": 5,
   "verdict": "Moderate -- dig deeper",
   "verdict_color": "amber",
   "criteria": [
@@ -15,7 +15,7 @@
       "label": "Sales growth >= industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "Avg growth 15.2% vs benchmark 10.0%",
+      "detail": "Avg growth 16.6% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -23,7 +23,7 @@
       "label": "OPM > industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "OPM 31.0% vs benchmark 15.0%",
+      "detail": "OPM 29.0% vs benchmark 15.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 34.3 -> 10.8 -> 22.5 (last 3Y)",
+      "detail": "EPS: 34.3 -> 10.8 -> 27.8 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 10888.0 -> 14992.0 -> 15397.0 (last 3Y) Cr",
+      "detail": "Reserves: 10888.0 -> 14992.0 -> 15842.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -71,7 +71,7 @@
       "label": "Fixed assets increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Fixed assets: 8669.0 -> 10545.0 -> 10584.0 (last 3Y) Cr",
+      "detail": "Fixed assets: 8669.0 -> 10545.0 -> 11965.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -85,9 +85,9 @@
     {
       "id": "c10",
       "label": "CFO positive & increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFO positive (131.0 Cr) but not consistently growing",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFO 3223.0 Cr: 1297.0 -> 131.0 -> 3223.0 (last 3Y) Cr",
       "weight": 2.0
     },
     {
@@ -95,7 +95,7 @@
       "label": "CFI negative (investing in growth)",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFI = -1348.0 Cr -- investing actively",
+      "detail": "CFI = -5636.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -103,7 +103,7 @@
       "label": "CFF: debt repayment or growth",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFF = 959.0 Cr -- raising capital (verify if for growth)",
+      "detail": "CFF = 1959.0 Cr -- raising capital (verify if for growth)",
       "weight": 1.0
     },
     {
@@ -111,18 +111,18 @@
       "label": "ROE > ROCE",
       "result": "fail",
       "score": 0.0,
-      "detail": "ROE 3.5% <= ROCE 8.0% -- leverage not adding value",
+      "detail": "ROE 7.5% <= ROCE 10.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Current Price": 1342.0,
-    "Market Cap": 57813.0,
-    "P/E": 59.6,
+    "Current Price": 1388.0,
+    "Market Cap": 59807.0,
+    "P/E": 50.0,
     "Industry P/E": null,
     "P/B": null,
-    "ROE %": 3.48,
-    "ROCE %": 7.66,
+    "ROE %": 7.54,
+    "ROCE %": 10.4,
     "Debt / Equity": null,
     "Div. Yield %": 0.13,
     "52W High": 1814.0,
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-17T06:09:55.115732+00:00"
+  "scanned_at": "2026-05-24T06:22:50.875312+00:00"
 }

@@ -15,7 +15,7 @@
       "label": "Sales growth >= industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "Avg growth 8.0% below benchmark 10.0%",
+      "detail": "Avg growth 8.5% below benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -23,7 +23,7 @@
       "label": "OPM > industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "OPM 29.0% vs benchmark 25.0%",
+      "detail": "OPM 28.0% vs benchmark 25.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 21.5 -> 24.2 -> 24.9 (last 3Y)",
+      "detail": "EPS: 21.5 -> 24.2 -> 27.9 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 151013.0 -> 174374.0 -> 182338.0 (last 3Y) Cr",
+      "detail": "Reserves: 151013.0 -> 174374.0 -> 193479.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -71,7 +71,7 @@
       "label": "Fixed assets increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Fixed assets: 258934.0 -> 271437.0 -> 295305.0 (last 3Y) Cr",
+      "detail": "Fixed assets: 258934.0 -> 271437.0 -> 318821.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -111,20 +111,20 @@
       "label": "ROE > ROCE",
       "result": "pass",
       "score": 1.0,
-      "detail": "ROE 13.1% > ROCE 11.0% -- leverage working for shareholders",
+      "detail": "ROE 14.0% > ROCE 8.0% -- leverage working for shareholders",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Current Price": 395.0,
-    "Market Cap": 383261.0,
-    "P/E": 15.8,
+    "Current Price": 389.0,
+    "Market Cap": 376861.0,
+    "P/E": 13.9,
     "Industry P/E": null,
     "P/B": null,
-    "ROE %": 13.1,
-    "ROCE %": 10.8,
+    "ROE %": 14.0,
+    "ROCE %": 8.33,
     "Debt / Equity": null,
-    "Div. Yield %": 2.11,
+    "Div. Yield %": 2.15,
     "52W High": 414.0,
     "52W Low": 316.0
   },
@@ -133,5 +133,5 @@
     "npm": 10.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-17T06:06:51.922904+00:00"
+  "scanned_at": "2026-05-24T06:19:49.804223+00:00"
 }

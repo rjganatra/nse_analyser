@@ -3,10 +3,10 @@
   "name": "IRB Infrastructure Developers Ltd",
   "sector": "Construction",
   "screener_url": "https://www.screener.in/company/IRB/consolidated/",
-  "score_pct": 55.9,
+  "score_pct": 53.9,
   "passes": 5,
-  "fails": 3,
-  "neutrals": 5,
+  "fails": 4,
+  "neutrals": 4,
   "verdict": "Weak fundamentals",
   "verdict_color": "red",
   "criteria": [
@@ -15,7 +15,7 @@
       "label": "Sales growth >= industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "Avg growth 7.2% below benchmark 10.0%",
+      "detail": "Avg growth 7.3% below benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -23,7 +23,7 @@
       "label": "OPM > industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "OPM 50.0% vs benchmark 15.0%",
+      "detail": "OPM 52.0% vs benchmark 15.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "fail",
       "score": 0.0,
-      "detail": "EPS not rising: 0.5 -> 5.4 -> 0.6 (last 3Y)",
+      "detail": "EPS not rising: 0.5 -> 5.4 -> 0.7 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 13141.0 -> 19223.0 -> 19777.0 (last 3Y) Cr",
+      "detail": "Reserves: 13141.0 -> 19223.0 -> 20345.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "pass",
-      "score": 1.0,
-      "detail": "Fixed assets: 25514.0 -> 24616.0 -> 24428.0 (last 3Y) Cr",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "Fixed assets: 25514.0 -> 24616.0 -> 23896.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -87,15 +87,15 @@
       "label": "CFO positive & increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFO 1971.0 Cr: 1764.0 -> 4054.0 -> 1971.0 (last 3Y) Cr",
+      "detail": "CFO 2098.0 Cr: 4054.0 -> 1971.0 -> 2098.0 (last 3Y) Cr",
       "weight": 2.0
     },
     {
       "id": "c11",
       "label": "CFI negative (investing in growth)",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFI = 375.0 Cr -- positive (possible asset sales)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFI = -910.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -103,7 +103,7 @@
       "label": "CFF: debt repayment or growth",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFF = -720.0 Cr -- net debt repayment",
+      "detail": "CFF = -2702.0 Cr -- net debt repayment",
       "weight": 1.0
     },
     {
@@ -111,20 +111,20 @@
       "label": "ROE > ROCE",
       "result": "fail",
       "score": 0.0,
-      "detail": "ROE 5.9% <= ROCE 8.0% -- leverage not adding value",
+      "detail": "ROE 4.3% <= ROCE 7.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Current Price": 20.3,
-    "Market Cap": 24518.0,
-    "P/E": 30.7,
+    "Current Price": 22.0,
+    "Market Cap": 26608.0,
+    "P/E": 30.3,
     "Industry P/E": null,
     "P/B": null,
-    "ROE %": 5.91,
-    "ROCE %": 7.82,
+    "ROE %": 4.31,
+    "ROCE %": 7.48,
     "Debt / Equity": null,
-    "Div. Yield %": 0.74,
+    "Div. Yield %": 0.7,
     "52W High": 27.2,
     "52W Low": 18.5
   },
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-17T05:59:47.574651+00:00"
+  "scanned_at": "2026-05-24T06:12:46.620956+00:00"
 }

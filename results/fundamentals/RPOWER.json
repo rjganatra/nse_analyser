@@ -3,10 +3,10 @@
   "name": "Reliance Power Ltd",
   "sector": "Power",
   "screener_url": "https://www.screener.in/company/RPOWER/consolidated/",
-  "score_pct": 42.8,
+  "score_pct": 44.1,
   "passes": 3,
-  "fails": 4,
-  "neutrals": 6,
+  "fails": 5,
+  "neutrals": 5,
   "verdict": "Weak fundamentals",
   "verdict_color": "red",
   "criteria": [
@@ -15,7 +15,7 @@
       "label": "Sales growth >= industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "Avg growth 4.7% below benchmark 10.0%",
+      "detail": "Avg growth 1.9% below benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "fail",
       "score": 0.0,
-      "detail": "EPS not rising: -5.2 -> 7.3 -> 0.7 (last 3Y)",
+      "detail": "EPS not rising: -5.2 -> 7.3 -> -0.8 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "fail",
       "score": 0.0,
-      "detail": "Reserves declining: 7597.0 -> 12320.0 -> 12380.0 (last 3Y) Cr",
+      "detail": "Reserves declining: 7597.0 -> 12320.0 -> 11904.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "pass",
-      "score": 1.0,
-      "detail": "Fixed assets: 33584.0 -> 31859.0 -> 31546.0 (last 3Y) Cr",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "Fixed assets: 33584.0 -> 31859.0 -> 30944.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -85,9 +85,9 @@
     {
       "id": "c10",
       "label": "CFO positive & increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFO positive (1938.0 Cr) but not consistently growing",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFO 1938.0 Cr: 4024.0 -> 3174.0 -> 1938.0 (last 3Y) Cr",
       "weight": 2.0
     },
     {
@@ -111,18 +111,18 @@
       "label": "ROE > ROCE",
       "result": "fail",
       "score": 0.0,
-      "detail": "ROE -1.1% <= ROCE 6.0% -- leverage not adding value",
+      "detail": "ROE -0.9% <= ROCE 6.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
     "Current Price": 27.1,
-    "Market Cap": 11216.0,
-    "P/E": 39.7,
+    "Market Cap": 11200.0,
+    "P/E": null,
     "Industry P/E": null,
     "P/B": null,
-    "ROE %": -1.08,
-    "ROCE %": 6.15,
+    "ROE %": -0.91,
+    "ROCE %": 6.1,
     "Debt / Equity": null,
     "Div. Yield %": 0.0,
     "52W High": 76.5,
@@ -133,5 +133,5 @@
     "npm": 10.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-17T06:10:50.330440+00:00"
+  "scanned_at": "2026-05-24T06:23:45.696006+00:00"
 }

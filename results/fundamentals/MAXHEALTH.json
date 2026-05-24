@@ -3,10 +3,10 @@
   "name": "Max Healthcare Institute Ltd",
   "sector": "Healthcare",
   "screener_url": "https://www.screener.in/company/MAXHEALTH/consolidated/",
-  "score_pct": 75.5,
-  "passes": 8,
+  "score_pct": 72.2,
+  "passes": 7,
   "fails": 1,
-  "neutrals": 4,
+  "neutrals": 5,
   "verdict": "Moderate -- dig deeper",
   "verdict_color": "amber",
   "criteria": [
@@ -15,7 +15,7 @@
       "label": "Sales growth >= industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "Avg growth 26.9% vs benchmark 10.0%",
+      "detail": "Avg growth 27.2% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -23,7 +23,7 @@
       "label": "OPM > industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "OPM 26.0% vs benchmark 15.0%",
+      "detail": "OPM 27.0% vs benchmark 15.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 10.9 -> 11.1 -> 14.6 (last 3Y)",
+      "detail": "EPS: 10.9 -> 11.1 -> 14.8 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 7436.0 -> 8409.0 -> 9080.0 (last 3Y) Cr",
+      "detail": "Reserves: 7436.0 -> 8409.0 -> 9774.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -71,7 +71,7 @@
       "label": "Fixed assets increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Fixed assets: 8784.0 -> 11502.0 -> 11826.0 (last 3Y) Cr",
+      "detail": "Fixed assets: 8784.0 -> 11502.0 -> 12992.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -87,7 +87,7 @@
       "label": "CFO positive & increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFO 1459.0 Cr: 1284.0 -> 1122.0 -> 1459.0 (last 3Y) Cr",
+      "detail": "CFO 1633.0 Cr: 1122.0 -> 1459.0 -> 1633.0 (last 3Y) Cr",
       "weight": 2.0
     },
     {
@@ -95,15 +95,15 @@
       "label": "CFI negative (investing in growth)",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFI = -1614.0 Cr -- investing actively",
+      "detail": "CFI = -1689.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
       "id": "c12",
       "label": "CFF: debt repayment or growth",
-      "result": "pass",
-      "score": 1.0,
-      "detail": "CFF = -164.0 Cr -- net debt repayment",
+      "result": "neutral",
+      "score": 0.5,
+      "detail": "CFF = 59.0 Cr -- raising capital (verify if for growth)",
       "weight": 1.0
     },
     {
@@ -111,20 +111,20 @@
       "label": "ROE > ROCE",
       "result": "fail",
       "score": 0.0,
-      "detail": "ROE 12.7% <= ROCE 15.0% -- leverage not adding value",
+      "detail": "ROE 14.8% <= ROCE 15.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Current Price": 1050.0,
-    "Market Cap": 102200.0,
-    "P/E": 70.0,
+    "Current Price": 1023.0,
+    "Market Cap": 99587.0,
+    "P/E": 67.1,
     "Industry P/E": null,
     "P/B": null,
-    "ROE %": 12.7,
-    "ROCE %": 14.9,
+    "ROE %": 14.8,
+    "ROCE %": 14.7,
     "Debt / Equity": null,
-    "Div. Yield %": 0.14,
+    "Div. Yield %": 0.15,
     "52W High": 1314.0,
     "52W Low": 903.0
   },
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-17T06:05:45.018730+00:00"
+  "scanned_at": "2026-05-24T06:18:43.740419+00:00"
 }
