@@ -3,10 +3,10 @@
   "name": "Finolex Cables Ltd",
   "sector": "Capital Goods",
   "screener_url": "https://www.screener.in/company/FINCABLES/consolidated/",
-  "score_pct": 55.9,
-  "passes": 5,
+  "score_pct": 52.6,
+  "passes": 4,
   "fails": 3,
-  "neutrals": 5,
+  "neutrals": 6,
   "verdict": "Weak fundamentals",
   "verdict_color": "red",
   "criteria": [
@@ -15,7 +15,7 @@
       "label": "Sales growth >= industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "Avg growth 10.3% below benchmark 12.0%",
+      "detail": "Avg growth 11.0% below benchmark 12.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 42.6 -> 45.8 -> 44.5 (last 3Y)",
+      "detail": "EPS: 42.6 -> 45.8 -> 46.7 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 4915.0 -> 5465.0 -> 5672.0 (last 3Y) Cr",
+      "detail": "Reserves: 4915.0 -> 5465.0 -> 6055.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -71,7 +71,7 @@
       "label": "Fixed assets increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Fixed assets: 444.0 -> 583.0 -> 577.0 (last 3Y) Cr",
+      "detail": "Fixed assets: 444.0 -> 583.0 -> 850.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -87,15 +87,15 @@
       "label": "CFO positive & increasing",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFO positive (207.0 Cr) but not consistently growing",
+      "detail": "CFO positive (49.0 Cr) but not consistently growing",
       "weight": 2.0
     },
     {
       "id": "c11",
       "label": "CFI negative (investing in growth)",
-      "result": "pass",
-      "score": 1.0,
-      "detail": "CFI = -82.0 Cr -- investing actively",
+      "result": "neutral",
+      "score": 0.5,
+      "detail": "CFI = 153.0 Cr -- positive (possible asset sales)",
       "weight": 1.0
     },
     {
@@ -103,7 +103,7 @@
       "label": "CFF: debt repayment or growth",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFF = -128.0 Cr -- net debt repayment",
+      "detail": "CFF = -129.0 Cr -- net debt repayment",
       "weight": 1.0
     },
     {
@@ -111,21 +111,21 @@
       "label": "ROE > ROCE",
       "result": "fail",
       "score": 0.0,
-      "detail": "ROE 13.4% <= ROCE 18.0% -- leverage not adding value",
+      "detail": "ROE 12.3% <= ROCE 16.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Current Price": 1031.0,
-    "Market Cap": 15771.0,
-    "P/E": 23.2,
+    "Current Price": 1136.0,
+    "Market Cap": 17378.0,
+    "P/E": 24.4,
     "Industry P/E": null,
     "P/B": null,
-    "ROE %": 13.4,
-    "ROCE %": 17.7,
+    "ROE %": 12.3,
+    "ROCE %": 16.0,
     "Debt / Equity": null,
-    "Div. Yield %": 0.78,
-    "52W High": 1173.0,
+    "Div. Yield %": 0.7,
+    "52W High": 1185.0,
     "52W Low": 701.0
   },
   "benchmark": {
@@ -133,5 +133,5 @@
     "npm": 18.0,
     "sg": 12.0
   },
-  "scanned_at": "2026-05-24T06:08:43.374396+00:00"
+  "scanned_at": "2026-05-31T06:24:18.018164+00:00"
 }

@@ -3,10 +3,10 @@
   "name": "JK Tyre & Industries Ltd",
   "sector": "Automobile and Auto Components",
   "screener_url": "https://www.screener.in/company/JKTYRE/consolidated/",
-  "score_pct": 62.4,
+  "score_pct": 65.7,
   "passes": 6,
-  "fails": 3,
-  "neutrals": 4,
+  "fails": 2,
+  "neutrals": 5,
   "verdict": "Moderate -- dig deeper",
   "verdict_color": "amber",
   "criteria": [
@@ -15,7 +15,7 @@
       "label": "Sales growth >= industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "Avg growth 7.2% below benchmark 10.0%",
+      "detail": "Avg growth 8.4% below benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 30.2 -> 18.1 -> 25.1 (last 3Y)",
+      "detail": "EPS: 30.2 -> 18.1 -> 26.9 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 4435.0 -> 4796.0 -> 5185.0 (last 3Y) Cr",
+      "detail": "Reserves: 4435.0 -> 4796.0 -> 6003.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -71,7 +71,7 @@
       "label": "Fixed assets increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Fixed assets: 6829.0 -> 6752.0 -> 6783.0 (last 3Y) Cr",
+      "detail": "Fixed assets: 6829.0 -> 6752.0 -> 7192.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -85,9 +85,9 @@
     {
       "id": "c10",
       "label": "CFO positive & increasing",
-      "result": "pass",
-      "score": 1.0,
-      "detail": "CFO 716.0 Cr: 1224.0 -> 1614.0 -> 716.0 (last 3Y) Cr",
+      "result": "neutral",
+      "score": 0.5,
+      "detail": "CFO positive (716.0 Cr) but not consistently growing",
       "weight": 2.0
     },
     {
@@ -109,22 +109,22 @@
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "ROE 11.1% <= ROCE 13.0% -- leverage not adding value",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "ROE 16.2% > ROCE 16.0% -- leverage working for shareholders",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Current Price": 368.0,
-    "Market Cap": 10598.0,
-    "P/E": 14.5,
+    "Current Price": 408.0,
+    "Market Cap": 11762.0,
+    "P/E": 13.3,
     "Industry P/E": null,
     "P/B": null,
-    "ROE %": 11.1,
-    "ROCE %": 12.8,
+    "ROE %": 16.2,
+    "ROCE %": 15.5,
     "Debt / Equity": null,
-    "Div. Yield %": 0.82,
+    "Div. Yield %": 0.74,
     "52W High": 612.0,
     "52W Low": 311.0
   },
@@ -133,5 +133,5 @@
     "npm": 6.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-24T06:14:44.629158+00:00"
+  "scanned_at": "2026-05-31T06:30:23.452759+00:00"
 }

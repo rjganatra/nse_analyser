@@ -3,10 +3,10 @@
   "name": "Pine Labs Ltd",
   "sector": "Financial Services",
   "screener_url": "https://www.screener.in/company/PINELABS/consolidated/",
-  "score_pct": 69.0,
-  "passes": 7,
+  "score_pct": 65.7,
+  "passes": 6,
   "fails": 2,
-  "neutrals": 4,
+  "neutrals": 5,
   "verdict": "Moderate -- dig deeper",
   "verdict_color": "amber",
   "criteria": [
@@ -15,7 +15,7 @@
       "label": "Sales growth >= industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "Avg growth 25.8% vs benchmark 10.0%",
+      "detail": "Avg growth 24.7% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -23,7 +23,7 @@
       "label": "OPM > industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "OPM 10.0% below benchmark 15.0%",
+      "detail": "OPM 13.0% below benchmark 15.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: -19.0 -> -4.1 -> -1.7 (last 3Y)",
+      "detail": "EPS: -4.1 -> -1.7 -> 1.0 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 3466.0 -> 3431.0 -> 3608.0 (last 3Y) Cr",
+      "detail": "Reserves: 3466.0 -> 3431.0 -> 5781.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -71,7 +71,7 @@
       "label": "Fixed assets increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Fixed assets: 1920.0 -> 1825.0 -> 1905.0 (last 3Y) Cr",
+      "detail": "Fixed assets: 1920.0 -> 1825.0 -> 1963.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -87,7 +87,7 @@
       "label": "CFO positive & increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFO 50.0 Cr: -152.0 -> -229.0 -> 50.0 (last 3Y) Cr",
+      "detail": "CFO 395.0 Cr: -229.0 -> 50.0 -> 395.0 (last 3Y) Cr",
       "weight": 2.0
     },
     {
@@ -95,15 +95,15 @@
       "label": "CFI negative (investing in growth)",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFI = -486.0 Cr -- investing actively",
+      "detail": "CFI = -1339.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
       "id": "c12",
       "label": "CFF: debt repayment or growth",
-      "result": "pass",
-      "score": 1.0,
-      "detail": "CFF = -201.0 Cr -- net debt repayment",
+      "result": "neutral",
+      "score": 0.5,
+      "detail": "CFF = 1972.0 Cr -- raising capital (verify if for growth)",
       "weight": 1.0
     },
     {
@@ -111,27 +111,27 @@
       "label": "ROE > ROCE",
       "result": "fail",
       "score": 0.0,
-      "detail": "ROE -3.3% <= ROCE -0.0% -- leverage not adding value",
+      "detail": "ROE 2.5% <= ROCE 4.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Current Price": 143.0,
-    "Market Cap": 16402.0,
-    "P/E": null,
+    "Current Price": 145.0,
+    "Market Cap": 16594.0,
+    "P/E": 144.0,
     "Industry P/E": null,
     "P/B": null,
-    "ROE %": -3.31,
-    "ROCE %": -0.49,
+    "ROE %": 2.46,
+    "ROCE %": 4.16,
     "Debt / Equity": null,
     "Div. Yield %": 0.0,
     "52W High": 284.0,
-    "52W Low": 140.0
+    "52W Low": 135.0
   },
   "benchmark": {
     "opm": 15.0,
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-24T06:22:15.167943+00:00"
+  "scanned_at": "2026-05-31T06:37:58.352001+00:00"
 }

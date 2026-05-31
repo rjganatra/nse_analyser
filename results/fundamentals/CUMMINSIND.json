@@ -3,10 +3,10 @@
   "name": "Cummins India Ltd",
   "sector": "Capital Goods",
   "screener_url": "https://www.screener.in/company/CUMMINSIND/consolidated/",
-  "score_pct": 62.4,
-  "passes": 6,
+  "score_pct": 59.2,
+  "passes": 5,
   "fails": 3,
-  "neutrals": 4,
+  "neutrals": 5,
   "verdict": "Moderate -- dig deeper",
   "verdict_color": "amber",
   "criteria": [
@@ -15,7 +15,7 @@
       "label": "Sales growth >= industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "Avg growth 11.6% below benchmark 12.0%",
+      "detail": "Avg growth 9.7% below benchmark 12.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 62.1 -> 72.2 -> 80.9 (last 3Y)",
+      "detail": "EPS: 62.1 -> 72.2 -> 85.2 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 6557.0 -> 7506.0 -> 7840.0 (last 3Y) Cr",
+      "detail": "Reserves: 6557.0 -> 7506.0 -> 8420.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -71,7 +71,7 @@
       "label": "Fixed assets increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Fixed assets: 2302.0 -> 2364.0 -> 2366.0 (last 3Y) Cr",
+      "detail": "Fixed assets: 2302.0 -> 2364.0 -> 2404.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -87,15 +87,15 @@
       "label": "CFO positive & increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFO 1685.0 Cr: 820.0 -> 1285.0 -> 1685.0 (last 3Y) Cr",
+      "detail": "CFO 1734.0 Cr: 1285.0 -> 1685.0 -> 1734.0 (last 3Y) Cr",
       "weight": 2.0
     },
     {
       "id": "c11",
       "label": "CFI negative (investing in growth)",
-      "result": "pass",
-      "score": 1.0,
-      "detail": "CFI = -580.0 Cr -- investing actively",
+      "result": "neutral",
+      "score": 0.5,
+      "detail": "CFI = 15.0 Cr -- positive (possible asset sales)",
       "weight": 1.0
     },
     {
@@ -103,7 +103,7 @@
       "label": "CFF: debt repayment or growth",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFF = -1168.0 Cr -- net debt repayment",
+      "detail": "CFF = -1495.0 Cr -- net debt repayment",
       "weight": 1.0
     },
     {
@@ -111,27 +111,27 @@
       "label": "ROE > ROCE",
       "result": "fail",
       "score": 0.0,
-      "detail": "ROE 28.2% <= ROCE 36.0% -- leverage not adding value",
+      "detail": "ROE 30.2% <= ROCE 40.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Current Price": 5353.0,
-    "Market Cap": 148385.0,
-    "P/E": 63.7,
+    "Current Price": 5881.0,
+    "Market Cap": 163021.0,
+    "P/E": 67.2,
     "Industry P/E": null,
     "P/B": null,
-    "ROE %": 28.2,
-    "ROCE %": 36.3,
+    "ROE %": 30.2,
+    "ROCE %": 39.5,
     "Debt / Equity": null,
-    "Div. Yield %": 0.96,
-    "52W High": 5473.0,
-    "52W Low": 2916.0
+    "Div. Yield %": 0.88,
+    "52W High": 6143.0,
+    "52W Low": 3202.0
   },
   "benchmark": {
     "opm": 22.0,
     "npm": 18.0,
     "sg": 12.0
   },
-  "scanned_at": "2026-05-24T06:06:14.745898+00:00"
+  "scanned_at": "2026-05-31T06:21:49.022539+00:00"
 }

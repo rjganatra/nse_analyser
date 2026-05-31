@@ -3,9 +3,9 @@
   "name": "Authum Investment & Infrastructure Ltd",
   "sector": "Financial Services",
   "screener_url": "https://www.screener.in/company/AIIL/consolidated/",
-  "score_pct": 72.2,
-  "passes": 7,
-  "fails": 1,
+  "score_pct": 62.4,
+  "passes": 6,
+  "fails": 2,
   "neutrals": 5,
   "verdict": "Moderate -- dig deeper",
   "verdict_color": "amber",
@@ -15,7 +15,7 @@
       "label": "Sales growth >= industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "Avg growth 146.5% vs benchmark 10.0%",
+      "detail": "Avg growth 138.2% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "fail",
       "score": 0.0,
-      "detail": "EPS not rising: 50.5 -> 50.0 -> 42.8 (last 3Y)",
+      "detail": "EPS not rising: 50.5 -> 50.0 -> 22.7 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 10328.0 -> 14672.0 -> 16255.0 (last 3Y) Cr",
+      "detail": "Reserves: 10328.0 -> 14672.0 -> 14643.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -71,7 +71,7 @@
       "label": "Fixed assets increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Fixed assets: 355.0 -> 414.0 -> 725.0 (last 3Y) Cr",
+      "detail": "Fixed assets: 355.0 -> 414.0 -> 789.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -109,20 +109,20 @@
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "pass",
-      "score": 1.0,
-      "detail": "ROE 34.0% > ROCE 30.3% -- leverage working for shareholders",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "ROE 13.0% <= ROCE 13.7% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Current Price": 511.0,
-    "Market Cap": 43374.0,
-    "P/E": 11.9,
+    "Current Price": 479.0,
+    "Market Cap": 40657.0,
+    "P/E": 21.0,
     "Industry P/E": null,
     "P/B": null,
-    "ROE %": 33.9,
-    "ROCE %": 30.3,
+    "ROE %": 13.1,
+    "ROCE %": 13.7,
     "Debt / Equity": null,
     "Div. Yield %": 0.04,
     "52W High": 684.0,
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-24T06:01:00.667124+00:00"
+  "scanned_at": "2026-05-31T06:16:36.238842+00:00"
 }

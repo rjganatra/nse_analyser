@@ -3,9 +3,9 @@
   "name": "Belrise Industries Ltd",
   "sector": "Automobile and Auto Components",
   "screener_url": "https://www.screener.in/company/BELRISE/consolidated/",
-  "score_pct": 75.5,
-  "passes": 7,
-  "fails": 1,
+  "score_pct": 65.7,
+  "passes": 6,
+  "fails": 2,
   "neutrals": 5,
   "verdict": "Moderate -- dig deeper",
   "verdict_color": "amber",
@@ -15,7 +15,7 @@
       "label": "Sales growth >= industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "Avg growth 14.4% vs benchmark 10.0%",
+      "detail": "Avg growth 15.3% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 4.8 -> 5.5 -> 5.8 (last 3Y)",
+      "detail": "EPS: 4.8 -> 5.5 -> 5.6 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 2015.0 -> 2371.0 -> 4526.0 (last 3Y) Cr",
+      "detail": "Reserves: 2015.0 -> 2371.0 -> 4781.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -71,7 +71,7 @@
       "label": "Fixed assets increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Fixed assets: 2460.0 -> 2900.0 -> 3044.0 (last 3Y) Cr",
+      "detail": "Fixed assets: 2460.0 -> 2900.0 -> 3104.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -109,20 +109,20 @@
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "pass",
-      "score": 1.0,
-      "detail": "ROE 14.1% > ROCE 14.0% -- leverage working for shareholders",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "ROE 12.6% <= ROCE 15.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
     "Current Price": 216.0,
-    "Market Cap": 19253.0,
-    "P/E": 40.0,
+    "Market Cap": 19262.0,
+    "P/E": 38.5,
     "Industry P/E": null,
     "P/B": null,
-    "ROE %": 14.1,
-    "ROCE %": 14.3,
+    "ROE %": 12.6,
+    "ROCE %": 14.5,
     "Debt / Equity": null,
     "Div. Yield %": 0.25,
     "52W High": 229.0,
@@ -133,5 +133,5 @@
     "npm": 6.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-24T06:02:16.080321+00:00"
+  "scanned_at": "2026-05-31T06:17:53.184683+00:00"
 }

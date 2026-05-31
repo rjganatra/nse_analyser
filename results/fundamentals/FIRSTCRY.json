@@ -15,7 +15,7 @@
       "label": "Sales growth >= industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "Avg growth 54.3% vs benchmark 10.0%",
+      "detail": "Avg growth 54.6% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -23,7 +23,7 @@
       "label": "OPM > industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "OPM 2.0% below benchmark 16.0%",
+      "detail": "OPM 3.0% below benchmark 16.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "neutral",
       "score": 0.5,
-      "detail": "Trend: -3.7 -> -3.6 (last 2Y)",
+      "detail": "Trend: -3.7 -> -2.7 (last 2Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 3082.0 -> 4645.0 -> 4670.0 (last 3Y) Cr",
+      "detail": "Reserves: 3082.0 -> 4645.0 -> 4730.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -71,7 +71,7 @@
       "label": "Fixed assets increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Fixed assets: 3868.0 -> 3609.0 -> 3576.0 (last 3Y) Cr",
+      "detail": "Fixed assets: 3868.0 -> 3609.0 -> 3591.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -111,18 +111,18 @@
       "label": "ROE > ROCE",
       "result": "fail",
       "score": 0.0,
-      "detail": "ROE -4.1% <= ROCE -0.0% -- leverage not adding value",
+      "detail": "ROE -2.4% <= ROCE 1.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Current Price": 235.0,
-    "Market Cap": 12263.0,
+    "Current Price": 225.0,
+    "Market Cap": 11772.0,
     "P/E": null,
     "Industry P/E": null,
     "P/B": null,
-    "ROE %": -4.07,
-    "ROCE %": -0.4,
+    "ROE %": -2.37,
+    "ROCE %": 0.57,
     "Debt / Equity": null,
     "Div. Yield %": 0.0,
     "52W High": 439.0,
@@ -133,5 +133,5 @@
     "npm": 10.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-24T06:03:27.516285+00:00"
+  "scanned_at": "2026-05-31T06:19:03.838602+00:00"
 }

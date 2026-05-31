@@ -3,12 +3,12 @@
   "name": "Interglobe Aviation Ltd",
   "sector": "Services",
   "screener_url": "https://www.screener.in/company/INDIGO/consolidated/",
-  "score_pct": 85.3,
-  "passes": 9,
-  "fails": 0,
+  "score_pct": 59.2,
+  "passes": 6,
+  "fails": 3,
   "neutrals": 4,
-  "verdict": "Strong buy candidate",
-  "verdict_color": "green",
+  "verdict": "Moderate -- dig deeper",
+  "verdict_color": "amber",
   "criteria": [
     {
       "id": "c1",
@@ -21,17 +21,17 @@
     {
       "id": "c2",
       "label": "OPM > industry",
-      "result": "pass",
-      "score": 1.0,
-      "detail": "OPM 20.0% vs benchmark 15.0%",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "OPM 14.0% below benchmark 15.0%",
       "weight": 1.0
     },
     {
       "id": "c3",
       "label": "EPS consistently increasing",
-      "result": "pass",
-      "score": 1.0,
-      "detail": "EPS: 211.7 -> 187.8 -> 83.1 (last 3Y)",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "EPS not rising: 211.7 -> 187.8 -> -61.9 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 1610.0 -> 8982.0 -> 8247.0 (last 3Y) Cr",
+      "detail": "Reserves: 1610.0 -> 8982.0 -> 6584.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -71,7 +71,7 @@
       "label": "Fixed assets increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Fixed assets: 36154.0 -> 51782.0 -> 57314.0 (last 3Y) Cr",
+      "detail": "Fixed assets: 36154.0 -> 51782.0 -> 63178.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -109,20 +109,20 @@
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "pass",
-      "score": 1.0,
-      "detail": "ROE 103.0% > ROCE 17.0% -- leverage working for shareholders",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "ROE -12.2% <= ROCE 7.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Current Price": 4439.0,
-    "Market Cap": 171621.0,
-    "P/E": 37.4,
+    "Current Price": 4405.0,
+    "Market Cap": 170322.0,
+    "P/E": null,
     "Industry P/E": null,
     "P/B": null,
-    "ROE %": 103.0,
-    "ROCE %": 17.3,
+    "ROE %": -12.2,
+    "ROCE %": 7.12,
     "Debt / Equity": null,
     "Div. Yield %": 0.23,
     "52W High": 6232.0,
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-24T06:14:16.769763+00:00"
+  "scanned_at": "2026-05-31T06:29:55.126352+00:00"
 }

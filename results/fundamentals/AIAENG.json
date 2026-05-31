@@ -15,7 +15,7 @@
       "label": "Sales growth >= industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "Avg growth 7.1% below benchmark 12.0%",
+      "detail": "Avg growth 7.6% below benchmark 12.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 120.4 -> 113.7 -> 124.5 (last 3Y)",
+      "detail": "EPS: 120.4 -> 113.7 -> 136.1 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 6639.0 -> 6908.0 -> 7348.0 (last 3Y) Cr",
+      "detail": "Reserves: 6639.0 -> 6908.0 -> 8007.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -71,7 +71,7 @@
       "label": "Fixed assets increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Fixed assets: 1110.0 -> 1175.0 -> 1140.0 (last 3Y) Cr",
+      "detail": "Fixed assets: 1110.0 -> 1175.0 -> 1233.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -87,7 +87,7 @@
       "label": "CFO positive & increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFO 1162.0 Cr: 868.0 -> 903.0 -> 1162.0 (last 3Y) Cr",
+      "detail": "CFO 592.0 Cr: 903.0 -> 1162.0 -> 592.0 (last 3Y) Cr",
       "weight": 2.0
     },
     {
@@ -95,7 +95,7 @@
       "label": "CFI negative (investing in growth)",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFI = -203.0 Cr -- investing actively",
+      "detail": "CFI = -124.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -103,7 +103,7 @@
       "label": "CFF: debt repayment or growth",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFF = -743.0 Cr -- net debt repayment",
+      "detail": "CFF = -660.0 Cr -- net debt repayment",
       "weight": 1.0
     },
     {
@@ -111,21 +111,21 @@
       "label": "ROE > ROCE",
       "result": "fail",
       "score": 0.0,
-      "detail": "ROE 15.4% <= ROCE 19.0% -- leverage not adding value",
+      "detail": "ROE 17.0% <= ROCE 21.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Current Price": 3994.0,
-    "Market Cap": 37272.0,
-    "P/E": 32.0,
+    "Current Price": 4504.0,
+    "Market Cap": 42028.0,
+    "P/E": 33.0,
     "Industry P/E": null,
     "P/B": null,
-    "ROE %": 15.4,
-    "ROCE %": 18.9,
+    "ROE %": 17.0,
+    "ROCE %": 21.1,
     "Debt / Equity": null,
-    "Div. Yield %": 0.4,
-    "52W High": 4206.0,
+    "Div. Yield %": 0.36,
+    "52W High": 4552.0,
     "52W Low": 3001.0
   },
   "benchmark": {
@@ -133,5 +133,5 @@
     "npm": 18.0,
     "sg": 12.0
   },
-  "scanned_at": "2026-05-24T05:57:46.822629+00:00"
+  "scanned_at": "2026-05-31T06:13:17.052508+00:00"
 }

@@ -3,11 +3,11 @@
   "name": "ITI Ltd",
   "sector": "Telecommunication",
   "screener_url": "https://www.screener.in/company/ITI/consolidated/",
-  "score_pct": 42.8,
-  "passes": 4,
-  "fails": 4,
+  "score_pct": 37.6,
+  "passes": 3,
+  "fails": 5,
   "neutrals": 5,
-  "verdict": "Weak fundamentals",
+  "verdict": "Avoid",
   "verdict_color": "red",
   "criteria": [
     {
@@ -15,7 +15,7 @@
       "label": "Sales growth >= industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "Avg growth 16.7% vs benchmark 8.0%",
+      "detail": "Avg growth 15.4% vs benchmark 8.0%",
       "weight": 1.0
     },
     {
@@ -23,7 +23,7 @@
       "label": "OPM > industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "OPM -0.0% below benchmark 30.0%",
+      "detail": "OPM 2.0% below benchmark 30.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "fail",
       "score": 0.0,
-      "detail": "EPS not rising: -5.9 -> -2.2 -> -1.5 (last 3Y)",
+      "detail": "EPS not rising: -5.9 -> -2.2 -> 3.0 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 823.0 -> 664.0 -> 544.0 (last 3Y) Cr",
+      "detail": "Reserves: 823.0 -> 664.0 -> 943.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "pass",
-      "score": 1.0,
-      "detail": "Fixed assets: 2732.0 -> 2710.0 -> 2683.0 (last 3Y) Cr",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "Fixed assets: 2732.0 -> 2710.0 -> 2370.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -111,18 +111,18 @@
       "label": "ROE > ROCE",
       "result": "fail",
       "score": 0.0,
-      "detail": "ROE -14.7% <= ROCE -1.0% -- leverage not adding value",
+      "detail": "ROE -8.9% <= ROCE 1.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Current Price": 289.0,
-    "Market Cap": 27797.0,
+    "Current Price": 300.0,
+    "Market Cap": 28933.0,
     "P/E": null,
     "Industry P/E": null,
     "P/B": null,
-    "ROE %": -14.7,
-    "ROCE %": -0.77,
+    "ROE %": -8.86,
+    "ROCE %": 1.41,
     "Debt / Equity": null,
     "Div. Yield %": 0.0,
     "52W High": 373.0,
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 8.0
   },
-  "scanned_at": "2026-05-24T06:13:02.257500+00:00"
+  "scanned_at": "2026-05-31T06:28:39.167020+00:00"
 }

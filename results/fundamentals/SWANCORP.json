@@ -3,9 +3,9 @@
   "name": "Swan Corp Ltd",
   "sector": "Chemicals",
   "screener_url": "https://www.screener.in/company/SWANCORP/consolidated/",
-  "score_pct": 42.8,
-  "passes": 4,
-  "fails": 4,
+  "score_pct": 52.6,
+  "passes": 5,
+  "fails": 3,
   "neutrals": 5,
   "verdict": "Weak fundamentals",
   "verdict_color": "red",
@@ -15,7 +15,7 @@
       "label": "Sales growth >= industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "Avg growth 48.1% vs benchmark 11.0%",
+      "detail": "Avg growth 53.0% vs benchmark 11.0%",
       "weight": 1.0
     },
     {
@@ -23,15 +23,15 @@
       "label": "OPM > industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "OPM 2.0% below benchmark 18.0%",
+      "detail": "OPM -5.0% below benchmark 18.0%",
       "weight": 1.0
     },
     {
       "id": "c3",
       "label": "EPS consistently increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "EPS not rising: 9.6 -> 24.1 -> -0.4 (last 3Y)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "EPS: 9.6 -> 24.1 -> 8.8 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 6248.0 -> 7311.0 -> 7365.0 (last 3Y) Cr",
+      "detail": "Reserves: 6248.0 -> 7311.0 -> 7505.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -71,7 +71,7 @@
       "label": "Fixed assets increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Fixed assets: 4148.0 -> 3734.0 -> 3771.0 (last 3Y) Cr",
+      "detail": "Fixed assets: 4148.0 -> 3734.0 -> 3806.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -111,18 +111,18 @@
       "label": "ROE > ROCE",
       "result": "fail",
       "score": 0.0,
-      "detail": "ROE -4.5% <= ROCE -1.0% -- leverage not adding value",
+      "detail": "ROE 3.7% <= ROCE 4.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Current Price": 318.0,
-    "Market Cap": 9963.0,
-    "P/E": null,
+    "Current Price": 329.0,
+    "Market Cap": 10322.0,
+    "P/E": 37.6,
     "Industry P/E": null,
     "P/B": null,
-    "ROE %": -4.47,
-    "ROCE %": -1.44,
+    "ROE %": 3.68,
+    "ROCE %": 3.87,
     "Debt / Equity": null,
     "Div. Yield %": 0.03,
     "52W High": 527.0,
@@ -133,5 +133,5 @@
     "npm": 10.0,
     "sg": 11.0
   },
-  "scanned_at": "2026-05-24T06:26:06.450477+00:00"
+  "scanned_at": "2026-05-31T06:41:48.706951+00:00"
 }

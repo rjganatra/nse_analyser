@@ -15,7 +15,7 @@
       "label": "Sales growth >= industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "Avg growth 15.4% vs benchmark 10.0%",
+      "detail": "Avg growth 17.1% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -23,7 +23,7 @@
       "label": "OPM > industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "OPM 10.0% below benchmark 12.0%",
+      "detail": "OPM 9.0% below benchmark 12.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 12.4 -> 17.1 -> 17.4 (last 3Y)",
+      "detail": "EPS: 12.4 -> 17.1 -> 17.6 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 988.0 -> 1169.0 -> 1263.0 (last 3Y) Cr",
+      "detail": "Reserves: 988.0 -> 1169.0 -> 1354.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -71,7 +71,7 @@
       "label": "Fixed assets increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Fixed assets: 543.0 -> 641.0 -> 732.0 (last 3Y) Cr",
+      "detail": "Fixed assets: 543.0 -> 641.0 -> 843.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -111,20 +111,20 @@
       "label": "ROE > ROCE",
       "result": "fail",
       "score": 0.0,
-      "detail": "ROE 22.2% <= ROCE 28.0% -- leverage not adding value",
+      "detail": "ROE 20.6% <= ROCE 26.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Current Price": 1120.0,
-    "Market Cap": 16088.0,
-    "P/E": 61.8,
+    "Current Price": 1100.0,
+    "Market Cap": 15802.0,
+    "P/E": 60.2,
     "Industry P/E": null,
     "P/B": null,
-    "ROE %": 22.2,
-    "ROCE %": 28.4,
+    "ROE %": 20.6,
+    "ROCE %": 26.1,
     "Debt / Equity": null,
-    "Div. Yield %": 0.42,
+    "Div. Yield %": 0.43,
     "52W High": 1388.0,
     "52W Low": 582.0
   },
@@ -133,5 +133,5 @@
     "npm": 6.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-24T06:09:14.648626+00:00"
+  "scanned_at": "2026-05-31T06:24:50.075079+00:00"
 }

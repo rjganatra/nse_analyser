@@ -15,7 +15,7 @@
       "label": "Sales growth >= industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "Avg growth 27.8% vs benchmark 10.0%",
+      "detail": "Avg growth 39.5% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 865.4 -> 1.3 -> 1.9 (last 3Y)",
+      "detail": "EPS: 865.4 -> 1.3 -> 2.8 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 996.0 -> 931.0 -> 3634.0 (last 3Y) Cr",
+      "detail": "Reserves: 996.0 -> 931.0 -> 3183.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -71,7 +71,7 @@
       "label": "Fixed assets increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Fixed assets: 3491.0 -> 4600.0 -> 6268.0 (last 3Y) Cr",
+      "detail": "Fixed assets: 3491.0 -> 4600.0 -> 6650.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -111,18 +111,18 @@
       "label": "ROE > ROCE",
       "result": "pass",
       "score": 1.0,
-      "detail": "ROE 8.7% > ROCE 7.0% -- leverage working for shareholders",
+      "detail": "ROE 10.0% > ROCE 7.0% -- leverage working for shareholders",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Current Price": 207.0,
-    "Market Cap": 22976.0,
-    "P/E": 112.0,
+    "Current Price": 196.0,
+    "Market Cap": 21734.0,
+    "P/E": 70.0,
     "Industry P/E": null,
     "P/B": null,
-    "ROE %": 8.73,
-    "ROCE %": 7.01,
+    "ROE %": 10.0,
+    "ROCE %": 7.33,
     "Debt / Equity": null,
     "Div. Yield %": 0.0,
     "52W High": 302.0,
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-24T05:59:17.181726+00:00"
+  "scanned_at": "2026-05-31T06:14:50.013675+00:00"
 }

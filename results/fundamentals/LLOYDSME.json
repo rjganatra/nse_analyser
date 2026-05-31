@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 24.6 -> 27.7 -> 65.4 (last 3Y)",
+      "detail": "EPS: 24.6 -> 27.8 -> 65.4 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 2760.0 -> 6350.0 -> 13815.0 (last 3Y) Cr",
+      "detail": "Reserves: 2760.0 -> 6408.0 -> 13815.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -71,7 +71,7 @@
       "label": "Fixed assets increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Fixed assets: 1235.0 -> 1613.0 -> 13169.0 (last 3Y) Cr",
+      "detail": "Fixed assets: 1235.0 -> 1691.0 -> 13169.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -87,7 +87,7 @@
       "label": "CFO positive & increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFO 2921.0 Cr: 1701.0 -> 1205.0 -> 2921.0 (last 3Y) Cr",
+      "detail": "CFO 2921.0 Cr: 1701.0 -> 1207.0 -> 2921.0 (last 3Y) Cr",
       "weight": 2.0
     },
     {
@@ -95,7 +95,7 @@
       "label": "CFI negative (investing in growth)",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFI = -10543.0 Cr -- investing actively",
+      "detail": "CFI = -9474.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -111,21 +111,21 @@
       "label": "ROE > ROCE",
       "result": "pass",
       "score": 1.0,
-      "detail": "ROE 36.3% > ROCE 27.0% -- leverage working for shareholders",
+      "detail": "ROE 36.6% > ROCE 27.0% -- leverage working for shareholders",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Current Price": 1737.0,
-    "Market Cap": 97773.0,
-    "P/E": 26.6,
+    "Current Price": 1802.0,
+    "Market Cap": 101420.0,
+    "P/E": 27.3,
     "Industry P/E": null,
     "P/B": null,
-    "ROE %": 36.3,
-    "ROCE %": 27.2,
+    "ROE %": 36.6,
+    "ROCE %": 27.3,
     "Debt / Equity": null,
     "Div. Yield %": 0.06,
-    "52W High": 1863.0,
+    "52W High": 1889.0,
     "52W Low": 1043.0
   },
   "benchmark": {
@@ -133,5 +133,5 @@
     "npm": 7.0,
     "sg": 8.0
   },
-  "scanned_at": "2026-05-24T06:17:47.236731+00:00"
+  "scanned_at": "2026-05-31T06:33:29.611750+00:00"
 }
