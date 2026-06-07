@@ -3,12 +3,12 @@
   "name": "Syrma SGS Technology Ltd",
   "sector": "Capital Goods",
   "screener_url": "https://www.screener.in/company/SYRMA/consolidated/",
-  "score_pct": 65.7,
-  "passes": 6,
-  "fails": 2,
+  "score_pct": 55.9,
+  "passes": 5,
+  "fails": 3,
   "neutrals": 5,
-  "verdict": "Moderate -- dig deeper",
-  "verdict_color": "amber",
+  "verdict": "Weak fundamentals",
+  "verdict_color": "red",
   "criteria": [
     {
       "id": "c1",
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 1435.0 -> 1572.0 -> 2617.0 (last 3Y) Cr",
+      "detail": "Reserves: 1435.0 -> 1572.0 -> 2670.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -71,7 +71,7 @@
       "label": "Fixed assets increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Fixed assets: 1075.0 -> 1144.0 -> 1144.0 (last 3Y) Cr",
+      "detail": "Fixed assets: 1075.0 -> 1144.0 -> 1463.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -109,23 +109,23 @@
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "pass",
-      "score": 1.0,
-      "detail": "ROE 18.3% > ROCE 12.0% -- leverage working for shareholders",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "ROE 13.9% <= ROCE 17.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Current Price": 1089.0,
-    "Market Cap": 20991.0,
-    "P/E": 65.4,
+    "Current Price": 1227.0,
+    "Market Cap": 23656.0,
+    "P/E": 73.7,
     "Industry P/E": null,
     "P/B": null,
-    "ROE %": 18.3,
-    "ROCE %": 20.0,
+    "ROE %": 13.9,
+    "ROCE %": 16.7,
     "Debt / Equity": null,
-    "Div. Yield %": 0.14,
-    "52W High": 1188.0,
+    "Div. Yield %": 0.12,
+    "52W High": 1235.0,
     "52W Low": 499.0
   },
   "benchmark": {
@@ -133,5 +133,5 @@
     "npm": 18.0,
     "sg": 12.0
   },
-  "scanned_at": "2026-05-31T06:42:00.349280+00:00"
+  "scanned_at": "2026-06-07T06:48:04.682004+00:00"
 }

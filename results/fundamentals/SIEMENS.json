@@ -3,19 +3,19 @@
   "name": "Siemens Ltd",
   "sector": "Capital Goods",
   "screener_url": "https://www.screener.in/company/SIEMENS/consolidated/",
-  "score_pct": 52.6,
-  "passes": 4,
+  "score_pct": 62.4,
+  "passes": 6,
   "fails": 3,
-  "neutrals": 6,
-  "verdict": "Weak fundamentals",
-  "verdict_color": "red",
+  "neutrals": 4,
+  "verdict": "Moderate -- dig deeper",
+  "verdict_color": "amber",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "Avg growth 10.0% below benchmark 12.0%",
+      "detail": "Avg growth 9.0% below benchmark 12.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 76.3 -> 59.1 -> 77.3 (last 3Y)",
+      "detail": "EPS: 55.1 -> 76.3 -> 77.3 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 15286.0 -> 13156.0 -> 13769.0 (last 3Y) Cr",
+      "detail": "Reserves: 13016.0 -> 15286.0 -> 13769.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -71,7 +71,7 @@
       "label": "Fixed assets increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Fixed assets: 3112.0 -> 2641.0 -> 2786.0 (last 3Y) Cr",
+      "detail": "Fixed assets: 3038.0 -> 3112.0 -> 2786.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -85,17 +85,17 @@
     {
       "id": "c10",
       "label": "CFO positive & increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFO positive (375.0 Cr) but not consistently growing",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFO 1670.0 Cr: 978.0 -> 1400.0 -> 1670.0 (last 3Y) Cr",
       "weight": 2.0
     },
     {
       "id": "c11",
       "label": "CFI negative (investing in growth)",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFI = 3120.0 Cr -- positive (possible asset sales)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFI = -502.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -103,7 +103,7 @@
       "label": "CFF: debt repayment or growth",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFF = -3186.0 Cr -- net debt repayment",
+      "detail": "CFF = -523.0 Cr -- net debt repayment",
       "weight": 1.0
     },
     {
@@ -116,9 +116,9 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 3844.0,
-    "Market Cap": 136893.0,
-    "P/E": 57.7,
+    "Current Price": 3701.0,
+    "Market Cap": 131793.0,
+    "P/E": 55.5,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 16.3,
@@ -133,5 +133,5 @@
     "npm": 18.0,
     "sg": 12.0
   },
-  "scanned_at": "2026-05-31T06:40:46.138217+00:00"
+  "scanned_at": "2026-06-07T06:46:48.564088+00:00"
 }

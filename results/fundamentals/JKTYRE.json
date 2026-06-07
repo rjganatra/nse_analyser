@@ -3,10 +3,10 @@
   "name": "JK Tyre & Industries Ltd",
   "sector": "Automobile and Auto Components",
   "screener_url": "https://www.screener.in/company/JKTYRE/consolidated/",
-  "score_pct": 65.7,
-  "passes": 6,
+  "score_pct": 72.2,
+  "passes": 7,
   "fails": 2,
-  "neutrals": 5,
+  "neutrals": 4,
   "verdict": "Moderate -- dig deeper",
   "verdict_color": "amber",
   "criteria": [
@@ -85,9 +85,9 @@
     {
       "id": "c10",
       "label": "CFO positive & increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFO positive (716.0 Cr) but not consistently growing",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFO 1444.0 Cr: 1614.0 -> 716.0 -> 1444.0 (last 3Y) Cr",
       "weight": 2.0
     },
     {
@@ -95,7 +95,7 @@
       "label": "CFI negative (investing in growth)",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFI = -463.0 Cr -- investing actively",
+      "detail": "CFI = -627.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -103,7 +103,7 @@
       "label": "CFF: debt repayment or growth",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFF = -237.0 Cr -- net debt repayment",
+      "detail": "CFF = -783.0 Cr -- net debt repayment",
       "weight": 1.0
     },
     {
@@ -116,15 +116,15 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 408.0,
-    "Market Cap": 11762.0,
-    "P/E": 13.3,
+    "Current Price": 382.0,
+    "Market Cap": 11008.0,
+    "P/E": 12.4,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 16.2,
     "ROCE %": 15.5,
     "Debt / Equity": null,
-    "Div. Yield %": 0.74,
+    "Div. Yield %": 0.79,
     "52W High": 612.0,
     "52W Low": 311.0
   },
@@ -133,5 +133,5 @@
     "npm": 6.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-31T06:30:23.452759+00:00"
+  "scanned_at": "2026-06-07T06:36:19.100372+00:00"
 }

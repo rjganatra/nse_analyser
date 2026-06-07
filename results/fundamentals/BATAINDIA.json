@@ -3,12 +3,12 @@
   "name": "Bata India Ltd",
   "sector": "Consumer Durables",
   "screener_url": "https://www.screener.in/company/BATAINDIA/consolidated/",
-  "score_pct": 55.9,
-  "passes": 5,
+  "score_pct": 59.2,
+  "passes": 6,
   "fails": 3,
-  "neutrals": 5,
-  "verdict": "Weak fundamentals",
-  "verdict_color": "red",
+  "neutrals": 4,
+  "verdict": "Moderate -- dig deeper",
+  "verdict_color": "amber",
   "criteria": [
     {
       "id": "c1",
@@ -87,15 +87,15 @@
       "label": "CFO positive & increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFO 738.0 Cr: 629.0 -> 453.0 -> 738.0 (last 3Y) Cr",
+      "detail": "CFO 595.0 Cr: 453.0 -> 738.0 -> 595.0 (last 3Y) Cr",
       "weight": 2.0
     },
     {
       "id": "c11",
       "label": "CFI negative (investing in growth)",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFI = 53.0 Cr -- positive (possible asset sales)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFI = -257.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -103,7 +103,7 @@
       "label": "CFF: debt repayment or growth",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFF = -638.0 Cr -- net debt repayment",
+      "detail": "CFF = -531.0 Cr -- net debt repayment",
       "weight": 1.0
     },
     {
@@ -116,15 +116,15 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 669.0,
-    "Market Cap": 8598.0,
-    "P/E": 51.9,
+    "Current Price": 665.0,
+    "Market Cap": 8542.0,
+    "P/E": 51.5,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 10.5,
     "ROCE %": 12.2,
     "Debt / Equity": null,
-    "Div. Yield %": 2.84,
+    "Div. Yield %": 1.35,
     "52W High": 1288.0,
     "52W Low": 605.0
   },
@@ -133,5 +133,5 @@
     "npm": 10.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-31T06:17:45.167441+00:00"
+  "scanned_at": "2026-06-07T06:23:32.909031+00:00"
 }

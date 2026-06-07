@@ -87,7 +87,7 @@
       "label": "CFO positive & increasing",
       "result": "fail",
       "score": 0.0,
-      "detail": "CFO -529.0 Cr -- negative cash flow",
+      "detail": "CFO -14.0 Cr -- negative cash flow",
       "weight": 2.0
     },
     {
@@ -95,7 +95,7 @@
       "label": "CFI negative (investing in growth)",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFI = 1346.0 Cr -- positive (possible asset sales)",
+      "detail": "CFI = 294.0 Cr -- positive (possible asset sales)",
       "weight": 1.0
     },
     {
@@ -103,7 +103,7 @@
       "label": "CFF: debt repayment or growth",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFF = -560.0 Cr -- net debt repayment",
+      "detail": "CFF = -1034.0 Cr -- net debt repayment",
       "weight": 1.0
     },
     {
@@ -116,9 +116,9 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 329.0,
-    "Market Cap": 10322.0,
-    "P/E": 37.6,
+    "Current Price": 311.0,
+    "Market Cap": 9763.0,
+    "P/E": 35.6,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 3.68,
@@ -133,5 +133,5 @@
     "npm": 10.0,
     "sg": 11.0
   },
-  "scanned_at": "2026-05-31T06:41:48.706951+00:00"
+  "scanned_at": "2026-06-07T06:47:52.688485+00:00"
 }

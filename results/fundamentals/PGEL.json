@@ -3,12 +3,12 @@
   "name": "PG Electroplast Ltd",
   "sector": "Consumer Durables",
   "screener_url": "https://www.screener.in/company/PGEL/consolidated/",
-  "score_pct": 52.6,
-  "passes": 5,
-  "fails": 3,
+  "score_pct": 65.7,
+  "passes": 6,
+  "fails": 2,
   "neutrals": 5,
-  "verdict": "Weak fundamentals",
-  "verdict_color": "red",
+  "verdict": "Moderate -- dig deeper",
+  "verdict_color": "amber",
   "criteria": [
     {
       "id": "c1",
@@ -85,9 +85,9 @@
     {
       "id": "c10",
       "label": "CFO positive & increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "CFO -77.0 Cr -- negative cash flow",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFO 66.0 Cr: 188.0 -> -77.0 -> 66.0 (last 3Y) Cr",
       "weight": 2.0
     },
     {
@@ -95,7 +95,7 @@
       "label": "CFI negative (investing in growth)",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFI = -1201.0 Cr -- investing actively",
+      "detail": "CFI = -198.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -103,7 +103,7 @@
       "label": "CFF: debt repayment or growth",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFF = 1329.0 Cr -- raising capital (verify if for growth)",
+      "detail": "CFF = 82.0 Cr -- raising capital (verify if for growth)",
       "weight": 1.0
     },
     {
@@ -116,9 +116,9 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 483.0,
-    "Market Cap": 13781.0,
-    "P/E": 70.1,
+    "Current Price": 485.0,
+    "Market Cap": 13861.0,
+    "P/E": 70.5,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 6.69,
@@ -133,5 +133,5 @@
     "npm": 10.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-31T06:37:03.805270+00:00"
+  "scanned_at": "2026-06-07T06:43:00.430427+00:00"
 }

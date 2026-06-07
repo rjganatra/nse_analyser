@@ -3,10 +3,10 @@
   "name": "NMDC Ltd",
   "sector": "Metals & Mining",
   "screener_url": "https://www.screener.in/company/NMDC/consolidated/",
-  "score_pct": 65.7,
-  "passes": 6,
+  "score_pct": 75.5,
+  "passes": 8,
   "fails": 1,
-  "neutrals": 6,
+  "neutrals": 4,
   "verdict": "Moderate -- dig deeper",
   "verdict_color": "amber",
   "criteria": [
@@ -85,17 +85,17 @@
     {
       "id": "c10",
       "label": "CFO positive & increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFO positive (1894.0 Cr) but not consistently growing",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFO 4996.0 Cr: 7394.0 -> 1894.0 -> 4996.0 (last 3Y) Cr",
       "weight": 2.0
     },
     {
       "id": "c11",
       "label": "CFI negative (investing in growth)",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFI = 306.0 Cr -- positive (possible asset sales)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFI = -3842.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -103,7 +103,7 @@
       "label": "CFF: debt repayment or growth",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFF = -2225.0 Cr -- net debt repayment",
+      "detail": "CFF = -1092.0 Cr -- net debt repayment",
       "weight": 1.0
     },
     {
@@ -116,16 +116,16 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 88.0,
-    "Market Cap": 77359.0,
-    "P/E": 10.4,
+    "Current Price": 92.9,
+    "Market Cap": 81676.0,
+    "P/E": 11.0,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 23.4,
     "ROCE %": 27.6,
     "Debt / Equity": null,
-    "Div. Yield %": 3.75,
-    "52W High": 94.2,
+    "Div. Yield %": 3.55,
+    "52W High": 97.5,
     "52W Low": 66.8
   },
   "benchmark": {
@@ -133,5 +133,5 @@
     "npm": 7.0,
     "sg": 8.0
   },
-  "scanned_at": "2026-05-31T06:35:22.530389+00:00"
+  "scanned_at": "2026-06-07T06:41:16.461489+00:00"
 }

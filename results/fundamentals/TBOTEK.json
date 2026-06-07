@@ -3,9 +3,9 @@
   "name": "TBO Tek Ltd",
   "sector": "Consumer Services",
   "screener_url": "https://www.screener.in/company/TBOTEK/consolidated/",
-  "score_pct": 55.9,
-  "passes": 5,
-  "fails": 3,
+  "score_pct": 42.8,
+  "passes": 4,
+  "fails": 4,
   "neutrals": 5,
   "verdict": "Weak fundamentals",
   "verdict_color": "red",
@@ -85,9 +85,9 @@
     {
       "id": "c10",
       "label": "CFO positive & increasing",
-      "result": "pass",
-      "score": 1.0,
-      "detail": "CFO 289.0 Cr: 237.0 -> 226.0 -> 289.0 (last 3Y) Cr",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "CFO -21.0 Cr -- negative cash flow",
       "weight": 2.0
     },
     {
@@ -95,7 +95,7 @@
       "label": "CFI negative (investing in growth)",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFI = -443.0 Cr -- investing actively",
+      "detail": "CFI = -418.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -103,7 +103,7 @@
       "label": "CFF: debt repayment or growth",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFF = 365.0 Cr -- raising capital (verify if for growth)",
+      "detail": "CFF = 441.0 Cr -- raising capital (verify if for growth)",
       "weight": 1.0
     },
     {
@@ -116,9 +116,9 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 1229.0,
-    "Market Cap": 13350.0,
-    "P/E": 55.1,
+    "Current Price": 1225.0,
+    "Market Cap": 13304.0,
+    "P/E": 54.9,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 17.6,
@@ -133,5 +133,5 @@
     "npm": 10.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-31T06:42:04.231158+00:00"
+  "scanned_at": "2026-06-07T06:48:08.672054+00:00"
 }

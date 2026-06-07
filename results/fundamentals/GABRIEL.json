@@ -3,10 +3,10 @@
   "name": "Gabriel India Ltd",
   "sector": "Automobile and Auto Components",
   "screener_url": "https://www.screener.in/company/GABRIEL/consolidated/",
-  "score_pct": 62.4,
-  "passes": 6,
+  "score_pct": 69.0,
+  "passes": 7,
   "fails": 2,
-  "neutrals": 5,
+  "neutrals": 4,
   "verdict": "Moderate -- dig deeper",
   "verdict_color": "amber",
   "criteria": [
@@ -85,9 +85,9 @@
     {
       "id": "c10",
       "label": "CFO positive & increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFO positive (204.0 Cr) but not consistently growing",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFO 345.0 Cr: 177.0 -> 204.0 -> 345.0 (last 3Y) Cr",
       "weight": 2.0
     },
     {
@@ -95,7 +95,7 @@
       "label": "CFI negative (investing in growth)",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFI = -149.0 Cr -- investing actively",
+      "detail": "CFI = -248.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -103,7 +103,7 @@
       "label": "CFF: debt repayment or growth",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFF = -81.0 Cr -- net debt repayment",
+      "detail": "CFF = -19.0 Cr -- net debt repayment",
       "weight": 1.0
     },
     {
@@ -116,15 +116,15 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 1100.0,
-    "Market Cap": 15802.0,
-    "P/E": 60.2,
+    "Current Price": 1001.0,
+    "Market Cap": 14373.0,
+    "P/E": 54.8,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 20.6,
     "ROCE %": 26.1,
     "Debt / Equity": null,
-    "Div. Yield %": 0.43,
+    "Div. Yield %": 0.47,
     "52W High": 1388.0,
     "52W Low": 582.0
   },
@@ -133,5 +133,5 @@
     "npm": 6.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-05-31T06:24:50.075079+00:00"
+  "scanned_at": "2026-06-07T06:30:42.924380+00:00"
 }

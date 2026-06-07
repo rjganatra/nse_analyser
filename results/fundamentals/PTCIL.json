@@ -3,19 +3,19 @@
   "name": "PTC Industries Ltd",
   "sector": "Capital Goods",
   "screener_url": "https://www.screener.in/company/PTCIL/consolidated/",
-  "score_pct": 65.7,
-  "passes": 6,
-  "fails": 2,
+  "score_pct": 52.6,
+  "passes": 5,
+  "fails": 3,
   "neutrals": 5,
-  "verdict": "Moderate -- dig deeper",
-  "verdict_color": "amber",
+  "verdict": "Weak fundamentals",
+  "verdict_color": "red",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "Avg growth 18.0% vs benchmark 12.0%",
+      "detail": "Avg growth 21.0% vs benchmark 12.0%",
       "weight": 1.0
     },
     {
@@ -23,7 +23,7 @@
       "label": "OPM > industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "OPM 18.0% below benchmark 22.0%",
+      "detail": "OPM 22.0% below benchmark 22.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 29.2 -> 40.7 -> 44.2 (last 3Y)",
+      "detail": "EPS: 29.2 -> 40.7 -> 67.7 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 631.0 -> 1372.0 -> 1402.0 (last 3Y) Cr",
+      "detail": "Reserves: 631.0 -> 1372.0 -> 1492.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -71,7 +71,7 @@
       "label": "Fixed assets increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Fixed assets: 233.0 -> 449.0 -> 451.0 (last 3Y) Cr",
+      "detail": "Fixed assets: 233.0 -> 449.0 -> 644.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -85,9 +85,9 @@
     {
       "id": "c10",
       "label": "CFO positive & increasing",
-      "result": "pass",
-      "score": 1.0,
-      "detail": "CFO 14.0 Cr: 47.0 -> -96.0 -> 14.0 (last 3Y) Cr",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "CFO -69.0 Cr -- negative cash flow",
       "weight": 2.0
     },
     {
@@ -95,7 +95,7 @@
       "label": "CFI negative (investing in growth)",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFI = -502.0 Cr -- investing actively",
+      "detail": "CFI = -271.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -103,7 +103,7 @@
       "label": "CFF: debt repayment or growth",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFF = 544.0 Cr -- raising capital (verify if for growth)",
+      "detail": "CFF = 185.0 Cr -- raising capital (verify if for growth)",
       "weight": 1.0
     },
     {
@@ -111,21 +111,21 @@
       "label": "ROE > ROCE",
       "result": "fail",
       "score": 0.0,
-      "detail": "ROE 6.1% <= ROCE 8.0% -- leverage not adding value",
+      "detail": "ROE 7.0% <= ROCE 8.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Current Price": 16191.0,
-    "Market Cap": 24274.0,
-    "P/E": 364.0,
+    "Current Price": 18523.0,
+    "Market Cap": 27771.0,
+    "P/E": 273.0,
     "Industry P/E": null,
     "P/B": null,
-    "ROE %": 6.07,
-    "ROCE %": 7.74,
+    "ROE %": 7.02,
+    "ROCE %": 8.43,
     "Debt / Equity": null,
     "Div. Yield %": 0.0,
-    "52W High": 19440.0,
+    "52W High": 19863.0,
     "52W Low": 13251.0
   },
   "benchmark": {
@@ -133,5 +133,5 @@
     "npm": 18.0,
     "sg": 12.0
   },
-  "scanned_at": "2026-05-31T06:37:15.510997+00:00"
+  "scanned_at": "2026-06-07T06:43:12.427487+00:00"
 }

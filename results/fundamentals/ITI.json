@@ -95,7 +95,7 @@
       "label": "CFI negative (investing in growth)",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFI = 651.0 Cr -- positive (possible asset sales)",
+      "detail": "CFI = 924.0 Cr -- positive (possible asset sales)",
       "weight": 1.0
     },
     {
@@ -103,7 +103,7 @@
       "label": "CFF: debt repayment or growth",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFF = -485.0 Cr -- net debt repayment",
+      "detail": "CFF = -913.0 Cr -- net debt repayment",
       "weight": 1.0
     },
     {
@@ -116,8 +116,8 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 300.0,
-    "Market Cap": 28933.0,
+    "Current Price": 302.0,
+    "Market Cap": 29087.0,
     "P/E": null,
     "Industry P/E": null,
     "P/B": null,
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 8.0
   },
-  "scanned_at": "2026-05-31T06:28:39.167020+00:00"
+  "scanned_at": "2026-06-07T06:34:35.062972+00:00"
 }

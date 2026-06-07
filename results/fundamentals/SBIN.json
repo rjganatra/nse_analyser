@@ -3,10 +3,10 @@
   "name": "State Bank of India",
   "sector": "Banking",
   "screener_url": "https://www.screener.in/company/SBIN/consolidated/",
-  "score_pct": 75.5,
-  "passes": 7,
+  "score_pct": 72.2,
+  "passes": 6,
   "fails": 1,
-  "neutrals": 5,
+  "neutrals": 6,
   "verdict": "Moderate -- dig deeper",
   "verdict_color": "amber",
   "criteria": [
@@ -87,15 +87,15 @@
       "label": "CFO positive & increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFO 38097.0 Cr: 21632.0 -> 48486.0 -> 38097.0 (last 3Y) Cr",
+      "detail": "CFO 38097.0 Cr: 21632.0 -> 45484.0 -> 38097.0 (last 3Y) Cr",
       "weight": 2.0
     },
     {
       "id": "c11",
       "label": "CFI negative (investing in growth)",
-      "result": "pass",
-      "score": 1.0,
-      "detail": "CFI = -691.0 Cr -- investing actively",
+      "result": "neutral",
+      "score": 0.5,
+      "detail": "CFI = 9240.0 Cr -- positive (possible asset sales)",
       "weight": 1.0
     },
     {
@@ -116,15 +116,15 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 964.0,
-    "Market Cap": 890201.0,
-    "P/E": 10.7,
+    "Current Price": 978.0,
+    "Market Cap": 902477.0,
+    "P/E": 10.8,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 15.4,
     "ROCE %": 6.13,
     "Debt / Equity": null,
-    "Div. Yield %": 1.8,
+    "Div. Yield %": 1.77,
     "52W High": 1235.0,
     "52W Low": 782.0
   },
@@ -133,5 +133,5 @@
     "npm": 20.0,
     "sg": 12.0
   },
-  "scanned_at": "2026-05-31T06:41:13.512567+00:00"
+  "scanned_at": "2026-06-07T06:47:16.583145+00:00"
 }
