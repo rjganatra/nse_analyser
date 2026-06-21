@@ -3,9 +3,9 @@
   "name": "Tata Power Company Ltd",
   "sector": "Power",
   "screener_url": "https://www.screener.in/company/TATAPOWER/consolidated/",
-  "score_pct": 69.0,
-  "passes": 6,
-  "fails": 2,
+  "score_pct": 59.2,
+  "passes": 5,
+  "fails": 3,
   "neutrals": 5,
   "verdict": "Moderate -- dig deeper",
   "verdict_color": "amber",
@@ -95,7 +95,7 @@
       "label": "CFI negative (investing in growth)",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFI = -14193.0 Cr -- investing actively",
+      "detail": "CFI = -14129.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -109,22 +109,22 @@
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "pass",
-      "score": 1.0,
-      "detail": "ROE 10.1% > ROCE 10.0% -- leverage working for shareholders",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "ROE 10.2% <= ROCE 11.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Current Price": 394.0,
-    "Market Cap": 125753.0,
-    "P/E": 33.1,
+    "Current Price": 402.0,
+    "Market Cap": 128564.0,
+    "P/E": 33.4,
     "Industry P/E": null,
     "P/B": null,
-    "ROE %": 10.1,
+    "ROE %": 10.2,
     "ROCE %": 10.5,
     "Debt / Equity": null,
-    "Div. Yield %": 0.64,
+    "Div. Yield %": 0.62,
     "52W High": 465.0,
     "52W Low": 342.0
   },
@@ -133,5 +133,5 @@
     "npm": 10.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-06-14T06:58:49.239964+00:00"
+  "scanned_at": "2026-06-21T07:16:17.068313+00:00"
 }

@@ -1,6 +1,6 @@
 {
   "symbol": "IGIL",
-  "name": "International Gemmological Institute (India) Ltd",
+  "name": "International Gemological Institute Limited",
   "sector": "Services",
   "screener_url": "https://www.screener.in/company/IGIL/consolidated/",
   "score_pct": 75.5,
@@ -116,15 +116,15 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 367.0,
-    "Market Cap": 15849.0,
-    "P/E": 27.8,
+    "Current Price": 356.0,
+    "Market Cap": 15374.0,
+    "P/E": 27.0,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 43.0,
     "ROCE %": 53.6,
     "Debt / Equity": null,
-    "Div. Yield %": 0.68,
+    "Div. Yield %": 0.7,
     "52W High": 442.0,
     "52W Low": 287.0
   },
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-06-14T06:46:02.237460+00:00"
+  "scanned_at": "2026-06-21T07:03:25.003599+00:00"
 }
