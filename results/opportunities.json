@@ -1,7 +1,7 @@
 {
   "meta": {
     "strategy": "opportunities",
-    "scanned_at": "2026-06-25T13:57:57.877827+00:00",
+    "scanned_at": "2026-06-26T10:22:07.651412+00:00",
     "total": 500,
     "success": 467,
     "opportunities": 322,
@@ -32,7 +32,7 @@
         "roce": 11.2,
         "de": null,
         "div_yield": 0.56,
-        "market_cap": 25145.0
+        "market_cap": 25124.0
       }
     },
     {
@@ -58,7 +58,7 @@
         "roce": 18.3,
         "de": null,
         "div_yield": 0.55,
-        "market_cap": 23670.0
+        "market_cap": 23658.0
       }
     },
     {
@@ -110,7 +110,7 @@
         "roce": 20.1,
         "de": null,
         "div_yield": 2.99,
-        "market_cap": 18811.0
+        "market_cap": 18814.0
       }
     },
     {
@@ -136,7 +136,7 @@
         "roce": 18.5,
         "de": null,
         "div_yield": 0.86,
-        "market_cap": 1127863.0
+        "market_cap": 1127683.0
       }
     },
     {
@@ -155,14 +155,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/BIKAJI/consolidated/",
       "ratios": {
-        "pe": 61.3,
+        "pe": 61.4,
         "industry_pe": null,
         "pb": null,
         "roe": 17.5,
         "roce": 19.7,
         "de": null,
         "div_yield": 0.2,
-        "market_cap": 16034.0
+        "market_cap": 16062.0
       }
     },
     {
@@ -188,7 +188,7 @@
         "roce": 21.6,
         "de": null,
         "div_yield": 2.16,
-        "market_cap": 8401.0
+        "market_cap": 8405.0
       }
     },
     {
@@ -207,14 +207,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/BLUEDART/consolidated/",
       "ratios": {
-        "pe": 42.1,
+        "pe": 42.2,
         "industry_pe": null,
         "pb": null,
         "roe": 16.8,
         "roce": 16.6,
         "de": null,
         "div_yield": 0.5,
-        "market_cap": 11819.0
+        "market_cap": 11823.0
       }
     },
     {
@@ -240,7 +240,7 @@
         "roce": 0.57,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 11658.0
+        "market_cap": 11640.0
       }
     },
     {
@@ -266,7 +266,7 @@
         "roce": 56.0,
         "de": null,
         "div_yield": 1.73,
-        "market_cap": 126156.0
+        "market_cap": 126143.0
       }
     },
     {
@@ -285,14 +285,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/MAPMYINDIA/consolidated/",
       "ratios": {
-        "pe": 34.4,
+        "pe": 34.3,
         "industry_pe": null,
         "pb": null,
         "roe": 15.8,
         "roce": 22.0,
         "de": null,
         "div_yield": 0.42,
-        "market_cap": 4608.0
+        "market_cap": 4603.0
       }
     },
     {
@@ -370,7 +370,7 @@
         "roce": 7.59,
         "de": null,
         "div_yield": 0.52,
-        "market_cap": 32267.0
+        "market_cap": 32269.0
       }
     },
     {
@@ -396,7 +396,7 @@
         "roce": 17.8,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 12635.0
+        "market_cap": 12630.0
       }
     },
     {
@@ -422,7 +422,7 @@
         "roce": 29.6,
         "de": null,
         "div_yield": 2.52,
-        "market_cap": 17316.0
+        "market_cap": 17327.0
       }
     },
     {
@@ -448,7 +448,7 @@
         "roce": 13.9,
         "de": null,
         "div_yield": 1.12,
-        "market_cap": 32980.0
+        "market_cap": 33001.0
       }
     },
     {
@@ -467,14 +467,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/GICRE/consolidated/",
       "ratios": {
-        "pe": 6.56,
+        "pe": 6.55,
         "industry_pe": null,
         "pb": null,
         "roe": 14.6,
         "roce": 17.4,
         "de": null,
         "div_yield": 2.77,
-        "market_cap": 63342.0
+        "market_cap": 63325.0
       }
     },
     {
@@ -500,7 +500,7 @@
         "roce": 19.1,
         "de": null,
         "div_yield": 1.93,
-        "market_cap": 105834.0
+        "market_cap": 105865.0
       }
     },
     {
@@ -526,7 +526,7 @@
         "roce": 30.6,
         "de": null,
         "div_yield": 4.91,
-        "market_cap": 298841.0
+        "market_cap": 298693.0
       }
     },
     {
@@ -552,7 +552,7 @@
         "roce": 7.04,
         "de": null,
         "div_yield": 1.63,
-        "market_cap": 1226444.0
+        "market_cap": 1226366.0
       }
     },
     {
@@ -604,7 +604,7 @@
         "roce": 24.9,
         "de": null,
         "div_yield": 0.85,
-        "market_cap": 73900.0
+        "market_cap": 73910.0
       }
     },
     {
@@ -656,7 +656,7 @@
         "roce": 10.1,
         "de": null,
         "div_yield": 0.34,
-        "market_cap": 71198.0
+        "market_cap": 71241.0
       }
     },
     {
@@ -682,7 +682,7 @@
         "roce": 38.9,
         "de": null,
         "div_yield": 5.0,
-        "market_cap": 363480.0
+        "market_cap": 363355.0
       }
     },
     {
@@ -708,7 +708,7 @@
         "roce": 28.0,
         "de": null,
         "div_yield": 1.53,
-        "market_cap": 11776.0
+        "market_cap": 11760.0
       }
     },
     {
@@ -734,7 +734,7 @@
         "roce": 51.4,
         "de": null,
         "div_yield": 2.8,
-        "market_cap": 11152.0
+        "market_cap": 11146.0
       }
     },
     {
@@ -760,7 +760,7 @@
         "roce": 46.1,
         "de": null,
         "div_yield": 1.65,
-        "market_cap": 41124.0
+        "market_cap": 41128.0
       }
     },
     {
@@ -786,7 +786,7 @@
         "roce": 5.43,
         "de": null,
         "div_yield": 0.86,
-        "market_cap": 63455.0
+        "market_cap": 63471.0
       }
     },
     {
@@ -812,7 +812,7 @@
         "roce": 40.0,
         "de": null,
         "div_yield": 4.61,
-        "market_cap": 422535.0
+        "market_cap": 422475.0
       }
     },
     {
@@ -838,7 +838,7 @@
         "roce": 19.3,
         "de": null,
         "div_yield": 0.43,
-        "market_cap": 57314.0
+        "market_cap": 57301.0
       }
     },
     {
@@ -864,7 +864,7 @@
         "roce": 1.86,
         "de": null,
         "div_yield": 0.21,
-        "market_cap": 158212.0
+        "market_cap": 158099.0
       }
     },
     {
@@ -890,7 +890,7 @@
         "roce": 14.6,
         "de": null,
         "div_yield": 0.28,
-        "market_cap": 27944.0
+        "market_cap": 27925.0
       }
     },
     {
@@ -916,7 +916,7 @@
         "roce": 13.2,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 21877.0
+        "market_cap": 21885.0
       }
     },
     {
@@ -942,7 +942,7 @@
         "roce": 29.6,
         "de": null,
         "div_yield": 1.99,
-        "market_cap": 111550.0
+        "market_cap": 111607.0
       }
     },
     {
@@ -968,7 +968,7 @@
         "roce": 15.7,
         "de": null,
         "div_yield": 0.18,
-        "market_cap": 54896.0
+        "market_cap": 54944.0
       }
     },
     {
@@ -994,7 +994,7 @@
         "roce": 14.2,
         "de": null,
         "div_yield": 5.26,
-        "market_cap": 293185.0
+        "market_cap": 293246.0
       }
     },
     {
@@ -1013,14 +1013,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/OIL/consolidated/",
       "ratios": {
-        "pe": 9.99,
+        "pe": 10.0,
         "industry_pe": null,
         "pb": null,
         "roe": 12.3,
         "roce": 11.6,
         "de": null,
         "div_yield": 2.83,
-        "market_cap": 66123.0
+        "market_cap": 66170.0
       }
     },
     {
@@ -1046,7 +1046,7 @@
         "roce": 14.7,
         "de": null,
         "div_yield": 0.6,
-        "market_cap": 40715.0
+        "market_cap": 40735.0
       }
     },
     {
@@ -1091,14 +1091,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/PATANJALI/consolidated/",
       "ratios": {
-        "pe": 22.2,
+        "pe": 22.3,
         "industry_pe": null,
         "pb": null,
         "roe": 16.5,
         "roce": 12.0,
         "de": null,
         "div_yield": 0.85,
-        "market_cap": 44809.0
+        "market_cap": 44890.0
       }
     },
     {
@@ -1124,7 +1124,7 @@
         "roce": 34.4,
         "de": null,
         "div_yield": 0.72,
-        "market_cap": 76365.0
+        "market_cap": 76375.0
       }
     },
     {
@@ -1150,7 +1150,7 @@
         "roce": 27.2,
         "de": null,
         "div_yield": 1.68,
-        "market_cap": 20408.0
+        "market_cap": 20407.0
       }
     },
     {
@@ -1176,7 +1176,7 @@
         "roce": 6.13,
         "de": null,
         "div_yield": 2.78,
-        "market_cap": 123986.0
+        "market_cap": 123974.0
       }
     },
     {
@@ -1202,7 +1202,7 @@
         "roce": 10.8,
         "de": null,
         "div_yield": 0.71,
-        "market_cap": 50216.0
+        "market_cap": 50218.0
       }
     },
     {
@@ -1228,7 +1228,7 @@
         "roce": 10.3,
         "de": null,
         "div_yield": 0.46,
-        "market_cap": 1783588.0
+        "market_cap": 1783723.0
       }
     },
     {
@@ -1236,10 +1236,10 @@
       "name": "SignatureGlobal India Ltd",
       "sector": "Realty",
       "current_price": 756.0,
-      "week52_high": 1298.0,
+      "week52_high": 1294.0,
       "week52_low": 705.0,
       "pct_above_52w_low": 7.2,
-      "pct_below_52w_high": 41.8,
+      "pct_below_52w_high": 41.6,
       "near_52w_low": true,
       "tags": [
         "AT_52W_LOW"
@@ -1247,14 +1247,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/SIGNATURE/consolidated/",
       "ratios": {
-        "pe": 296.0,
+        "pe": 297.0,
         "industry_pe": null,
         "pb": null,
         "roe": 2.79,
         "roce": 2.6,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 10629.0
+        "market_cap": 10643.0
       }
     },
     {
@@ -1280,7 +1280,7 @@
         "roce": 16.5,
         "de": null,
         "div_yield": 2.92,
-        "market_cap": 20240.0
+        "market_cap": 20236.0
       }
     },
     {
@@ -1306,7 +1306,7 @@
         "roce": 20.7,
         "de": null,
         "div_yield": 1.05,
-        "market_cap": 43489.0
+        "market_cap": 43467.0
       }
     },
     {
@@ -1332,7 +1332,7 @@
         "roce": 3.87,
         "de": null,
         "div_yield": 0.03,
-        "market_cap": 9983.0
+        "market_cap": 9976.0
       }
     },
     {
@@ -1358,7 +1358,7 @@
         "roce": -24.1,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 66509.0
+        "market_cap": 66455.0
       }
     },
     {
@@ -1384,7 +1384,7 @@
         "roce": 63.0,
         "de": null,
         "div_yield": 3.06,
-        "market_cap": 757971.0
+        "market_cap": 757881.0
       }
     },
     {
@@ -1410,7 +1410,7 @@
         "roce": 60.0,
         "de": null,
         "div_yield": 1.86,
-        "market_cap": 25092.0
+        "market_cap": 25095.0
       }
     },
     {
@@ -1436,7 +1436,7 @@
         "roce": 6.12,
         "de": null,
         "div_yield": 0.27,
-        "market_cap": 21726.0
+        "market_cap": 21718.0
       }
     },
     {
@@ -1462,7 +1462,7 @@
         "roce": 10.2,
         "de": null,
         "div_yield": 1.02,
-        "market_cap": 49828.0
+        "market_cap": 49833.0
       }
     },
     {
@@ -1487,7 +1487,7 @@
         "roe": 10.3,
         "roce": 15.8,
         "de": null,
-        "div_yield": 2.77,
+        "div_yield": 4.26,
         "market_cap": 12058.0
       }
     },
@@ -1507,14 +1507,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/UBL/consolidated/",
       "ratios": {
-        "pe": 93.9,
+        "pe": 94.0,
         "industry_pe": null,
         "pb": null,
         "roe": 8.42,
         "roce": 10.7,
         "de": null,
         "div_yield": 0.75,
-        "market_cap": 35105.0
+        "market_cap": 35134.0
       }
     },
     {
@@ -1540,7 +1540,7 @@
         "roce": 9.04,
         "de": null,
         "div_yield": 0.31,
-        "market_cap": 43104.0
+        "market_cap": 43094.0
       }
     },
     {
@@ -1566,7 +1566,7 @@
         "roce": 11.1,
         "de": null,
         "div_yield": 0.62,
-        "market_cap": 10188.0
+        "market_cap": 10185.0
       }
     },
     {
@@ -1592,7 +1592,7 @@
         "roce": 17.8,
         "de": null,
         "div_yield": 6.29,
-        "market_cap": 183844.0
+        "market_cap": 183812.0
       }
     },
     {
@@ -1618,7 +1618,7 @@
         "roce": 23.5,
         "de": null,
         "div_yield": 2.92,
-        "market_cap": 10133.0
+        "market_cap": 10134.0
       }
     },
     {
@@ -1644,7 +1644,7 @@
         "roce": 34.8,
         "de": null,
         "div_yield": 0.04,
-        "market_cap": 13216.0
+        "market_cap": 13209.0
       }
     },
     {
@@ -1670,7 +1670,7 @@
         "roce": 12.1,
         "de": null,
         "div_yield": 1.11,
-        "market_cap": 44156.0
+        "market_cap": 44142.0
       }
     },
     {
@@ -1689,14 +1689,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/3MINDIA/consolidated/",
       "ratios": {
-        "pe": 61.6,
+        "pe": 61.5,
         "industry_pe": null,
         "pb": null,
         "roe": 30.5,
         "roce": 40.5,
         "de": null,
         "div_yield": 0.48,
-        "market_cap": 37687.0
+        "market_cap": 37619.0
       }
     },
     {
@@ -1722,7 +1722,7 @@
         "roce": -3.07,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 7326.0
+        "market_cap": 7338.0
       }
     },
     {
@@ -1741,14 +1741,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/ABLBL/consolidated/",
       "ratios": {
-        "pe": 57.0,
+        "pe": 56.9,
         "industry_pe": null,
         "pb": null,
         "roe": 15.6,
         "roce": 14.7,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 11930.0
+        "market_cap": 11909.0
       }
     },
     {
@@ -1774,7 +1774,7 @@
         "roce": 13.6,
         "de": null,
         "div_yield": 0.78,
-        "market_cap": 11740.0
+        "market_cap": 11745.0
       }
     },
     {
@@ -1793,14 +1793,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/AFFLE/consolidated/",
       "ratios": {
-        "pe": 44.8,
+        "pe": 44.9,
         "industry_pe": null,
         "pb": null,
         "roe": 13.8,
         "roce": 16.8,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 20401.0
+        "market_cap": 20411.0
       }
     },
     {
@@ -1826,7 +1826,7 @@
         "roce": 21.2,
         "de": null,
         "div_yield": 0.83,
-        "market_cap": 64834.0
+        "market_cap": 64864.0
       }
     },
     {
@@ -1852,7 +1852,7 @@
         "roce": 13.8,
         "de": null,
         "div_yield": 1.39,
-        "market_cap": 27334.0
+        "market_cap": 27351.0
       }
     },
     {
@@ -1871,14 +1871,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/ASTRAL/consolidated/",
       "ratios": {
-        "pe": 72.4,
+        "pe": 72.5,
         "industry_pe": null,
         "pb": null,
         "roe": 14.4,
         "roce": 19.9,
         "de": null,
         "div_yield": 0.25,
-        "market_cap": 39916.0
+        "market_cap": 39946.0
       }
     },
     {
@@ -1904,7 +1904,7 @@
         "roce": 14.9,
         "de": null,
         "div_yield": 0.45,
-        "market_cap": 19644.0
+        "market_cap": 19639.0
       }
     },
     {
@@ -1982,7 +1982,7 @@
         "roce": 12.4,
         "de": null,
         "div_yield": 0.72,
-        "market_cap": 43155.0
+        "market_cap": 43179.0
       }
     },
     {
@@ -2008,7 +2008,7 @@
         "roce": 12.2,
         "de": null,
         "div_yield": 1.26,
-        "market_cap": 9188.0
+        "market_cap": 9191.0
       }
     },
     {
@@ -2034,7 +2034,7 @@
         "roce": 36.5,
         "de": null,
         "div_yield": 0.59,
-        "market_cap": 297510.0
+        "market_cap": 297654.0
       }
     },
     {
@@ -2105,14 +2105,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/BBTC/consolidated/",
       "ratios": {
-        "pe": 9.0,
+        "pe": 8.99,
         "industry_pe": null,
         "pb": null,
         "roe": 19.1,
         "roce": 33.0,
         "de": null,
         "div_yield": 1.09,
-        "market_cap": 10869.0
+        "market_cap": 10861.0
       }
     },
     {
@@ -2120,10 +2120,10 @@
       "name": "Brigade Enterprises Ltd",
       "sector": "Realty",
       "current_price": 525.0,
-      "week52_high": 881.0,
+      "week52_high": 857.0,
       "week52_low": 451.0,
       "pct_above_52w_low": 16.4,
-      "pct_below_52w_high": 40.4,
+      "pct_below_52w_high": 38.7,
       "near_52w_low": true,
       "tags": [
         "NEAR_52W_LOW"
@@ -2138,7 +2138,7 @@
         "roce": 10.5,
         "de": null,
         "div_yield": 0.36,
-        "market_cap": 17111.0
+        "market_cap": 17130.0
       }
     },
     {
@@ -2157,14 +2157,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/CRISIL/consolidated/",
       "ratios": {
-        "pe": 35.7,
+        "pe": 35.6,
         "industry_pe": null,
         "pb": null,
         "roe": 24.5,
         "roce": 32.6,
         "de": null,
         "div_yield": 0.61,
-        "market_cap": 29934.0
+        "market_cap": 29909.0
       }
     },
     {
@@ -2183,14 +2183,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/CEATLTD/consolidated/",
       "ratios": {
-        "pe": 18.8,
+        "pe": 18.9,
         "industry_pe": null,
         "pb": null,
         "roe": 15.9,
         "roce": 18.7,
         "de": null,
         "div_yield": 0.86,
-        "market_cap": 14112.0
+        "market_cap": 14117.0
       }
     },
     {
@@ -2235,14 +2235,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/CHALET/consolidated/",
       "ratios": {
-        "pe": 27.7,
+        "pe": 27.8,
         "industry_pe": null,
         "pb": null,
         "roe": 19.2,
         "roce": 17.1,
         "de": null,
         "div_yield": 0.12,
-        "market_cap": 17919.0
+        "market_cap": 17935.0
       }
     },
     {
@@ -2261,14 +2261,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/CHAMBLFERT/consolidated/",
       "ratios": {
-        "pe": 9.63,
+        "pe": 9.62,
         "industry_pe": null,
         "pb": null,
         "roe": 20.4,
         "roce": 25.5,
         "de": null,
         "div_yield": 2.13,
-        "market_cap": 18804.0
+        "market_cap": 18793.0
       }
     },
     {
@@ -2294,7 +2294,7 @@
         "roce": 20.6,
         "de": null,
         "div_yield": 0.77,
-        "market_cap": 8279.0
+        "market_cap": 8280.0
       }
     },
     {
@@ -2339,14 +2339,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/COLPAL/consolidated/",
       "ratios": {
-        "pe": 125.0,
+        "pe": 126.0,
         "industry_pe": null,
         "pb": null,
         "roe": 158.0,
         "roce": 179.0,
         "de": null,
         "div_yield": 2.56,
-        "market_cap": 54168.0
+        "market_cap": 54207.0
       }
     },
     {
@@ -2372,7 +2372,7 @@
         "roce": 12.4,
         "de": null,
         "div_yield": 1.96,
-        "market_cap": 35792.0
+        "market_cap": 35781.0
       }
     },
     {
@@ -2398,7 +2398,7 @@
         "roce": 22.8,
         "de": null,
         "div_yield": 0.55,
-        "market_cap": 58997.0
+        "market_cap": 59015.0
       }
     },
     {
@@ -2424,7 +2424,7 @@
         "roce": 12.3,
         "de": null,
         "div_yield": 2.93,
-        "market_cap": 9855.0
+        "market_cap": 9850.0
       }
     },
     {
@@ -2450,7 +2450,7 @@
         "roce": 11.8,
         "de": null,
         "div_yield": 0.86,
-        "market_cap": 16312.0
+        "market_cap": 16305.0
       }
     },
     {
@@ -2476,7 +2476,7 @@
         "roce": 24.3,
         "de": null,
         "div_yield": 0.14,
-        "market_cap": 13663.0
+        "market_cap": 13668.0
       }
     },
     {
@@ -2495,14 +2495,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/DIVISLAB/consolidated/",
       "ratios": {
-        "pe": 68.0,
+        "pe": 67.9,
         "industry_pe": null,
         "pb": null,
         "roe": 16.5,
         "roce": 22.0,
         "de": null,
         "div_yield": 0.45,
-        "market_cap": 178287.0
+        "market_cap": 178222.0
       }
     },
     {
@@ -2529,7 +2529,7 @@
         "roce": 13.6,
         "de": null,
         "div_yield": 0.59,
-        "market_cap": 112727.0
+        "market_cap": 112723.0
       }
     },
     {
@@ -2555,7 +2555,7 @@
         "roce": 2.97,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 246277.0
+        "market_cap": 246229.0
       }
     },
     {
@@ -2574,14 +2574,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/GLAXO/consolidated/",
       "ratios": {
-        "pe": 41.7,
+        "pe": 41.5,
         "industry_pe": null,
         "pb": null,
         "roe": 45.6,
         "roce": 61.4,
         "de": null,
         "div_yield": 2.42,
-        "market_cap": 40097.0
+        "market_cap": 39892.0
       }
     },
     {
@@ -2607,7 +2607,7 @@
         "roce": 4.57,
         "de": null,
         "div_yield": 1.16,
-        "market_cap": 11830.0
+        "market_cap": 11836.0
       }
     },
     {
@@ -2633,7 +2633,7 @@
         "roce": 8.34,
         "de": null,
         "div_yield": 0.65,
-        "market_cap": 10026.0
+        "market_cap": 10036.0
       }
     },
     {
@@ -2659,7 +2659,7 @@
         "roce": 35.8,
         "de": null,
         "div_yield": 3.78,
-        "market_cap": 97978.0
+        "market_cap": 97968.0
       }
     },
     {
@@ -2678,14 +2678,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/HYUNDAI/consolidated/",
       "ratios": {
-        "pe": 29.4,
+        "pe": 29.5,
         "industry_pe": null,
         "pb": null,
         "roe": 29.9,
         "roce": 38.4,
         "de": null,
         "div_yield": 1.07,
-        "market_cap": 159985.0
+        "market_cap": 160022.0
       }
     },
     {
@@ -2711,7 +2711,7 @@
         "roce": 7.2,
         "de": null,
         "div_yield": 0.79,
-        "market_cap": 995034.0
+        "market_cap": 995339.0
       }
     },
     {
@@ -2763,7 +2763,7 @@
         "roce": 9.69,
         "de": null,
         "div_yield": 1.98,
-        "market_cap": 12605.0
+        "market_cap": 12618.0
       }
     },
     {
@@ -2789,7 +2789,7 @@
         "roce": 1.62,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 11871.0
+        "market_cap": 11895.0
       }
     },
     {
@@ -2815,7 +2815,7 @@
         "roce": 18.8,
         "de": null,
         "div_yield": 4.86,
-        "market_cap": 203260.0
+        "market_cap": 203190.0
       }
     },
     {
@@ -2867,7 +2867,7 @@
         "roce": 8.69,
         "de": null,
         "div_yield": 0.47,
-        "market_cap": 35759.0
+        "market_cap": 35809.0
       }
     },
     {
@@ -2893,7 +2893,7 @@
         "roce": 17.9,
         "de": null,
         "div_yield": 2.49,
-        "market_cap": 23859.0
+        "market_cap": 23853.0
       }
     },
     {
@@ -2919,7 +2919,7 @@
         "roce": 10.5,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 15464.0
+        "market_cap": 15471.0
       }
     },
     {
@@ -2945,7 +2945,7 @@
         "roce": 15.1,
         "de": null,
         "div_yield": 0.36,
-        "market_cap": 43025.0
+        "market_cap": 43092.0
       }
     },
     {
@@ -2980,8 +2980,8 @@
       "sector": "Metals & Mining",
       "current_price": 1060.0,
       "week52_high": 1306.0,
-      "week52_low": 921.0,
-      "pct_above_52w_low": 15.1,
+      "week52_low": 927.0,
+      "pct_above_52w_low": 14.3,
       "pct_below_52w_high": 18.8,
       "near_52w_low": true,
       "tags": [
@@ -2997,7 +2997,7 @@
         "roce": 9.7,
         "de": null,
         "div_yield": 0.19,
-        "market_cap": 108034.0
+        "market_cap": 108078.0
       }
     },
     {
@@ -3023,7 +3023,7 @@
         "roce": 11.4,
         "de": null,
         "div_yield": 0.8,
-        "market_cap": 9908.0
+        "market_cap": 9902.0
       }
     },
     {
@@ -3042,14 +3042,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/JWL/consolidated/",
       "ratios": {
-        "pe": 61.3,
+        "pe": 61.4,
         "industry_pe": null,
         "pb": null,
         "roe": 6.39,
         "roce": 9.16,
         "de": null,
         "div_yield": 0.38,
-        "market_cap": 11231.0
+        "market_cap": 11238.0
       }
     },
     {
@@ -3075,7 +3075,7 @@
         "roce": 26.3,
         "de": null,
         "div_yield": 1.14,
-        "market_cap": 20352.0
+        "market_cap": 20358.0
       }
     },
     {
@@ -3101,7 +3101,7 @@
         "roce": 20.5,
         "de": null,
         "div_yield": 0.4,
-        "market_cap": 38986.0
+        "market_cap": 39017.0
       }
     },
     {
@@ -3109,10 +3109,10 @@
       "name": "KEC International Ltd",
       "sector": "Construction",
       "current_price": 528.0,
-      "week52_high": 947.0,
+      "week52_high": 940.0,
       "week52_low": 466.0,
       "pct_above_52w_low": 13.3,
-      "pct_below_52w_high": 44.2,
+      "pct_below_52w_high": 43.8,
       "near_52w_low": true,
       "tags": [
         "NEAR_52W_LOW"
@@ -3127,7 +3127,7 @@
         "roce": 14.5,
         "de": null,
         "div_yield": 1.04,
-        "market_cap": 14041.0
+        "market_cap": 14059.0
       }
     },
     {
@@ -3153,7 +3153,7 @@
         "roce": 30.5,
         "de": null,
         "div_yield": 1.37,
-        "market_cap": 15087.0
+        "market_cap": 15108.0
       }
     },
     {
@@ -3179,7 +3179,7 @@
         "roce": 6.93,
         "de": null,
         "div_yield": 0.12,
-        "market_cap": 406770.0
+        "market_cap": 406820.0
       }
     },
     {
@@ -3205,7 +3205,7 @@
         "roce": 26.7,
         "de": null,
         "div_yield": 1.75,
-        "market_cap": 35248.0
+        "market_cap": 35240.0
       }
     },
     {
@@ -3257,7 +3257,7 @@
         "roce": 17.7,
         "de": null,
         "div_yield": 0.78,
-        "market_cap": 13399.0
+        "market_cap": 13388.0
       }
     },
     {
@@ -3283,7 +3283,7 @@
         "roce": 35.1,
         "de": null,
         "div_yield": 2.36,
-        "market_cap": 535599.0
+        "market_cap": 535538.0
       }
     },
     {
@@ -3310,7 +3310,7 @@
         "roce": 47.2,
         "de": null,
         "div_yield": 0.48,
-        "market_cap": 107213.0
+        "market_cap": 107220.0
       }
     },
     {
@@ -3336,7 +3336,7 @@
         "roce": 19.0,
         "de": null,
         "div_yield": 1.02,
-        "market_cap": 432013.0
+        "market_cap": 432146.0
       }
     },
     {
@@ -3362,7 +3362,7 @@
         "roce": 2.95,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 55600.0
+        "market_cap": 55612.0
       }
     },
     {
@@ -3388,7 +3388,7 @@
         "roce": 22.8,
         "de": null,
         "div_yield": 2.74,
-        "market_cap": 43214.0
+        "market_cap": 43202.0
       }
     },
     {
@@ -3414,7 +3414,7 @@
         "roce": 17.1,
         "de": null,
         "div_yield": 0.66,
-        "market_cap": 16180.0
+        "market_cap": 16186.0
       }
     },
     {
@@ -3440,7 +3440,7 @@
         "roce": 16.8,
         "de": null,
         "div_yield": 1.43,
-        "market_cap": 9647.0
+        "market_cap": 9643.0
       }
     },
     {
@@ -3466,7 +3466,7 @@
         "roce": 5.73,
         "de": null,
         "div_yield": 2.41,
-        "market_cap": 79768.0
+        "market_cap": 79758.0
       }
     },
     {
@@ -3492,7 +3492,7 @@
         "roce": 3.53,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 80631.0
+        "market_cap": 80657.0
       }
     },
     {
@@ -3518,7 +3518,7 @@
         "roce": 8.33,
         "de": null,
         "div_yield": 2.37,
-        "market_cap": 341419.0
+        "market_cap": 341371.0
       }
     },
     {
@@ -3526,10 +3526,10 @@
       "name": "Newgen Software Technologies Ltd",
       "sector": "Information Technology",
       "current_price": 473.0,
-      "week52_high": 1238.0,
+      "week52_high": 1187.0,
       "week52_low": 401.0,
       "pct_above_52w_low": 18.0,
-      "pct_below_52w_high": 61.8,
+      "pct_below_52w_high": 60.2,
       "near_52w_low": true,
       "tags": [
         "NEAR_52W_LOW"
@@ -3544,7 +3544,7 @@
         "roce": 25.8,
         "de": null,
         "div_yield": 1.27,
-        "market_cap": 6743.0
+        "market_cap": 6742.0
       }
     },
     {
@@ -3563,14 +3563,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/NUVOCO/consolidated/",
       "ratios": {
-        "pe": 28.1,
+        "pe": 28.0,
         "industry_pe": null,
         "pb": null,
         "roe": 4.05,
         "roce": 7.07,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 10940.0
+        "market_cap": 10936.0
       }
     },
     {
@@ -3596,7 +3596,7 @@
         "roce": 22.7,
         "de": null,
         "div_yield": 3.54,
-        "market_cap": 42352.0
+        "market_cap": 42338.0
       }
     },
     {
@@ -3622,7 +3622,7 @@
         "roce": 4.16,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 18383.0
+        "market_cap": 18380.0
       }
     },
     {
@@ -3648,7 +3648,7 @@
         "roce": 9.74,
         "de": null,
         "div_yield": 3.17,
-        "market_cap": 264135.0
+        "market_cap": 264044.0
       }
     },
     {
@@ -3667,14 +3667,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/RHIM/consolidated/",
       "ratios": {
-        "pe": 70.6,
+        "pe": 70.5,
         "industry_pe": null,
         "pb": null,
         "roe": 2.91,
         "roce": 6.52,
         "de": null,
         "div_yield": 0.66,
-        "market_cap": 7771.0
+        "market_cap": 7769.0
       }
     },
     {
@@ -3700,7 +3700,7 @@
         "roce": 22.0,
         "de": null,
         "div_yield": 3.61,
-        "market_cap": 10044.0
+        "market_cap": 10039.0
       }
     },
     {
@@ -3726,7 +3726,7 @@
         "roce": 11.6,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 10065.0
+        "market_cap": 10057.0
       }
     },
     {
@@ -3734,10 +3734,10 @@
       "name": "SJVN Ltd",
       "sector": "Power",
       "current_price": 72.1,
-      "week52_high": 102.0,
+      "week52_high": 101.0,
       "week52_low": 63.0,
       "pct_above_52w_low": 14.4,
-      "pct_below_52w_high": 29.3,
+      "pct_below_52w_high": 28.6,
       "near_52w_low": true,
       "tags": [
         "NEAR_52W_LOW"
@@ -3778,7 +3778,7 @@
         "roce": 14.6,
         "de": null,
         "div_yield": 0.33,
-        "market_cap": 81047.0
+        "market_cap": 81010.0
       }
     },
     {
@@ -3804,7 +3804,7 @@
         "roce": 13.4,
         "de": null,
         "div_yield": 0.12,
-        "market_cap": 18894.0
+        "market_cap": 18899.0
       }
     },
     {
@@ -3830,7 +3830,7 @@
         "roce": 27.3,
         "de": null,
         "div_yield": 0.84,
-        "market_cap": 64955.0
+        "market_cap": 64985.0
       }
     },
     {
@@ -3849,14 +3849,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/SHREECEM/consolidated/",
       "ratios": {
-        "pe": 53.2,
+        "pe": 53.3,
         "industry_pe": null,
         "pb": null,
         "roe": 7.78,
         "roce": 10.5,
         "de": null,
         "div_yield": 0.43,
-        "market_cap": 92850.0
+        "market_cap": 92854.0
       }
     },
     {
@@ -3882,7 +3882,7 @@
         "roce": 23.4,
         "de": null,
         "div_yield": 0.3,
-        "market_cap": 21745.0
+        "market_cap": 21728.0
       }
     },
     {
@@ -3908,7 +3908,7 @@
         "roce": 9.45,
         "de": null,
         "div_yield": 0.86,
-        "market_cap": 51392.0
+        "market_cap": 51409.0
       }
     },
     {
@@ -3960,7 +3960,7 @@
         "roce": 9.24,
         "de": null,
         "div_yield": 0.88,
-        "market_cap": 111964.0
+        "market_cap": 111959.0
       }
     },
     {
@@ -3986,7 +3986,7 @@
         "roce": 10.5,
         "de": null,
         "div_yield": 0.64,
-        "market_cap": 124362.0
+        "market_cap": 124283.0
       }
     },
     {
@@ -4012,7 +4012,7 @@
         "roce": 23.1,
         "de": null,
         "div_yield": 3.55,
-        "market_cap": 140878.0
+        "market_cap": 140844.0
       }
     },
     {
@@ -4021,8 +4021,8 @@
       "sector": "Capital Goods",
       "current_price": 1730.0,
       "week52_high": 2130.0,
-      "week52_low": 1467.0,
-      "pct_above_52w_low": 17.9,
+      "week52_low": 1481.0,
+      "pct_above_52w_low": 16.8,
       "pct_below_52w_high": 18.8,
       "near_52w_low": true,
       "tags": [
@@ -4031,14 +4031,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/TEGA/consolidated/",
       "ratios": {
-        "pe": 91.0,
+        "pe": 91.1,
         "industry_pe": null,
         "pb": null,
         "roe": 5.94,
         "roce": 8.09,
         "de": null,
         "div_yield": 0.12,
-        "market_cap": 12989.0
+        "market_cap": 12999.0
       }
     },
     {
@@ -4064,7 +4064,7 @@
         "roce": 14.0,
         "de": null,
         "div_yield": 1.41,
-        "market_cap": 71350.0
+        "market_cap": 71237.0
       }
     },
     {
@@ -4090,7 +4090,7 @@
         "roce": 9.86,
         "de": null,
         "div_yield": 1.89,
-        "market_cap": 13459.0
+        "market_cap": 13479.0
       }
     },
     {
@@ -4109,14 +4109,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/UNOMINDA/consolidated/",
       "ratios": {
-        "pe": 54.0,
+        "pe": 53.9,
         "industry_pe": null,
         "pb": null,
         "roe": 19.4,
         "roce": 19.7,
         "de": null,
         "div_yield": 0.23,
-        "market_cap": 65713.0
+        "market_cap": 65629.0
       }
     },
     {
@@ -4142,7 +4142,7 @@
         "roce": 12.8,
         "de": null,
         "div_yield": 0.67,
-        "market_cap": 338307.0
+        "market_cap": 338557.0
       }
     },
     {
@@ -4168,7 +4168,7 @@
         "roce": 27.5,
         "de": null,
         "div_yield": 1.23,
-        "market_cap": 100753.0
+        "market_cap": 100731.0
       }
     },
     {
@@ -4194,7 +4194,7 @@
         "roce": 14.8,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 54460.0
+        "market_cap": 54428.0
       }
     },
     {
@@ -4220,7 +4220,7 @@
         "roce": 31.6,
         "de": null,
         "div_yield": 0.32,
-        "market_cap": 49831.0
+        "market_cap": 49798.0
       }
     },
     {
@@ -4239,14 +4239,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/AADHARHFC/consolidated/",
       "ratios": {
-        "pe": 20.4,
+        "pe": 20.5,
         "industry_pe": null,
         "pb": null,
         "roe": 15.9,
         "roce": 11.4,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 22669.0
+        "market_cap": 22676.0
       }
     },
     {
@@ -4271,8 +4271,8 @@
         "roe": -7.43,
         "roce": -4.26,
         "de": null,
-        "div_yield": 0.15,
-        "market_cap": 15053.0
+        "div_yield": 0.19,
+        "market_cap": 15042.0
       }
     },
     {
@@ -4298,7 +4298,7 @@
         "roce": 12.3,
         "de": null,
         "div_yield": 1.27,
-        "market_cap": 15288.0
+        "market_cap": 15279.0
       }
     },
     {
@@ -4317,14 +4317,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/ANANTRAJ/consolidated/",
       "ratios": {
-        "pe": 34.0,
+        "pe": 33.9,
         "industry_pe": null,
         "pb": null,
         "roe": 11.2,
         "roce": 12.1,
         "de": null,
         "div_yield": 0.14,
-        "market_cap": 18837.0
+        "market_cap": 18805.0
       }
     },
     {
@@ -4350,7 +4350,7 @@
         "roce": 7.36,
         "de": null,
         "div_yield": 0.06,
-        "market_cap": 14518.0
+        "market_cap": 14517.0
       }
     },
     {
@@ -4386,8 +4386,8 @@
       "sector": "Automobile and Auto Components",
       "current_price": 899.0,
       "week52_high": 1074.0,
-      "week52_low": 699.0,
-      "pct_above_52w_low": 28.6,
+      "week52_low": 720.0,
+      "pct_above_52w_low": 24.9,
       "pct_below_52w_high": 16.3,
       "near_52w_low": true,
       "tags": [
@@ -4396,14 +4396,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/ASAHIINDIA/consolidated/",
       "ratios": {
-        "pe": 64.9,
+        "pe": 64.8,
         "industry_pe": null,
         "pb": null,
         "roe": 10.7,
         "roce": 11.8,
         "de": null,
         "div_yield": 0.22,
-        "market_cap": 22953.0
+        "market_cap": 22915.0
       }
     },
     {
@@ -4429,7 +4429,7 @@
         "roce": 26.3,
         "de": null,
         "div_yield": 1.04,
-        "market_cap": 253760.0
+        "market_cap": 253727.0
       }
     },
     {
@@ -4455,7 +4455,7 @@
         "roce": 13.7,
         "de": null,
         "div_yield": 0.04,
-        "market_cap": 44031.0
+        "market_cap": 43990.0
       }
     },
     {
@@ -4474,14 +4474,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/DMART/consolidated/",
       "ratios": {
-        "pe": 94.2,
+        "pe": 94.3,
         "industry_pe": null,
         "pb": null,
         "roe": 13.0,
         "roce": 17.2,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 279820.0
+        "market_cap": 280114.0
       }
     },
     {
@@ -4507,7 +4507,7 @@
         "roce": 7.71,
         "de": null,
         "div_yield": 0.61,
-        "market_cap": 14572.0
+        "market_cap": 14565.0
       }
     },
     {
@@ -4533,7 +4533,7 @@
         "roce": 28.2,
         "de": null,
         "div_yield": 1.52,
-        "market_cap": 275128.0
+        "market_cap": 275110.0
       }
     },
     {
@@ -4559,7 +4559,7 @@
         "roce": 10.8,
         "de": null,
         "div_yield": 0.55,
-        "market_cap": 610485.0
+        "market_cap": 610393.0
       }
     },
     {
@@ -4585,7 +4585,7 @@
         "roce": 11.0,
         "de": null,
         "div_yield": 1.37,
-        "market_cap": 117896.0
+        "market_cap": 117956.0
       }
     },
     {
@@ -4611,7 +4611,7 @@
         "roce": 5.63,
         "de": null,
         "div_yield": 3.04,
-        "market_cap": 144384.0
+        "market_cap": 144359.0
       }
     },
     {
@@ -4637,7 +4637,7 @@
         "roce": 3.75,
         "de": null,
         "div_yield": 0.12,
-        "market_cap": 67286.0
+        "market_cap": 67454.0
       }
     },
     {
@@ -4689,7 +4689,7 @@
         "roce": 14.7,
         "de": null,
         "div_yield": 1.49,
-        "market_cap": 17877.0
+        "market_cap": 17879.0
       }
     },
     {
@@ -4741,7 +4741,7 @@
         "roce": 18.0,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 16125.0
+        "market_cap": 16126.0
       }
     },
     {
@@ -4767,7 +4767,7 @@
         "roce": 9.75,
         "de": null,
         "div_yield": 0.08,
-        "market_cap": 31076.0
+        "market_cap": 31047.0
       }
     },
     {
@@ -4793,7 +4793,7 @@
         "roce": 15.5,
         "de": null,
         "div_yield": 0.9,
-        "market_cap": 116382.0
+        "market_cap": 116338.0
       }
     },
     {
@@ -4801,10 +4801,10 @@
       "name": "Cochin Shipyard Ltd",
       "sector": "Aerospace & Defence",
       "current_price": 1458.0,
-      "week52_high": 2182.0,
+      "week52_high": 2127.0,
       "week52_low": 1187.0,
       "pct_above_52w_low": 22.8,
-      "pct_below_52w_high": 33.2,
+      "pct_below_52w_high": 31.5,
       "near_52w_low": true,
       "tags": [
         "DISCOUNTED_ZONE"
@@ -4812,14 +4812,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/COCHINSHIP/consolidated/",
       "ratios": {
-        "pe": 53.6,
+        "pe": 53.5,
         "industry_pe": null,
         "pb": null,
         "roe": 12.5,
         "roce": 16.0,
         "de": null,
         "div_yield": 0.67,
-        "market_cap": 38378.0
+        "market_cap": 38368.0
       }
     },
     {
@@ -4845,7 +4845,7 @@
         "roce": 18.1,
         "de": null,
         "div_yield": 1.09,
-        "market_cap": 17730.0
+        "market_cap": 17727.0
       }
     },
     {
@@ -4864,14 +4864,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/DLF/consolidated/",
       "ratios": {
-        "pe": 36.4,
+        "pe": 36.3,
         "industry_pe": null,
         "pb": null,
         "roe": 9.62,
         "roce": 6.34,
         "de": null,
         "div_yield": 0.97,
-        "market_cap": 153916.0
+        "market_cap": 153803.0
       }
     },
     {
@@ -4897,7 +4897,7 @@
         "roce": 11.5,
         "de": null,
         "div_yield": 0.46,
-        "market_cap": 22120.0
+        "market_cap": 22128.0
       }
     },
     {
@@ -4923,7 +4923,7 @@
         "roce": 2.82,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 34839.0
+        "market_cap": 34806.0
       }
     },
     {
@@ -4949,7 +4949,7 @@
         "roce": 4.66,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 13892.0
+        "market_cap": 13912.0
       }
     },
     {
@@ -4975,7 +4975,7 @@
         "roce": 42.0,
         "de": null,
         "div_yield": 0.07,
-        "market_cap": 73352.0
+        "market_cap": 73383.0
       }
     },
     {
@@ -5001,7 +5001,7 @@
         "roce": 20.7,
         "de": null,
         "div_yield": 0.46,
-        "market_cap": 20424.0
+        "market_cap": 20415.0
       }
     },
     {
@@ -5020,14 +5020,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/ENDURANCE/consolidated/",
       "ratios": {
-        "pe": 39.3,
+        "pe": 39.2,
         "industry_pe": null,
         "pb": null,
         "roe": 15.4,
         "roce": 18.3,
         "de": null,
         "div_yield": 0.43,
-        "market_cap": 37982.0
+        "market_cap": 37968.0
       }
     },
     {
@@ -5053,7 +5053,7 @@
         "roce": 14.1,
         "de": null,
         "div_yield": 0.5,
-        "market_cap": 20230.0
+        "market_cap": 20217.0
       }
     },
     {
@@ -5061,10 +5061,10 @@
       "name": "Firstsource Solutions Ltd",
       "sector": "Services",
       "current_price": 243.0,
-      "week52_high": 392.0,
+      "week52_high": 388.0,
       "week52_low": 201.0,
       "pct_above_52w_low": 20.9,
-      "pct_below_52w_high": 38.0,
+      "pct_below_52w_high": 37.4,
       "near_52w_low": true,
       "tags": [
         "DISCOUNTED_ZONE"
@@ -5079,7 +5079,7 @@
         "roce": 16.2,
         "de": null,
         "div_yield": 2.26,
-        "market_cap": 17223.0
+        "market_cap": 17213.0
       }
     },
     {
@@ -5105,7 +5105,7 @@
         "roce": 13.5,
         "de": null,
         "div_yield": 0.1,
-        "market_cap": 72072.0
+        "market_cap": 72083.0
       }
     },
     {
@@ -5131,7 +5131,7 @@
         "roce": 9.68,
         "de": null,
         "div_yield": 4.34,
-        "market_cap": 113638.0
+        "market_cap": 113651.0
       }
     },
     {
@@ -5158,7 +5158,7 @@
         "roce": 11.6,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 114629.0
+        "market_cap": 114502.0
       }
     },
     {
@@ -5184,7 +5184,7 @@
         "roce": 39.8,
         "de": null,
         "div_yield": 0.12,
-        "market_cap": 60818.0
+        "market_cap": 60797.0
       }
     },
     {
@@ -5210,7 +5210,7 @@
         "roce": 32.8,
         "de": null,
         "div_yield": 1.41,
-        "market_cap": 35029.0
+        "market_cap": 35054.0
       }
     },
     {
@@ -5229,14 +5229,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/GODREJPROP/consolidated/",
       "ratios": {
-        "pe": 29.8,
+        "pe": 29.9,
         "industry_pe": null,
         "pb": null,
         "roe": 10.2,
         "roce": 8.28,
         "de": null,
         "div_yield": 0.54,
-        "market_cap": 55730.0
+        "market_cap": 55745.0
       }
     },
     {
@@ -5263,7 +5263,7 @@
         "roce": 8.07,
         "de": null,
         "div_yield": 0.32,
-        "market_cap": 212711.0
+        "market_cap": 212772.0
       }
     },
     {
@@ -5289,7 +5289,7 @@
         "roce": 42.9,
         "de": null,
         "div_yield": 2.04,
-        "market_cap": 113572.0
+        "market_cap": 113580.0
       }
     },
     {
@@ -5334,14 +5334,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/HAL/consolidated/",
       "ratios": {
-        "pe": 32.1,
+        "pe": 32.0,
         "industry_pe": null,
         "pb": null,
         "roe": 24.0,
         "roce": 32.0,
         "de": null,
         "div_yield": 0.92,
-        "market_cap": 292231.0
+        "market_cap": 292168.0
       }
     },
     {
@@ -5367,7 +5367,7 @@
         "roce": 22.2,
         "de": null,
         "div_yield": 5.93,
-        "market_cap": 87123.0
+        "market_cap": 87081.0
       }
     },
     {
@@ -5393,7 +5393,7 @@
         "roce": 69.5,
         "de": null,
         "div_yield": 2.12,
-        "market_cap": 218994.0
+        "market_cap": 218893.0
       }
     },
     {
@@ -5412,14 +5412,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/IIFL/consolidated/",
       "ratios": {
-        "pe": 13.1,
+        "pe": 13.0,
         "industry_pe": null,
         "pb": null,
         "roe": 12.6,
         "roce": 10.8,
         "de": null,
         "div_yield": 0.78,
-        "market_cap": 21704.0
+        "market_cap": 21679.0
       }
     },
     {
@@ -5438,14 +5438,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/ITCHOTELS/consolidated/",
       "ratios": {
-        "pe": 41.4,
+        "pe": 41.3,
         "industry_pe": null,
         "pb": null,
         "roe": 7.83,
         "roce": 10.7,
         "de": null,
         "div_yield": 0.58,
-        "market_cap": 36199.0
+        "market_cap": 36177.0
       }
     },
     {
@@ -5471,7 +5471,7 @@
         "roce": 1.41,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 29082.0
+        "market_cap": 29049.0
       }
     },
     {
@@ -5497,7 +5497,7 @@
         "roce": 18.8,
         "de": null,
         "div_yield": 0.39,
-        "market_cap": 12491.0
+        "market_cap": 12480.0
       }
     },
     {
@@ -5523,7 +5523,7 @@
         "roce": 17.1,
         "de": null,
         "div_yield": 0.45,
-        "market_cap": 102629.0
+        "market_cap": 102580.0
       }
     },
     {
@@ -5575,7 +5575,7 @@
         "roce": 5.68,
         "de": null,
         "div_yield": 0.16,
-        "market_cap": 71610.0
+        "market_cap": 71598.0
       }
     },
     {
@@ -5601,7 +5601,7 @@
         "roce": 15.9,
         "de": null,
         "div_yield": 0.54,
-        "market_cap": 10477.0
+        "market_cap": 10472.0
       }
     },
     {
@@ -5627,7 +5627,7 @@
         "roce": 53.6,
         "de": null,
         "div_yield": 0.7,
-        "market_cap": 15547.0
+        "market_cap": 15545.0
       }
     },
     {
@@ -5654,7 +5654,7 @@
         "roce": 17.3,
         "de": null,
         "div_yield": 0.25,
-        "market_cap": 41067.0
+        "market_cap": 41057.0
       }
     },
     {
@@ -5680,7 +5680,7 @@
         "roce": 15.5,
         "de": null,
         "div_yield": 0.76,
-        "market_cap": 11452.0
+        "market_cap": 11449.0
       }
     },
     {
@@ -5706,7 +5706,7 @@
         "roce": 11.0,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 18206.0
+        "market_cap": 18208.0
       }
     },
     {
@@ -5725,14 +5725,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/JSWDULUX/consolidated/",
       "ratios": {
-        "pe": 40.4,
+        "pe": 40.3,
         "industry_pe": null,
         "pb": null,
         "roe": 19.1,
         "roce": 22.7,
         "de": null,
         "div_yield": 1.56,
-        "market_cap": 14579.0
+        "market_cap": 14569.0
       }
     },
     {
@@ -5784,7 +5784,7 @@
         "roce": 8.99,
         "de": null,
         "div_yield": 0.52,
-        "market_cap": 15372.0
+        "market_cap": 15363.0
       }
     },
     {
@@ -5811,7 +5811,7 @@
         "roce": 14.6,
         "de": null,
         "div_yield": 0.9,
-        "market_cap": 579993.0
+        "market_cap": 580062.0
       }
     },
     {
@@ -5837,7 +5837,7 @@
         "roce": 16.0,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 6168.0
+        "market_cap": 6164.0
       }
     },
     {
@@ -5856,14 +5856,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/THELEELA/consolidated/",
       "ratios": {
-        "pe": 39.5,
+        "pe": 39.6,
         "industry_pe": null,
         "pb": null,
         "roe": 8.2,
         "roce": 8.72,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 16150.0
+        "market_cap": 16160.0
       }
     },
     {
@@ -5882,14 +5882,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/LEMONTREE/consolidated/",
       "ratios": {
-        "pe": 38.3,
+        "pe": 38.2,
         "industry_pe": null,
         "pb": null,
         "roe": 19.4,
         "roce": 14.0,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 9506.0
+        "market_cap": 9482.0
       }
     },
     {
@@ -5915,7 +5915,7 @@
         "roce": 18.2,
         "de": null,
         "div_yield": 0.06,
-        "market_cap": 59938.0
+        "market_cap": 59879.0
       }
     },
     {
@@ -5941,7 +5941,7 @@
         "roce": 30.3,
         "de": null,
         "div_yield": 0.51,
-        "market_cap": 107143.0
+        "market_cap": 107152.0
       }
     },
     {
@@ -5968,7 +5968,7 @@
         "roce": 8.26,
         "de": null,
         "div_yield": 1.1,
-        "market_cap": 29932.0
+        "market_cap": 29918.0
       }
     },
     {
@@ -5994,7 +5994,7 @@
         "roce": 17.7,
         "de": null,
         "div_yield": 2.6,
-        "market_cap": 26983.0
+        "market_cap": 26978.0
       }
     },
     {
@@ -6013,14 +6013,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/MANKIND/consolidated/",
       "ratios": {
-        "pe": 50.8,
+        "pe": 50.6,
         "industry_pe": null,
         "pb": null,
         "roe": 13.1,
         "roce": 13.5,
         "de": null,
         "div_yield": 0.04,
-        "market_cap": 101982.0
+        "market_cap": 101692.0
       }
     },
     {
@@ -6046,7 +6046,7 @@
         "roce": 14.7,
         "de": null,
         "div_yield": 0.18,
-        "market_cap": 109390.0
+        "market_cap": 109329.0
       }
     },
     {
@@ -6072,7 +6072,7 @@
         "roce": 36.0,
         "de": null,
         "div_yield": 0.7,
-        "market_cap": 99720.0
+        "market_cap": 99736.0
       }
     },
     {
@@ -6098,7 +6098,7 @@
         "roce": 15.8,
         "de": null,
         "div_yield": 0.99,
-        "market_cap": 121476.0
+        "market_cap": 121468.0
       }
     },
     {
@@ -6124,7 +6124,7 @@
         "roce": 27.6,
         "de": null,
         "div_yield": 3.89,
-        "market_cap": 74713.0
+        "market_cap": 74678.0
       }
     },
     {
@@ -6143,14 +6143,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/NH/consolidated/",
       "ratios": {
-        "pe": 46.9,
+        "pe": 47.0,
         "industry_pe": null,
         "pb": null,
         "roe": 20.9,
         "roce": 15.4,
         "de": null,
         "div_yield": 0.23,
-        "market_cap": 39951.0
+        "market_cap": 39989.0
       }
     },
     {
@@ -6202,7 +6202,7 @@
         "roce": 85.3,
         "de": null,
         "div_yield": 0.86,
-        "market_cap": 270573.0
+        "market_cap": 270465.0
       }
     },
     {
@@ -6228,7 +6228,7 @@
         "roce": 17.3,
         "de": null,
         "div_yield": 0.46,
-        "market_cap": 63570.0
+        "market_cap": 63601.0
       }
     },
     {
@@ -6237,8 +6237,8 @@
       "sector": "Financial Services",
       "current_price": 1125.0,
       "week52_high": 1382.0,
-      "week52_low": 889.0,
-      "pct_above_52w_low": 26.5,
+      "week52_low": 896.0,
+      "pct_above_52w_low": 25.6,
       "pct_below_52w_high": 18.6,
       "near_52w_low": true,
       "tags": [
@@ -6247,14 +6247,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/PAYTM/consolidated/",
       "ratios": {
-        "pe": 98.8,
+        "pe": 98.7,
         "industry_pe": null,
         "pb": null,
         "roe": 4.7,
         "roce": 5.01,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 72072.0
+        "market_cap": 72025.0
       }
     },
     {
@@ -6280,7 +6280,7 @@
         "roce": 10.3,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 74778.0
+        "market_cap": 74734.0
       }
     },
     {
@@ -6306,7 +6306,7 @@
         "roce": 10.3,
         "de": null,
         "div_yield": 0.05,
-        "market_cap": 15594.0
+        "market_cap": 15590.0
       }
     },
     {
@@ -6332,8 +6332,8 @@
         "roe": 23.9,
         "roce": 31.0,
         "de": null,
-        "div_yield": 0.63,
-        "market_cap": 162446.0
+        "div_yield": 0.72,
+        "market_cap": 162539.0
       }
     },
     {
@@ -6359,7 +6359,7 @@
         "roce": 2.69,
         "de": null,
         "div_yield": 0.08,
-        "market_cap": 22318.0
+        "market_cap": 22325.0
       }
     },
     {
@@ -6385,7 +6385,7 @@
         "roce": 7.5,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 38788.0
+        "market_cap": 38768.0
       }
     },
     {
@@ -6404,14 +6404,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/RECLTD/consolidated/",
       "ratios": {
-        "pe": 5.89,
+        "pe": 5.88,
         "industry_pe": null,
         "pb": null,
         "roe": 20.0,
         "roce": 9.71,
         "de": null,
         "div_yield": 4.94,
-        "market_cap": 96060.0
+        "market_cap": 96021.0
       }
     },
     {
@@ -6437,7 +6437,7 @@
         "roce": 16.2,
         "de": null,
         "div_yield": 0.91,
-        "market_cap": 10074.0
+        "market_cap": 10079.0
       }
     },
     {
@@ -6463,7 +6463,7 @@
         "roce": 5.6,
         "de": null,
         "div_yield": 0.35,
-        "market_cap": 10254.0
+        "market_cap": 10269.0
       }
     },
     {
@@ -6489,7 +6489,7 @@
         "roce": 6.1,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 10282.0
+        "market_cap": 10290.0
       }
     },
     {
@@ -6515,7 +6515,7 @@
         "roce": 3.99,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 5801.0
+        "market_cap": 5797.0
       }
     },
     {
@@ -6541,7 +6541,7 @@
         "roce": 17.4,
         "de": null,
         "div_yield": 0.29,
-        "market_cap": 18355.0
+        "market_cap": 18363.0
       }
     },
     {
@@ -6567,7 +6567,7 @@
         "roce": 13.0,
         "de": null,
         "div_yield": 0.48,
-        "market_cap": 26439.0
+        "market_cap": 26399.0
       }
     },
     {
@@ -6593,7 +6593,7 @@
         "roce": 21.2,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 129130.0
+        "market_cap": 129197.0
       }
     },
     {
@@ -6612,14 +6612,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/SOBHA/consolidated/",
       "ratios": {
-        "pe": 77.9,
+        "pe": 77.8,
         "industry_pe": null,
         "pb": null,
         "roe": 4.17,
         "roce": 6.9,
         "de": null,
         "div_yield": 0.21,
-        "market_cap": 15068.0
+        "market_cap": 15056.0
       }
     },
     {
@@ -6646,7 +6646,7 @@
         "roce": 20.5,
         "de": null,
         "div_yield": 0.86,
-        "market_cap": 446877.0
+        "market_cap": 446948.0
       }
     },
     {
@@ -6673,7 +6673,7 @@
         "roce": 8.58,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 154299.0
+        "market_cap": 154365.0
       }
     },
     {
@@ -6699,7 +6699,7 @@
         "roce": 3.42,
         "de": null,
         "div_yield": 1.47,
-        "market_cap": 19030.0
+        "market_cap": 19010.0
       }
     },
     {
@@ -6718,14 +6718,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/TATAINVEST/consolidated/",
       "ratios": {
-        "pe": 79.3,
+        "pe": 79.2,
         "industry_pe": null,
         "pb": null,
         "roe": 1.44,
         "roce": 1.57,
         "de": null,
         "div_yield": 0.5,
-        "market_cap": 34377.0
+        "market_cap": 34347.0
       }
     },
     {
@@ -6751,7 +6751,7 @@
         "roce": 2.73,
         "de": null,
         "div_yield": 0.85,
-        "market_cap": 130106.0
+        "market_cap": 130069.0
       }
     },
     {
@@ -6777,7 +6777,7 @@
         "roce": 12.5,
         "de": null,
         "div_yield": 2.12,
-        "market_cap": 235589.0
+        "market_cap": 235577.0
       }
     },
     {
@@ -6803,7 +6803,7 @@
         "roce": 14.8,
         "de": null,
         "div_yield": 0.83,
-        "market_cap": 12651.0
+        "market_cap": 12643.0
       }
     },
     {
@@ -6822,14 +6822,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/TITAN/consolidated/",
       "ratios": {
-        "pe": 73.9,
+        "pe": 74.0,
         "industry_pe": null,
         "pb": null,
         "roe": 37.7,
         "roce": 25.8,
         "de": null,
         "div_yield": 0.26,
-        "market_cap": 380391.0
+        "market_cap": 380976.0
       }
     },
     {
@@ -6855,7 +6855,7 @@
         "roce": 5.76,
         "de": null,
         "div_yield": 1.62,
-        "market_cap": 34070.0
+        "market_cap": 34057.0
       }
     },
     {
@@ -6881,7 +6881,7 @@
         "roce": 38.8,
         "de": null,
         "div_yield": 0.07,
-        "market_cap": 86539.0
+        "market_cap": 86566.0
       }
     },
     {
@@ -6907,7 +6907,7 @@
         "roce": 8.89,
         "de": null,
         "div_yield": 0.06,
-        "market_cap": 25257.0
+        "market_cap": 25250.0
       }
     },
     {
@@ -6933,7 +6933,7 @@
         "roce": 21.1,
         "de": null,
         "div_yield": 0.33,
-        "market_cap": 45086.0
+        "market_cap": 45073.0
       }
     },
     {
@@ -6959,7 +6959,7 @@
         "roce": 12.4,
         "de": null,
         "div_yield": 0.1,
-        "market_cap": 77414.0
+        "market_cap": 77432.0
       }
     },
     {
@@ -6968,8 +6968,8 @@
       "sector": "Healthcare",
       "current_price": 3300.0,
       "week52_high": 3444.0,
-      "week52_low": 1059.0,
-      "pct_above_52w_low": 211.6,
+      "week52_low": 1085.0,
+      "pct_above_52w_low": 204.1,
       "pct_below_52w_high": 4.2,
       "near_52w_low": false,
       "tags": [
@@ -7011,7 +7011,7 @@
         "roce": 5.8,
         "de": null,
         "div_yield": 0.04,
-        "market_cap": 395363.0
+        "market_cap": 395215.0
       }
     },
     {
@@ -7037,7 +7037,7 @@
         "roce": 7.39,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 251367.0
+        "market_cap": 251376.0
       }
     },
     {
@@ -7089,7 +7089,7 @@
         "roce": 8.72,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 106812.0
+        "market_cap": 106853.0
       }
     },
     {
@@ -7115,7 +7115,7 @@
         "roce": 29.6,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 41944.0
+        "market_cap": 41937.0
       }
     },
     {
@@ -7141,7 +7141,7 @@
         "roce": 13.6,
         "de": null,
         "div_yield": 0.64,
-        "market_cap": 40027.0
+        "market_cap": 40037.0
       }
     },
     {
@@ -7167,7 +7167,7 @@
         "roce": 34.5,
         "de": null,
         "div_yield": 0.88,
-        "market_cap": 39759.0
+        "market_cap": 39735.0
       }
     },
     {
@@ -7193,7 +7193,7 @@
         "roce": 59.2,
         "de": null,
         "div_yield": 0.34,
-        "market_cap": 32090.0
+        "market_cap": 32087.0
       }
     },
     {
@@ -7219,7 +7219,7 @@
         "roce": 12.8,
         "de": null,
         "div_yield": 0.26,
-        "market_cap": 90379.0
+        "market_cap": 90326.0
       }
     },
     {
@@ -7245,7 +7245,7 @@
         "roce": 6.24,
         "de": null,
         "div_yield": 0.07,
-        "market_cap": 428488.0
+        "market_cap": 428364.0
       }
     },
     {
@@ -7264,14 +7264,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/MAHABANK/consolidated/",
       "ratios": {
-        "pe": 9.74,
+        "pe": 9.73,
         "industry_pe": null,
         "pb": null,
         "roe": 22.6,
         "roce": 6.03,
         "de": null,
         "div_yield": 2.48,
-        "market_cap": 68317.0
+        "market_cap": 68232.0
       }
     },
     {
@@ -7290,14 +7290,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/BELRISE/consolidated/",
       "ratios": {
-        "pe": 43.6,
+        "pe": 43.7,
         "industry_pe": null,
         "pb": null,
         "roe": 12.6,
         "roce": 14.5,
         "de": null,
         "div_yield": 0.22,
-        "market_cap": 21839.0
+        "market_cap": 21861.0
       }
     },
     {
@@ -7323,7 +7323,7 @@
         "roce": 13.1,
         "de": null,
         "div_yield": 0.4,
-        "market_cap": 102535.0
+        "market_cap": 102564.0
       }
     },
     {
@@ -7342,14 +7342,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/BOSCHLTD/consolidated/",
       "ratios": {
-        "pe": 50.7,
+        "pe": 50.8,
         "industry_pe": null,
         "pb": null,
         "roe": 16.4,
         "roce": 21.5,
         "de": null,
         "div_yield": 0.67,
-        "market_cap": 119164.0
+        "market_cap": 119282.0
       }
     },
     {
@@ -7375,7 +7375,7 @@
         "roce": 27.0,
         "de": null,
         "div_yield": 0.14,
-        "market_cap": 148338.0
+        "market_cap": 148379.0
       }
     },
     {
@@ -7401,7 +7401,7 @@
         "roce": 24.6,
         "de": null,
         "div_yield": 0.24,
-        "market_cap": 19057.0
+        "market_cap": 19052.0
       }
     },
     {
@@ -7427,7 +7427,7 @@
         "roce": 11.7,
         "de": null,
         "div_yield": 0.09,
-        "market_cap": 20901.0
+        "market_cap": 20921.0
       }
     },
     {
@@ -7453,7 +7453,7 @@
         "roce": 9.7,
         "de": null,
         "div_yield": 0.11,
-        "market_cap": 153444.0
+        "market_cap": 153397.0
       }
     },
     {
@@ -7479,7 +7479,7 @@
         "roce": 23.7,
         "de": null,
         "div_yield": 0.45,
-        "market_cap": 19127.0
+        "market_cap": 19143.0
       }
     },
     {
@@ -7505,7 +7505,7 @@
         "roce": 24.0,
         "de": null,
         "div_yield": 0.16,
-        "market_cap": 35698.0
+        "market_cap": 35660.0
       }
     },
     {
@@ -7531,7 +7531,7 @@
         "roce": 44.8,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 23374.0
+        "market_cap": 23349.0
       }
     },
     {
@@ -7583,7 +7583,7 @@
         "roce": 6.39,
         "de": null,
         "div_yield": 0.37,
-        "market_cap": 79979.0
+        "market_cap": 79969.0
       }
     },
     {
@@ -7609,7 +7609,7 @@
         "roce": 15.1,
         "de": null,
         "div_yield": 0.78,
-        "market_cap": 38191.0
+        "market_cap": 38185.0
       }
     },
     {
@@ -7635,7 +7635,7 @@
         "roce": 15.5,
         "de": null,
         "div_yield": 0.23,
-        "market_cap": 18935.0
+        "market_cap": 18937.0
       }
     },
     {
@@ -7661,7 +7661,7 @@
         "roce": 9.86,
         "de": null,
         "div_yield": 0.08,
-        "market_cap": 42915.0
+        "market_cap": 42943.0
       }
     },
     {
@@ -7680,14 +7680,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/HFCL/consolidated/",
       "ratios": {
-        "pe": 105.0,
+        "pe": 106.0,
         "industry_pe": null,
         "pb": null,
         "roe": 6.95,
         "roce": 10.9,
         "de": null,
         "div_yield": 0.05,
-        "market_cap": 32855.0
+        "market_cap": 32908.0
       }
     },
     {
@@ -7706,14 +7706,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/HONASA/consolidated/",
       "ratios": {
-        "pe": 66.8,
+        "pe": 66.9,
         "industry_pe": null,
         "pb": null,
         "roe": 15.7,
         "roce": 19.2,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 13602.0
+        "market_cap": 13618.0
       }
     },
     {
@@ -7739,7 +7739,7 @@
         "roce": 36.9,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 29297.0
+        "market_cap": 29257.0
       }
     },
     {
@@ -7758,14 +7758,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/JBCHEPHARM/consolidated/",
       "ratios": {
-        "pe": 50.2,
+        "pe": 50.1,
         "industry_pe": null,
         "pb": null,
         "roe": 18.9,
         "roce": 25.4,
         "de": null,
         "div_yield": 0.98,
-        "market_cap": 36044.0
+        "market_cap": 36028.0
       }
     },
     {
@@ -7791,7 +7791,7 @@
         "roce": 10.4,
         "de": null,
         "div_yield": 0.77,
-        "market_cap": 16685.0
+        "market_cap": 16673.0
       }
     },
     {
@@ -7817,7 +7817,7 @@
         "roce": 9.29,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 33368.0
+        "market_cap": 33405.0
       }
     },
     {
@@ -7826,8 +7826,8 @@
       "sector": "Healthcare",
       "current_price": 1450.0,
       "week52_high": 1493.0,
-      "week52_low": 663.0,
-      "pct_above_52w_low": 118.7,
+      "week52_low": 674.0,
+      "pct_above_52w_low": 115.1,
       "pct_below_52w_high": 2.9,
       "near_52w_low": false,
       "tags": [
@@ -7843,7 +7843,7 @@
         "roce": 17.8,
         "de": null,
         "div_yield": 0.14,
-        "market_cap": 78350.0
+        "market_cap": 78336.0
       }
     },
     {
@@ -7862,14 +7862,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/MINDACORP/consolidated/",
       "ratios": {
-        "pe": 44.3,
+        "pe": 44.4,
         "industry_pe": null,
         "pb": null,
         "roe": 14.9,
         "roce": 12.8,
         "de": null,
         "div_yield": 0.21,
-        "market_cap": 16010.0
+        "market_cap": 16029.0
       }
     },
     {
@@ -7895,7 +7895,7 @@
         "roce": 21.4,
         "de": null,
         "div_yield": 0.2,
-        "market_cap": 39028.0
+        "market_cap": 39032.0
       }
     },
     {
@@ -7921,7 +7921,7 @@
         "roce": 43.8,
         "de": null,
         "div_yield": 1.89,
-        "market_cap": 72813.0
+        "market_cap": 72816.0
       }
     },
     {
@@ -7947,7 +7947,7 @@
         "roce": 17.5,
         "de": null,
         "div_yield": 1.59,
-        "market_cap": 31890.0
+        "market_cap": 31909.0
       }
     },
     {
@@ -7973,7 +7973,7 @@
         "roce": 45.3,
         "de": null,
         "div_yield": 3.64,
-        "market_cap": 95524.0
+        "market_cap": 95557.0
       }
     },
     {
@@ -7999,7 +7999,7 @@
         "roce": 12.8,
         "de": null,
         "div_yield": 0.13,
-        "market_cap": 68134.0
+        "market_cap": 68116.0
       }
     },
     {
@@ -8025,7 +8025,7 @@
         "roce": 6.47,
         "de": null,
         "div_yield": 0.52,
-        "market_cap": 48286.0
+        "market_cap": 48305.0
       }
     },
     {
@@ -8044,14 +8044,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/RRKABEL/consolidated/",
       "ratios": {
-        "pe": 55.9,
+        "pe": 55.8,
         "industry_pe": null,
         "pb": null,
         "roe": 21.3,
         "roce": 28.1,
         "de": null,
         "div_yield": 0.38,
-        "market_cap": 28174.0
+        "market_cap": 28144.0
       }
     },
     {
@@ -8077,7 +8077,7 @@
         "roce": 5.81,
         "de": null,
         "div_yield": 0.27,
-        "market_cap": 57482.0
+        "market_cap": 57459.0
       }
     },
     {
@@ -8096,14 +8096,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/RADICO/consolidated/",
       "ratios": {
-        "pe": 83.1,
+        "pe": 83.2,
         "industry_pe": null,
         "pb": null,
         "roe": 20.3,
         "roce": 24.2,
         "de": null,
         "div_yield": 0.23,
-        "market_cap": 51288.0
+        "market_cap": 51293.0
       }
     },
     {
@@ -8122,14 +8122,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/SAILIFE/consolidated/",
       "ratios": {
-        "pe": 73.1,
+        "pe": 73.0,
         "industry_pe": null,
         "pb": null,
         "roe": 15.4,
         "roce": 19.6,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 25959.0
+        "market_cap": 25926.0
       }
     },
     {
@@ -8148,14 +8148,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/MOTHERSON/consolidated/",
       "ratios": {
-        "pe": 38.8,
+        "pe": 38.7,
         "industry_pe": null,
         "pb": null,
         "roe": 10.9,
         "roce": 13.1,
         "de": null,
         "div_yield": 0.4,
-        "market_cap": 160155.0
+        "market_cap": 160121.0
       }
     },
     {
@@ -8181,7 +8181,7 @@
         "roce": 14.8,
         "de": null,
         "div_yield": 0.55,
-        "market_cap": 38535.0
+        "market_cap": 38520.0
       }
     },
     {
@@ -8207,7 +8207,7 @@
         "roce": 20.9,
         "de": null,
         "div_yield": 1.12,
-        "market_cap": 30393.0
+        "market_cap": 30387.0
       }
     },
     {
@@ -8226,14 +8226,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/THERMAX/consolidated/",
       "ratios": {
-        "pe": 85.1,
+        "pe": 85.0,
         "industry_pe": null,
         "pb": null,
         "roe": 12.9,
         "roce": 14.9,
         "de": null,
         "div_yield": 0.29,
-        "market_cap": 57591.0
+        "market_cap": 57538.0
       }
     },
     {
@@ -8242,8 +8242,8 @@
       "sector": "Healthcare",
       "current_price": 4516.0,
       "week52_high": 4714.0,
-      "week52_low": 3172.0,
-      "pct_above_52w_low": 42.4,
+      "week52_low": 3265.0,
+      "pct_above_52w_low": 38.3,
       "pct_below_52w_high": 4.2,
       "near_52w_low": false,
       "tags": [
@@ -8252,14 +8252,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/TORNTPHARM/consolidated/",
       "ratios": {
-        "pe": 69.8,
+        "pe": 69.7,
         "industry_pe": null,
         "pb": null,
         "roe": 27.4,
         "roce": 15.2,
         "de": null,
         "div_yield": 0.84,
-        "market_cap": 152881.0
+        "market_cap": 152849.0
       }
     },
     {
@@ -8278,14 +8278,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/VIJAYA/consolidated/",
       "ratios": {
-        "pe": 81.3,
+        "pe": 81.4,
         "industry_pe": null,
         "pb": null,
         "roe": 19.7,
         "roce": 21.3,
         "de": null,
         "div_yield": 0.15,
-        "market_cap": 14067.0
+        "market_cap": 14074.0
       }
     },
     {
@@ -8311,7 +8311,7 @@
         "roce": 22.9,
         "de": null,
         "div_yield": 0.34,
-        "market_cap": 38446.0
+        "market_cap": 38384.0
       }
     },
     {
@@ -8330,14 +8330,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/WELSPUNLIV/consolidated/",
       "ratios": {
-        "pe": 73.8,
+        "pe": 73.7,
         "industry_pe": null,
         "pb": null,
         "roe": 4.47,
         "roce": 6.25,
         "de": null,
         "div_yield": 0.06,
-        "market_cap": 16076.0
+        "market_cap": 16049.0
       }
     },
     {
@@ -8363,7 +8363,7 @@
         "roce": 5.98,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 78028.0
+        "market_cap": 78059.0
       }
     },
     {
@@ -8389,7 +8389,7 @@
         "roce": 21.2,
         "de": null,
         "div_yield": 0.09,
-        "market_cap": 110847.0
+        "market_cap": 110827.0
       }
     }
   ],
@@ -8417,7 +8417,7 @@
         "roce": 21.6,
         "de": null,
         "div_yield": 2.16,
-        "market_cap": 8401.0
+        "market_cap": 8405.0
       }
     },
     {
@@ -8443,7 +8443,7 @@
         "roce": 29.6,
         "de": null,
         "div_yield": 1.99,
-        "market_cap": 111550.0
+        "market_cap": 111607.0
       }
     },
     {
@@ -8469,7 +8469,7 @@
         "roce": 20.1,
         "de": null,
         "div_yield": 2.99,
-        "market_cap": 18811.0
+        "market_cap": 18814.0
       }
     },
     {
@@ -8495,7 +8495,7 @@
         "roce": 30.6,
         "de": null,
         "div_yield": 4.91,
-        "market_cap": 298841.0
+        "market_cap": 298693.0
       }
     },
     {
@@ -8521,7 +8521,7 @@
         "roce": 14.7,
         "de": null,
         "div_yield": 0.6,
-        "market_cap": 40715.0
+        "market_cap": 40735.0
       }
     },
     {
@@ -8540,14 +8540,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/PATANJALI/consolidated/",
       "ratios": {
-        "pe": 22.2,
+        "pe": 22.3,
         "industry_pe": null,
         "pb": null,
         "roe": 16.5,
         "roce": 12.0,
         "de": null,
         "div_yield": 0.85,
-        "market_cap": 44809.0
+        "market_cap": 44890.0
       }
     },
     {
@@ -8573,7 +8573,7 @@
         "roce": 40.0,
         "de": null,
         "div_yield": 4.61,
-        "market_cap": 422535.0
+        "market_cap": 422475.0
       }
     },
     {
@@ -8599,7 +8599,7 @@
         "roce": 27.2,
         "de": null,
         "div_yield": 1.68,
-        "market_cap": 20408.0
+        "market_cap": 20407.0
       }
     },
     {
@@ -8625,7 +8625,7 @@
         "roce": 23.5,
         "de": null,
         "div_yield": 2.92,
-        "market_cap": 10133.0
+        "market_cap": 10134.0
       }
     },
     {
@@ -8651,7 +8651,7 @@
         "roce": 17.8,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 12635.0
+        "market_cap": 12630.0
       }
     },
     {
@@ -8677,7 +8677,7 @@
         "roce": 14.2,
         "de": null,
         "div_yield": 5.26,
-        "market_cap": 293185.0
+        "market_cap": 293246.0
       }
     },
     {
@@ -8703,7 +8703,7 @@
         "roce": -24.1,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 66509.0
+        "market_cap": 66455.0
       }
     },
     {
@@ -8729,7 +8729,7 @@
         "roce": 63.0,
         "de": null,
         "div_yield": 3.06,
-        "market_cap": 757971.0
+        "market_cap": 757881.0
       }
     },
     {
@@ -8755,7 +8755,7 @@
         "roce": 28.0,
         "de": null,
         "div_yield": 1.53,
-        "market_cap": 11776.0
+        "market_cap": 11760.0
       }
     },
     {
@@ -8781,7 +8781,7 @@
         "roce": 17.8,
         "de": null,
         "div_yield": 6.29,
-        "market_cap": 183844.0
+        "market_cap": 183812.0
       }
     },
     {
@@ -8807,7 +8807,7 @@
         "roce": 60.0,
         "de": null,
         "div_yield": 1.86,
-        "market_cap": 25092.0
+        "market_cap": 25095.0
       }
     },
     {
@@ -8833,7 +8833,7 @@
         "roce": 14.6,
         "de": null,
         "div_yield": 0.28,
-        "market_cap": 27944.0
+        "market_cap": 27925.0
       }
     },
     {
@@ -8859,7 +8859,7 @@
         "roce": 56.0,
         "de": null,
         "div_yield": 1.73,
-        "market_cap": 126156.0
+        "market_cap": 126143.0
       }
     },
     {
@@ -8878,14 +8878,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/UBL/consolidated/",
       "ratios": {
-        "pe": 93.9,
+        "pe": 94.0,
         "industry_pe": null,
         "pb": null,
         "roe": 8.42,
         "roce": 10.7,
         "de": null,
         "div_yield": 0.75,
-        "market_cap": 35105.0
+        "market_cap": 35134.0
       }
     },
     {
@@ -8904,14 +8904,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/GICRE/consolidated/",
       "ratios": {
-        "pe": 6.56,
+        "pe": 6.55,
         "industry_pe": null,
         "pb": null,
         "roe": 14.6,
         "roce": 17.4,
         "de": null,
         "div_yield": 2.77,
-        "market_cap": 63342.0
+        "market_cap": 63325.0
       }
     },
     {
@@ -8937,7 +8937,7 @@
         "roce": 46.1,
         "de": null,
         "div_yield": 1.65,
-        "market_cap": 41124.0
+        "market_cap": 41128.0
       }
     },
     {
@@ -8963,7 +8963,7 @@
         "roce": 10.2,
         "de": null,
         "div_yield": 1.02,
-        "market_cap": 49828.0
+        "market_cap": 49833.0
       }
     },
     {
@@ -8988,7 +8988,7 @@
         "roe": 10.3,
         "roce": 15.8,
         "de": null,
-        "div_yield": 2.77,
+        "div_yield": 4.26,
         "market_cap": 12058.0
       }
     },
@@ -9015,7 +9015,7 @@
         "roce": 24.9,
         "de": null,
         "div_yield": 0.85,
-        "market_cap": 73900.0
+        "market_cap": 73910.0
       }
     },
     {
@@ -9041,7 +9041,7 @@
         "roce": 10.3,
         "de": null,
         "div_yield": 0.46,
-        "market_cap": 1783588.0
+        "market_cap": 1783723.0
       }
     },
     {
@@ -9067,7 +9067,7 @@
         "roce": 38.9,
         "de": null,
         "div_yield": 5.0,
-        "market_cap": 363480.0
+        "market_cap": 363355.0
       }
     },
     {
@@ -9093,7 +9093,7 @@
         "roce": 29.6,
         "de": null,
         "div_yield": 2.52,
-        "market_cap": 17316.0
+        "market_cap": 17327.0
       }
     },
     {
@@ -9138,14 +9138,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/OIL/consolidated/",
       "ratios": {
-        "pe": 9.99,
+        "pe": 10.0,
         "industry_pe": null,
         "pb": null,
         "roe": 12.3,
         "roce": 11.6,
         "de": null,
         "div_yield": 2.83,
-        "market_cap": 66123.0
+        "market_cap": 66170.0
       }
     },
     {
@@ -9164,14 +9164,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/MAPMYINDIA/consolidated/",
       "ratios": {
-        "pe": 34.4,
+        "pe": 34.3,
         "industry_pe": null,
         "pb": null,
         "roe": 15.8,
         "roce": 22.0,
         "de": null,
         "div_yield": 0.42,
-        "market_cap": 4608.0
+        "market_cap": 4603.0
       }
     },
     {
@@ -9197,7 +9197,7 @@
         "roce": 15.7,
         "de": null,
         "div_yield": 0.18,
-        "market_cap": 54896.0
+        "market_cap": 54944.0
       }
     },
     {
@@ -9223,7 +9223,7 @@
         "roce": 11.1,
         "de": null,
         "div_yield": 0.62,
-        "market_cap": 10188.0
+        "market_cap": 10185.0
       }
     },
     {
@@ -9249,7 +9249,7 @@
         "roce": 34.8,
         "de": null,
         "div_yield": 0.04,
-        "market_cap": 13216.0
+        "market_cap": 13209.0
       }
     },
     {
@@ -9275,7 +9275,7 @@
         "roce": 18.3,
         "de": null,
         "div_yield": 0.55,
-        "market_cap": 23670.0
+        "market_cap": 23658.0
       }
     },
     {
@@ -9301,7 +9301,7 @@
         "roce": 18.5,
         "de": null,
         "div_yield": 0.86,
-        "market_cap": 1127863.0
+        "market_cap": 1127683.0
       }
     },
     {
@@ -9327,7 +9327,7 @@
         "roce": 10.1,
         "de": null,
         "div_yield": 0.34,
-        "market_cap": 71198.0
+        "market_cap": 71241.0
       }
     },
     {
@@ -9353,7 +9353,7 @@
         "roce": 19.3,
         "de": null,
         "div_yield": 0.43,
-        "market_cap": 57314.0
+        "market_cap": 57301.0
       }
     },
     {
@@ -9379,7 +9379,7 @@
         "roce": 11.2,
         "de": null,
         "div_yield": 0.56,
-        "market_cap": 25145.0
+        "market_cap": 25124.0
       }
     },
     {
@@ -9405,7 +9405,7 @@
         "roce": 19.1,
         "de": null,
         "div_yield": 1.93,
-        "market_cap": 105834.0
+        "market_cap": 105865.0
       }
     },
     {
@@ -9431,7 +9431,7 @@
         "roce": 16.5,
         "de": null,
         "div_yield": 2.92,
-        "market_cap": 20240.0
+        "market_cap": 20236.0
       }
     },
     {
@@ -9457,7 +9457,7 @@
         "roce": 7.59,
         "de": null,
         "div_yield": 0.52,
-        "market_cap": 32267.0
+        "market_cap": 32269.0
       }
     },
     {
@@ -9483,7 +9483,7 @@
         "roce": 1.86,
         "de": null,
         "div_yield": 0.21,
-        "market_cap": 158212.0
+        "market_cap": 158099.0
       }
     },
     {
@@ -9491,10 +9491,10 @@
       "name": "SignatureGlobal India Ltd",
       "sector": "Realty",
       "current_price": 756.0,
-      "week52_high": 1298.0,
+      "week52_high": 1294.0,
       "week52_low": 705.0,
       "pct_above_52w_low": 7.2,
-      "pct_below_52w_high": 41.8,
+      "pct_below_52w_high": 41.6,
       "near_52w_low": true,
       "tags": [
         "AT_52W_LOW"
@@ -9502,14 +9502,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/SIGNATURE/consolidated/",
       "ratios": {
-        "pe": 296.0,
+        "pe": 297.0,
         "industry_pe": null,
         "pb": null,
         "roe": 2.79,
         "roce": 2.6,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 10629.0
+        "market_cap": 10643.0
       }
     },
     {
@@ -9561,7 +9561,7 @@
         "roce": 20.7,
         "de": null,
         "div_yield": 1.05,
-        "market_cap": 43489.0
+        "market_cap": 43467.0
       }
     },
     {
@@ -9606,14 +9606,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/BLUEDART/consolidated/",
       "ratios": {
-        "pe": 42.1,
+        "pe": 42.2,
         "industry_pe": null,
         "pb": null,
         "roe": 16.8,
         "roce": 16.6,
         "de": null,
         "div_yield": 0.5,
-        "market_cap": 11819.0
+        "market_cap": 11823.0
       }
     },
     {
@@ -9639,7 +9639,7 @@
         "roce": 0.57,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 11658.0
+        "market_cap": 11640.0
       }
     },
     {
@@ -9691,7 +9691,7 @@
         "roce": 5.43,
         "de": null,
         "div_yield": 0.86,
-        "market_cap": 63455.0
+        "market_cap": 63471.0
       }
     },
     {
@@ -9717,7 +9717,7 @@
         "roce": 3.87,
         "de": null,
         "div_yield": 0.03,
-        "market_cap": 9983.0
+        "market_cap": 9976.0
       }
     },
     {
@@ -9736,14 +9736,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/BIKAJI/consolidated/",
       "ratios": {
-        "pe": 61.3,
+        "pe": 61.4,
         "industry_pe": null,
         "pb": null,
         "roe": 17.5,
         "roce": 19.7,
         "de": null,
         "div_yield": 0.2,
-        "market_cap": 16034.0
+        "market_cap": 16062.0
       }
     },
     {
@@ -9769,7 +9769,7 @@
         "roce": 10.8,
         "de": null,
         "div_yield": 0.71,
-        "market_cap": 50216.0
+        "market_cap": 50218.0
       }
     },
     {
@@ -9795,7 +9795,7 @@
         "roce": 34.4,
         "de": null,
         "div_yield": 0.72,
-        "market_cap": 76365.0
+        "market_cap": 76375.0
       }
     },
     {
@@ -9821,7 +9821,7 @@
         "roce": 13.2,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 21877.0
+        "market_cap": 21885.0
       }
     },
     {
@@ -9847,7 +9847,7 @@
         "roce": 13.9,
         "de": null,
         "div_yield": 1.12,
-        "market_cap": 32980.0
+        "market_cap": 33001.0
       }
     },
     {
@@ -9873,7 +9873,7 @@
         "roce": 7.04,
         "de": null,
         "div_yield": 1.63,
-        "market_cap": 1226444.0
+        "market_cap": 1226366.0
       }
     },
     {
@@ -9899,7 +9899,7 @@
         "roce": 51.4,
         "de": null,
         "div_yield": 2.8,
-        "market_cap": 11152.0
+        "market_cap": 11146.0
       }
     },
     {
@@ -9951,7 +9951,7 @@
         "roce": 6.13,
         "de": null,
         "div_yield": 2.78,
-        "market_cap": 123986.0
+        "market_cap": 123974.0
       }
     },
     {
@@ -9977,7 +9977,7 @@
         "roce": 6.12,
         "de": null,
         "div_yield": 0.27,
-        "market_cap": 21726.0
+        "market_cap": 21718.0
       }
     },
     {
@@ -10003,7 +10003,7 @@
         "roce": 9.04,
         "de": null,
         "div_yield": 0.31,
-        "market_cap": 43104.0
+        "market_cap": 43094.0
       }
     },
     {
@@ -10055,7 +10055,7 @@
         "roce": 23.1,
         "de": null,
         "div_yield": 3.55,
-        "market_cap": 140878.0
+        "market_cap": 140844.0
       }
     },
     {
@@ -10081,7 +10081,7 @@
         "roce": 26.7,
         "de": null,
         "div_yield": 1.75,
-        "market_cap": 35248.0
+        "market_cap": 35240.0
       }
     },
     {
@@ -10159,7 +10159,7 @@
         "roce": 11.8,
         "de": null,
         "div_yield": 0.86,
-        "market_cap": 16312.0
+        "market_cap": 16305.0
       }
     },
     {
@@ -10185,7 +10185,7 @@
         "roce": 18.8,
         "de": null,
         "div_yield": 4.86,
-        "market_cap": 203260.0
+        "market_cap": 203190.0
       }
     },
     {
@@ -10204,14 +10204,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/NUVOCO/consolidated/",
       "ratios": {
-        "pe": 28.1,
+        "pe": 28.0,
         "industry_pe": null,
         "pb": null,
         "roe": 4.05,
         "roce": 7.07,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 10940.0
+        "market_cap": 10936.0
       }
     },
     {
@@ -10230,14 +10230,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/CRISIL/consolidated/",
       "ratios": {
-        "pe": 35.7,
+        "pe": 35.6,
         "industry_pe": null,
         "pb": null,
         "roe": 24.5,
         "roce": 32.6,
         "de": null,
         "div_yield": 0.61,
-        "market_cap": 29934.0
+        "market_cap": 29909.0
       }
     },
     {
@@ -10256,14 +10256,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/ABLBL/consolidated/",
       "ratios": {
-        "pe": 57.0,
+        "pe": 56.9,
         "industry_pe": null,
         "pb": null,
         "roe": 15.6,
         "roce": 14.7,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 11930.0
+        "market_cap": 11909.0
       }
     },
     {
@@ -10289,7 +10289,7 @@
         "roce": 30.5,
         "de": null,
         "div_yield": 1.37,
-        "market_cap": 15087.0
+        "market_cap": 15108.0
       }
     },
     {
@@ -10315,7 +10315,7 @@
         "roce": 12.8,
         "de": null,
         "div_yield": 0.67,
-        "market_cap": 338307.0
+        "market_cap": 338557.0
       }
     },
     {
@@ -10334,14 +10334,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/JWL/consolidated/",
       "ratios": {
-        "pe": 61.3,
+        "pe": 61.4,
         "industry_pe": null,
         "pb": null,
         "roe": 6.39,
         "roce": 9.16,
         "de": null,
         "div_yield": 0.38,
-        "market_cap": 11231.0
+        "market_cap": 11238.0
       }
     },
     {
@@ -10367,7 +10367,7 @@
         "roce": 8.33,
         "de": null,
         "div_yield": 2.37,
-        "market_cap": 341419.0
+        "market_cap": 341371.0
       }
     },
     {
@@ -10393,7 +10393,7 @@
         "roce": 12.4,
         "de": null,
         "div_yield": 1.96,
-        "market_cap": 35792.0
+        "market_cap": 35781.0
       }
     },
     {
@@ -10412,14 +10412,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/COLPAL/consolidated/",
       "ratios": {
-        "pe": 125.0,
+        "pe": 126.0,
         "industry_pe": null,
         "pb": null,
         "roe": 158.0,
         "roce": 179.0,
         "de": null,
         "div_yield": 2.56,
-        "market_cap": 54168.0
+        "market_cap": 54207.0
       }
     },
     {
@@ -10445,7 +10445,7 @@
         "roce": 24.3,
         "de": null,
         "div_yield": 0.14,
-        "market_cap": 13663.0
+        "market_cap": 13668.0
       }
     },
     {
@@ -10471,7 +10471,7 @@
         "roce": -3.07,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 7326.0
+        "market_cap": 7338.0
       }
     },
     {
@@ -10497,7 +10497,7 @@
         "roce": 9.24,
         "de": null,
         "div_yield": 0.88,
-        "market_cap": 111964.0
+        "market_cap": 111959.0
       }
     },
     {
@@ -10523,7 +10523,7 @@
         "roce": 22.8,
         "de": null,
         "div_yield": 2.74,
-        "market_cap": 43214.0
+        "market_cap": 43202.0
       }
     },
     {
@@ -10575,7 +10575,7 @@
         "roce": 36.5,
         "de": null,
         "div_yield": 0.59,
-        "market_cap": 297510.0
+        "market_cap": 297654.0
       }
     },
     {
@@ -10601,7 +10601,7 @@
         "roce": 19.0,
         "de": null,
         "div_yield": 1.02,
-        "market_cap": 432013.0
+        "market_cap": 432146.0
       }
     },
     {
@@ -10620,14 +10620,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/GLAXO/consolidated/",
       "ratios": {
-        "pe": 41.7,
+        "pe": 41.5,
         "industry_pe": null,
         "pb": null,
         "roe": 45.6,
         "roce": 61.4,
         "de": null,
         "div_yield": 2.42,
-        "market_cap": 40097.0
+        "market_cap": 39892.0
       }
     },
     {
@@ -10653,7 +10653,7 @@
         "roce": 13.4,
         "de": null,
         "div_yield": 0.12,
-        "market_cap": 18894.0
+        "market_cap": 18899.0
       }
     },
     {
@@ -10705,7 +10705,7 @@
         "roce": 8.34,
         "de": null,
         "div_yield": 0.65,
-        "market_cap": 10026.0
+        "market_cap": 10036.0
       }
     },
     {
@@ -10713,10 +10713,10 @@
       "name": "KEC International Ltd",
       "sector": "Construction",
       "current_price": 528.0,
-      "week52_high": 947.0,
+      "week52_high": 940.0,
       "week52_low": 466.0,
       "pct_above_52w_low": 13.3,
-      "pct_below_52w_high": 44.2,
+      "pct_below_52w_high": 43.8,
       "near_52w_low": true,
       "tags": [
         "NEAR_52W_LOW"
@@ -10731,7 +10731,7 @@
         "roce": 14.5,
         "de": null,
         "div_yield": 1.04,
-        "market_cap": 14041.0
+        "market_cap": 14059.0
       }
     },
     {
@@ -10757,7 +10757,7 @@
         "roce": 12.4,
         "de": null,
         "div_yield": 0.72,
-        "market_cap": 43155.0
+        "market_cap": 43179.0
       }
     },
     {
@@ -10783,7 +10783,7 @@
         "roce": 9.74,
         "de": null,
         "div_yield": 3.17,
-        "market_cap": 264135.0
+        "market_cap": 264044.0
       }
     },
     {
@@ -10809,7 +10809,7 @@
         "roce": 10.5,
         "de": null,
         "div_yield": 0.64,
-        "market_cap": 124362.0
+        "market_cap": 124283.0
       }
     },
     {
@@ -10835,7 +10835,7 @@
         "roce": 3.53,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 80631.0
+        "market_cap": 80657.0
       }
     },
     {
@@ -10861,7 +10861,7 @@
         "roce": 11.6,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 10065.0
+        "market_cap": 10057.0
       }
     },
     {
@@ -10880,14 +10880,40 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/SHREECEM/consolidated/",
       "ratios": {
-        "pe": 53.2,
+        "pe": 53.3,
         "industry_pe": null,
         "pb": null,
         "roe": 7.78,
         "roce": 10.5,
         "de": null,
         "div_yield": 0.43,
-        "market_cap": 92850.0
+        "market_cap": 92854.0
+      }
+    },
+    {
+      "symbol": "JINDALSTEL",
+      "name": "Jindal Steel Ltd",
+      "sector": "Metals & Mining",
+      "current_price": 1060.0,
+      "week52_high": 1306.0,
+      "week52_low": 927.0,
+      "pct_above_52w_low": 14.3,
+      "pct_below_52w_high": 18.8,
+      "near_52w_low": true,
+      "tags": [
+        "NEAR_52W_LOW"
+      ],
+      "is_opportunity": true,
+      "screener_url": "https://www.screener.in/company/JINDALSTEL/consolidated/",
+      "ratios": {
+        "pe": 26.8,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 8.22,
+        "roce": 9.7,
+        "de": null,
+        "div_yield": 0.19,
+        "market_cap": 108078.0
       }
     },
     {
@@ -10906,14 +10932,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/UNOMINDA/consolidated/",
       "ratios": {
-        "pe": 54.0,
+        "pe": 53.9,
         "industry_pe": null,
         "pb": null,
         "roe": 19.4,
         "roce": 19.7,
         "de": null,
         "div_yield": 0.23,
-        "market_cap": 65713.0
+        "market_cap": 65629.0
       }
     },
     {
@@ -10939,7 +10965,7 @@
         "roce": 2.95,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 55600.0
+        "market_cap": 55612.0
       }
     },
     {
@@ -10947,10 +10973,10 @@
       "name": "SJVN Ltd",
       "sector": "Power",
       "current_price": 72.1,
-      "week52_high": 102.0,
+      "week52_high": 101.0,
       "week52_low": 63.0,
       "pct_above_52w_low": 14.4,
-      "pct_below_52w_high": 29.3,
+      "pct_below_52w_high": 28.6,
       "near_52w_low": true,
       "tags": [
         "NEAR_52W_LOW"
@@ -10991,7 +11017,7 @@
         "roce": 27.5,
         "de": null,
         "div_yield": 1.23,
-        "market_cap": 100753.0
+        "market_cap": 100731.0
       }
     },
     {
@@ -11043,7 +11069,7 @@
         "roce": 17.1,
         "de": null,
         "div_yield": 0.66,
-        "market_cap": 16180.0
+        "market_cap": 16186.0
       }
     },
     {
@@ -11095,33 +11121,7 @@
         "roce": 21.2,
         "de": null,
         "div_yield": 0.83,
-        "market_cap": 64834.0
-      }
-    },
-    {
-      "symbol": "JINDALSTEL",
-      "name": "Jindal Steel Ltd",
-      "sector": "Metals & Mining",
-      "current_price": 1060.0,
-      "week52_high": 1306.0,
-      "week52_low": 921.0,
-      "pct_above_52w_low": 15.1,
-      "pct_below_52w_high": 18.8,
-      "near_52w_low": true,
-      "tags": [
-        "NEAR_52W_LOW"
-      ],
-      "is_opportunity": true,
-      "screener_url": "https://www.screener.in/company/JINDALSTEL/consolidated/",
-      "ratios": {
-        "pe": 26.8,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 8.22,
-        "roce": 9.7,
-        "de": null,
-        "div_yield": 0.19,
-        "market_cap": 108034.0
+        "market_cap": 64864.0
       }
     },
     {
@@ -11147,7 +11147,7 @@
         "roce": 20.5,
         "de": null,
         "div_yield": 0.4,
-        "market_cap": 38986.0
+        "market_cap": 39017.0
       }
     },
     {
@@ -11173,7 +11173,7 @@
         "roce": 5.73,
         "de": null,
         "div_yield": 2.41,
-        "market_cap": 79768.0
+        "market_cap": 79758.0
       }
     },
     {
@@ -11199,7 +11199,7 @@
         "roce": 9.45,
         "de": null,
         "div_yield": 0.86,
-        "market_cap": 51392.0
+        "market_cap": 51409.0
       }
     },
     {
@@ -11218,14 +11218,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/AFFLE/consolidated/",
       "ratios": {
-        "pe": 44.8,
+        "pe": 44.9,
         "industry_pe": null,
         "pb": null,
         "roe": 13.8,
         "roce": 16.8,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 20401.0
+        "market_cap": 20411.0
       }
     },
     {
@@ -11270,14 +11270,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/CEATLTD/consolidated/",
       "ratios": {
-        "pe": 18.8,
+        "pe": 18.9,
         "industry_pe": null,
         "pb": null,
         "roe": 15.9,
         "roce": 18.7,
         "de": null,
         "div_yield": 0.86,
-        "market_cap": 14112.0
+        "market_cap": 14117.0
       }
     },
     {
@@ -11303,7 +11303,7 @@
         "roce": 11.4,
         "de": null,
         "div_yield": 0.8,
-        "market_cap": 9908.0
+        "market_cap": 9902.0
       }
     },
     {
@@ -11329,7 +11329,7 @@
         "roce": 17.7,
         "de": null,
         "div_yield": 0.78,
-        "market_cap": 13399.0
+        "market_cap": 13388.0
       }
     },
     {
@@ -11337,10 +11337,10 @@
       "name": "Brigade Enterprises Ltd",
       "sector": "Realty",
       "current_price": 525.0,
-      "week52_high": 881.0,
+      "week52_high": 857.0,
       "week52_low": 451.0,
       "pct_above_52w_low": 16.4,
-      "pct_below_52w_high": 40.4,
+      "pct_below_52w_high": 38.7,
       "near_52w_low": true,
       "tags": [
         "NEAR_52W_LOW"
@@ -11355,7 +11355,7 @@
         "roce": 10.5,
         "de": null,
         "div_yield": 0.36,
-        "market_cap": 17111.0
+        "market_cap": 17130.0
       }
     },
     {
@@ -11381,7 +11381,7 @@
         "roce": 1.62,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 11871.0
+        "market_cap": 11895.0
       }
     },
     {
@@ -11400,14 +11400,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/RHIM/consolidated/",
       "ratios": {
-        "pe": 70.6,
+        "pe": 70.5,
         "industry_pe": null,
         "pb": null,
         "roe": 2.91,
         "roce": 6.52,
         "de": null,
         "div_yield": 0.66,
-        "market_cap": 7771.0
+        "market_cap": 7769.0
       }
     },
     {
@@ -11433,7 +11433,7 @@
         "roce": 8.69,
         "de": null,
         "div_yield": 0.47,
-        "market_cap": 35759.0
+        "market_cap": 35809.0
       }
     },
     {
@@ -11459,7 +11459,7 @@
         "roce": 35.8,
         "de": null,
         "div_yield": 3.78,
-        "market_cap": 97978.0
+        "market_cap": 97968.0
       }
     },
     {
@@ -11485,7 +11485,33 @@
         "roce": 7.2,
         "de": null,
         "div_yield": 0.79,
-        "market_cap": 995034.0
+        "market_cap": 995339.0
+      }
+    },
+    {
+      "symbol": "TEGA",
+      "name": "Tega Industries Ltd",
+      "sector": "Capital Goods",
+      "current_price": 1730.0,
+      "week52_high": 2130.0,
+      "week52_low": 1481.0,
+      "pct_above_52w_low": 16.8,
+      "pct_below_52w_high": 18.8,
+      "near_52w_low": true,
+      "tags": [
+        "NEAR_52W_LOW"
+      ],
+      "is_opportunity": true,
+      "screener_url": "https://www.screener.in/company/TEGA/consolidated/",
+      "ratios": {
+        "pe": 91.1,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 5.94,
+        "roce": 8.09,
+        "de": null,
+        "div_yield": 0.12,
+        "market_cap": 12999.0
       }
     },
     {
@@ -11504,14 +11530,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/CHAMBLFERT/consolidated/",
       "ratios": {
-        "pe": 9.63,
+        "pe": 9.62,
         "industry_pe": null,
         "pb": null,
         "roe": 20.4,
         "roce": 25.5,
         "de": null,
         "div_yield": 2.13,
-        "market_cap": 18804.0
+        "market_cap": 18793.0
       }
     },
     {
@@ -11537,7 +11563,7 @@
         "roce": 22.8,
         "de": null,
         "div_yield": 0.55,
-        "market_cap": 58997.0
+        "market_cap": 59015.0
       }
     },
     {
@@ -11563,7 +11589,7 @@
         "roce": 35.1,
         "de": null,
         "div_yield": 2.36,
-        "market_cap": 535599.0
+        "market_cap": 535538.0
       }
     },
     {
@@ -11589,7 +11615,7 @@
         "roce": 9.69,
         "de": null,
         "div_yield": 1.98,
-        "market_cap": 12605.0
+        "market_cap": 12618.0
       }
     },
     {
@@ -11615,7 +11641,7 @@
         "roce": 14.8,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 54460.0
+        "market_cap": 54428.0
       }
     },
     {
@@ -11634,14 +11660,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/3MINDIA/consolidated/",
       "ratios": {
-        "pe": 61.6,
+        "pe": 61.5,
         "industry_pe": null,
         "pb": null,
         "roe": 30.5,
         "roce": 40.5,
         "de": null,
         "div_yield": 0.48,
-        "market_cap": 37687.0
+        "market_cap": 37619.0
       }
     },
     {
@@ -11668,7 +11694,7 @@
         "roce": 13.6,
         "de": null,
         "div_yield": 0.59,
-        "market_cap": 112727.0
+        "market_cap": 112723.0
       }
     },
     {
@@ -11687,14 +11713,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/ASTRAL/consolidated/",
       "ratios": {
-        "pe": 72.4,
+        "pe": 72.5,
         "industry_pe": null,
         "pb": null,
         "roe": 14.4,
         "roce": 19.9,
         "de": null,
         "div_yield": 0.25,
-        "market_cap": 39916.0
+        "market_cap": 39946.0
       }
     },
     {
@@ -11721,32 +11747,6 @@
         "de": null,
         "div_yield": 6.09,
         "market_cap": 268325.0
-      }
-    },
-    {
-      "symbol": "TEGA",
-      "name": "Tega Industries Ltd",
-      "sector": "Capital Goods",
-      "current_price": 1730.0,
-      "week52_high": 2130.0,
-      "week52_low": 1467.0,
-      "pct_above_52w_low": 17.9,
-      "pct_below_52w_high": 18.8,
-      "near_52w_low": true,
-      "tags": [
-        "NEAR_52W_LOW"
-      ],
-      "is_opportunity": true,
-      "screener_url": "https://www.screener.in/company/TEGA/consolidated/",
-      "ratios": {
-        "pe": 91.0,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 5.94,
-        "roce": 8.09,
-        "de": null,
-        "div_yield": 0.12,
-        "market_cap": 12989.0
       }
     },
     {
@@ -11780,10 +11780,10 @@
       "name": "Newgen Software Technologies Ltd",
       "sector": "Information Technology",
       "current_price": 473.0,
-      "week52_high": 1238.0,
+      "week52_high": 1187.0,
       "week52_low": 401.0,
       "pct_above_52w_low": 18.0,
-      "pct_below_52w_high": 61.8,
+      "pct_below_52w_high": 60.2,
       "near_52w_low": true,
       "tags": [
         "NEAR_52W_LOW"
@@ -11798,7 +11798,7 @@
         "roce": 25.8,
         "de": null,
         "div_yield": 1.27,
-        "market_cap": 6743.0
+        "market_cap": 6742.0
       }
     },
     {
@@ -11824,7 +11824,7 @@
         "roce": 13.8,
         "de": null,
         "div_yield": 1.39,
-        "market_cap": 27334.0
+        "market_cap": 27351.0
       }
     },
     {
@@ -11850,7 +11850,7 @@
         "roce": 12.3,
         "de": null,
         "div_yield": 2.93,
-        "market_cap": 9855.0
+        "market_cap": 9850.0
       }
     },
     {
@@ -11876,7 +11876,7 @@
         "roce": 14.6,
         "de": null,
         "div_yield": 0.33,
-        "market_cap": 81047.0
+        "market_cap": 81010.0
       }
     },
     {
@@ -11902,7 +11902,7 @@
         "roce": 12.2,
         "de": null,
         "div_yield": 1.26,
-        "market_cap": 9188.0
+        "market_cap": 9191.0
       }
     },
     {
@@ -11928,7 +11928,7 @@
         "roce": 27.3,
         "de": null,
         "div_yield": 0.84,
-        "market_cap": 64955.0
+        "market_cap": 64985.0
       }
     },
     {
@@ -11954,7 +11954,7 @@
         "roce": 16.8,
         "de": null,
         "div_yield": 1.43,
-        "market_cap": 9647.0
+        "market_cap": 9643.0
       }
     },
     {
@@ -11980,7 +11980,7 @@
         "roce": 4.16,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 18383.0
+        "market_cap": 18380.0
       }
     },
     {
@@ -12006,7 +12006,7 @@
         "roce": 6.93,
         "de": null,
         "div_yield": 0.12,
-        "market_cap": 406770.0
+        "market_cap": 406820.0
       }
     },
     {
@@ -12025,14 +12025,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/CHALET/consolidated/",
       "ratios": {
-        "pe": 27.7,
+        "pe": 27.8,
         "industry_pe": null,
         "pb": null,
         "roe": 19.2,
         "roce": 17.1,
         "de": null,
         "div_yield": 0.12,
-        "market_cap": 17919.0
+        "market_cap": 17935.0
       }
     },
     {
@@ -12077,14 +12077,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/HYUNDAI/consolidated/",
       "ratios": {
-        "pe": 29.4,
+        "pe": 29.5,
         "industry_pe": null,
         "pb": null,
         "roe": 29.9,
         "roce": 38.4,
         "de": null,
         "div_yield": 1.07,
-        "market_cap": 159985.0
+        "market_cap": 160022.0
       }
     },
     {
@@ -12110,7 +12110,7 @@
         "roce": 26.3,
         "de": null,
         "div_yield": 1.14,
-        "market_cap": 20352.0
+        "market_cap": 20358.0
       }
     },
     {
@@ -12136,7 +12136,7 @@
         "roce": 14.0,
         "de": null,
         "div_yield": 1.41,
-        "market_cap": 71350.0
+        "market_cap": 71237.0
       }
     },
     {
@@ -12155,14 +12155,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/DIVISLAB/consolidated/",
       "ratios": {
-        "pe": 68.0,
+        "pe": 67.9,
         "industry_pe": null,
         "pb": null,
         "roe": 16.5,
         "roce": 22.0,
         "de": null,
         "div_yield": 0.45,
-        "market_cap": 178287.0
+        "market_cap": 178222.0
       }
     },
     {
@@ -12188,7 +12188,7 @@
         "roce": 15.1,
         "de": null,
         "div_yield": 0.36,
-        "market_cap": 43025.0
+        "market_cap": 43092.0
       }
     },
     {
@@ -12214,7 +12214,7 @@
         "roce": 22.0,
         "de": null,
         "div_yield": 3.61,
-        "market_cap": 10044.0
+        "market_cap": 10039.0
       }
     },
     {
@@ -12240,7 +12240,7 @@
         "roce": 20.6,
         "de": null,
         "div_yield": 0.77,
-        "market_cap": 8279.0
+        "market_cap": 8280.0
       }
     },
     {
@@ -12266,7 +12266,7 @@
         "roce": 10.5,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 15464.0
+        "market_cap": 15471.0
       }
     },
     {
@@ -12285,14 +12285,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/BBTC/consolidated/",
       "ratios": {
-        "pe": 9.0,
+        "pe": 8.99,
         "industry_pe": null,
         "pb": null,
         "roe": 19.1,
         "roce": 33.0,
         "de": null,
         "div_yield": 1.09,
-        "market_cap": 10869.0
+        "market_cap": 10861.0
       }
     },
     {
@@ -12318,7 +12318,7 @@
         "roce": 2.97,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 246277.0
+        "market_cap": 246229.0
       }
     },
     {
@@ -12344,7 +12344,7 @@
         "roce": 17.9,
         "de": null,
         "div_yield": 2.49,
-        "market_cap": 23859.0
+        "market_cap": 23853.0
       }
     },
     {
@@ -12371,7 +12371,7 @@
         "roce": 47.2,
         "de": null,
         "div_yield": 0.48,
-        "market_cap": 107213.0
+        "market_cap": 107220.0
       }
     },
     {
@@ -12397,7 +12397,7 @@
         "roce": 12.1,
         "de": null,
         "div_yield": 1.11,
-        "market_cap": 44156.0
+        "market_cap": 44142.0
       }
     },
     {
@@ -12423,7 +12423,7 @@
         "roce": 4.57,
         "de": null,
         "div_yield": 1.16,
-        "market_cap": 11830.0
+        "market_cap": 11836.0
       }
     },
     {
@@ -12475,7 +12475,7 @@
         "roce": 23.4,
         "de": null,
         "div_yield": 0.3,
-        "market_cap": 21745.0
+        "market_cap": 21728.0
       }
     },
     {
@@ -12501,7 +12501,7 @@
         "roce": 13.6,
         "de": null,
         "div_yield": 0.78,
-        "market_cap": 11740.0
+        "market_cap": 11745.0
       }
     },
     {
@@ -12527,7 +12527,7 @@
         "roce": 14.9,
         "de": null,
         "div_yield": 0.45,
-        "market_cap": 19644.0
+        "market_cap": 19639.0
       }
     },
     {
@@ -12553,7 +12553,7 @@
         "roce": 22.7,
         "de": null,
         "div_yield": 3.54,
-        "market_cap": 42352.0
+        "market_cap": 42338.0
       }
     },
     {
@@ -12579,7 +12579,7 @@
         "roce": 9.86,
         "de": null,
         "div_yield": 1.89,
-        "market_cap": 13459.0
+        "market_cap": 13479.0
       }
     },
     {
@@ -12605,7 +12605,7 @@
         "roce": 42.9,
         "de": null,
         "div_yield": 2.04,
-        "market_cap": 113572.0
+        "market_cap": 113580.0
       }
     },
     {
@@ -12624,14 +12624,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/RECLTD/consolidated/",
       "ratios": {
-        "pe": 5.89,
+        "pe": 5.88,
         "industry_pe": null,
         "pb": null,
         "roe": 20.0,
         "roce": 9.71,
         "de": null,
         "div_yield": 4.94,
-        "market_cap": 96060.0
+        "market_cap": 96021.0
       }
     },
     {
@@ -12657,7 +12657,7 @@
         "roce": 2.73,
         "de": null,
         "div_yield": 0.85,
-        "market_cap": 130106.0
+        "market_cap": 130069.0
       }
     },
     {
@@ -12683,7 +12683,7 @@
         "roce": 31.6,
         "de": null,
         "div_yield": 0.32,
-        "market_cap": 49831.0
+        "market_cap": 49798.0
       }
     },
     {
@@ -12709,7 +12709,7 @@
         "roce": 16.0,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 6168.0
+        "market_cap": 6164.0
       }
     },
     {
@@ -12735,7 +12735,7 @@
         "roce": 36.0,
         "de": null,
         "div_yield": 0.7,
-        "market_cap": 99720.0
+        "market_cap": 99736.0
       }
     },
     {
@@ -12761,7 +12761,7 @@
         "roce": 20.7,
         "de": null,
         "div_yield": 0.46,
-        "market_cap": 20424.0
+        "market_cap": 20415.0
       }
     },
     {
@@ -12788,7 +12788,7 @@
         "roce": 20.5,
         "de": null,
         "div_yield": 0.86,
-        "market_cap": 446877.0
+        "market_cap": 446948.0
       }
     },
     {
@@ -12807,14 +12807,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/LEMONTREE/consolidated/",
       "ratios": {
-        "pe": 38.3,
+        "pe": 38.2,
         "industry_pe": null,
         "pb": null,
         "roe": 19.4,
         "roce": 14.0,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 9506.0
+        "market_cap": 9482.0
       }
     },
     {
@@ -12840,7 +12840,7 @@
         "roce": 5.63,
         "de": null,
         "div_yield": 3.04,
-        "market_cap": 144384.0
+        "market_cap": 144359.0
       }
     },
     {
@@ -12859,14 +12859,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/JSWDULUX/consolidated/",
       "ratios": {
-        "pe": 40.4,
+        "pe": 40.3,
         "industry_pe": null,
         "pb": null,
         "roe": 19.1,
         "roce": 22.7,
         "de": null,
         "div_yield": 1.56,
-        "market_cap": 14579.0
+        "market_cap": 14569.0
       }
     },
     {
@@ -12874,10 +12874,10 @@
       "name": "Firstsource Solutions Ltd",
       "sector": "Services",
       "current_price": 243.0,
-      "week52_high": 392.0,
+      "week52_high": 388.0,
       "week52_low": 201.0,
       "pct_above_52w_low": 20.9,
-      "pct_below_52w_high": 38.0,
+      "pct_below_52w_high": 37.4,
       "near_52w_low": true,
       "tags": [
         "DISCOUNTED_ZONE"
@@ -12892,7 +12892,7 @@
         "roce": 16.2,
         "de": null,
         "div_yield": 2.26,
-        "market_cap": 17223.0
+        "market_cap": 17213.0
       }
     },
     {
@@ -12944,7 +12944,7 @@
         "roce": 10.3,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 74778.0
+        "market_cap": 74734.0
       }
     },
     {
@@ -12996,7 +12996,7 @@
         "roce": 14.1,
         "de": null,
         "div_yield": 0.5,
-        "market_cap": 20230.0
+        "market_cap": 20217.0
       }
     },
     {
@@ -13015,14 +13015,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/DMART/consolidated/",
       "ratios": {
-        "pe": 94.2,
+        "pe": 94.3,
         "industry_pe": null,
         "pb": null,
         "roe": 13.0,
         "roce": 17.2,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 279820.0
+        "market_cap": 280114.0
       }
     },
     {
@@ -13067,14 +13067,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/AADHARHFC/consolidated/",
       "ratios": {
-        "pe": 20.4,
+        "pe": 20.5,
         "industry_pe": null,
         "pb": null,
         "roe": 15.9,
         "roce": 11.4,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 22669.0
+        "market_cap": 22676.0
       }
     },
     {
@@ -13100,7 +13100,7 @@
         "roce": 7.5,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 38788.0
+        "market_cap": 38768.0
       }
     },
     {
@@ -13126,7 +13126,7 @@
         "roce": 7.36,
         "de": null,
         "div_yield": 0.06,
-        "market_cap": 14518.0
+        "market_cap": 14517.0
       }
     },
     {
@@ -13152,7 +13152,7 @@
         "roce": 15.8,
         "de": null,
         "div_yield": 0.99,
-        "market_cap": 121476.0
+        "market_cap": 121468.0
       }
     },
     {
@@ -13178,7 +13178,7 @@
         "roce": 5.76,
         "de": null,
         "div_yield": 1.62,
-        "market_cap": 34070.0
+        "market_cap": 34057.0
       }
     },
     {
@@ -13204,7 +13204,7 @@
         "roce": 5.6,
         "de": null,
         "div_yield": 0.35,
-        "market_cap": 10254.0
+        "market_cap": 10269.0
       }
     },
     {
@@ -13230,7 +13230,7 @@
         "roce": 32.8,
         "de": null,
         "div_yield": 1.41,
-        "market_cap": 35029.0
+        "market_cap": 35054.0
       }
     },
     {
@@ -13238,10 +13238,10 @@
       "name": "Cochin Shipyard Ltd",
       "sector": "Aerospace & Defence",
       "current_price": 1458.0,
-      "week52_high": 2182.0,
+      "week52_high": 2127.0,
       "week52_low": 1187.0,
       "pct_above_52w_low": 22.8,
-      "pct_below_52w_high": 33.2,
+      "pct_below_52w_high": 31.5,
       "near_52w_low": true,
       "tags": [
         "DISCOUNTED_ZONE"
@@ -13249,14 +13249,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/COCHINSHIP/consolidated/",
       "ratios": {
-        "pe": 53.6,
+        "pe": 53.5,
         "industry_pe": null,
         "pb": null,
         "roe": 12.5,
         "roce": 16.0,
         "de": null,
         "div_yield": 0.67,
-        "market_cap": 38378.0
+        "market_cap": 38368.0
       }
     },
     {
@@ -13282,7 +13282,7 @@
         "roce": 8.99,
         "de": null,
         "div_yield": 0.52,
-        "market_cap": 15372.0
+        "market_cap": 15363.0
       }
     },
     {
@@ -13309,7 +13309,7 @@
         "roce": 8.58,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 154299.0
+        "market_cap": 154365.0
       }
     },
     {
@@ -13335,7 +13335,7 @@
         "roce": 6.1,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 10282.0
+        "market_cap": 10290.0
       }
     },
     {
@@ -13361,7 +13361,7 @@
         "roce": 11.0,
         "de": null,
         "div_yield": 1.37,
-        "market_cap": 117896.0
+        "market_cap": 117956.0
       }
     },
     {
@@ -13387,7 +13387,7 @@
         "roce": 4.66,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 13892.0
+        "market_cap": 13912.0
       }
     },
     {
@@ -13413,7 +13413,7 @@
         "roce": 15.5,
         "de": null,
         "div_yield": 0.9,
-        "market_cap": 116382.0
+        "market_cap": 116338.0
       }
     },
     {
@@ -13439,7 +13439,7 @@
         "roce": 12.5,
         "de": null,
         "div_yield": 2.12,
-        "market_cap": 235589.0
+        "market_cap": 235577.0
       }
     },
     {
@@ -13465,7 +13465,7 @@
         "roce": 14.7,
         "de": null,
         "div_yield": 1.49,
-        "market_cap": 17877.0
+        "market_cap": 17879.0
       }
     },
     {
@@ -13543,7 +13543,7 @@
         "roce": 17.4,
         "de": null,
         "div_yield": 0.29,
-        "market_cap": 18355.0
+        "market_cap": 18363.0
       }
     },
     {
@@ -13569,7 +13569,7 @@
         "roce": 18.2,
         "de": null,
         "div_yield": 0.06,
-        "market_cap": 59938.0
+        "market_cap": 59879.0
       }
     },
     {
@@ -13595,7 +13595,7 @@
         "roce": 2.82,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 34839.0
+        "market_cap": 34806.0
       }
     },
     {
@@ -13621,7 +13621,7 @@
         "roce": 10.8,
         "de": null,
         "div_yield": 0.55,
-        "market_cap": 610485.0
+        "market_cap": 610393.0
       }
     },
     {
@@ -13647,7 +13647,7 @@
         "roce": 14.7,
         "de": null,
         "div_yield": 0.18,
-        "market_cap": 109390.0
+        "market_cap": 109329.0
       }
     },
     {
@@ -13673,7 +13673,7 @@
         "roce": 12.3,
         "de": null,
         "div_yield": 1.27,
-        "market_cap": 15288.0
+        "market_cap": 15279.0
       }
     },
     {
@@ -13692,14 +13692,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/SOBHA/consolidated/",
       "ratios": {
-        "pe": 77.9,
+        "pe": 77.8,
         "industry_pe": null,
         "pb": null,
         "roe": 4.17,
         "roce": 6.9,
         "de": null,
         "div_yield": 0.21,
-        "market_cap": 15068.0
+        "market_cap": 15056.0
       }
     },
     {
@@ -13724,8 +13724,8 @@
         "roe": -7.43,
         "roce": -4.26,
         "de": null,
-        "div_yield": 0.15,
-        "market_cap": 15053.0
+        "div_yield": 0.19,
+        "market_cap": 15042.0
       }
     },
     {
@@ -13744,14 +13744,40 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/IIFL/consolidated/",
       "ratios": {
-        "pe": 13.1,
+        "pe": 13.0,
         "industry_pe": null,
         "pb": null,
         "roe": 12.6,
         "roce": 10.8,
         "de": null,
         "div_yield": 0.78,
-        "market_cap": 21704.0
+        "market_cap": 21679.0
+      }
+    },
+    {
+      "symbol": "ASAHIINDIA",
+      "name": "Asahi India Glass Ltd",
+      "sector": "Automobile and Auto Components",
+      "current_price": 899.0,
+      "week52_high": 1074.0,
+      "week52_low": 720.0,
+      "pct_above_52w_low": 24.9,
+      "pct_below_52w_high": 16.3,
+      "near_52w_low": true,
+      "tags": [
+        "DISCOUNTED_ZONE"
+      ],
+      "is_opportunity": true,
+      "screener_url": "https://www.screener.in/company/ASAHIINDIA/consolidated/",
+      "ratios": {
+        "pe": 64.8,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 10.7,
+        "roce": 11.8,
+        "de": null,
+        "div_yield": 0.22,
+        "market_cap": 22915.0
       }
     },
     {
@@ -13777,7 +13803,7 @@
         "roce": 10.3,
         "de": null,
         "div_yield": 0.05,
-        "market_cap": 15594.0
+        "market_cap": 15590.0
       }
     },
     {
@@ -13803,7 +13829,7 @@
         "roce": 14.8,
         "de": null,
         "div_yield": 0.83,
-        "market_cap": 12651.0
+        "market_cap": 12643.0
       }
     },
     {
@@ -13830,7 +13856,7 @@
         "roce": 8.07,
         "de": null,
         "div_yield": 0.32,
-        "market_cap": 212711.0
+        "market_cap": 212772.0
       }
     },
     {
@@ -13856,7 +13882,7 @@
         "roce": 26.3,
         "de": null,
         "div_yield": 1.04,
-        "market_cap": 253760.0
+        "market_cap": 253727.0
       }
     },
     {
@@ -13882,7 +13908,7 @@
         "roce": 42.0,
         "de": null,
         "div_yield": 0.07,
-        "market_cap": 73352.0
+        "market_cap": 73383.0
       }
     },
     {
@@ -13908,7 +13934,7 @@
         "roce": 18.8,
         "de": null,
         "div_yield": 0.39,
-        "market_cap": 12491.0
+        "market_cap": 12480.0
       }
     },
     {
@@ -13927,14 +13953,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/NH/consolidated/",
       "ratios": {
-        "pe": 46.9,
+        "pe": 47.0,
         "industry_pe": null,
         "pb": null,
         "roe": 20.9,
         "roce": 15.4,
         "de": null,
         "div_yield": 0.23,
-        "market_cap": 39951.0
+        "market_cap": 39989.0
       }
     },
     {
@@ -13960,7 +13986,7 @@
         "roce": 11.0,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 18206.0
+        "market_cap": 18208.0
       }
     },
     {
@@ -13986,7 +14012,7 @@
         "roce": 28.2,
         "de": null,
         "div_yield": 1.52,
-        "market_cap": 275128.0
+        "market_cap": 275110.0
       }
     },
     {
@@ -14012,7 +14038,7 @@
         "roce": 38.8,
         "de": null,
         "div_yield": 0.07,
-        "market_cap": 86539.0
+        "market_cap": 86566.0
       }
     },
     {
@@ -14038,7 +14064,7 @@
         "roce": 69.5,
         "de": null,
         "div_yield": 2.12,
-        "market_cap": 218994.0
+        "market_cap": 218893.0
       }
     },
     {
@@ -14064,7 +14090,7 @@
         "roce": 53.6,
         "de": null,
         "div_yield": 0.7,
-        "market_cap": 15547.0
+        "market_cap": 15545.0
       }
     },
     {
@@ -14090,7 +14116,7 @@
         "roce": 15.9,
         "de": null,
         "div_yield": 0.54,
-        "market_cap": 10477.0
+        "market_cap": 10472.0
       }
     },
     {
@@ -14109,14 +14135,40 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/HAL/consolidated/",
       "ratios": {
-        "pe": 32.1,
+        "pe": 32.0,
         "industry_pe": null,
         "pb": null,
         "roe": 24.0,
         "roce": 32.0,
         "de": null,
         "div_yield": 0.92,
-        "market_cap": 292231.0
+        "market_cap": 292168.0
+      }
+    },
+    {
+      "symbol": "PAYTM",
+      "name": "One 97 Communications Ltd",
+      "sector": "Financial Services",
+      "current_price": 1125.0,
+      "week52_high": 1382.0,
+      "week52_low": 896.0,
+      "pct_above_52w_low": 25.6,
+      "pct_below_52w_high": 18.6,
+      "near_52w_low": true,
+      "tags": [
+        "DISCOUNTED_ZONE"
+      ],
+      "is_opportunity": true,
+      "screener_url": "https://www.screener.in/company/PAYTM/consolidated/",
+      "ratios": {
+        "pe": 98.7,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 4.7,
+        "roce": 5.01,
+        "de": null,
+        "div_yield": 0.0,
+        "market_cap": 72025.0
       }
     },
     {
@@ -14142,7 +14194,7 @@
         "roce": 3.75,
         "de": null,
         "div_yield": 0.12,
-        "market_cap": 67286.0
+        "market_cap": 67454.0
       }
     },
     {
@@ -14168,7 +14220,7 @@
         "roce": 17.3,
         "de": null,
         "div_yield": 0.46,
-        "market_cap": 63570.0
+        "market_cap": 63601.0
       }
     },
     {
@@ -14187,14 +14239,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/ENDURANCE/consolidated/",
       "ratios": {
-        "pe": 39.3,
+        "pe": 39.2,
         "industry_pe": null,
         "pb": null,
         "roe": 15.4,
         "roce": 18.3,
         "de": null,
         "div_yield": 0.43,
-        "market_cap": 37982.0
+        "market_cap": 37968.0
       }
     },
     {
@@ -14239,14 +14291,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/TATAINVEST/consolidated/",
       "ratios": {
-        "pe": 79.3,
+        "pe": 79.2,
         "industry_pe": null,
         "pb": null,
         "roe": 1.44,
         "roce": 1.57,
         "de": null,
         "div_yield": 0.5,
-        "market_cap": 34377.0
+        "market_cap": 34347.0
       }
     },
     {
@@ -14272,7 +14324,7 @@
         "roce": 13.5,
         "de": null,
         "div_yield": 0.1,
-        "market_cap": 72072.0
+        "market_cap": 72083.0
       }
     },
     {
@@ -14298,33 +14350,7 @@
         "roce": 39.8,
         "de": null,
         "div_yield": 0.12,
-        "market_cap": 60818.0
-      }
-    },
-    {
-      "symbol": "PAYTM",
-      "name": "One 97 Communications Ltd",
-      "sector": "Financial Services",
-      "current_price": 1125.0,
-      "week52_high": 1382.0,
-      "week52_low": 889.0,
-      "pct_above_52w_low": 26.5,
-      "pct_below_52w_high": 18.6,
-      "near_52w_low": true,
-      "tags": [
-        "DISCOUNTED_ZONE"
-      ],
-      "is_opportunity": true,
-      "screener_url": "https://www.screener.in/company/PAYTM/consolidated/",
-      "ratios": {
-        "pe": 98.8,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 4.7,
-        "roce": 5.01,
-        "de": null,
-        "div_yield": 0.0,
-        "market_cap": 72072.0
+        "market_cap": 60797.0
       }
     },
     {
@@ -14350,7 +14376,7 @@
         "roce": 9.75,
         "de": null,
         "div_yield": 0.08,
-        "market_cap": 31076.0
+        "market_cap": 31047.0
       }
     },
     {
@@ -14376,7 +14402,7 @@
         "roce": 18.1,
         "de": null,
         "div_yield": 1.09,
-        "market_cap": 17730.0
+        "market_cap": 17727.0
       }
     },
     {
@@ -14402,7 +14428,7 @@
         "roce": 11.5,
         "de": null,
         "div_yield": 0.46,
-        "market_cap": 22120.0
+        "market_cap": 22128.0
       }
     },
     {
@@ -14428,7 +14454,7 @@
         "roce": 27.6,
         "de": null,
         "div_yield": 3.89,
-        "market_cap": 74713.0
+        "market_cap": 74678.0
       }
     },
     {
@@ -14454,8 +14480,8 @@
         "roe": 23.9,
         "roce": 31.0,
         "de": null,
-        "div_yield": 0.63,
-        "market_cap": 162446.0
+        "div_yield": 0.72,
+        "market_cap": 162539.0
       }
     },
     {
@@ -14481,7 +14507,7 @@
         "roce": 13.0,
         "de": null,
         "div_yield": 0.48,
-        "market_cap": 26439.0
+        "market_cap": 26399.0
       }
     },
     {
@@ -14500,14 +14526,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/DLF/consolidated/",
       "ratios": {
-        "pe": 36.4,
+        "pe": 36.3,
         "industry_pe": null,
         "pb": null,
         "roe": 9.62,
         "roce": 6.34,
         "de": null,
         "div_yield": 0.97,
-        "market_cap": 153916.0
+        "market_cap": 153803.0
       }
     },
     {
@@ -14526,14 +14552,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/ITCHOTELS/consolidated/",
       "ratios": {
-        "pe": 41.4,
+        "pe": 41.3,
         "industry_pe": null,
         "pb": null,
         "roe": 7.83,
         "roce": 10.7,
         "de": null,
         "div_yield": 0.58,
-        "market_cap": 36199.0
+        "market_cap": 36177.0
       }
     },
     {
@@ -14552,14 +14578,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/THELEELA/consolidated/",
       "ratios": {
-        "pe": 39.5,
+        "pe": 39.6,
         "industry_pe": null,
         "pb": null,
         "roe": 8.2,
         "roce": 8.72,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 16150.0
+        "market_cap": 16160.0
       }
     },
     {
@@ -14585,7 +14611,7 @@
         "roce": 18.0,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 16125.0
+        "market_cap": 16126.0
       }
     },
     {
@@ -14611,7 +14637,7 @@
         "roce": 2.69,
         "de": null,
         "div_yield": 0.08,
-        "market_cap": 22318.0
+        "market_cap": 22325.0
       }
     },
     {
@@ -14637,7 +14663,7 @@
         "roce": 17.1,
         "de": null,
         "div_yield": 0.45,
-        "market_cap": 102629.0
+        "market_cap": 102580.0
       }
     },
     {
@@ -14663,7 +14689,7 @@
         "roce": 30.3,
         "de": null,
         "div_yield": 0.51,
-        "market_cap": 107143.0
+        "market_cap": 107152.0
       }
     },
     {
@@ -14689,7 +14715,7 @@
         "roce": 15.5,
         "de": null,
         "div_yield": 0.76,
-        "market_cap": 11452.0
+        "market_cap": 11449.0
       }
     },
     {
@@ -14716,7 +14742,7 @@
         "roce": 14.6,
         "de": null,
         "div_yield": 0.9,
-        "market_cap": 579993.0
+        "market_cap": 580062.0
       }
     },
     {
@@ -14742,7 +14768,7 @@
         "roce": 16.2,
         "de": null,
         "div_yield": 0.91,
-        "market_cap": 10074.0
+        "market_cap": 10079.0
       }
     },
     {
@@ -14768,7 +14794,7 @@
         "roce": 17.7,
         "de": null,
         "div_yield": 2.6,
-        "market_cap": 26983.0
+        "market_cap": 26978.0
       }
     },
     {
@@ -14794,7 +14820,7 @@
         "roce": 21.2,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 129130.0
+        "market_cap": 129197.0
       }
     },
     {
@@ -14825,32 +14851,6 @@
       }
     },
     {
-      "symbol": "ASAHIINDIA",
-      "name": "Asahi India Glass Ltd",
-      "sector": "Automobile and Auto Components",
-      "current_price": 899.0,
-      "week52_high": 1074.0,
-      "week52_low": 699.0,
-      "pct_above_52w_low": 28.6,
-      "pct_below_52w_high": 16.3,
-      "near_52w_low": true,
-      "tags": [
-        "DISCOUNTED_ZONE"
-      ],
-      "is_opportunity": true,
-      "screener_url": "https://www.screener.in/company/ASAHIINDIA/consolidated/",
-      "ratios": {
-        "pe": 64.9,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 10.7,
-        "roce": 11.8,
-        "de": null,
-        "div_yield": 0.22,
-        "market_cap": 22953.0
-      }
-    },
-    {
       "symbol": "SAPPHIRE",
       "name": "Sapphire Foods India Ltd",
       "sector": "Consumer Services",
@@ -14873,7 +14873,7 @@
         "roce": 3.99,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 5801.0
+        "market_cap": 5797.0
       }
     },
     {
@@ -14899,7 +14899,7 @@
         "roce": 3.42,
         "de": null,
         "div_yield": 1.47,
-        "market_cap": 19030.0
+        "market_cap": 19010.0
       }
     },
     {
@@ -14918,14 +14918,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/MANKIND/consolidated/",
       "ratios": {
-        "pe": 50.8,
+        "pe": 50.6,
         "industry_pe": null,
         "pb": null,
         "roe": 13.1,
         "roce": 13.5,
         "de": null,
         "div_yield": 0.04,
-        "market_cap": 101982.0
+        "market_cap": 101692.0
       }
     },
     {
@@ -14951,7 +14951,7 @@
         "roce": 7.71,
         "de": null,
         "div_yield": 0.61,
-        "market_cap": 14572.0
+        "market_cap": 14565.0
       }
     },
     {
@@ -14977,7 +14977,7 @@
         "roce": 9.68,
         "de": null,
         "div_yield": 4.34,
-        "market_cap": 113638.0
+        "market_cap": 113651.0
       }
     },
     {
@@ -14996,14 +14996,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/GODREJPROP/consolidated/",
       "ratios": {
-        "pe": 29.8,
+        "pe": 29.9,
         "industry_pe": null,
         "pb": null,
         "roe": 10.2,
         "roce": 8.28,
         "de": null,
         "div_yield": 0.54,
-        "market_cap": 55730.0
+        "market_cap": 55745.0
       }
     },
     {
@@ -15030,7 +15030,7 @@
         "roce": 17.3,
         "de": null,
         "div_yield": 0.25,
-        "market_cap": 41067.0
+        "market_cap": 41057.0
       }
     },
     {
@@ -15056,7 +15056,7 @@
         "roce": 5.68,
         "de": null,
         "div_yield": 0.16,
-        "market_cap": 71610.0
+        "market_cap": 71598.0
       }
     },
     {
@@ -15082,7 +15082,7 @@
         "roce": 85.3,
         "de": null,
         "div_yield": 0.86,
-        "market_cap": 270573.0
+        "market_cap": 270465.0
       }
     },
     {
@@ -15108,7 +15108,7 @@
         "roce": 22.2,
         "de": null,
         "div_yield": 5.93,
-        "market_cap": 87123.0
+        "market_cap": 87081.0
       }
     },
     {
@@ -15134,7 +15134,7 @@
         "roce": 13.7,
         "de": null,
         "div_yield": 0.04,
-        "market_cap": 44031.0
+        "market_cap": 43990.0
       }
     },
     {
@@ -15160,7 +15160,7 @@
         "roce": 1.41,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 29082.0
+        "market_cap": 29049.0
       }
     },
     {
@@ -15187,7 +15187,7 @@
         "roce": 11.6,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 114629.0
+        "market_cap": 114502.0
       }
     },
     {
@@ -15206,14 +15206,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/ANANTRAJ/consolidated/",
       "ratios": {
-        "pe": 34.0,
+        "pe": 33.9,
         "industry_pe": null,
         "pb": null,
         "roe": 11.2,
         "roce": 12.1,
         "de": null,
         "div_yield": 0.14,
-        "market_cap": 18837.0
+        "market_cap": 18805.0
       }
     },
     {
@@ -15240,7 +15240,7 @@
         "roce": 8.26,
         "de": null,
         "div_yield": 1.1,
-        "market_cap": 29932.0
+        "market_cap": 29918.0
       }
     },
     {
@@ -15259,14 +15259,38 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/TITAN/consolidated/",
       "ratios": {
-        "pe": 73.9,
+        "pe": 74.0,
         "industry_pe": null,
         "pb": null,
         "roe": 37.7,
         "roce": 25.8,
         "de": null,
         "div_yield": 0.26,
-        "market_cap": 380391.0
+        "market_cap": 380976.0
+      }
+    },
+    {
+      "symbol": "FORCEMOT",
+      "name": "Force Motors Ltd",
+      "sector": "Automobile and Auto Components",
+      "current_price": 18391.0,
+      "week52_high": 26486.0,
+      "week52_low": 14125.0,
+      "pct_above_52w_low": 30.2,
+      "pct_below_52w_high": 30.6,
+      "near_52w_low": false,
+      "tags": [],
+      "is_opportunity": false,
+      "screener_url": "https://www.screener.in/company/FORCEMOT/consolidated/",
+      "ratios": {
+        "pe": 22.9,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 29.2,
+        "roce": 36.1,
+        "de": null,
+        "div_yield": 0.22,
+        "market_cap": 24232.0
       }
     },
     {
@@ -15283,14 +15307,14 @@
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/CONCORDBIO/consolidated/",
       "ratios": {
-        "pe": 51.2,
+        "pe": 51.1,
         "industry_pe": null,
         "pb": null,
         "roe": 13.8,
         "roce": 18.2,
         "de": null,
         "div_yield": 0.83,
-        "market_cap": 13479.0
+        "market_cap": 13455.0
       }
     },
     {
@@ -15307,14 +15331,14 @@
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/TIMKEN/consolidated/",
       "ratios": {
-        "pe": 66.3,
+        "pe": 66.2,
         "industry_pe": null,
         "pb": null,
         "roe": 14.3,
         "roce": 19.0,
         "de": null,
         "div_yield": 0.99,
-        "market_cap": 27511.0
+        "market_cap": 27483.0
       }
     },
     {
@@ -15331,14 +15355,14 @@
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/CAMS/consolidated/",
       "ratios": {
-        "pe": 44.8,
+        "pe": 44.7,
         "industry_pe": null,
         "pb": null,
         "roe": 36.3,
         "roce": 47.0,
         "de": null,
         "div_yield": 1.57,
-        "market_cap": 19820.0
+        "market_cap": 19814.0
       }
     },
     {
@@ -15362,7 +15386,7 @@
         "roce": 18.1,
         "de": null,
         "div_yield": 2.55,
-        "market_cap": 11604.0
+        "market_cap": 11602.0
       }
     },
     {
@@ -15386,7 +15410,7 @@
         "roce": 8.41,
         "de": null,
         "div_yield": 2.18,
-        "market_cap": 41710.0
+        "market_cap": 41694.0
       }
     },
     {
@@ -15410,7 +15434,7 @@
         "roce": 17.4,
         "de": null,
         "div_yield": 0.34,
-        "market_cap": 169594.0
+        "market_cap": 169592.0
       }
     },
     {
@@ -15427,14 +15451,14 @@
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/JYOTICNC/consolidated/",
       "ratios": {
-        "pe": 51.7,
+        "pe": 51.5,
         "industry_pe": null,
         "pb": null,
         "roe": 18.2,
         "roce": 21.3,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 17373.0
+        "market_cap": 17317.0
       }
     },
     {
@@ -15457,8 +15481,8 @@
         "roe": 20.7,
         "roce": 9.71,
         "de": null,
-        "div_yield": 3.65,
-        "market_cap": 142697.0
+        "div_yield": 4.29,
+        "market_cap": 142779.0
       }
     },
     {
@@ -15475,14 +15499,14 @@
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/CREDITACC/consolidated/",
       "ratios": {
-        "pe": 30.2,
+        "pe": 30.1,
         "industry_pe": null,
         "pb": null,
         "roe": 10.5,
         "roce": 9.98,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 23447.0
+        "market_cap": 23435.0
       }
     },
     {
@@ -15499,14 +15523,14 @@
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/PTCIL/consolidated/",
       "ratios": {
-        "pe": 258.0,
+        "pe": 257.0,
         "industry_pe": null,
         "pb": null,
         "roe": 7.02,
         "roce": 8.43,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 26169.0
+        "market_cap": 26131.0
       }
     },
     {
@@ -15523,14 +15547,14 @@
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/ANTHEM/consolidated/",
       "ratios": {
-        "pe": 70.3,
+        "pe": 70.4,
         "industry_pe": null,
         "pb": null,
         "roe": 22.3,
         "roce": 30.4,
         "de": null,
         "div_yield": 0.26,
-        "market_cap": 42832.0
+        "market_cap": 42899.0
       }
     },
     {
@@ -15554,7 +15578,7 @@
         "roce": null,
         "de": null,
         "div_yield": 0.82,
-        "market_cap": 164398.0
+        "market_cap": 164435.0
       }
     },
     {
@@ -15580,7 +15604,7 @@
         "roce": 21.2,
         "de": null,
         "div_yield": 0.09,
-        "market_cap": 110847.0
+        "market_cap": 110827.0
       }
     },
     {
@@ -15604,7 +15628,7 @@
         "roce": 17.0,
         "de": null,
         "div_yield": 0.38,
-        "market_cap": 12335.0
+        "market_cap": 12333.0
       }
     },
     {
@@ -15628,7 +15652,7 @@
         "roce": 60.8,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 23386.0
+        "market_cap": 23361.0
       }
     },
     {
@@ -15654,7 +15678,7 @@
         "roce": 6.24,
         "de": null,
         "div_yield": 0.07,
-        "market_cap": 428488.0
+        "market_cap": 428364.0
       }
     },
     {
@@ -15671,14 +15695,14 @@
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/TRAVELFOOD/consolidated/",
       "ratios": {
-        "pe": 39.9,
+        "pe": 39.8,
         "industry_pe": null,
         "pb": null,
         "roe": 35.3,
         "roce": 42.4,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 17582.0
+        "market_cap": 17567.0
       }
     },
     {
@@ -15702,7 +15726,7 @@
         "roce": 31.7,
         "de": null,
         "div_yield": 0.2,
-        "market_cap": 11771.0
+        "market_cap": 11767.0
       }
     },
     {
@@ -15726,31 +15750,7 @@
         "roce": 28.3,
         "de": null,
         "div_yield": 0.83,
-        "market_cap": 28332.0
-      }
-    },
-    {
-      "symbol": "FORCEMOT",
-      "name": "Force Motors Ltd",
-      "sector": "Automobile and Auto Components",
-      "current_price": 18391.0,
-      "week52_high": 26486.0,
-      "week52_low": 13850.0,
-      "pct_above_52w_low": 32.8,
-      "pct_below_52w_high": 30.6,
-      "near_52w_low": false,
-      "tags": [],
-      "is_opportunity": false,
-      "screener_url": "https://www.screener.in/company/FORCEMOT/consolidated/",
-      "ratios": {
-        "pe": 23.0,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 29.2,
-        "roce": 36.1,
-        "de": null,
-        "div_yield": 0.22,
-        "market_cap": 24247.0
+        "market_cap": 28317.0
       }
     },
     {
@@ -15774,7 +15774,7 @@
         "roce": 6.13,
         "de": null,
         "div_yield": 1.66,
-        "market_cap": 964922.0
+        "market_cap": 964969.0
       }
     },
     {
@@ -15798,7 +15798,7 @@
         "roce": 20.3,
         "de": null,
         "div_yield": 0.15,
-        "market_cap": 29773.0
+        "market_cap": 29772.0
       }
     },
     {
@@ -15815,14 +15815,14 @@
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/BANKINDIA/consolidated/",
       "ratios": {
-        "pe": 6.23,
+        "pe": 6.22,
         "industry_pe": null,
         "pb": null,
         "roe": 12.4,
         "roce": 5.93,
         "de": null,
         "div_yield": 3.21,
-        "market_cap": 65909.0
+        "market_cap": 65886.0
       }
     },
     {
@@ -15846,7 +15846,7 @@
         "roce": 19.7,
         "de": null,
         "div_yield": 0.3,
-        "market_cap": 171753.0
+        "market_cap": 171702.0
       }
     },
     {
@@ -15872,7 +15872,7 @@
         "roce": 9.86,
         "de": null,
         "div_yield": 0.08,
-        "market_cap": 42915.0
+        "market_cap": 42943.0
       }
     },
     {
@@ -15896,7 +15896,7 @@
         "roce": 9.79,
         "de": null,
         "div_yield": 0.54,
-        "market_cap": 61764.0
+        "market_cap": 61743.0
       }
     },
     {
@@ -15920,7 +15920,7 @@
         "roce": 8.16,
         "de": null,
         "div_yield": 0.35,
-        "market_cap": 105205.0
+        "market_cap": 105150.0
       }
     },
     {
@@ -15944,7 +15944,7 @@
         "roce": -7.82,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 20058.0
+        "market_cap": 20022.0
       }
     },
     {
@@ -15970,7 +15970,7 @@
         "roce": 36.9,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 29297.0
+        "market_cap": 29257.0
       }
     },
     {
@@ -16018,7 +16018,7 @@
         "roce": 8.54,
         "de": null,
         "div_yield": 0.51,
-        "market_cap": 33129.0
+        "market_cap": 33133.0
       }
     },
     {
@@ -16044,7 +16044,7 @@
         "roce": 12.8,
         "de": null,
         "div_yield": 0.13,
-        "market_cap": 68134.0
+        "market_cap": 68116.0
       }
     },
     {
@@ -16092,7 +16092,7 @@
         "roce": 17.1,
         "de": null,
         "div_yield": 0.73,
-        "market_cap": 14130.0
+        "market_cap": 14134.0
       }
     },
     {
@@ -16118,7 +16118,7 @@
         "roce": 34.5,
         "de": null,
         "div_yield": 0.88,
-        "market_cap": 39759.0
+        "market_cap": 39735.0
       }
     },
     {
@@ -16135,14 +16135,14 @@
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/FACT/consolidated/",
       "ratios": {
-        "pe": 3888.0,
+        "pe": 3889.0,
         "industry_pe": null,
         "pb": null,
         "roe": 1.61,
         "roce": 8.65,
         "de": null,
         "div_yield": 0.02,
-        "market_cap": 57586.0
+        "market_cap": 57589.0
       }
     },
     {
@@ -16190,7 +16190,7 @@
         "roce": 8.66,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 10297.0
+        "market_cap": 10294.0
       }
     },
     {
@@ -16214,7 +16214,7 @@
         "roce": 30.6,
         "de": null,
         "div_yield": 1.55,
-        "market_cap": 7961.0
+        "market_cap": 7971.0
       }
     },
     {
@@ -16238,7 +16238,7 @@
         "roce": 15.4,
         "de": null,
         "div_yield": 1.7,
-        "market_cap": 13287.0
+        "market_cap": 13275.0
       }
     },
     {
@@ -16255,14 +16255,14 @@
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/MEDANTA/consolidated/",
       "ratios": {
-        "pe": 63.4,
+        "pe": 63.3,
         "industry_pe": null,
         "pb": null,
         "roe": 15.2,
         "roce": 17.1,
         "de": null,
         "div_yield": 0.04,
-        "market_cap": 35332.0
+        "market_cap": 35287.0
       }
     },
     {
@@ -16286,7 +16286,7 @@
         "roce": 18.3,
         "de": null,
         "div_yield": 0.79,
-        "market_cap": 23668.0
+        "market_cap": 23638.0
       }
     },
     {
@@ -16310,7 +16310,7 @@
         "roce": 6.32,
         "de": null,
         "div_yield": 2.19,
-        "market_cap": 112181.0
+        "market_cap": 112148.0
       }
     },
     {
@@ -16327,14 +16327,14 @@
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/KAJARIACER/consolidated/",
       "ratios": {
-        "pe": 36.7,
+        "pe": 36.6,
         "industry_pe": null,
         "pb": null,
         "roe": 17.9,
         "roce": 23.3,
         "de": null,
         "div_yield": 0.75,
-        "market_cap": 19074.0
+        "market_cap": 19059.0
       }
     },
     {
@@ -16358,7 +16358,7 @@
         "roce": 6.85,
         "de": null,
         "div_yield": 0.21,
-        "market_cap": 16903.0
+        "market_cap": 16905.0
       }
     },
     {
@@ -16382,7 +16382,7 @@
         "roce": 22.2,
         "de": null,
         "div_yield": 0.71,
-        "market_cap": 62754.0
+        "market_cap": 62807.0
       }
     },
     {
@@ -16408,7 +16408,33 @@
         "roce": 9.29,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 33368.0
+        "market_cap": 33405.0
+      }
+    },
+    {
+      "symbol": "TORNTPHARM",
+      "name": "Torrent Pharmaceuticals Ltd",
+      "sector": "Healthcare",
+      "current_price": 4516.0,
+      "week52_high": 4714.0,
+      "week52_low": 3265.0,
+      "pct_above_52w_low": 38.3,
+      "pct_below_52w_high": 4.2,
+      "near_52w_low": false,
+      "tags": [
+        "NEAR_52W_HIGH"
+      ],
+      "is_opportunity": true,
+      "screener_url": "https://www.screener.in/company/TORNTPHARM/consolidated/",
+      "ratios": {
+        "pe": 69.7,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 27.4,
+        "roce": 15.2,
+        "de": null,
+        "div_yield": 0.84,
+        "market_cap": 152849.0
       }
     },
     {
@@ -16434,7 +16460,7 @@
         "roce": 9.7,
         "de": null,
         "div_yield": 0.11,
-        "market_cap": 153444.0
+        "market_cap": 153397.0
       }
     },
     {
@@ -16451,14 +16477,14 @@
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/NBCC/consolidated/",
       "ratios": {
-        "pe": 43.8,
+        "pe": 43.7,
         "industry_pe": null,
         "pb": null,
         "roe": 24.1,
         "roce": 31.0,
         "de": null,
         "div_yield": 0.63,
-        "market_cap": 28957.0
+        "market_cap": 28936.0
       }
     },
     {
@@ -16532,7 +16558,7 @@
         "roce": 7.12,
         "de": null,
         "div_yield": 0.18,
-        "market_cap": 210878.0
+        "market_cap": 210728.0
       }
     },
     {
@@ -16556,7 +16582,7 @@
         "roce": 13.8,
         "de": null,
         "div_yield": 2.18,
-        "market_cap": 94357.0
+        "market_cap": 94381.0
       }
     },
     {
@@ -16575,14 +16601,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/JBCHEPHARM/consolidated/",
       "ratios": {
-        "pe": 50.2,
+        "pe": 50.1,
         "industry_pe": null,
         "pb": null,
         "roe": 18.9,
         "roce": 25.4,
         "de": null,
         "div_yield": 0.98,
-        "market_cap": 36044.0
+        "market_cap": 36028.0
       }
     },
     {
@@ -16606,7 +16632,7 @@
         "roce": 6.3,
         "de": null,
         "div_yield": 2.86,
-        "market_cap": 133390.0
+        "market_cap": 133367.0
       }
     },
     {
@@ -16630,7 +16656,7 @@
         "roce": 7.75,
         "de": null,
         "div_yield": 1.89,
-        "market_cap": 12492.0
+        "market_cap": 12488.0
       }
     },
     {
@@ -16647,14 +16673,14 @@
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/JAINREC/consolidated/",
       "ratios": {
-        "pe": 34.3,
+        "pe": 34.2,
         "industry_pe": null,
         "pb": null,
         "roe": 30.8,
         "roce": 25.5,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 12072.0
+        "market_cap": 12062.0
       }
     },
     {
@@ -16678,7 +16704,7 @@
         "roce": 17.0,
         "de": null,
         "div_yield": 0.11,
-        "market_cap": 59125.0
+        "market_cap": 59116.0
       }
     },
     {
@@ -16702,7 +16728,7 @@
         "roce": 35.9,
         "de": null,
         "div_yield": 0.93,
-        "market_cap": 159059.0
+        "market_cap": 159040.0
       }
     },
     {
@@ -16721,14 +16747,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/BOSCHLTD/consolidated/",
       "ratios": {
-        "pe": 50.7,
+        "pe": 50.8,
         "industry_pe": null,
         "pb": null,
         "roe": 16.4,
         "roce": 21.5,
         "de": null,
         "div_yield": 0.67,
-        "market_cap": 119164.0
+        "market_cap": 119282.0
       }
     },
     {
@@ -16752,7 +16778,7 @@
         "roce": 6.5,
         "de": null,
         "div_yield": 2.43,
-        "market_cap": 92869.0
+        "market_cap": 92901.0
       }
     },
     {
@@ -16776,7 +16802,31 @@
         "roce": 13.7,
         "de": null,
         "div_yield": 0.27,
-        "market_cap": 69300.0
+        "market_cap": 69279.0
+      }
+    },
+    {
+      "symbol": "USHAMART",
+      "name": "Usha Martin Ltd",
+      "sector": "Capital Goods",
+      "current_price": 473.0,
+      "week52_high": 528.0,
+      "week52_low": 334.0,
+      "pct_above_52w_low": 41.6,
+      "pct_below_52w_high": 10.4,
+      "near_52w_low": false,
+      "tags": [],
+      "is_opportunity": false,
+      "screener_url": "https://www.screener.in/company/USHAMART/consolidated/",
+      "ratios": {
+        "pe": 28.6,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 16.6,
+        "roce": 20.2,
+        "de": null,
+        "div_yield": 0.63,
+        "market_cap": 14417.0
       }
     },
     {
@@ -16800,7 +16850,7 @@
         "roce": 10.2,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 27013.0
+        "market_cap": 27012.0
       }
     },
     {
@@ -16824,7 +16874,7 @@
         "roce": 9.91,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 11810.0
+        "market_cap": 11813.0
       }
     },
     {
@@ -16848,7 +16898,7 @@
         "roce": 30.5,
         "de": null,
         "div_yield": 0.92,
-        "market_cap": 208560.0
+        "market_cap": 208563.0
       }
     },
     {
@@ -16880,10 +16930,10 @@
       "name": "Tata Teleservices (Maharashtra) Ltd",
       "sector": "Telecommunication",
       "current_price": 42.8,
-      "week52_high": 69.9,
+      "week52_high": 68.5,
       "week52_low": 30.1,
       "pct_above_52w_low": 42.2,
-      "pct_below_52w_high": 38.8,
+      "pct_below_52w_high": 37.5,
       "near_52w_low": false,
       "tags": [],
       "is_opportunity": false,
@@ -16897,56 +16947,6 @@
         "de": null,
         "div_yield": 0.0,
         "market_cap": 8363.0
-      }
-    },
-    {
-      "symbol": "TORNTPHARM",
-      "name": "Torrent Pharmaceuticals Ltd",
-      "sector": "Healthcare",
-      "current_price": 4516.0,
-      "week52_high": 4714.0,
-      "week52_low": 3172.0,
-      "pct_above_52w_low": 42.4,
-      "pct_below_52w_high": 4.2,
-      "near_52w_low": false,
-      "tags": [
-        "NEAR_52W_HIGH"
-      ],
-      "is_opportunity": true,
-      "screener_url": "https://www.screener.in/company/TORNTPHARM/consolidated/",
-      "ratios": {
-        "pe": 69.8,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 27.4,
-        "roce": 15.2,
-        "de": null,
-        "div_yield": 0.84,
-        "market_cap": 152881.0
-      }
-    },
-    {
-      "symbol": "USHAMART",
-      "name": "Usha Martin Ltd",
-      "sector": "Capital Goods",
-      "current_price": 473.0,
-      "week52_high": 528.0,
-      "week52_low": 332.0,
-      "pct_above_52w_low": 42.5,
-      "pct_below_52w_high": 10.4,
-      "near_52w_low": false,
-      "tags": [],
-      "is_opportunity": false,
-      "screener_url": "https://www.screener.in/company/USHAMART/consolidated/",
-      "ratios": {
-        "pe": 28.6,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 16.6,
-        "roce": 20.2,
-        "de": null,
-        "div_yield": 0.63,
-        "market_cap": 14419.0
       }
     },
     {
@@ -16970,7 +16970,7 @@
         "roce": 10.4,
         "de": null,
         "div_yield": 0.12,
-        "market_cap": 67017.0
+        "market_cap": 67035.0
       }
     },
     {
@@ -16994,7 +16994,7 @@
         "roce": 8.44,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 88441.0
+        "market_cap": 88483.0
       }
     },
     {
@@ -17018,7 +17018,7 @@
         "roce": 9.4,
         "de": null,
         "div_yield": 0.48,
-        "market_cap": 27200.0
+        "market_cap": 27226.0
       }
     },
     {
@@ -17044,7 +17044,7 @@
         "roce": 11.7,
         "de": null,
         "div_yield": 0.09,
-        "market_cap": 20901.0
+        "market_cap": 20921.0
       }
     },
     {
@@ -17068,7 +17068,7 @@
         "roce": 15.8,
         "de": null,
         "div_yield": 0.43,
-        "market_cap": 15529.0
+        "market_cap": 15532.0
       }
     },
     {
@@ -17085,14 +17085,14 @@
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/ZYDUSWELL/consolidated/",
       "ratios": {
-        "pe": 71.1,
+        "pe": 71.0,
         "industry_pe": null,
         "pb": null,
         "roe": 4.04,
         "roce": 4.96,
         "de": null,
         "div_yield": 0.23,
-        "market_cap": 16503.0
+        "market_cap": 16484.0
       }
     },
     {
@@ -17116,7 +17116,7 @@
         "roce": 10.4,
         "de": null,
         "div_yield": 1.12,
-        "market_cap": 44352.0
+        "market_cap": 44386.0
       }
     },
     {
@@ -17142,7 +17142,7 @@
         "roce": 5.98,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 78028.0
+        "market_cap": 78059.0
       }
     },
     {
@@ -17159,14 +17159,14 @@
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/ZENTEC/consolidated/",
       "ratios": {
-        "pe": 83.0,
+        "pe": 82.9,
         "industry_pe": null,
         "pb": null,
         "roe": 10.7,
         "roce": 16.2,
         "de": null,
         "div_yield": 0.11,
-        "market_cap": 16015.0
+        "market_cap": 15992.0
       }
     },
     {
@@ -17190,7 +17190,7 @@
         "roce": 7.79,
         "de": null,
         "div_yield": 0.94,
-        "market_cap": 70574.0
+        "market_cap": 70545.0
       }
     },
     {
@@ -17214,7 +17214,7 @@
         "roce": 13.7,
         "de": null,
         "div_yield": 0.52,
-        "market_cap": 214217.0
+        "market_cap": 214206.0
       }
     },
     {
@@ -17238,7 +17238,7 @@
         "roce": 14.8,
         "de": null,
         "div_yield": 0.12,
-        "market_cap": 16396.0
+        "market_cap": 16391.0
       }
     },
     {
@@ -17246,10 +17246,10 @@
       "name": "Lodha Developers Ltd",
       "sector": "Realty",
       "current_price": 947.0,
-      "week52_high": 1476.0,
+      "week52_high": 1462.0,
       "week52_low": 651.0,
       "pct_above_52w_low": 45.5,
-      "pct_below_52w_high": 35.8,
+      "pct_below_52w_high": 35.2,
       "near_52w_low": false,
       "tags": [],
       "is_opportunity": false,
@@ -17262,7 +17262,7 @@
         "roce": 16.6,
         "de": null,
         "div_yield": 0.45,
-        "market_cap": 94646.0
+        "market_cap": 94656.0
       }
     },
     {
@@ -17279,14 +17279,14 @@
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/TBOTEK/consolidated/",
       "ratios": {
-        "pe": 65.4,
+        "pe": 65.5,
         "industry_pe": null,
         "pb": null,
         "roe": 17.6,
         "roce": 18.0,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 15858.0
+        "market_cap": 15862.0
       }
     },
     {
@@ -17310,7 +17310,7 @@
         "roce": 20.1,
         "de": null,
         "div_yield": 0.09,
-        "market_cap": 50361.0
+        "market_cap": 50362.0
       }
     },
     {
@@ -17327,14 +17327,14 @@
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/FIVESTAR/consolidated/",
       "ratios": {
-        "pe": 93.5,
+        "pe": 93.6,
         "industry_pe": null,
         "pb": null,
         "roe": 16.0,
         "roce": 17.0,
         "de": null,
         "div_yield": 0.4,
-        "market_cap": 14644.0
+        "market_cap": 14670.0
       }
     },
     {
@@ -17360,7 +17360,7 @@
         "roce": 15.1,
         "de": null,
         "div_yield": 0.78,
-        "market_cap": 38191.0
+        "market_cap": 38185.0
       }
     },
     {
@@ -17384,7 +17384,7 @@
         "roce": 0.57,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 17853.0
+        "market_cap": 17839.0
       }
     },
     {
@@ -17408,7 +17408,31 @@
         "roce": 28.3,
         "de": null,
         "div_yield": 0.12,
-        "market_cap": 171533.0
+        "market_cap": 171498.0
+      }
+    },
+    {
+      "symbol": "POLYCAB",
+      "name": "Polycab India Ltd",
+      "sector": "Capital Goods",
+      "current_price": 9531.0,
+      "week52_high": 10129.0,
+      "week52_low": 6468.0,
+      "pct_above_52w_low": 47.4,
+      "pct_below_52w_high": 5.9,
+      "near_52w_low": false,
+      "tags": [],
+      "is_opportunity": false,
+      "screener_url": "https://www.screener.in/company/POLYCAB/consolidated/",
+      "ratios": {
+        "pe": 57.0,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 23.0,
+        "roce": 33.2,
+        "de": null,
+        "div_yield": 0.49,
+        "market_cap": 143570.0
       }
     },
     {
@@ -17432,7 +17456,7 @@
         "roce": 7.33,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 25843.0
+        "market_cap": 25837.0
       }
     },
     {
@@ -17458,7 +17482,7 @@
         "roce": 20.9,
         "de": null,
         "div_yield": 1.12,
-        "market_cap": 30393.0
+        "market_cap": 30387.0
       }
     },
     {
@@ -17482,7 +17506,7 @@
         "roce": -35.6,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 85938.0
+        "market_cap": 85928.0
       }
     },
     {
@@ -17508,7 +17532,7 @@
         "roce": 23.7,
         "de": null,
         "div_yield": 0.45,
-        "market_cap": 19127.0
+        "market_cap": 19143.0
       }
     },
     {
@@ -17525,14 +17549,14 @@
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/GPIL/consolidated/",
       "ratios": {
-        "pe": 22.0,
+        "pe": 21.9,
         "industry_pe": null,
         "pb": null,
         "roe": 15.2,
         "roce": 20.4,
         "de": null,
         "div_yield": 0.38,
-        "market_cap": 17867.0
+        "market_cap": 17864.0
       }
     },
     {
@@ -17556,7 +17580,7 @@
         "roce": 23.5,
         "de": null,
         "div_yield": 1.02,
-        "market_cap": 64182.0
+        "market_cap": 64195.0
       }
     },
     {
@@ -17573,14 +17597,14 @@
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/ASTERDM/consolidated/",
       "ratios": {
-        "pe": 97.7,
+        "pe": 97.6,
         "industry_pe": null,
         "pb": null,
         "roe": 10.7,
         "roce": 11.4,
         "de": null,
         "div_yield": 0.65,
-        "market_cap": 39877.0
+        "market_cap": 39846.0
       }
     },
     {
@@ -17597,14 +17621,14 @@
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/ELECON/consolidated/",
       "ratios": {
-        "pe": 33.2,
+        "pe": 33.1,
         "industry_pe": null,
         "pb": null,
         "roe": 16.4,
         "roce": 20.9,
         "de": null,
         "div_yield": 0.38,
-        "market_cap": 11727.0
+        "market_cap": 11718.0
       }
     },
     {
@@ -17628,7 +17652,7 @@
         "roce": 4.92,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 19733.0
+        "market_cap": 19724.0
       }
     },
     {
@@ -17653,30 +17677,6 @@
         "de": null,
         "div_yield": 0.06,
         "market_cap": 10039.0
-      }
-    },
-    {
-      "symbol": "POLYCAB",
-      "name": "Polycab India Ltd",
-      "sector": "Capital Goods",
-      "current_price": 9531.0,
-      "week52_high": 10129.0,
-      "week52_low": 6390.0,
-      "pct_above_52w_low": 49.2,
-      "pct_below_52w_high": 5.9,
-      "near_52w_low": false,
-      "tags": [],
-      "is_opportunity": false,
-      "screener_url": "https://www.screener.in/company/POLYCAB/consolidated/",
-      "ratios": {
-        "pe": 57.1,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 23.0,
-        "roce": 33.2,
-        "de": null,
-        "div_yield": 0.49,
-        "market_cap": 143613.0
       }
     },
     {
@@ -17724,7 +17724,7 @@
         "roce": 20.2,
         "de": null,
         "div_yield": 0.42,
-        "market_cap": 40699.0
+        "market_cap": 40720.0
       }
     },
     {
@@ -17748,7 +17748,7 @@
         "roce": 17.5,
         "de": null,
         "div_yield": 2.09,
-        "market_cap": 22394.0
+        "market_cap": 22390.0
       }
     },
     {
@@ -17765,14 +17765,14 @@
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/SOLARINDS/consolidated/",
       "ratios": {
-        "pe": 94.1,
+        "pe": 94.0,
         "industry_pe": null,
         "pb": null,
         "roe": 31.5,
         "roce": 36.8,
         "de": null,
         "div_yield": 0.06,
-        "market_cap": 157794.0
+        "market_cap": 157706.0
       }
     },
     {
@@ -17796,7 +17796,7 @@
         "roce": 58.4,
         "de": null,
         "div_yield": 0.24,
-        "market_cap": 22934.0
+        "market_cap": 22931.0
       }
     },
     {
@@ -17815,14 +17815,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/MINDACORP/consolidated/",
       "ratios": {
-        "pe": 44.3,
+        "pe": 44.4,
         "industry_pe": null,
         "pb": null,
         "roe": 14.9,
         "roce": 12.8,
         "de": null,
         "div_yield": 0.21,
-        "market_cap": 16010.0
+        "market_cap": 16029.0
       }
     },
     {
@@ -17848,7 +17848,7 @@
         "roce": 43.8,
         "de": null,
         "div_yield": 1.89,
-        "market_cap": 72813.0
+        "market_cap": 72816.0
       }
     },
     {
@@ -17865,14 +17865,14 @@
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/TATACOMM/consolidated/",
       "ratios": {
-        "pe": 53.9,
+        "pe": 53.8,
         "industry_pe": null,
         "pb": null,
         "roe": 32.6,
         "roce": 14.6,
         "de": null,
         "div_yield": 0.88,
-        "market_cap": 56847.0
+        "market_cap": 56772.0
       }
     },
     {
@@ -17889,14 +17889,14 @@
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/ABB/consolidated/",
       "ratios": {
-        "pe": 97.4,
+        "pe": 97.3,
         "industry_pe": null,
         "pb": null,
         "roe": 22.4,
         "roce": 29.9,
         "de": null,
         "div_yield": 0.56,
-        "market_cap": 148385.0
+        "market_cap": 148188.0
       }
     },
     {
@@ -17920,7 +17920,7 @@
         "roce": 18.2,
         "de": null,
         "div_yield": 0.18,
-        "market_cap": 17149.0
+        "market_cap": 17159.0
       }
     },
     {
@@ -17946,7 +17946,7 @@
         "roce": 12.4,
         "de": null,
         "div_yield": 0.1,
-        "market_cap": 77414.0
+        "market_cap": 77432.0
       }
     },
     {
@@ -17998,7 +17998,7 @@
         "roce": 24.0,
         "de": null,
         "div_yield": 0.16,
-        "market_cap": 35698.0
+        "market_cap": 35660.0
       }
     },
     {
@@ -18024,7 +18024,7 @@
         "roce": 12.8,
         "de": null,
         "div_yield": 0.26,
-        "market_cap": 90379.0
+        "market_cap": 90326.0
       }
     },
     {
@@ -18043,14 +18043,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/RADICO/consolidated/",
       "ratios": {
-        "pe": 83.1,
+        "pe": 83.2,
         "industry_pe": null,
         "pb": null,
         "roe": 20.3,
         "roce": 24.2,
         "de": null,
         "div_yield": 0.23,
-        "market_cap": 51288.0
+        "market_cap": 51293.0
       }
     },
     {
@@ -18074,7 +18074,7 @@
         "roce": 30.6,
         "de": null,
         "div_yield": 1.59,
-        "market_cap": 14147.0
+        "market_cap": 14153.0
       }
     },
     {
@@ -18098,7 +18098,7 @@
         "roce": 12.6,
         "de": null,
         "div_yield": 0.63,
-        "market_cap": 56945.0
+        "market_cap": 56972.0
       }
     },
     {
@@ -18124,7 +18124,7 @@
         "roce": 14.8,
         "de": null,
         "div_yield": 0.55,
-        "market_cap": 38535.0
+        "market_cap": 38520.0
       }
     },
     {
@@ -18141,14 +18141,14 @@
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/LTF/consolidated/",
       "ratios": {
-        "pe": 24.9,
+        "pe": 25.0,
         "industry_pe": null,
         "pb": null,
         "roe": 11.2,
         "roce": 8.4,
         "de": null,
         "div_yield": 0.92,
-        "market_cap": 74889.0
+        "market_cap": 74915.0
       }
     },
     {
@@ -18172,7 +18172,7 @@
         "roce": 10.5,
         "de": null,
         "div_yield": 0.35,
-        "market_cap": 21773.0
+        "market_cap": 21779.0
       }
     },
     {
@@ -18196,7 +18196,7 @@
         "roce": 8.84,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 39074.0
+        "market_cap": 39093.0
       }
     },
     {
@@ -18220,7 +18220,7 @@
         "roce": 10.6,
         "de": null,
         "div_yield": 0.11,
-        "market_cap": 11969.0
+        "market_cap": 11965.0
       }
     },
     {
@@ -18239,14 +18239,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/WELSPUNLIV/consolidated/",
       "ratios": {
-        "pe": 73.8,
+        "pe": 73.7,
         "industry_pe": null,
         "pb": null,
         "roe": 4.47,
         "roce": 6.25,
         "de": null,
         "div_yield": 0.06,
-        "market_cap": 16076.0
+        "market_cap": 16049.0
       }
     },
     {
@@ -18270,7 +18270,7 @@
         "roce": 26.6,
         "de": null,
         "div_yield": 0.19,
-        "market_cap": 23056.0
+        "market_cap": 23044.0
       }
     },
     {
@@ -18294,7 +18294,7 @@
         "roce": 10.8,
         "de": null,
         "div_yield": 1.72,
-        "market_cap": 18637.0
+        "market_cap": 18644.0
       }
     },
     {
@@ -18311,14 +18311,14 @@
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/TRITURBINE/consolidated/",
       "ratios": {
-        "pe": 58.8,
+        "pe": 58.9,
         "industry_pe": null,
         "pb": null,
         "roe": 27.1,
         "roce": 35.9,
         "de": null,
         "div_yield": 0.6,
-        "market_cap": 21253.0
+        "market_cap": 21278.0
       }
     },
     {
@@ -18366,7 +18366,7 @@
         "roce": 3.87,
         "de": null,
         "div_yield": 0.97,
-        "market_cap": 30413.0
+        "market_cap": 30427.0
       }
     },
     {
@@ -18392,7 +18392,7 @@
         "roce": 5.81,
         "de": null,
         "div_yield": 0.27,
-        "market_cap": 57482.0
+        "market_cap": 57459.0
       }
     },
     {
@@ -18416,7 +18416,7 @@
         "roce": 15.3,
         "de": null,
         "div_yield": 0.03,
-        "market_cap": 79175.0
+        "market_cap": 79164.0
       }
     },
     {
@@ -18440,7 +18440,7 @@
         "roce": 16.0,
         "de": null,
         "div_yield": 0.72,
-        "market_cap": 17073.0
+        "market_cap": 17076.0
       }
     },
     {
@@ -18464,7 +18464,7 @@
         "roce": 33.3,
         "de": null,
         "div_yield": 0.1,
-        "market_cap": 47737.0
+        "market_cap": 47692.0
       }
     },
     {
@@ -18490,7 +18490,7 @@
         "roce": 17.5,
         "de": null,
         "div_yield": 1.59,
-        "market_cap": 31890.0
+        "market_cap": 31909.0
       }
     },
     {
@@ -18514,7 +18514,7 @@
         "roce": 14.3,
         "de": null,
         "div_yield": 2.11,
-        "market_cap": 14526.0
+        "market_cap": 14524.0
       }
     },
     {
@@ -18531,14 +18531,14 @@
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/ANGELONE/consolidated/",
       "ratios": {
-        "pe": 33.4,
+        "pe": 33.5,
         "industry_pe": null,
         "pb": null,
         "roe": 15.6,
         "roce": 14.8,
         "de": null,
         "div_yield": 1.43,
-        "market_cap": 30584.0
+        "market_cap": 30620.0
       }
     },
     {
@@ -18562,7 +18562,7 @@
         "roce": null,
         "de": null,
         "div_yield": 1.42,
-        "market_cap": 13921.0
+        "market_cap": 13924.0
       }
     },
     {
@@ -18588,7 +18588,7 @@
         "roce": 21.1,
         "de": null,
         "div_yield": 0.33,
-        "market_cap": 45086.0
+        "market_cap": 45073.0
       }
     },
     {
@@ -18614,7 +18614,7 @@
         "roce": 8.72,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 106812.0
+        "market_cap": 106853.0
       }
     },
     {
@@ -18638,7 +18638,7 @@
         "roce": 4.02,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 36368.0
+        "market_cap": 36360.0
       }
     },
     {
@@ -18662,7 +18662,7 @@
         "roce": 32.2,
         "de": null,
         "div_yield": 2.1,
-        "market_cap": 33011.0
+        "market_cap": 33004.0
       }
     },
     {
@@ -18681,14 +18681,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/VIJAYA/consolidated/",
       "ratios": {
-        "pe": 81.3,
+        "pe": 81.4,
         "industry_pe": null,
         "pb": null,
         "roe": 19.7,
         "roce": 21.3,
         "de": null,
         "div_yield": 0.15,
-        "market_cap": 14067.0
+        "market_cap": 14074.0
       }
     },
     {
@@ -18712,7 +18712,7 @@
         "roce": 22.1,
         "de": null,
         "div_yield": 0.12,
-        "market_cap": 34208.0
+        "market_cap": 34213.0
       }
     },
     {
@@ -18729,14 +18729,14 @@
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/J&KBANK/consolidated/",
       "ratios": {
-        "pe": 7.4,
+        "pe": 7.39,
         "industry_pe": null,
         "pb": null,
         "roe": 15.4,
         "roce": 5.84,
         "de": null,
         "div_yield": 1.36,
-        "market_cap": 17459.0
+        "market_cap": 17443.0
       }
     },
     {
@@ -18753,14 +18753,14 @@
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/BLUEJET/consolidated/",
       "ratios": {
-        "pe": 64.9,
+        "pe": 65.0,
         "industry_pe": null,
         "pb": null,
         "roe": 52.1,
         "roce": 57.3,
         "de": null,
         "div_yield": 0.23,
-        "market_cap": 9148.0
+        "market_cap": 9152.0
       }
     },
     {
@@ -18777,14 +18777,14 @@
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/ABDL/consolidated/",
       "ratios": {
-        "pe": 76.1,
+        "pe": 76.0,
         "industry_pe": null,
         "pb": null,
         "roe": 14.3,
         "roce": 18.4,
         "de": null,
         "div_yield": 0.87,
-        "market_cap": 17444.0
+        "market_cap": 17406.0
       }
     },
     {
@@ -18808,7 +18808,7 @@
         "roce": 2.75,
         "de": null,
         "div_yield": 2.18,
-        "market_cap": 10687.0
+        "market_cap": 10696.0
       }
     },
     {
@@ -18827,14 +18827,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/SAILIFE/consolidated/",
       "ratios": {
-        "pe": 73.1,
+        "pe": 73.0,
         "industry_pe": null,
         "pb": null,
         "roe": 15.4,
         "roce": 19.6,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 25959.0
+        "market_cap": 25926.0
       }
     },
     {
@@ -18858,7 +18858,7 @@
         "roce": 18.4,
         "de": null,
         "div_yield": 2.34,
-        "market_cap": 21400.0
+        "market_cap": 21401.0
       }
     },
     {
@@ -18882,7 +18882,7 @@
         "roce": 27.3,
         "de": null,
         "div_yield": 0.06,
-        "market_cap": 96845.0
+        "market_cap": 96899.0
       }
     },
     {
@@ -18906,7 +18906,7 @@
         "roce": 8.86,
         "de": null,
         "div_yield": 0.79,
-        "market_cap": 18369.0
+        "market_cap": 18361.0
       }
     },
     {
@@ -18930,7 +18930,7 @@
         "roce": 5.03,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 20741.0
+        "market_cap": 20746.0
       }
     },
     {
@@ -18956,7 +18956,7 @@
         "roce": 24.6,
         "de": null,
         "div_yield": 0.24,
-        "market_cap": 19057.0
+        "market_cap": 19052.0
       }
     },
     {
@@ -18975,14 +18975,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/HONASA/consolidated/",
       "ratios": {
-        "pe": 66.8,
+        "pe": 66.9,
         "industry_pe": null,
         "pb": null,
         "roe": 15.7,
         "roce": 19.2,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 13602.0
+        "market_cap": 13618.0
       }
     },
     {
@@ -19008,7 +19008,7 @@
         "roce": 21.4,
         "de": null,
         "div_yield": 0.2,
-        "market_cap": 39028.0
+        "market_cap": 39032.0
       }
     },
     {
@@ -19027,14 +19027,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/MOTHERSON/consolidated/",
       "ratios": {
-        "pe": 38.8,
+        "pe": 38.7,
         "industry_pe": null,
         "pb": null,
         "roe": 10.9,
         "roce": 13.1,
         "de": null,
         "div_yield": 0.4,
-        "market_cap": 160155.0
+        "market_cap": 160121.0
       }
     },
     {
@@ -19058,7 +19058,7 @@
         "roce": 39.5,
         "de": null,
         "div_yield": 1.17,
-        "market_cap": 156375.0
+        "market_cap": 156396.0
       }
     },
     {
@@ -19084,7 +19084,7 @@
         "roce": 10.4,
         "de": null,
         "div_yield": 0.77,
-        "market_cap": 16685.0
+        "market_cap": 16673.0
       }
     },
     {
@@ -19127,14 +19127,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/MAHABANK/consolidated/",
       "ratios": {
-        "pe": 9.74,
+        "pe": 9.73,
         "industry_pe": null,
         "pb": null,
         "roe": 22.6,
         "roce": 6.03,
         "de": null,
         "div_yield": 2.48,
-        "market_cap": 68317.0
+        "market_cap": 68232.0
       }
     },
     {
@@ -19158,7 +19158,7 @@
         "roce": 13.9,
         "de": null,
         "div_yield": 0.12,
-        "market_cap": 24202.0
+        "market_cap": 24198.0
       }
     },
     {
@@ -19182,7 +19182,7 @@
         "roce": 21.0,
         "de": null,
         "div_yield": 0.03,
-        "market_cap": 12260.0
+        "market_cap": 12258.0
       }
     },
     {
@@ -19208,7 +19208,7 @@
         "roce": 6.47,
         "de": null,
         "div_yield": 0.52,
-        "market_cap": 48286.0
+        "market_cap": 48305.0
       }
     },
     {
@@ -19234,7 +19234,7 @@
         "roce": 5.8,
         "de": null,
         "div_yield": 0.04,
-        "market_cap": 395363.0
+        "market_cap": 395215.0
       }
     },
     {
@@ -19260,7 +19260,7 @@
         "roce": 6.39,
         "de": null,
         "div_yield": 0.37,
-        "market_cap": 79979.0
+        "market_cap": 79969.0
       }
     },
     {
@@ -19279,14 +19279,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/THERMAX/consolidated/",
       "ratios": {
-        "pe": 85.1,
+        "pe": 85.0,
         "industry_pe": null,
         "pb": null,
         "roe": 12.9,
         "roce": 14.9,
         "de": null,
         "div_yield": 0.29,
-        "market_cap": 57591.0
+        "market_cap": 57538.0
       }
     },
     {
@@ -19312,7 +19312,7 @@
         "roce": 45.3,
         "de": null,
         "div_yield": 3.64,
-        "market_cap": 95524.0
+        "market_cap": 95557.0
       }
     },
     {
@@ -19338,7 +19338,7 @@
         "roce": 15.5,
         "de": null,
         "div_yield": 0.23,
-        "market_cap": 18935.0
+        "market_cap": 18937.0
       }
     },
     {
@@ -19362,7 +19362,7 @@
         "roce": 11.8,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 12952.0
+        "market_cap": 12939.0
       }
     },
     {
@@ -19386,7 +19386,7 @@
         "roce": 35.1,
         "de": null,
         "div_yield": 0.73,
-        "market_cap": 16410.0
+        "market_cap": 16413.0
       }
     },
     {
@@ -19410,7 +19410,7 @@
         "roce": 37.3,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 125334.0
+        "market_cap": 125340.0
       }
     },
     {
@@ -19436,7 +19436,7 @@
         "roce": 27.0,
         "de": null,
         "div_yield": 0.14,
-        "market_cap": 148338.0
+        "market_cap": 148379.0
       }
     },
     {
@@ -19460,7 +19460,7 @@
         "roce": 16.1,
         "de": null,
         "div_yield": 15.9,
-        "market_cap": 106986.0
+        "market_cap": 106930.0
       }
     },
     {
@@ -19484,7 +19484,7 @@
         "roce": 7.55,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 31939.0
+        "market_cap": 31933.0
       }
     },
     {
@@ -19508,7 +19508,7 @@
         "roce": 11.6,
         "de": null,
         "div_yield": 0.64,
-        "market_cap": 19769.0
+        "market_cap": 19774.0
       }
     },
     {
@@ -19534,7 +19534,7 @@
         "roce": 8.89,
         "de": null,
         "div_yield": 0.06,
-        "market_cap": 25257.0
+        "market_cap": 25250.0
       }
     },
     {
@@ -19558,7 +19558,7 @@
         "roce": 11.5,
         "de": null,
         "div_yield": 1.05,
-        "market_cap": 242798.0
+        "market_cap": 242774.0
       }
     },
     {
@@ -19582,7 +19582,31 @@
         "roce": 39.6,
         "de": null,
         "div_yield": 3.16,
-        "market_cap": 61065.0
+        "market_cap": 61004.0
+      }
+    },
+    {
+      "symbol": "GABRIEL",
+      "name": "Gabriel India Ltd",
+      "sector": "Automobile and Auto Components",
+      "current_price": 1229.0,
+      "week52_high": 1388.0,
+      "week52_low": 658.0,
+      "pct_above_52w_low": 86.8,
+      "pct_below_52w_high": 11.5,
+      "near_52w_low": false,
+      "tags": [],
+      "is_opportunity": false,
+      "screener_url": "https://www.screener.in/company/GABRIEL/consolidated/",
+      "ratios": {
+        "pe": 67.3,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 20.6,
+        "roce": 26.1,
+        "de": null,
+        "div_yield": 0.38,
+        "market_cap": 17657.0
       }
     },
     {
@@ -19608,31 +19632,7 @@
         "roce": 59.2,
         "de": null,
         "div_yield": 0.34,
-        "market_cap": 32090.0
-      }
-    },
-    {
-      "symbol": "GABRIEL",
-      "name": "Gabriel India Ltd",
-      "sector": "Automobile and Auto Components",
-      "current_price": 1229.0,
-      "week52_high": 1388.0,
-      "week52_low": 642.0,
-      "pct_above_52w_low": 91.4,
-      "pct_below_52w_high": 11.5,
-      "near_52w_low": false,
-      "tags": [],
-      "is_opportunity": false,
-      "screener_url": "https://www.screener.in/company/GABRIEL/consolidated/",
-      "ratios": {
-        "pe": 67.3,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 20.6,
-        "roce": 26.1,
-        "de": null,
-        "div_yield": 0.38,
-        "market_cap": 17665.0
+        "market_cap": 32087.0
       }
     },
     {
@@ -19673,14 +19673,14 @@
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/MCX/consolidated/",
       "ratios": {
-        "pe": 54.3,
+        "pe": 54.2,
         "industry_pe": null,
         "pb": null,
         "roe": 56.3,
         "roce": 71.4,
         "de": null,
         "div_yield": 0.21,
-        "market_cap": 72247.0
+        "market_cap": 72206.0
       }
     },
     {
@@ -19706,7 +19706,7 @@
         "roce": 13.1,
         "de": null,
         "div_yield": 0.4,
-        "market_cap": 102535.0
+        "market_cap": 102564.0
       }
     },
     {
@@ -19732,7 +19732,7 @@
         "roce": 44.8,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 23374.0
+        "market_cap": 23349.0
       }
     },
     {
@@ -19756,7 +19756,7 @@
         "roce": 8.51,
         "de": null,
         "div_yield": 0.12,
-        "market_cap": 140170.0
+        "market_cap": 140223.0
       }
     },
     {
@@ -19780,7 +19780,7 @@
         "roce": -19.6,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 19365.0
+        "market_cap": 19347.0
       }
     },
     {
@@ -19806,7 +19806,7 @@
         "roce": 13.6,
         "de": null,
         "div_yield": 0.64,
-        "market_cap": 40027.0
+        "market_cap": 40037.0
       }
     },
     {
@@ -19832,7 +19832,7 @@
         "roce": 7.39,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 251367.0
+        "market_cap": 251376.0
       }
     },
     {
@@ -19856,7 +19856,7 @@
         "roce": 9.65,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 181087.0
+        "market_cap": 181129.0
       }
     },
     {
@@ -19882,7 +19882,7 @@
         "roce": 22.9,
         "de": null,
         "div_yield": 0.34,
-        "market_cap": 38446.0
+        "market_cap": 38384.0
       }
     },
     {
@@ -19906,7 +19906,7 @@
         "roce": 17.2,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 441967.0
+        "market_cap": 442140.0
       }
     },
     {
@@ -19914,10 +19914,10 @@
       "name": "Tejas Networks Ltd",
       "sector": "Telecommunication",
       "current_price": 623.0,
-      "week52_high": 732.0,
+      "week52_high": 725.0,
       "week52_low": 294.0,
       "pct_above_52w_low": 111.9,
-      "pct_below_52w_high": 14.9,
+      "pct_below_52w_high": 14.1,
       "near_52w_low": false,
       "tags": [],
       "is_opportunity": false,
@@ -19930,7 +19930,7 @@
         "roce": -14.6,
         "de": null,
         "div_yield": 0.4,
-        "market_cap": 11081.0
+        "market_cap": 11076.0
       }
     },
     {
@@ -19949,14 +19949,40 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/RRKABEL/consolidated/",
       "ratios": {
-        "pe": 55.9,
+        "pe": 55.8,
         "industry_pe": null,
         "pb": null,
         "roe": 21.3,
         "roce": 28.1,
         "de": null,
         "div_yield": 0.38,
-        "market_cap": 28174.0
+        "market_cap": 28144.0
+      }
+    },
+    {
+      "symbol": "LAURUSLABS",
+      "name": "Laurus Labs Ltd",
+      "sector": "Healthcare",
+      "current_price": 1450.0,
+      "week52_high": 1493.0,
+      "week52_low": 674.0,
+      "pct_above_52w_low": 115.1,
+      "pct_below_52w_high": 2.9,
+      "near_52w_low": false,
+      "tags": [
+        "NEAR_52W_HIGH"
+      ],
+      "is_opportunity": true,
+      "screener_url": "https://www.screener.in/company/LAURUSLABS/consolidated/",
+      "ratios": {
+        "pe": 87.6,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 18.3,
+        "roce": 17.8,
+        "de": null,
+        "div_yield": 0.14,
+        "market_cap": 78336.0
       }
     },
     {
@@ -19973,40 +19999,14 @@
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/HINDCOPPER/consolidated/",
       "ratios": {
-        "pe": 48.3,
+        "pe": 48.1,
         "industry_pe": null,
         "pb": null,
         "roe": 32.9,
         "roce": 42.5,
         "de": null,
         "div_yield": 0.3,
-        "market_cap": 47667.0
-      }
-    },
-    {
-      "symbol": "LAURUSLABS",
-      "name": "Laurus Labs Ltd",
-      "sector": "Healthcare",
-      "current_price": 1450.0,
-      "week52_high": 1493.0,
-      "week52_low": 663.0,
-      "pct_above_52w_low": 118.7,
-      "pct_below_52w_high": 2.9,
-      "near_52w_low": false,
-      "tags": [
-        "NEAR_52W_HIGH"
-      ],
-      "is_opportunity": true,
-      "screener_url": "https://www.screener.in/company/LAURUSLABS/consolidated/",
-      "ratios": {
-        "pe": 87.6,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 18.3,
-        "roce": 17.8,
-        "de": null,
-        "div_yield": 0.14,
-        "market_cap": 78350.0
+        "market_cap": 47520.0
       }
     },
     {
@@ -20023,14 +20023,14 @@
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/GVT&D/consolidated/",
       "ratios": {
-        "pe": 691.0,
+        "pe": 692.0,
         "industry_pe": null,
         "pb": null,
         "roe": 18.6,
         "roce": null,
         "de": null,
         "div_yield": 0.2,
-        "market_cap": 129040.0
+        "market_cap": 129126.0
       }
     },
     {
@@ -20054,7 +20054,7 @@
         "roce": -1.6,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 152224.0
+        "market_cap": 152330.0
       }
     },
     {
@@ -20071,14 +20071,14 @@
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/APARINDS/consolidated/",
       "ratios": {
-        "pe": 64.2,
+        "pe": 64.3,
         "industry_pe": null,
         "pb": null,
         "roe": 20.2,
         "roce": 31.1,
         "de": null,
         "div_yield": 0.32,
-        "market_cap": 64294.0
+        "market_cap": 64367.0
       }
     },
     {
@@ -20097,14 +20097,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/BELRISE/consolidated/",
       "ratios": {
-        "pe": 43.6,
+        "pe": 43.7,
         "industry_pe": null,
         "pb": null,
         "roe": 12.6,
         "roce": 14.5,
         "de": null,
         "div_yield": 0.22,
-        "market_cap": 21839.0
+        "market_cap": 21861.0
       }
     },
     {
@@ -20121,14 +20121,14 @@
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/CEMPRO/consolidated/",
       "ratios": {
-        "pe": 35.3,
+        "pe": 35.4,
         "industry_pe": null,
         "pb": null,
         "roe": 27.8,
         "roce": 32.8,
         "de": null,
         "div_yield": 0.25,
-        "market_cap": 20786.0
+        "market_cap": 20845.0
       }
     },
     {
@@ -20137,8 +20137,8 @@
       "sector": "Capital Goods",
       "current_price": 1440.0,
       "week52_high": 1518.0,
-      "week52_low": 530.0,
-      "pct_above_52w_low": 171.7,
+      "week52_low": 538.0,
+      "pct_above_52w_low": 167.7,
       "pct_below_52w_high": 5.1,
       "near_52w_low": false,
       "tags": [],
@@ -20152,7 +20152,7 @@
         "roce": 16.7,
         "de": null,
         "div_yield": 0.1,
-        "market_cap": 27761.0
+        "market_cap": 27777.0
       }
     },
     {
@@ -20169,14 +20169,14 @@
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/KIRLOSENG/consolidated/",
       "ratios": {
-        "pe": 60.9,
+        "pe": 60.8,
         "industry_pe": null,
         "pb": null,
         "roe": 17.7,
         "roce": 14.7,
         "de": null,
         "div_yield": 0.26,
-        "market_cap": 36159.0
+        "market_cap": 36117.0
       }
     },
     {
@@ -20185,8 +20185,8 @@
       "sector": "Healthcare",
       "current_price": 3300.0,
       "week52_high": 3444.0,
-      "week52_low": 1059.0,
-      "pct_above_52w_low": 211.6,
+      "week52_low": 1085.0,
+      "pct_above_52w_low": 204.1,
       "pct_below_52w_high": 4.2,
       "near_52w_low": false,
       "tags": [
@@ -20228,7 +20228,7 @@
         "roce": 29.6,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 41944.0
+        "market_cap": 41937.0
       }
     },
     {
@@ -20247,14 +20247,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/HFCL/consolidated/",
       "ratios": {
-        "pe": 105.0,
+        "pe": 106.0,
         "industry_pe": null,
         "pb": null,
         "roe": 6.95,
         "roce": 10.9,
         "de": null,
         "div_yield": 0.05,
-        "market_cap": 32855.0
+        "market_cap": 32908.0
       }
     },
     {
