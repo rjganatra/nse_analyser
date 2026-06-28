@@ -15,7 +15,7 @@
       "label": "Sales growth >= industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "Avg growth 17.1% vs benchmark 10.0%",
+      "detail": "Avg growth 17.0% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -95,7 +95,7 @@
       "label": "CFI negative (investing in growth)",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFI = -243.0 Cr -- investing actively",
+      "detail": "CFI = -241.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -116,15 +116,15 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 1002.0,
-    "Market Cap": 235739.0,
-    "P/E": 23.5,
+    "Current Price": 1032.0,
+    "Market Cap": 242774.0,
+    "P/E": 24.2,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 16.4,
     "ROCE %": 11.5,
     "Debt / Equity": null,
-    "Div. Yield %": 1.08,
+    "Div. Yield %": 1.05,
     "52W High": 1108.0,
     "52W Low": 566.0
   },
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-06-21T07:14:01.978908+00:00"
+  "scanned_at": "2026-06-28T06:39:37.026618+00:00"
 }

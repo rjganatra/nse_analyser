@@ -111,20 +111,20 @@
       "label": "ROE > ROCE",
       "result": "fail",
       "score": 0.0,
-      "detail": "ROE 14.2% <= ROCE 30.0% -- leverage not adding value",
+      "detail": "ROE 13.7% <= ROCE 30.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Current Price": 750.0,
-    "Market Cap": 14108.0,
-    "P/E": 41.9,
+    "Current Price": 740.0,
+    "Market Cap": 13924.0,
+    "P/E": 42.6,
     "Industry P/E": null,
     "P/B": null,
-    "ROE %": 14.2,
+    "ROE %": 13.7,
     "ROCE %": null,
     "Debt / Equity": null,
-    "Div. Yield %": 1.4,
+    "Div. Yield %": 1.42,
     "52W High": 982.0,
     "52W Low": 461.0
   },
@@ -133,5 +133,5 @@
     "npm": 10.0,
     "sg": 11.0
   },
-  "scanned_at": "2026-06-21T07:15:09.450861+00:00"
+  "scanned_at": "2026-06-28T06:40:44.904327+00:00"
 }

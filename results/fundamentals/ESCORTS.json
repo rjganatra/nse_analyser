@@ -3,9 +3,9 @@
   "name": "Escorts Kubota Ltd",
   "sector": "Capital Goods",
   "screener_url": "https://www.screener.in/company/ESCORTS/consolidated/",
-  "score_pct": 62.4,
-  "passes": 6,
-  "fails": 3,
+  "score_pct": 72.2,
+  "passes": 7,
+  "fails": 2,
   "neutrals": 4,
   "verdict": "Moderate -- dig deeper",
   "verdict_color": "amber",
@@ -71,7 +71,7 @@
       "label": "Fixed assets increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Fixed assets: 2165.0 -> 2053.0 -> 2184.0 (last 3Y) Cr",
+      "detail": "Fixed assets: 2165.0 -> 2053.0 -> 2146.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -95,7 +95,7 @@
       "label": "CFI negative (investing in growth)",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFI = -1128.0 Cr -- investing actively",
+      "detail": "CFI = -1127.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -109,22 +109,22 @@
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "ROE 11.9% <= ROCE 16.0% -- leverage not adding value",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "ROE 18.7% > ROCE 14.0% -- leverage working for shareholders",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Current Price": 2821.0,
-    "Market Cap": 31563.0,
-    "P/E": 23.4,
+    "Current Price": 2950.0,
+    "Market Cap": 33001.0,
+    "P/E": 15.5,
     "Industry P/E": null,
     "P/B": null,
-    "ROE %": 11.9,
-    "ROCE %": 15.7,
+    "ROE %": 18.7,
+    "ROCE %": 13.9,
     "Debt / Equity": null,
-    "Div. Yield %": 1.17,
+    "Div. Yield %": 1.12,
     "52W High": 4180.0,
     "52W Low": 2700.0
   },
@@ -133,5 +133,5 @@
     "npm": 18.0,
     "sg": 12.0
   },
-  "scanned_at": "2026-06-21T06:57:19.342150+00:00"
+  "scanned_at": "2026-06-28T06:22:49.008841+00:00"
 }
