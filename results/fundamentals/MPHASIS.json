@@ -3,10 +3,10 @@
   "name": "Mphasis Ltd",
   "sector": "IT",
   "screener_url": "https://www.screener.in/company/MPHASIS/consolidated/",
-  "score_pct": 59.2,
-  "passes": 5,
+  "score_pct": 62.4,
+  "passes": 6,
   "fails": 3,
-  "neutrals": 5,
+  "neutrals": 4,
   "verdict": "Moderate -- dig deeper",
   "verdict_color": "amber",
   "criteria": [
@@ -87,15 +87,15 @@
       "label": "CFO positive & increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFO 839.0 Cr: 2180.0 -> 1905.0 -> 839.0 (last 3Y) Cr",
+      "detail": "CFO 1253.0 Cr: 2180.0 -> 1905.0 -> 1253.0 (last 3Y) Cr",
       "weight": 2.0
     },
     {
       "id": "c11",
       "label": "CFI negative (investing in growth)",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFI = 478.0 Cr -- positive (possible asset sales)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFI = -173.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -103,7 +103,7 @@
       "label": "CFF: debt repayment or growth",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFF = -1243.0 Cr -- net debt repayment",
+      "detail": "CFF = -943.0 Cr -- net debt repayment",
       "weight": 1.0
     },
     {
@@ -111,20 +111,20 @@
       "label": "ROE > ROCE",
       "result": "fail",
       "score": 0.0,
-      "detail": "ROE 18.5% <= ROCE 23.0% -- leverage not adding value",
+      "detail": "ROE 18.5% <= ROCE 22.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Current Price": 2263.0,
-    "Market Cap": 43202.0,
-    "P/E": 22.9,
+    "Current Price": 2297.0,
+    "Market Cap": 43836.0,
+    "P/E": 23.2,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 18.5,
-    "ROCE %": 22.8,
+    "ROCE %": 22.1,
     "Debt / Equity": null,
-    "Div. Yield %": 2.74,
+    "Div. Yield %": 2.7,
     "52W High": 3037.0,
     "52W Low": 2013.0
   },
@@ -133,5 +133,5 @@
     "npm": 18.0,
     "sg": 12.0
   },
-  "scanned_at": "2026-06-28T06:33:45.366532+00:00"
+  "scanned_at": "2026-07-05T06:20:50.365366+00:00"
 }

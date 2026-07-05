@@ -95,7 +95,7 @@
       "label": "CFI negative (investing in growth)",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFI = 936.0 Cr -- positive (possible asset sales)",
+      "detail": "CFI = 1085.0 Cr -- positive (possible asset sales)",
       "weight": 1.0
     },
     {
@@ -116,16 +116,16 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 10974.0,
-    "Market Cap": 95557.0,
-    "P/E": 36.2,
+    "Current Price": 11248.0,
+    "Market Cap": 97939.0,
+    "P/E": 37.1,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 32.6,
     "ROCE %": 45.3,
     "Debt / Equity": null,
-    "Div. Yield %": 3.64,
-    "52W High": 11035.0,
+    "Div. Yield %": 3.56,
+    "52W High": 11280.0,
     "52W Low": 6232.0
   },
   "benchmark": {
@@ -133,5 +133,5 @@
     "npm": 18.0,
     "sg": 12.0
   },
-  "scanned_at": "2026-06-28T06:35:49.152216+00:00"
+  "scanned_at": "2026-07-05T06:22:53.017159+00:00"
 }

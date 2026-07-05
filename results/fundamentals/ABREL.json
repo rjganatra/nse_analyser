@@ -3,11 +3,11 @@
   "name": "Aditya Birla Real Estate Ltd",
   "sector": "Realty",
   "screener_url": "https://www.screener.in/company/ABREL/consolidated/",
-  "score_pct": 37.6,
-  "passes": 2,
-  "fails": 5,
+  "score_pct": 47.4,
+  "passes": 3,
+  "fails": 4,
   "neutrals": 6,
-  "verdict": "Avoid",
+  "verdict": "Weak fundamentals",
   "verdict_color": "red",
   "criteria": [
     {
@@ -23,7 +23,7 @@
       "label": "OPM > industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "OPM -91.0% below benchmark 15.0%",
+      "detail": "OPM -90.0% below benchmark 15.0%",
       "weight": 1.0
     },
     {
@@ -71,7 +71,7 @@
       "label": "Fixed assets increasing",
       "result": "fail",
       "score": 0.0,
-      "detail": "Fixed assets: 3734.0 -> 1437.0 -> 1367.0 (last 3Y) Cr",
+      "detail": "Fixed assets: 3734.0 -> 1437.0 -> 1366.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -109,23 +109,23 @@
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "ROE -7.4% <= ROCE -4.0% -- leverage not adding value",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "ROE -2.6% > ROCE -4.0% -- leverage working for shareholders",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Current Price": 1347.0,
-    "Market Cap": 15042.0,
+    "Current Price": 1406.0,
+    "Market Cap": 15700.0,
     "P/E": null,
     "Industry P/E": null,
     "P/B": null,
-    "ROE %": -7.43,
-    "ROCE %": -4.26,
+    "ROE %": -2.64,
+    "ROCE %": -4.48,
     "Debt / Equity": null,
-    "Div. Yield %": 0.19,
-    "52W High": 2460.0,
+    "Div. Yield %": 0.18,
+    "52W High": 2369.0,
     "52W Low": 1080.0
   },
   "benchmark": {
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-06-28T06:13:45.837259+00:00"
+  "scanned_at": "2026-07-05T06:01:01.119620+00:00"
 }

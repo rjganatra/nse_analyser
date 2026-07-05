@@ -71,7 +71,7 @@
       "label": "Fixed assets increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Fixed assets: 9298.0 -> 9519.0 -> 11587.0 (last 3Y) Cr",
+      "detail": "Fixed assets: 9298.0 -> 9519.0 -> 11586.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -95,7 +95,7 @@
       "label": "CFI negative (investing in growth)",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFI = -1745.0 Cr -- investing actively",
+      "detail": "CFI = -1667.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -116,9 +116,9 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 5577.0,
-    "Market Cap": 43092.0,
-    "P/E": 42.0,
+    "Current Price": 5496.0,
+    "Market Cap": 42463.0,
+    "P/E": 41.5,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 15.6,
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-06-28T06:29:12.706778+00:00"
+  "scanned_at": "2026-07-05T06:16:19.903305+00:00"
 }

@@ -71,7 +71,7 @@
       "label": "Fixed assets increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Fixed assets: 2178.0 -> 2338.0 -> 2570.0 (last 3Y) Cr",
+      "detail": "Fixed assets: 2178.0 -> 2338.0 -> 2569.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -116,13 +116,13 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 180.0,
-    "Market Cap": 5797.0,
+    "Current Price": 186.0,
+    "Market Cap": 5985.0,
     "P/E": null,
     "Industry P/E": null,
     "P/B": null,
-    "ROE %": -1.04,
-    "ROCE %": 3.99,
+    "ROE %": -1.03,
+    "ROCE %": 3.98,
     "Debt / Equity": null,
     "Div. Yield %": 0.0,
     "52W High": 368.0,
@@ -133,5 +133,5 @@
     "npm": 10.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-06-28T06:39:09.054092+00:00"
+  "scanned_at": "2026-07-05T06:26:10.462056+00:00"
 }
