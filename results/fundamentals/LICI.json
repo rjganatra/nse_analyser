@@ -3,9 +3,9 @@
   "name": "Life Insurance Corporation of India",
   "sector": "Financial Services",
   "screener_url": "https://www.screener.in/company/LICI/consolidated/",
-  "score_pct": 50.7,
-  "passes": 4,
-  "fails": 4,
+  "score_pct": 55.9,
+  "passes": 5,
+  "fails": 3,
   "neutrals": 5,
   "verdict": "Weak fundamentals",
   "verdict_color": "red",
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "Fixed assets: 20667.0 -> 21330.0 -> 4757.0 (last 3Y) Cr",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Fixed assets: 20667.0 -> 21330.0 -> 28335.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -95,7 +95,7 @@
       "label": "CFI negative (investing in growth)",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFI = 34708.0 Cr -- positive (possible asset sales)",
+      "detail": "CFI = 36693.0 Cr -- positive (possible asset sales)",
       "weight": 1.0
     },
     {
@@ -116,16 +116,16 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 430.0,
-    "Market Cap": 544266.0,
-    "P/E": 9.47,
+    "Current Price": 443.0,
+    "Market Cap": 560458.0,
+    "P/E": 9.76,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 37.8,
     "ROCE %": 35.1,
     "Debt / Equity": null,
-    "Div. Yield %": 2.32,
-    "52W High": 476.0,
+    "Div. Yield %": 2.26,
+    "52W High": 468.0,
     "52W Low": 361.0
   },
   "benchmark": {
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-07-05T06:19:22.477943+00:00"
+  "scanned_at": "2026-07-12T05:41:54.332350+00:00"
 }

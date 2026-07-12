@@ -95,7 +95,7 @@
       "label": "CFI negative (investing in growth)",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFI = -895.0 Cr -- investing actively",
+      "detail": "CFI = -891.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -116,16 +116,16 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 6556.0,
-    "Market Cap": 19303.0,
-    "P/E": 28.5,
+    "Current Price": 6236.0,
+    "Market Cap": 18360.0,
+    "P/E": 27.0,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 11.5,
     "ROCE %": 14.9,
     "Debt / Equity": null,
-    "Div. Yield %": 0.46,
-    "52W High": 7793.0,
+    "Div. Yield %": 0.48,
+    "52W High": 7675.0,
     "52W Low": 5560.0
   },
   "benchmark": {
@@ -133,5 +133,5 @@
     "npm": 10.0,
     "sg": 11.0
   },
-  "scanned_at": "2026-07-05T06:02:51.754320+00:00"
+  "scanned_at": "2026-07-12T05:25:39.665770+00:00"
 }

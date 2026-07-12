@@ -3,19 +3,19 @@
   "name": "L&T Finance Ltd",
   "sector": "Financial Services",
   "screener_url": "https://www.screener.in/company/LTF/consolidated/",
-  "score_pct": 62.4,
-  "passes": 5,
-  "fails": 1,
+  "score_pct": 55.9,
+  "passes": 4,
+  "fails": 2,
   "neutrals": 7,
-  "verdict": "Moderate -- dig deeper",
-  "verdict_color": "amber",
+  "verdict": "Weak fundamentals",
+  "verdict_color": "red",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "pass",
-      "score": 1.0,
-      "detail": "Avg growth 10.3% vs benchmark 10.0%",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "Avg growth 9.9% below benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 9.3 -> 10.6 -> 11.9 (last 3Y)",
+      "detail": "EPS: 10.6 -> 11.9 -> 12.7 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -116,16 +116,16 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 327.0,
-    "Market Cap": 81935.0,
-    "P/E": 27.3,
+    "Current Price": 321.0,
+    "Market Cap": 80494.0,
+    "P/E": 25.1,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 11.2,
     "ROCE %": 8.4,
     "Debt / Equity": null,
-    "Div. Yield %": 0.84,
-    "52W High": 329.0,
+    "Div. Yield %": 0.86,
+    "52W High": 339.0,
     "52W Low": 194.0
   },
   "benchmark": {
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-07-05T06:18:34.956877+00:00"
+  "scanned_at": "2026-07-12T05:41:07.501867+00:00"
 }

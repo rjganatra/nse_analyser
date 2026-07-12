@@ -3,9 +3,9 @@
   "name": "Great Eastern Shipping Company Ltd",
   "sector": "Services",
   "screener_url": "https://www.screener.in/company/GESHIP/consolidated/",
-  "score_pct": 73.5,
-  "passes": 7,
-  "fails": 2,
+  "score_pct": 63.7,
+  "passes": 6,
+  "fails": 3,
   "neutrals": 4,
   "verdict": "Moderate -- dig deeper",
   "verdict_color": "amber",
@@ -71,7 +71,7 @@
       "label": "Fixed assets increasing",
       "result": "fail",
       "score": 0.0,
-      "detail": "Fixed assets: 8329.0 -> 8247.0 -> 9342.0 (last 3Y) Cr",
+      "detail": "Fixed assets: 8329.0 -> 8247.0 -> 9339.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -95,7 +95,7 @@
       "label": "CFI negative (investing in growth)",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFI = -1187.0 Cr -- investing actively",
+      "detail": "CFI = -860.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -109,22 +109,22 @@
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "pass",
-      "score": 1.0,
-      "detail": "ROE 18.8% > ROCE 18.0% -- leverage working for shareholders",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "ROE 15.9% <= ROCE 16.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Current Price": 1440.0,
-    "Market Cap": 20564.0,
-    "P/E": 6.99,
+    "Current Price": 1421.0,
+    "Market Cap": 20286.0,
+    "P/E": 8.16,
     "Industry P/E": null,
     "P/B": null,
-    "ROE %": 18.8,
-    "ROCE %": 18.4,
+    "ROE %": 15.9,
+    "ROCE %": 15.8,
     "Debt / Equity": null,
-    "Div. Yield %": 2.44,
+    "Div. Yield %": 2.47,
     "52W High": 1798.0,
     "52W Low": 913.0
   },
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-07-05T06:12:10.323074+00:00"
+  "scanned_at": "2026-07-12T05:34:49.185652+00:00"
 }
