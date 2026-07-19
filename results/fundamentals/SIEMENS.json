@@ -3,19 +3,19 @@
   "name": "Siemens Ltd",
   "sector": "Capital Goods",
   "screener_url": "https://www.screener.in/company/SIEMENS/consolidated/",
-  "score_pct": 62.4,
-  "passes": 6,
-  "fails": 3,
-  "neutrals": 4,
-  "verdict": "Moderate -- dig deeper",
-  "verdict_color": "amber",
+  "score_pct": 46.1,
+  "passes": 4,
+  "fails": 4,
+  "neutrals": 5,
+  "verdict": "Weak fundamentals",
+  "verdict_color": "red",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "Avg growth 9.0% below benchmark 12.0%",
+      "detail": "Avg growth 10.0% below benchmark 12.0%",
       "weight": 1.0
     },
     {
@@ -23,7 +23,7 @@
       "label": "OPM > industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "OPM 11.0% below benchmark 22.0%",
+      "detail": "OPM 12.0% below benchmark 22.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 55.1 -> 76.3 -> 77.3 (last 3Y)",
+      "detail": "EPS: 76.3 -> 59.1 -> 77.3 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 13016.0 -> 15286.0 -> 13769.0 (last 3Y) Cr",
+      "detail": "Reserves: 15286.0 -> 13156.0 -> 13769.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -71,7 +71,7 @@
       "label": "Fixed assets increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Fixed assets: 3038.0 -> 3112.0 -> 2786.0 (last 3Y) Cr",
+      "detail": "Fixed assets: 3112.0 -> 2641.0 -> 2785.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -85,17 +85,17 @@
     {
       "id": "c10",
       "label": "CFO positive & increasing",
-      "result": "pass",
-      "score": 1.0,
-      "detail": "CFO 1670.0 Cr: 978.0 -> 1400.0 -> 1670.0 (last 3Y) Cr",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "CFO -535.0 Cr -- negative cash flow",
       "weight": 2.0
     },
     {
       "id": "c11",
       "label": "CFI negative (investing in growth)",
-      "result": "pass",
-      "score": 1.0,
-      "detail": "CFI = -502.0 Cr -- investing actively",
+      "result": "neutral",
+      "score": 0.5,
+      "detail": "CFI = 3695.0 Cr -- positive (possible asset sales)",
       "weight": 1.0
     },
     {
@@ -103,7 +103,7 @@
       "label": "CFF: debt repayment or growth",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFF = -523.0 Cr -- net debt repayment",
+      "detail": "CFF = -3302.0 Cr -- net debt repayment",
       "weight": 1.0
     },
     {
@@ -111,20 +111,20 @@
       "label": "ROE > ROCE",
       "result": "fail",
       "score": 0.0,
-      "detail": "ROE 16.3% <= ROCE 21.0% -- leverage not adding value",
+      "detail": "ROE 19.2% <= ROCE 21.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Current Price": 3496.0,
-    "Market Cap": 124518.0,
-    "P/E": 52.4,
+    "Current Price": 3659.0,
+    "Market Cap": 130297.0,
+    "P/E": 46.4,
     "Industry P/E": null,
     "P/B": null,
-    "ROE %": 16.3,
-    "ROCE %": 21.2,
+    "ROE %": 19.2,
+    "ROCE %": 21.4,
     "Debt / Equity": null,
-    "Div. Yield %": 0.0,
+    "Div. Yield %": 0.49,
     "52W High": 3937.0,
     "52W Low": 2826.0
   },
@@ -133,5 +133,5 @@
     "npm": 18.0,
     "sg": 12.0
   },
-  "scanned_at": "2026-07-12T05:49:15.288454+00:00"
+  "scanned_at": "2026-07-19T05:43:59.115920+00:00"
 }

@@ -111,20 +111,20 @@
       "label": "ROE > ROCE",
       "result": "pass",
       "score": 1.0,
-      "detail": "ROE 16.8% > ROCE 14.0% -- leverage working for shareholders",
+      "detail": "ROE 16.3% > ROCE 13.0% -- leverage working for shareholders",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Current Price": 1246.0,
-    "Market Cap": 43738.0,
-    "P/E": 48.7,
+    "Current Price": 1349.0,
+    "Market Cap": 47353.0,
+    "P/E": 54.5,
     "Industry P/E": null,
     "P/B": null,
-    "ROE %": 16.8,
-    "ROCE %": 13.6,
+    "ROE %": 16.3,
+    "ROCE %": 13.3,
     "Debt / Equity": null,
-    "Div. Yield %": 0.7,
+    "Div. Yield %": 0.64,
     "52W High": 1424.0,
     "52W Low": 576.0
   },
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-07-12T05:24:02.174145+00:00"
+  "scanned_at": "2026-07-19T05:18:47.747955+00:00"
 }

@@ -3,11 +3,11 @@
   "name": "India Cements Ltd",
   "sector": "Construction Materials",
   "screener_url": "https://www.screener.in/company/INDIACEM/consolidated/",
-  "score_pct": 36.3,
-  "passes": 3,
-  "fails": 5,
+  "score_pct": 46.1,
+  "passes": 4,
+  "fails": 4,
   "neutrals": 5,
-  "verdict": "Avoid",
+  "verdict": "Weak fundamentals",
   "verdict_color": "red",
   "criteria": [
     {
@@ -23,15 +23,15 @@
       "label": "OPM > industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "OPM 9.0% below benchmark 15.0%",
+      "detail": "OPM 10.0% below benchmark 15.0%",
       "weight": 1.0
     },
     {
       "id": "c3",
       "label": "EPS consistently increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "EPS not rising: -7.3 -> -4.6 -> -2.2 (last 3Y)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "EPS: -4.6 -> -2.2 -> 3.0 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -116,9 +116,9 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 380.0,
-    "Market Cap": 11792.0,
-    "P/E": 148.0,
+    "Current Price": 410.0,
+    "Market Cap": 12715.0,
+    "P/E": 94.2,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 0.78,
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-07-12T05:37:29.155365+00:00"
+  "scanned_at": "2026-07-19T05:32:13.454660+00:00"
 }

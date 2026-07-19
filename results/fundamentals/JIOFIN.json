@@ -3,19 +3,19 @@
   "name": "Jio Financial Services Ltd",
   "sector": "Financial Services",
   "screener_url": "https://www.screener.in/company/JIOFIN/consolidated/",
-  "score_pct": 49.3,
-  "passes": 5,
-  "fails": 3,
+  "score_pct": 59.2,
+  "passes": 6,
+  "fails": 2,
   "neutrals": 5,
-  "verdict": "Weak fundamentals",
-  "verdict_color": "red",
+  "verdict": "Moderate -- dig deeper",
+  "verdict_color": "amber",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "Avg growth 1368.1% vs benchmark 10.0%",
+      "detail": "Avg growth 1036.0% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -29,9 +29,9 @@
     {
       "id": "c3",
       "label": "EPS consistently increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "EPS not rising: 2.5 -> 2.5 -> 2.5 (last 3Y)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "EPS: 2.5 -> 2.5 -> 3.2 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -116,9 +116,9 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 242.0,
-    "Market Cap": 159770.0,
-    "P/E": 104.0,
+    "Current Price": 243.0,
+    "Market Cap": 160443.0,
+    "P/E": 77.6,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 1.19,
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-07-12T05:39:53.353513+00:00"
+  "scanned_at": "2026-07-19T05:34:33.625324+00:00"
 }

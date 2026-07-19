@@ -15,7 +15,7 @@
       "label": "Sales growth >= industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "Avg growth 17.1% vs benchmark 10.0%",
+      "detail": "Avg growth 15.8% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 18.3 -> 22.3 -> 19.4 (last 3Y)",
+      "detail": "EPS: 22.3 -> 19.4 -> 20.4 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 128978.0 -> 156495.0 -> 180118.0 (last 3Y) Cr",
+      "detail": "Reserves: 128978.0 -> 156495.0 -> 180231.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -71,7 +71,7 @@
       "label": "Fixed assets increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Fixed assets: 3510.0 -> 3759.0 -> 2853.0 (last 3Y) Cr",
+      "detail": "Fixed assets: 3510.0 -> 3759.0 -> 3801.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -95,7 +95,7 @@
       "label": "CFI negative (investing in growth)",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFI = -16519.0 Cr -- investing actively",
+      "detail": "CFI = -16159.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -111,18 +111,18 @@
       "label": "ROE > ROCE",
       "result": "pass",
       "score": 1.0,
-      "detail": "ROE 11.0% > ROCE 6.9% -- leverage working for shareholders",
+      "detail": "ROE 11.0% > ROCE 7.0% -- leverage working for shareholders",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Current Price": 378.0,
-    "Market Cap": 375588.0,
-    "P/E": 19.8,
+    "Current Price": 390.0,
+    "Market Cap": 387898.0,
+    "P/E": 19.4,
     "Industry P/E": null,
     "P/B": null,
-    "ROE %": 11.2,
-    "ROCE %": 6.93,
+    "ROE %": 11.4,
+    "ROCE %": 6.98,
     "Debt / Equity": null,
     "Div. Yield %": 0.17,
     "52W High": 453.0,
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-07-12T05:40:59.694367+00:00"
+  "scanned_at": "2026-07-19T05:35:39.841181+00:00"
 }

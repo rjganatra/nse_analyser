@@ -3,10 +3,10 @@
   "name": "ITC Hotels Ltd",
   "sector": "Consumer Services",
   "screener_url": "https://www.screener.in/company/ITCHOTELS/consolidated/",
-  "score_pct": 67.3,
-  "passes": 6,
+  "score_pct": 72.2,
+  "passes": 7,
   "fails": 1,
-  "neutrals": 6,
+  "neutrals": 5,
   "verdict": "Moderate -- dig deeper",
   "verdict_color": "amber",
   "criteria": [
@@ -15,7 +15,7 @@
       "label": "Sales growth >= industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "Avg growth 38.2% vs benchmark 10.0%",
+      "detail": "Avg growth 26.4% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -23,15 +23,15 @@
       "label": "OPM > industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "OPM 34.0% vs benchmark 16.0%",
+      "detail": "OPM 35.0% vs benchmark 16.0%",
       "weight": 1.0
     },
     {
       "id": "c3",
       "label": "EPS consistently increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Trend: 3.0 -> 3.9 (last 2Y)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "EPS: 3.0 -> 3.9 -> 4.2 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -71,7 +71,7 @@
       "label": "Fixed assets increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Fixed assets: 6436.0 -> 8189.0 -> 8090.0 (last 3Y) Cr",
+      "detail": "Fixed assets: 6436.0 -> 8189.0 -> 8089.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -87,7 +87,7 @@
       "label": "CFO positive & increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFO 1110.0 Cr: 672.0 -> 803.0 -> 1110.0 (last 3Y) Cr",
+      "detail": "CFO 1110.0 Cr: 672.0 -> 801.0 -> 1110.0 (last 3Y) Cr",
       "weight": 2.0
     },
     {
@@ -111,20 +111,20 @@
       "label": "ROE > ROCE",
       "result": "fail",
       "score": 0.0,
-      "detail": "ROE 7.8% <= ROCE 11.0% -- leverage not adding value",
+      "detail": "ROE 7.9% <= ROCE 11.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Current Price": 187.0,
-    "Market Cap": 38991.0,
-    "P/E": 44.6,
+    "Current Price": 172.0,
+    "Market Cap": 35913.0,
+    "P/E": 39.0,
     "Industry P/E": null,
     "P/B": null,
-    "ROE %": 7.83,
-    "ROCE %": 10.7,
+    "ROE %": 7.89,
+    "ROCE %": 11.2,
     "Debt / Equity": null,
-    "Div. Yield %": 0.53,
+    "Div. Yield %": 0.58,
     "52W High": 262.0,
     "52W Low": 137.0
   },
@@ -133,5 +133,5 @@
     "npm": 10.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-07-12T05:37:13.608568+00:00"
+  "scanned_at": "2026-07-19T05:31:57.900232+00:00"
 }

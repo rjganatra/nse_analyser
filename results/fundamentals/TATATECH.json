@@ -3,27 +3,27 @@
   "name": "Tata Technologies Ltd",
   "sector": "Information Technology",
   "screener_url": "https://www.screener.in/company/TATATECH/consolidated/",
-  "score_pct": 55.9,
-  "passes": 5,
-  "fails": 3,
+  "score_pct": 62.4,
+  "passes": 6,
+  "fails": 2,
   "neutrals": 5,
-  "verdict": "Weak fundamentals",
-  "verdict_color": "red",
+  "verdict": "Moderate -- dig deeper",
+  "verdict_color": "amber",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "Avg growth 11.0% vs benchmark 10.0%",
+      "detail": "Avg growth 10.6% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
       "id": "c2",
       "label": "OPM > industry",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "OPM 15.0% below benchmark 15.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "OPM 16.0% vs benchmark 15.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "fail",
       "score": 0.0,
-      "detail": "EPS not rising: 16.8 -> 16.7 -> 13.5 (last 3Y)",
+      "detail": "EPS not rising: 16.7 -> 13.5 -> 13.7 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -116,15 +116,15 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 719.0,
-    "Market Cap": 29177.0,
-    "P/E": 47.6,
+    "Current Price": 758.0,
+    "Market Cap": 30781.0,
+    "P/E": 47.3,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 16.3,
     "ROCE %": 20.9,
     "Debt / Equity": null,
-    "Div. Yield %": 1.16,
+    "Div. Yield %": 1.1,
     "52W High": 784.0,
     "52W Low": 507.0
   },
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-07-12T05:51:23.986604+00:00"
+  "scanned_at": "2026-07-19T05:46:07.634916+00:00"
 }
