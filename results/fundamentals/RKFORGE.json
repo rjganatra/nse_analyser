@@ -3,9 +3,9 @@
   "name": "Ramkrishna Forgings Ltd",
   "sector": "Automobile and Auto Components",
   "screener_url": "https://www.screener.in/company/RKFORGE/consolidated/",
-  "score_pct": 62.4,
-  "passes": 6,
-  "fails": 2,
+  "score_pct": 72.2,
+  "passes": 7,
+  "fails": 1,
   "neutrals": 5,
   "verdict": "Moderate -- dig deeper",
   "verdict_color": "amber",
@@ -15,7 +15,7 @@
       "label": "Sales growth >= industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "Avg growth 20.9% vs benchmark 10.0%",
+      "detail": "Avg growth 19.6% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -23,15 +23,15 @@
       "label": "OPM > industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "OPM 15.0% vs benchmark 12.0%",
+      "detail": "OPM 16.0% vs benchmark 12.0%",
       "weight": 1.0
     },
     {
       "id": "c3",
       "label": "EPS consistently increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "EPS not rising: 16.1 -> 22.9 -> 4.0 (last 3Y)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "EPS: 22.9 -> 4.0 -> 5.9 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -116,16 +116,16 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 568.0,
-    "Market Cap": 10352.0,
-    "P/E": 128.0,
+    "Current Price": 581.0,
+    "Market Cap": 10579.0,
+    "P/E": 92.0,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 2.56,
     "ROCE %": 5.6,
     "Debt / Equity": null,
-    "Div. Yield %": 0.35,
-    "52W High": 649.0,
+    "Div. Yield %": 0.34,
+    "52W High": 632.0,
     "52W Low": 460.0
   },
   "benchmark": {
@@ -133,5 +133,5 @@
     "npm": 6.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-07-19T05:42:29.566975+00:00"
+  "scanned_at": "2026-07-26T05:52:28.702889+00:00"
 }

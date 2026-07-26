@@ -71,7 +71,7 @@
       "label": "Fixed assets increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Fixed assets: 4593.0 -> 6899.0 -> 8545.0 (last 3Y) Cr",
+      "detail": "Fixed assets: 4593.0 -> 6899.0 -> 8537.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -103,7 +103,7 @@
       "label": "CFF: debt repayment or growth",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFF = 1202.0 Cr -- raising capital (verify if for growth)",
+      "detail": "CFF = 942.0 Cr -- raising capital (verify if for growth)",
       "weight": 1.0
     },
     {
@@ -111,21 +111,21 @@
       "label": "ROE > ROCE",
       "result": "fail",
       "score": 0.0,
-      "detail": "ROE 10.4% <= ROCE 11.0% -- leverage not adding value",
+      "detail": "ROE 10.5% <= ROCE 11.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Current Price": 567.0,
-    "Market Cap": 18482.0,
-    "P/E": 28.4,
+    "Current Price": 525.0,
+    "Market Cap": 17138.0,
+    "P/E": 26.3,
     "Industry P/E": null,
     "P/B": null,
-    "ROE %": 10.4,
+    "ROE %": 10.5,
     "ROCE %": 10.5,
     "Debt / Equity": null,
-    "Div. Yield %": 0.35,
-    "52W High": 850.0,
+    "Div. Yield %": 0.38,
+    "52W High": 802.0,
     "52W Low": 451.0
   },
   "benchmark": {
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-07-19T05:23:00.657477+00:00"
+  "scanned_at": "2026-07-26T05:32:38.074784+00:00"
 }

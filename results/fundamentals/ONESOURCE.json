@@ -3,10 +3,10 @@
   "name": "OneSource Specialty Pharma Ltd",
   "sector": "Healthcare",
   "screener_url": "https://www.screener.in/company/ONESOURCE/consolidated/",
-  "score_pct": 67.3,
+  "score_pct": 62.4,
   "passes": 6,
-  "fails": 1,
-  "neutrals": 6,
+  "fails": 2,
+  "neutrals": 5,
   "verdict": "Moderate -- dig deeper",
   "verdict_color": "amber",
   "criteria": [
@@ -15,7 +15,7 @@
       "label": "Sales growth >= industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "Avg growth 307.5% vs benchmark 10.0%",
+      "detail": "Avg growth 257.7% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -23,15 +23,15 @@
       "label": "OPM > industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "OPM 21.0% vs benchmark 15.0%",
+      "detail": "OPM 22.0% vs benchmark 15.0%",
       "weight": 1.0
     },
     {
       "id": "c3",
       "label": "EPS consistently increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Trend: -1.6 -> -6.4 (last 2Y)",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "EPS not rising: -1.6 -> -6.4 -> -4.2 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -116,8 +116,8 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 1653.0,
-    "Market Cap": 18953.0,
+    "Current Price": 1654.0,
+    "Market Cap": 18961.0,
     "P/E": null,
     "Industry P/E": null,
     "P/B": null,
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-07-19T05:39:57.438089+00:00"
+  "scanned_at": "2026-07-26T05:49:53.286492+00:00"
 }

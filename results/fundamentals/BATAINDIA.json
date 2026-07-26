@@ -23,7 +23,7 @@
       "label": "OPM > industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "OPM 20.0% vs benchmark 16.0%",
+      "detail": "OPM 21.0% vs benchmark 16.0%",
       "weight": 1.0
     },
     {
@@ -111,18 +111,18 @@
       "label": "ROE > ROCE",
       "result": "fail",
       "score": 0.0,
-      "detail": "ROE 10.5% <= ROCE 12.0% -- leverage not adding value",
+      "detail": "ROE 10.6% <= ROCE 13.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Current Price": 693.0,
-    "Market Cap": 8912.0,
-    "P/E": 53.8,
+    "Current Price": 690.0,
+    "Market Cap": 8868.0,
+    "P/E": 52.7,
     "Industry P/E": null,
     "P/B": null,
-    "ROE %": 10.5,
-    "ROCE %": 12.2,
+    "ROE %": 10.6,
+    "ROCE %": 12.7,
     "Debt / Equity": null,
     "Div. Yield %": 1.3,
     "52W High": 1282.0,
@@ -133,5 +133,5 @@
     "npm": 10.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-07-19T05:21:38.894380+00:00"
+  "scanned_at": "2026-07-26T05:31:14.817275+00:00"
 }
