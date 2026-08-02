@@ -3,19 +3,19 @@
   "name": "IRB Infrastructure Developers Ltd",
   "sector": "Construction",
   "screener_url": "https://www.screener.in/company/IRB/consolidated/",
-  "score_pct": 53.9,
-  "passes": 5,
-  "fails": 4,
+  "score_pct": 63.7,
+  "passes": 6,
+  "fails": 3,
   "neutrals": 4,
-  "verdict": "Weak fundamentals",
-  "verdict_color": "red",
+  "verdict": "Moderate -- dig deeper",
+  "verdict_color": "amber",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "Avg growth 7.3% below benchmark 10.0%",
+      "detail": "Avg growth 6.8% below benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -23,15 +23,15 @@
       "label": "OPM > industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "OPM 52.0% vs benchmark 15.0%",
+      "detail": "OPM 54.0% vs benchmark 15.0%",
       "weight": 1.0
     },
     {
       "id": "c3",
       "label": "EPS consistently increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "EPS not rising: 0.5 -> 5.4 -> 0.7 (last 3Y)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "EPS: 5.4 -> 0.7 -> 0.8 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -116,15 +116,15 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 19.6,
-    "Market Cap": 23685.0,
-    "P/E": 26.9,
+    "Current Price": 20.0,
+    "Market Cap": 24156.0,
+    "P/E": 24.6,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 4.31,
     "ROCE %": 7.48,
     "Debt / Equity": null,
-    "Div. Yield %": 0.79,
+    "Div. Yield %": 0.78,
     "52W High": 24.0,
     "52W Low": 18.5
   },
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-07-26T05:41:37.765943+00:00"
+  "scanned_at": "2026-08-02T05:36:50.589159+00:00"
 }

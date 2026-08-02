@@ -15,7 +15,7 @@
       "label": "Sales growth >= industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "Avg growth 14.1% vs benchmark 8.0%",
+      "detail": "Avg growth 12.9% vs benchmark 8.0%",
       "weight": 1.0
     },
     {
@@ -23,7 +23,7 @@
       "label": "OPM > industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "OPM 31.0% vs benchmark 14.0%",
+      "detail": "OPM 32.0% vs benchmark 14.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 14.8 -> 19.9 -> 31.4 (last 3Y)",
+      "detail": "EPS: 19.9 -> 31.4 -> 32.0 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -116,22 +116,22 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 502.0,
-    "Market Cap": 17698.0,
-    "P/E": 16.1,
+    "Current Price": 517.0,
+    "Market Cap": 18204.0,
+    "P/E": 16.2,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 16.1,
     "ROCE %": 17.4,
     "Debt / Equity": null,
-    "Div. Yield %": 0.3,
+    "Div. Yield %": 0.29,
     "52W High": 640.0,
-    "52W Low": 428.0
+    "52W Low": 453.0
   },
   "benchmark": {
     "opm": 14.0,
     "npm": 7.0,
     "sg": 8.0
   },
-  "scanned_at": "2026-07-26T05:53:24.885553+00:00"
+  "scanned_at": "2026-08-02T05:48:39.315980+00:00"
 }

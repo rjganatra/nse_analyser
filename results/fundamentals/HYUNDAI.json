@@ -3,19 +3,19 @@
   "name": "Hyundai Motor India Ltd",
   "sector": "Automobile and Auto Components",
   "screener_url": "https://www.screener.in/company/HYUNDAI/consolidated/",
-  "score_pct": 64.1,
-  "passes": 6,
-  "fails": 2,
-  "neutrals": 5,
-  "verdict": "Moderate -- dig deeper",
-  "verdict_color": "amber",
+  "score_pct": 52.6,
+  "passes": 5,
+  "fails": 4,
+  "neutrals": 4,
+  "verdict": "Weak fundamentals",
+  "verdict_color": "red",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "pass",
-      "score": 1.0,
-      "detail": "Avg growth 12.0% vs benchmark 10.0%",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "Avg growth 10.0% below benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -23,15 +23,15 @@
       "label": "OPM > industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "OPM 12.0% below benchmark 12.0%",
+      "detail": "OPM 11.0% below benchmark 12.0%",
       "weight": 1.0
     },
     {
       "id": "c3",
       "label": "EPS consistently increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Trend: 69.4 -> 66.8 (last 2Y)",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "EPS not rising: 69.4 -> 66.8 -> 60.9 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -116,15 +116,15 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 1953.0,
-    "Market Cap": 158657.0,
-    "P/E": 29.2,
+    "Current Price": 2181.0,
+    "Market Cap": 177191.0,
+    "P/E": 35.8,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 29.9,
     "ROCE %": 38.4,
     "Debt / Equity": null,
-    "Div. Yield %": 1.08,
+    "Div. Yield %": 0.96,
     "52W High": 2890.0,
     "52W Low": 1658.0
   },
@@ -133,5 +133,5 @@
     "npm": 6.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-07-26T05:41:02.112125+00:00"
+  "scanned_at": "2026-08-02T05:36:14.754477+00:00"
 }

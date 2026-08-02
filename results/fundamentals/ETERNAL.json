@@ -23,7 +23,7 @@
       "label": "OPM > industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "OPM 2.0% below benchmark 16.0%",
+      "detail": "OPM 2.5% below benchmark 16.0%",
       "weight": 1.0
     },
     {
@@ -95,7 +95,7 @@
       "label": "CFI negative (investing in growth)",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFI = 536.0 Cr -- positive (possible asset sales)",
+      "detail": "CFI = 540.0 Cr -- positive (possible asset sales)",
       "weight": 1.0
     },
     {
@@ -111,18 +111,18 @@
       "label": "ROE > ROCE",
       "result": "fail",
       "score": 0.0,
-      "detail": "ROE 1.2% <= ROCE 3.0% -- leverage not adding value",
+      "detail": "ROE 0.4% <= ROCE 2.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Current Price": 280.0,
-    "Market Cap": 270210.0,
-    "P/E": 624.0,
+    "Current Price": 302.0,
+    "Market Cap": 291875.0,
+    "P/E": 674.0,
     "Industry P/E": null,
     "P/B": null,
-    "ROE %": 1.19,
-    "ROCE %": 2.97,
+    "ROE %": 0.38,
+    "ROCE %": 2.48,
     "Debt / Equity": null,
     "Div. Yield %": 0.0,
     "52W High": 368.0,
@@ -133,5 +133,5 @@
     "npm": 10.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-07-26T05:37:12.068247+00:00"
+  "scanned_at": "2026-08-02T05:32:24.261018+00:00"
 }

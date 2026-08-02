@@ -3,9 +3,9 @@
   "name": "ABB India Ltd",
   "sector": "Capital Goods",
   "screener_url": "https://www.screener.in/company/ABB/consolidated/",
-  "score_pct": 60.5,
-  "passes": 5,
-  "fails": 3,
+  "score_pct": 65.7,
+  "passes": 6,
+  "fails": 2,
   "neutrals": 5,
   "verdict": "Moderate -- dig deeper",
   "verdict_color": "amber",
@@ -15,7 +15,7 @@
       "label": "Sales growth >= industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "Avg growth 17.5% vs benchmark 12.0%",
+      "detail": "Avg growth 18.2% vs benchmark 12.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 88.3 -> 78.7 -> 140.5 (last 3Y)",
+      "detail": "EPS: 88.3 -> 78.7 -> 141.0 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 2559.0 -> 7033.0 -> 7794.0 (last 3Y) Cr",
+      "detail": "Reserves: 7033.0 -> 7794.0 -> 9297.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "Fixed assets: 1234.0 -> 1062.0 -> 1195.0 (last 3Y) Cr",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Fixed assets: 1062.0 -> 1195.0 -> 1249.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -116,15 +116,15 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 7376.0,
-    "Market Cap": 156293.0,
-    "P/E": 103.0,
+    "Current Price": 7284.0,
+    "Market Cap": 154365.0,
+    "P/E": 100.0,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 22.4,
     "ROCE %": 29.9,
     "Debt / Equity": null,
-    "Div. Yield %": 0.53,
+    "Div. Yield %": 0.54,
     "52W High": 7924.0,
     "52W Low": 4638.0
   },
@@ -133,5 +133,5 @@
     "npm": 18.0,
     "sg": 12.0
   },
-  "scanned_at": "2026-07-26T05:26:40.951270+00:00"
+  "scanned_at": "2026-08-02T05:21:52.266521+00:00"
 }

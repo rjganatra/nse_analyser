@@ -3,12 +3,12 @@
   "name": "Billionbrains Garage Ventures Ltd",
   "sector": "Financial Services",
   "screener_url": "https://www.screener.in/company/GROWW/consolidated/",
-  "score_pct": 53.9,
-  "passes": 5,
-  "fails": 3,
+  "score_pct": 59.2,
+  "passes": 6,
+  "fails": 2,
   "neutrals": 5,
-  "verdict": "Weak fundamentals",
-  "verdict_color": "red",
+  "verdict": "Moderate -- dig deeper",
+  "verdict_color": "amber",
   "criteria": [
     {
       "id": "c1",
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "Fixed assets: 396.0 -> 402.0 -> 253.0 (last 3Y) Cr",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Fixed assets: 396.0 -> 402.0 -> 1492.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -116,9 +116,9 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 202.0,
-    "Market Cap": 126821.0,
-    "P/E": 52.0,
+    "Current Price": 194.0,
+    "Market Cap": 121940.0,
+    "P/E": 50.0,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 28.8,
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-07-26T05:32:02.358777+00:00"
+  "scanned_at": "2026-08-02T05:27:14.089097+00:00"
 }

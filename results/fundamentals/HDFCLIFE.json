@@ -23,7 +23,7 @@
       "label": "OPM > industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "OPM 1.0% below benchmark 15.0%",
+      "detail": "OPM 1.2% below benchmark 15.0%",
       "weight": 1.0
     },
     {
@@ -116,9 +116,9 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 555.0,
-    "Market Cap": 120583.0,
-    "P/E": 61.0,
+    "Current Price": 548.0,
+    "Market Cap": 119160.0,
+    "P/E": 60.3,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 11.3,
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-07-26T05:39:54.891803+00:00"
+  "scanned_at": "2026-08-02T05:35:07.225855+00:00"
 }
