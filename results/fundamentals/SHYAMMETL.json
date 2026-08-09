@@ -87,7 +87,7 @@
       "label": "CFO positive & increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFO 2024.0 Cr: 1794.0 -> 1964.0 -> 2024.0 (last 3Y) Cr",
+      "detail": "CFO 2024.0 Cr: 1794.0 -> 1713.0 -> 2024.0 (last 3Y) Cr",
       "weight": 2.0
     },
     {
@@ -116,15 +116,15 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 1031.0,
-    "Market Cap": 28787.0,
-    "P/E": 25.6,
+    "Current Price": 1007.0,
+    "Market Cap": 28106.0,
+    "P/E": 25.0,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 9.7,
     "ROCE %": 13.0,
     "Debt / Equity": null,
-    "Div. Yield %": 0.44,
+    "Div. Yield %": 0.45,
     "52W High": 1090.0,
     "52W Low": 746.0
   },
@@ -133,5 +133,5 @@
     "npm": 18.0,
     "sg": 12.0
   },
-  "scanned_at": "2026-08-02T05:49:07.154126+00:00"
+  "scanned_at": "2026-08-09T03:55:10.974777+00:00"
 }

@@ -3,10 +3,10 @@
   "name": "Ather Energy Ltd",
   "sector": "Automobile and Auto Components",
   "screener_url": "https://www.screener.in/company/ATHERENERG/consolidated/",
-  "score_pct": 43.5,
+  "score_pct": 40.2,
   "passes": 0,
-  "fails": 1,
-  "neutrals": 12,
+  "fails": 2,
+  "neutrals": 11,
   "verdict": "Weak fundamentals",
   "verdict_color": "red",
   "criteria": [
@@ -21,9 +21,9 @@
     {
       "id": "c2",
       "label": "OPM > industry",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "OPM unavailable",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "OPM -11.0% below benchmark 12.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "neutral",
       "score": 0.5,
-      "detail": "Trend: no data",
+      "detail": "Trend: -13.5 (last 1Y)",
       "weight": 1.5
     },
     {
@@ -116,22 +116,22 @@
     }
   ],
   "top_ratios": {
-    "Current Price": null,
-    "Market Cap": null,
+    "Current Price": 1482.0,
+    "Market Cap": 58444.0,
     "P/E": null,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": null,
     "ROCE %": null,
     "Debt / Equity": null,
-    "Div. Yield %": null,
-    "52W High": null,
-    "52W Low": null
+    "Div. Yield %": 0.0,
+    "52W High": 1508.0,
+    "52W Low": 398.0
   },
   "benchmark": {
     "opm": 12.0,
     "npm": 6.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-08-02T05:25:06.931111+00:00"
+  "scanned_at": "2026-08-09T03:31:20.792140+00:00"
 }

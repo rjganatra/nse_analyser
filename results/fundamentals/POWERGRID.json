@@ -15,7 +15,7 @@
       "label": "Sales growth >= industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "Avg growth 9.6% below benchmark 10.0%",
+      "detail": "Avg growth 8.8% below benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -23,7 +23,7 @@
       "label": "OPM > industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "OPM 75.0% vs benchmark 25.0%",
+      "detail": "OPM 73.0% vs benchmark 25.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 16.7 -> 16.7 -> 17.1 (last 3Y)",
+      "detail": "EPS: 16.7 -> 17.1 -> 17.1 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -71,7 +71,7 @@
       "label": "Fixed assets increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Fixed assets: 177761.0 -> 172320.0 -> 176623.0 (last 3Y) Cr",
+      "detail": "Fixed assets: 177761.0 -> 172320.0 -> 176531.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -87,7 +87,7 @@
       "label": "CFO positive & increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFO 40931.0 Cr: 37290.0 -> 36223.0 -> 40931.0 (last 3Y) Cr",
+      "detail": "CFO 40935.0 Cr: 37290.0 -> 36222.0 -> 40935.0 (last 3Y) Cr",
       "weight": 2.0
     },
     {
@@ -95,7 +95,7 @@
       "label": "CFI negative (investing in growth)",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFI = -35305.0 Cr -- investing actively",
+      "detail": "CFI = -35445.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -111,20 +111,20 @@
       "label": "ROE > ROCE",
       "result": "pass",
       "score": 1.0,
-      "detail": "ROE 16.5% > ROCE 10.0% -- leverage working for shareholders",
+      "detail": "ROE 15.3% > ROCE 9.0% -- leverage working for shareholders",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Current Price": 284.0,
-    "Market Cap": 264370.0,
-    "P/E": 16.6,
+    "Current Price": 272.0,
+    "Market Cap": 252604.0,
+    "P/E": 15.9,
     "Industry P/E": null,
     "P/B": null,
-    "ROE %": 16.5,
-    "ROCE %": 9.74,
+    "ROE %": 15.3,
+    "ROCE %": 9.1,
     "Debt / Equity": null,
-    "Div. Yield %": 3.17,
+    "Div. Yield %": 3.31,
     "52W High": 325.0,
     "52W Low": 250.0
   },
@@ -133,5 +133,5 @@
     "npm": 10.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-08-02T05:46:47.945931+00:00"
+  "scanned_at": "2026-08-09T03:52:52.545566+00:00"
 }

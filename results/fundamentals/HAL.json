@@ -3,9 +3,9 @@
   "name": "Hindustan Aeronautics Ltd",
   "sector": "Aerospace & Defence",
   "screener_url": "https://www.screener.in/company/HAL/consolidated/",
-  "score_pct": 69.0,
-  "passes": 7,
-  "fails": 2,
+  "score_pct": 63.7,
+  "passes": 6,
+  "fails": 3,
   "neutrals": 4,
   "verdict": "Moderate -- dig deeper",
   "verdict_color": "amber",
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "pass",
-      "score": 1.0,
-      "detail": "Fixed assets: 6737.0 -> 6671.0 -> 9581.0 (last 3Y) Cr",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "Fixed assets: 6737.0 -> 6671.0 -> 7293.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -116,15 +116,15 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 4646.0,
-    "Market Cap": 310746.0,
-    "P/E": 34.1,
+    "Current Price": 4910.0,
+    "Market Cap": 328369.0,
+    "P/E": 36.0,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 24.0,
     "ROCE %": 32.0,
     "Debt / Equity": null,
-    "Div. Yield %": 0.97,
+    "Div. Yield %": 0.92,
     "52W High": 4978.0,
     "52W Low": 3479.0
   },
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-08-02T05:35:35.103642+00:00"
+  "scanned_at": "2026-08-09T03:41:44.863203+00:00"
 }

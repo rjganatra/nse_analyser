@@ -3,10 +3,10 @@
   "name": "Timken India Ltd",
   "sector": "Capital Goods",
   "screener_url": "https://www.screener.in/company/TIMKEN/consolidated/",
-  "score_pct": 45.1,
+  "score_pct": 40.2,
   "passes": 2,
-  "fails": 3,
-  "neutrals": 8,
+  "fails": 4,
+  "neutrals": 7,
   "verdict": "Weak fundamentals",
   "verdict_color": "red",
   "criteria": [
@@ -15,7 +15,7 @@
       "label": "Sales growth >= industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "Avg growth 8.8% below benchmark 12.0%",
+      "detail": "Avg growth 6.1% below benchmark 12.0%",
       "weight": 1.0
     },
     {
@@ -29,9 +29,9 @@
     {
       "id": "c3",
       "label": "EPS consistently increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Trend: 61.5 -> 55.2 (last 2Y)",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "EPS not rising: 61.5 -> 55.2 -> 56.6 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -116,15 +116,15 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 3145.0,
-    "Market Cap": 23659.0,
-    "P/E": 57.0,
+    "Current Price": 3351.0,
+    "Market Cap": 25206.0,
+    "P/E": 59.2,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 14.3,
     "ROCE %": 19.0,
     "Debt / Equity": null,
-    "Div. Yield %": 0.08,
+    "Div. Yield %": 0.07,
     "52W High": 3925.0,
     "52W Low": 2800.0
   },
@@ -133,5 +133,5 @@
     "npm": 18.0,
     "sg": 12.0
   },
-  "scanned_at": "2026-08-02T05:52:06.233652+00:00"
+  "scanned_at": "2026-08-09T03:58:08.673800+00:00"
 }

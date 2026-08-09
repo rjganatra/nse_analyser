@@ -3,9 +3,9 @@
   "name": "The Ramco Cements Ltd",
   "sector": "Construction Materials",
   "screener_url": "https://www.screener.in/company/RAMCOCEM/consolidated/",
-  "score_pct": 69.0,
-  "passes": 7,
-  "fails": 2,
+  "score_pct": 62.4,
+  "passes": 6,
+  "fails": 3,
   "neutrals": 4,
   "verdict": "Moderate -- dig deeper",
   "verdict_color": "amber",
@@ -15,15 +15,15 @@
       "label": "Sales growth >= industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "Avg growth 9.2% below benchmark 10.0%",
+      "detail": "Avg growth 8.6% below benchmark 10.0%",
       "weight": 1.0
     },
     {
       "id": "c2",
       "label": "OPM > industry",
-      "result": "pass",
-      "score": 1.0,
-      "detail": "OPM 16.0% vs benchmark 15.0%",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "OPM 15.0% below benchmark 15.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 15.2 -> 11.5 -> 29.6 (last 3Y)",
+      "detail": "EPS: 11.5 -> 29.6 -> 27.3 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -116,9 +116,9 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 918.0,
-    "Market Cap": 21698.0,
-    "P/E": 732.0,
+    "Current Price": 934.0,
+    "Market Cap": 22065.0,
+    "P/E": 116.0,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 0.38,
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-08-02T05:51:58.264037+00:00"
+  "scanned_at": "2026-08-09T03:58:00.767217+00:00"
 }

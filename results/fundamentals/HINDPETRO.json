@@ -71,7 +71,7 @@
       "label": "Fixed assets increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Fixed assets: 79763.0 -> 86179.0 -> 100568.0 (last 3Y) Cr",
+      "detail": "Fixed assets: 79763.0 -> 86179.0 -> 100430.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -87,7 +87,7 @@
       "label": "CFO positive & increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFO 36111.0 Cr: 23852.0 -> 14228.0 -> 36111.0 (last 3Y) Cr",
+      "detail": "CFO 36111.0 Cr: 23852.0 -> 14231.0 -> 36111.0 (last 3Y) Cr",
       "weight": 2.0
     },
     {
@@ -116,15 +116,15 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 390.0,
-    "Market Cap": 82932.0,
-    "P/E": 49.6,
+    "Current Price": 393.0,
+    "Market Cap": 83634.0,
+    "P/E": 50.0,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 30.9,
     "ROCE %": 22.2,
     "Debt / Equity": null,
-    "Div. Yield %": 6.22,
+    "Div. Yield %": 6.17,
     "52W High": 508.0,
     "52W Low": 316.0
   },
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-08-02T05:35:43.048991+00:00"
+  "scanned_at": "2026-08-09T03:41:52.743452+00:00"
 }

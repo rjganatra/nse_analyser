@@ -3,9 +3,9 @@
   "name": "Berger Paints India Ltd",
   "sector": "Consumer Durables",
   "screener_url": "https://www.screener.in/company/BERGEPAINT/consolidated/",
-  "score_pct": 69.0,
-  "passes": 7,
-  "fails": 2,
+  "score_pct": 62.4,
+  "passes": 6,
+  "fails": 3,
   "neutrals": 4,
   "verdict": "Moderate -- dig deeper",
   "verdict_color": "amber",
@@ -13,9 +13,9 @@
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "pass",
-      "score": 1.0,
-      "detail": "Avg growth 10.3% vs benchmark 10.0%",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "Avg growth 9.7% below benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -23,7 +23,7 @@
       "label": "OPM > industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "OPM 15.0% below benchmark 16.0%",
+      "detail": "OPM 16.0% below benchmark 16.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 10.0 -> 10.1 -> 9.7 (last 3Y)",
+      "detail": "EPS: 10.1 -> 9.7 -> 10.4 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -116,15 +116,15 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 520.0,
-    "Market Cap": 60685.0,
-    "P/E": 53.6,
+    "Current Price": 531.0,
+    "Market Cap": 61862.0,
+    "P/E": 50.4,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 17.3,
     "ROCE %": 21.6,
     "Debt / Equity": null,
-    "Div. Yield %": 0.77,
+    "Div. Yield %": 0.75,
     "52W High": 595.0,
     "52W Low": 391.0
   },
@@ -133,5 +133,5 @@
     "npm": 10.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-08-02T05:26:38.397159+00:00"
+  "scanned_at": "2026-08-09T03:32:51.708336+00:00"
 }

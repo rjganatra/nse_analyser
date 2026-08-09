@@ -3,9 +3,9 @@
   "name": "HBL Engineering Ltd",
   "sector": "Capital Goods",
   "screener_url": "https://www.screener.in/company/HBLENGINE/consolidated/",
-  "score_pct": 70.3,
-  "passes": 7,
-  "fails": 2,
+  "score_pct": 63.7,
+  "passes": 6,
+  "fails": 3,
   "neutrals": 4,
   "verdict": "Moderate -- dig deeper",
   "verdict_color": "amber",
@@ -13,9 +13,9 @@
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "pass",
-      "score": 1.0,
-      "detail": "Avg growth 12.1% vs benchmark 12.0%",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "Avg growth 11.2% below benchmark 12.0%",
       "weight": 1.0
     },
     {
@@ -23,7 +23,7 @@
       "label": "OPM > industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "OPM 34.0% vs benchmark 22.0%",
+      "detail": "OPM 32.0% vs benchmark 22.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 10.1 -> 10.0 -> 29.4 (last 3Y)",
+      "detail": "EPS: 10.0 -> 29.4 -> 28.2 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -116,9 +116,9 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 719.0,
-    "Market Cap": 19922.0,
-    "P/E": 23.8,
+    "Current Price": 727.0,
+    "Market Cap": 20155.0,
+    "P/E": 25.2,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 45.3,
@@ -126,12 +126,12 @@
     "Debt / Equity": null,
     "Div. Yield %": 0.28,
     "52W High": 1122.0,
-    "52W Low": 586.0
+    "52W Low": 603.0
   },
   "benchmark": {
     "opm": 22.0,
     "npm": 18.0,
     "sg": 12.0
   },
-  "scanned_at": "2026-08-02T05:34:47.358854+00:00"
+  "scanned_at": "2026-08-09T03:40:57.433215+00:00"
 }

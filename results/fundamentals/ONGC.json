@@ -3,9 +3,9 @@
   "name": "Oil & Natural Gas Corpn Ltd",
   "sector": "Oil & Gas",
   "screener_url": "https://www.screener.in/company/ONGC/consolidated/",
-  "score_pct": 75.5,
-  "passes": 8,
-  "fails": 1,
+  "score_pct": 69.0,
+  "passes": 7,
+  "fails": 2,
   "neutrals": 4,
   "verdict": "Moderate -- dig deeper",
   "verdict_color": "amber",
@@ -15,15 +15,15 @@
       "label": "Sales growth >= industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "Avg growth 19.6% vs benchmark 10.0%",
+      "detail": "Avg growth 18.5% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
       "id": "c2",
       "label": "OPM > industry",
-      "result": "pass",
-      "score": 1.0,
-      "detail": "OPM 16.0% vs benchmark 15.0%",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "OPM 13.0% below benchmark 15.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 39.1 -> 28.8 -> 32.9 (last 3Y)",
+      "detail": "EPS: 28.8 -> 32.9 -> 34.6 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -116,15 +116,15 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 243.0,
-    "Market Cap": 305110.0,
-    "P/E": 7.32,
+    "Current Price": 239.0,
+    "Market Cap": 300480.0,
+    "P/E": 6.87,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 11.7,
     "ROCE %": 14.2,
     "Debt / Equity": null,
-    "Div. Yield %": 5.05,
+    "Div. Yield %": 5.13,
     "52W High": 308.0,
     "52W Low": 228.0
   },
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-08-02T05:44:48.654147+00:00"
+  "scanned_at": "2026-08-09T03:50:54.069589+00:00"
 }

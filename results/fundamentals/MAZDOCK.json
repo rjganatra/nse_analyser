@@ -71,7 +71,7 @@
       "label": "Fixed assets increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Fixed assets: 838.0 -> 1466.0 -> 2069.0 (last 3Y) Cr",
+      "detail": "Fixed assets: 838.0 -> 1466.0 -> 2062.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -87,7 +87,7 @@
       "label": "CFO positive & increasing",
       "result": "fail",
       "score": 0.0,
-      "detail": "CFO -2891.0 Cr -- negative cash flow",
+      "detail": "CFO -2654.0 Cr -- negative cash flow",
       "weight": 2.0
     },
     {
@@ -95,7 +95,7 @@
       "label": "CFI negative (investing in growth)",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFI = 1209.0 Cr -- positive (possible asset sales)",
+      "detail": "CFI = 1166.0 Cr -- positive (possible asset sales)",
       "weight": 1.0
     },
     {
@@ -103,7 +103,7 @@
       "label": "CFF: debt repayment or growth",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFF = -738.0 Cr -- net debt repayment",
+      "detail": "CFF = -931.0 Cr -- net debt repayment",
       "weight": 1.0
     },
     {
@@ -116,15 +116,15 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 2382.0,
-    "Market Cap": 96077.0,
-    "P/E": 33.6,
+    "Current Price": 2515.0,
+    "Market Cap": 101446.0,
+    "P/E": 35.5,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 29.2,
     "ROCE %": 36.0,
     "Debt / Equity": null,
-    "Div. Yield %": 0.73,
+    "Div. Yield %": 0.72,
     "52W High": 3061.0,
     "52W Low": 2057.0
   },
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-08-02T05:42:49.494862+00:00"
+  "scanned_at": "2026-08-09T03:48:55.740563+00:00"
 }

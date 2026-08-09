@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 66717.0 -> 75743.0 -> 82421.0 (last 3Y) Cr",
+      "detail": "Reserves: 66717.0 -> 75184.0 -> 81863.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -116,16 +116,16 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 373.0,
-    "Market Cap": 98206.0,
-    "P/E": 6.12,
+    "Current Price": 367.0,
+    "Market Cap": 96639.0,
+    "P/E": 6.02,
     "Industry P/E": null,
     "P/B": null,
-    "ROE %": 20.0,
+    "ROE %": 20.1,
     "ROCE %": 9.71,
     "Debt / Equity": null,
-    "Div. Yield %": 4.97,
-    "52W High": 398.0,
+    "Div. Yield %": 5.05,
+    "52W High": 390.0,
     "52W Low": 304.0
   },
   "benchmark": {
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-08-02T05:47:15.779740+00:00"
+  "scanned_at": "2026-08-09T03:53:20.434887+00:00"
 }

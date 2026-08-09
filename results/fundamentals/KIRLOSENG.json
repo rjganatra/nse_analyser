@@ -3,19 +3,19 @@
   "name": "Kirloskar Oil Engines Ltd",
   "sector": "Capital Goods",
   "screener_url": "https://www.screener.in/company/KIRLOSENG/consolidated/",
-  "score_pct": 78.8,
-  "passes": 8,
-  "fails": 1,
+  "score_pct": 72.2,
+  "passes": 7,
+  "fails": 2,
   "neutrals": 4,
-  "verdict": "Strong buy candidate",
-  "verdict_color": "green",
+  "verdict": "Moderate -- dig deeper",
+  "verdict_color": "amber",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "pass",
-      "score": 1.0,
-      "detail": "Avg growth 12.6% vs benchmark 12.0%",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "Avg growth 11.7% below benchmark 12.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 30.5 -> 33.7 -> 39.5 (last 3Y)",
+      "detail": "EPS: 33.7 -> 39.5 -> 37.6 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -116,9 +116,9 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 2190.0,
-    "Market Cap": 31863.0,
-    "P/E": 54.3,
+    "Current Price": 2162.0,
+    "Market Cap": 31454.0,
+    "P/E": 55.2,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 17.5,
@@ -133,5 +133,5 @@
     "npm": 18.0,
     "sg": 12.0
   },
-  "scanned_at": "2026-08-02T05:40:41.454341+00:00"
+  "scanned_at": "2026-08-09T03:46:48.665823+00:00"
 }

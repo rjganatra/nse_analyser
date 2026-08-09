@@ -3,9 +3,9 @@
   "name": "NCC Ltd",
   "sector": "Construction",
   "screener_url": "https://www.screener.in/company/NCC/consolidated/",
-  "score_pct": 47.4,
-  "passes": 4,
-  "fails": 4,
+  "score_pct": 40.8,
+  "passes": 3,
+  "fails": 5,
   "neutrals": 5,
   "verdict": "Weak fundamentals",
   "verdict_color": "red",
@@ -13,9 +13,9 @@
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "pass",
-      "score": 1.0,
-      "detail": "Avg growth 10.4% vs benchmark 10.0%",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "Avg growth 9.8% below benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 11.3 -> 13.1 -> 10.8 (last 3Y)",
+      "detail": "EPS: 13.1 -> 10.8 -> 11.1 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -116,16 +116,16 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 141.0,
-    "Market Cap": 8858.0,
+    "Current Price": 146.0,
+    "Market Cap": 9141.0,
     "P/E": 12.7,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 9.19,
     "ROCE %": 16.8,
     "Debt / Equity": null,
-    "Div. Yield %": 1.56,
-    "52W High": 226.0,
+    "Div. Yield %": 1.51,
+    "52W High": 225.0,
     "52W Low": 130.0
   },
   "benchmark": {
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-08-02T05:43:29.262799+00:00"
+  "scanned_at": "2026-08-09T03:49:35.180701+00:00"
 }
