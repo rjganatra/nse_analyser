@@ -3,9 +3,9 @@
   "name": "Triveni Turbine Ltd",
   "sector": "Capital Goods",
   "screener_url": "https://www.screener.in/company/TRITURBINE/consolidated/",
-  "score_pct": 65.7,
-  "passes": 6,
-  "fails": 2,
+  "score_pct": 59.2,
+  "passes": 5,
+  "fails": 3,
   "neutrals": 5,
   "verdict": "Moderate -- dig deeper",
   "verdict_color": "amber",
@@ -13,9 +13,9 @@
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "pass",
-      "score": 1.0,
-      "detail": "Avg growth 12.8% vs benchmark 12.0%",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "Avg growth 11.9% below benchmark 12.0%",
       "weight": 1.0
     },
     {
@@ -23,7 +23,7 @@
       "label": "OPM > industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "OPM 21.0% below benchmark 22.0%",
+      "detail": "OPM 19.0% below benchmark 22.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 8.5 -> 11.2 -> 11.0 (last 3Y)",
+      "detail": "EPS: 11.2 -> 11.0 -> 10.6 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -116,15 +116,15 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 636.0,
-    "Market Cap": 20232.0,
-    "P/E": 56.0,
+    "Current Price": 592.0,
+    "Market Cap": 18832.0,
+    "P/E": 54.2,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 27.1,
     "ROCE %": 35.9,
     "Debt / Equity": null,
-    "Div. Yield %": 0.35,
+    "Div. Yield %": 0.72,
     "52W High": 788.0,
     "52W Low": 428.0
   },
@@ -133,5 +133,5 @@
     "npm": 18.0,
     "sg": 12.0
   },
-  "scanned_at": "2026-08-09T03:58:44.252503+00:00"
+  "scanned_at": "2026-08-16T03:24:31.311407+00:00"
 }

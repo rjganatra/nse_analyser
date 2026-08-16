@@ -3,9 +3,9 @@
   "name": "Nava Ltd",
   "sector": "Power",
   "screener_url": "https://www.screener.in/company/NAVA/consolidated/",
-  "score_pct": 72.2,
-  "passes": 7,
-  "fails": 1,
+  "score_pct": 65.7,
+  "passes": 6,
+  "fails": 2,
   "neutrals": 5,
   "verdict": "Moderate -- dig deeper",
   "verdict_color": "amber",
@@ -13,9 +13,9 @@
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "pass",
-      "score": 1.0,
-      "detail": "Avg growth 10.5% vs benchmark 10.0%",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "Avg growth 9.6% below benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -23,7 +23,7 @@
       "label": "OPM > industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "OPM 40.0% vs benchmark 25.0%",
+      "detail": "OPM 38.0% vs benchmark 25.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 43.3 -> 38.6 -> 27.8 (last 3Y)",
+      "detail": "EPS: 38.6 -> 27.8 -> 26.7 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -116,15 +116,15 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 582.0,
-    "Market Cap": 16481.0,
-    "P/E": 21.6,
+    "Current Price": 573.0,
+    "Market Cap": 16221.0,
+    "P/E": 21.4,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 9.33,
     "ROCE %": 12.8,
     "Debt / Equity": null,
-    "Div. Yield %": 1.46,
+    "Div. Yield %": 1.48,
     "52W High": 739.0,
     "52W Low": 502.0
   },
@@ -133,5 +133,5 @@
     "npm": 10.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-08-09T03:50:10.731398+00:00"
+  "scanned_at": "2026-08-16T03:16:05.566760+00:00"
 }

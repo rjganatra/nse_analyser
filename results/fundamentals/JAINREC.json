@@ -15,7 +15,7 @@
       "label": "Sales growth >= industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "Avg growth 37.9% vs benchmark 8.0%",
+      "detail": "Avg growth 37.6% vs benchmark 8.0%",
       "weight": 1.0
     },
     {
@@ -87,7 +87,7 @@
       "label": "CFO positive & increasing",
       "result": "fail",
       "score": 0.0,
-      "detail": "CFO -602.0 Cr -- negative cash flow",
+      "detail": "CFO -591.0 Cr -- negative cash flow",
       "weight": 2.0
     },
     {
@@ -95,7 +95,7 @@
       "label": "CFI negative (investing in growth)",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFI = -98.0 Cr -- investing actively",
+      "detail": "CFI = -79.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -103,7 +103,7 @@
       "label": "CFF: debt repayment or growth",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFF = 740.0 Cr -- raising capital (verify if for growth)",
+      "detail": "CFF = 716.0 Cr -- raising capital (verify if for growth)",
       "weight": 1.0
     },
     {
@@ -111,18 +111,18 @@
       "label": "ROE > ROCE",
       "result": "pass",
       "score": 1.0,
-      "detail": "ROE 30.8% > ROCE 25.0% -- leverage working for shareholders",
+      "detail": "ROE 30.4% > ROCE 26.0% -- leverage working for shareholders",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Current Price": 308.0,
-    "Market Cap": 10642.0,
-    "P/E": 29.2,
+    "Current Price": 293.0,
+    "Market Cap": 10125.0,
+    "P/E": 27.8,
     "Industry P/E": null,
     "P/B": null,
-    "ROE %": 30.8,
-    "ROCE %": 25.5,
+    "ROE %": 30.4,
+    "ROCE %": 25.7,
     "Debt / Equity": null,
     "Div. Yield %": 0.0,
     "52W High": 594.0,
@@ -133,5 +133,5 @@
     "npm": 7.0,
     "sg": 8.0
   },
-  "scanned_at": "2026-08-09T03:45:21.784329+00:00"
+  "scanned_at": "2026-08-16T03:11:20.361579+00:00"
 }

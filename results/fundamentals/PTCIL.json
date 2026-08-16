@@ -3,27 +3,27 @@
   "name": "PTC Industries Ltd",
   "sector": "Capital Goods",
   "screener_url": "https://www.screener.in/company/PTCIL/consolidated/",
-  "score_pct": 52.6,
-  "passes": 5,
-  "fails": 3,
+  "score_pct": 59.2,
+  "passes": 6,
+  "fails": 2,
   "neutrals": 5,
-  "verdict": "Weak fundamentals",
-  "verdict_color": "red",
+  "verdict": "Moderate -- dig deeper",
+  "verdict_color": "amber",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "Avg growth 21.0% vs benchmark 12.0%",
+      "detail": "Avg growth 20.6% vs benchmark 12.0%",
       "weight": 1.0
     },
     {
       "id": "c2",
       "label": "OPM > industry",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "OPM 22.0% below benchmark 22.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "OPM 25.0% vs benchmark 22.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 29.2 -> 40.7 -> 67.7 (last 3Y)",
+      "detail": "EPS: 40.7 -> 67.7 -> 83.8 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -116,9 +116,9 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 19076.0,
-    "Market Cap": 28600.0,
-    "P/E": 282.0,
+    "Current Price": 19050.0,
+    "Market Cap": 28561.0,
+    "P/E": 227.0,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 7.02,
@@ -133,5 +133,5 @@
     "npm": 18.0,
     "sg": 12.0
   },
-  "scanned_at": "2026-08-09T03:51:41.497291+00:00"
+  "scanned_at": "2026-08-16T03:17:34.950176+00:00"
 }

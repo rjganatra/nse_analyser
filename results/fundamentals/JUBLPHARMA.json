@@ -23,7 +23,7 @@
       "label": "OPM > industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "OPM 15.0% below benchmark 15.0%",
+      "detail": "OPM 14.0% below benchmark 15.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 4.8 -> 52.7 -> 25.0 (last 3Y)",
+      "detail": "EPS: 52.7 -> 25.0 -> 22.1 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -116,15 +116,15 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 932.0,
-    "Market Cap": 14847.0,
-    "P/E": 34.1,
+    "Current Price": 866.0,
+    "Market Cap": 13792.0,
+    "P/E": 35.5,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 6.53,
     "ROCE %": 8.99,
     "Debt / Equity": null,
-    "Div. Yield %": 0.54,
+    "Div. Yield %": 0.58,
     "52W High": 1185.0,
     "52W Low": 784.0
   },
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-08-09T03:45:57.376722+00:00"
+  "scanned_at": "2026-08-16T03:11:55.359384+00:00"
 }

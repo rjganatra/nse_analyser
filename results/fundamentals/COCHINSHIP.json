@@ -3,9 +3,9 @@
   "name": "Cochin Shipyard Ltd",
   "sector": "Aerospace & Defence",
   "screener_url": "https://www.screener.in/company/COCHINSHIP/consolidated/",
-  "score_pct": 55.9,
-  "passes": 5,
-  "fails": 2,
+  "score_pct": 49.3,
+  "passes": 4,
+  "fails": 3,
   "neutrals": 6,
   "verdict": "Weak fundamentals",
   "verdict_color": "red",
@@ -15,15 +15,15 @@
       "label": "Sales growth >= industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "Avg growth 12.9% vs benchmark 10.0%",
+      "detail": "Avg growth 11.5% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
       "id": "c2",
       "label": "OPM > industry",
-      "result": "pass",
-      "score": 1.0,
-      "detail": "OPM 16.0% vs benchmark 15.0%",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "OPM 15.0% below benchmark 15.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 29.8 -> 31.4 -> 27.2 (last 3Y)",
+      "detail": "EPS: 31.4 -> 27.2 -> 25.9 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -116,15 +116,15 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 1520.0,
-    "Market Cap": 39980.0,
-    "P/E": 55.8,
+    "Current Price": 1496.0,
+    "Market Cap": 39370.0,
+    "P/E": 57.9,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 12.5,
     "ROCE %": 16.0,
     "Debt / Equity": null,
-    "Div. Yield %": 0.49,
+    "Div. Yield %": 0.5,
     "52W High": 1980.0,
     "52W Low": 1187.0
   },
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-08-09T03:36:01.159378+00:00"
+  "scanned_at": "2026-08-16T03:02:07.365337+00:00"
 }
