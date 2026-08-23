@@ -71,7 +71,7 @@
       "label": "Fixed assets increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Fixed assets: 867.0 -> 1084.0 -> 1702.0 (last 3Y) Cr",
+      "detail": "Fixed assets: 867.0 -> 1084.0 -> 1694.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -87,7 +87,7 @@
       "label": "CFO positive & increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFO 246.0 Cr: 266.0 -> 240.0 -> 246.0 (last 3Y) Cr",
+      "detail": "CFO 246.0 Cr: 266.0 -> 233.0 -> 246.0 (last 3Y) Cr",
       "weight": 2.0
     },
     {
@@ -95,7 +95,7 @@
       "label": "CFI negative (investing in growth)",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFI = -225.0 Cr -- investing actively",
+      "detail": "CFI = -224.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -111,18 +111,18 @@
       "label": "ROE > ROCE",
       "result": "fail",
       "score": 0.0,
-      "detail": "ROE 11.2% <= ROCE 14.0% -- leverage not adding value",
+      "detail": "ROE 9.0% <= ROCE 12.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Current Price": 1786.0,
-    "Market Cap": 18105.0,
-    "P/E": 56.6,
+    "Current Price": 1719.0,
+    "Market Cap": 17428.0,
+    "P/E": 54.5,
     "Industry P/E": null,
     "P/B": null,
-    "ROE %": 11.2,
-    "ROCE %": 14.0,
+    "ROE %": 9.02,
+    "ROCE %": 12.5,
     "Debt / Equity": null,
     "Div. Yield %": 0.2,
     "52W High": 2145.0,
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-08-16T03:18:29.378379+00:00"
+  "scanned_at": "2026-08-23T03:21:41.115676+00:00"
 }

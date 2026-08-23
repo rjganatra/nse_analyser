@@ -3,10 +3,10 @@
   "name": "CCL Products (India) Ltd",
   "sector": "Fast Moving Consumer Goods",
   "screener_url": "https://www.screener.in/company/CCL/consolidated/",
-  "score_pct": 85.3,
-  "passes": 9,
+  "score_pct": 82.0,
+  "passes": 8,
   "fails": 0,
-  "neutrals": 4,
+  "neutrals": 5,
   "verdict": "Strong buy candidate",
   "verdict_color": "green",
   "criteria": [
@@ -93,9 +93,9 @@
     {
       "id": "c11",
       "label": "CFI negative (investing in growth)",
-      "result": "pass",
-      "score": 1.0,
-      "detail": "CFI = -70.0 Cr -- investing actively",
+      "result": "neutral",
+      "score": 0.5,
+      "detail": "CFI = 18.0 Cr -- positive (possible asset sales)",
       "weight": 1.0
     },
     {
@@ -116,15 +116,15 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 1133.0,
-    "Market Cap": 15134.0,
-    "P/E": 35.0,
+    "Current Price": 1082.0,
+    "Market Cap": 14452.0,
+    "P/E": 33.4,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 18.0,
     "ROCE %": 15.8,
     "Debt / Equity": null,
-    "Div. Yield %": 0.51,
+    "Div. Yield %": 0.53,
     "52W High": 1242.0,
     "52W Low": 816.0
   },
@@ -133,5 +133,5 @@
     "npm": 10.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-08-16T03:00:22.117447+00:00"
+  "scanned_at": "2026-08-23T03:03:02.706486+00:00"
 }

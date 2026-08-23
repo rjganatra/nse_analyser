@@ -116,8 +116,8 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 24.3,
-    "Market Cap": 12404.0,
+    "Current Price": 24.4,
+    "Market Cap": 12429.0,
     "P/E": 31.4,
     "Industry P/E": null,
     "P/B": null,
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-08-16T03:24:27.429451+00:00"
+  "scanned_at": "2026-08-23T03:27:50.312661+00:00"
 }

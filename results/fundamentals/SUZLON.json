@@ -71,7 +71,7 @@
       "label": "Fixed assets increasing",
       "result": "fail",
       "score": 0.0,
-      "detail": "Fixed assets: 886.0 -> 1780.0 -> 2309.0 (last 3Y) Cr",
+      "detail": "Fixed assets: 886.0 -> 1780.0 -> 2296.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -111,21 +111,21 @@
       "label": "ROE > ROCE",
       "result": "pass",
       "score": 1.0,
-      "detail": "ROE 40.6% > ROCE 35.0% -- leverage working for shareholders",
+      "detail": "ROE 39.7% > ROCE 34.0% -- leverage working for shareholders",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Current Price": 47.1,
-    "Market Cap": 64223.0,
-    "P/E": 20.4,
+    "Current Price": 46.7,
+    "Market Cap": 63691.0,
+    "P/E": 20.3,
     "Industry P/E": null,
     "P/B": null,
-    "ROE %": 40.6,
-    "ROCE %": 35.1,
+    "ROE %": 39.7,
+    "ROCE %": 34.2,
     "Debt / Equity": null,
     "Div. Yield %": 0.0,
-    "52W High": 61.6,
+    "52W High": 61.5,
     "52W Low": 38.2
   },
   "benchmark": {
@@ -133,5 +133,5 @@
     "npm": 18.0,
     "sg": 12.0
   },
-  "scanned_at": "2026-08-16T03:22:07.235463+00:00"
+  "scanned_at": "2026-08-23T03:25:25.976574+00:00"
 }

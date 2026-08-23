@@ -87,7 +87,7 @@
       "label": "CFO positive & increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFO 2160.0 Cr: 1979.0 -> 1967.0 -> 2160.0 (last 3Y) Cr",
+      "detail": "CFO 2160.0 Cr: 1979.0 -> 1968.0 -> 2160.0 (last 3Y) Cr",
       "weight": 2.0
     },
     {
@@ -111,18 +111,18 @@
       "label": "ROE > ROCE",
       "result": "fail",
       "score": 0.0,
-      "detail": "ROE 3.3% <= ROCE 7.0% -- leverage not adding value",
+      "detail": "ROE 4.9% <= ROCE 7.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Current Price": 1174.0,
-    "Market Cap": 11529.0,
-    "P/E": 36.3,
+    "Current Price": 1217.0,
+    "Market Cap": 11949.0,
+    "P/E": 37.7,
     "Industry P/E": null,
     "P/B": null,
-    "ROE %": 3.28,
-    "ROCE %": 6.96,
+    "ROE %": 4.92,
+    "ROCE %": 6.79,
     "Debt / Equity": null,
     "Div. Yield %": 0.0,
     "52W High": 1250.0,
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-08-16T03:17:38.838900+00:00"
+  "scanned_at": "2026-08-23T03:20:48.914860+00:00"
 }
