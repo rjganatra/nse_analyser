@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 60.0 -> 60.3 -> 63.9 (last 3Y)",
+      "detail": "EPS: 60.0 -> 60.3 -> 64.1 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -116,15 +116,15 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 1621.0,
-    "Market Cap": 94165.0,
-    "P/E": 24.9,
+    "Current Price": 1645.0,
+    "Market Cap": 94667.0,
+    "P/E": 25.0,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 10.1,
     "ROCE %": 12.9,
     "Debt / Equity": null,
-    "Div. Yield %": 0.25,
+    "Div. Yield %": 0.24,
     "52W High": 1682.0,
     "52W Low": 1016.0
   },
@@ -133,5 +133,5 @@
     "npm": 12.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-08-23T03:00:14.659001+00:00"
+  "scanned_at": "2026-08-30T07:48:05.772530+00:00"
 }

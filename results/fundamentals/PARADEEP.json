@@ -15,7 +15,7 @@
       "label": "Sales growth >= industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "Avg growth 26.6% vs benchmark 11.0%",
+      "detail": "Avg growth 26.3% vs benchmark 11.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "fail",
       "score": 0.0,
-      "detail": "EPS not rising: 6.8 -> 9.6 -> 11.2 (last 3Y)",
+      "detail": "EPS not rising: 8.1 -> 9.6 -> 11.2 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 2750.0 -> 3262.0 -> 5745.0 (last 3Y) Cr",
+      "detail": "Reserves: 2750.0 -> 5060.0 -> 5745.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -71,7 +71,7 @@
       "label": "Fixed assets increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Fixed assets: 3431.0 -> 3349.0 -> 6026.0 (last 3Y) Cr",
+      "detail": "Fixed assets: 3431.0 -> 5194.0 -> 6026.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -95,7 +95,7 @@
       "label": "CFI negative (investing in growth)",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFI = -558.0 Cr -- investing actively",
+      "detail": "CFI = -557.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -111,21 +111,21 @@
       "label": "ROE > ROCE",
       "result": "pass",
       "score": 1.0,
-      "detail": "ROE 18.9% > ROCE 17.0% -- leverage working for shareholders",
+      "detail": "ROE 16.2% > ROCE 15.0% -- leverage working for shareholders",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Current Price": 148.0,
-    "Market Cap": 15420.0,
-    "P/E": 14.2,
+    "Current Price": 166.0,
+    "Market Cap": 17227.0,
+    "P/E": 15.8,
     "Industry P/E": null,
     "P/B": null,
-    "ROE %": 18.9,
-    "ROCE %": 17.1,
+    "ROE %": 16.2,
+    "ROCE %": 15.4,
     "Debt / Equity": null,
-    "Div. Yield %": 1.01,
-    "52W High": 232.0,
+    "Div. Yield %": 0.9,
+    "52W High": 231.0,
     "52W Low": 99.7
   },
   "benchmark": {
@@ -133,5 +133,5 @@
     "npm": 10.0,
     "sg": 11.0
   },
-  "scanned_at": "2026-08-23T03:20:56.930764+00:00"
+  "scanned_at": "2026-08-30T08:08:30.249839+00:00"
 }

@@ -15,7 +15,7 @@
       "label": "Sales growth >= industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "Avg growth -2.5% below benchmark 10.0%",
+      "detail": "Avg growth -6.6% below benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -111,18 +111,18 @@
       "label": "ROE > ROCE",
       "result": "fail",
       "score": 0.0,
-      "detail": "ROE 5.2% <= ROCE 9.0% -- leverage not adding value",
+      "detail": "ROE -14.3% <= ROCE 9.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Current Price": 65.4,
-    "Market Cap": 9807.0,
-    "P/E": 48.7,
+    "Current Price": 63.1,
+    "Market Cap": 9460.0,
+    "P/E": 47.0,
     "Industry P/E": null,
     "P/B": null,
-    "ROE %": 5.23,
-    "ROCE %": 8.66,
+    "ROE %": -14.3,
+    "ROCE %": 8.67,
     "Debt / Equity": null,
     "Div. Yield %": 0.0,
     "52W High": 78.4,
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-08-23T03:17:07.475801+00:00"
+  "scanned_at": "2026-08-30T08:04:44.545951+00:00"
 }
