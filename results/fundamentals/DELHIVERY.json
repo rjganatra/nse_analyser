@@ -95,7 +95,7 @@
       "label": "CFI negative (investing in growth)",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFI = -479.0 Cr -- investing actively",
+      "detail": "CFI = -474.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -111,18 +111,18 @@
       "label": "ROE > ROCE",
       "result": "fail",
       "score": 0.0,
-      "detail": "ROE 1.9% <= ROCE 3.0% -- leverage not adding value",
+      "detail": "ROE -0.2% <= ROCE 1.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Current Price": 470.0,
-    "Market Cap": 35226.0,
-    "P/E": 295.0,
+    "Current Price": 458.0,
+    "Market Cap": 34304.0,
+    "P/E": 288.0,
     "Industry P/E": null,
     "P/B": null,
-    "ROE %": 1.87,
-    "ROCE %": 2.82,
+    "ROE %": -0.21,
+    "ROCE %": 1.01,
     "Debt / Equity": null,
     "Div. Yield %": 0.0,
     "52W High": 524.0,
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-08-30T07:54:01.206783+00:00"
+  "scanned_at": "2026-09-06T06:54:13.846666+00:00"
 }
