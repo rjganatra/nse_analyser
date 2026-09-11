@@ -1,10 +1,10 @@
 {
   "meta": {
     "strategy": "opportunities",
-    "scanned_at": "2026-09-11T12:03:57.074404+00:00",
+    "scanned_at": "2026-09-11T15:32:29.173474+00:00",
     "total": 501,
     "success": 468,
-    "opportunities": 308,
+    "opportunities": 309,
     "errors": 3,
     "data_source": "Screener.in"
   },
@@ -57,7 +57,7 @@
         "roe": 10.7,
         "roce": 18.3,
         "de": null,
-        "div_yield": 0.55,
+        "div_yield": 0.54,
         "market_cap": 24047.0
       }
     },
@@ -77,14 +77,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/AADHARHFC/consolidated/",
       "ratios": {
-        "pe": 17.3,
+        "pe": 17.4,
         "industry_pe": null,
         "pb": null,
         "roe": 15.9,
         "roce": 11.4,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 20017.0
+        "market_cap": 20045.0
       }
     },
     {
@@ -136,7 +136,7 @@
         "roce": 15.0,
         "de": null,
         "div_yield": 0.6,
-        "market_cap": 10205.0
+        "market_cap": 10212.0
       }
     },
     {
@@ -155,14 +155,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/AFCONS/consolidated/",
       "ratios": {
-        "pe": 45.5,
+        "pe": 45.6,
         "industry_pe": null,
         "pb": null,
         "roe": 5.61,
         "roce": 13.9,
         "de": null,
-        "div_yield": 0.78,
-        "market_cap": 9334.0
+        "div_yield": 0.79,
+        "market_cap": 9333.0
       }
     },
     {
@@ -195,11 +195,11 @@
       "symbol": "AMBUJACEM",
       "name": "Ambuja Cements Ltd",
       "sector": "Construction Materials",
-      "current_price": 391.0,
+      "current_price": 392.0,
       "week52_high": 601.0,
       "week52_low": 388.0,
-      "pct_above_52w_low": 0.8,
-      "pct_below_52w_high": 34.9,
+      "pct_above_52w_low": 1.0,
+      "pct_below_52w_high": 34.8,
       "near_52w_low": true,
       "tags": [
         "AT_52W_LOW"
@@ -207,25 +207,25 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/AMBUJACEM/consolidated/",
       "ratios": {
-        "pe": 20.6,
+        "pe": 20.7,
         "industry_pe": null,
         "pb": null,
         "roe": 8.85,
         "roce": 5.61,
         "de": null,
         "div_yield": 0.51,
-        "market_cap": 97058.0
+        "market_cap": 97269.0
       }
     },
     {
       "symbol": "ASTRAL",
       "name": "Astral Ltd",
       "sector": "Capital Goods",
-      "current_price": 1410.0,
+      "current_price": 1411.0,
       "week52_high": 1769.0,
       "week52_low": 1312.0,
       "pct_above_52w_low": 7.5,
-      "pct_below_52w_high": 20.3,
+      "pct_below_52w_high": 20.2,
       "near_52w_low": true,
       "tags": [
         "AT_52W_LOW"
@@ -233,14 +233,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/ASTRAL/consolidated/",
       "ratios": {
-        "pe": 63.9,
+        "pe": 64.0,
         "industry_pe": null,
         "pb": null,
         "roe": 13.8,
         "roce": 19.2,
         "de": null,
         "div_yield": 0.28,
-        "market_cap": 37856.0
+        "market_cap": 37891.0
       }
     },
     {
@@ -337,14 +337,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/BANKBARODA/consolidated/",
       "ratios": {
-        "pe": 5.56,
+        "pe": 5.57,
         "industry_pe": null,
         "pb": null,
         "roe": 12.7,
         "roce": 5.63,
         "de": null,
         "div_yield": 3.57,
-        "market_cap": 122779.0
+        "market_cap": 122949.0
       }
     },
     {
@@ -403,11 +403,11 @@
       "symbol": "BEL",
       "name": "Bharat Electronics Ltd",
       "sector": "Aerospace & Defence",
-      "current_price": 406.0,
+      "current_price": 404.0,
       "week52_high": 473.0,
       "week52_low": 380.0,
-      "pct_above_52w_low": 6.8,
-      "pct_below_52w_high": 14.2,
+      "pct_above_52w_low": 6.3,
+      "pct_below_52w_high": 14.6,
       "near_52w_low": true,
       "tags": [
         "AT_52W_LOW"
@@ -415,24 +415,24 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/BEL/consolidated/",
       "ratios": {
-        "pe": 48.5,
+        "pe": 48.3,
         "industry_pe": null,
         "pb": null,
         "roe": 27.4,
         "roce": 36.4,
         "de": null,
         "div_yield": 0.62,
-        "market_cap": 297883.0
+        "market_cap": 297038.0
       }
     },
     {
       "symbol": "BHARTIARTL",
       "name": "Bharti Airtel Ltd",
       "sector": "Telecommunication",
-      "current_price": 1832.0,
+      "current_price": 1831.0,
       "week52_high": 2175.0,
       "week52_low": 1740.0,
-      "pct_above_52w_low": 5.3,
+      "pct_above_52w_low": 5.2,
       "pct_below_52w_high": 15.8,
       "near_52w_low": true,
       "tags": [
@@ -448,7 +448,7 @@
         "roce": 17.6,
         "de": null,
         "div_yield": 1.31,
-        "market_cap": 1144504.0
+        "market_cap": 1143942.0
       }
     },
     {
@@ -533,11 +533,11 @@
       "symbol": "BLUESTARCO",
       "name": "Blue Star Ltd",
       "sector": "Consumer Durables",
-      "current_price": 1560.0,
+      "current_price": 1558.0,
       "week52_high": 2033.0,
       "week52_low": 1432.0,
-      "pct_above_52w_low": 8.9,
-      "pct_below_52w_high": 23.3,
+      "pct_above_52w_low": 8.8,
+      "pct_below_52w_high": 23.4,
       "near_52w_low": true,
       "tags": [
         "AT_52W_LOW"
@@ -552,7 +552,7 @@
         "roce": 21.2,
         "de": null,
         "div_yield": 0.55,
-        "market_cap": 32084.0
+        "market_cap": 32043.0
       }
     },
     {
@@ -611,11 +611,11 @@
       "symbol": "BRITANNIA",
       "name": "Britannia Industries Ltd",
       "sector": "Fast Moving Consumer Goods",
-      "current_price": 4970.0,
+      "current_price": 4962.0,
       "week52_high": 6286.0,
       "week52_low": 4945.0,
-      "pct_above_52w_low": 0.5,
-      "pct_below_52w_high": 20.9,
+      "pct_above_52w_low": 0.3,
+      "pct_below_52w_high": 21.1,
       "near_52w_low": true,
       "tags": [
         "AT_52W_LOW"
@@ -623,14 +623,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/BRITANNIA/consolidated/",
       "ratios": {
-        "pe": 46.0,
+        "pe": 45.9,
         "industry_pe": null,
         "pb": null,
         "roe": 53.5,
         "roce": 56.0,
         "de": null,
         "div_yield": 1.82,
-        "market_cap": 119664.0
+        "market_cap": 119471.0
       }
     },
     {
@@ -883,14 +883,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/DABUR/consolidated/",
       "ratios": {
-        "pe": 33.6,
+        "pe": 33.5,
         "industry_pe": null,
         "pb": null,
         "roe": 17.0,
         "roce": 20.3,
         "de": null,
         "div_yield": 2.19,
-        "market_cap": 66604.0
+        "market_cap": 66515.0
       }
     },
     {
@@ -923,11 +923,11 @@
       "symbol": "DRREDDY",
       "name": "Dr Reddys Laboratories Ltd",
       "sector": "Pharma",
-      "current_price": 1161.0,
+      "current_price": 1166.0,
       "week52_high": 1415.0,
       "week52_low": 1080.0,
-      "pct_above_52w_low": 7.5,
-      "pct_below_52w_high": 18.0,
+      "pct_above_52w_low": 8.0,
+      "pct_below_52w_high": 17.6,
       "near_52w_low": true,
       "tags": [
         "AT_52W_LOW"
@@ -935,14 +935,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/DRREDDY/consolidated/",
       "ratios": {
-        "pe": 30.1,
+        "pe": 30.2,
         "industry_pe": null,
         "pb": null,
         "roe": 11.2,
         "roce": 13.0,
         "de": null,
         "div_yield": 0.69,
-        "market_cap": 97093.0
+        "market_cap": 97470.0
       }
     },
     {
@@ -1079,7 +1079,7 @@
       "symbol": "GODFRYPHLP",
       "name": "Godfrey Phillips India Ltd",
       "sector": "Fast Moving Consumer Goods",
-      "current_price": 1928.0,
+      "current_price": 1927.0,
       "week52_high": 3947.0,
       "week52_low": 1832.0,
       "pct_above_52w_low": 5.2,
@@ -1098,7 +1098,7 @@
         "roce": 30.2,
         "de": null,
         "div_yield": 2.59,
-        "market_cap": 30089.0
+        "market_cap": 30073.0
       }
     },
     {
@@ -1124,7 +1124,7 @@
         "roce": 18.8,
         "de": null,
         "div_yield": 2.31,
-        "market_cap": 88363.0
+        "market_cap": 88404.0
       }
     },
     {
@@ -1176,7 +1176,7 @@
         "roce": 7.02,
         "de": null,
         "div_yield": 1.84,
-        "market_cap": 1091009.0
+        "market_cap": 1091395.0
       }
     },
     {
@@ -1209,11 +1209,11 @@
       "symbol": "HAVELLS",
       "name": "Havells India Ltd",
       "sector": "Consumer Durables",
-      "current_price": 1115.0,
+      "current_price": 1111.0,
       "week52_high": 1623.0,
       "week52_low": 1096.0,
-      "pct_above_52w_low": 1.7,
-      "pct_below_52w_high": 31.3,
+      "pct_above_52w_low": 1.4,
+      "pct_below_52w_high": 31.5,
       "near_52w_low": true,
       "tags": [
         "AT_52W_LOW"
@@ -1221,14 +1221,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/HAVELLS/consolidated/",
       "ratios": {
-        "pe": 42.0,
+        "pe": 41.8,
         "industry_pe": null,
         "pb": null,
         "roe": 19.0,
         "roce": 24.9,
         "de": null,
         "div_yield": 0.9,
-        "market_cap": 69961.0
+        "market_cap": 69722.0
       }
     },
     {
@@ -1481,14 +1481,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/IOC/consolidated/",
       "ratios": {
-        "pe": 5.66,
+        "pe": 5.65,
         "industry_pe": null,
         "pb": null,
         "roe": 20.5,
         "roce": 18.7,
         "de": null,
-        "div_yield": 6.1,
-        "market_cap": 190482.0
+        "div_yield": 6.11,
+        "market_cap": 190284.0
       }
     },
     {
@@ -1618,7 +1618,7 @@
         "roce": 40.0,
         "de": null,
         "div_yield": 4.63,
-        "market_cap": 423347.0
+        "market_cap": 423144.0
       }
     },
     {
@@ -1911,11 +1911,11 @@
       "symbol": "MFSL",
       "name": "Max Financial Services Ltd",
       "sector": "Financial Services",
-      "current_price": 1480.0,
+      "current_price": 1477.0,
       "week52_high": 1892.0,
       "week52_low": 1408.0,
-      "pct_above_52w_low": 5.1,
-      "pct_below_52w_high": 21.8,
+      "pct_above_52w_low": 4.9,
+      "pct_below_52w_high": 21.9,
       "near_52w_low": true,
       "tags": [
         "AT_52W_LOW"
@@ -1923,24 +1923,24 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/MFSL/consolidated/",
       "ratios": {
-        "pe": 473.0,
+        "pe": 472.0,
         "industry_pe": null,
         "pb": null,
         "roe": 1.52,
         "roce": 2.87,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 51278.0
+        "market_cap": 51167.0
       }
     },
     {
       "symbol": "MUTHOOTFIN",
       "name": "Muthoot Finance Ltd",
       "sector": "Financial Services",
-      "current_price": 2794.0,
+      "current_price": 2792.0,
       "week52_high": 4150.0,
       "week52_low": 2671.0,
-      "pct_above_52w_low": 4.6,
+      "pct_above_52w_low": 4.5,
       "pct_below_52w_high": 32.7,
       "near_52w_low": true,
       "tags": [
@@ -1949,14 +1949,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/MUTHOOTFIN/consolidated/",
       "ratios": {
-        "pe": 9.87,
+        "pe": 9.86,
         "industry_pe": null,
         "pb": null,
         "roe": 30.9,
         "roce": 15.8,
         "de": null,
         "div_yield": 1.07,
-        "market_cap": 112246.0
+        "market_cap": 112153.0
       }
     },
     {
@@ -1989,11 +1989,11 @@
       "symbol": "NBCC",
       "name": "NBCC (India) Ltd",
       "sector": "Construction",
-      "current_price": 83.0,
+      "current_price": 82.9,
       "week52_high": 126.0,
       "week52_low": 77.2,
-      "pct_above_52w_low": 7.5,
-      "pct_below_52w_high": 34.1,
+      "pct_above_52w_low": 7.4,
+      "pct_below_52w_high": 34.2,
       "near_52w_low": true,
       "tags": [
         "AT_52W_LOW"
@@ -2001,14 +2001,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/NBCC/consolidated/",
       "ratios": {
-        "pe": 32.8,
+        "pe": 32.7,
         "industry_pe": null,
         "pb": null,
         "roe": 20.4,
         "roce": 29.3,
         "de": null,
         "div_yield": 1.21,
-        "market_cap": 22434.0
+        "market_cap": 22394.0
       }
     },
     {
@@ -2145,7 +2145,7 @@
       "symbol": "PIIND",
       "name": "P I Industries Ltd",
       "sector": "Chemicals",
-      "current_price": 2258.0,
+      "current_price": 2259.0,
       "week52_high": 3833.0,
       "week52_low": 2191.0,
       "pct_above_52w_low": 3.1,
@@ -2164,7 +2164,7 @@
         "roce": 15.0,
         "de": null,
         "div_yield": 0.66,
-        "market_cap": 34327.0
+        "market_cap": 34349.0
       }
     },
     {
@@ -2242,7 +2242,7 @@
         "roce": 9.71,
         "de": null,
         "div_yield": 5.25,
-        "market_cap": 116576.0
+        "market_cap": 116642.0
       }
     },
     {
@@ -2294,7 +2294,7 @@
         "roce": 9.71,
         "de": null,
         "div_yield": 5.93,
-        "market_cap": 82080.0
+        "market_cap": 82027.0
       }
     },
     {
@@ -2431,11 +2431,11 @@
       "symbol": "SRF",
       "name": "SRF Ltd",
       "sector": "Chemicals",
-      "current_price": 2483.0,
+      "current_price": 2482.0,
       "week52_high": 3239.0,
       "week52_low": 2314.0,
       "pct_above_52w_low": 7.3,
-      "pct_below_52w_high": 23.3,
+      "pct_below_52w_high": 23.4,
       "near_52w_low": true,
       "tags": [
         "AT_52W_LOW"
@@ -2450,18 +2450,18 @@
         "roce": 14.6,
         "de": null,
         "div_yield": 0.36,
-        "market_cap": 73934.0
+        "market_cap": 73916.0
       }
     },
     {
       "symbol": "SHREECEM",
       "name": "Shree Cement Ltd",
       "sector": "Construction Materials",
-      "current_price": 22601.0,
+      "current_price": 22570.0,
       "week52_high": 30285.0,
       "week52_low": 22370.0,
-      "pct_above_52w_low": 1.0,
-      "pct_below_52w_high": 25.4,
+      "pct_above_52w_low": 0.9,
+      "pct_below_52w_high": 25.5,
       "near_52w_low": true,
       "tags": [
         "AT_52W_LOW"
@@ -2469,14 +2469,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/SHREECEM/consolidated/",
       "ratios": {
-        "pe": 50.1,
+        "pe": 50.0,
         "industry_pe": null,
         "pb": null,
         "roe": 7.51,
         "roce": 10.3,
         "de": null,
         "div_yield": 0.66,
-        "market_cap": 81636.0
+        "market_cap": 81524.0
       }
     },
     {
@@ -2691,7 +2691,7 @@
       "symbol": "TATAELXSI",
       "name": "Tata Elxsi Ltd",
       "sector": "Information Technology",
-      "current_price": 3385.0,
+      "current_price": 3383.0,
       "week52_high": 5950.0,
       "week52_low": 3354.0,
       "pct_above_52w_low": 0.9,
@@ -2710,7 +2710,7 @@
         "roce": 60.0,
         "de": null,
         "div_yield": 2.22,
-        "market_cap": 21097.0
+        "market_cap": 21084.0
       }
     },
     {
@@ -2925,7 +2925,7 @@
       "symbol": "ULTRACEMCO",
       "name": "UltraTech Cement Ltd",
       "sector": "Construction Materials",
-      "current_price": 10996.0,
+      "current_price": 11000.0,
       "week52_high": 13110.0,
       "week52_low": 10325.0,
       "pct_above_52w_low": 6.5,
@@ -2944,7 +2944,7 @@
         "roce": 12.7,
         "de": null,
         "div_yield": 2.18,
-        "market_cap": 321860.0
+        "market_cap": 321977.0
       }
     },
     {
@@ -3029,10 +3029,10 @@
       "symbol": "VOLTAS",
       "name": "Voltas Ltd",
       "sector": "Consumer Durables",
-      "current_price": 1164.0,
+      "current_price": 1165.0,
       "week52_high": 1582.0,
       "week52_low": 1131.0,
-      "pct_above_52w_low": 2.9,
+      "pct_above_52w_low": 3.0,
       "pct_below_52w_high": 26.4,
       "near_52w_low": true,
       "tags": [
@@ -3048,7 +3048,7 @@
         "roce": 9.04,
         "de": null,
         "div_yield": 0.34,
-        "market_cap": 38548.0
+        "market_cap": 38565.0
       }
     },
     {
@@ -3226,8 +3226,8 @@
         "pe": 79.4,
         "industry_pe": null,
         "pb": null,
-        "roe": 5.5,
-        "roce": 7.36,
+        "roe": 5.55,
+        "roce": 7.38,
         "de": null,
         "div_yield": 0.12,
         "market_cap": 13878.0
@@ -3263,11 +3263,11 @@
       "symbol": "ASIANPAINT",
       "name": "Asian Paints Ltd",
       "sector": "Consumer Durables",
-      "current_price": 2470.0,
+      "current_price": 2472.0,
       "week52_high": 2986.0,
       "week52_low": 2115.0,
-      "pct_above_52w_low": 16.8,
-      "pct_below_52w_high": 17.3,
+      "pct_above_52w_low": 16.9,
+      "pct_below_52w_high": 17.2,
       "near_52w_low": true,
       "tags": [
         "NEAR_52W_LOW"
@@ -3275,14 +3275,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/ASIANPAINT/consolidated/",
       "ratios": {
-        "pe": 48.9,
+        "pe": 49.0,
         "industry_pe": null,
         "pb": null,
         "roe": 21.8,
         "roce": 26.3,
         "de": null,
         "div_yield": 1.11,
-        "market_cap": 238651.0
+        "market_cap": 238893.0
       }
     },
     {
@@ -3315,11 +3315,11 @@
       "symbol": "AXISBANK",
       "name": "Axis Bank Ltd",
       "sector": "Financial Services",
-      "current_price": 1248.0,
+      "current_price": 1246.0,
       "week52_high": 1418.0,
       "week52_low": 1088.0,
-      "pct_above_52w_low": 14.7,
-      "pct_below_52w_high": 12.0,
+      "pct_above_52w_low": 14.5,
+      "pct_below_52w_high": 12.1,
       "near_52w_low": true,
       "tags": [
         "NEAR_52W_LOW"
@@ -3334,18 +3334,18 @@
         "roce": 6.24,
         "de": null,
         "div_yield": 0.08,
-        "market_cap": 384062.0
+        "market_cap": 383600.0
       }
     },
     {
       "symbol": "BAJAJFINSV",
       "name": "Bajaj Finserv Ltd",
       "sector": "Financial Services",
-      "current_price": 1917.0,
+      "current_price": 1914.0,
       "week52_high": 2195.0,
       "week52_low": 1597.0,
-      "pct_above_52w_low": 20.0,
-      "pct_below_52w_high": 12.7,
+      "pct_above_52w_low": 19.8,
+      "pct_below_52w_high": 12.8,
       "near_52w_low": true,
       "tags": [
         "NEAR_52W_LOW"
@@ -3360,7 +3360,7 @@
         "roce": 10.6,
         "de": null,
         "div_yield": 0.08,
-        "market_cap": 309797.0
+        "market_cap": 309183.0
       }
     },
     {
@@ -3431,14 +3431,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/BIOCON/consolidated/",
       "ratios": {
-        "pe": 88.0,
+        "pe": 87.9,
         "industry_pe": null,
         "pb": null,
         "roe": 1.4,
         "roce": 3.61,
         "de": null,
         "div_yield": 0.13,
-        "market_cap": 63982.0
+        "market_cap": 63933.0
       }
     },
     {
@@ -3627,11 +3627,11 @@
       "symbol": "CONCOR",
       "name": "Container Corporation Of India Ltd",
       "sector": "Services",
-      "current_price": 500.0,
+      "current_price": 499.0,
       "week52_high": 570.0,
       "week52_low": 421.0,
-      "pct_above_52w_low": 18.8,
-      "pct_below_52w_high": 12.3,
+      "pct_above_52w_low": 18.5,
+      "pct_below_52w_high": 12.5,
       "near_52w_low": true,
       "tags": [
         "NEAR_52W_LOW"
@@ -3639,14 +3639,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/CONCOR/consolidated/",
       "ratios": {
-        "pe": 30.6,
+        "pe": 30.5,
         "industry_pe": null,
         "pb": null,
         "roe": 9.81,
         "roce": 12.6,
         "de": null,
         "div_yield": 1.72,
-        "market_cap": 37941.0
+        "market_cap": 37900.0
       }
     },
     {
@@ -3705,11 +3705,11 @@
       "symbol": "EICHERMOT",
       "name": "Eicher Motors Ltd",
       "sector": "Automobile and Auto Components",
-      "current_price": 7540.0,
+      "current_price": 7530.0,
       "week52_high": 8233.0,
       "week52_low": 6439.0,
-      "pct_above_52w_low": 17.1,
-      "pct_below_52w_high": 8.4,
+      "pct_above_52w_low": 16.9,
+      "pct_below_52w_high": 8.5,
       "near_52w_low": true,
       "tags": [
         "NEAR_52W_LOW"
@@ -3717,14 +3717,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/EICHERMOT/consolidated/",
       "ratios": {
-        "pe": 35.6,
+        "pe": 35.5,
         "industry_pe": null,
         "pb": null,
         "roe": 24.0,
         "roce": 30.5,
         "de": null,
         "div_yield": 1.09,
-        "market_cap": 206909.0
+        "market_cap": 206634.0
       }
     },
     {
@@ -3835,11 +3835,11 @@
       "symbol": "FORTIS",
       "name": "Fortis Healthcare Ltd",
       "sector": "Healthcare",
-      "current_price": 887.0,
+      "current_price": 888.0,
       "week52_high": 1105.0,
       "week52_low": 767.0,
-      "pct_above_52w_low": 15.6,
-      "pct_below_52w_high": 19.7,
+      "pct_above_52w_low": 15.8,
+      "pct_below_52w_high": 19.6,
       "near_52w_low": true,
       "tags": [
         "NEAR_52W_LOW"
@@ -3847,25 +3847,25 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/FORTIS/consolidated/",
       "ratios": {
-        "pe": 62.8,
+        "pe": 62.9,
         "industry_pe": null,
         "pb": null,
         "roe": 11.2,
         "roce": 13.4,
         "de": null,
         "div_yield": 0.11,
-        "market_cap": 67036.0
+        "market_cap": 67074.0
       }
     },
     {
       "symbol": "GMRAIRPORT",
       "name": "GMR Airports Ltd",
       "sector": "Services",
-      "current_price": 98.1,
+      "current_price": 98.0,
       "week52_high": 116.0,
       "week52_low": 84.0,
-      "pct_above_52w_low": 16.8,
-      "pct_below_52w_high": 15.4,
+      "pct_above_52w_low": 16.7,
+      "pct_below_52w_high": 15.5,
       "near_52w_low": true,
       "tags": [
         "NEAR_52W_LOW"
@@ -3873,14 +3873,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/GMRAIRPORT/consolidated/",
       "ratios": {
-        "pe": 185.0,
+        "pe": 184.0,
         "industry_pe": null,
         "pb": null,
         "roe": null,
         "roce": 11.6,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 103754.0
+        "market_cap": 103627.0
       }
     },
     {
@@ -3991,11 +3991,11 @@
       "symbol": "HEROMOTOCO",
       "name": "Hero MotoCorp Ltd",
       "sector": "Automobile and Auto Components",
-      "current_price": 5225.0,
+      "current_price": 5222.0,
       "week52_high": 6390.0,
       "week52_low": 4672.0,
       "pct_above_52w_low": 11.8,
-      "pct_below_52w_high": 18.2,
+      "pct_below_52w_high": 18.3,
       "near_52w_low": true,
       "tags": [
         "NEAR_52W_LOW"
@@ -4010,7 +4010,7 @@
         "roce": 35.2,
         "de": null,
         "div_yield": 3.54,
-        "market_cap": 104574.0
+        "market_cap": 104504.0
       }
     },
     {
@@ -4329,11 +4329,11 @@
       "symbol": "JINDALSTEL",
       "name": "Jindal Steel Ltd",
       "sector": "Metals & Mining",
-      "current_price": 1118.0,
+      "current_price": 1120.0,
       "week52_high": 1306.0,
       "week52_low": 977.0,
-      "pct_above_52w_low": 14.4,
-      "pct_below_52w_high": 14.4,
+      "pct_above_52w_low": 14.6,
+      "pct_below_52w_high": 14.2,
       "near_52w_low": true,
       "tags": [
         "NEAR_52W_LOW"
@@ -4348,7 +4348,7 @@
         "roce": 9.7,
         "de": null,
         "div_yield": 0.18,
-        "market_cap": 113577.0
+        "market_cap": 113800.0
       }
     },
     {
@@ -4374,7 +4374,7 @@
         "roce": 14.8,
         "de": null,
         "div_yield": 0.26,
-        "market_cap": 31095.0
+        "market_cap": 31085.0
       }
     },
     {
@@ -4459,11 +4459,11 @@
       "symbol": "LT",
       "name": "Larsen & Toubro Ltd",
       "sector": "Construction",
-      "current_price": 3915.0,
+      "current_price": 3931.0,
       "week52_high": 4440.0,
       "week52_low": 3288.0,
-      "pct_above_52w_low": 19.1,
-      "pct_below_52w_high": 11.8,
+      "pct_above_52w_low": 19.6,
+      "pct_below_52w_high": 11.5,
       "near_52w_low": true,
       "tags": [
         "NEAR_52W_LOW"
@@ -4471,14 +4471,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/LT/consolidated/",
       "ratios": {
-        "pe": 30.6,
+        "pe": 30.7,
         "industry_pe": null,
         "pb": null,
         "roe": 15.9,
         "roce": 14.6,
         "de": null,
         "div_yield": 0.97,
-        "market_cap": 538652.0
+        "market_cap": 540812.0
       }
     },
     {
@@ -4537,7 +4537,7 @@
       "symbol": "LUPIN",
       "name": "Lupin Ltd",
       "sector": "Pharma",
-      "current_price": 2096.0,
+      "current_price": 2095.0,
       "week52_high": 2530.0,
       "week52_low": 1900.0,
       "pct_above_52w_low": 10.3,
@@ -4556,7 +4556,7 @@
         "roce": 29.9,
         "de": null,
         "div_yield": 0.86,
-        "market_cap": 95972.0
+        "market_cap": 95926.0
       }
     },
     {
@@ -4667,11 +4667,11 @@
       "symbol": "MPHASIS",
       "name": "Mphasis Ltd",
       "sector": "IT",
-      "current_price": 2294.0,
+      "current_price": 2295.0,
       "week52_high": 3037.0,
       "week52_low": 2013.0,
       "pct_above_52w_low": 14.0,
-      "pct_below_52w_high": 24.5,
+      "pct_below_52w_high": 24.4,
       "near_52w_low": true,
       "tags": [
         "NEAR_52W_LOW"
@@ -4686,18 +4686,18 @@
         "roce": 22.1,
         "de": null,
         "div_yield": 2.7,
-        "market_cap": 43823.0
+        "market_cap": 43841.0
       }
     },
     {
       "symbol": "NHPC",
       "name": "NHPC Ltd",
       "sector": "Power",
-      "current_price": 76.3,
+      "current_price": 76.4,
       "week52_high": 89.2,
       "week52_low": 68.7,
-      "pct_above_52w_low": 11.1,
-      "pct_below_52w_high": 14.5,
+      "pct_above_52w_low": 11.2,
+      "pct_below_52w_high": 14.3,
       "near_52w_low": true,
       "tags": [
         "NEAR_52W_LOW"
@@ -4712,7 +4712,7 @@
         "roce": 5.75,
         "de": null,
         "div_yield": 2.11,
-        "market_cap": 76593.0
+        "market_cap": 76674.0
       }
     },
     {
@@ -4757,14 +4757,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/NMDC/consolidated/",
       "ratios": {
-        "pe": 9.7,
+        "pe": 9.69,
         "industry_pe": null,
         "pb": null,
         "roe": 23.4,
         "roce": 27.6,
         "de": null,
         "div_yield": 3.03,
-        "market_cap": 72318.0
+        "market_cap": 72274.0
       }
     },
     {
@@ -5291,11 +5291,11 @@
       "symbol": "UNITDSPR",
       "name": "United Spirits Ltd",
       "sector": "Fast Moving Consumer Goods",
-      "current_price": 1397.0,
+      "current_price": 1395.0,
       "week52_high": 1576.0,
       "week52_low": 1210.0,
-      "pct_above_52w_low": 15.5,
-      "pct_below_52w_high": 11.4,
+      "pct_above_52w_low": 15.3,
+      "pct_below_52w_high": 11.5,
       "near_52w_low": true,
       "tags": [
         "NEAR_52W_LOW"
@@ -5303,14 +5303,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/UNITDSPR/consolidated/",
       "ratios": {
-        "pe": 54.9,
+        "pe": 54.8,
         "industry_pe": null,
         "pb": null,
         "roe": 21.4,
         "roce": 26.4,
         "de": null,
         "div_yield": 1.22,
-        "market_cap": 101705.0
+        "market_cap": 101545.0
       }
     },
     {
@@ -5343,10 +5343,10 @@
       "symbol": "360ONE",
       "name": "360 ONE WAM Ltd",
       "sector": "Financial Services",
-      "current_price": 1092.0,
+      "current_price": 1091.0,
       "week52_high": 1236.0,
       "week52_low": 906.0,
-      "pct_above_52w_low": 20.5,
+      "pct_above_52w_low": 20.4,
       "pct_below_52w_high": 11.7,
       "near_52w_low": true,
       "tags": [
@@ -5361,8 +5361,8 @@
         "roe": 14.4,
         "roce": 12.1,
         "de": null,
-        "div_yield": 1.11,
-        "market_cap": 44514.0
+        "div_yield": 1.1,
+        "market_cap": 44421.0
       }
     },
     {
@@ -5518,18 +5518,18 @@
         "roce": 13.6,
         "de": null,
         "div_yield": 2.14,
-        "market_cap": 96198.0
+        "market_cap": 96080.0
       }
     },
     {
       "symbol": "BAJAJHLDNG",
       "name": "Bajaj Holdings & Investment Ltd",
       "sector": "Financial Services",
-      "current_price": 11121.0,
+      "current_price": 11134.0,
       "week52_high": 13880.0,
       "week52_low": 8588.0,
-      "pct_above_52w_low": 29.5,
-      "pct_below_52w_high": 19.9,
+      "pct_above_52w_low": 29.6,
+      "pct_below_52w_high": 19.8,
       "near_52w_low": true,
       "tags": [
         "DISCOUNTED_ZONE"
@@ -5544,7 +5544,7 @@
         "roce": 11.0,
         "de": null,
         "div_yield": 1.3,
-        "market_cap": 123999.0
+        "market_cap": 124147.0
       }
     },
     {
@@ -5563,14 +5563,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/BANKINDIA/consolidated/",
       "ratios": {
-        "pe": 5.36,
+        "pe": 5.37,
         "industry_pe": null,
         "pb": null,
         "roe": 12.4,
         "roce": 5.93,
         "de": null,
         "div_yield": 3.32,
-        "market_cap": 63198.0
+        "market_cap": 63288.0
       }
     },
     {
@@ -5803,8 +5803,8 @@
         "roe": 8.71,
         "roce": 9.67,
         "de": null,
-        "div_yield": 3.16,
-        "market_cap": 114008.0
+        "div_yield": 3.17,
+        "market_cap": 113824.0
       }
     },
     {
@@ -5934,7 +5934,7 @@
         "roce": 69.5,
         "de": null,
         "div_yield": 1.91,
-        "market_cap": 243318.0
+        "market_cap": 243486.0
       }
     },
     {
@@ -5967,11 +5967,11 @@
       "symbol": "INDIANB",
       "name": "Indian Bank",
       "sector": "Banking",
-      "current_price": 853.0,
+      "current_price": 854.0,
       "week52_high": 1001.0,
       "week52_low": 690.0,
-      "pct_above_52w_low": 23.6,
-      "pct_below_52w_high": 14.8,
+      "pct_above_52w_low": 23.8,
+      "pct_below_52w_high": 14.7,
       "near_52w_low": true,
       "tags": [
         "DISCOUNTED_ZONE"
@@ -5979,14 +5979,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/INDIANB/consolidated/",
       "ratios": {
-        "pe": 8.95,
+        "pe": 8.96,
         "industry_pe": null,
         "pb": null,
         "roe": 15.4,
         "roce": 6.32,
         "de": null,
         "div_yield": 2.14,
-        "market_cap": 114415.0
+        "market_cap": 114496.0
       }
     },
     {
@@ -6005,14 +6005,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/INDHOTEL/consolidated/",
       "ratios": {
-        "pe": 52.2,
+        "pe": 52.3,
         "industry_pe": null,
         "pb": null,
         "roe": 14.2,
         "roce": 17.1,
         "de": null,
         "div_yield": 0.45,
-        "market_cap": 101493.0
+        "market_cap": 101599.0
       }
     },
     {
@@ -6097,11 +6097,11 @@
       "symbol": "JSWSTEEL",
       "name": "JSW Steel Ltd",
       "sector": "Metals & Mining",
-      "current_price": 1268.0,
+      "current_price": 1265.0,
       "week52_high": 1351.0,
       "week52_low": 1025.0,
-      "pct_above_52w_low": 23.7,
-      "pct_below_52w_high": 6.1,
+      "pct_above_52w_low": 23.4,
+      "pct_below_52w_high": 6.4,
       "near_52w_low": true,
       "tags": [
         "DISCOUNTED_ZONE"
@@ -6109,14 +6109,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/JSWSTEEL/consolidated/",
       "ratios": {
-        "pe": 25.7,
+        "pe": 25.6,
         "industry_pe": null,
         "pb": null,
         "roe": 10.2,
         "roce": 11.0,
         "de": null,
         "div_yield": 0.56,
-        "market_cap": 309013.0
+        "market_cap": 308404.0
       }
     },
     {
@@ -6175,11 +6175,11 @@
       "symbol": "KEI",
       "name": "KEI Industries Ltd",
       "sector": "Capital Goods",
-      "current_price": 4570.0,
+      "current_price": 4578.0,
       "week52_high": 5931.0,
       "week52_low": 3729.0,
-      "pct_above_52w_low": 22.6,
-      "pct_below_52w_high": 22.9,
+      "pct_above_52w_low": 22.8,
+      "pct_below_52w_high": 22.8,
       "near_52w_low": true,
       "tags": [
         "DISCOUNTED_ZONE"
@@ -6187,14 +6187,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/KEI/consolidated/",
       "ratios": {
-        "pe": 43.8,
+        "pe": 43.9,
         "industry_pe": null,
         "pb": null,
         "roe": 14.7,
         "roce": 20.0,
         "de": null,
         "div_yield": 0.1,
-        "market_cap": 43719.0
+        "market_cap": 43795.0
       }
     },
     {
@@ -6220,7 +6220,7 @@
         "roce": 6.98,
         "de": null,
         "div_yield": 0.16,
-        "market_cap": 416109.0
+        "market_cap": 416407.0
       }
     },
     {
@@ -6246,7 +6246,7 @@
         "roce": 8.59,
         "de": null,
         "div_yield": 1.78,
-        "market_cap": 31822.0
+        "market_cap": 31842.0
       }
     },
     {
@@ -6331,10 +6331,10 @@
       "symbol": "NESTLEIND",
       "name": "Nestle India Ltd",
       "sector": "Fast Moving Consumer Goods",
-      "current_price": 1384.0,
+      "current_price": 1383.0,
       "week52_high": 1553.0,
       "week52_low": 1145.0,
-      "pct_above_52w_low": 20.9,
+      "pct_above_52w_low": 20.8,
       "pct_below_52w_high": 10.9,
       "near_52w_low": true,
       "tags": [
@@ -6350,7 +6350,7 @@
         "roce": 85.3,
         "de": null,
         "div_yield": 0.87,
-        "market_cap": 265005.0
+        "market_cap": 264871.0
       }
     },
     {
@@ -6383,11 +6383,11 @@
       "symbol": "OBEROIRLTY",
       "name": "Oberoi Realty Ltd",
       "sector": "Realty",
-      "current_price": 1747.0,
+      "current_price": 1741.0,
       "week52_high": 1986.0,
       "week52_low": 1390.0,
-      "pct_above_52w_low": 25.7,
-      "pct_below_52w_high": 12.0,
+      "pct_above_52w_low": 25.3,
+      "pct_below_52w_high": 12.3,
       "near_52w_low": true,
       "tags": [
         "DISCOUNTED_ZONE"
@@ -6395,14 +6395,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/OBEROIRLTY/consolidated/",
       "ratios": {
-        "pe": 24.1,
+        "pe": 24.0,
         "industry_pe": null,
         "pb": null,
         "roe": 14.6,
         "roce": 17.3,
         "de": null,
         "div_yield": 0.46,
-        "market_cap": 63770.0
+        "market_cap": 63555.0
       }
     },
     {
@@ -6454,7 +6454,33 @@
         "roce": 10.3,
         "de": null,
         "div_yield": 0.05,
-        "market_cap": 15589.0
+        "market_cap": 15599.0
+      }
+    },
+    {
+      "symbol": "PERSISTENT",
+      "name": "Persistent Systems Ltd",
+      "sector": "IT",
+      "current_price": 5516.0,
+      "week52_high": 6599.0,
+      "week52_low": 4243.0,
+      "pct_above_52w_low": 30.0,
+      "pct_below_52w_high": 16.4,
+      "near_52w_low": true,
+      "tags": [
+        "DISCOUNTED_ZONE"
+      ],
+      "is_opportunity": true,
+      "screener_url": "https://www.screener.in/company/PERSISTENT/consolidated/",
+      "ratios": {
+        "pe": 43.8,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 27.2,
+        "roce": 34.4,
+        "de": null,
+        "div_yield": 0.73,
+        "market_cap": 87165.0
       }
     },
     {
@@ -6473,25 +6499,25 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/PETRONET/consolidated/",
       "ratios": {
-        "pe": 10.2,
+        "pe": 10.3,
         "industry_pe": null,
         "pb": null,
         "roe": 18.3,
         "roce": 22.6,
         "de": null,
         "div_yield": 3.48,
-        "market_cap": 43125.0
+        "market_cap": 43155.0
       }
     },
     {
       "symbol": "PHOENIXLTD",
       "name": "Phoenix Mills Ltd",
       "sector": "Realty",
-      "current_price": 1899.0,
+      "current_price": 1890.0,
       "week52_high": 2170.0,
       "week52_low": 1465.0,
-      "pct_above_52w_low": 29.6,
-      "pct_below_52w_high": 12.5,
+      "pct_above_52w_low": 29.0,
+      "pct_below_52w_high": 12.9,
       "near_52w_low": true,
       "tags": [
         "DISCOUNTED_ZONE"
@@ -6499,14 +6525,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/PHOENIXLTD/consolidated/",
       "ratios": {
-        "pe": 52.4,
+        "pe": 52.1,
         "industry_pe": null,
         "pb": null,
         "roe": 11.0,
         "roce": 12.4,
         "de": null,
         "div_yield": 0.13,
-        "market_cap": 67937.0
+        "market_cap": 67601.0
       }
     },
     {
@@ -6532,7 +6558,7 @@
         "roce": 31.0,
         "de": null,
         "div_yield": 0.73,
-        "market_cap": 159548.0
+        "market_cap": 159492.0
       }
     },
     {
@@ -6669,11 +6695,11 @@
       "symbol": "SBIN",
       "name": "State Bank of India",
       "sector": "Banking",
-      "current_price": 997.0,
+      "current_price": 996.0,
       "week52_high": 1235.0,
       "week52_low": 820.0,
-      "pct_above_52w_low": 21.6,
-      "pct_below_52w_high": 19.3,
+      "pct_above_52w_low": 21.5,
+      "pct_below_52w_high": 19.4,
       "near_52w_low": true,
       "tags": [
         "DISCOUNTED_ZONE"
@@ -6688,17 +6714,17 @@
         "roce": 6.13,
         "de": null,
         "div_yield": 1.74,
-        "market_cap": 925057.0
+        "market_cap": 923850.0
       }
     },
     {
       "symbol": "TVSMOTOR",
       "name": "TVS Motor Company Ltd",
       "sector": "Automobile and Auto Components",
-      "current_price": 4128.0,
+      "current_price": 4125.0,
       "week52_high": 4485.0,
       "week52_low": 3228.0,
-      "pct_above_52w_low": 27.9,
+      "pct_above_52w_low": 27.8,
       "pct_below_52w_high": 8.0,
       "near_52w_low": true,
       "tags": [
@@ -6707,14 +6733,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/TVSMOTOR/consolidated/",
       "ratios": {
-        "pe": 56.8,
+        "pe": 56.7,
         "industry_pe": null,
         "pb": null,
         "roe": 33.6,
         "roce": 17.4,
         "de": null,
         "div_yield": 0.29,
-        "market_cap": 196402.0
+        "market_cap": 196283.0
       }
     },
     {
@@ -6825,10 +6851,10 @@
       "symbol": "TRENT",
       "name": "Trent Ltd",
       "sector": "Consumer Services",
-      "current_price": 2804.0,
+      "current_price": 2802.0,
       "week52_high": 3499.0,
       "week52_low": 2184.0,
-      "pct_above_52w_low": 28.4,
+      "pct_above_52w_low": 28.3,
       "pct_below_52w_high": 19.9,
       "near_52w_low": true,
       "tags": [
@@ -6844,7 +6870,7 @@
         "roce": 28.3,
         "de": null,
         "div_yield": 0.14,
-        "market_cap": 151094.0
+        "market_cap": 150986.0
       }
     },
     {
@@ -6889,14 +6915,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/UNOMINDA/consolidated/",
       "ratios": {
-        "pe": 56.9,
+        "pe": 56.8,
         "industry_pe": null,
         "pb": null,
         "roe": 19.3,
         "roce": 19.6,
         "de": null,
         "div_yield": 0.22,
-        "market_cap": 69508.0
+        "market_cap": 69462.0
       }
     },
     {
@@ -6967,14 +6993,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/ANTHEM/consolidated/",
       "ratios": {
-        "pe": 89.3,
+        "pe": 89.4,
         "industry_pe": null,
         "pb": null,
         "roe": 22.3,
         "roce": 30.4,
         "de": null,
         "div_yield": 0.21,
-        "market_cap": 53004.0
+        "market_cap": 53038.0
       }
     },
     {
@@ -7000,7 +7026,7 @@
         "roce": null,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 65658.0
+        "market_cap": 65670.0
       }
     },
     {
@@ -7052,14 +7078,14 @@
         "roce": 9.14,
         "de": null,
         "div_yield": 0.32,
-        "market_cap": 149070.0
+        "market_cap": 149208.0
       }
     },
     {
       "symbol": "BOSCHLTD",
       "name": "Bosch Ltd",
       "sector": "Automobile and Auto Components",
-      "current_price": 48389.0,
+      "current_price": 48385.0,
       "week52_high": 50000.0,
       "week52_low": 28610.0,
       "pct_above_52w_low": 69.1,
@@ -7078,7 +7104,7 @@
         "roce": 21.5,
         "de": null,
         "div_yield": 0.56,
-        "market_cap": 143234.0
+        "market_cap": 143223.0
       }
     },
     {
@@ -7267,11 +7293,11 @@
       "symbol": "GLENMARK",
       "name": "Glenmark Pharmaceuticals Ltd",
       "sector": "Healthcare",
-      "current_price": 2417.0,
+      "current_price": 2419.0,
       "week52_high": 2538.0,
       "week52_low": 1793.0,
-      "pct_above_52w_low": 34.8,
-      "pct_below_52w_high": 4.8,
+      "pct_above_52w_low": 34.9,
+      "pct_below_52w_high": 4.7,
       "near_52w_low": false,
       "tags": [
         "NEAR_52W_HIGH"
@@ -7279,14 +7305,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/GLENMARK/consolidated/",
       "ratios": {
-        "pe": 21.8,
+        "pe": 21.9,
         "industry_pe": null,
         "pb": null,
         "roe": 23.6,
         "roce": 39.8,
         "de": null,
         "div_yield": 0.21,
-        "market_cap": 68154.0
+        "market_cap": 68219.0
       }
     },
     {
@@ -7338,7 +7364,7 @@
         "roce": 8.01,
         "de": null,
         "div_yield": 0.3,
-        "market_cap": 223328.0
+        "market_cap": 223352.0
       }
     },
     {
@@ -7839,11 +7865,11 @@
       "symbol": "SIEMENS",
       "name": "Siemens Ltd",
       "sector": "Capital Goods",
-      "current_price": 3961.0,
+      "current_price": 3957.0,
       "week52_high": 4149.0,
       "week52_low": 2826.0,
-      "pct_above_52w_low": 40.2,
-      "pct_below_52w_high": 4.5,
+      "pct_above_52w_low": 40.0,
+      "pct_below_52w_high": 4.6,
       "near_52w_low": false,
       "tags": [
         "NEAR_52W_HIGH"
@@ -7851,25 +7877,25 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/SIEMENS/consolidated/",
       "ratios": {
-        "pe": 93.4,
+        "pe": 93.3,
         "industry_pe": null,
         "pb": null,
         "roe": 19.2,
         "roce": 21.4,
         "de": null,
         "div_yield": 0.45,
-        "market_cap": 140431.0
+        "market_cap": 140292.0
       }
     },
     {
       "symbol": "SOLARINDS",
       "name": "Solar Industries India Ltd",
       "sector": "Chemicals",
-      "current_price": 22308.0,
+      "current_price": 22290.0,
       "week52_high": 22625.0,
       "week52_low": 11641.0,
-      "pct_above_52w_low": 91.6,
-      "pct_below_52w_high": 1.4,
+      "pct_above_52w_low": 91.5,
+      "pct_below_52w_high": 1.5,
       "near_52w_low": false,
       "tags": [
         "NEAR_52W_HIGH"
@@ -7884,7 +7910,7 @@
         "roce": 38.1,
         "de": null,
         "div_yield": 0.05,
-        "market_cap": 201680.0
+        "market_cap": 201522.0
       }
     },
     {
@@ -7917,11 +7943,11 @@
       "symbol": "TITAN",
       "name": "Titan Company Ltd",
       "sector": "Consumer Durables",
-      "current_price": 5005.0,
+      "current_price": 5010.0,
       "week52_high": 5187.0,
       "week52_low": 3303.0,
-      "pct_above_52w_low": 51.5,
-      "pct_below_52w_high": 3.5,
+      "pct_above_52w_low": 51.7,
+      "pct_below_52w_high": 3.4,
       "near_52w_low": false,
       "tags": [
         "NEAR_52W_HIGH"
@@ -7929,14 +7955,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/TITAN/consolidated/",
       "ratios": {
-        "pe": 76.3,
+        "pe": 76.4,
         "industry_pe": null,
         "pb": null,
         "roe": 37.7,
         "roce": 20.5,
         "de": null,
         "div_yield": 0.3,
-        "market_cap": 445313.0
+        "market_cap": 445713.0
       }
     },
     {
@@ -8124,6 +8150,32 @@
       }
     },
     {
+      "symbol": "BRITANNIA",
+      "name": "Britannia Industries Ltd",
+      "sector": "Fast Moving Consumer Goods",
+      "current_price": 4962.0,
+      "week52_high": 6286.0,
+      "week52_low": 4945.0,
+      "pct_above_52w_low": 0.3,
+      "pct_below_52w_high": 21.1,
+      "near_52w_low": true,
+      "tags": [
+        "AT_52W_LOW"
+      ],
+      "is_opportunity": true,
+      "screener_url": "https://www.screener.in/company/BRITANNIA/consolidated/",
+      "ratios": {
+        "pe": 45.9,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 53.5,
+        "roce": 56.0,
+        "de": null,
+        "div_yield": 1.82,
+        "market_cap": 119471.0
+      }
+    },
+    {
       "symbol": "TATACONSUM",
       "name": "Tata Consumer Products Ltd",
       "sector": "Fast Moving Consumer Goods",
@@ -8147,32 +8199,6 @@
         "de": null,
         "div_yield": 1.01,
         "market_cap": 98054.0
-      }
-    },
-    {
-      "symbol": "BRITANNIA",
-      "name": "Britannia Industries Ltd",
-      "sector": "Fast Moving Consumer Goods",
-      "current_price": 4970.0,
-      "week52_high": 6286.0,
-      "week52_low": 4945.0,
-      "pct_above_52w_low": 0.5,
-      "pct_below_52w_high": 20.9,
-      "near_52w_low": true,
-      "tags": [
-        "AT_52W_LOW"
-      ],
-      "is_opportunity": true,
-      "screener_url": "https://www.screener.in/company/BRITANNIA/consolidated/",
-      "ratios": {
-        "pe": 46.0,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 53.5,
-        "roce": 56.0,
-        "de": null,
-        "div_yield": 1.82,
-        "market_cap": 119664.0
       }
     },
     {
@@ -8225,32 +8251,6 @@
         "de": null,
         "div_yield": 1.04,
         "market_cap": 61160.0
-      }
-    },
-    {
-      "symbol": "AMBUJACEM",
-      "name": "Ambuja Cements Ltd",
-      "sector": "Construction Materials",
-      "current_price": 391.0,
-      "week52_high": 601.0,
-      "week52_low": 388.0,
-      "pct_above_52w_low": 0.8,
-      "pct_below_52w_high": 34.9,
-      "near_52w_low": true,
-      "tags": [
-        "AT_52W_LOW"
-      ],
-      "is_opportunity": true,
-      "screener_url": "https://www.screener.in/company/AMBUJACEM/consolidated/",
-      "ratios": {
-        "pe": 20.6,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 8.85,
-        "roce": 5.61,
-        "de": null,
-        "div_yield": 0.51,
-        "market_cap": 97058.0
       }
     },
     {
@@ -8332,10 +8332,36 @@
       }
     },
     {
+      "symbol": "SHREECEM",
+      "name": "Shree Cement Ltd",
+      "sector": "Construction Materials",
+      "current_price": 22570.0,
+      "week52_high": 30285.0,
+      "week52_low": 22370.0,
+      "pct_above_52w_low": 0.9,
+      "pct_below_52w_high": 25.5,
+      "near_52w_low": true,
+      "tags": [
+        "AT_52W_LOW"
+      ],
+      "is_opportunity": true,
+      "screener_url": "https://www.screener.in/company/SHREECEM/consolidated/",
+      "ratios": {
+        "pe": 50.0,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 7.51,
+        "roce": 10.3,
+        "de": null,
+        "div_yield": 0.66,
+        "market_cap": 81524.0
+      }
+    },
+    {
       "symbol": "TATAELXSI",
       "name": "Tata Elxsi Ltd",
       "sector": "Information Technology",
-      "current_price": 3385.0,
+      "current_price": 3383.0,
       "week52_high": 5950.0,
       "week52_low": 3354.0,
       "pct_above_52w_low": 0.9,
@@ -8354,33 +8380,33 @@
         "roce": 60.0,
         "de": null,
         "div_yield": 2.22,
-        "market_cap": 21097.0
+        "market_cap": 21084.0
       }
     },
     {
-      "symbol": "SHREECEM",
-      "name": "Shree Cement Ltd",
+      "symbol": "AMBUJACEM",
+      "name": "Ambuja Cements Ltd",
       "sector": "Construction Materials",
-      "current_price": 22601.0,
-      "week52_high": 30285.0,
-      "week52_low": 22370.0,
+      "current_price": 392.0,
+      "week52_high": 601.0,
+      "week52_low": 388.0,
       "pct_above_52w_low": 1.0,
-      "pct_below_52w_high": 25.4,
+      "pct_below_52w_high": 34.8,
       "near_52w_low": true,
       "tags": [
         "AT_52W_LOW"
       ],
       "is_opportunity": true,
-      "screener_url": "https://www.screener.in/company/SHREECEM/consolidated/",
+      "screener_url": "https://www.screener.in/company/AMBUJACEM/consolidated/",
       "ratios": {
-        "pe": 50.1,
+        "pe": 20.7,
         "industry_pe": null,
         "pb": null,
-        "roe": 7.51,
-        "roce": 10.3,
+        "roe": 8.85,
+        "roce": 5.61,
         "de": null,
-        "div_yield": 0.66,
-        "market_cap": 81636.0
+        "div_yield": 0.51,
+        "market_cap": 97269.0
       }
     },
     {
@@ -8458,7 +8484,7 @@
         "roce": 18.8,
         "de": null,
         "div_yield": 2.31,
-        "market_cap": 88363.0
+        "market_cap": 88404.0
       }
     },
     {
@@ -8563,6 +8589,32 @@
         "de": null,
         "div_yield": 0.8,
         "market_cap": 33204.0
+      }
+    },
+    {
+      "symbol": "HAVELLS",
+      "name": "Havells India Ltd",
+      "sector": "Consumer Durables",
+      "current_price": 1111.0,
+      "week52_high": 1623.0,
+      "week52_low": 1096.0,
+      "pct_above_52w_low": 1.4,
+      "pct_below_52w_high": 31.5,
+      "near_52w_low": true,
+      "tags": [
+        "AT_52W_LOW"
+      ],
+      "is_opportunity": true,
+      "screener_url": "https://www.screener.in/company/HAVELLS/consolidated/",
+      "ratios": {
+        "pe": 41.8,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 19.0,
+        "roce": 24.9,
+        "de": null,
+        "div_yield": 0.9,
+        "market_cap": 69722.0
       }
     },
     {
@@ -8737,40 +8789,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/BANKBARODA/consolidated/",
       "ratios": {
-        "pe": 5.56,
+        "pe": 5.57,
         "industry_pe": null,
         "pb": null,
         "roe": 12.7,
         "roce": 5.63,
         "de": null,
         "div_yield": 3.57,
-        "market_cap": 122779.0
-      }
-    },
-    {
-      "symbol": "HAVELLS",
-      "name": "Havells India Ltd",
-      "sector": "Consumer Durables",
-      "current_price": 1115.0,
-      "week52_high": 1623.0,
-      "week52_low": 1096.0,
-      "pct_above_52w_low": 1.7,
-      "pct_below_52w_high": 31.3,
-      "near_52w_low": true,
-      "tags": [
-        "AT_52W_LOW"
-      ],
-      "is_opportunity": true,
-      "screener_url": "https://www.screener.in/company/HAVELLS/consolidated/",
-      "ratios": {
-        "pe": 42.0,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 19.0,
-        "roce": 24.9,
-        "de": null,
-        "div_yield": 0.9,
-        "market_cap": 69961.0
+        "market_cap": 122949.0
       }
     },
     {
@@ -8867,14 +8893,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/AFCONS/consolidated/",
       "ratios": {
-        "pe": 45.5,
+        "pe": 45.6,
         "industry_pe": null,
         "pb": null,
         "roe": 5.61,
         "roce": 13.9,
         "de": null,
-        "div_yield": 0.78,
-        "market_cap": 9334.0
+        "div_yield": 0.79,
+        "market_cap": 9333.0
       }
     },
     {
@@ -8945,14 +8971,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/DABUR/consolidated/",
       "ratios": {
-        "pe": 33.6,
+        "pe": 33.5,
         "industry_pe": null,
         "pb": null,
         "roe": 17.0,
         "roce": 20.3,
         "de": null,
         "div_yield": 2.19,
-        "market_cap": 66604.0
+        "market_cap": 66515.0
       }
     },
     {
@@ -9004,7 +9030,7 @@
         "roce": 15.0,
         "de": null,
         "div_yield": 0.6,
-        "market_cap": 10205.0
+        "market_cap": 10212.0
       }
     },
     {
@@ -9112,32 +9138,6 @@
       }
     },
     {
-      "symbol": "VOLTAS",
-      "name": "Voltas Ltd",
-      "sector": "Consumer Durables",
-      "current_price": 1164.0,
-      "week52_high": 1582.0,
-      "week52_low": 1131.0,
-      "pct_above_52w_low": 2.9,
-      "pct_below_52w_high": 26.4,
-      "near_52w_low": true,
-      "tags": [
-        "AT_52W_LOW"
-      ],
-      "is_opportunity": true,
-      "screener_url": "https://www.screener.in/company/VOLTAS/consolidated/",
-      "ratios": {
-        "pe": 82.6,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 6.1,
-        "roce": 9.04,
-        "de": null,
-        "div_yield": 0.34,
-        "market_cap": 38548.0
-      }
-    },
-    {
       "symbol": "RECLTD",
       "name": "REC Ltd",
       "sector": "Financial Services",
@@ -9160,7 +9160,33 @@
         "roce": 9.71,
         "de": null,
         "div_yield": 5.93,
-        "market_cap": 82080.0
+        "market_cap": 82027.0
+      }
+    },
+    {
+      "symbol": "VOLTAS",
+      "name": "Voltas Ltd",
+      "sector": "Consumer Durables",
+      "current_price": 1165.0,
+      "week52_high": 1582.0,
+      "week52_low": 1131.0,
+      "pct_above_52w_low": 3.0,
+      "pct_below_52w_high": 26.4,
+      "near_52w_low": true,
+      "tags": [
+        "AT_52W_LOW"
+      ],
+      "is_opportunity": true,
+      "screener_url": "https://www.screener.in/company/VOLTAS/consolidated/",
+      "ratios": {
+        "pe": 82.6,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 6.1,
+        "roce": 9.04,
+        "de": null,
+        "div_yield": 0.34,
+        "market_cap": 38565.0
       }
     },
     {
@@ -9193,7 +9219,7 @@
       "symbol": "PIIND",
       "name": "P I Industries Ltd",
       "sector": "Chemicals",
-      "current_price": 2258.0,
+      "current_price": 2259.0,
       "week52_high": 3833.0,
       "week52_low": 2191.0,
       "pct_above_52w_low": 3.1,
@@ -9212,7 +9238,7 @@
         "roce": 15.0,
         "de": null,
         "div_yield": 0.66,
-        "market_cap": 34327.0
+        "market_cap": 34349.0
       }
     },
     {
@@ -9420,7 +9446,7 @@
         "roce": 7.02,
         "de": null,
         "div_yield": 1.84,
-        "market_cap": 1091009.0
+        "market_cap": 1091395.0
       }
     },
     {
@@ -9439,14 +9465,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/IOC/consolidated/",
       "ratios": {
-        "pe": 5.66,
+        "pe": 5.65,
         "industry_pe": null,
         "pb": null,
         "roe": 20.5,
         "roce": 18.7,
         "de": null,
-        "div_yield": 6.1,
-        "market_cap": 190482.0
+        "div_yield": 6.11,
+        "market_cap": 190284.0
       }
     },
     {
@@ -9661,10 +9687,10 @@
       "symbol": "MUTHOOTFIN",
       "name": "Muthoot Finance Ltd",
       "sector": "Financial Services",
-      "current_price": 2794.0,
+      "current_price": 2792.0,
       "week52_high": 4150.0,
       "week52_low": 2671.0,
-      "pct_above_52w_low": 4.6,
+      "pct_above_52w_low": 4.5,
       "pct_below_52w_high": 32.7,
       "near_52w_low": true,
       "tags": [
@@ -9673,14 +9699,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/MUTHOOTFIN/consolidated/",
       "ratios": {
-        "pe": 9.87,
+        "pe": 9.86,
         "industry_pe": null,
         "pb": null,
         "roe": 30.9,
         "roce": 15.8,
         "de": null,
         "div_yield": 1.07,
-        "market_cap": 112246.0
+        "market_cap": 112153.0
       }
     },
     {
@@ -9736,6 +9762,32 @@
       }
     },
     {
+      "symbol": "MFSL",
+      "name": "Max Financial Services Ltd",
+      "sector": "Financial Services",
+      "current_price": 1477.0,
+      "week52_high": 1892.0,
+      "week52_low": 1408.0,
+      "pct_above_52w_low": 4.9,
+      "pct_below_52w_high": 21.9,
+      "near_52w_low": true,
+      "tags": [
+        "AT_52W_LOW"
+      ],
+      "is_opportunity": true,
+      "screener_url": "https://www.screener.in/company/MFSL/consolidated/",
+      "ratios": {
+        "pe": 472.0,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 1.52,
+        "roce": 2.87,
+        "de": null,
+        "div_yield": 0.0,
+        "market_cap": 51167.0
+      }
+    },
+    {
       "symbol": "CESC",
       "name": "CESC Ltd",
       "sector": "Power",
@@ -9759,32 +9811,6 @@
         "de": null,
         "div_yield": 4.13,
         "market_cap": 19339.0
-      }
-    },
-    {
-      "symbol": "MFSL",
-      "name": "Max Financial Services Ltd",
-      "sector": "Financial Services",
-      "current_price": 1480.0,
-      "week52_high": 1892.0,
-      "week52_low": 1408.0,
-      "pct_above_52w_low": 5.1,
-      "pct_below_52w_high": 21.8,
-      "near_52w_low": true,
-      "tags": [
-        "AT_52W_LOW"
-      ],
-      "is_opportunity": true,
-      "screener_url": "https://www.screener.in/company/MFSL/consolidated/",
-      "ratios": {
-        "pe": 473.0,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 1.52,
-        "roce": 2.87,
-        "de": null,
-        "div_yield": 0.0,
-        "market_cap": 51278.0
       }
     },
     {
@@ -9840,10 +9866,36 @@
       }
     },
     {
+      "symbol": "BHARTIARTL",
+      "name": "Bharti Airtel Ltd",
+      "sector": "Telecommunication",
+      "current_price": 1831.0,
+      "week52_high": 2175.0,
+      "week52_low": 1740.0,
+      "pct_above_52w_low": 5.2,
+      "pct_below_52w_high": 15.8,
+      "near_52w_low": true,
+      "tags": [
+        "AT_52W_LOW"
+      ],
+      "is_opportunity": true,
+      "screener_url": "https://www.screener.in/company/BHARTIARTL/consolidated/",
+      "ratios": {
+        "pe": 36.6,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 20.3,
+        "roce": 17.6,
+        "de": null,
+        "div_yield": 1.31,
+        "market_cap": 1143942.0
+      }
+    },
+    {
       "symbol": "GODFRYPHLP",
       "name": "Godfrey Phillips India Ltd",
       "sector": "Fast Moving Consumer Goods",
-      "current_price": 1928.0,
+      "current_price": 1927.0,
       "week52_high": 3947.0,
       "week52_low": 1832.0,
       "pct_above_52w_low": 5.2,
@@ -9862,7 +9914,7 @@
         "roce": 30.2,
         "de": null,
         "div_yield": 2.59,
-        "market_cap": 30089.0
+        "market_cap": 30073.0
       }
     },
     {
@@ -9889,32 +9941,6 @@
         "de": null,
         "div_yield": 0.18,
         "market_cap": 54435.0
-      }
-    },
-    {
-      "symbol": "BHARTIARTL",
-      "name": "Bharti Airtel Ltd",
-      "sector": "Telecommunication",
-      "current_price": 1832.0,
-      "week52_high": 2175.0,
-      "week52_low": 1740.0,
-      "pct_above_52w_low": 5.3,
-      "pct_below_52w_high": 15.8,
-      "near_52w_low": true,
-      "tags": [
-        "AT_52W_LOW"
-      ],
-      "is_opportunity": true,
-      "screener_url": "https://www.screener.in/company/BHARTIARTL/consolidated/",
-      "ratios": {
-        "pe": 36.6,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 20.3,
-        "roce": 17.6,
-        "de": null,
-        "div_yield": 1.31,
-        "market_cap": 1144504.0
       }
     },
     {
@@ -10070,7 +10096,7 @@
         "roce": 40.0,
         "de": null,
         "div_yield": 4.63,
-        "market_cap": 423347.0
+        "market_cap": 423144.0
       }
     },
     {
@@ -10204,6 +10230,32 @@
       }
     },
     {
+      "symbol": "BEL",
+      "name": "Bharat Electronics Ltd",
+      "sector": "Aerospace & Defence",
+      "current_price": 404.0,
+      "week52_high": 473.0,
+      "week52_low": 380.0,
+      "pct_above_52w_low": 6.3,
+      "pct_below_52w_high": 14.6,
+      "near_52w_low": true,
+      "tags": [
+        "AT_52W_LOW"
+      ],
+      "is_opportunity": true,
+      "screener_url": "https://www.screener.in/company/BEL/consolidated/",
+      "ratios": {
+        "pe": 48.3,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 27.4,
+        "roce": 36.4,
+        "de": null,
+        "div_yield": 0.62,
+        "market_cap": 297038.0
+      }
+    },
+    {
       "symbol": "BLS",
       "name": "BLS International Services Ltd",
       "sector": "Consumer Services",
@@ -10285,7 +10337,7 @@
       "symbol": "ULTRACEMCO",
       "name": "UltraTech Cement Ltd",
       "sector": "Construction Materials",
-      "current_price": 10996.0,
+      "current_price": 11000.0,
       "week52_high": 13110.0,
       "week52_low": 10325.0,
       "pct_above_52w_low": 6.5,
@@ -10304,7 +10356,7 @@
         "roce": 12.7,
         "de": null,
         "div_yield": 2.18,
-        "market_cap": 321860.0
+        "market_cap": 321977.0
       }
     },
     {
@@ -10331,32 +10383,6 @@
         "de": null,
         "div_yield": 0.69,
         "market_cap": 116518.0
-      }
-    },
-    {
-      "symbol": "BEL",
-      "name": "Bharat Electronics Ltd",
-      "sector": "Aerospace & Defence",
-      "current_price": 406.0,
-      "week52_high": 473.0,
-      "week52_low": 380.0,
-      "pct_above_52w_low": 6.8,
-      "pct_below_52w_high": 14.2,
-      "near_52w_low": true,
-      "tags": [
-        "AT_52W_LOW"
-      ],
-      "is_opportunity": true,
-      "screener_url": "https://www.screener.in/company/BEL/consolidated/",
-      "ratios": {
-        "pe": 48.5,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 27.4,
-        "roce": 36.4,
-        "de": null,
-        "div_yield": 0.62,
-        "market_cap": 297883.0
       }
     },
     {
@@ -10434,7 +10460,7 @@
         "roce": 9.71,
         "de": null,
         "div_yield": 5.25,
-        "market_cap": 116576.0
+        "market_cap": 116642.0
       }
     },
     {
@@ -10519,11 +10545,11 @@
       "symbol": "SRF",
       "name": "SRF Ltd",
       "sector": "Chemicals",
-      "current_price": 2483.0,
+      "current_price": 2482.0,
       "week52_high": 3239.0,
       "week52_low": 2314.0,
       "pct_above_52w_low": 7.3,
-      "pct_below_52w_high": 23.3,
+      "pct_below_52w_high": 23.4,
       "near_52w_low": true,
       "tags": [
         "AT_52W_LOW"
@@ -10538,7 +10564,7 @@
         "roce": 14.6,
         "de": null,
         "div_yield": 0.36,
-        "market_cap": 73934.0
+        "market_cap": 73916.0
       }
     },
     {
@@ -10568,6 +10594,32 @@
       }
     },
     {
+      "symbol": "NBCC",
+      "name": "NBCC (India) Ltd",
+      "sector": "Construction",
+      "current_price": 82.9,
+      "week52_high": 126.0,
+      "week52_low": 77.2,
+      "pct_above_52w_low": 7.4,
+      "pct_below_52w_high": 34.2,
+      "near_52w_low": true,
+      "tags": [
+        "AT_52W_LOW"
+      ],
+      "is_opportunity": true,
+      "screener_url": "https://www.screener.in/company/NBCC/consolidated/",
+      "ratios": {
+        "pe": 32.7,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 20.4,
+        "roce": 29.3,
+        "de": null,
+        "div_yield": 1.21,
+        "market_cap": 22394.0
+      }
+    },
+    {
       "symbol": "AADHARHFC",
       "name": "Aadhar Housing Finance Ltd",
       "sector": "Financial Services",
@@ -10583,25 +10635,25 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/AADHARHFC/consolidated/",
       "ratios": {
-        "pe": 17.3,
+        "pe": 17.4,
         "industry_pe": null,
         "pb": null,
         "roe": 15.9,
         "roce": 11.4,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 20017.0
+        "market_cap": 20045.0
       }
     },
     {
       "symbol": "ASTRAL",
       "name": "Astral Ltd",
       "sector": "Capital Goods",
-      "current_price": 1410.0,
+      "current_price": 1411.0,
       "week52_high": 1769.0,
       "week52_low": 1312.0,
       "pct_above_52w_low": 7.5,
-      "pct_below_52w_high": 20.3,
+      "pct_below_52w_high": 20.2,
       "near_52w_low": true,
       "tags": [
         "AT_52W_LOW"
@@ -10609,66 +10661,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/ASTRAL/consolidated/",
       "ratios": {
-        "pe": 63.9,
+        "pe": 64.0,
         "industry_pe": null,
         "pb": null,
         "roe": 13.8,
         "roce": 19.2,
         "de": null,
         "div_yield": 0.28,
-        "market_cap": 37856.0
-      }
-    },
-    {
-      "symbol": "DRREDDY",
-      "name": "Dr Reddys Laboratories Ltd",
-      "sector": "Pharma",
-      "current_price": 1161.0,
-      "week52_high": 1415.0,
-      "week52_low": 1080.0,
-      "pct_above_52w_low": 7.5,
-      "pct_below_52w_high": 18.0,
-      "near_52w_low": true,
-      "tags": [
-        "AT_52W_LOW"
-      ],
-      "is_opportunity": true,
-      "screener_url": "https://www.screener.in/company/DRREDDY/consolidated/",
-      "ratios": {
-        "pe": 30.1,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 11.2,
-        "roce": 13.0,
-        "de": null,
-        "div_yield": 0.69,
-        "market_cap": 97093.0
-      }
-    },
-    {
-      "symbol": "NBCC",
-      "name": "NBCC (India) Ltd",
-      "sector": "Construction",
-      "current_price": 83.0,
-      "week52_high": 126.0,
-      "week52_low": 77.2,
-      "pct_above_52w_low": 7.5,
-      "pct_below_52w_high": 34.1,
-      "near_52w_low": true,
-      "tags": [
-        "AT_52W_LOW"
-      ],
-      "is_opportunity": true,
-      "screener_url": "https://www.screener.in/company/NBCC/consolidated/",
-      "ratios": {
-        "pe": 32.8,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 20.4,
-        "roce": 29.3,
-        "de": null,
-        "div_yield": 1.21,
-        "market_cap": 22434.0
+        "market_cap": 37891.0
       }
     },
     {
@@ -10750,6 +10750,32 @@
       }
     },
     {
+      "symbol": "DRREDDY",
+      "name": "Dr Reddys Laboratories Ltd",
+      "sector": "Pharma",
+      "current_price": 1166.0,
+      "week52_high": 1415.0,
+      "week52_low": 1080.0,
+      "pct_above_52w_low": 8.0,
+      "pct_below_52w_high": 17.6,
+      "near_52w_low": true,
+      "tags": [
+        "AT_52W_LOW"
+      ],
+      "is_opportunity": true,
+      "screener_url": "https://www.screener.in/company/DRREDDY/consolidated/",
+      "ratios": {
+        "pe": 30.2,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 11.2,
+        "roce": 13.0,
+        "de": null,
+        "div_yield": 0.69,
+        "market_cap": 97470.0
+      }
+    },
+    {
       "symbol": "SWANCORP",
       "name": "Swan Corp Ltd",
       "sector": "Chemicals",
@@ -10797,7 +10823,7 @@
         "roe": 10.7,
         "roce": 18.3,
         "de": null,
-        "div_yield": 0.55,
+        "div_yield": 0.54,
         "market_cap": 24047.0
       }
     },
@@ -10854,6 +10880,32 @@
       }
     },
     {
+      "symbol": "BLUESTARCO",
+      "name": "Blue Star Ltd",
+      "sector": "Consumer Durables",
+      "current_price": 1558.0,
+      "week52_high": 2033.0,
+      "week52_low": 1432.0,
+      "pct_above_52w_low": 8.8,
+      "pct_below_52w_high": 23.4,
+      "near_52w_low": true,
+      "tags": [
+        "AT_52W_LOW"
+      ],
+      "is_opportunity": true,
+      "screener_url": "https://www.screener.in/company/BLUESTARCO/consolidated/",
+      "ratios": {
+        "pe": 60.6,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 17.2,
+        "roce": 21.2,
+        "de": null,
+        "div_yield": 0.55,
+        "market_cap": 32043.0
+      }
+    },
+    {
       "symbol": "DALBHARAT",
       "name": "Dalmia Bharat Ltd",
       "sector": "Construction Materials",
@@ -10903,32 +10955,6 @@
         "de": null,
         "div_yield": 3.5,
         "market_cap": 34591.0
-      }
-    },
-    {
-      "symbol": "BLUESTARCO",
-      "name": "Blue Star Ltd",
-      "sector": "Consumer Durables",
-      "current_price": 1560.0,
-      "week52_high": 2033.0,
-      "week52_low": 1432.0,
-      "pct_above_52w_low": 8.9,
-      "pct_below_52w_high": 23.3,
-      "near_52w_low": true,
-      "tags": [
-        "AT_52W_LOW"
-      ],
-      "is_opportunity": true,
-      "screener_url": "https://www.screener.in/company/BLUESTARCO/consolidated/",
-      "ratios": {
-        "pe": 60.6,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 17.2,
-        "roce": 21.2,
-        "de": null,
-        "div_yield": 0.55,
-        "market_cap": 32084.0
       }
     },
     {
@@ -11169,7 +11195,7 @@
       "symbol": "LUPIN",
       "name": "Lupin Ltd",
       "sector": "Pharma",
-      "current_price": 2096.0,
+      "current_price": 2095.0,
       "week52_high": 2530.0,
       "week52_low": 1900.0,
       "pct_above_52w_low": 10.3,
@@ -11188,7 +11214,7 @@
         "roce": 29.9,
         "de": null,
         "div_yield": 0.86,
-        "market_cap": 95972.0
+        "market_cap": 95926.0
       }
     },
     {
@@ -11270,32 +11296,6 @@
       }
     },
     {
-      "symbol": "NHPC",
-      "name": "NHPC Ltd",
-      "sector": "Power",
-      "current_price": 76.3,
-      "week52_high": 89.2,
-      "week52_low": 68.7,
-      "pct_above_52w_low": 11.1,
-      "pct_below_52w_high": 14.5,
-      "near_52w_low": true,
-      "tags": [
-        "NEAR_52W_LOW"
-      ],
-      "is_opportunity": true,
-      "screener_url": "https://www.screener.in/company/NHPC/consolidated/",
-      "ratios": {
-        "pe": 20.2,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 9.32,
-        "roce": 5.75,
-        "de": null,
-        "div_yield": 2.11,
-        "market_cap": 76593.0
-      }
-    },
-    {
       "symbol": "JSWCEMENT",
       "name": "JSW Cement Ltd",
       "sector": "Construction Materials",
@@ -11319,6 +11319,32 @@
         "de": null,
         "div_yield": 0.42,
         "market_cap": 16209.0
+      }
+    },
+    {
+      "symbol": "NHPC",
+      "name": "NHPC Ltd",
+      "sector": "Power",
+      "current_price": 76.4,
+      "week52_high": 89.2,
+      "week52_low": 68.7,
+      "pct_above_52w_low": 11.2,
+      "pct_below_52w_high": 14.3,
+      "near_52w_low": true,
+      "tags": [
+        "NEAR_52W_LOW"
+      ],
+      "is_opportunity": true,
+      "screener_url": "https://www.screener.in/company/NHPC/consolidated/",
+      "ratios": {
+        "pe": 20.2,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 9.32,
+        "roce": 5.75,
+        "de": null,
+        "div_yield": 2.11,
+        "market_cap": 76674.0
       }
     },
     {
@@ -11429,11 +11455,11 @@
       "symbol": "HEROMOTOCO",
       "name": "Hero MotoCorp Ltd",
       "sector": "Automobile and Auto Components",
-      "current_price": 5225.0,
+      "current_price": 5222.0,
       "week52_high": 6390.0,
       "week52_low": 4672.0,
       "pct_above_52w_low": 11.8,
-      "pct_below_52w_high": 18.2,
+      "pct_below_52w_high": 18.3,
       "near_52w_low": true,
       "tags": [
         "NEAR_52W_LOW"
@@ -11448,7 +11474,7 @@
         "roce": 35.2,
         "de": null,
         "div_yield": 3.54,
-        "market_cap": 104574.0
+        "market_cap": 104504.0
       }
     },
     {
@@ -11741,11 +11767,11 @@
       "symbol": "MPHASIS",
       "name": "Mphasis Ltd",
       "sector": "IT",
-      "current_price": 2294.0,
+      "current_price": 2295.0,
       "week52_high": 3037.0,
       "week52_low": 2013.0,
       "pct_above_52w_low": 14.0,
-      "pct_below_52w_high": 24.5,
+      "pct_below_52w_high": 24.4,
       "near_52w_low": true,
       "tags": [
         "NEAR_52W_LOW"
@@ -11760,7 +11786,7 @@
         "roce": 22.1,
         "de": null,
         "div_yield": 2.7,
-        "market_cap": 43823.0
+        "market_cap": 43841.0
       }
     },
     {
@@ -11805,40 +11831,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/NMDC/consolidated/",
       "ratios": {
-        "pe": 9.7,
+        "pe": 9.69,
         "industry_pe": null,
         "pb": null,
         "roe": 23.4,
         "roce": 27.6,
         "de": null,
         "div_yield": 3.03,
-        "market_cap": 72318.0
-      }
-    },
-    {
-      "symbol": "JINDALSTEL",
-      "name": "Jindal Steel Ltd",
-      "sector": "Metals & Mining",
-      "current_price": 1118.0,
-      "week52_high": 1306.0,
-      "week52_low": 977.0,
-      "pct_above_52w_low": 14.4,
-      "pct_below_52w_high": 14.4,
-      "near_52w_low": true,
-      "tags": [
-        "NEAR_52W_LOW"
-      ],
-      "is_opportunity": true,
-      "screener_url": "https://www.screener.in/company/JINDALSTEL/consolidated/",
-      "ratios": {
-        "pe": 36.8,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 8.22,
-        "roce": 9.7,
-        "de": null,
-        "div_yield": 0.18,
-        "market_cap": 113577.0
+        "market_cap": 72274.0
       }
     },
     {
@@ -11894,6 +11894,58 @@
       }
     },
     {
+      "symbol": "AXISBANK",
+      "name": "Axis Bank Ltd",
+      "sector": "Financial Services",
+      "current_price": 1246.0,
+      "week52_high": 1418.0,
+      "week52_low": 1088.0,
+      "pct_above_52w_low": 14.5,
+      "pct_below_52w_high": 12.1,
+      "near_52w_low": true,
+      "tags": [
+        "NEAR_52W_LOW"
+      ],
+      "is_opportunity": true,
+      "screener_url": "https://www.screener.in/company/AXISBANK/consolidated/",
+      "ratios": {
+        "pe": 13.8,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 13.1,
+        "roce": 6.24,
+        "de": null,
+        "div_yield": 0.08,
+        "market_cap": 383600.0
+      }
+    },
+    {
+      "symbol": "JINDALSTEL",
+      "name": "Jindal Steel Ltd",
+      "sector": "Metals & Mining",
+      "current_price": 1120.0,
+      "week52_high": 1306.0,
+      "week52_low": 977.0,
+      "pct_above_52w_low": 14.6,
+      "pct_below_52w_high": 14.2,
+      "near_52w_low": true,
+      "tags": [
+        "NEAR_52W_LOW"
+      ],
+      "is_opportunity": true,
+      "screener_url": "https://www.screener.in/company/JINDALSTEL/consolidated/",
+      "ratios": {
+        "pe": 36.8,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 8.22,
+        "roce": 9.7,
+        "de": null,
+        "div_yield": 0.18,
+        "market_cap": 113800.0
+      }
+    },
+    {
       "symbol": "KFINTECH",
       "name": "KFin Technologies Ltd",
       "sector": "Financial Services",
@@ -11917,32 +11969,6 @@
         "de": null,
         "div_yield": 1.33,
         "market_cap": 15593.0
-      }
-    },
-    {
-      "symbol": "AXISBANK",
-      "name": "Axis Bank Ltd",
-      "sector": "Financial Services",
-      "current_price": 1248.0,
-      "week52_high": 1418.0,
-      "week52_low": 1088.0,
-      "pct_above_52w_low": 14.7,
-      "pct_below_52w_high": 12.0,
-      "near_52w_low": true,
-      "tags": [
-        "NEAR_52W_LOW"
-      ],
-      "is_opportunity": true,
-      "screener_url": "https://www.screener.in/company/AXISBANK/consolidated/",
-      "ratios": {
-        "pe": 13.8,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 13.1,
-        "roce": 6.24,
-        "de": null,
-        "div_yield": 0.08,
-        "market_cap": 384062.0
       }
     },
     {
@@ -12124,7 +12150,33 @@
         "roce": 14.8,
         "de": null,
         "div_yield": 0.26,
-        "market_cap": 31095.0
+        "market_cap": 31085.0
+      }
+    },
+    {
+      "symbol": "UNITDSPR",
+      "name": "United Spirits Ltd",
+      "sector": "Fast Moving Consumer Goods",
+      "current_price": 1395.0,
+      "week52_high": 1576.0,
+      "week52_low": 1210.0,
+      "pct_above_52w_low": 15.3,
+      "pct_below_52w_high": 11.5,
+      "near_52w_low": true,
+      "tags": [
+        "NEAR_52W_LOW"
+      ],
+      "is_opportunity": true,
+      "screener_url": "https://www.screener.in/company/UNITDSPR/consolidated/",
+      "ratios": {
+        "pe": 54.8,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 21.4,
+        "roce": 26.4,
+        "de": null,
+        "div_yield": 1.22,
+        "market_cap": 101545.0
       }
     },
     {
@@ -12180,58 +12232,6 @@
       }
     },
     {
-      "symbol": "UNITDSPR",
-      "name": "United Spirits Ltd",
-      "sector": "Fast Moving Consumer Goods",
-      "current_price": 1397.0,
-      "week52_high": 1576.0,
-      "week52_low": 1210.0,
-      "pct_above_52w_low": 15.5,
-      "pct_below_52w_high": 11.4,
-      "near_52w_low": true,
-      "tags": [
-        "NEAR_52W_LOW"
-      ],
-      "is_opportunity": true,
-      "screener_url": "https://www.screener.in/company/UNITDSPR/consolidated/",
-      "ratios": {
-        "pe": 54.9,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 21.4,
-        "roce": 26.4,
-        "de": null,
-        "div_yield": 1.22,
-        "market_cap": 101705.0
-      }
-    },
-    {
-      "symbol": "FORTIS",
-      "name": "Fortis Healthcare Ltd",
-      "sector": "Healthcare",
-      "current_price": 887.0,
-      "week52_high": 1105.0,
-      "week52_low": 767.0,
-      "pct_above_52w_low": 15.6,
-      "pct_below_52w_high": 19.7,
-      "near_52w_low": true,
-      "tags": [
-        "NEAR_52W_LOW"
-      ],
-      "is_opportunity": true,
-      "screener_url": "https://www.screener.in/company/FORTIS/consolidated/",
-      "ratios": {
-        "pe": 62.8,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 11.2,
-        "roce": 13.4,
-        "de": null,
-        "div_yield": 0.11,
-        "market_cap": 67036.0
-      }
-    },
-    {
       "symbol": "SARDAEN",
       "name": "Sarda Energy & Minerals Ltd",
       "sector": "Metals & Mining",
@@ -12255,6 +12255,32 @@
         "de": null,
         "div_yield": 0.38,
         "market_cap": 18477.0
+      }
+    },
+    {
+      "symbol": "FORTIS",
+      "name": "Fortis Healthcare Ltd",
+      "sector": "Healthcare",
+      "current_price": 888.0,
+      "week52_high": 1105.0,
+      "week52_low": 767.0,
+      "pct_above_52w_low": 15.8,
+      "pct_below_52w_high": 19.6,
+      "near_52w_low": true,
+      "tags": [
+        "NEAR_52W_LOW"
+      ],
+      "is_opportunity": true,
+      "screener_url": "https://www.screener.in/company/FORTIS/consolidated/",
+      "ratios": {
+        "pe": 62.9,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 11.2,
+        "roce": 13.4,
+        "de": null,
+        "div_yield": 0.11,
+        "market_cap": 67074.0
       }
     },
     {
@@ -12299,14 +12325,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/BIOCON/consolidated/",
       "ratios": {
-        "pe": 88.0,
+        "pe": 87.9,
         "industry_pe": null,
         "pb": null,
         "roe": 1.4,
         "roce": 3.61,
         "de": null,
         "div_yield": 0.13,
-        "market_cap": 63982.0
+        "market_cap": 63933.0
       }
     },
     {
@@ -12510,48 +12536,22 @@
         "pe": 79.4,
         "industry_pe": null,
         "pb": null,
-        "roe": 5.5,
-        "roce": 7.36,
+        "roe": 5.55,
+        "roce": 7.38,
         "de": null,
         "div_yield": 0.12,
         "market_cap": 13878.0
       }
     },
     {
-      "symbol": "ASIANPAINT",
-      "name": "Asian Paints Ltd",
-      "sector": "Consumer Durables",
-      "current_price": 2470.0,
-      "week52_high": 2986.0,
-      "week52_low": 2115.0,
-      "pct_above_52w_low": 16.8,
-      "pct_below_52w_high": 17.3,
-      "near_52w_low": true,
-      "tags": [
-        "NEAR_52W_LOW"
-      ],
-      "is_opportunity": true,
-      "screener_url": "https://www.screener.in/company/ASIANPAINT/consolidated/",
-      "ratios": {
-        "pe": 48.9,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 21.8,
-        "roce": 26.3,
-        "de": null,
-        "div_yield": 1.11,
-        "market_cap": 238651.0
-      }
-    },
-    {
       "symbol": "GMRAIRPORT",
       "name": "GMR Airports Ltd",
       "sector": "Services",
-      "current_price": 98.1,
+      "current_price": 98.0,
       "week52_high": 116.0,
       "week52_low": 84.0,
-      "pct_above_52w_low": 16.8,
-      "pct_below_52w_high": 15.4,
+      "pct_above_52w_low": 16.7,
+      "pct_below_52w_high": 15.5,
       "near_52w_low": true,
       "tags": [
         "NEAR_52W_LOW"
@@ -12559,14 +12559,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/GMRAIRPORT/consolidated/",
       "ratios": {
-        "pe": 185.0,
+        "pe": 184.0,
         "industry_pe": null,
         "pb": null,
         "roe": null,
         "roce": 11.6,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 103754.0
+        "market_cap": 103627.0
       }
     },
     {
@@ -12593,6 +12593,58 @@
         "de": null,
         "div_yield": 2.52,
         "market_cap": 7619.0
+      }
+    },
+    {
+      "symbol": "ASIANPAINT",
+      "name": "Asian Paints Ltd",
+      "sector": "Consumer Durables",
+      "current_price": 2472.0,
+      "week52_high": 2986.0,
+      "week52_low": 2115.0,
+      "pct_above_52w_low": 16.9,
+      "pct_below_52w_high": 17.2,
+      "near_52w_low": true,
+      "tags": [
+        "NEAR_52W_LOW"
+      ],
+      "is_opportunity": true,
+      "screener_url": "https://www.screener.in/company/ASIANPAINT/consolidated/",
+      "ratios": {
+        "pe": 49.0,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 21.8,
+        "roce": 26.3,
+        "de": null,
+        "div_yield": 1.11,
+        "market_cap": 238893.0
+      }
+    },
+    {
+      "symbol": "EICHERMOT",
+      "name": "Eicher Motors Ltd",
+      "sector": "Automobile and Auto Components",
+      "current_price": 7530.0,
+      "week52_high": 8233.0,
+      "week52_low": 6439.0,
+      "pct_above_52w_low": 16.9,
+      "pct_below_52w_high": 8.5,
+      "near_52w_low": true,
+      "tags": [
+        "NEAR_52W_LOW"
+      ],
+      "is_opportunity": true,
+      "screener_url": "https://www.screener.in/company/EICHERMOT/consolidated/",
+      "ratios": {
+        "pe": 35.5,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 24.0,
+        "roce": 30.5,
+        "de": null,
+        "div_yield": 1.09,
+        "market_cap": 206634.0
       }
     },
     {
@@ -12645,32 +12697,6 @@
         "de": null,
         "div_yield": 0.87,
         "market_cap": 53415.0
-      }
-    },
-    {
-      "symbol": "EICHERMOT",
-      "name": "Eicher Motors Ltd",
-      "sector": "Automobile and Auto Components",
-      "current_price": 7540.0,
-      "week52_high": 8233.0,
-      "week52_low": 6439.0,
-      "pct_above_52w_low": 17.1,
-      "pct_below_52w_high": 8.4,
-      "near_52w_low": true,
-      "tags": [
-        "NEAR_52W_LOW"
-      ],
-      "is_opportunity": true,
-      "screener_url": "https://www.screener.in/company/EICHERMOT/consolidated/",
-      "ratios": {
-        "pe": 35.6,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 24.0,
-        "roce": 30.5,
-        "de": null,
-        "div_yield": 1.09,
-        "market_cap": 206909.0
       }
     },
     {
@@ -12934,6 +12960,32 @@
       }
     },
     {
+      "symbol": "CONCOR",
+      "name": "Container Corporation Of India Ltd",
+      "sector": "Services",
+      "current_price": 499.0,
+      "week52_high": 570.0,
+      "week52_low": 421.0,
+      "pct_above_52w_low": 18.5,
+      "pct_below_52w_high": 12.5,
+      "near_52w_low": true,
+      "tags": [
+        "NEAR_52W_LOW"
+      ],
+      "is_opportunity": true,
+      "screener_url": "https://www.screener.in/company/CONCOR/consolidated/",
+      "ratios": {
+        "pe": 30.5,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 9.81,
+        "roce": 12.6,
+        "de": null,
+        "div_yield": 1.72,
+        "market_cap": 37900.0
+      }
+    },
+    {
       "symbol": "ABREL",
       "name": "Aditya Birla Real Estate Ltd",
       "sector": "Realty",
@@ -12983,32 +13035,6 @@
         "de": null,
         "div_yield": 0.28,
         "market_cap": 23348.0
-      }
-    },
-    {
-      "symbol": "CONCOR",
-      "name": "Container Corporation Of India Ltd",
-      "sector": "Services",
-      "current_price": 500.0,
-      "week52_high": 570.0,
-      "week52_low": 421.0,
-      "pct_above_52w_low": 18.8,
-      "pct_below_52w_high": 12.3,
-      "near_52w_low": true,
-      "tags": [
-        "NEAR_52W_LOW"
-      ],
-      "is_opportunity": true,
-      "screener_url": "https://www.screener.in/company/CONCOR/consolidated/",
-      "ratios": {
-        "pe": 30.6,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 9.81,
-        "roce": 12.6,
-        "de": null,
-        "div_yield": 1.72,
-        "market_cap": 37941.0
       }
     },
     {
@@ -13087,32 +13113,6 @@
         "de": null,
         "div_yield": 1.58,
         "market_cap": 14356.0
-      }
-    },
-    {
-      "symbol": "LT",
-      "name": "Larsen & Toubro Ltd",
-      "sector": "Construction",
-      "current_price": 3915.0,
-      "week52_high": 4440.0,
-      "week52_low": 3288.0,
-      "pct_above_52w_low": 19.1,
-      "pct_below_52w_high": 11.8,
-      "near_52w_low": true,
-      "tags": [
-        "NEAR_52W_LOW"
-      ],
-      "is_opportunity": true,
-      "screener_url": "https://www.screener.in/company/LT/consolidated/",
-      "ratios": {
-        "pe": 30.6,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 15.9,
-        "roce": 14.6,
-        "de": null,
-        "div_yield": 0.97,
-        "market_cap": 538652.0
       }
     },
     {
@@ -13220,6 +13220,32 @@
       }
     },
     {
+      "symbol": "LT",
+      "name": "Larsen & Toubro Ltd",
+      "sector": "Construction",
+      "current_price": 3931.0,
+      "week52_high": 4440.0,
+      "week52_low": 3288.0,
+      "pct_above_52w_low": 19.6,
+      "pct_below_52w_high": 11.5,
+      "near_52w_low": true,
+      "tags": [
+        "NEAR_52W_LOW"
+      ],
+      "is_opportunity": true,
+      "screener_url": "https://www.screener.in/company/LT/consolidated/",
+      "ratios": {
+        "pe": 30.7,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 15.9,
+        "roce": 14.6,
+        "de": null,
+        "div_yield": 0.97,
+        "market_cap": 540812.0
+      }
+    },
+    {
       "symbol": "NUVOCO",
       "name": "Nuvoco Vistas Corporation Ltd",
       "sector": "Construction Materials",
@@ -13272,6 +13298,32 @@
       }
     },
     {
+      "symbol": "BAJAJFINSV",
+      "name": "Bajaj Finserv Ltd",
+      "sector": "Financial Services",
+      "current_price": 1914.0,
+      "week52_high": 2195.0,
+      "week52_low": 1597.0,
+      "pct_above_52w_low": 19.8,
+      "pct_below_52w_high": 12.8,
+      "near_52w_low": true,
+      "tags": [
+        "NEAR_52W_LOW"
+      ],
+      "is_opportunity": true,
+      "screener_url": "https://www.screener.in/company/BAJAJFINSV/consolidated/",
+      "ratios": {
+        "pe": 30.1,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 13.2,
+        "roce": 10.6,
+        "de": null,
+        "div_yield": 0.08,
+        "market_cap": 309183.0
+      }
+    },
+    {
       "symbol": "ELECON",
       "name": "Elecon Engineering Company Ltd",
       "sector": "Capital Goods",
@@ -13298,32 +13350,6 @@
       }
     },
     {
-      "symbol": "BAJAJFINSV",
-      "name": "Bajaj Finserv Ltd",
-      "sector": "Financial Services",
-      "current_price": 1917.0,
-      "week52_high": 2195.0,
-      "week52_low": 1597.0,
-      "pct_above_52w_low": 20.0,
-      "pct_below_52w_high": 12.7,
-      "near_52w_low": true,
-      "tags": [
-        "NEAR_52W_LOW"
-      ],
-      "is_opportunity": true,
-      "screener_url": "https://www.screener.in/company/BAJAJFINSV/consolidated/",
-      "ratios": {
-        "pe": 30.1,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 13.2,
-        "roce": 10.6,
-        "de": null,
-        "div_yield": 0.08,
-        "market_cap": 309797.0
-      }
-    },
-    {
       "symbol": "ICICIAMC",
       "name": "ICICI Prudential Asset Management Co Ltd",
       "sector": "Financial Services",
@@ -13347,6 +13373,32 @@
         "de": null,
         "div_yield": 0.9,
         "market_cap": 150269.0
+      }
+    },
+    {
+      "symbol": "360ONE",
+      "name": "360 ONE WAM Ltd",
+      "sector": "Financial Services",
+      "current_price": 1091.0,
+      "week52_high": 1236.0,
+      "week52_low": 906.0,
+      "pct_above_52w_low": 20.4,
+      "pct_below_52w_high": 11.7,
+      "near_52w_low": true,
+      "tags": [
+        "DISCOUNTED_ZONE"
+      ],
+      "is_opportunity": true,
+      "screener_url": "https://www.screener.in/company/360ONE/consolidated/",
+      "ratios": {
+        "pe": 35.2,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 14.4,
+        "roce": 12.1,
+        "de": null,
+        "div_yield": 1.1,
+        "market_cap": 44421.0
       }
     },
     {
@@ -13402,32 +13454,6 @@
       }
     },
     {
-      "symbol": "360ONE",
-      "name": "360 ONE WAM Ltd",
-      "sector": "Financial Services",
-      "current_price": 1092.0,
-      "week52_high": 1236.0,
-      "week52_low": 906.0,
-      "pct_above_52w_low": 20.5,
-      "pct_below_52w_high": 11.7,
-      "near_52w_low": true,
-      "tags": [
-        "DISCOUNTED_ZONE"
-      ],
-      "is_opportunity": true,
-      "screener_url": "https://www.screener.in/company/360ONE/consolidated/",
-      "ratios": {
-        "pe": 35.2,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 14.4,
-        "roce": 12.1,
-        "de": null,
-        "div_yield": 1.11,
-        "market_cap": 44514.0
-      }
-    },
-    {
       "symbol": "HDBFS",
       "name": "HDB Financial Services Ltd",
       "sector": "Financial Services",
@@ -13469,14 +13495,40 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/BANKINDIA/consolidated/",
       "ratios": {
-        "pe": 5.36,
+        "pe": 5.37,
         "industry_pe": null,
         "pb": null,
         "roe": 12.4,
         "roce": 5.93,
         "de": null,
         "div_yield": 3.32,
-        "market_cap": 63198.0
+        "market_cap": 63288.0
+      }
+    },
+    {
+      "symbol": "NESTLEIND",
+      "name": "Nestle India Ltd",
+      "sector": "Fast Moving Consumer Goods",
+      "current_price": 1383.0,
+      "week52_high": 1553.0,
+      "week52_low": 1145.0,
+      "pct_above_52w_low": 20.8,
+      "pct_below_52w_high": 10.9,
+      "near_52w_low": true,
+      "tags": [
+        "DISCOUNTED_ZONE"
+      ],
+      "is_opportunity": true,
+      "screener_url": "https://www.screener.in/company/NESTLEIND/consolidated/",
+      "ratios": {
+        "pe": 71.5,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 74.2,
+        "roce": 85.3,
+        "de": null,
+        "div_yield": 0.87,
+        "market_cap": 264871.0
       }
     },
     {
@@ -13506,32 +13558,6 @@
       }
     },
     {
-      "symbol": "NESTLEIND",
-      "name": "Nestle India Ltd",
-      "sector": "Fast Moving Consumer Goods",
-      "current_price": 1384.0,
-      "week52_high": 1553.0,
-      "week52_low": 1145.0,
-      "pct_above_52w_low": 20.9,
-      "pct_below_52w_high": 10.9,
-      "near_52w_low": true,
-      "tags": [
-        "DISCOUNTED_ZONE"
-      ],
-      "is_opportunity": true,
-      "screener_url": "https://www.screener.in/company/NESTLEIND/consolidated/",
-      "ratios": {
-        "pe": 71.5,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 74.2,
-        "roce": 85.3,
-        "de": null,
-        "div_yield": 0.87,
-        "market_cap": 265005.0
-      }
-    },
-    {
       "symbol": "UNOMINDA",
       "name": "Uno Minda Ltd",
       "sector": "Automobile and Auto Components",
@@ -13547,14 +13573,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/UNOMINDA/consolidated/",
       "ratios": {
-        "pe": 56.9,
+        "pe": 56.8,
         "industry_pe": null,
         "pb": null,
         "roe": 19.3,
         "roce": 19.6,
         "de": null,
         "div_yield": 0.22,
-        "market_cap": 69508.0
+        "market_cap": 69462.0
       }
     },
     {
@@ -13658,7 +13684,7 @@
         "roce": 6.98,
         "de": null,
         "div_yield": 0.16,
-        "market_cap": 416109.0
+        "market_cap": 416407.0
       }
     },
     {
@@ -13691,11 +13717,11 @@
       "symbol": "SBIN",
       "name": "State Bank of India",
       "sector": "Banking",
-      "current_price": 997.0,
+      "current_price": 996.0,
       "week52_high": 1235.0,
       "week52_low": 820.0,
-      "pct_above_52w_low": 21.6,
-      "pct_below_52w_high": 19.3,
+      "pct_above_52w_low": 21.5,
+      "pct_below_52w_high": 19.4,
       "near_52w_low": true,
       "tags": [
         "DISCOUNTED_ZONE"
@@ -13710,7 +13736,7 @@
         "roce": 6.13,
         "de": null,
         "div_yield": 1.74,
-        "market_cap": 925057.0
+        "market_cap": 923850.0
       }
     },
     {
@@ -13807,40 +13833,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/PETRONET/consolidated/",
       "ratios": {
-        "pe": 10.2,
+        "pe": 10.3,
         "industry_pe": null,
         "pb": null,
         "roe": 18.3,
         "roce": 22.6,
         "de": null,
         "div_yield": 3.48,
-        "market_cap": 43125.0
-      }
-    },
-    {
-      "symbol": "KEI",
-      "name": "KEI Industries Ltd",
-      "sector": "Capital Goods",
-      "current_price": 4570.0,
-      "week52_high": 5931.0,
-      "week52_low": 3729.0,
-      "pct_above_52w_low": 22.6,
-      "pct_below_52w_high": 22.9,
-      "near_52w_low": true,
-      "tags": [
-        "DISCOUNTED_ZONE"
-      ],
-      "is_opportunity": true,
-      "screener_url": "https://www.screener.in/company/KEI/consolidated/",
-      "ratios": {
-        "pe": 43.8,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 14.7,
-        "roce": 20.0,
-        "de": null,
-        "div_yield": 0.1,
-        "market_cap": 43719.0
+        "market_cap": 43155.0
       }
     },
     {
@@ -13892,7 +13892,33 @@
         "roce": 8.59,
         "de": null,
         "div_yield": 1.78,
-        "market_cap": 31822.0
+        "market_cap": 31842.0
+      }
+    },
+    {
+      "symbol": "KEI",
+      "name": "KEI Industries Ltd",
+      "sector": "Capital Goods",
+      "current_price": 4578.0,
+      "week52_high": 5931.0,
+      "week52_low": 3729.0,
+      "pct_above_52w_low": 22.8,
+      "pct_below_52w_high": 22.8,
+      "near_52w_low": true,
+      "tags": [
+        "DISCOUNTED_ZONE"
+      ],
+      "is_opportunity": true,
+      "screener_url": "https://www.screener.in/company/KEI/consolidated/",
+      "ratios": {
+        "pe": 43.9,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 14.7,
+        "roce": 20.0,
+        "de": null,
+        "div_yield": 0.1,
+        "market_cap": 43795.0
       }
     },
     {
@@ -13970,7 +13996,7 @@
         "roce": 13.6,
         "de": null,
         "div_yield": 2.14,
-        "market_cap": 96198.0
+        "market_cap": 96080.0
       }
     },
     {
@@ -14026,6 +14052,32 @@
       }
     },
     {
+      "symbol": "JSWSTEEL",
+      "name": "JSW Steel Ltd",
+      "sector": "Metals & Mining",
+      "current_price": 1265.0,
+      "week52_high": 1351.0,
+      "week52_low": 1025.0,
+      "pct_above_52w_low": 23.4,
+      "pct_below_52w_high": 6.4,
+      "near_52w_low": true,
+      "tags": [
+        "DISCOUNTED_ZONE"
+      ],
+      "is_opportunity": true,
+      "screener_url": "https://www.screener.in/company/JSWSTEEL/consolidated/",
+      "ratios": {
+        "pe": 25.6,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 10.2,
+        "roce": 11.0,
+        "de": null,
+        "div_yield": 0.56,
+        "market_cap": 308404.0
+      }
+    },
+    {
       "symbol": "SBFC",
       "name": "SBFC Finance Ltd",
       "sector": "Financial Services",
@@ -14049,32 +14101,6 @@
         "de": null,
         "div_yield": 0.0,
         "market_cap": 10907.0
-      }
-    },
-    {
-      "symbol": "INDIANB",
-      "name": "Indian Bank",
-      "sector": "Banking",
-      "current_price": 853.0,
-      "week52_high": 1001.0,
-      "week52_low": 690.0,
-      "pct_above_52w_low": 23.6,
-      "pct_below_52w_high": 14.8,
-      "near_52w_low": true,
-      "tags": [
-        "DISCOUNTED_ZONE"
-      ],
-      "is_opportunity": true,
-      "screener_url": "https://www.screener.in/company/INDIANB/consolidated/",
-      "ratios": {
-        "pe": 8.95,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 15.4,
-        "roce": 6.32,
-        "de": null,
-        "div_yield": 2.14,
-        "market_cap": 114415.0
       }
     },
     {
@@ -14104,32 +14130,6 @@
       }
     },
     {
-      "symbol": "JSWSTEEL",
-      "name": "JSW Steel Ltd",
-      "sector": "Metals & Mining",
-      "current_price": 1268.0,
-      "week52_high": 1351.0,
-      "week52_low": 1025.0,
-      "pct_above_52w_low": 23.7,
-      "pct_below_52w_high": 6.1,
-      "near_52w_low": true,
-      "tags": [
-        "DISCOUNTED_ZONE"
-      ],
-      "is_opportunity": true,
-      "screener_url": "https://www.screener.in/company/JSWSTEEL/consolidated/",
-      "ratios": {
-        "pe": 25.7,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 10.2,
-        "roce": 11.0,
-        "de": null,
-        "div_yield": 0.56,
-        "market_cap": 309013.0
-      }
-    },
-    {
       "symbol": "POLYCAB",
       "name": "Polycab India Ltd",
       "sector": "Capital Goods",
@@ -14153,6 +14153,32 @@
         "de": null,
         "div_yield": 0.57,
         "market_cap": 124096.0
+      }
+    },
+    {
+      "symbol": "INDIANB",
+      "name": "Indian Bank",
+      "sector": "Banking",
+      "current_price": 854.0,
+      "week52_high": 1001.0,
+      "week52_low": 690.0,
+      "pct_above_52w_low": 23.8,
+      "pct_below_52w_high": 14.7,
+      "near_52w_low": true,
+      "tags": [
+        "DISCOUNTED_ZONE"
+      ],
+      "is_opportunity": true,
+      "screener_url": "https://www.screener.in/company/INDIANB/consolidated/",
+      "ratios": {
+        "pe": 8.96,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 15.4,
+        "roce": 6.32,
+        "de": null,
+        "div_yield": 2.14,
+        "market_cap": 114496.0
       }
     },
     {
@@ -14282,7 +14308,7 @@
         "roce": 31.0,
         "de": null,
         "div_yield": 0.73,
-        "market_cap": 159548.0
+        "market_cap": 159492.0
       }
     },
     {
@@ -14334,7 +14360,7 @@
         "roce": 10.3,
         "de": null,
         "div_yield": 0.05,
-        "market_cap": 15589.0
+        "market_cap": 15599.0
       }
     },
     {
@@ -14390,6 +14416,32 @@
       }
     },
     {
+      "symbol": "OBEROIRLTY",
+      "name": "Oberoi Realty Ltd",
+      "sector": "Realty",
+      "current_price": 1741.0,
+      "week52_high": 1986.0,
+      "week52_low": 1390.0,
+      "pct_above_52w_low": 25.3,
+      "pct_below_52w_high": 12.3,
+      "near_52w_low": true,
+      "tags": [
+        "DISCOUNTED_ZONE"
+      ],
+      "is_opportunity": true,
+      "screener_url": "https://www.screener.in/company/OBEROIRLTY/consolidated/",
+      "ratios": {
+        "pe": 24.0,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 14.6,
+        "roce": 17.3,
+        "de": null,
+        "div_yield": 0.46,
+        "market_cap": 63555.0
+      }
+    },
+    {
       "symbol": "ENDURANCE",
       "name": "Endurance Technologies Ltd",
       "sector": "Automobile and Auto Components",
@@ -14413,32 +14465,6 @@
         "de": null,
         "div_yield": 0.43,
         "market_cap": 37865.0
-      }
-    },
-    {
-      "symbol": "OBEROIRLTY",
-      "name": "Oberoi Realty Ltd",
-      "sector": "Realty",
-      "current_price": 1747.0,
-      "week52_high": 1986.0,
-      "week52_low": 1390.0,
-      "pct_above_52w_low": 25.7,
-      "pct_below_52w_high": 12.0,
-      "near_52w_low": true,
-      "tags": [
-        "DISCOUNTED_ZONE"
-      ],
-      "is_opportunity": true,
-      "screener_url": "https://www.screener.in/company/OBEROIRLTY/consolidated/",
-      "ratios": {
-        "pe": 24.1,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 14.6,
-        "roce": 17.3,
-        "de": null,
-        "div_yield": 0.46,
-        "market_cap": 63770.0
       }
     },
     {
@@ -14509,14 +14535,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/INDHOTEL/consolidated/",
       "ratios": {
-        "pe": 52.2,
+        "pe": 52.3,
         "industry_pe": null,
         "pb": null,
         "roe": 14.2,
         "roce": 17.1,
         "de": null,
         "div_yield": 0.45,
-        "market_cap": 101493.0
+        "market_cap": 101599.0
       }
     },
     {
@@ -14598,6 +14624,32 @@
       }
     },
     {
+      "symbol": "TVSMOTOR",
+      "name": "TVS Motor Company Ltd",
+      "sector": "Automobile and Auto Components",
+      "current_price": 4125.0,
+      "week52_high": 4485.0,
+      "week52_low": 3228.0,
+      "pct_above_52w_low": 27.8,
+      "pct_below_52w_high": 8.0,
+      "near_52w_low": true,
+      "tags": [
+        "DISCOUNTED_ZONE"
+      ],
+      "is_opportunity": true,
+      "screener_url": "https://www.screener.in/company/TVSMOTOR/consolidated/",
+      "ratios": {
+        "pe": 56.7,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 33.6,
+        "roce": 17.4,
+        "de": null,
+        "div_yield": 0.29,
+        "market_cap": 196283.0
+      }
+    },
+    {
       "symbol": "CREDITACC",
       "name": "CreditAccess Grameen Ltd",
       "sector": "Financial Services",
@@ -14624,39 +14676,13 @@
       }
     },
     {
-      "symbol": "TVSMOTOR",
-      "name": "TVS Motor Company Ltd",
-      "sector": "Automobile and Auto Components",
-      "current_price": 4128.0,
-      "week52_high": 4485.0,
-      "week52_low": 3228.0,
-      "pct_above_52w_low": 27.9,
-      "pct_below_52w_high": 8.0,
-      "near_52w_low": true,
-      "tags": [
-        "DISCOUNTED_ZONE"
-      ],
-      "is_opportunity": true,
-      "screener_url": "https://www.screener.in/company/TVSMOTOR/consolidated/",
-      "ratios": {
-        "pe": 56.8,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 33.6,
-        "roce": 17.4,
-        "de": null,
-        "div_yield": 0.29,
-        "market_cap": 196402.0
-      }
-    },
-    {
       "symbol": "TRENT",
       "name": "Trent Ltd",
       "sector": "Consumer Services",
-      "current_price": 2804.0,
+      "current_price": 2802.0,
       "week52_high": 3499.0,
       "week52_low": 2184.0,
-      "pct_above_52w_low": 28.4,
+      "pct_above_52w_low": 28.3,
       "pct_below_52w_high": 19.9,
       "near_52w_low": true,
       "tags": [
@@ -14672,7 +14698,7 @@
         "roce": 28.3,
         "de": null,
         "div_yield": 0.14,
-        "market_cap": 151094.0
+        "market_cap": 150986.0
       }
     },
     {
@@ -14754,6 +14780,32 @@
       }
     },
     {
+      "symbol": "PHOENIXLTD",
+      "name": "Phoenix Mills Ltd",
+      "sector": "Realty",
+      "current_price": 1890.0,
+      "week52_high": 2170.0,
+      "week52_low": 1465.0,
+      "pct_above_52w_low": 29.0,
+      "pct_below_52w_high": 12.9,
+      "near_52w_low": true,
+      "tags": [
+        "DISCOUNTED_ZONE"
+      ],
+      "is_opportunity": true,
+      "screener_url": "https://www.screener.in/company/PHOENIXLTD/consolidated/",
+      "ratios": {
+        "pe": 52.1,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 11.0,
+        "roce": 12.4,
+        "de": null,
+        "div_yield": 0.13,
+        "market_cap": 67601.0
+      }
+    },
+    {
       "symbol": "CLEAN",
       "name": "Clean Science & Technology Ltd",
       "sector": "Chemicals",
@@ -14802,18 +14854,18 @@
         "roce": 69.5,
         "de": null,
         "div_yield": 1.91,
-        "market_cap": 243318.0
+        "market_cap": 243486.0
       }
     },
     {
       "symbol": "BAJAJHLDNG",
       "name": "Bajaj Holdings & Investment Ltd",
       "sector": "Financial Services",
-      "current_price": 11121.0,
+      "current_price": 11134.0,
       "week52_high": 13880.0,
       "week52_low": 8588.0,
-      "pct_above_52w_low": 29.5,
-      "pct_below_52w_high": 19.9,
+      "pct_above_52w_low": 29.6,
+      "pct_below_52w_high": 19.8,
       "near_52w_low": true,
       "tags": [
         "DISCOUNTED_ZONE"
@@ -14828,33 +14880,7 @@
         "roce": 11.0,
         "de": null,
         "div_yield": 1.3,
-        "market_cap": 123999.0
-      }
-    },
-    {
-      "symbol": "PHOENIXLTD",
-      "name": "Phoenix Mills Ltd",
-      "sector": "Realty",
-      "current_price": 1899.0,
-      "week52_high": 2170.0,
-      "week52_low": 1465.0,
-      "pct_above_52w_low": 29.6,
-      "pct_below_52w_high": 12.5,
-      "near_52w_low": true,
-      "tags": [
-        "DISCOUNTED_ZONE"
-      ],
-      "is_opportunity": true,
-      "screener_url": "https://www.screener.in/company/PHOENIXLTD/consolidated/",
-      "ratios": {
-        "pe": 52.4,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 11.0,
-        "roce": 12.4,
-        "de": null,
-        "div_yield": 0.13,
-        "market_cap": 67937.0
+        "market_cap": 124147.0
       }
     },
     {
@@ -14879,8 +14905,8 @@
         "roe": 8.71,
         "roce": 9.67,
         "de": null,
-        "div_yield": 3.16,
-        "market_cap": 114008.0
+        "div_yield": 3.17,
+        "market_cap": 113824.0
       }
     },
     {
@@ -14910,13 +14936,39 @@
       }
     },
     {
+      "symbol": "PERSISTENT",
+      "name": "Persistent Systems Ltd",
+      "sector": "IT",
+      "current_price": 5516.0,
+      "week52_high": 6599.0,
+      "week52_low": 4243.0,
+      "pct_above_52w_low": 30.0,
+      "pct_below_52w_high": 16.4,
+      "near_52w_low": true,
+      "tags": [
+        "DISCOUNTED_ZONE"
+      ],
+      "is_opportunity": true,
+      "screener_url": "https://www.screener.in/company/PERSISTENT/consolidated/",
+      "ratios": {
+        "pe": 43.8,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 27.2,
+        "roce": 34.4,
+        "de": null,
+        "div_yield": 0.73,
+        "market_cap": 87165.0
+      }
+    },
+    {
       "symbol": "APLAPOLLO",
       "name": "APL Apollo Tubes Ltd",
       "sector": "Capital Goods",
-      "current_price": 2153.0,
+      "current_price": 2154.0,
       "week52_high": 2301.0,
       "week52_low": 1653.0,
-      "pct_above_52w_low": 30.2,
+      "pct_above_52w_low": 30.3,
       "pct_below_52w_high": 6.4,
       "near_52w_low": false,
       "tags": [],
@@ -14930,7 +14982,7 @@
         "roce": 31.8,
         "de": null,
         "div_yield": 0.39,
-        "market_cap": 59693.0
+        "market_cap": 59707.0
       }
     },
     {
@@ -14955,30 +15007,6 @@
         "de": null,
         "div_yield": 0.76,
         "market_cap": 15077.0
-      }
-    },
-    {
-      "symbol": "PERSISTENT",
-      "name": "Persistent Systems Ltd",
-      "sector": "IT",
-      "current_price": 5542.0,
-      "week52_high": 6599.0,
-      "week52_low": 4243.0,
-      "pct_above_52w_low": 30.6,
-      "pct_below_52w_high": 16.0,
-      "near_52w_low": false,
-      "tags": [],
-      "is_opportunity": false,
-      "screener_url": "https://www.screener.in/company/PERSISTENT/consolidated/",
-      "ratios": {
-        "pe": 44.0,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 27.2,
-        "roce": 34.4,
-        "de": null,
-        "div_yield": 0.73,
-        "market_cap": 87569.0
       }
     },
     {
@@ -15124,7 +15152,7 @@
         "roce": 8.01,
         "de": null,
         "div_yield": 0.3,
-        "market_cap": 223328.0
+        "market_cap": 223352.0
       }
     },
     {
@@ -15172,7 +15200,7 @@
         "roce": 6.32,
         "de": null,
         "div_yield": 1.24,
-        "market_cap": 159518.0
+        "market_cap": 159741.0
       }
     },
     {
@@ -15203,24 +15231,24 @@
       "symbol": "APOLLOHOSP",
       "name": "Apollo Hospitals Enterprise Ltd",
       "sector": "Healthcare",
-      "current_price": 8850.0,
+      "current_price": 8836.0,
       "week52_high": 9327.0,
       "week52_low": 6680.0,
-      "pct_above_52w_low": 32.5,
-      "pct_below_52w_high": 5.1,
+      "pct_above_52w_low": 32.3,
+      "pct_below_52w_high": 5.3,
       "near_52w_low": false,
       "tags": [],
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/APOLLOHOSP/consolidated/",
       "ratios": {
-        "pe": 60.7,
+        "pe": 60.6,
         "industry_pe": null,
         "pb": null,
         "roe": 21.2,
         "roce": 17.4,
         "de": null,
         "div_yield": 0.23,
-        "market_cap": 127608.0
+        "market_cap": 127406.0
       }
     },
     {
@@ -15248,6 +15276,30 @@
       }
     },
     {
+      "symbol": "LTF",
+      "name": "L&T Finance Ltd",
+      "sector": "Financial Services",
+      "current_price": 309.0,
+      "week52_high": 339.0,
+      "week52_low": 232.0,
+      "pct_above_52w_low": 33.2,
+      "pct_below_52w_high": 8.8,
+      "near_52w_low": false,
+      "tags": [],
+      "is_opportunity": false,
+      "screener_url": "https://www.screener.in/company/LTF/consolidated/",
+      "ratios": {
+        "pe": 24.2,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 11.2,
+        "roce": 8.4,
+        "de": null,
+        "div_yield": 0.89,
+        "market_cap": 77484.0
+      }
+    },
+    {
       "symbol": "TRITURBINE",
       "name": "Triveni Turbine Ltd",
       "sector": "Capital Goods",
@@ -15269,6 +15321,30 @@
         "de": null,
         "div_yield": 0.75,
         "market_cap": 18096.0
+      }
+    },
+    {
+      "symbol": "CUMMINSIND",
+      "name": "Cummins India Ltd",
+      "sector": "Capital Goods",
+      "current_price": 5070.0,
+      "week52_high": 6143.0,
+      "week52_low": 3803.0,
+      "pct_above_52w_low": 33.3,
+      "pct_below_52w_high": 17.5,
+      "near_52w_low": false,
+      "tags": [],
+      "is_opportunity": false,
+      "screener_url": "https://www.screener.in/company/CUMMINSIND/consolidated/",
+      "ratios": {
+        "pe": 57.8,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 30.2,
+        "roce": 39.5,
+        "de": null,
+        "div_yield": 1.3,
+        "market_cap": 140948.0
       }
     },
     {
@@ -15344,62 +15420,14 @@
       }
     },
     {
-      "symbol": "LTF",
-      "name": "L&T Finance Ltd",
-      "sector": "Financial Services",
-      "current_price": 310.0,
-      "week52_high": 339.0,
-      "week52_low": 232.0,
-      "pct_above_52w_low": 33.6,
-      "pct_below_52w_high": 8.6,
-      "near_52w_low": false,
-      "tags": [],
-      "is_opportunity": false,
-      "screener_url": "https://www.screener.in/company/LTF/consolidated/",
-      "ratios": {
-        "pe": 24.2,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 11.2,
-        "roce": 8.4,
-        "de": null,
-        "div_yield": 0.89,
-        "market_cap": 77584.0
-      }
-    },
-    {
-      "symbol": "CUMMINSIND",
-      "name": "Cummins India Ltd",
-      "sector": "Capital Goods",
-      "current_price": 5085.0,
-      "week52_high": 6143.0,
-      "week52_low": 3803.0,
-      "pct_above_52w_low": 33.7,
-      "pct_below_52w_high": 17.2,
-      "near_52w_low": false,
-      "tags": [],
-      "is_opportunity": false,
-      "screener_url": "https://www.screener.in/company/CUMMINSIND/consolidated/",
-      "ratios": {
-        "pe": 58.0,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 30.2,
-        "roce": 39.5,
-        "de": null,
-        "div_yield": 1.3,
-        "market_cap": 141365.0
-      }
-    },
-    {
       "symbol": "ZYDUSLIFE",
       "name": "Zydus Lifesciences Ltd",
       "sector": "Healthcare",
-      "current_price": 1120.0,
+      "current_price": 1119.0,
       "week52_high": 1206.0,
       "week52_low": 836.0,
-      "pct_above_52w_low": 34.0,
-      "pct_below_52w_high": 7.1,
+      "pct_above_52w_low": 33.9,
+      "pct_below_52w_high": 7.2,
       "near_52w_low": false,
       "tags": [],
       "is_opportunity": false,
@@ -15412,7 +15440,7 @@
         "roce": 21.1,
         "de": null,
         "div_yield": 0.09,
-        "market_cap": 111651.0
+        "market_cap": 111611.0
       }
     },
     {
@@ -15460,7 +15488,7 @@
         "roce": 13.2,
         "de": null,
         "div_yield": 0.51,
-        "market_cap": 219572.0
+        "market_cap": 219483.0
       }
     },
     {
@@ -15536,32 +15564,6 @@
       }
     },
     {
-      "symbol": "GLENMARK",
-      "name": "Glenmark Pharmaceuticals Ltd",
-      "sector": "Healthcare",
-      "current_price": 2417.0,
-      "week52_high": 2538.0,
-      "week52_low": 1793.0,
-      "pct_above_52w_low": 34.8,
-      "pct_below_52w_high": 4.8,
-      "near_52w_low": false,
-      "tags": [
-        "NEAR_52W_HIGH"
-      ],
-      "is_opportunity": true,
-      "screener_url": "https://www.screener.in/company/GLENMARK/consolidated/",
-      "ratios": {
-        "pe": 21.8,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 23.6,
-        "roce": 39.8,
-        "de": null,
-        "div_yield": 0.21,
-        "market_cap": 68154.0
-      }
-    },
-    {
       "symbol": "UNIONBANK",
       "name": "Union Bank of India",
       "sector": "Banking",
@@ -15582,7 +15584,33 @@
         "roce": 6.3,
         "de": null,
         "div_yield": 2.81,
-        "market_cap": 134676.0
+        "market_cap": 134751.0
+      }
+    },
+    {
+      "symbol": "GLENMARK",
+      "name": "Glenmark Pharmaceuticals Ltd",
+      "sector": "Healthcare",
+      "current_price": 2419.0,
+      "week52_high": 2538.0,
+      "week52_low": 1793.0,
+      "pct_above_52w_low": 34.9,
+      "pct_below_52w_high": 4.7,
+      "near_52w_low": false,
+      "tags": [
+        "NEAR_52W_HIGH"
+      ],
+      "is_opportunity": true,
+      "screener_url": "https://www.screener.in/company/GLENMARK/consolidated/",
+      "ratios": {
+        "pe": 21.9,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 23.6,
+        "roce": 39.8,
+        "de": null,
+        "div_yield": 0.21,
+        "market_cap": 68219.0
       }
     },
     {
@@ -15678,7 +15706,7 @@
         "roce": 14.1,
         "de": null,
         "div_yield": 0.43,
-        "market_cap": 409055.0
+        "market_cap": 408962.0
       }
     },
     {
@@ -15702,7 +15730,7 @@
         "roce": 5.98,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 73867.0
+        "market_cap": 73899.0
       }
     },
     {
@@ -15783,11 +15811,11 @@
       "symbol": "BAJAJ-AUTO",
       "name": "Bajaj Auto Ltd",
       "sector": "Automobile and Auto Components",
-      "current_price": 11684.0,
+      "current_price": 11678.0,
       "week52_high": 12470.0,
       "week52_low": 8490.0,
       "pct_above_52w_low": 37.6,
-      "pct_below_52w_high": 6.3,
+      "pct_below_52w_high": 6.4,
       "near_52w_low": false,
       "tags": [],
       "is_opportunity": false,
@@ -15800,7 +15828,7 @@
         "roce": 28.2,
         "de": null,
         "div_yield": 1.28,
-        "market_cap": 319939.0
+        "market_cap": 319775.0
       }
     },
     {
@@ -15824,7 +15852,7 @@
         "roce": 5.68,
         "de": null,
         "div_yield": 0.15,
-        "market_cap": 76054.0
+        "market_cap": 76085.0
       }
     },
     {
@@ -15872,7 +15900,7 @@
         "roce": 3.45,
         "de": null,
         "div_yield": 0.67,
-        "market_cap": 81111.0
+        "market_cap": 81104.0
       }
     },
     {
@@ -16023,11 +16051,11 @@
       "symbol": "SIEMENS",
       "name": "Siemens Ltd",
       "sector": "Capital Goods",
-      "current_price": 3961.0,
+      "current_price": 3957.0,
       "week52_high": 4149.0,
       "week52_low": 2826.0,
-      "pct_above_52w_low": 40.2,
-      "pct_below_52w_high": 4.5,
+      "pct_above_52w_low": 40.0,
+      "pct_below_52w_high": 4.6,
       "near_52w_low": false,
       "tags": [
         "NEAR_52W_HIGH"
@@ -16035,14 +16063,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/SIEMENS/consolidated/",
       "ratios": {
-        "pe": 93.4,
+        "pe": 93.3,
         "industry_pe": null,
         "pb": null,
         "roe": 19.2,
         "roce": 21.4,
         "de": null,
         "div_yield": 0.45,
-        "market_cap": 140431.0
+        "market_cap": 140292.0
       }
     },
     {
@@ -16168,30 +16196,6 @@
       }
     },
     {
-      "symbol": "CHOLAFIN",
-      "name": "Cholamandalam Investment & Finance Company Ltd",
-      "sector": "Financial Services",
-      "current_price": 1845.0,
-      "week52_high": 1952.0,
-      "week52_low": 1299.0,
-      "pct_above_52w_low": 42.0,
-      "pct_below_52w_high": 5.5,
-      "near_52w_low": false,
-      "tags": [],
-      "is_opportunity": false,
-      "screener_url": "https://www.screener.in/company/CHOLAFIN/consolidated/",
-      "ratios": {
-        "pe": 27.6,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 19.4,
-        "roce": 9.71,
-        "de": null,
-        "div_yield": 0.11,
-        "market_cap": 158419.0
-      }
-    },
-    {
       "symbol": "ABCAPITAL",
       "name": "Aditya Birla Capital Ltd",
       "sector": "Financial Services",
@@ -16213,6 +16217,30 @@
         "de": null,
         "div_yield": 0.0,
         "market_cap": 108133.0
+      }
+    },
+    {
+      "symbol": "CHOLAFIN",
+      "name": "Cholamandalam Investment & Finance Company Ltd",
+      "sector": "Financial Services",
+      "current_price": 1846.0,
+      "week52_high": 1952.0,
+      "week52_low": 1299.0,
+      "pct_above_52w_low": 42.1,
+      "pct_below_52w_high": 5.4,
+      "near_52w_low": false,
+      "tags": [],
+      "is_opportunity": false,
+      "screener_url": "https://www.screener.in/company/CHOLAFIN/consolidated/",
+      "ratios": {
+        "pe": 27.6,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 19.4,
+        "roce": 9.71,
+        "de": null,
+        "div_yield": 0.11,
+        "market_cap": 158496.0
       }
     },
     {
@@ -16293,24 +16321,24 @@
       "symbol": "TORNTPHARM",
       "name": "Torrent Pharmaceuticals Ltd",
       "sector": "Healthcare",
-      "current_price": 4975.0,
+      "current_price": 4966.0,
       "week52_high": 5250.0,
       "week52_low": 3480.0,
-      "pct_above_52w_low": 43.0,
-      "pct_below_52w_high": 5.2,
+      "pct_above_52w_low": 42.7,
+      "pct_below_52w_high": 5.4,
       "near_52w_low": false,
       "tags": [],
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/TORNTPHARM/consolidated/",
       "ratios": {
-        "pe": 84.8,
+        "pe": 84.7,
         "industry_pe": null,
         "pb": null,
         "roe": 27.4,
         "roce": 15.2,
         "de": null,
         "div_yield": 0.77,
-        "market_cap": 189294.0
+        "market_cap": 188933.0
       }
     },
     {
@@ -17090,32 +17118,6 @@
       }
     },
     {
-      "symbol": "TITAN",
-      "name": "Titan Company Ltd",
-      "sector": "Consumer Durables",
-      "current_price": 5005.0,
-      "week52_high": 5187.0,
-      "week52_low": 3303.0,
-      "pct_above_52w_low": 51.5,
-      "pct_below_52w_high": 3.5,
-      "near_52w_low": false,
-      "tags": [
-        "NEAR_52W_HIGH"
-      ],
-      "is_opportunity": true,
-      "screener_url": "https://www.screener.in/company/TITAN/consolidated/",
-      "ratios": {
-        "pe": 76.3,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 37.7,
-        "roce": 20.5,
-        "de": null,
-        "div_yield": 0.3,
-        "market_cap": 445313.0
-      }
-    },
-    {
       "symbol": "AJANTPHARM",
       "name": "Ajanta Pharma Ltd",
       "sector": "Healthcare",
@@ -17161,6 +17163,32 @@
         "de": null,
         "div_yield": 0.09,
         "market_cap": 78710.0
+      }
+    },
+    {
+      "symbol": "TITAN",
+      "name": "Titan Company Ltd",
+      "sector": "Consumer Durables",
+      "current_price": 5010.0,
+      "week52_high": 5187.0,
+      "week52_low": 3303.0,
+      "pct_above_52w_low": 51.7,
+      "pct_below_52w_high": 3.4,
+      "near_52w_low": false,
+      "tags": [
+        "NEAR_52W_HIGH"
+      ],
+      "is_opportunity": true,
+      "screener_url": "https://www.screener.in/company/TITAN/consolidated/",
+      "ratios": {
+        "pe": 76.4,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 37.7,
+        "roce": 20.5,
+        "de": null,
+        "div_yield": 0.3,
+        "market_cap": 445713.0
       }
     },
     {
@@ -17352,7 +17380,7 @@
         "roce": 32.2,
         "de": null,
         "div_yield": 2.3,
-        "market_cap": 32116.0
+        "market_cap": 32109.0
       }
     },
     {
@@ -17454,7 +17482,7 @@
         "roce": 6.03,
         "de": null,
         "div_yield": 2.61,
-        "market_cap": 64932.0
+        "market_cap": 64955.0
       }
     },
     {
@@ -17700,7 +17728,7 @@
         "roce": 13.4,
         "de": null,
         "div_yield": 0.36,
-        "market_cap": 172564.0
+        "market_cap": 172721.0
       }
     },
     {
@@ -17719,14 +17747,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/ANTHEM/consolidated/",
       "ratios": {
-        "pe": 89.3,
+        "pe": 89.4,
         "industry_pe": null,
         "pb": null,
         "roe": 22.3,
         "roce": 30.4,
         "de": null,
         "div_yield": 0.21,
-        "market_cap": 53004.0
+        "market_cap": 53038.0
       }
     },
     {
@@ -17750,7 +17778,7 @@
         "roce": 14.5,
         "de": null,
         "div_yield": 0.24,
-        "market_cap": 22051.0
+        "market_cap": 22046.0
       }
     },
     {
@@ -17921,8 +17949,32 @@
         "roe": 14.3,
         "roce": 18.4,
         "de": null,
-        "div_yield": 0.88,
-        "market_cap": 17692.0
+        "div_yield": 0.85,
+        "market_cap": 17693.0
+      }
+    },
+    {
+      "symbol": "DIVISLAB",
+      "name": "Divis Laboratories Ltd",
+      "sector": "Pharma",
+      "current_price": 9322.0,
+      "week52_high": 10000.0,
+      "week52_low": 5636.0,
+      "pct_above_52w_low": 65.4,
+      "pct_below_52w_high": 6.8,
+      "near_52w_low": false,
+      "tags": [],
+      "is_opportunity": false,
+      "screener_url": "https://www.screener.in/company/DIVISLAB/consolidated/",
+      "ratios": {
+        "pe": 83.4,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 16.5,
+        "roce": 22.0,
+        "de": null,
+        "div_yield": 0.32,
+        "market_cap": 248351.0
       }
     },
     {
@@ -17950,30 +18002,6 @@
       }
     },
     {
-      "symbol": "DIVISLAB",
-      "name": "Divis Laboratories Ltd",
-      "sector": "Pharma",
-      "current_price": 9326.0,
-      "week52_high": 10000.0,
-      "week52_low": 5636.0,
-      "pct_above_52w_low": 65.5,
-      "pct_below_52w_high": 6.7,
-      "near_52w_low": false,
-      "tags": [],
-      "is_opportunity": false,
-      "screener_url": "https://www.screener.in/company/DIVISLAB/consolidated/",
-      "ratios": {
-        "pe": 83.4,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 16.5,
-        "roce": 22.0,
-        "de": null,
-        "div_yield": 0.32,
-        "market_cap": 248458.0
-      }
-    },
-    {
       "symbol": "VEDL",
       "name": "Vedanta Ltd",
       "sector": "Metals & Mining",
@@ -17987,25 +18015,25 @@
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/VEDL/consolidated/",
       "ratios": {
-        "pe": 9.39,
+        "pe": 9.37,
         "industry_pe": null,
         "pb": null,
         "roe": 38.2,
         "roce": 16.1,
         "de": null,
         "div_yield": 12.9,
-        "market_cap": 103333.0
+        "market_cap": 103079.0
       }
     },
     {
       "symbol": "MOTILALOFS",
       "name": "Motilal Oswal Financial Services Ltd",
       "sector": "Financial Services",
-      "current_price": 1027.0,
+      "current_price": 1026.0,
       "week52_high": 1097.0,
       "week52_low": 615.0,
-      "pct_above_52w_low": 67.0,
-      "pct_below_52w_high": 6.4,
+      "pct_above_52w_low": 66.8,
+      "pct_below_52w_high": 6.5,
       "near_52w_low": false,
       "tags": [],
       "is_opportunity": false,
@@ -18018,7 +18046,7 @@
         "roce": 12.7,
         "de": null,
         "div_yield": 0.58,
-        "market_cap": 61801.0
+        "market_cap": 61768.0
       }
     },
     {
@@ -18109,14 +18137,14 @@
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/ADANIPOWER/consolidated/",
       "ratios": {
-        "pe": 28.4,
+        "pe": 28.5,
         "industry_pe": null,
         "pb": null,
         "roe": 21.1,
         "roce": 17.2,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 405639.0
+        "market_cap": 405871.0
       }
     },
     {
@@ -18149,7 +18177,7 @@
       "symbol": "BOSCHLTD",
       "name": "Bosch Ltd",
       "sector": "Automobile and Auto Components",
-      "current_price": 48389.0,
+      "current_price": 48385.0,
       "week52_high": 50000.0,
       "week52_low": 28610.0,
       "pct_above_52w_low": 69.1,
@@ -18168,7 +18196,7 @@
         "roce": 21.5,
         "de": null,
         "div_yield": 0.56,
-        "market_cap": 143234.0
+        "market_cap": 143223.0
       }
     },
     {
@@ -18247,11 +18275,11 @@
       "symbol": "SHRIRAMFIN",
       "name": "Shriram Finance Ltd",
       "sector": "Financial Services",
-      "current_price": 1028.0,
+      "current_price": 1029.0,
       "week52_high": 1154.0,
       "week52_low": 603.0,
-      "pct_above_52w_low": 70.5,
-      "pct_below_52w_high": 10.9,
+      "pct_above_52w_low": 70.6,
+      "pct_below_52w_high": 10.8,
       "near_52w_low": false,
       "tags": [],
       "is_opportunity": false,
@@ -18264,7 +18292,7 @@
         "roce": 11.5,
         "de": null,
         "div_yield": 1.05,
-        "market_cap": 241887.0
+        "market_cap": 242028.0
       }
     },
     {
@@ -18367,11 +18395,11 @@
       "symbol": "CGPOWER",
       "name": "CG Power & Industrial Solutions Ltd",
       "sector": "Capital Goods",
-      "current_price": 910.0,
+      "current_price": 909.0,
       "week52_high": 981.0,
       "week52_low": 526.0,
-      "pct_above_52w_low": 73.0,
-      "pct_below_52w_high": 7.2,
+      "pct_above_52w_low": 72.8,
+      "pct_below_52w_high": 7.3,
       "near_52w_low": false,
       "tags": [],
       "is_opportunity": false,
@@ -18384,7 +18412,7 @@
         "roce": 26.7,
         "de": null,
         "div_yield": 0.14,
-        "market_cap": 144400.0
+        "market_cap": 144241.0
       }
     },
     {
@@ -18439,7 +18467,7 @@
       "symbol": "RADICO",
       "name": "Radico Khaitan Ltd",
       "sector": "Fast Moving Consumer Goods",
-      "current_price": 4367.0,
+      "current_price": 4368.0,
       "week52_high": 4748.0,
       "week52_low": 2500.0,
       "pct_above_52w_low": 74.7,
@@ -18456,7 +18484,7 @@
         "roce": 24.2,
         "de": null,
         "div_yield": 0.21,
-        "market_cap": 58642.0
+        "market_cap": 58658.0
       }
     },
     {
@@ -18669,38 +18697,38 @@
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/GROWW/consolidated/",
       "ratios": {
-        "pe": 51.6,
+        "pe": 51.5,
         "industry_pe": null,
         "pb": null,
         "roe": 28.8,
         "roce": 37.3,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 125623.0
+        "market_cap": 125552.0
       }
     },
     {
       "symbol": "GVT&D",
       "name": "GE Vernova T&D India Ltd",
       "sector": "Capital Goods",
-      "current_price": 4545.0,
+      "current_price": 4548.0,
       "week52_high": 5650.0,
       "week52_low": 2523.0,
-      "pct_above_52w_low": 80.1,
-      "pct_below_52w_high": 19.6,
+      "pct_above_52w_low": 80.3,
+      "pct_below_52w_high": 19.5,
       "near_52w_low": false,
       "tags": [],
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/GVT&D/consolidated/",
       "ratios": {
-        "pe": 629.0,
+        "pe": 630.0,
         "industry_pe": null,
         "pb": null,
         "roe": 18.6,
         "roce": null,
         "de": null,
         "div_yield": 0.22,
-        "market_cap": 117538.0
+        "market_cap": 117619.0
       }
     },
     {
@@ -18717,14 +18745,14 @@
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/NATIONALUM/consolidated/",
       "ratios": {
-        "pe": 9.88,
+        "pe": 9.87,
         "industry_pe": null,
         "pb": null,
         "roe": 29.4,
         "roce": 39.6,
         "de": null,
         "div_yield": 3.19,
-        "market_cap": 66724.0
+        "market_cap": 66651.0
       }
     },
     {
@@ -18772,7 +18800,7 @@
         "roce": 6.39,
         "de": null,
         "div_yield": 0.35,
-        "market_cap": 84904.0
+        "market_cap": 84929.0
       }
     },
     {
@@ -18805,10 +18833,10 @@
       "symbol": "COFORGE",
       "name": "Coforge Ltd",
       "sector": "IT",
-      "current_price": 1847.0,
+      "current_price": 1846.0,
       "week52_high": 2022.0,
       "week52_low": 1008.0,
-      "pct_above_52w_low": 83.2,
+      "pct_above_52w_low": 83.1,
       "pct_below_52w_high": 8.7,
       "near_52w_low": false,
       "tags": [],
@@ -18822,7 +18850,7 @@
         "roce": 23.5,
         "de": null,
         "div_yield": 0.65,
-        "market_cap": 81396.0
+        "market_cap": 81357.0
       }
     },
     {
@@ -18948,7 +18976,7 @@
         "roce": 7.56,
         "de": null,
         "div_yield": 0.07,
-        "market_cap": 32697.0
+        "market_cap": 32775.0
       }
     },
     {
@@ -18979,10 +19007,10 @@
       "symbol": "OFSS",
       "name": "Oracle Financial Services Software Ltd",
       "sector": "IT",
-      "current_price": 11760.0,
+      "current_price": 11763.0,
       "week52_high": 12540.0,
       "week52_low": 6232.0,
-      "pct_above_52w_low": 88.7,
+      "pct_above_52w_low": 88.8,
       "pct_below_52w_high": 6.2,
       "near_52w_low": false,
       "tags": [],
@@ -18996,7 +19024,7 @@
         "roce": 45.3,
         "de": null,
         "div_yield": 3.4,
-        "market_cap": 102664.0
+        "market_cap": 102690.0
       }
     },
     {
@@ -19050,6 +19078,32 @@
       }
     },
     {
+      "symbol": "SOLARINDS",
+      "name": "Solar Industries India Ltd",
+      "sector": "Chemicals",
+      "current_price": 22290.0,
+      "week52_high": 22625.0,
+      "week52_low": 11641.0,
+      "pct_above_52w_low": 91.5,
+      "pct_below_52w_high": 1.5,
+      "near_52w_low": false,
+      "tags": [
+        "NEAR_52W_HIGH"
+      ],
+      "is_opportunity": true,
+      "screener_url": "https://www.screener.in/company/SOLARINDS/consolidated/",
+      "ratios": {
+        "pe": 101.0,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 32.6,
+        "roce": 38.1,
+        "de": null,
+        "div_yield": 0.05,
+        "market_cap": 201522.0
+      }
+    },
+    {
       "symbol": "LENSKART",
       "name": "Lenskart Solutions Ltd",
       "sector": "Consumer Services",
@@ -19073,32 +19127,6 @@
         "de": null,
         "div_yield": 0.0,
         "market_cap": 118594.0
-      }
-    },
-    {
-      "symbol": "SOLARINDS",
-      "name": "Solar Industries India Ltd",
-      "sector": "Chemicals",
-      "current_price": 22308.0,
-      "week52_high": 22625.0,
-      "week52_low": 11641.0,
-      "pct_above_52w_low": 91.6,
-      "pct_below_52w_high": 1.4,
-      "near_52w_low": false,
-      "tags": [
-        "NEAR_52W_HIGH"
-      ],
-      "is_opportunity": true,
-      "screener_url": "https://www.screener.in/company/SOLARINDS/consolidated/",
-      "ratios": {
-        "pe": 101.0,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 32.6,
-        "roce": 38.1,
-        "de": null,
-        "div_yield": 0.05,
-        "market_cap": 201680.0
       }
     },
     {
@@ -19200,7 +19228,7 @@
         "roce": 9.14,
         "de": null,
         "div_yield": 0.32,
-        "market_cap": 149070.0
+        "market_cap": 149208.0
       }
     },
     {
@@ -19320,7 +19348,7 @@
         "roce": -1.72,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 161431.0
+        "market_cap": 161539.0
       }
     },
     {
@@ -19463,14 +19491,14 @@
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/ACMESOLAR/consolidated/",
       "ratios": {
-        "pe": 47.7,
+        "pe": 47.8,
         "industry_pe": null,
         "pb": null,
         "roe": 10.4,
         "roce": 8.89,
         "de": null,
         "div_yield": 0.05,
-        "market_cap": 28438.0
+        "market_cap": 28459.0
       }
     },
     {
@@ -19731,14 +19759,14 @@
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/ACUTAAS/consolidated/",
       "ratios": {
-        "pe": 71.8,
+        "pe": 71.7,
         "industry_pe": null,
         "pb": null,
         "roe": 24.0,
         "roce": 31.6,
         "de": null,
         "div_yield": 0.07,
-        "market_cap": 27703.0
+        "market_cap": 27704.0
       }
     },
     {
@@ -19764,7 +19792,7 @@
         "roce": null,
         "de": null,
         "div_yield": 0.0,
-        "market_cap": 65658.0
+        "market_cap": 65670.0
       }
     },
     {
@@ -19788,7 +19816,7 @@
         "roce": 28.6,
         "de": null,
         "div_yield": 0.04,
-        "market_cap": 45256.0
+        "market_cap": 45267.0
       }
     },
     {
