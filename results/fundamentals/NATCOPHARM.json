@@ -3,12 +3,12 @@
   "name": "Natco Pharma Ltd",
   "sector": "Healthcare",
   "screener_url": "https://www.screener.in/company/NATCOPHARM/consolidated/",
-  "score_pct": 72.2,
-  "passes": 7,
-  "fails": 1,
+  "score_pct": 82.0,
+  "passes": 8,
+  "fails": 0,
   "neutrals": 5,
-  "verdict": "Moderate -- dig deeper",
-  "verdict_color": "amber",
+  "verdict": "Strong buy candidate",
+  "verdict_color": "green",
   "criteria": [
     {
       "id": "c1",
@@ -95,7 +95,7 @@
       "label": "CFI negative (investing in growth)",
       "result": "pass",
       "score": 1.0,
-      "detail": "CFI = -2082.0 Cr -- investing actively",
+      "detail": "CFI = -1987.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -109,22 +109,22 @@
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "ROE 16.9% <= ROCE 17.0% -- leverage not adding value",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "ROE 17.1% > ROCE 17.0% -- leverage working for shareholders",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Current Price": 829.0,
-    "Market Cap": 14842.0,
-    "P/E": 13.0,
+    "Current Price": 815.0,
+    "Market Cap": 14604.0,
+    "P/E": 12.8,
     "Industry P/E": null,
     "P/B": null,
-    "ROE %": 16.9,
-    "ROCE %": 17.1,
+    "ROE %": 17.1,
+    "ROCE %": 17.4,
     "Debt / Equity": null,
-    "Div. Yield %": 0.6,
+    "Div. Yield %": 0.61,
     "52W High": 1227.0,
     "52W Low": 789.0
   },
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-09-06T07:06:12.910418+00:00"
+  "scanned_at": "2026-09-13T07:25:36.601230+00:00"
 }

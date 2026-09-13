@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 5781.0 -> 6340.0 -> 7219.0 (last 3Y) Cr",
+      "detail": "Reserves: 5781.0 -> 6341.0 -> 7219.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -95,7 +95,7 @@
       "label": "CFI negative (investing in growth)",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFI = 214.0 Cr -- positive (possible asset sales)",
+      "detail": "CFI = 225.0 Cr -- positive (possible asset sales)",
       "weight": 1.0
     },
     {
@@ -116,9 +116,9 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 1836.0,
-    "Market Cap": 84951.0,
-    "P/E": 114.0,
+    "Current Price": 1797.0,
+    "Market Cap": 83160.0,
+    "P/E": 111.0,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 9.75,
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-09-06T07:08:06.115973+00:00"
+  "scanned_at": "2026-09-13T07:27:30.611611+00:00"
 }
