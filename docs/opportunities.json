@@ -1,7 +1,7 @@
 {
   "meta": {
     "strategy": "opportunities",
-    "scanned_at": "2026-09-21T13:31:00.264020+00:00",
+    "scanned_at": "2026-09-21T17:33:04.825080+00:00",
     "total": 501,
     "success": 468,
     "opportunities": 305,
@@ -288,8 +288,8 @@
         "pe": 13.6,
         "industry_pe": null,
         "pb": null,
-        "roe": 32.7,
-        "roce": 29.3,
+        "roe": 32.1,
+        "roce": 29.8,
         "de": null,
         "div_yield": 1.08,
         "market_cap": 9575.0
@@ -474,7 +474,7 @@
         "roce": 21.2,
         "de": null,
         "div_yield": 2.29,
-        "market_cap": 7951.0
+        "market_cap": 7955.0
       }
     },
     {
@@ -630,7 +630,7 @@
         "roce": 14.7,
         "de": null,
         "div_yield": 1.77,
-        "market_cap": 14991.0
+        "market_cap": 14996.0
       }
     },
     {
@@ -3445,11 +3445,11 @@
       "symbol": "CHOLAHLDNG",
       "name": "Cholamandalam Financial Holdings Ltd",
       "sector": "Financial Services",
-      "current_price": 1463.0,
+      "current_price": 1475.0,
       "week52_high": 2064.0,
       "week52_low": 1305.0,
-      "pct_above_52w_low": 12.1,
-      "pct_below_52w_high": 29.1,
+      "pct_above_52w_low": 13.0,
+      "pct_below_52w_high": 28.5,
       "near_52w_low": true,
       "tags": [
         "NEAR_52W_LOW"
@@ -3457,14 +3457,14 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/CHOLAHLDNG/consolidated/",
       "ratios": {
-        "pe": 10.3,
+        "pe": 10.4,
         "industry_pe": null,
         "pb": null,
         "roe": 17.5,
         "roce": 9.75,
         "de": null,
         "div_yield": 0.09,
-        "market_cap": 27458.0
+        "market_cap": 27680.0
       }
     },
     {
@@ -6946,7 +6946,7 @@
         "industry_pe": null,
         "pb": null,
         "roe": 10.4,
-        "roce": 8.89,
+        "roce": 8.91,
         "de": null,
         "div_yield": 0.04,
         "market_cap": 32445.0
@@ -9655,7 +9655,7 @@
         "roce": 21.2,
         "de": null,
         "div_yield": 2.29,
-        "market_cap": 7951.0
+        "market_cap": 7955.0
       }
     },
     {
@@ -10119,8 +10119,8 @@
         "pe": 13.6,
         "industry_pe": null,
         "pb": null,
-        "roe": 32.7,
-        "roce": 29.3,
+        "roe": 32.1,
+        "roce": 29.8,
         "de": null,
         "div_yield": 1.08,
         "market_cap": 9575.0
@@ -10357,7 +10357,7 @@
         "roce": 14.7,
         "de": null,
         "div_yield": 1.77,
-        "market_cap": 14991.0
+        "market_cap": 14996.0
       }
     },
     {
@@ -11505,32 +11505,6 @@
       }
     },
     {
-      "symbol": "CHOLAHLDNG",
-      "name": "Cholamandalam Financial Holdings Ltd",
-      "sector": "Financial Services",
-      "current_price": 1463.0,
-      "week52_high": 2064.0,
-      "week52_low": 1305.0,
-      "pct_above_52w_low": 12.1,
-      "pct_below_52w_high": 29.1,
-      "near_52w_low": true,
-      "tags": [
-        "NEAR_52W_LOW"
-      ],
-      "is_opportunity": true,
-      "screener_url": "https://www.screener.in/company/CHOLAHLDNG/consolidated/",
-      "ratios": {
-        "pe": 10.3,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 17.5,
-        "roce": 9.75,
-        "de": null,
-        "div_yield": 0.09,
-        "market_cap": 27458.0
-      }
-    },
-    {
       "symbol": "COALINDIA",
       "name": "Coal India Ltd",
       "sector": "Oil Gas & Consumable Fuels",
@@ -11632,6 +11606,32 @@
         "de": null,
         "div_yield": 0.79,
         "market_cap": 13993.0
+      }
+    },
+    {
+      "symbol": "CHOLAHLDNG",
+      "name": "Cholamandalam Financial Holdings Ltd",
+      "sector": "Financial Services",
+      "current_price": 1475.0,
+      "week52_high": 2064.0,
+      "week52_low": 1305.0,
+      "pct_above_52w_low": 13.0,
+      "pct_below_52w_high": 28.5,
+      "near_52w_low": true,
+      "tags": [
+        "NEAR_52W_LOW"
+      ],
+      "is_opportunity": true,
+      "screener_url": "https://www.screener.in/company/CHOLAHLDNG/consolidated/",
+      "ratios": {
+        "pe": 10.4,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 17.5,
+        "roce": 9.75,
+        "de": null,
+        "div_yield": 0.09,
+        "market_cap": 27680.0
       }
     },
     {
@@ -15972,30 +15972,6 @@
       }
     },
     {
-      "symbol": "CYIENT",
-      "name": "Cyient Ltd",
-      "sector": "Information Technology",
-      "current_price": 1055.0,
-      "week52_high": 1228.0,
-      "week52_low": 750.0,
-      "pct_above_52w_low": 40.7,
-      "pct_below_52w_high": 14.1,
-      "near_52w_low": false,
-      "tags": [],
-      "is_opportunity": false,
-      "screener_url": "https://www.screener.in/company/CYIENT/consolidated/",
-      "ratios": {
-        "pe": 28.8,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 8.61,
-        "roce": 12.3,
-        "de": null,
-        "div_yield": 1.52,
-        "market_cap": 11729.0
-      }
-    },
-    {
       "symbol": "THELEELA",
       "name": "Leela Palaces Hotels & Resorts Ltd",
       "sector": "Consumer Services",
@@ -16067,6 +16043,30 @@
         "de": null,
         "div_yield": 0.0,
         "market_cap": 30592.0
+      }
+    },
+    {
+      "symbol": "CYIENT",
+      "name": "Cyient Ltd",
+      "sector": "Information Technology",
+      "current_price": 1061.0,
+      "week52_high": 1228.0,
+      "week52_low": 750.0,
+      "pct_above_52w_low": 41.5,
+      "pct_below_52w_high": 13.6,
+      "near_52w_low": false,
+      "tags": [],
+      "is_opportunity": false,
+      "screener_url": "https://www.screener.in/company/CYIENT/consolidated/",
+      "ratios": {
+        "pe": 28.9,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 8.61,
+        "roce": 12.3,
+        "de": null,
+        "div_yield": 1.51,
+        "market_cap": 11794.0
       }
     },
     {
@@ -18674,30 +18674,6 @@
       }
     },
     {
-      "symbol": "CGCL",
-      "name": "Capri Global Capital Ltd",
-      "sector": "Financial Services",
-      "current_price": 268.0,
-      "week52_high": 288.0,
-      "week52_low": 151.0,
-      "pct_above_52w_low": 77.5,
-      "pct_below_52w_high": 6.9,
-      "near_52w_low": false,
-      "tags": [],
-      "is_opportunity": false,
-      "screener_url": "https://www.screener.in/company/CGCL/consolidated/",
-      "ratios": {
-        "pe": 22.9,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 16.5,
-        "roce": 11.7,
-        "de": null,
-        "div_yield": 0.07,
-        "market_cap": 25776.0
-      }
-    },
-    {
       "symbol": "KALYANKJIL",
       "name": "Kalyan Jewellers India Ltd",
       "sector": "Consumer Durables",
@@ -18719,6 +18695,30 @@
         "de": null,
         "div_yield": 0.43,
         "market_cap": 59833.0
+      }
+    },
+    {
+      "symbol": "CGCL",
+      "name": "Capri Global Capital Ltd",
+      "sector": "Financial Services",
+      "current_price": 269.0,
+      "week52_high": 288.0,
+      "week52_low": 151.0,
+      "pct_above_52w_low": 78.1,
+      "pct_below_52w_high": 6.6,
+      "near_52w_low": false,
+      "tags": [],
+      "is_opportunity": false,
+      "screener_url": "https://www.screener.in/company/CGCL/consolidated/",
+      "ratios": {
+        "pe": 23.0,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 16.5,
+        "roce": 11.7,
+        "de": null,
+        "div_yield": 0.07,
+        "market_cap": 25877.0
       }
     },
     {
@@ -18847,10 +18847,10 @@
       "symbol": "COFORGE",
       "name": "Coforge Ltd",
       "sector": "IT",
-      "current_price": 1813.0,
+      "current_price": 1814.0,
       "week52_high": 2022.0,
       "week52_low": 1008.0,
-      "pct_above_52w_low": 79.9,
+      "pct_above_52w_low": 80.0,
       "pct_below_52w_high": 10.3,
       "near_52w_low": false,
       "tags": [],
@@ -18864,7 +18864,7 @@
         "roce": 23.5,
         "de": null,
         "div_yield": 0.66,
-        "market_cap": 84006.0
+        "market_cap": 84054.0
       }
     },
     {
@@ -19505,7 +19505,7 @@
         "industry_pe": null,
         "pb": null,
         "roe": 10.4,
-        "roce": 8.89,
+        "roce": 8.91,
         "de": null,
         "div_yield": 0.04,
         "market_cap": 32445.0
@@ -19591,24 +19591,24 @@
       "symbol": "CEMPRO",
       "name": "Cemindia Projects Ltd",
       "sector": "Construction",
-      "current_price": 1253.0,
+      "current_price": 1256.0,
       "week52_high": 1650.0,
       "week52_low": 481.0,
-      "pct_above_52w_low": 160.5,
-      "pct_below_52w_high": 24.1,
+      "pct_above_52w_low": 161.1,
+      "pct_below_52w_high": 23.9,
       "near_52w_low": false,
       "tags": [],
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/CEMPRO/consolidated/",
       "ratios": {
-        "pe": 35.8,
+        "pe": 35.9,
         "industry_pe": null,
         "pb": null,
         "roe": 27.8,
         "roce": 32.8,
         "de": null,
         "div_yield": 0.24,
-        "market_cap": 21524.0
+        "market_cap": 21584.0
       }
     },
     {
