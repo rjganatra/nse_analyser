@@ -1,7 +1,7 @@
 {
   "meta": {
     "strategy": "opportunities",
-    "scanned_at": "2026-09-29T13:36:15.026933+00:00",
+    "scanned_at": "2026-09-29T17:21:27.449760+00:00",
     "total": 501,
     "success": 468,
     "opportunities": 308,
@@ -630,7 +630,7 @@
         "roce": 21.2,
         "de": null,
         "div_yield": 2.42,
-        "market_cap": 7530.0
+        "market_cap": 7529.0
       }
     },
     {
@@ -812,7 +812,7 @@
         "roce": 14.7,
         "de": null,
         "div_yield": 1.86,
-        "market_cap": 14244.0
+        "market_cap": 14261.0
       }
     },
     {
@@ -8328,7 +8328,7 @@
         "roce": 21.2,
         "de": null,
         "div_yield": 2.42,
-        "market_cap": 7530.0
+        "market_cap": 7529.0
       }
     },
     {
@@ -9654,7 +9654,7 @@
         "roce": 14.7,
         "de": null,
         "div_yield": 1.86,
-        "market_cap": 14244.0
+        "market_cap": 14261.0
       }
     },
     {
@@ -17976,7 +17976,7 @@
         "roce": 11.7,
         "de": null,
         "div_yield": 0.08,
-        "market_cap": 23780.0
+        "market_cap": 23770.0
       }
     },
     {
@@ -18441,11 +18441,11 @@
       "symbol": "COFORGE",
       "name": "Coforge Ltd",
       "sector": "IT",
-      "current_price": 1721.0,
+      "current_price": 1722.0,
       "week52_high": 2022.0,
       "week52_low": 1008.0,
-      "pct_above_52w_low": 70.7,
-      "pct_below_52w_high": 14.9,
+      "pct_above_52w_low": 70.8,
+      "pct_below_52w_high": 14.8,
       "near_52w_low": false,
       "tags": [],
       "is_opportunity": false,
@@ -18458,7 +18458,7 @@
         "roce": 23.5,
         "de": null,
         "div_yield": 0.7,
-        "market_cap": 76247.0
+        "market_cap": 76291.0
       }
     },
     {
