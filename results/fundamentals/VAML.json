@@ -3,10 +3,10 @@
   "name": "Vedanta Aluminium Metal Ltd",
   "sector": "Metals & Mining",
   "screener_url": "https://www.screener.in/company/VAML/consolidated/",
-  "score_pct": 43.5,
-  "passes": 0,
+  "score_pct": 46.7,
+  "passes": 1,
   "fails": 1,
-  "neutrals": 12,
+  "neutrals": 11,
   "verdict": "Weak fundamentals",
   "verdict_color": "red",
   "criteria": [
@@ -21,9 +21,9 @@
     {
       "id": "c2",
       "label": "OPM > industry",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "OPM unavailable",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "OPM 38.0% vs benchmark 14.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "neutral",
       "score": 0.5,
-      "detail": "Trend: no data",
+      "detail": "Trend: 1181900.0 (last 1Y)",
       "weight": 1.5
     },
     {
@@ -116,22 +116,22 @@
     }
   ],
   "top_ratios": {
-    "Current Price": null,
-    "Market Cap": null,
-    "P/E": null,
+    "Current Price": 403.0,
+    "Market Cap": 157491.0,
+    "P/E": 9.95,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": null,
     "ROCE %": null,
     "Debt / Equity": null,
-    "Div. Yield %": null,
-    "52W High": null,
-    "52W Low": null
+    "Div. Yield %": 1.99,
+    "52W High": 538.0,
+    "52W Low": 399.0
   },
   "benchmark": {
     "opm": 14.0,
     "npm": 7.0,
     "sg": 8.0
   },
-  "scanned_at": "2026-06-21T07:18:36.326929+00:00"
+  "scanned_at": "2026-10-04T08:11:08.265399+00:00"
 }

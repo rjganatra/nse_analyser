@@ -3,10 +3,10 @@
   "name": "Vedanta Oil and Gas Ltd",
   "sector": "Oil Gas & Consumable Fuels",
   "screener_url": "https://www.screener.in/company/VOGL/consolidated/",
-  "score_pct": 43.5,
-  "passes": 0,
+  "score_pct": 46.7,
+  "passes": 1,
   "fails": 1,
-  "neutrals": 12,
+  "neutrals": 11,
   "verdict": "Weak fundamentals",
   "verdict_color": "red",
   "criteria": [
@@ -21,9 +21,9 @@
     {
       "id": "c2",
       "label": "OPM > industry",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "OPM unavailable",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "OPM 31.0% vs benchmark 15.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "neutral",
       "score": 0.5,
-      "detail": "Trend: no data",
+      "detail": "Trend: -208.8 (last 1Y)",
       "weight": 1.5
     },
     {
@@ -116,22 +116,22 @@
     }
   ],
   "top_ratios": {
-    "Current Price": null,
-    "Market Cap": null,
-    "P/E": null,
+    "Current Price": 32.0,
+    "Market Cap": 12505.0,
+    "P/E": 58.2,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": null,
     "ROCE %": null,
     "Debt / Equity": null,
-    "Div. Yield %": null,
-    "52W High": null,
-    "52W Low": null
+    "Div. Yield %": 0.0,
+    "52W High": 47.7,
+    "52W Low": 30.4
   },
   "benchmark": {
     "opm": 15.0,
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-06-21T07:18:44.231477+00:00"
+  "scanned_at": "2026-10-04T08:11:20.118037+00:00"
 }

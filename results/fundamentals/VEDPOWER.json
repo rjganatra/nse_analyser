@@ -3,10 +3,10 @@
   "name": "Vedanta Power Ltd",
   "sector": "Power",
   "screener_url": "https://www.screener.in/company/VEDPOWER/consolidated/",
-  "score_pct": 43.5,
+  "score_pct": 40.2,
   "passes": 0,
-  "fails": 1,
-  "neutrals": 12,
+  "fails": 2,
+  "neutrals": 11,
   "verdict": "Weak fundamentals",
   "verdict_color": "red",
   "criteria": [
@@ -21,9 +21,9 @@
     {
       "id": "c2",
       "label": "OPM > industry",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "OPM unavailable",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "OPM 18.0% below benchmark 25.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "neutral",
       "score": 0.5,
-      "detail": "Trend: no data",
+      "detail": "Trend: -5.3 (last 1Y)",
       "weight": 1.5
     },
     {
@@ -116,22 +116,22 @@
     }
   ],
   "top_ratios": {
-    "Current Price": null,
-    "Market Cap": null,
-    "P/E": null,
+    "Current Price": 32.8,
+    "Market Cap": 12814.0,
+    "P/E": 20.9,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": null,
     "ROCE %": null,
     "Debt / Equity": null,
-    "Div. Yield %": null,
-    "52W High": null,
-    "52W Low": null
+    "Div. Yield %": 0.0,
+    "52W High": 52.5,
+    "52W Low": 30.4
   },
   "benchmark": {
     "opm": 25.0,
     "npm": 10.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-06-14T07:01:22.335989+00:00"
+  "scanned_at": "2026-10-04T08:11:24.018058+00:00"
 }
