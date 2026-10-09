@@ -1,7 +1,7 @@
 {
   "meta": {
     "strategy": "opportunities",
-    "scanned_at": "2026-10-09T13:58:56.681476+00:00",
+    "scanned_at": "2026-10-09T17:54:58.723853+00:00",
     "total": 501,
     "success": 468,
     "opportunities": 307,
@@ -17307,7 +17307,7 @@
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/ANANDRATHI/consolidated/",
       "ratios": {
-        "pe": 72.6,
+        "pe": 74.3,
         "industry_pe": null,
         "pb": null,
         "roe": 47.3,
