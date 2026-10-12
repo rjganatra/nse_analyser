@@ -1,7 +1,7 @@
 {
   "meta": {
     "strategy": "opportunities",
-    "scanned_at": "2026-10-12T16:15:36.657226+00:00",
+    "scanned_at": "2026-10-12T20:47:29.091340+00:00",
     "total": 501,
     "success": 468,
     "opportunities": 314,
@@ -5173,7 +5173,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/HCLTECH/consolidated/",
       "ratios": {
-        "pe": 18.3,
+        "pe": 17.5,
         "industry_pe": null,
         "pb": null,
         "roe": 23.8,
@@ -8035,7 +8035,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/RBLBANK/consolidated/",
       "ratios": {
-        "pe": 72.2,
+        "pe": 53.9,
         "industry_pe": null,
         "pb": null,
         "roe": 5.43,
@@ -14303,7 +14303,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/HCLTECH/consolidated/",
       "ratios": {
-        "pe": 18.3,
+        "pe": 17.5,
         "industry_pe": null,
         "pb": null,
         "roe": 23.8,
@@ -17169,7 +17169,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/RBLBANK/consolidated/",
       "ratios": {
-        "pe": 72.2,
+        "pe": 53.9,
         "industry_pe": null,
         "pb": null,
         "roe": 5.43,
@@ -17292,7 +17292,7 @@
         "pe": 150.0,
         "industry_pe": null,
         "pb": null,
-        "roe": -3.38,
+        "roe": 4.48,
         "roce": 5.8,
         "de": null,
         "div_yield": 0.05,
