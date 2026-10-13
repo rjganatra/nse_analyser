@@ -1,11 +1,11 @@
 {
   "meta": {
     "strategy": "opportunities",
-    "scanned_at": "2026-10-13T14:51:38.086158+00:00",
+    "scanned_at": "2026-10-13T18:50:26.162979+00:00",
     "total": 501,
-    "success": 468,
+    "success": 466,
     "opportunities": 308,
-    "errors": 3,
+    "errors": 5,
     "data_source": "Screener.in"
   },
   "opportunities": [
@@ -16302,30 +16302,6 @@
       }
     },
     {
-      "symbol": "IKS",
-      "name": "Inventurus Knowledge Solutions Ltd",
-      "sector": "Information Technology",
-      "current_price": 1744.0,
-      "week52_high": 1970.0,
-      "week52_low": 1262.0,
-      "pct_above_52w_low": 38.2,
-      "pct_below_52w_high": 11.5,
-      "near_52w_low": false,
-      "tags": [],
-      "is_opportunity": false,
-      "screener_url": "https://www.screener.in/company/IKS/consolidated/",
-      "ratios": {
-        "pe": 39.2,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 31.4,
-        "roce": 31.5,
-        "de": null,
-        "div_yield": 0.0,
-        "market_cap": 29940.0
-      }
-    },
-    {
       "symbol": "CONCORDBIO",
       "name": "Concord Biotech Ltd",
       "sector": "Healthcare",
@@ -17431,30 +17407,6 @@
         "de": null,
         "div_yield": 0.46,
         "market_cap": 90038.0
-      }
-    },
-    {
-      "symbol": "IPCALAB",
-      "name": "Ipca Laboratories Ltd",
-      "sector": "Pharma",
-      "current_price": 1919.0,
-      "week52_high": 2039.0,
-      "week52_low": 1252.0,
-      "pct_above_52w_low": 53.3,
-      "pct_below_52w_high": 5.9,
-      "near_52w_low": false,
-      "tags": [],
-      "is_opportunity": false,
-      "screener_url": "https://www.screener.in/company/IPCALAB/consolidated/",
-      "ratios": {
-        "pe": 35.5,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 15.7,
-        "roce": 17.0,
-        "de": null,
-        "div_yield": 0.31,
-        "market_cap": 48744.0
       }
     },
     {
