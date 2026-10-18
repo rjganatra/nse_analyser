@@ -3,9 +3,9 @@
   "name": "Craftsman Automation Ltd",
   "sector": "Automobile and Auto Components",
   "screener_url": "https://www.screener.in/company/CRAFTSMAN/consolidated/",
-  "score_pct": 62.4,
-  "passes": 6,
-  "fails": 2,
+  "score_pct": 72.2,
+  "passes": 7,
+  "fails": 1,
   "neutrals": 5,
   "verdict": "Moderate -- dig deeper",
   "verdict_color": "amber",
@@ -29,9 +29,9 @@
     {
       "id": "c3",
       "label": "EPS consistently increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "EPS not rising: 81.6 -> 161.0 -> 189.3 (last 3Y)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "EPS: 81.6 -> 161.0 -> 189.3 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -116,15 +116,15 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 10183.0,
-    "Market Cap": 26633.0,
-    "P/E": 56.9,
+    "Current Price": 10960.0,
+    "Market Cap": 28665.0,
+    "P/E": 61.2,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 12.5,
     "ROCE %": 13.9,
     "Debt / Equity": null,
-    "Div. Yield %": 0.11,
+    "Div. Yield %": 0.1,
     "52W High": 11999.0,
     "52W Low": 6252.0
   },
@@ -133,5 +133,5 @@
     "npm": 6.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-10-11T08:16:55.057714+00:00"
+  "scanned_at": "2026-10-18T07:00:24.470089+00:00"
 }

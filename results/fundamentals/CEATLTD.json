@@ -3,9 +3,9 @@
   "name": "CEAT Ltd",
   "sector": "Automobile and Auto Components",
   "screener_url": "https://www.screener.in/company/CEATLTD/consolidated/",
-  "score_pct": 59.2,
-  "passes": 5,
-  "fails": 3,
+  "score_pct": 65.7,
+  "passes": 6,
+  "fails": 2,
   "neutrals": 5,
   "verdict": "Moderate -- dig deeper",
   "verdict_color": "amber",
@@ -13,9 +13,9 @@
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "Avg growth 9.5% below benchmark 10.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Avg growth 10.1% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -23,7 +23,7 @@
       "label": "OPM > industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "OPM 12.0% below benchmark 12.0%",
+      "detail": "OPM 11.0% below benchmark 12.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 116.8 -> 172.6 -> 145.8 (last 3Y)",
+      "detail": "EPS: 116.8 -> 172.6 -> 127.5 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 4002.0 -> 4328.0 -> 5006.0 (last 3Y) Cr",
+      "detail": "Reserves: 4328.0 -> 5006.0 -> 4921.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -71,7 +71,7 @@
       "label": "Fixed assets increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Fixed assets: 6271.0 -> 6984.0 -> 8439.0 (last 3Y) Cr",
+      "detail": "Fixed assets: 6984.0 -> 8439.0 -> 8552.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -116,15 +116,15 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 3262.0,
-    "Market Cap": 13196.0,
-    "P/E": 20.7,
+    "Current Price": 3295.0,
+    "Market Cap": 13328.0,
+    "P/E": 23.3,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 16.1,
     "ROCE %": 19.2,
     "Debt / Equity": null,
-    "Div. Yield %": 1.07,
+    "Div. Yield %": 1.06,
     "52W High": 4438.0,
     "52W Low": 3061.0
   },
@@ -133,5 +133,5 @@
     "npm": 6.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-10-11T08:15:22.739343+00:00"
+  "scanned_at": "2026-10-18T06:58:53.580581+00:00"
 }

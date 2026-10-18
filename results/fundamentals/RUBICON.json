@@ -3,9 +3,9 @@
   "name": "Rubicon Research Ltd",
   "sector": "Healthcare",
   "screener_url": "https://www.screener.in/company/RUBICON/consolidated/",
-  "score_pct": 62.4,
-  "passes": 6,
-  "fails": 2,
+  "score_pct": 72.2,
+  "passes": 7,
+  "fails": 1,
   "neutrals": 5,
   "verdict": "Moderate -- dig deeper",
   "verdict_color": "amber",
@@ -29,9 +29,9 @@
     {
       "id": "c3",
       "label": "EPS consistently increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "EPS not rising: 8.7 -> 14.9 -> 17.7 (last 3Y)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "EPS: 8.7 -> 14.9 -> 17.7 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -116,9 +116,9 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 1548.0,
-    "Market Cap": 25633.0,
-    "P/E": 88.9,
+    "Current Price": 1509.0,
+    "Market Cap": 24972.0,
+    "P/E": 86.6,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 27.0,
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-10-11T08:34:39.202067+00:00"
+  "scanned_at": "2026-10-18T07:17:52.883802+00:00"
 }

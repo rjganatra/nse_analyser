@@ -3,12 +3,12 @@
   "name": "Inox India Ltd",
   "sector": "Capital Goods",
   "screener_url": "https://www.screener.in/company/INOXINDIA/consolidated/",
-  "score_pct": 55.9,
-  "passes": 5,
-  "fails": 3,
+  "score_pct": 65.7,
+  "passes": 6,
+  "fails": 2,
   "neutrals": 5,
-  "verdict": "Weak fundamentals",
-  "verdict_color": "red",
+  "verdict": "Moderate -- dig deeper",
+  "verdict_color": "amber",
   "criteria": [
     {
       "id": "c1",
@@ -29,9 +29,9 @@
     {
       "id": "c3",
       "label": "EPS consistently increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "EPS not rising: 24.9 -> 28.4 -> 28.1 (last 3Y)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "EPS: 24.9 -> 28.4 -> 28.1 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -116,9 +116,9 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 2057.0,
-    "Market Cap": 18669.0,
-    "P/E": 72.6,
+    "Current Price": 1988.0,
+    "Market Cap": 18041.0,
+    "P/E": 70.2,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 26.1,
@@ -133,5 +133,5 @@
     "npm": 18.0,
     "sg": 12.0
   },
-  "scanned_at": "2026-10-11T08:23:33.327813+00:00"
+  "scanned_at": "2026-10-18T07:06:55.009747+00:00"
 }

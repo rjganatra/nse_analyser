@@ -3,9 +3,9 @@
   "name": "Aditya Birla Sun Life AMC Ltd",
   "sector": "Financial Services",
   "screener_url": "https://www.screener.in/company/ABSLAMC/consolidated/",
-  "score_pct": 59.2,
-  "passes": 6,
-  "fails": 3,
+  "score_pct": 69.0,
+  "passes": 7,
+  "fails": 2,
   "neutrals": 4,
   "verdict": "Moderate -- dig deeper",
   "verdict_color": "amber",
@@ -29,9 +29,9 @@
     {
       "id": "c3",
       "label": "EPS consistently increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "EPS not rising: 32.3 -> 33.8 -> 34.9 (last 3Y)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "EPS: 32.3 -> 33.8 -> 34.9 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -116,15 +116,15 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 1004.0,
-    "Market Cap": 29055.0,
-    "P/E": 28.8,
+    "Current Price": 972.0,
+    "Market Cap": 28126.0,
+    "P/E": 27.9,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 25.2,
     "ROCE %": 32.2,
     "Debt / Equity": null,
-    "Div. Yield %": 2.54,
+    "Div. Yield %": 2.62,
     "52W High": 1225.0,
     "52W Low": 708.0
   },
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-10-11T08:09:45.410616+00:00"
+  "scanned_at": "2026-10-18T06:53:24.761504+00:00"
 }

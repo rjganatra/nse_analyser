@@ -3,9 +3,9 @@
   "name": "Clean Science & Technology Ltd",
   "sector": "Chemicals",
   "screener_url": "https://www.screener.in/company/CLEAN/consolidated/",
-  "score_pct": 65.7,
-  "passes": 7,
-  "fails": 2,
+  "score_pct": 75.5,
+  "passes": 8,
+  "fails": 1,
   "neutrals": 4,
   "verdict": "Moderate -- dig deeper",
   "verdict_color": "amber",
@@ -29,9 +29,9 @@
     {
       "id": "c3",
       "label": "EPS consistently increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "EPS not rising: 24.9 -> 21.6 -> 21.9 (last 3Y)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "EPS: 24.9 -> 21.6 -> 21.9 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -116,16 +116,16 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 794.0,
-    "Market Cap": 8443.0,
-    "P/E": 36.2,
+    "Current Price": 784.0,
+    "Market Cap": 8331.0,
+    "P/E": 35.8,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 15.3,
     "ROCE %": 20.7,
     "Debt / Equity": null,
-    "Div. Yield %": 0.76,
-    "52W High": 1097.0,
+    "Div. Yield %": 0.77,
+    "52W High": 1070.0,
     "52W Low": 652.0
   },
   "benchmark": {
@@ -133,5 +133,5 @@
     "npm": 10.0,
     "sg": 11.0
   },
-  "scanned_at": "2026-10-11T08:16:14.890982+00:00"
+  "scanned_at": "2026-10-18T06:59:45.378626+00:00"
 }

@@ -3,12 +3,12 @@
   "name": "Indian Renewable Energy Development Agency Ltd",
   "sector": "Financial Services",
   "screener_url": "https://www.screener.in/company/IREDA/consolidated/",
-  "score_pct": 55.9,
-  "passes": 5,
-  "fails": 2,
+  "score_pct": 65.7,
+  "passes": 6,
+  "fails": 1,
   "neutrals": 6,
-  "verdict": "Weak fundamentals",
-  "verdict_color": "red",
+  "verdict": "Moderate -- dig deeper",
+  "verdict_color": "amber",
   "criteria": [
     {
       "id": "c1",
@@ -29,9 +29,9 @@
     {
       "id": "c3",
       "label": "EPS consistently increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "EPS not rising: 6.3 -> 6.7 -> 7.0 (last 3Y)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "EPS: 6.3 -> 6.7 -> 7.0 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -116,16 +116,16 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 104.0,
-    "Market Cap": 29328.0,
-    "P/E": 14.9,
+    "Current Price": 109.0,
+    "Market Cap": 30564.0,
+    "P/E": 15.6,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 15.6,
     "ROCE %": 8.69,
     "Debt / Equity": null,
-    "Div. Yield %": 1.29,
-    "52W High": 159.0,
+    "Div. Yield %": 1.24,
+    "52W High": 157.0,
     "52W Low": 103.0
   },
   "benchmark": {
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-10-11T08:24:33.622793+00:00"
+  "scanned_at": "2026-10-18T07:07:54.943472+00:00"
 }

@@ -3,12 +3,12 @@
   "name": "Jain Resource Recycling Ltd",
   "sector": "Metals & Mining",
   "screener_url": "https://www.screener.in/company/JAINREC/consolidated/",
-  "score_pct": 52.6,
-  "passes": 5,
-  "fails": 3,
+  "score_pct": 62.4,
+  "passes": 6,
+  "fails": 2,
   "neutrals": 5,
-  "verdict": "Weak fundamentals",
-  "verdict_color": "red",
+  "verdict": "Moderate -- dig deeper",
+  "verdict_color": "amber",
   "criteria": [
     {
       "id": "c1",
@@ -29,9 +29,9 @@
     {
       "id": "c3",
       "label": "EPS consistently increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "EPS not rising: 6.9 -> 10.1 -> 10.4 (last 3Y)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "EPS: 6.9 -> 10.1 -> 10.4 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -116,8 +116,8 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 289.0,
-    "Market Cap": 9963.0,
+    "Current Price": 290.0,
+    "Market Cap": 10001.0,
     "P/E": 27.4,
     "Industry P/E": null,
     "P/B": null,
@@ -133,5 +133,5 @@
     "npm": 7.0,
     "sg": 8.0
   },
-  "scanned_at": "2026-10-11T08:25:55.735385+00:00"
+  "scanned_at": "2026-10-18T07:09:15.125875+00:00"
 }

@@ -116,15 +116,15 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 719.0,
-    "Market Cap": 19932.0,
-    "P/E": 24.9,
+    "Current Price": 833.0,
+    "Market Cap": 23094.0,
+    "P/E": 28.8,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 45.3,
     "ROCE %": 59.3,
     "Debt / Equity": null,
-    "Div. Yield %": 0.42,
+    "Div. Yield %": 0.36,
     "52W High": 1122.0,
     "52W Low": 603.0
   },
@@ -133,5 +133,5 @@
     "npm": 18.0,
     "sg": 12.0
   },
-  "scanned_at": "2026-10-11T08:21:24.768811+00:00"
+  "scanned_at": "2026-10-18T07:04:46.937420+00:00"
 }

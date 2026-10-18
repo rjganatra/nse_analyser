@@ -3,9 +3,9 @@
   "name": "TBO Tek Ltd",
   "sector": "Consumer Services",
   "screener_url": "https://www.screener.in/company/TBOTEK/consolidated/",
-  "score_pct": 42.8,
-  "passes": 4,
-  "fails": 4,
+  "score_pct": 52.6,
+  "passes": 5,
+  "fails": 3,
   "neutrals": 5,
   "verdict": "Weak fundamentals",
   "verdict_color": "red",
@@ -29,9 +29,9 @@
     {
       "id": "c3",
       "label": "EPS consistently increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "EPS not rising: 21.2 -> 22.5 -> 24.4 (last 3Y)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "EPS: 21.2 -> 22.5 -> 24.4 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -116,9 +116,9 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 1666.0,
-    "Market Cap": 18095.0,
-    "P/E": 67.3,
+    "Current Price": 1628.0,
+    "Market Cap": 17673.0,
+    "P/E": 65.7,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 17.4,
@@ -133,5 +133,5 @@
     "npm": 10.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-10-11T08:37:11.832333+00:00"
+  "scanned_at": "2026-10-18T07:20:21.435690+00:00"
 }

@@ -3,12 +3,12 @@
   "name": "Mazagon Dock Shipbuilders Ltd",
   "sector": "Aerospace & Defence",
   "screener_url": "https://www.screener.in/company/MAZDOCK/consolidated/",
-  "score_pct": 49.3,
-  "passes": 5,
-  "fails": 3,
+  "score_pct": 59.2,
+  "passes": 6,
+  "fails": 2,
   "neutrals": 5,
-  "verdict": "Weak fundamentals",
-  "verdict_color": "red",
+  "verdict": "Moderate -- dig deeper",
+  "verdict_color": "amber",
   "criteria": [
     {
       "id": "c1",
@@ -29,9 +29,9 @@
     {
       "id": "c3",
       "label": "EPS consistently increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "EPS not rising: 59.8 -> 64.0 -> 70.8 (last 3Y)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "EPS: 59.8 -> 64.0 -> 70.8 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -116,15 +116,15 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 2010.0,
-    "Market Cap": 81079.0,
-    "P/E": 28.4,
+    "Current Price": 2092.0,
+    "Market Cap": 84387.0,
+    "P/E": 29.5,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 29.2,
     "ROCE %": 36.0,
     "Debt / Equity": null,
-    "Div. Yield %": 0.9,
+    "Div. Yield %": 0.87,
     "52W High": 2883.0,
     "52W Low": 1988.0
   },
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-10-11T08:29:33.706771+00:00"
+  "scanned_at": "2026-10-18T07:12:49.422692+00:00"
 }
