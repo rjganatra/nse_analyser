@@ -1,7 +1,7 @@
 {
   "meta": {
     "strategy": "opportunities",
-    "scanned_at": "2026-10-19T14:10:48.671102+00:00",
+    "scanned_at": "2026-10-19T18:02:21.768694+00:00",
     "total": 501,
     "success": 468,
     "opportunities": 309,
@@ -5667,7 +5667,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/LTTS/consolidated/",
       "ratios": {
-        "pe": 28.5,
+        "pe": 27.5,
         "industry_pe": null,
         "pb": null,
         "roe": 21.5,
@@ -6525,7 +6525,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/BAJFINANCE/consolidated/",
       "ratios": {
-        "pe": 29.1,
+        "pe": 27.3,
         "industry_pe": null,
         "pb": null,
         "roe": 18.2,
@@ -14302,7 +14302,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/LTTS/consolidated/",
       "ratios": {
-        "pe": 28.5,
+        "pe": 27.5,
         "industry_pe": null,
         "pb": null,
         "roe": 21.5,
@@ -14588,7 +14588,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/BAJFINANCE/consolidated/",
       "ratios": {
-        "pe": 29.1,
+        "pe": 27.3,
         "industry_pe": null,
         "pb": null,
         "roe": 18.2,
