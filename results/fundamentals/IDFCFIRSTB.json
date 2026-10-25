@@ -3,19 +3,19 @@
   "name": "IDFC First Bank Ltd",
   "sector": "Financial Services",
   "screener_url": "https://www.screener.in/company/IDFCFIRSTB/consolidated/",
-  "score_pct": 52.6,
-  "passes": 4,
-  "fails": 2,
+  "score_pct": 62.4,
+  "passes": 5,
+  "fails": 1,
   "neutrals": 7,
-  "verdict": "Weak fundamentals",
-  "verdict_color": "red",
+  "verdict": "Moderate -- dig deeper",
+  "verdict_color": "amber",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "Avg growth 18.0% vs benchmark 10.0%",
+      "detail": "Avg growth 18.5% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -29,9 +29,9 @@
     {
       "id": "c3",
       "label": "EPS consistently increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "EPS not rising: 2.0 -> 1.9 -> 2.7 (last 3Y)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "EPS: 2.0 -> 1.9 -> 3.5 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 25204.0 -> 30834.0 -> 38802.0 (last 3Y) Cr",
+      "detail": "Reserves: 30834.0 -> 38802.0 -> 40612.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -71,7 +71,7 @@
       "label": "Fixed assets increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Fixed assets: 2720.0 -> 2802.0 -> 2653.0 (last 3Y) Cr",
+      "detail": "Fixed assets: 2802.0 -> 2653.0 -> 2651.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -116,15 +116,15 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 78.1,
-    "Market Cap": 67332.0,
-    "P/E": 29.2,
+    "Current Price": 72.3,
+    "Market Cap": 62347.0,
+    "P/E": 20.7,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 3.76,
     "ROCE %": 5.98,
     "Debt / Equity": null,
-    "Div. Yield %": 0.32,
+    "Div. Yield %": 0.35,
     "52W High": 89.6,
     "52W Low": 58.1
   },
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-10-18T07:06:42.914884+00:00"
+  "scanned_at": "2026-10-25T07:25:48.435723+00:00"
 }

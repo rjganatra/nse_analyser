@@ -3,9 +3,9 @@
   "name": "IndusInd Bank Ltd",
   "sector": "Financial Services",
   "screener_url": "https://www.screener.in/company/INDUSINDBK/consolidated/",
-  "score_pct": 62.4,
-  "passes": 6,
-  "fails": 2,
+  "score_pct": 72.2,
+  "passes": 7,
+  "fails": 1,
   "neutrals": 5,
   "verdict": "Moderate -- dig deeper",
   "verdict_color": "amber",
@@ -29,9 +29,9 @@
     {
       "id": "c3",
       "label": "EPS consistently increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "EPS not rising: 33.1 -> 11.4 -> 17.0 (last 3Y)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "EPS: 33.1 -> 11.4 -> 38.5 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 62429.0 -> 64057.0 -> 64961.0 (last 3Y) Cr",
+      "detail": "Reserves: 64057.0 -> 64961.0 -> 67006.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -71,7 +71,7 @@
       "label": "Fixed assets increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Fixed assets: 2127.0 -> 2309.0 -> 2420.0 (last 3Y) Cr",
+      "detail": "Fixed assets: 2309.0 -> 2420.0 -> 2518.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -116,22 +116,22 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 877.0,
-    "Market Cap": 68331.0,
-    "P/E": 51.7,
+    "Current Price": 835.0,
+    "Market Cap": 65059.0,
+    "P/E": 21.7,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 1.36,
     "ROCE %": 5.68,
     "Debt / Equity": null,
-    "Div. Yield %": 0.17,
+    "Div. Yield %": 0.18,
     "52W High": 1078.0,
-    "52W Low": 726.0
+    "52W Low": 750.0
   },
   "benchmark": {
     "opm": 15.0,
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-10-18T07:08:07.093948+00:00"
+  "scanned_at": "2026-10-25T07:27:12.579988+00:00"
 }

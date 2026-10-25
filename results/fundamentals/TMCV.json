@@ -3,10 +3,10 @@
   "name": "Tata Motors Ltd",
   "sector": "Capital Goods",
   "screener_url": "https://www.screener.in/company/TMCV/consolidated/",
-  "score_pct": 51.6,
-  "passes": 3,
+  "score_pct": 57.5,
+  "passes": 5,
   "fails": 2,
-  "neutrals": 8,
+  "neutrals": 6,
   "verdict": "Weak fundamentals",
   "verdict_color": "red",
   "criteria": [
@@ -15,7 +15,7 @@
       "label": "Sales growth >= industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "Avg growth 24.0% vs benchmark 12.0%",
+      "detail": "Avg growth 28.0% vs benchmark 12.0%",
       "weight": 1.0
     },
     {
@@ -23,7 +23,7 @@
       "label": "OPM > industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "OPM 13.0% below benchmark 22.0%",
+      "detail": "OPM 11.0% below benchmark 22.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "neutral",
       "score": 0.5,
-      "detail": "Trend: 8.2 (last 1Y)",
+      "detail": "Trend: 8.2 -> 17.1 (last 2Y)",
       "weight": 1.5
     },
     {
@@ -45,9 +45,9 @@
     {
       "id": "c5",
       "label": "Reserves increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Reserves: 10533.0 -> 11998.0 -> 14551.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Fixed assets: 13664.0 -> 13962.0 -> 15966.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -116,15 +116,15 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 421.0,
-    "Market Cap": 155064.0,
-    "P/E": 20.9,
+    "Current Price": 396.0,
+    "Market Cap": 145838.0,
+    "P/E": 20.4,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 34.0,
     "ROCE %": 35.9,
     "Debt / Equity": null,
-    "Div. Yield %": 0.95,
+    "Div. Yield %": 1.01,
     "52W High": 509.0,
     "52W Low": 306.0
   },
@@ -133,5 +133,5 @@
     "npm": 18.0,
     "sg": 12.0
   },
-  "scanned_at": "2026-10-18T07:21:00.476673+00:00"
+  "scanned_at": "2026-10-25T07:40:14.875586+00:00"
 }

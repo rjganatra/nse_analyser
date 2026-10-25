@@ -3,19 +3,19 @@
   "name": "CG Power & Industrial Solutions Ltd",
   "sector": "Capital Goods",
   "screener_url": "https://www.screener.in/company/CGPOWER/consolidated/",
-  "score_pct": 53.9,
-  "passes": 4,
-  "fails": 4,
+  "score_pct": 60.5,
+  "passes": 5,
+  "fails": 3,
   "neutrals": 5,
-  "verdict": "Weak fundamentals",
-  "verdict_color": "red",
+  "verdict": "Moderate -- dig deeper",
+  "verdict_color": "amber",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "Avg growth 11.8% below benchmark 12.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Avg growth 12.4% vs benchmark 12.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 6.4 -> 7.7 -> 7.9 (last 3Y)",
+      "detail": "EPS: 6.4 -> 7.7 -> 8.7 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 2712.0 -> 3538.0 -> 7655.0 (last 3Y) Cr",
+      "detail": "Reserves: 3538.0 -> 7655.0 -> 8424.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -71,7 +71,7 @@
       "label": "Fixed assets increasing",
       "result": "fail",
       "score": 0.0,
-      "detail": "Fixed assets: 1059.0 -> 1479.0 -> 2008.0 (last 3Y) Cr",
+      "detail": "Fixed assets: 1479.0 -> 2008.0 -> 2460.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -116,15 +116,15 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 846.0,
-    "Market Cap": 133285.0,
-    "P/E": 105.0,
+    "Current Price": 813.0,
+    "Market Cap": 128141.0,
+    "P/E": 91.7,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 20.5,
     "ROCE %": 26.7,
     "Debt / Equity": null,
-    "Div. Yield %": 0.15,
+    "Div. Yield %": 0.16,
     "52W High": 981.0,
     "52W Low": 526.0
   },
@@ -133,5 +133,5 @@
     "npm": 18.0,
     "sg": 12.0
   },
-  "scanned_at": "2026-10-18T06:58:10.195901+00:00"
+  "scanned_at": "2026-10-25T07:17:06.030760+00:00"
 }
