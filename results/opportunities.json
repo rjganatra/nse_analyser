@@ -1,7 +1,7 @@
 {
   "meta": {
     "strategy": "opportunities",
-    "scanned_at": "2026-10-26T13:49:55.508833+00:00",
+    "scanned_at": "2026-10-26T17:54:42.871329+00:00",
     "total": 501,
     "success": 468,
     "opportunities": 333,
@@ -3925,7 +3925,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/RECLTD/consolidated/",
       "ratios": {
-        "pe": 4.9,
+        "pe": 5.2,
         "industry_pe": null,
         "pb": null,
         "roe": 20.1,
@@ -4315,7 +4315,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/SUMICHEM/consolidated/",
       "ratios": {
-        "pe": 31.0,
+        "pe": 32.1,
         "industry_pe": null,
         "pb": null,
         "roe": 16.2,
@@ -4575,7 +4575,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/TATACONSUM/consolidated/",
       "ratios": {
-        "pe": 56.4,
+        "pe": 54.1,
         "industry_pe": null,
         "pb": null,
         "roe": 7.35,
@@ -9076,7 +9076,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/SUMICHEM/consolidated/",
       "ratios": {
-        "pe": 31.0,
+        "pe": 32.1,
         "industry_pe": null,
         "pb": null,
         "roe": 16.2,
@@ -10298,7 +10298,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/TATACONSUM/consolidated/",
       "ratios": {
-        "pe": 56.4,
+        "pe": 54.1,
         "industry_pe": null,
         "pb": null,
         "roe": 7.35,
@@ -11884,7 +11884,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/RECLTD/consolidated/",
       "ratios": {
-        "pe": 4.9,
+        "pe": 5.2,
         "industry_pe": null,
         "pb": null,
         "roe": 20.1,
@@ -19785,7 +19785,7 @@
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/SONACOMS/consolidated/",
       "ratios": {
-        "pe": 67.1,
+        "pe": 62.9,
         "industry_pe": null,
         "pb": null,
         "roe": 11.3,
