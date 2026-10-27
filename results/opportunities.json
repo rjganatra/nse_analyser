@@ -1,7 +1,7 @@
 {
   "meta": {
     "strategy": "opportunities",
-    "scanned_at": "2026-10-27T12:55:52.647763+00:00",
+    "scanned_at": "2026-10-27T17:10:38.182878+00:00",
     "total": 501,
     "success": 468,
     "opportunities": 325,
@@ -103,7 +103,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/AWL/consolidated/",
       "ratios": {
-        "pe": 19.5,
+        "pe": 19.6,
         "industry_pe": null,
         "pb": null,
         "roe": 10.7,
@@ -1819,7 +1819,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/GRAVITA/consolidated/",
       "ratios": {
-        "pe": 25.2,
+        "pe": 24.8,
         "industry_pe": null,
         "pb": null,
         "roe": 15.5,
@@ -2443,7 +2443,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/INDUSTOWER/consolidated/",
       "ratios": {
-        "pe": 14.3,
+        "pe": 14.4,
         "industry_pe": null,
         "pb": null,
         "roe": 18.6,
@@ -3171,7 +3171,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/MFSL/consolidated/",
       "ratios": {
-        "pe": 394.0,
+        "pe": 232.0,
         "industry_pe": null,
         "pb": null,
         "roe": 1.52,
@@ -4211,7 +4211,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/SYNGENE/consolidated/",
       "ratios": {
-        "pe": 49.9,
+        "pe": 55.6,
         "industry_pe": null,
         "pb": null,
         "roe": 7.78,
@@ -4237,7 +4237,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/TATACAP/consolidated/",
       "ratios": {
-        "pe": 23.5,
+        "pe": 21.3,
         "industry_pe": null,
         "pb": null,
         "roe": 12.4,
@@ -6187,7 +6187,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/LT/consolidated/",
       "ratios": {
-        "pe": 28.6,
+        "pe": 26.7,
         "industry_pe": null,
         "pb": null,
         "roe": 15.9,
@@ -6915,7 +6915,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/BAJAJ-AUTO/consolidated/",
       "ratios": {
-        "pe": 24.2,
+        "pe": 21.8,
         "industry_pe": null,
         "pb": null,
         "roe": 29.2,
@@ -9128,7 +9128,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/TATACAP/consolidated/",
       "ratios": {
-        "pe": 23.5,
+        "pe": 21.3,
         "industry_pe": null,
         "pb": null,
         "roe": 12.4,
@@ -10116,7 +10116,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/AWL/consolidated/",
       "ratios": {
-        "pe": 19.5,
+        "pe": 19.6,
         "industry_pe": null,
         "pb": null,
         "roe": 10.7,
@@ -10298,7 +10298,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/MFSL/consolidated/",
       "ratios": {
-        "pe": 394.0,
+        "pe": 232.0,
         "industry_pe": null,
         "pb": null,
         "roe": 1.52,
@@ -11884,7 +11884,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/GRAVITA/consolidated/",
       "ratios": {
-        "pe": 25.2,
+        "pe": 24.8,
         "industry_pe": null,
         "pb": null,
         "roe": 15.5,
@@ -12248,7 +12248,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/SYNGENE/consolidated/",
       "ratios": {
-        "pe": 49.9,
+        "pe": 55.6,
         "industry_pe": null,
         "pb": null,
         "roe": 7.78,
@@ -12976,7 +12976,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/INDUSTOWER/consolidated/",
       "ratios": {
-        "pe": 14.3,
+        "pe": 14.4,
         "industry_pe": null,
         "pb": null,
         "roe": 18.6,
@@ -13782,7 +13782,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/LT/consolidated/",
       "ratios": {
-        "pe": 28.6,
+        "pe": 26.7,
         "industry_pe": null,
         "pb": null,
         "roe": 15.9,
@@ -15238,7 +15238,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/BAJAJ-AUTO/consolidated/",
       "ratios": {
-        "pe": 24.2,
+        "pe": 21.8,
         "industry_pe": null,
         "pb": null,
         "roe": 29.2,
@@ -17041,7 +17041,7 @@
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/JSWINFRA/consolidated/",
       "ratios": {
-        "pe": 47.7,
+        "pe": 49.1,
         "industry_pe": null,
         "pb": null,
         "roe": 15.3,
@@ -17403,7 +17403,7 @@
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/CONCORDBIO/consolidated/",
       "ratios": {
-        "pe": 52.0,
+        "pe": 50.7,
         "industry_pe": null,
         "pb": null,
         "roe": 12.5,
