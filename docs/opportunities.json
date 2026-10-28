@@ -1,7 +1,7 @@
 {
   "meta": {
     "strategy": "opportunities",
-    "scanned_at": "2026-10-28T13:44:01.756298+00:00",
+    "scanned_at": "2026-10-28T17:39:11.650358+00:00",
     "total": 501,
     "success": 468,
     "opportunities": 331,
@@ -1377,7 +1377,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/EMBASSY/consolidated/",
       "ratios": {
-        "pe": 160.0,
+        "pe": 46.6,
         "industry_pe": null,
         "pb": null,
         "roe": 1.26,
@@ -1507,7 +1507,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/FORCEMOT/consolidated/",
       "ratios": {
-        "pe": 20.5,
+        "pe": 21.6,
         "industry_pe": null,
         "pb": null,
         "roe": 29.2,
@@ -5147,7 +5147,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/BSOFT/consolidated/",
       "ratios": {
-        "pe": 14.4,
+        "pe": 13.4,
         "industry_pe": null,
         "pb": null,
         "roe": 14.1,
@@ -5589,7 +5589,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/HEROMOTOCO/consolidated/",
       "ratios": {
-        "pe": 19.2,
+        "pe": 17.5,
         "industry_pe": null,
         "pb": null,
         "roe": 28.1,
@@ -6239,7 +6239,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/PIDILITIND/consolidated/",
       "ratios": {
-        "pe": 53.4,
+        "pe": 52.7,
         "industry_pe": null,
         "pb": null,
         "roe": 23.9,
@@ -8868,7 +8868,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/EMBASSY/consolidated/",
       "ratios": {
-        "pe": 160.0,
+        "pe": 46.6,
         "industry_pe": null,
         "pb": null,
         "roe": 1.26,
@@ -11936,7 +11936,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/FORCEMOT/consolidated/",
       "ratios": {
-        "pe": 20.5,
+        "pe": 21.6,
         "industry_pe": null,
         "pb": null,
         "roe": 29.2,
@@ -13626,7 +13626,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/PIDILITIND/consolidated/",
       "ratios": {
-        "pe": 53.4,
+        "pe": 52.7,
         "industry_pe": null,
         "pb": null,
         "roe": 23.9,
@@ -14276,7 +14276,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/HEROMOTOCO/consolidated/",
       "ratios": {
-        "pe": 19.2,
+        "pe": 17.5,
         "industry_pe": null,
         "pb": null,
         "roe": 28.1,
@@ -14328,7 +14328,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/BSOFT/consolidated/",
       "ratios": {
-        "pe": 14.4,
+        "pe": 13.4,
         "industry_pe": null,
         "pb": null,
         "roe": 14.1,
@@ -18559,7 +18559,7 @@
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/PNBHOUSING/consolidated/",
       "ratios": {
-        "pe": 12.5,
+        "pe": 12.3,
         "industry_pe": null,
         "pb": null,
         "roe": 12.7,
@@ -19409,7 +19409,7 @@
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/RRKABEL/consolidated/",
       "ratios": {
-        "pe": 40.8,
+        "pe": 36.9,
         "industry_pe": null,
         "pb": null,
         "roe": 21.3,
