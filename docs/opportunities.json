@@ -1,7 +1,7 @@
 {
   "meta": {
     "strategy": "opportunities",
-    "scanned_at": "2026-10-29T13:52:59.233722+00:00",
+    "scanned_at": "2026-10-29T17:54:01.342394+00:00",
     "total": 501,
     "success": 468,
     "opportunities": 331,
@@ -987,7 +987,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/COALINDIA/consolidated/",
       "ratios": {
-        "pe": 7.75,
+        "pe": 7.24,
         "industry_pe": null,
         "pb": null,
         "roe": 28.2,
@@ -2131,7 +2131,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/IEX/consolidated/",
       "ratios": {
-        "pe": 18.5,
+        "pe": 17.9,
         "industry_pe": null,
         "pb": null,
         "roe": 39.4,
@@ -4133,7 +4133,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/TIMKEN/consolidated/",
       "ratios": {
-        "pe": 50.5,
+        "pe": 47.4,
         "industry_pe": null,
         "pb": null,
         "roe": 14.3,
@@ -4471,10 +4471,10 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/VOGL/consolidated/",
       "ratios": {
-        "pe": 50.7,
+        "pe": 19.1,
         "industry_pe": null,
         "pb": null,
-        "roe": null,
+        "roe": -1.22,
         "roce": null,
         "de": null,
         "div_yield": 0.0,
@@ -4497,7 +4497,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/VEDPOWER/consolidated/",
       "ratios": {
-        "pe": 18.4,
+        "pe": 30.9,
         "industry_pe": null,
         "pb": null,
         "roe": null,
@@ -4965,7 +4965,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/BLUESTARCO/consolidated/",
       "ratios": {
-        "pe": 65.0,
+        "pe": 64.2,
         "industry_pe": null,
         "pb": null,
         "roe": 17.2,
@@ -4991,7 +4991,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/BRIGADE/consolidated/",
       "ratios": {
-        "pe": 25.5,
+        "pe": 24.4,
         "industry_pe": null,
         "pb": null,
         "roe": 10.5,
@@ -5147,7 +5147,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/CAMS/consolidated/",
       "ratios": {
-        "pe": 34.7,
+        "pe": 33.6,
         "industry_pe": null,
         "pb": null,
         "roe": 36.3,
@@ -5199,7 +5199,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/DEEPAKNTR/consolidated/",
       "ratios": {
-        "pe": 25.4,
+        "pe": 18.8,
         "industry_pe": null,
         "pb": null,
         "roe": 9.82,
@@ -11339,7 +11339,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/VEDPOWER/consolidated/",
       "ratios": {
-        "pe": 18.4,
+        "pe": 30.9,
         "industry_pe": null,
         "pb": null,
         "roe": null,
@@ -11495,7 +11495,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/IEX/consolidated/",
       "ratios": {
-        "pe": 18.5,
+        "pe": 17.9,
         "industry_pe": null,
         "pb": null,
         "roe": 39.4,
@@ -11703,10 +11703,10 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/VOGL/consolidated/",
       "ratios": {
-        "pe": 50.7,
+        "pe": 19.1,
         "industry_pe": null,
         "pb": null,
-        "roe": null,
+        "roe": -1.22,
         "roce": null,
         "de": null,
         "div_yield": 0.0,
@@ -11911,7 +11911,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/COALINDIA/consolidated/",
       "ratios": {
-        "pe": 7.75,
+        "pe": 7.24,
         "industry_pe": null,
         "pb": null,
         "roe": 28.2,
@@ -12067,7 +12067,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/TIMKEN/consolidated/",
       "ratios": {
-        "pe": 50.5,
+        "pe": 47.4,
         "industry_pe": null,
         "pb": null,
         "roe": 14.3,
@@ -13991,7 +13991,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/CAMS/consolidated/",
       "ratios": {
-        "pe": 34.7,
+        "pe": 33.6,
         "industry_pe": null,
         "pb": null,
         "roe": 36.3,
@@ -14199,7 +14199,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/DEEPAKNTR/consolidated/",
       "ratios": {
-        "pe": 25.4,
+        "pe": 18.8,
         "industry_pe": null,
         "pb": null,
         "roe": 9.82,
@@ -14589,7 +14589,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/BLUESTARCO/consolidated/",
       "ratios": {
-        "pe": 65.0,
+        "pe": 64.2,
         "industry_pe": null,
         "pb": null,
         "roe": 17.2,
@@ -14797,7 +14797,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/BRIGADE/consolidated/",
       "ratios": {
-        "pe": 25.5,
+        "pe": 24.4,
         "industry_pe": null,
         "pb": null,
         "roe": 10.5,
@@ -17565,7 +17565,7 @@
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/PARADEEP/consolidated/",
       "ratios": {
-        "pe": 13.4,
+        "pe": 16.8,
         "industry_pe": null,
         "pb": null,
         "roe": 16.2,
@@ -18463,7 +18463,7 @@
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/FSL/consolidated/",
       "ratios": {
-        "pe": 27.2,
+        "pe": 25.4,
         "industry_pe": null,
         "pb": null,
         "roe": 17.6,
@@ -18825,7 +18825,7 @@
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/MOTILALOFS/consolidated/",
       "ratios": {
-        "pe": 30.0,
+        "pe": 22.0,
         "industry_pe": null,
         "pb": null,
         "roe": 15.5,
