@@ -1,7 +1,7 @@
 {
   "meta": {
     "strategy": "opportunities",
-    "scanned_at": "2026-10-30T13:40:48.260523+00:00",
+    "scanned_at": "2026-10-30T17:29:22.952882+00:00",
     "total": 501,
     "success": 468,
     "opportunities": 336,
@@ -233,7 +233,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/AFFLE/consolidated/",
       "ratios": {
-        "pe": 40.4,
+        "pe": 38.8,
         "industry_pe": null,
         "pb": null,
         "roe": 13.8,
@@ -805,7 +805,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/BEL/consolidated/",
       "ratios": {
-        "pe": 43.8,
+        "pe": 42.0,
         "industry_pe": null,
         "pb": null,
         "roe": 27.4,
@@ -3535,7 +3535,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/NTPCGREEN/consolidated/",
       "ratios": {
-        "pe": 114.0,
+        "pe": 106.0,
         "industry_pe": null,
         "pb": null,
         "roe": 2.79,
@@ -3925,7 +3925,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/RELIANCE/consolidated/",
       "ratios": {
-        "pe": 21.1,
+        "pe": 19.2,
         "industry_pe": null,
         "pb": null,
         "roe": 8.91,
@@ -5459,7 +5459,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/DIXON/consolidated/",
       "ratios": {
-        "pe": 35.8,
+        "pe": 43.4,
         "industry_pe": null,
         "pb": null,
         "roe": 18.9,
@@ -6863,7 +6863,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/AARTIIND/consolidated/",
       "ratios": {
-        "pe": 30.2,
+        "pe": 26.1,
         "industry_pe": null,
         "pb": null,
         "roe": 7.13,
@@ -9596,7 +9596,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/RELIANCE/consolidated/",
       "ratios": {
-        "pe": 21.1,
+        "pe": 19.2,
         "industry_pe": null,
         "pb": null,
         "roe": 8.91,
@@ -11676,7 +11676,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/BEL/consolidated/",
       "ratios": {
-        "pe": 43.8,
+        "pe": 42.0,
         "industry_pe": null,
         "pb": null,
         "roe": 27.4,
@@ -11728,7 +11728,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/NTPCGREEN/consolidated/",
       "ratios": {
-        "pe": 114.0,
+        "pe": 106.0,
         "industry_pe": null,
         "pb": null,
         "roe": 2.79,
@@ -12820,7 +12820,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/AFFLE/consolidated/",
       "ratios": {
-        "pe": 40.4,
+        "pe": 38.8,
         "industry_pe": null,
         "pb": null,
         "roe": 13.8,
@@ -14458,7 +14458,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/DIXON/consolidated/",
       "ratios": {
-        "pe": 35.8,
+        "pe": 43.4,
         "industry_pe": null,
         "pb": null,
         "roe": 18.9,
@@ -16747,7 +16747,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/AARTIIND/consolidated/",
       "ratios": {
-        "pe": 30.2,
+        "pe": 26.1,
         "industry_pe": null,
         "pb": null,
         "roe": 7.13,
@@ -17385,7 +17385,7 @@
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/PHOENIXLTD/consolidated/",
       "ratios": {
-        "pe": 54.0,
+        "pe": 53.1,
         "industry_pe": null,
         "pb": null,
         "roe": 11.0,
@@ -17555,7 +17555,7 @@
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/NIACL/consolidated/",
       "ratios": {
-        "pe": 34.0,
+        "pe": null,
         "industry_pe": null,
         "pb": null,
         "roe": 4.92,
