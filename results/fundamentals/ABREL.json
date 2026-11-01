@@ -3,9 +3,9 @@
   "name": "Aditya Birla Real Estate Ltd",
   "sector": "Realty",
   "screener_url": "https://www.screener.in/company/ABREL/consolidated/",
-  "score_pct": 47.4,
-  "passes": 3,
-  "fails": 4,
+  "score_pct": 57.2,
+  "passes": 4,
+  "fails": 3,
   "neutrals": 6,
   "verdict": "Weak fundamentals",
   "verdict_color": "red",
@@ -15,7 +15,7 @@
       "label": "Sales growth >= industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "Avg growth -15.1% below benchmark 10.0%",
+      "detail": "Avg growth 2.8% below benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -23,15 +23,15 @@
       "label": "OPM > industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "OPM -86.0% below benchmark 15.0%",
+      "detail": "OPM -13.0% below benchmark 15.0%",
       "weight": 1.0
     },
     {
       "id": "c3",
       "label": "EPS consistently increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "EPS not rising: -14.4 -> -9.2 -> -10.4 (last 3Y)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "EPS: -14.4 -> -9.2 -> 67.9 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 3867.0 -> 3729.0 -> 3589.0 (last 3Y) Cr",
+      "detail": "Reserves: 3729.0 -> 3589.0 -> 4460.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -71,7 +71,7 @@
       "label": "Fixed assets increasing",
       "result": "fail",
       "score": 0.0,
-      "detail": "Fixed assets: 3734.0 -> 1437.0 -> 1366.0 (last 3Y) Cr",
+      "detail": "Fixed assets: 1437.0 -> 1366.0 -> 1354.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -116,22 +116,22 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 1042.0,
-    "Market Cap": 11643.0,
+    "Current Price": 1004.0,
+    "Market Cap": 11213.0,
     "P/E": null,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": -2.64,
     "ROCE %": -4.48,
     "Debt / Equity": null,
-    "Div. Yield %": 0.24,
+    "Div. Yield %": 0.25,
     "52W High": 1914.0,
-    "52W Low": 1002.0
+    "52W Low": 995.0
   },
   "benchmark": {
     "opm": 15.0,
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-10-25T07:12:06.250242+00:00"
+  "scanned_at": "2026-11-01T08:34:47.309139+00:00"
 }

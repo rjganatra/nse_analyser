@@ -3,11 +3,11 @@
   "name": "ACC Ltd",
   "sector": "Construction Materials",
   "screener_url": "https://www.screener.in/company/ACC/consolidated/",
-  "score_pct": 46.1,
-  "passes": 4,
-  "fails": 4,
+  "score_pct": 36.3,
+  "passes": 3,
+  "fails": 5,
   "neutrals": 5,
-  "verdict": "Weak fundamentals",
+  "verdict": "Avoid",
   "verdict_color": "red",
   "criteria": [
     {
@@ -15,7 +15,7 @@
       "label": "Sales growth >= industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "Avg growth 7.6% below benchmark 10.0%",
+      "detail": "Avg growth 7.5% below benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -23,15 +23,15 @@
       "label": "OPM > industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "OPM 10.0% below benchmark 15.0%",
+      "detail": "OPM 9.0% below benchmark 15.0%",
       "weight": 1.0
     },
     {
       "id": "c3",
       "label": "EPS consistently increasing",
-      "result": "pass",
-      "score": 1.0,
-      "detail": "EPS: 127.9 -> 113.8 -> 101.6 (last 3Y)",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "EPS not rising: 127.9 -> 113.8 -> 47.0 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 16140.0 -> 18367.0 -> 20363.0 (last 3Y) Cr",
+      "detail": "Reserves: 18367.0 -> 20363.0 -> 20488.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -71,7 +71,7 @@
       "label": "Fixed assets increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Fixed assets: 10007.0 -> 10829.0 -> 11256.0 (last 3Y) Cr",
+      "detail": "Fixed assets: 10829.0 -> 11256.0 -> 12091.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -116,22 +116,22 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 1159.0,
-    "Market Cap": 21772.0,
-    "P/E": 11.5,
+    "Current Price": 1130.0,
+    "Market Cap": 21220.0,
+    "P/E": 23.1,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 10.9,
     "ROCE %": 11.2,
     "Debt / Equity": null,
-    "Div. Yield %": 0.65,
+    "Div. Yield %": 0.66,
     "52W High": 1987.0,
-    "52W Low": 1123.0
+    "52W Low": 1115.0
   },
   "benchmark": {
     "opm": 15.0,
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-10-25T07:10:50.081167+00:00"
+  "scanned_at": "2026-11-01T08:33:31.229877+00:00"
 }

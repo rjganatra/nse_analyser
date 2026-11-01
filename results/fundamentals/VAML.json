@@ -111,27 +111,27 @@
       "label": "ROE > ROCE",
       "result": "neutral",
       "score": 0.5,
-      "detail": "ROE=N/A ROCE=N/A",
+      "detail": "ROE=88.8% ROCE=N/A",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Current Price": 344.0,
-    "Market Cap": 134654.0,
-    "P/E": 8.51,
+    "Current Price": 356.0,
+    "Market Cap": 139386.0,
+    "P/E": 9.31,
     "Industry P/E": null,
     "P/B": null,
-    "ROE %": null,
+    "ROE %": 88.8,
     "ROCE %": null,
     "Debt / Equity": null,
-    "Div. Yield %": 2.32,
+    "Div. Yield %": 2.24,
     "52W High": 538.0,
-    "52W Low": 337.0
+    "52W Low": 334.0
   },
   "benchmark": {
     "opm": 14.0,
     "npm": 7.0,
     "sg": 8.0
   },
-  "scanned_at": "2026-10-25T07:42:43.473246+00:00"
+  "scanned_at": "2026-11-01T09:05:17.522115+00:00"
 }

@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 98.9 -> 101.9 -> 104.3 (last 3Y)",
+      "detail": "EPS: 98.9 -> 101.9 -> 107.2 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 31367.0 -> 36242.0 -> 41319.0 (last 3Y) Cr",
+      "detail": "Reserves: 36242.0 -> 41319.0 -> 43769.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -71,7 +71,7 @@
       "label": "Fixed assets increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Fixed assets: 389.0 -> 377.0 -> 416.0 (last 3Y) Cr",
+      "detail": "Fixed assets: 377.0 -> 416.0 -> 400.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -116,15 +116,15 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 490.0,
-    "Market Cap": 26953.0,
-    "P/E": 4.7,
+    "Current Price": 494.0,
+    "Market Cap": 27157.0,
+    "P/E": 4.61,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 14.4,
     "ROCE %": 8.59,
     "Debt / Equity": null,
-    "Div. Yield %": 2.04,
+    "Div. Yield %": 2.03,
     "52W High": 598.0,
     "52W Low": 459.0
   },
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-10-25T07:30:16.851909+00:00"
+  "scanned_at": "2026-11-01T08:52:52.114888+00:00"
 }
