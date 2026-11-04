@@ -1,7 +1,7 @@
 {
   "meta": {
     "strategy": "opportunities",
-    "scanned_at": "2026-11-04T15:09:49.833932+00:00",
+    "scanned_at": "2026-11-04T19:08:47.663236+00:00",
     "total": 501,
     "success": 468,
     "opportunities": 327,
@@ -2703,7 +2703,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/TORNTPOWER/consolidated/",
       "ratios": {
-        "pe": 26.8,
+        "pe": 25.7,
         "industry_pe": null,
         "pb": null,
         "roe": 12.5,
@@ -3093,7 +3093,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/BALKRISIND/consolidated/",
       "ratios": {
-        "pe": 30.8,
+        "pe": 30.4,
         "industry_pe": null,
         "pb": null,
         "roe": 10.4,
@@ -4239,7 +4239,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/JMFINANCIL/consolidated/",
       "ratios": {
-        "pe": 10.3,
+        "pe": 10.6,
         "industry_pe": null,
         "pb": null,
         "roe": 11.9,
@@ -5019,7 +5019,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/RITES/consolidated/",
       "ratios": {
-        "pe": 22.7,
+        "pe": 23.4,
         "industry_pe": null,
         "pb": null,
         "roe": 15.4,
@@ -5253,7 +5253,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/SWANCORP/consolidated/",
       "ratios": {
-        "pe": 34.3,
+        "pe": 10.4,
         "industry_pe": null,
         "pb": null,
         "roe": -4.5,
@@ -10328,7 +10328,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/TORNTPOWER/consolidated/",
       "ratios": {
-        "pe": 26.8,
+        "pe": 25.7,
         "industry_pe": null,
         "pb": null,
         "roe": 12.5,
@@ -11576,7 +11576,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/SWANCORP/consolidated/",
       "ratios": {
-        "pe": 34.3,
+        "pe": 10.4,
         "industry_pe": null,
         "pb": null,
         "roe": -4.5,
@@ -11680,7 +11680,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/JMFINANCIL/consolidated/",
       "ratios": {
-        "pe": 10.3,
+        "pe": 10.6,
         "industry_pe": null,
         "pb": null,
         "roe": 11.9,
@@ -12382,7 +12382,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/RITES/consolidated/",
       "ratios": {
-        "pe": 22.7,
+        "pe": 23.4,
         "industry_pe": null,
         "pb": null,
         "roe": 15.4,
@@ -12850,7 +12850,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/BALKRISIND/consolidated/",
       "ratios": {
-        "pe": 30.8,
+        "pe": 30.4,
         "industry_pe": null,
         "pb": null,
         "roe": 10.4,
