@@ -1,7 +1,7 @@
 {
   "meta": {
     "strategy": "opportunities",
-    "scanned_at": "2026-11-05T15:15:29.043833+00:00",
+    "scanned_at": "2026-11-05T19:17:55.710376+00:00",
     "total": 501,
     "success": 468,
     "opportunities": 320,
@@ -311,7 +311,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/ASTRAL/consolidated/",
       "ratios": {
-        "pe": 62.9,
+        "pe": 63.0,
         "industry_pe": null,
         "pb": null,
         "roe": 13.8,
@@ -909,7 +909,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/GODFRYPHLP/consolidated/",
       "ratios": {
-        "pe": 20.4,
+        "pe": 22.3,
         "industry_pe": null,
         "pb": null,
         "roe": 24.5,
@@ -1507,7 +1507,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/NCC/consolidated/",
       "ratios": {
-        "pe": 10.6,
+        "pe": 10.2,
         "industry_pe": null,
         "pb": null,
         "roe": 9.19,
@@ -1663,7 +1663,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/ONGC/consolidated/",
       "ratios": {
-        "pe": 6.63,
+        "pe": 5.83,
         "industry_pe": null,
         "pb": null,
         "roe": 11.6,
@@ -2625,7 +2625,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/BRITANNIA/consolidated/",
       "ratios": {
-        "pe": 46.3,
+        "pe": 45.2,
         "industry_pe": null,
         "pb": null,
         "roe": 53.5,
@@ -3093,7 +3093,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/FORTIS/consolidated/",
       "ratios": {
-        "pe": 58.0,
+        "pe": 57.7,
         "industry_pe": null,
         "pb": null,
         "roe": 11.2,
@@ -7726,7 +7726,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/GLENMARK/consolidated/",
       "ratios": {
-        "pe": 22.5,
+        "pe": 34.6,
         "industry_pe": null,
         "pb": null,
         "roe": 23.6,
@@ -8846,7 +8846,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/ONGC/consolidated/",
       "ratios": {
-        "pe": 6.63,
+        "pe": 5.83,
         "industry_pe": null,
         "pb": null,
         "roe": 11.6,
@@ -8950,7 +8950,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/ASTRAL/consolidated/",
       "ratios": {
-        "pe": 62.9,
+        "pe": 63.0,
         "industry_pe": null,
         "pb": null,
         "roe": 13.8,
@@ -9418,7 +9418,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/NCC/consolidated/",
       "ratios": {
-        "pe": 10.6,
+        "pe": 10.2,
         "industry_pe": null,
         "pb": null,
         "roe": 9.19,
@@ -10172,7 +10172,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/GODFRYPHLP/consolidated/",
       "ratios": {
-        "pe": 20.4,
+        "pe": 22.3,
         "industry_pe": null,
         "pb": null,
         "roe": 24.5,
@@ -10744,7 +10744,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/BRITANNIA/consolidated/",
       "ratios": {
-        "pe": 46.3,
+        "pe": 45.2,
         "industry_pe": null,
         "pb": null,
         "roe": 53.5,
@@ -12486,7 +12486,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/FORTIS/consolidated/",
       "ratios": {
-        "pe": 58.0,
+        "pe": 57.7,
         "industry_pe": null,
         "pb": null,
         "roe": 11.2,
@@ -16535,7 +16535,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/GLENMARK/consolidated/",
       "ratios": {
-        "pe": 22.5,
+        "pe": 34.6,
         "industry_pe": null,
         "pb": null,
         "roe": 23.6,
@@ -17725,7 +17725,7 @@
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/PRESTIGE/consolidated/",
       "ratios": {
-        "pe": 62.2,
+        "pe": 76.0,
         "industry_pe": null,
         "pb": null,
         "roe": 7.53,
@@ -20033,7 +20033,7 @@
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/RUBICON/consolidated/",
       "ratios": {
-        "pe": 100.0,
+        "pe": 88.7,
         "industry_pe": null,
         "pb": null,
         "roe": 27.0,
