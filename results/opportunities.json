@@ -1,7 +1,7 @@
 {
   "meta": {
     "strategy": "opportunities",
-    "scanned_at": "2026-11-06T14:53:09.396658+00:00",
+    "scanned_at": "2026-11-06T18:33:42.913739+00:00",
     "total": 501,
     "success": 468,
     "opportunities": 319,
@@ -5225,7 +5225,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/VOLTAS/consolidated/",
       "ratios": {
-        "pe": 77.3,
+        "pe": 74.4,
         "industry_pe": null,
         "pb": null,
         "roe": 6.1,
@@ -13241,7 +13241,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/VOLTAS/consolidated/",
       "ratios": {
-        "pe": 77.3,
+        "pe": 74.4,
         "industry_pe": null,
         "pb": null,
         "roe": 6.1,
@@ -20031,7 +20031,7 @@
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/SANSERA/consolidated/",
       "ratios": {
-        "pe": 72.4,
+        "pe": 66.0,
         "industry_pe": null,
         "pb": null,
         "roe": 11.8,
