@@ -3,9 +3,9 @@
   "name": "Bharat Forge Ltd",
   "sector": "Automobile and Auto Components",
   "screener_url": "https://www.screener.in/company/BHARATFORG/consolidated/",
-  "score_pct": 59.2,
-  "passes": 6,
-  "fails": 3,
+  "score_pct": 65.7,
+  "passes": 7,
+  "fails": 2,
   "neutrals": 4,
   "verdict": "Moderate -- dig deeper",
   "verdict_color": "amber",
@@ -13,9 +13,9 @@
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "Avg growth 9.6% below benchmark 10.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Avg growth 10.0% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -23,7 +23,7 @@
       "label": "OPM > industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "OPM 17.0% vs benchmark 12.0%",
+      "detail": "OPM 16.0% vs benchmark 12.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "fail",
       "score": 0.0,
-      "detail": "EPS not rising: 19.7 -> 22.6 -> 14.8 (last 3Y)",
+      "detail": "EPS not rising: 19.7 -> 22.6 -> 14.2 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 7077.0 -> 9158.0 -> 9484.0 (last 3Y) Cr",
+      "detail": "Reserves: 9158.0 -> 9484.0 -> 11408.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -71,7 +71,7 @@
       "label": "Fixed assets increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Fixed assets: 6309.0 -> 6627.0 -> 8215.0 (last 3Y) Cr",
+      "detail": "Fixed assets: 6627.0 -> 8215.0 -> 8442.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -116,9 +116,9 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 1720.0,
-    "Market Cap": 84051.0,
-    "P/E": 83.2,
+    "Current Price": 1740.0,
+    "Market Cap": 85029.0,
+    "P/E": 84.9,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 12.0,
@@ -126,12 +126,12 @@
     "Debt / Equity": null,
     "Div. Yield %": 0.49,
     "52W High": 2295.0,
-    "52W Low": 1299.0
+    "52W Low": 1304.0
   },
   "benchmark": {
     "opm": 12.0,
     "npm": 6.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-11-01T08:38:35.388386+00:00"
+  "scanned_at": "2026-11-08T08:32:17.724435+00:00"
 }

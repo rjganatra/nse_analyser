@@ -3,9 +3,9 @@
   "name": "Life Insurance Corporation of India",
   "sector": "Financial Services",
   "screener_url": "https://www.screener.in/company/LICI/consolidated/",
-  "score_pct": 55.9,
-  "passes": 5,
-  "fails": 3,
+  "score_pct": 50.7,
+  "passes": 4,
+  "fails": 4,
   "neutrals": 5,
   "verdict": "Weak fundamentals",
   "verdict_color": "red",
@@ -15,7 +15,7 @@
       "label": "Sales growth >= industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "Avg growth 7.2% below benchmark 10.0%",
+      "detail": "Avg growth 7.5% below benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -23,7 +23,7 @@
       "label": "OPM > industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "OPM 4.7% below benchmark 15.0%",
+      "detail": "OPM 4.8% below benchmark 15.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 38.2 -> 45.4 -> 47.5 (last 3Y)",
+      "detail": "EPS: 38.2 -> 45.4 -> 49.1 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 76422.0 -> 120901.0 -> 170280.0 (last 3Y) Cr",
+      "detail": "Reserves: 120901.0 -> 170280.0 -> 177093.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "pass",
-      "score": 1.0,
-      "detail": "Fixed assets: 20667.0 -> 21330.0 -> 28335.0 (last 3Y) Cr",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "Fixed assets: 21330.0 -> 28335.0 -> 4441.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -116,16 +116,16 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 383.0,
-    "Market Cap": 484811.0,
-    "P/E": 8.07,
+    "Current Price": 394.0,
+    "Market Cap": 498410.0,
+    "P/E": 8.03,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 37.8,
     "ROCE %": 35.1,
     "Debt / Equity": null,
-    "Div. Yield %": 2.61,
-    "52W High": 468.0,
+    "Div. Yield %": 2.54,
+    "52W High": 466.0,
     "52W Low": 361.0
   },
   "benchmark": {
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-11-01T08:53:20.269459+00:00"
+  "scanned_at": "2026-11-08T08:47:02.468200+00:00"
 }

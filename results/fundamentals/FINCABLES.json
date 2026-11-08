@@ -3,19 +3,19 @@
   "name": "Finolex Cables Ltd",
   "sector": "Capital Goods",
   "screener_url": "https://www.screener.in/company/FINCABLES/consolidated/",
-  "score_pct": 52.6,
-  "passes": 4,
-  "fails": 3,
+  "score_pct": 59.2,
+  "passes": 5,
+  "fails": 2,
   "neutrals": 6,
-  "verdict": "Weak fundamentals",
-  "verdict_color": "red",
+  "verdict": "Moderate -- dig deeper",
+  "verdict_color": "amber",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "Avg growth 10.8% below benchmark 12.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Avg growth 12.1% vs benchmark 12.0%",
       "weight": 1.0
     },
     {
@@ -23,7 +23,7 @@
       "label": "OPM > industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "OPM 10.0% below benchmark 22.0%",
+      "detail": "OPM 11.0% below benchmark 22.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 45.8 -> 46.7 -> 52.3 (last 3Y)",
+      "detail": "EPS: 45.8 -> 46.7 -> 59.5 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 4915.0 -> 5465.0 -> 6055.0 (last 3Y) Cr",
+      "detail": "Reserves: 5465.0 -> 6055.0 -> 6453.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -71,7 +71,7 @@
       "label": "Fixed assets increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Fixed assets: 444.0 -> 583.0 -> 848.0 (last 3Y) Cr",
+      "detail": "Fixed assets: 583.0 -> 848.0 -> 914.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -116,15 +116,15 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 1140.0,
-    "Market Cap": 17435.0,
-    "P/E": 21.8,
+    "Current Price": 1091.0,
+    "Market Cap": 16686.0,
+    "P/E": 18.3,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 12.3,
     "ROCE %": 16.0,
     "Debt / Equity": null,
-    "Div. Yield %": 0.79,
+    "Div. Yield %": 0.82,
     "52W High": 1499.0,
     "52W Low": 701.0
   },
@@ -133,5 +133,5 @@
     "npm": 18.0,
     "sg": 12.0
   },
-  "scanned_at": "2026-11-01T08:44:28.044566+00:00"
+  "scanned_at": "2026-11-08T08:38:10.324207+00:00"
 }

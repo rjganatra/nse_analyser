@@ -3,9 +3,9 @@
   "name": "Petronet LNG Ltd",
   "sector": "Oil & Gas",
   "screener_url": "https://www.screener.in/company/PETRONET/consolidated/",
-  "score_pct": 62.4,
-  "passes": 6,
-  "fails": 3,
+  "score_pct": 69.0,
+  "passes": 7,
+  "fails": 2,
   "neutrals": 4,
   "verdict": "Moderate -- dig deeper",
   "verdict_color": "amber",
@@ -15,15 +15,15 @@
       "label": "Sales growth >= industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "Avg growth 2.9% below benchmark 10.0%",
+      "detail": "Avg growth 2.2% below benchmark 10.0%",
       "weight": 1.0
     },
     {
       "id": "c2",
       "label": "OPM > industry",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "OPM 15.0% below benchmark 15.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "OPM 19.0% vs benchmark 15.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 26.5 -> 26.1 -> 28.1 (last 3Y)",
+      "detail": "EPS: 26.5 -> 26.1 -> 30.9 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 15910.0 -> 18378.0 -> 20785.0 (last 3Y) Cr",
+      "detail": "Reserves: 18378.0 -> 20785.0 -> 22728.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -71,7 +71,7 @@
       "label": "Fixed assets increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Fixed assets: 8147.0 -> 8836.0 -> 9048.0 (last 3Y) Cr",
+      "detail": "Fixed assets: 8836.0 -> 9048.0 -> 8487.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -111,20 +111,20 @@
       "label": "ROE > ROCE",
       "result": "fail",
       "score": 0.0,
-      "detail": "ROE 18.3% <= ROCE 23.0% -- leverage not adding value",
+      "detail": "ROE 18.4% <= ROCE 23.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Current Price": 290.0,
-    "Market Cap": 43425.0,
+    "Current Price": 317.0,
+    "Market Cap": 47550.0,
     "P/E": 10.3,
     "Industry P/E": null,
     "P/B": null,
-    "ROE %": 18.3,
+    "ROE %": 18.4,
     "ROCE %": 22.6,
     "Debt / Equity": null,
-    "Div. Yield %": 3.45,
+    "Div. Yield %": 3.15,
     "52W High": 326.0,
     "52W Low": 235.0
   },
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-11-01T08:57:37.243274+00:00"
+  "scanned_at": "2026-11-08T08:51:19.337825+00:00"
 }

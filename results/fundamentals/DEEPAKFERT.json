@@ -3,9 +3,9 @@
   "name": "Deepak Fertilisers & Petrochemicals Corp Ltd",
   "sector": "Chemicals",
   "screener_url": "https://www.screener.in/company/DEEPAKFERT/consolidated/",
-  "score_pct": 65.7,
-  "passes": 6,
-  "fails": 2,
+  "score_pct": 75.5,
+  "passes": 7,
+  "fails": 1,
   "neutrals": 5,
   "verdict": "Moderate -- dig deeper",
   "verdict_color": "amber",
@@ -109,22 +109,22 @@
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "ROE 10.9% <= ROCE 11.0% -- leverage not adding value",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "ROE 11.1% > ROCE 11.0% -- leverage working for shareholders",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Current Price": 1100.0,
-    "Market Cap": 13889.0,
-    "P/E": 14.1,
+    "Current Price": 1155.0,
+    "Market Cap": 14584.0,
+    "P/E": 14.8,
     "Industry P/E": null,
     "P/B": null,
-    "ROE %": 10.9,
+    "ROE %": 11.1,
     "ROCE %": 11.4,
     "Debt / Equity": null,
-    "Div. Yield %": 0.91,
+    "Div. Yield %": 0.87,
     "52W High": 1681.0,
     "52W Low": 865.0
   },
@@ -133,5 +133,5 @@
     "npm": 10.0,
     "sg": 11.0
   },
-  "scanned_at": "2026-11-01T08:42:43.429967+00:00"
+  "scanned_at": "2026-11-08T08:36:25.830819+00:00"
 }

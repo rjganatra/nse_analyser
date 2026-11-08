@@ -3,9 +3,9 @@
   "name": "NCC Ltd",
   "sector": "Construction",
   "screener_url": "https://www.screener.in/company/NCC/consolidated/",
-  "score_pct": 40.8,
-  "passes": 3,
-  "fails": 5,
+  "score_pct": 52.6,
+  "passes": 5,
+  "fails": 3,
   "neutrals": 5,
   "verdict": "Weak fundamentals",
   "verdict_color": "red",
@@ -13,9 +13,9 @@
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "Avg growth 9.8% below benchmark 10.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Avg growth 10.3% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 13.1 -> 10.8 -> 11.1 (last 3Y)",
+      "detail": "EPS: 13.1 -> 10.8 -> 11.6 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 6514.0 -> 7198.0 -> 7743.0 (last 3Y) Cr",
+      "detail": "Reserves: 7198.0 -> 7743.0 -> 8007.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "Fixed assets: 1565.0 -> 1650.0 -> 2056.0 (last 3Y) Cr",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Fixed assets: 1650.0 -> 2056.0 -> 2465.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -116,16 +116,16 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 115.0,
-    "Market Cap": 7189.0,
-    "P/E": 9.95,
+    "Current Price": 123.0,
+    "Market Cap": 7712.0,
+    "P/E": 10.3,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 9.19,
     "ROCE %": 16.8,
     "Debt / Equity": null,
-    "Div. Yield %": 1.92,
-    "52W High": 217.0,
+    "Div. Yield %": 1.79,
+    "52W High": 196.0,
     "52W Low": 114.0
   },
   "benchmark": {
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-11-01T08:55:13.249264+00:00"
+  "scanned_at": "2026-11-08T08:48:55.269086+00:00"
 }

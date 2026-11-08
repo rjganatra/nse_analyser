@@ -3,12 +3,12 @@
   "name": "Bagmane Prime Office REIT",
   "sector": "Realty",
   "screener_url": "https://www.screener.in/company/BAGMANE/consolidated/",
-  "score_pct": 58.2,
-  "passes": 4,
-  "fails": 2,
-  "neutrals": 7,
-  "verdict": "Moderate -- dig deeper",
-  "verdict_color": "amber",
+  "score_pct": 57.5,
+  "passes": 5,
+  "fails": 3,
+  "neutrals": 5,
+  "verdict": "Weak fundamentals",
+  "verdict_color": "red",
   "criteria": [
     {
       "id": "c1",
@@ -45,9 +45,9 @@
     {
       "id": "c5",
       "label": "Reserves increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "Reserves declining: 1224.3 -> 1579.7 -> -53.8 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Fixed assets: 5574.3 -> 6066.1 -> 36414.6 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -117,14 +117,14 @@
   ],
   "top_ratios": {
     "Current Price": 106.0,
-    "Market Cap": 35901.0,
+    "Market Cap": 36210.0,
     "P/E": null,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": -0.02,
     "ROCE %": 0.0,
     "Debt / Equity": null,
-    "Div. Yield %": 1.42,
+    "Div. Yield %": 2.86,
     "52W High": 112.0,
     "52W Low": 102.0
   },
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-11-01T08:37:23.397689+00:00"
+  "scanned_at": "2026-11-08T08:31:05.743256+00:00"
 }

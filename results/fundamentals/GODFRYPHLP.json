@@ -15,7 +15,7 @@
       "label": "Sales growth >= industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "Avg growth 8.4% below benchmark 10.0%",
+      "detail": "Avg growth 8.5% below benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -23,7 +23,7 @@
       "label": "OPM > industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "OPM 23.0% vs benchmark 16.0%",
+      "detail": "OPM 22.0% vs benchmark 16.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 68.7 -> 97.8 -> 87.7 (last 3Y)",
+      "detail": "EPS: 68.7 -> 97.8 -> 80.3 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 4222.0 -> 5235.0 -> 6181.0 (last 3Y) Cr",
+      "detail": "Reserves: 5235.0 -> 6181.0 -> 6067.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -71,7 +71,7 @@
       "label": "Fixed assets increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Fixed assets: 893.0 -> 732.0 -> 812.0 (last 3Y) Cr",
+      "detail": "Fixed assets: 732.0 -> 812.0 -> 1026.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -111,21 +111,21 @@
       "label": "ROE > ROCE",
       "result": "fail",
       "score": 0.0,
-      "detail": "ROE 23.4% <= ROCE 30.0% -- leverage not adding value",
+      "detail": "ROE 24.5% <= ROCE 30.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Current Price": 1690.0,
-    "Market Cap": 26364.0,
-    "P/E": 19.3,
+    "Current Price": 1790.0,
+    "Market Cap": 27921.0,
+    "P/E": 22.3,
     "Industry P/E": null,
     "P/B": null,
-    "ROE %": 23.4,
+    "ROE %": 24.5,
     "ROCE %": 30.2,
     "Debt / Equity": null,
-    "Div. Yield %": 2.96,
-    "52W High": 3164.0,
+    "Div. Yield %": 2.79,
+    "52W High": 3062.0,
     "52W Low": 1641.0
   },
   "benchmark": {
@@ -133,5 +133,5 @@
     "npm": 10.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-11-01T08:45:44.001221+00:00"
+  "scanned_at": "2026-11-08T08:39:26.281868+00:00"
 }

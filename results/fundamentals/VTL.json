@@ -15,7 +15,7 @@
       "label": "Sales growth >= industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "Avg growth 4.6% below benchmark 10.0%",
+      "detail": "Avg growth 5.0% below benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -23,7 +23,7 @@
       "label": "OPM > industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "OPM 14.0% below benchmark 15.0%",
+      "detail": "OPM 15.0% below benchmark 15.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 30.5 -> 25.8 -> 29.3 (last 3Y)",
+      "detail": "EPS: 30.5 -> 25.8 -> 35.2 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 9043.0 -> 9839.0 -> 10457.0 (last 3Y) Cr",
+      "detail": "Reserves: 9839.0 -> 10457.0 -> 10996.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -71,7 +71,7 @@
       "label": "Fixed assets increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Fixed assets: 3769.0 -> 4150.0 -> 5094.0 (last 3Y) Cr",
+      "detail": "Fixed assets: 4150.0 -> 5094.0 -> 5367.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -111,20 +111,20 @@
       "label": "ROE > ROCE",
       "result": "fail",
       "score": 0.0,
-      "detail": "ROE 6.9% <= ROCE 9.0% -- leverage not adding value",
+      "detail": "ROE 7.0% <= ROCE 9.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Current Price": 486.0,
-    "Market Cap": 14078.0,
-    "P/E": 16.6,
+    "Current Price": 515.0,
+    "Market Cap": 14923.0,
+    "P/E": 14.7,
     "Industry P/E": null,
     "P/B": null,
-    "ROE %": 6.86,
+    "ROE %": 7.03,
     "ROCE %": 8.55,
     "Debt / Equity": null,
-    "Div. Yield %": 1.03,
+    "Div. Yield %": 0.97,
     "52W High": 688.0,
     "52W Low": 391.0
   },
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-11-01T09:05:09.523653+00:00"
+  "scanned_at": "2026-11-08T08:58:51.462012+00:00"
 }

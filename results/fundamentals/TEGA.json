@@ -3,19 +3,19 @@
   "name": "Tega Industries Ltd",
   "sector": "Capital Goods",
   "screener_url": "https://www.screener.in/company/TEGA/consolidated/",
-  "score_pct": 65.7,
-  "passes": 6,
-  "fails": 2,
+  "score_pct": 55.9,
+  "passes": 5,
+  "fails": 3,
   "neutrals": 5,
-  "verdict": "Moderate -- dig deeper",
-  "verdict_color": "amber",
+  "verdict": "Weak fundamentals",
+  "verdict_color": "red",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "Avg growth 16.1% vs benchmark 12.0%",
+      "detail": "Avg growth 35.0% vs benchmark 12.0%",
       "weight": 1.0
     },
     {
@@ -23,15 +23,15 @@
       "label": "OPM > industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "OPM 8.0% below benchmark 22.0%",
+      "detail": "OPM 9.0% below benchmark 22.0%",
       "weight": 1.0
     },
     {
       "id": "c3",
       "label": "EPS consistently increasing",
-      "result": "pass",
-      "score": 1.0,
-      "detail": "EPS: 30.1 -> 19.0 -> 0.6 (last 3Y)",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "EPS not rising: 30.1 -> 19.0 -> -13.9 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 1125.0 -> 1330.0 -> 3332.0 (last 3Y) Cr",
+      "detail": "Reserves: 1330.0 -> 3332.0 -> 3127.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -71,7 +71,7 @@
       "label": "Fixed assets increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Fixed assets: 600.0 -> 623.0 -> 661.0 (last 3Y) Cr",
+      "detail": "Fixed assets: 623.0 -> 661.0 -> 12295.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -116,8 +116,8 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 1683.0,
-    "Market Cap": 12726.0,
+    "Current Price": 1710.0,
+    "Market Cap": 12928.0,
     "P/E": null,
     "Industry P/E": null,
     "P/B": null,
@@ -133,5 +133,5 @@
     "npm": 18.0,
     "sg": 12.0
   },
-  "scanned_at": "2026-11-01T09:03:21.320498+00:00"
+  "scanned_at": "2026-11-08T08:57:03.343155+00:00"
 }

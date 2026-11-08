@@ -3,9 +3,9 @@
   "name": "Bosch Ltd",
   "sector": "Automobile and Auto Components",
   "screener_url": "https://www.screener.in/company/BOSCHLTD/consolidated/",
-  "score_pct": 69.0,
-  "passes": 7,
-  "fails": 2,
+  "score_pct": 62.4,
+  "passes": 6,
+  "fails": 3,
   "neutrals": 4,
   "verdict": "Moderate -- dig deeper",
   "verdict_color": "amber",
@@ -15,7 +15,7 @@
       "label": "Sales growth >= industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "Avg growth 7.9% below benchmark 10.0%",
+      "detail": "Avg growth 9.8% below benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 683.3 -> 940.3 -> 801.2 (last 3Y)",
+      "detail": "EPS: 683.3 -> 940.3 -> 934.6 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -45,9 +45,9 @@
     {
       "id": "c5",
       "label": "Reserves increasing",
-      "result": "pass",
-      "score": 1.0,
-      "detail": "Reserves: 12027.0 -> 13784.0 -> 14816.0 (last 3Y) Cr",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "Reserves declining: 13784.0 -> 14816.0 -> 7638.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -71,7 +71,7 @@
       "label": "Fixed assets increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Fixed assets: 1770.0 -> 1622.0 -> 1654.0 (last 3Y) Cr",
+      "detail": "Fixed assets: 1622.0 -> 1654.0 -> 1962.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -116,16 +116,16 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 47200.0,
-    "Market Cap": 139222.0,
-    "P/E": 58.9,
+    "Current Price": 50700.0,
+    "Market Cap": 149545.0,
+    "P/E": 56.2,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 14.6,
     "ROCE %": 21.5,
     "Debt / Equity": null,
-    "Div. Yield %": 0.57,
-    "52W High": 50000.0,
+    "Div. Yield %": 0.53,
+    "52W High": 52650.0,
     "52W Low": 28610.0
   },
   "benchmark": {
@@ -133,5 +133,5 @@
     "npm": 6.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-11-01T08:39:15.388225+00:00"
+  "scanned_at": "2026-11-08T08:32:57.724963+00:00"
 }

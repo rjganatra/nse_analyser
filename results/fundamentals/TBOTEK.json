@@ -15,7 +15,7 @@
       "label": "Sales growth >= industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "Avg growth 52.1% vs benchmark 10.0%",
+      "detail": "Avg growth 53.3% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 21.2 -> 22.5 -> 24.4 (last 3Y)",
+      "detail": "EPS: 21.2 -> 22.5 -> 25.1 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 534.0 -> 1184.0 -> 1540.0 (last 3Y) Cr",
+      "detail": "Reserves: 1184.0 -> 1540.0 -> 1726.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -71,7 +71,7 @@
       "label": "Fixed assets increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Fixed assets: 349.0 -> 345.0 -> 1619.0 (last 3Y) Cr",
+      "detail": "Fixed assets: 345.0 -> 1619.0 -> 1628.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -116,9 +116,9 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 1532.0,
-    "Market Cap": 16638.0,
-    "P/E": 61.8,
+    "Current Price": 1565.0,
+    "Market Cap": 16991.0,
+    "P/E": 59.8,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 17.4,
@@ -133,5 +133,5 @@
     "npm": 10.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-11-01T09:02:09.179890+00:00"
+  "scanned_at": "2026-11-08T08:55:51.327993+00:00"
 }

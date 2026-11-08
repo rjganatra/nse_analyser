@@ -3,19 +3,19 @@
   "name": "Kirloskar Oil Engines Ltd",
   "sector": "Capital Goods",
   "screener_url": "https://www.screener.in/company/KIRLOSENG/consolidated/",
-  "score_pct": 72.2,
-  "passes": 7,
-  "fails": 2,
+  "score_pct": 78.8,
+  "passes": 8,
+  "fails": 1,
   "neutrals": 4,
-  "verdict": "Moderate -- dig deeper",
-  "verdict_color": "amber",
+  "verdict": "Strong buy candidate",
+  "verdict_color": "green",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "Avg growth 11.7% below benchmark 12.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Avg growth 12.1% vs benchmark 12.0%",
       "weight": 1.0
     },
     {
@@ -23,7 +23,7 @@
       "label": "OPM > industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "OPM 18.0% below benchmark 22.0%",
+      "detail": "OPM 16.0% below benchmark 22.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 33.7 -> 39.5 -> 37.6 (last 3Y)",
+      "detail": "EPS: 33.7 -> 39.5 -> 35.4 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 2647.0 -> 3057.0 -> 3591.0 (last 3Y) Cr",
+      "detail": "Reserves: 3057.0 -> 3591.0 -> 3750.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -71,7 +71,7 @@
       "label": "Fixed assets increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Fixed assets: 769.0 -> 1183.0 -> 1327.0 (last 3Y) Cr",
+      "detail": "Fixed assets: 1183.0 -> 1327.0 -> 1444.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -116,15 +116,15 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 1796.0,
-    "Market Cap": 26145.0,
-    "P/E": 45.9,
+    "Current Price": 1582.0,
+    "Market Cap": 23036.0,
+    "P/E": 42.8,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 17.5,
     "ROCE %": 14.6,
     "Debt / Equity": null,
-    "Div. Yield %": 0.39,
+    "Div. Yield %": 0.44,
     "52W High": 2720.0,
     "52W Low": 933.0
   },
@@ -133,5 +133,5 @@
     "npm": 18.0,
     "sg": 12.0
   },
-  "scanned_at": "2026-11-01T08:52:28.129868+00:00"
+  "scanned_at": "2026-11-08T08:46:10.447570+00:00"
 }
