@@ -1,7 +1,7 @@
 {
   "meta": {
     "strategy": "opportunities",
-    "scanned_at": "2026-11-11T15:02:00.049034+00:00",
+    "scanned_at": "2026-11-11T19:13:55.513352+00:00",
     "total": 501,
     "success": 468,
     "opportunities": 320,
@@ -1456,7 +1456,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/TATAPOWER/consolidated/",
       "ratios": {
-        "pe": 29.4,
+        "pe": 26.9,
         "industry_pe": null,
         "pb": null,
         "roe": 10.2,
@@ -9288,7 +9288,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/TATAPOWER/consolidated/",
       "ratios": {
-        "pe": 29.4,
+        "pe": 26.9,
         "industry_pe": null,
         "pb": null,
         "roe": 10.2,
