@@ -1,7 +1,7 @@
 {
   "meta": {
     "strategy": "opportunities",
-    "scanned_at": "2026-11-13T15:10:52.974660+00:00",
+    "scanned_at": "2026-11-13T19:03:08.605646+00:00",
     "total": 501,
     "success": 468,
     "opportunities": 330,
@@ -3093,7 +3093,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/INOXWIND/consolidated/",
       "ratios": {
-        "pe": 32.3,
+        "pe": 35.7,
         "industry_pe": null,
         "pb": null,
         "roe": 7.5,
@@ -12357,7 +12357,7 @@
       "is_opportunity": true,
       "screener_url": "https://www.screener.in/company/INOXWIND/consolidated/",
       "ratios": {
-        "pe": 32.3,
+        "pe": 35.7,
         "industry_pe": null,
         "pb": null,
         "roe": 7.5,
@@ -17717,7 +17717,7 @@
       "is_opportunity": false,
       "screener_url": "https://www.screener.in/company/ABB/consolidated/",
       "ratios": {
-        "pe": 96.6,
+        "pe": 94.7,
         "industry_pe": null,
         "pb": null,
         "roe": 22.4,
