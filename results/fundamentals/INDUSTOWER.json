@@ -3,12 +3,12 @@
   "name": "Indus Towers Ltd",
   "sector": "Telecommunication",
   "screener_url": "https://www.screener.in/company/INDUSTOWER/consolidated/",
-  "score_pct": 75.5,
-  "passes": 8,
-  "fails": 1,
+  "score_pct": 85.3,
+  "passes": 9,
+  "fails": 0,
   "neutrals": 4,
-  "verdict": "Moderate -- dig deeper",
-  "verdict_color": "amber",
+  "verdict": "Strong buy candidate",
+  "verdict_color": "green",
   "criteria": [
     {
       "id": "c1",
@@ -109,22 +109,22 @@
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "ROE 18.6% <= ROCE 19.0% -- leverage not adding value",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "ROE 19.1% > ROCE 19.0% -- leverage working for shareholders",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Current Price": 383.0,
-    "Market Cap": 101068.0,
-    "P/E": 14.2,
+    "Current Price": 396.0,
+    "Market Cap": 104471.0,
+    "P/E": 14.7,
     "Industry P/E": null,
     "P/B": null,
-    "ROE %": 18.6,
+    "ROE %": 19.1,
     "ROCE %": 19.5,
     "Debt / Equity": null,
-    "Div. Yield %": 3.65,
+    "Div. Yield %": 3.54,
     "52W High": 482.0,
     "52W Low": 356.0
   },
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 8.0
   },
-  "scanned_at": "2026-11-08T08:43:26.349196+00:00"
+  "scanned_at": "2026-11-15T08:59:21.121195+00:00"
 }

@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 41012.0 -> 53086.0 -> 58853.0 (last 3Y) Cr",
+      "detail": "Reserves: 53086.0 -> 58853.0 -> 59175.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -71,7 +71,7 @@
       "label": "Fixed assets increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Fixed assets: 32194.0 -> 42766.0 -> 58263.0 (last 3Y) Cr",
+      "detail": "Fixed assets: 42766.0 -> 58263.0 -> 59391.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -116,15 +116,15 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 391.0,
-    "Market Cap": 97057.0,
-    "P/E": 32.1,
+    "Current Price": 381.0,
+    "Market Cap": 94783.0,
+    "P/E": 31.4,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 8.85,
     "ROCE %": 5.61,
     "Debt / Equity": null,
-    "Div. Yield %": 0.51,
+    "Div. Yield %": 0.52,
     "52W High": 573.0,
     "52W Low": 341.0
   },
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-11-08T08:29:21.650492+00:00"
+  "scanned_at": "2026-11-15T08:45:26.152562+00:00"
 }

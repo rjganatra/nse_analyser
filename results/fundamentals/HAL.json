@@ -3,9 +3,9 @@
   "name": "Hindustan Aeronautics Ltd",
   "sector": "Aerospace & Defence",
   "screener_url": "https://www.screener.in/company/HAL/consolidated/",
-  "score_pct": 63.7,
-  "passes": 6,
-  "fails": 3,
+  "score_pct": 69.0,
+  "passes": 7,
+  "fails": 2,
   "neutrals": 4,
   "verdict": "Moderate -- dig deeper",
   "verdict_color": "amber",
@@ -15,7 +15,7 @@
       "label": "Sales growth >= industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "Avg growth 6.5% below benchmark 10.0%",
+      "detail": "Avg growth 6.8% below benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -23,7 +23,7 @@
       "label": "OPM > industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "OPM 30.0% vs benchmark 15.0%",
+      "detail": "OPM 29.0% vs benchmark 15.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "EPS: 125.1 -> 136.3 -> 139.4 (last 3Y)",
+      "detail": "EPS: 125.1 -> 136.3 -> 143.4 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -47,7 +47,7 @@
       "label": "Reserves increasing",
       "result": "pass",
       "score": 1.0,
-      "detail": "Reserves: 28804.0 -> 34647.0 -> 40707.0 (last 3Y) Cr",
+      "detail": "Reserves: 34647.0 -> 40707.0 -> 43665.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "Fixed assets: 6737.0 -> 6671.0 -> 7293.0 (last 3Y) Cr",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Fixed assets: 6671.0 -> 7293.0 -> 10020.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -116,15 +116,15 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 4980.0,
-    "Market Cap": 333050.0,
-    "P/E": 35.7,
+    "Current Price": 4810.0,
+    "Market Cap": 321667.0,
+    "P/E": 33.6,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 24.0,
     "ROCE %": 32.0,
     "Debt / Equity": null,
-    "Div. Yield %": 0.9,
+    "Div. Yield %": 0.94,
     "52W High": 5150.0,
     "52W Low": 3479.0
   },
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-11-08T08:41:02.401249+00:00"
+  "scanned_at": "2026-11-15T08:56:58.632947+00:00"
 }
