@@ -3,11 +3,11 @@
   "name": "ITI Ltd",
   "sector": "Telecommunication",
   "screener_url": "https://www.screener.in/company/ITI/consolidated/",
-  "score_pct": 37.6,
-  "passes": 3,
-  "fails": 5,
+  "score_pct": 47.4,
+  "passes": 4,
+  "fails": 4,
   "neutrals": 5,
-  "verdict": "Avoid",
+  "verdict": "Weak fundamentals",
   "verdict_color": "red",
   "criteria": [
     {
@@ -15,7 +15,7 @@
       "label": "Sales growth >= industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "Avg growth 13.2% vs benchmark 8.0%",
+      "detail": "Avg growth 22.7% vs benchmark 8.0%",
       "weight": 1.0
     },
     {
@@ -29,9 +29,9 @@
     {
       "id": "c3",
       "label": "EPS consistently increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "EPS not rising: -2.2 -> 3.0 -> 3.6 (last 3Y)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "EPS: -2.2 -> 3.0 -> 3.6 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -116,8 +116,8 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 268.0,
-    "Market Cap": 25819.0,
+    "Current Price": 246.0,
+    "Market Cap": 23667.0,
     "P/E": null,
     "Industry P/E": null,
     "P/B": null,
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 8.0
   },
-  "scanned_at": "2026-11-15T08:58:33.648634+00:00"
+  "scanned_at": "2026-11-22T09:27:41.931338+00:00"
 }

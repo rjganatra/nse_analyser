@@ -3,19 +3,19 @@
   "name": "Ather Energy Ltd",
   "sector": "Automobile and Auto Components",
   "screener_url": "https://www.screener.in/company/ATHERENERG/consolidated/",
-  "score_pct": 40.2,
-  "passes": 0,
-  "fails": 2,
-  "neutrals": 11,
+  "score_pct": 52.6,
+  "passes": 5,
+  "fails": 3,
+  "neutrals": 5,
   "verdict": "Weak fundamentals",
   "verdict_color": "red",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data. Benchmark: 10.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Avg growth 160.8% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -29,9 +29,9 @@
     {
       "id": "c3",
       "label": "EPS consistently increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Trend: -13.5 (last 1Y)",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "EPS not rising: -36.5 -> -27.9 -> -13.5 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -45,9 +45,9 @@
     {
       "id": "c5",
       "label": "Reserves increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Reserves: 464.0 -> 2534.0 -> 4246.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Fixed assets: 616.0 -> 865.0 -> 988.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -87,15 +87,15 @@
       "label": "CFO positive & increasing",
       "result": "fail",
       "score": 0.0,
-      "detail": "CFO N/A Cr -- negative cash flow",
+      "detail": "CFO -721.0 Cr -- negative cash flow",
       "weight": 2.0
     },
     {
       "id": "c11",
       "label": "CFI negative (investing in growth)",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFI = N/A Cr -- positive (possible asset sales)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFI = -378.0 Cr -- investing actively",
       "weight": 1.0
     },
     {
@@ -103,21 +103,21 @@
       "label": "CFF: debt repayment or growth",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFF unavailable",
+      "detail": "CFF = 703.0 Cr -- raising capital (verify if for growth)",
       "weight": 1.0
     },
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "ROE=-19.9% ROCE=N/A",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "ROE -19.9% > ROCE -66.0% -- leverage working for shareholders",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Current Price": 1945.0,
-    "Market Cap": 77194.0,
+    "Current Price": 1935.0,
+    "Market Cap": 76858.0,
     "P/E": null,
     "Industry P/E": null,
     "P/B": null,
@@ -125,7 +125,7 @@
     "ROCE %": null,
     "Debt / Equity": null,
     "Div. Yield %": 0.0,
-    "52W High": 1958.0,
+    "52W High": 2023.0,
     "52W Low": 589.0
   },
   "benchmark": {
@@ -133,5 +133,5 @@
     "npm": 6.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-11-15T08:46:25.502213+00:00"
+  "scanned_at": "2026-11-22T09:15:29.890958+00:00"
 }

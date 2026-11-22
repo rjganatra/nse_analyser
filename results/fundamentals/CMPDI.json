@@ -3,10 +3,10 @@
   "name": "Central Mine Planning & Design Institute Ltd",
   "sector": "Services",
   "screener_url": "https://www.screener.in/company/CMPDI/consolidated/",
-  "score_pct": 74.5,
-  "passes": 6,
-  "fails": 0,
-  "neutrals": 7,
+  "score_pct": 75.5,
+  "passes": 8,
+  "fails": 1,
+  "neutrals": 4,
   "verdict": "Moderate -- dig deeper",
   "verdict_color": "amber",
   "criteria": [
@@ -15,7 +15,7 @@
       "label": "Sales growth >= industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "Avg growth 23.2% vs benchmark 10.0%",
+      "detail": "Avg growth 10.6% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -45,9 +45,9 @@
     {
       "id": "c5",
       "label": "Reserves increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Reserves: 659.0 -> 872.0 -> 1899.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Fixed assets: 188.0 -> 205.0 -> 247.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -109,22 +109,22 @@
     {
       "id": "c13",
       "label": "ROE > ROCE",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "ROE=32.7% ROCE=N/A",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "ROE 32.7% <= ROCE 40.0% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Current Price": 189.0,
-    "Market Cap": 13509.0,
-    "P/E": 20.3,
+    "Current Price": 180.0,
+    "Market Cap": 12863.0,
+    "P/E": 19.3,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 32.7,
     "ROCE %": null,
     "Debt / Equity": null,
-    "Div. Yield %": 1.11,
+    "Div. Yield %": 1.17,
     "52W High": 284.0,
     "52W Low": 150.0
   },
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-11-15T08:50:26.526576+00:00"
+  "scanned_at": "2026-11-22T09:19:32.795973+00:00"
 }

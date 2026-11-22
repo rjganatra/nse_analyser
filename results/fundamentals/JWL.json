@@ -3,19 +3,19 @@
   "name": "Jupiter Wagons Ltd",
   "sector": "Capital Goods",
   "screener_url": "https://www.screener.in/company/JWL/consolidated/",
-  "score_pct": 49.3,
-  "passes": 4,
-  "fails": 3,
+  "score_pct": 59.2,
+  "passes": 5,
+  "fails": 2,
   "neutrals": 6,
-  "verdict": "Weak fundamentals",
-  "verdict_color": "red",
+  "verdict": "Moderate -- dig deeper",
+  "verdict_color": "amber",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "Avg growth 26.5% vs benchmark 12.0%",
+      "detail": "Avg growth 76.0% vs benchmark 12.0%",
       "weight": 1.0
     },
     {
@@ -29,9 +29,9 @@
     {
       "id": "c3",
       "label": "EPS consistently increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "EPS not rising: 9.0 -> 4.0 -> 3.9 (last 3Y)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "EPS: 9.0 -> 4.0 -> 3.9 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -116,15 +116,15 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 207.0,
-    "Market Cap": 8845.0,
-    "P/E": 51.3,
+    "Current Price": 191.0,
+    "Market Cap": 8173.0,
+    "P/E": 47.4,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 6.37,
     "ROCE %": 9.14,
     "Debt / Equity": null,
-    "Div. Yield %": 0.48,
+    "Div. Yield %": 0.52,
     "52W High": 358.0,
     "52W Low": 169.0
   },
@@ -133,5 +133,5 @@
     "npm": 18.0,
     "sg": 12.0
   },
-  "scanned_at": "2026-11-15T09:01:08.234819+00:00"
+  "scanned_at": "2026-11-22T09:30:16.158180+00:00"
 }

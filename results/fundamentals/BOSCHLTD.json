@@ -3,9 +3,9 @@
   "name": "Bosch Ltd",
   "sector": "Automobile and Auto Components",
   "screener_url": "https://www.screener.in/company/BOSCHLTD/consolidated/",
-  "score_pct": 62.4,
-  "passes": 6,
-  "fails": 3,
+  "score_pct": 69.0,
+  "passes": 7,
+  "fails": 2,
   "neutrals": 4,
   "verdict": "Moderate -- dig deeper",
   "verdict_color": "amber",
@@ -15,7 +15,7 @@
       "label": "Sales growth >= industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "Avg growth 9.8% below benchmark 10.0%",
+      "detail": "Avg growth 7.4% below benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -45,9 +45,9 @@
     {
       "id": "c5",
       "label": "Reserves increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "Reserves declining: 13784.0 -> 14816.0 -> 7638.0 (last 3Y) Cr",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Reserves: 13784.0 -> 14816.0 -> 7638.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -116,8 +116,8 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 49390.0,
-    "Market Cap": 145681.0,
+    "Current Price": 49360.0,
+    "Market Cap": 145593.0,
     "P/E": 54.7,
     "Industry P/E": null,
     "P/B": null,
@@ -133,5 +133,5 @@
     "npm": 6.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-11-15T08:48:59.562785+00:00"
+  "scanned_at": "2026-11-22T09:18:04.939228+00:00"
 }

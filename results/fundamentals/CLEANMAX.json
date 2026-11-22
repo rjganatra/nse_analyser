@@ -3,9 +3,9 @@
   "name": "Clean Max Enviro Energy Solutions Ltd",
   "sector": "Power",
   "screener_url": "https://www.screener.in/company/CLEANMAX/consolidated/",
-  "score_pct": 62.4,
-  "passes": 6,
-  "fails": 2,
+  "score_pct": 72.2,
+  "passes": 7,
+  "fails": 1,
   "neutrals": 5,
   "verdict": "Moderate -- dig deeper",
   "verdict_color": "amber",
@@ -15,7 +15,7 @@
       "label": "Sales growth >= industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "Avg growth 27.2% vs benchmark 10.0%",
+      "detail": "Avg growth 32.0% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -29,9 +29,9 @@
     {
       "id": "c3",
       "label": "EPS consistently increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "EPS not rising: 2.8 -> 8.0 -> 15.6 (last 3Y)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "EPS: 2.6 -> 8.0 -> 15.5 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -116,9 +116,9 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 1318.0,
-    "Market Cap": 15513.0,
-    "P/E": 86.8,
+    "Current Price": 1226.0,
+    "Market Cap": 14439.0,
+    "P/E": 80.8,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 1.76,
@@ -133,5 +133,5 @@
     "npm": 10.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-11-15T08:50:58.129000+00:00"
+  "scanned_at": "2026-11-22T09:20:04.988989+00:00"
 }

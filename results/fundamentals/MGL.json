@@ -3,19 +3,19 @@
   "name": "Mahanagar Gas Ltd",
   "sector": "Oil & Gas",
   "screener_url": "https://www.screener.in/company/MGL/consolidated/",
-  "score_pct": 52.6,
-  "passes": 5,
-  "fails": 4,
+  "score_pct": 69.0,
+  "passes": 7,
+  "fails": 2,
   "neutrals": 4,
-  "verdict": "Weak fundamentals",
-  "verdict_color": "red",
+  "verdict": "Moderate -- dig deeper",
+  "verdict_color": "amber",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "Avg growth 9.6% below benchmark 10.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Avg growth 15.9% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -29,9 +29,9 @@
     {
       "id": "c3",
       "label": "EPS consistently increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "EPS not rising: 105.3 -> 85.2 -> 66.8 (last 3Y)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "EPS: 105.3 -> 85.2 -> 66.8 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -116,16 +116,16 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 1159.0,
-    "Market Cap": 11444.0,
-    "P/E": 17.0,
+    "Current Price": 1115.0,
+    "Market Cap": 11017.0,
+    "P/E": 16.4,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 12.8,
     "ROCE %": 17.0,
     "Debt / Equity": null,
-    "Div. Yield %": 2.59,
-    "52W High": 1265.0,
+    "Div. Yield %": 2.69,
+    "52W High": 1253.0,
     "52W Low": 900.0
   },
   "benchmark": {
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-11-15T09:03:26.838832+00:00"
+  "scanned_at": "2026-11-22T09:32:35.152677+00:00"
 }

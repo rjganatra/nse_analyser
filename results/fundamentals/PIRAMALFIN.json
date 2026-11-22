@@ -3,10 +3,10 @@
   "name": "Piramal Finance Ltd",
   "sector": "Financial Services",
   "screener_url": "https://www.screener.in/company/PIRAMALFIN/consolidated/",
-  "score_pct": 49.3,
-  "passes": 4,
+  "score_pct": 46.1,
+  "passes": 3,
   "fails": 3,
-  "neutrals": 6,
+  "neutrals": 7,
   "verdict": "Weak fundamentals",
   "verdict_color": "red",
   "criteria": [
@@ -21,9 +21,9 @@
     {
       "id": "c2",
       "label": "OPM > industry",
-      "result": "pass",
-      "score": 1.0,
-      "detail": "OPM 59.0% vs benchmark 15.0%",
+      "result": "neutral",
+      "score": 0.5,
+      "detail": "OPM unavailable",
       "weight": 1.0
     },
     {
@@ -111,20 +111,20 @@
       "label": "ROE > ROCE",
       "result": "fail",
       "score": 0.0,
-      "detail": "ROE 0.9% <= ROCE 6.0% -- leverage not adding value",
+      "detail": "ROE 1.0% <= ROCE 6.5% -- leverage not adding value",
       "weight": 1.5
     }
   ],
   "top_ratios": {
-    "Current Price": 2119.0,
-    "Market Cap": 50274.0,
-    "P/E": 87.0,
+    "Current Price": 2018.0,
+    "Market Cap": 47868.0,
+    "P/E": 82.8,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 0.86,
     "ROCE %": 6.47,
     "Debt / Equity": null,
-    "Div. Yield %": 0.52,
+    "Div. Yield %": 0.55,
     "52W High": 2328.0,
     "52W Low": 1416.0
   },
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-11-15T09:07:29.271616+00:00"
+  "scanned_at": "2026-11-22T09:36:38.279342+00:00"
 }

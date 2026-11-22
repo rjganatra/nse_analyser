@@ -3,19 +3,19 @@
   "name": "PNB Housing Finance Ltd",
   "sector": "Financial Services",
   "screener_url": "https://www.screener.in/company/PNBHOUSING/consolidated/",
-  "score_pct": 55.9,
-  "passes": 4,
-  "fails": 2,
+  "score_pct": 62.4,
+  "passes": 5,
+  "fails": 1,
   "neutrals": 7,
-  "verdict": "Weak fundamentals",
-  "verdict_color": "red",
+  "verdict": "Moderate -- dig deeper",
+  "verdict_color": "amber",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "Avg growth 6.7% below benchmark 10.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Avg growth 16.4% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -116,15 +116,15 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 1117.0,
-    "Market Cap": 29140.0,
-    "P/E": 12.4,
+    "Current Price": 1191.0,
+    "Market Cap": 31090.0,
+    "P/E": 13.2,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 12.7,
     "ROCE %": 9.4,
     "Debt / Equity": null,
-    "Div. Yield %": 0.72,
+    "Div. Yield %": 0.67,
     "52W High": 1225.0,
     "52W Low": 730.0
   },
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-11-15T09:06:41.726278+00:00"
+  "scanned_at": "2026-11-22T09:35:50.722622+00:00"
 }

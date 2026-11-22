@@ -3,19 +3,19 @@
   "name": "Vedanta Oil and Gas Ltd",
   "sector": "Oil Gas & Consumable Fuels",
   "screener_url": "https://www.screener.in/company/VOGL/consolidated/",
-  "score_pct": 46.7,
-  "passes": 1,
+  "score_pct": 55.9,
+  "passes": 4,
   "fails": 1,
-  "neutrals": 11,
+  "neutrals": 8,
   "verdict": "Weak fundamentals",
   "verdict_color": "red",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data. Benchmark: 10.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Avg growth 981.8% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "neutral",
       "score": 0.5,
-      "detail": "Trend: -104.5 (last 1Y)",
+      "detail": "Trend: -40.3 -> -104.5 (last 2Y)",
       "weight": 1.5
     },
     {
@@ -45,9 +45,9 @@
     {
       "id": "c5",
       "label": "Reserves increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Reserves: -285.0 -> 15203.0 -> 18000.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Fixed assets: 349.0 -> 10661.0 -> 10097.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -87,7 +87,7 @@
       "label": "CFO positive & increasing",
       "result": "fail",
       "score": 0.0,
-      "detail": "CFO N/A Cr -- negative cash flow",
+      "detail": "CFO -9.0 Cr -- negative cash flow",
       "weight": 2.0
     },
     {
@@ -95,7 +95,7 @@
       "label": "CFI negative (investing in growth)",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFI = N/A Cr -- positive (possible asset sales)",
+      "detail": "CFI = 20.0 Cr -- positive (possible asset sales)",
       "weight": 1.0
     },
     {
@@ -103,7 +103,7 @@
       "label": "CFF: debt repayment or growth",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFF unavailable",
+      "detail": "CFF = 56.0 Cr -- raising capital (verify if for growth)",
       "weight": 1.0
     },
     {
@@ -116,9 +116,9 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 30.9,
-    "Market Cap": 12071.0,
-    "P/E": 21.2,
+    "Current Price": 29.2,
+    "Market Cap": 11414.0,
+    "P/E": 20.1,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": -1.22,
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-11-15T09:14:56.637834+00:00"
+  "scanned_at": "2026-11-22T09:44:07.857633+00:00"
 }

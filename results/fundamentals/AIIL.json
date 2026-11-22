@@ -3,9 +3,9 @@
   "name": "Authum Investment & Infrastructure Ltd",
   "sector": "Financial Services",
   "screener_url": "https://www.screener.in/company/AIIL/consolidated/",
-  "score_pct": 59.2,
-  "passes": 5,
-  "fails": 2,
+  "score_pct": 69.0,
+  "passes": 6,
+  "fails": 1,
   "neutrals": 6,
   "verdict": "Moderate -- dig deeper",
   "verdict_color": "amber",
@@ -15,7 +15,7 @@
       "label": "Sales growth >= industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "Avg growth 106.8% vs benchmark 10.0%",
+      "detail": "Avg growth 307.7% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -29,9 +29,9 @@
     {
       "id": "c3",
       "label": "EPS consistently increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "EPS not rising: 50.0 -> 22.7 -> 20.6 (last 3Y)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "EPS: 50.0 -> 22.7 -> 20.6 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -116,9 +116,9 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 577.0,
-    "Market Cap": 48979.0,
-    "P/E": 28.0,
+    "Current Price": 552.0,
+    "Market Cap": 46877.0,
+    "P/E": 26.8,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 12.8,
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-11-15T08:46:37.386550+00:00"
+  "scanned_at": "2026-11-22T09:15:41.720910+00:00"
 }

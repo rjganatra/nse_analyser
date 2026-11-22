@@ -3,19 +3,19 @@
   "name": "Allied Blenders & Distillers Ltd",
   "sector": "Fast Moving Consumer Goods",
   "screener_url": "https://www.screener.in/company/ABDL/consolidated/",
-  "score_pct": 52.6,
-  "passes": 4,
+  "score_pct": 59.2,
+  "passes": 5,
   "fails": 3,
-  "neutrals": 6,
-  "verdict": "Weak fundamentals",
-  "verdict_color": "red",
+  "neutrals": 5,
+  "verdict": "Moderate -- dig deeper",
+  "verdict_color": "amber",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "Avg growth 5.5% below benchmark 10.0%",
+      "detail": "Avg growth 9.6% below benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -85,9 +85,9 @@
     {
       "id": "c10",
       "label": "CFO positive & increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFO positive (362.0 Cr) but not consistently growing",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFO 362.0 Cr: 186.0 -> -678.0 -> 362.0 (last 3Y) Cr",
       "weight": 2.0
     },
     {
@@ -116,16 +116,16 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 758.0,
-    "Market Cap": 21194.0,
-    "P/E": 92.0,
+    "Current Price": 794.0,
+    "Market Cap": 22217.0,
+    "P/E": 96.5,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 14.3,
     "ROCE %": 18.4,
     "Debt / Equity": null,
-    "Div. Yield %": 0.71,
-    "52W High": 768.0,
+    "Div. Yield %": 0.68,
+    "52W High": 855.0,
     "52W Low": 382.0
   },
   "benchmark": {
@@ -133,5 +133,5 @@
     "npm": 10.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-11-15T08:45:14.295159+00:00"
+  "scanned_at": "2026-11-22T09:14:18.686884+00:00"
 }

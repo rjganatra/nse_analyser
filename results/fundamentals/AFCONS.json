@@ -3,19 +3,19 @@
   "name": "Afcons Infrastructure Ltd",
   "sector": "Construction",
   "screener_url": "https://www.screener.in/company/AFCONS/consolidated/",
-  "score_pct": 36.3,
-  "passes": 3,
-  "fails": 5,
+  "score_pct": 42.8,
+  "passes": 4,
+  "fails": 4,
   "neutrals": 5,
-  "verdict": "Avoid",
+  "verdict": "Weak fundamentals",
   "verdict_color": "red",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "Avg growth 1.8% below benchmark 10.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Avg growth 12.6% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -116,15 +116,15 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 222.0,
-    "Market Cap": 8170.0,
-    "P/E": 58.0,
+    "Current Price": 219.0,
+    "Market Cap": 8047.0,
+    "P/E": 57.2,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 5.61,
     "ROCE %": 13.9,
     "Debt / Equity": null,
-    "Div. Yield %": 0.9,
+    "Div. Yield %": 0.91,
     "52W High": 416.0,
     "52W Low": 204.0
   },
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-11-15T08:44:58.467385+00:00"
+  "scanned_at": "2026-11-22T09:14:02.607993+00:00"
 }

@@ -3,19 +3,19 @@
   "name": "Aditya Birla Real Estate Ltd",
   "sector": "Realty",
   "screener_url": "https://www.screener.in/company/ABREL/consolidated/",
-  "score_pct": 57.2,
-  "passes": 4,
+  "score_pct": 63.7,
+  "passes": 5,
   "fails": 3,
-  "neutrals": 6,
-  "verdict": "Weak fundamentals",
-  "verdict_color": "red",
+  "neutrals": 5,
+  "verdict": "Moderate -- dig deeper",
+  "verdict_color": "amber",
   "criteria": [
     {
       "id": "c1",
       "label": "Sales growth >= industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "Avg growth 2.8% below benchmark 10.0%",
+      "detail": "Avg growth 2.5% below benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -85,9 +85,9 @@
     {
       "id": "c10",
       "label": "CFO positive & increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFO positive (747.0 Cr) but not consistently growing",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFO 747.0 Cr: -315.0 -> -1293.0 -> 747.0 (last 3Y) Cr",
       "weight": 2.0
     },
     {
@@ -116,8 +116,8 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 1203.0,
-    "Market Cap": 13437.0,
+    "Current Price": 1216.0,
+    "Market Cap": 13578.0,
     "P/E": null,
     "Industry P/E": null,
     "P/B": null,
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-11-15T08:44:34.764272+00:00"
+  "scanned_at": "2026-11-22T09:13:38.564856+00:00"
 }

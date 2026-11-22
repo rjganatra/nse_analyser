@@ -3,10 +3,10 @@
   "name": "Vedanta Aluminium Metal Ltd",
   "sector": "Metals & Mining",
   "screener_url": "https://www.screener.in/company/VAML/consolidated/",
-  "score_pct": 46.7,
-  "passes": 1,
+  "score_pct": 52.6,
+  "passes": 3,
   "fails": 1,
-  "neutrals": 11,
+  "neutrals": 9,
   "verdict": "Weak fundamentals",
   "verdict_color": "red",
   "criteria": [
@@ -31,7 +31,7 @@
       "label": "EPS consistently increasing",
       "result": "neutral",
       "score": 0.5,
-      "detail": "Trend: 1181900.0 (last 1Y)",
+      "detail": "Trend: -3.0 -> 1181900.0 (last 2Y)",
       "weight": 1.5
     },
     {
@@ -45,9 +45,9 @@
     {
       "id": "c5",
       "label": "Reserves increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Reserves: -0.0 -> 13494.0 -> 22665.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Fixed assets: 0.0 -> 56222.0 -> 57700.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -87,7 +87,7 @@
       "label": "CFO positive & increasing",
       "result": "fail",
       "score": 0.0,
-      "detail": "CFO N/A Cr -- negative cash flow",
+      "detail": "CFO -0.0 Cr -- negative cash flow",
       "weight": 2.0
     },
     {
@@ -95,7 +95,7 @@
       "label": "CFI negative (investing in growth)",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFI = N/A Cr -- positive (possible asset sales)",
+      "detail": "CFI = 0.0 Cr -- positive (possible asset sales)",
       "weight": 1.0
     },
     {
@@ -103,7 +103,7 @@
       "label": "CFF: debt repayment or growth",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFF unavailable",
+      "detail": "CFF = 0.0 Cr -- raising capital (verify if for growth)",
       "weight": 1.0
     },
     {
@@ -116,15 +116,15 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 380.0,
-    "Market Cap": 148517.0,
-    "P/E": 9.92,
+    "Current Price": 366.0,
+    "Market Cap": 142944.0,
+    "P/E": 9.55,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 88.8,
     "ROCE %": null,
     "Debt / Equity": null,
-    "Div. Yield %": 2.11,
+    "Div. Yield %": 2.19,
     "52W High": 538.0,
     "52W Low": 334.0
   },
@@ -133,5 +133,5 @@
     "npm": 7.0,
     "sg": 8.0
   },
-  "scanned_at": "2026-11-15T09:14:44.816461+00:00"
+  "scanned_at": "2026-11-22T09:43:56.087224+00:00"
 }

@@ -3,9 +3,9 @@
   "name": "Nestle India Ltd",
   "sector": "Fast Moving Consumer Goods",
   "screener_url": "https://www.screener.in/company/NESTLEIND/consolidated/",
-  "score_pct": 69.0,
-  "passes": 7,
-  "fails": 2,
+  "score_pct": 75.5,
+  "passes": 8,
+  "fails": 1,
   "neutrals": 4,
   "verdict": "Moderate -- dig deeper",
   "verdict_color": "amber",
@@ -13,9 +13,9 @@
     {
       "id": "c1",
       "label": "Sales growth >= industry",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "Avg growth 8.9% below benchmark 10.0%",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Avg growth 10.4% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -116,15 +116,15 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 1263.0,
-    "Market Cap": 243585.0,
-    "P/E": 61.3,
+    "Current Price": 1325.0,
+    "Market Cap": 255502.0,
+    "P/E": 64.3,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 74.2,
     "ROCE %": 85.3,
     "Debt / Equity": null,
-    "Div. Yield %": 0.95,
+    "Div. Yield %": 0.91,
     "52W High": 1553.0,
     "52W Low": 1147.0
   },
@@ -133,5 +133,5 @@
     "npm": 10.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-11-15T09:05:30.393246+00:00"
+  "scanned_at": "2026-11-22T09:34:39.214821+00:00"
 }

@@ -15,7 +15,7 @@
       "label": "Sales growth >= industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "Avg growth 38.4% vs benchmark 10.0%",
+      "detail": "Avg growth 136.9% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -116,16 +116,16 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 502.0,
-    "Market Cap": 16378.0,
-    "P/E": 57.2,
+    "Current Price": 525.0,
+    "Market Cap": 17143.0,
+    "P/E": 59.9,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 15.7,
     "ROCE %": 19.2,
     "Debt / Equity": null,
-    "Div. Yield %": 0.6,
-    "52W High": 517.0,
+    "Div. Yield %": 0.57,
+    "52W High": 535.0,
     "52W Low": 248.0
   },
   "benchmark": {
@@ -133,5 +133,5 @@
     "npm": 10.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-11-15T08:57:26.300560+00:00"
+  "scanned_at": "2026-11-22T09:26:34.695578+00:00"
 }

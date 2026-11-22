@@ -3,9 +3,9 @@
   "name": "Indian Energy Exchange Ltd",
   "sector": "Financial Services",
   "screener_url": "https://www.screener.in/company/IEX/consolidated/",
-  "score_pct": 70.3,
-  "passes": 7,
-  "fails": 2,
+  "score_pct": 75.5,
+  "passes": 8,
+  "fails": 1,
   "neutrals": 4,
   "verdict": "Moderate -- dig deeper",
   "verdict_color": "amber",
@@ -15,7 +15,7 @@
       "label": "Sales growth >= industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "Avg growth 13.1% vs benchmark 10.0%",
+      "detail": "Avg growth 12.0% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -69,8 +69,8 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "fail",
-      "score": 0.0,
+      "result": "pass",
+      "score": 1.0,
       "detail": "Fixed assets: 87.0 -> 97.0 -> 92.0 (last 3Y) Cr",
       "weight": 0.8
     },
@@ -116,15 +116,15 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 116.0,
-    "Market Cap": 10378.0,
-    "P/E": 19.8,
+    "Current Price": 113.0,
+    "Market Cap": 10090.0,
+    "P/E": 19.3,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 39.4,
     "ROCE %": 51.4,
     "Debt / Equity": null,
-    "Div. Yield %": 3.01,
+    "Div. Yield %": 3.09,
     "52W High": 160.0,
     "52W Low": 99.5
   },
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-11-15T08:58:49.481460+00:00"
+  "scanned_at": "2026-11-22T09:27:57.759984+00:00"
 }

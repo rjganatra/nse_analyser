@@ -3,10 +3,10 @@
   "name": "IDFC First Bank Ltd",
   "sector": "Financial Services",
   "screener_url": "https://www.screener.in/company/IDFCFIRSTB/consolidated/",
-  "score_pct": 62.4,
-  "passes": 5,
+  "score_pct": 69.0,
+  "passes": 6,
   "fails": 1,
-  "neutrals": 7,
+  "neutrals": 6,
   "verdict": "Moderate -- dig deeper",
   "verdict_color": "amber",
   "criteria": [
@@ -15,7 +15,7 @@
       "label": "Sales growth >= industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "Avg growth 18.5% vs benchmark 10.0%",
+      "detail": "Avg growth 29.1% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -85,9 +85,9 @@
     {
       "id": "c10",
       "label": "CFO positive & increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "CFO positive (6817.0 Cr) but not consistently growing",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "CFO 6817.0 Cr: 11543.0 -> 14465.0 -> 6817.0 (last 3Y) Cr",
       "weight": 2.0
     },
     {
@@ -116,15 +116,15 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 79.5,
-    "Market Cap": 68630.0,
-    "P/E": 22.8,
+    "Current Price": 87.3,
+    "Market Cap": 75291.0,
+    "P/E": 25.0,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 3.76,
     "ROCE %": 5.98,
     "Debt / Equity": null,
-    "Div. Yield %": 0.31,
+    "Div. Yield %": 0.29,
     "52W High": 89.6,
     "52W Low": 58.1
   },
@@ -133,5 +133,5 @@
     "npm": 8.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-11-15T08:58:01.961694+00:00"
+  "scanned_at": "2026-11-22T09:27:10.347110+00:00"
 }

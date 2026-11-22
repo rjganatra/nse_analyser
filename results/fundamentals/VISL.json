@@ -3,10 +3,10 @@
   "name": "Vedanta Iron & Steel Ltd",
   "sector": "Metals & Mining",
   "screener_url": "https://www.screener.in/company/VISL/consolidated/",
-  "score_pct": 40.2,
-  "passes": 0,
-  "fails": 2,
-  "neutrals": 11,
+  "score_pct": 41.2,
+  "passes": 2,
+  "fails": 3,
+  "neutrals": 8,
   "verdict": "Weak fundamentals",
   "verdict_color": "red",
   "criteria": [
@@ -29,9 +29,9 @@
     {
       "id": "c3",
       "label": "EPS consistently increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Trend: -288200.0 (last 1Y)",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "EPS not rising: -2.0 -> -3.0 -> -288200.0 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -45,9 +45,9 @@
     {
       "id": "c5",
       "label": "Reserves increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Reserves: -0.0 -> -6674.0 -> 5452.0 (last 3Y) Cr",
       "weight": 1.0
     },
     {
@@ -69,9 +69,9 @@
     {
       "id": "c8",
       "label": "Fixed assets increasing",
-      "result": "neutral",
-      "score": 0.5,
-      "detail": "Insufficient data",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "Fixed assets: 0.0 -> 7249.0 -> 6994.0 (last 3Y) Cr",
       "weight": 0.8
     },
     {
@@ -87,7 +87,7 @@
       "label": "CFO positive & increasing",
       "result": "fail",
       "score": 0.0,
-      "detail": "CFO N/A Cr -- negative cash flow",
+      "detail": "CFO -0.0 Cr -- negative cash flow",
       "weight": 2.0
     },
     {
@@ -95,7 +95,7 @@
       "label": "CFI negative (investing in growth)",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFI = N/A Cr -- positive (possible asset sales)",
+      "detail": "CFI = 0.0 Cr -- positive (possible asset sales)",
       "weight": 1.0
     },
     {
@@ -103,7 +103,7 @@
       "label": "CFF: debt repayment or growth",
       "result": "neutral",
       "score": 0.5,
-      "detail": "CFF unavailable",
+      "detail": "CFF = 0.0 Cr -- raising capital (verify if for growth)",
       "weight": 1.0
     },
     {
@@ -116,8 +116,8 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 26.3,
-    "Market Cap": 10300.0,
+    "Current Price": 23.9,
+    "Market Cap": 9338.0,
     "P/E": null,
     "Industry P/E": null,
     "P/B": null,
@@ -133,5 +133,5 @@
     "npm": 7.0,
     "sg": 8.0
   },
-  "scanned_at": "2026-11-15T09:14:48.723717+00:00"
+  "scanned_at": "2026-11-22T09:43:59.988078+00:00"
 }

@@ -3,11 +3,11 @@
   "name": "Meesho Ltd",
   "sector": "Consumer Services",
   "screener_url": "https://www.screener.in/company/MEESHO/consolidated/",
-  "score_pct": 49.3,
-  "passes": 4,
-  "fails": 3,
+  "score_pct": 39.5,
+  "passes": 3,
+  "fails": 4,
   "neutrals": 6,
-  "verdict": "Weak fundamentals",
+  "verdict": "Avoid",
   "verdict_color": "red",
   "criteria": [
     {
@@ -15,7 +15,7 @@
       "label": "Sales growth >= industry",
       "result": "pass",
       "score": 1.0,
-      "detail": "Avg growth 27.1% vs benchmark 10.0%",
+      "detail": "Avg growth 82.2% vs benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -29,9 +29,9 @@
     {
       "id": "c3",
       "label": "EPS consistently increasing",
-      "result": "pass",
-      "score": 1.0,
-      "detail": "EPS: -452.7 -> -3.0 -> -2.0 (last 3Y)",
+      "result": "fail",
+      "score": 0.0,
+      "detail": "EPS not rising: -9.5 -> -3.0 -> -2.0 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -116,8 +116,8 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 257.0,
-    "Market Cap": 119049.0,
+    "Current Price": 260.0,
+    "Market Cap": 120388.0,
     "P/E": null,
     "Industry P/E": null,
     "P/B": null,
@@ -125,7 +125,7 @@
     "ROCE %": -40.0,
     "Debt / Equity": null,
     "Div. Yield %": 0.0,
-    "52W High": 259.0,
+    "52W High": 263.0,
     "52W Low": 126.0
   },
   "benchmark": {
@@ -133,5 +133,5 @@
     "npm": 10.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-11-15T09:04:11.206747+00:00"
+  "scanned_at": "2026-11-22T09:33:19.700580+00:00"
 }

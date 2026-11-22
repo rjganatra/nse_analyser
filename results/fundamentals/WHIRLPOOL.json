@@ -3,9 +3,9 @@
   "name": "Whirlpool of India Ltd",
   "sector": "Consumer Durables",
   "screener_url": "https://www.screener.in/company/WHIRLPOOL/consolidated/",
-  "score_pct": 46.1,
-  "passes": 4,
-  "fails": 4,
+  "score_pct": 55.9,
+  "passes": 5,
+  "fails": 3,
   "neutrals": 5,
   "verdict": "Weak fundamentals",
   "verdict_color": "red",
@@ -15,7 +15,7 @@
       "label": "Sales growth >= industry",
       "result": "fail",
       "score": 0.0,
-      "detail": "Avg growth 6.7% below benchmark 10.0%",
+      "detail": "Avg growth 8.6% below benchmark 10.0%",
       "weight": 1.0
     },
     {
@@ -29,9 +29,9 @@
     {
       "id": "c3",
       "label": "EPS consistently increasing",
-      "result": "fail",
-      "score": 0.0,
-      "detail": "EPS not rising: 28.3 -> 23.1 -> 18.5 (last 3Y)",
+      "result": "pass",
+      "score": 1.0,
+      "detail": "EPS: 28.3 -> 23.1 -> 18.5 (last 3Y)",
       "weight": 1.5
     },
     {
@@ -116,16 +116,16 @@
     }
   ],
   "top_ratios": {
-    "Current Price": 829.0,
-    "Market Cap": 10518.0,
-    "P/E": 40.1,
+    "Current Price": 820.0,
+    "Market Cap": 10397.0,
+    "P/E": 39.6,
     "Industry P/E": null,
     "P/B": null,
     "ROE %": 7.71,
     "ROCE %": 10.7,
     "Debt / Equity": null,
-    "Div. Yield %": 0.6,
-    "52W High": 1250.0,
+    "Div. Yield %": 0.61,
+    "52W High": 1210.0,
     "52W Low": 706.0
   },
   "benchmark": {
@@ -133,5 +133,5 @@
     "npm": 10.0,
     "sg": 10.0
   },
-  "scanned_at": "2026-11-15T09:15:32.199585+00:00"
+  "scanned_at": "2026-11-22T09:44:43.497367+00:00"
 }
