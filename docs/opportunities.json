@@ -1,10 +1,10 @@
 {
   "meta": {
     "strategy": "opportunities",
-    "scanned_at": "2026-11-24T18:26:39.101116+00:00",
+    "scanned_at": "2026-11-24T21:50:22.313088+00:00",
     "total": 501,
     "success": 468,
-    "opportunities": 326,
+    "opportunities": 328,
     "errors": 3,
     "data_source": "Screener.in"
   },
@@ -66,10 +66,10 @@
       "name": "AWL Agri Business Ltd",
       "sector": "Fast Moving Consumer Goods",
       "current_price": 168.0,
-      "week52_high": 277.0,
+      "week52_high": 274.0,
       "week52_low": 160.0,
       "pct_above_52w_low": 5.0,
-      "pct_below_52w_high": 39.4,
+      "pct_below_52w_high": 38.7,
       "near_52w_low": true,
       "tags": [
         "AT_52W_LOW"
@@ -118,10 +118,10 @@
       "name": "AAVAS Financiers Ltd",
       "sector": "Financial Services",
       "current_price": 1091.0,
-      "week52_high": 1665.0,
+      "week52_high": 1632.0,
       "week52_low": 1050.0,
       "pct_above_52w_low": 3.9,
-      "pct_below_52w_high": 34.5,
+      "pct_below_52w_high": 33.1,
       "near_52w_low": true,
       "tags": [
         "AT_52W_LOW"
@@ -404,10 +404,10 @@
       "name": "Bata India Ltd",
       "sector": "Consumer Durables",
       "current_price": 627.0,
-      "week52_high": 1008.0,
+      "week52_high": 1007.0,
       "week52_low": 600.0,
       "pct_above_52w_low": 4.5,
-      "pct_below_52w_high": 37.8,
+      "pct_below_52w_high": 37.7,
       "near_52w_low": true,
       "tags": [
         "AT_52W_LOW"
@@ -664,10 +664,10 @@
       "name": "Clean Science & Technology Ltd",
       "sector": "Chemicals",
       "current_price": 689.0,
-      "week52_high": 960.0,
+      "week52_high": 928.0,
       "week52_low": 645.0,
       "pct_above_52w_low": 6.8,
-      "pct_below_52w_high": 28.2,
+      "pct_below_52w_high": 25.8,
       "near_52w_low": true,
       "tags": [
         "AT_52W_LOW"
@@ -691,8 +691,8 @@
       "sector": "Oil Gas & Consumable Fuels",
       "current_price": 382.0,
       "week52_high": 491.0,
-      "week52_low": 370.0,
-      "pct_above_52w_low": 3.2,
+      "week52_low": 371.0,
+      "pct_above_52w_low": 3.0,
       "pct_below_52w_high": 22.2,
       "near_52w_low": true,
       "tags": [
@@ -950,10 +950,10 @@
       "name": "Indiamart Intermesh Ltd",
       "sector": "Consumer Services",
       "current_price": 1547.0,
-      "week52_high": 2369.0,
+      "week52_high": 2360.0,
       "week52_low": 1465.0,
       "pct_above_52w_low": 5.6,
-      "pct_below_52w_high": 34.7,
+      "pct_below_52w_high": 34.4,
       "near_52w_low": true,
       "tags": [
         "AT_52W_LOW"
@@ -1678,10 +1678,10 @@
       "name": "P I Industries Ltd",
       "sector": "Chemicals",
       "current_price": 1571.0,
-      "week52_high": 3480.0,
+      "week52_high": 3471.0,
       "week52_low": 1570.0,
       "pct_above_52w_low": 0.1,
-      "pct_below_52w_high": 54.9,
+      "pct_below_52w_high": 54.7,
       "near_52w_low": true,
       "tags": [
         "AT_52W_LOW"
@@ -2406,10 +2406,10 @@
       "name": "ACC Ltd",
       "sector": "Construction Materials",
       "current_price": 1256.0,
-      "week52_high": 1910.0,
+      "week52_high": 1889.0,
       "week52_low": 1115.0,
       "pct_above_52w_low": 12.6,
-      "pct_below_52w_high": 34.2,
+      "pct_below_52w_high": 33.5,
       "near_52w_low": true,
       "tags": [
         "NEAR_52W_LOW"
@@ -2614,10 +2614,10 @@
       "name": "Berger Paints India Ltd",
       "sector": "Consumer Durables",
       "current_price": 462.0,
-      "week52_high": 586.0,
+      "week52_high": 579.0,
       "week52_low": 391.0,
       "pct_above_52w_low": 18.2,
-      "pct_below_52w_high": 21.2,
+      "pct_below_52w_high": 20.2,
       "near_52w_low": true,
       "tags": [
         "NEAR_52W_LOW"
@@ -3395,8 +3395,8 @@
       "sector": "Metals & Mining",
       "current_price": 900.0,
       "week52_high": 1179.0,
-      "week52_low": 773.0,
-      "pct_above_52w_low": 16.4,
+      "week52_low": 787.0,
+      "pct_above_52w_low": 14.4,
       "pct_below_52w_high": 23.7,
       "near_52w_low": true,
       "tags": [
@@ -3447,8 +3447,8 @@
       "sector": "Metals & Mining",
       "current_price": 529.0,
       "week52_high": 733.0,
-      "week52_low": 455.0,
-      "pct_above_52w_low": 16.3,
+      "week52_low": 463.0,
+      "pct_above_52w_low": 14.3,
       "pct_below_52w_high": 27.8,
       "near_52w_low": true,
       "tags": [
@@ -4149,8 +4149,8 @@
       "sector": "Metals & Mining",
       "current_price": 299.0,
       "week52_high": 445.0,
-      "week52_low": 250.0,
-      "pct_above_52w_low": 19.6,
+      "week52_low": 255.0,
+      "pct_above_52w_low": 17.3,
       "pct_below_52w_high": 32.8,
       "near_52w_low": true,
       "tags": [
@@ -5890,6 +5890,32 @@
       }
     },
     {
+      "symbol": "HINDCOPPER",
+      "name": "Hindustan Copper Ltd",
+      "sector": "Metals & Mining",
+      "current_price": 411.0,
+      "week52_high": 760.0,
+      "week52_low": 322.0,
+      "pct_above_52w_low": 27.6,
+      "pct_below_52w_high": 45.9,
+      "near_52w_low": true,
+      "tags": [
+        "DISCOUNTED_ZONE"
+      ],
+      "is_opportunity": true,
+      "screener_url": "https://www.screener.in/company/HINDCOPPER/consolidated/",
+      "ratios": {
+        "pe": 25.8,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 32.9,
+        "roce": 42.4,
+        "de": null,
+        "div_yield": 0.7,
+        "market_cap": 39769.0
+      }
+    },
+    {
       "symbol": "HINDPETRO",
       "name": "Hindustan Petroleum Corporation Ltd",
       "sector": "Oil & Gas",
@@ -7036,6 +7062,32 @@
       }
     },
     {
+      "symbol": "VEDL",
+      "name": "Vedanta Ltd",
+      "sector": "Metals & Mining",
+      "current_price": 236.0,
+      "week52_high": 361.0,
+      "week52_low": 182.0,
+      "pct_above_52w_low": 29.7,
+      "pct_below_52w_high": 34.6,
+      "near_52w_low": true,
+      "tags": [
+        "DISCOUNTED_ZONE"
+      ],
+      "is_opportunity": true,
+      "screener_url": "https://www.screener.in/company/VEDL/consolidated/",
+      "ratios": {
+        "pe": 6.98,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 38.2,
+        "roce": 16.1,
+        "de": null,
+        "div_yield": 14.4,
+        "market_cap": 92101.0
+      }
+    },
+    {
       "symbol": "VEDPOWER",
       "name": "Vedanta Power Ltd",
       "sector": "Power",
@@ -7639,8 +7691,8 @@
       "sector": "Healthcare",
       "current_price": 2657.0,
       "week52_high": 2714.0,
-      "week52_low": 1830.0,
-      "pct_above_52w_low": 45.2,
+      "week52_low": 1842.0,
+      "pct_above_52w_low": 44.2,
       "pct_below_52w_high": 2.1,
       "near_52w_low": false,
       "tags": [
@@ -8498,10 +8550,10 @@
       "name": "P I Industries Ltd",
       "sector": "Chemicals",
       "current_price": 1571.0,
-      "week52_high": 3480.0,
+      "week52_high": 3471.0,
       "week52_low": 1570.0,
       "pct_above_52w_low": 0.1,
-      "pct_below_52w_high": 54.9,
+      "pct_below_52w_high": 54.7,
       "near_52w_low": true,
       "tags": [
         "AT_52W_LOW"
@@ -9045,8 +9097,8 @@
       "sector": "Oil Gas & Consumable Fuels",
       "current_price": 382.0,
       "week52_high": 491.0,
-      "week52_low": 370.0,
-      "pct_above_52w_low": 3.2,
+      "week52_low": 371.0,
+      "pct_above_52w_low": 3.0,
       "pct_below_52w_high": 22.2,
       "near_52w_low": true,
       "tags": [
@@ -9226,10 +9278,10 @@
       "name": "AAVAS Financiers Ltd",
       "sector": "Financial Services",
       "current_price": 1091.0,
-      "week52_high": 1665.0,
+      "week52_high": 1632.0,
       "week52_low": 1050.0,
       "pct_above_52w_low": 3.9,
-      "pct_below_52w_high": 34.5,
+      "pct_below_52w_high": 33.1,
       "near_52w_low": true,
       "tags": [
         "AT_52W_LOW"
@@ -9460,10 +9512,10 @@
       "name": "Bata India Ltd",
       "sector": "Consumer Durables",
       "current_price": 627.0,
-      "week52_high": 1008.0,
+      "week52_high": 1007.0,
       "week52_low": 600.0,
       "pct_above_52w_low": 4.5,
-      "pct_below_52w_high": 37.8,
+      "pct_below_52w_high": 37.7,
       "near_52w_low": true,
       "tags": [
         "AT_52W_LOW"
@@ -9564,10 +9616,10 @@
       "name": "AWL Agri Business Ltd",
       "sector": "Fast Moving Consumer Goods",
       "current_price": 168.0,
-      "week52_high": 277.0,
+      "week52_high": 274.0,
       "week52_low": 160.0,
       "pct_above_52w_low": 5.0,
-      "pct_below_52w_high": 39.4,
+      "pct_below_52w_high": 38.7,
       "near_52w_low": true,
       "tags": [
         "AT_52W_LOW"
@@ -9694,10 +9746,10 @@
       "name": "Indiamart Intermesh Ltd",
       "sector": "Consumer Services",
       "current_price": 1547.0,
-      "week52_high": 2369.0,
+      "week52_high": 2360.0,
       "week52_low": 1465.0,
       "pct_above_52w_low": 5.6,
-      "pct_below_52w_high": 34.7,
+      "pct_below_52w_high": 34.4,
       "near_52w_low": true,
       "tags": [
         "AT_52W_LOW"
@@ -10058,10 +10110,10 @@
       "name": "Clean Science & Technology Ltd",
       "sector": "Chemicals",
       "current_price": 689.0,
-      "week52_high": 960.0,
+      "week52_high": 928.0,
       "week52_low": 645.0,
       "pct_above_52w_low": 6.8,
-      "pct_below_52w_high": 28.2,
+      "pct_below_52w_high": 25.8,
       "near_52w_low": true,
       "tags": [
         "AT_52W_LOW"
@@ -11436,10 +11488,10 @@
       "name": "ACC Ltd",
       "sector": "Construction Materials",
       "current_price": 1256.0,
-      "week52_high": 1910.0,
+      "week52_high": 1889.0,
       "week52_low": 1115.0,
       "pct_above_52w_low": 12.6,
-      "pct_below_52w_high": 34.2,
+      "pct_below_52w_high": 33.5,
       "near_52w_low": true,
       "tags": [
         "NEAR_52W_LOW"
@@ -11793,6 +11845,58 @@
         "de": null,
         "div_yield": 2.13,
         "market_cap": 8525.0
+      }
+    },
+    {
+      "symbol": "HINDZINC",
+      "name": "Hindustan Zinc Ltd",
+      "sector": "Metals & Mining",
+      "current_price": 529.0,
+      "week52_high": 733.0,
+      "week52_low": 463.0,
+      "pct_above_52w_low": 14.3,
+      "pct_below_52w_high": 27.8,
+      "near_52w_low": true,
+      "tags": [
+        "NEAR_52W_LOW"
+      ],
+      "is_opportunity": true,
+      "screener_url": "https://www.screener.in/company/HINDZINC/consolidated/",
+      "ratios": {
+        "pe": 10.7,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 76.8,
+        "roce": 69.5,
+        "de": null,
+        "div_yield": 2.08,
+        "market_cap": 223498.0
+      }
+    },
+    {
+      "symbol": "HINDALCO",
+      "name": "Hindalco Industries Ltd",
+      "sector": "Metals & Mining",
+      "current_price": 900.0,
+      "week52_high": 1179.0,
+      "week52_low": 787.0,
+      "pct_above_52w_low": 14.4,
+      "pct_below_52w_high": 23.7,
+      "near_52w_low": true,
+      "tags": [
+        "NEAR_52W_LOW"
+      ],
+      "is_opportunity": true,
+      "screener_url": "https://www.screener.in/company/HINDALCO/consolidated/",
+      "ratios": {
+        "pe": 8.69,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 13.0,
+        "roce": 13.2,
+        "de": null,
+        "div_yield": 0.56,
+        "market_cap": 202352.0
       }
     },
     {
@@ -12524,58 +12628,6 @@
       }
     },
     {
-      "symbol": "HINDZINC",
-      "name": "Hindustan Zinc Ltd",
-      "sector": "Metals & Mining",
-      "current_price": 529.0,
-      "week52_high": 733.0,
-      "week52_low": 455.0,
-      "pct_above_52w_low": 16.3,
-      "pct_below_52w_high": 27.8,
-      "near_52w_low": true,
-      "tags": [
-        "NEAR_52W_LOW"
-      ],
-      "is_opportunity": true,
-      "screener_url": "https://www.screener.in/company/HINDZINC/consolidated/",
-      "ratios": {
-        "pe": 10.7,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 76.8,
-        "roce": 69.5,
-        "de": null,
-        "div_yield": 2.08,
-        "market_cap": 223498.0
-      }
-    },
-    {
-      "symbol": "HINDALCO",
-      "name": "Hindalco Industries Ltd",
-      "sector": "Metals & Mining",
-      "current_price": 900.0,
-      "week52_high": 1179.0,
-      "week52_low": 773.0,
-      "pct_above_52w_low": 16.4,
-      "pct_below_52w_high": 23.7,
-      "near_52w_low": true,
-      "tags": [
-        "NEAR_52W_LOW"
-      ],
-      "is_opportunity": true,
-      "screener_url": "https://www.screener.in/company/HINDALCO/consolidated/",
-      "ratios": {
-        "pe": 8.69,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 13.0,
-        "roce": 13.2,
-        "de": null,
-        "div_yield": 0.56,
-        "market_cap": 202352.0
-      }
-    },
-    {
       "symbol": "CANBK",
       "name": "Canara Bank",
       "sector": "Banking",
@@ -12703,6 +12755,32 @@
         "de": null,
         "div_yield": 0.0,
         "market_cap": 55656.0
+      }
+    },
+    {
+      "symbol": "NATIONALUM",
+      "name": "National Aluminium Company Ltd",
+      "sector": "Metals & Mining",
+      "current_price": 299.0,
+      "week52_high": 445.0,
+      "week52_low": 255.0,
+      "pct_above_52w_low": 17.3,
+      "pct_below_52w_high": 32.8,
+      "near_52w_low": true,
+      "tags": [
+        "NEAR_52W_LOW"
+      ],
+      "is_opportunity": true,
+      "screener_url": "https://www.screener.in/company/NATIONALUM/consolidated/",
+      "ratios": {
+        "pe": 7.67,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 29.4,
+        "roce": 39.6,
+        "de": null,
+        "div_yield": 3.85,
+        "market_cap": 54851.0
       }
     },
     {
@@ -12970,10 +13048,10 @@
       "name": "Berger Paints India Ltd",
       "sector": "Consumer Durables",
       "current_price": 462.0,
-      "week52_high": 586.0,
+      "week52_high": 579.0,
       "week52_low": 391.0,
       "pct_above_52w_low": 18.2,
-      "pct_below_52w_high": 21.2,
+      "pct_below_52w_high": 20.2,
       "near_52w_low": true,
       "tags": [
         "NEAR_52W_LOW"
@@ -13457,32 +13535,6 @@
         "de": null,
         "div_yield": 1.78,
         "market_cap": 125034.0
-      }
-    },
-    {
-      "symbol": "NATIONALUM",
-      "name": "National Aluminium Company Ltd",
-      "sector": "Metals & Mining",
-      "current_price": 299.0,
-      "week52_high": 445.0,
-      "week52_low": 250.0,
-      "pct_above_52w_low": 19.6,
-      "pct_below_52w_high": 32.8,
-      "near_52w_low": true,
-      "tags": [
-        "NEAR_52W_LOW"
-      ],
-      "is_opportunity": true,
-      "screener_url": "https://www.screener.in/company/NATIONALUM/consolidated/",
-      "ratios": {
-        "pe": 7.67,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 29.4,
-        "roce": 39.6,
-        "de": null,
-        "div_yield": 3.85,
-        "market_cap": 54851.0
       }
     },
     {
@@ -15077,6 +15129,32 @@
       }
     },
     {
+      "symbol": "HINDCOPPER",
+      "name": "Hindustan Copper Ltd",
+      "sector": "Metals & Mining",
+      "current_price": 411.0,
+      "week52_high": 760.0,
+      "week52_low": 322.0,
+      "pct_above_52w_low": 27.6,
+      "pct_below_52w_high": 45.9,
+      "near_52w_low": true,
+      "tags": [
+        "DISCOUNTED_ZONE"
+      ],
+      "is_opportunity": true,
+      "screener_url": "https://www.screener.in/company/HINDCOPPER/consolidated/",
+      "ratios": {
+        "pe": 25.8,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 32.9,
+        "roce": 42.4,
+        "de": null,
+        "div_yield": 0.7,
+        "market_cap": 39769.0
+      }
+    },
+    {
       "symbol": "TATAELXSI",
       "name": "Tata Elxsi Ltd",
       "sector": "Information Technology",
@@ -15520,6 +15598,32 @@
       }
     },
     {
+      "symbol": "VEDL",
+      "name": "Vedanta Ltd",
+      "sector": "Metals & Mining",
+      "current_price": 236.0,
+      "week52_high": 361.0,
+      "week52_low": 182.0,
+      "pct_above_52w_low": 29.7,
+      "pct_below_52w_high": 34.6,
+      "near_52w_low": true,
+      "tags": [
+        "DISCOUNTED_ZONE"
+      ],
+      "is_opportunity": true,
+      "screener_url": "https://www.screener.in/company/VEDL/consolidated/",
+      "ratios": {
+        "pe": 6.98,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 38.2,
+        "roce": 16.1,
+        "de": null,
+        "div_yield": 14.4,
+        "market_cap": 92101.0
+      }
+    },
+    {
       "symbol": "HYUNDAI",
       "name": "Hyundai Motor India Ltd",
       "sector": "Automobile and Auto Components",
@@ -15692,6 +15796,30 @@
       }
     },
     {
+      "symbol": "ABSLAMC",
+      "name": "Aditya Birla Sun Life AMC Ltd",
+      "sector": "Financial Services",
+      "current_price": 929.0,
+      "week52_high": 1225.0,
+      "week52_low": 710.0,
+      "pct_above_52w_low": 30.8,
+      "pct_below_52w_high": 24.2,
+      "near_52w_low": false,
+      "tags": [],
+      "is_opportunity": false,
+      "screener_url": "https://www.screener.in/company/ABSLAMC/consolidated/",
+      "ratios": {
+        "pe": 27.2,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 25.2,
+        "roce": 32.2,
+        "de": null,
+        "div_yield": 2.75,
+        "market_cap": 26893.0
+      }
+    },
+    {
       "symbol": "ITI",
       "name": "ITI Ltd",
       "sector": "Telecommunication",
@@ -15788,54 +15916,6 @@
       }
     },
     {
-      "symbol": "ABSLAMC",
-      "name": "Aditya Birla Sun Life AMC Ltd",
-      "sector": "Financial Services",
-      "current_price": 929.0,
-      "week52_high": 1225.0,
-      "week52_low": 708.0,
-      "pct_above_52w_low": 31.2,
-      "pct_below_52w_high": 24.2,
-      "near_52w_low": false,
-      "tags": [],
-      "is_opportunity": false,
-      "screener_url": "https://www.screener.in/company/ABSLAMC/consolidated/",
-      "ratios": {
-        "pe": 27.2,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 25.2,
-        "roce": 32.2,
-        "de": null,
-        "div_yield": 2.75,
-        "market_cap": 26893.0
-      }
-    },
-    {
-      "symbol": "HINDCOPPER",
-      "name": "Hindustan Copper Ltd",
-      "sector": "Metals & Mining",
-      "current_price": 411.0,
-      "week52_high": 760.0,
-      "week52_low": 313.0,
-      "pct_above_52w_low": 31.3,
-      "pct_below_52w_high": 45.9,
-      "near_52w_low": false,
-      "tags": [],
-      "is_opportunity": false,
-      "screener_url": "https://www.screener.in/company/HINDCOPPER/consolidated/",
-      "ratios": {
-        "pe": 25.8,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 32.9,
-        "roce": 42.4,
-        "de": null,
-        "div_yield": 0.7,
-        "market_cap": 39769.0
-      }
-    },
-    {
       "symbol": "SCI",
       "name": "Shipping Corporation of India Ltd",
       "sector": "Services",
@@ -15908,30 +15988,6 @@
       }
     },
     {
-      "symbol": "VEDL",
-      "name": "Vedanta Ltd",
-      "sector": "Metals & Mining",
-      "current_price": 236.0,
-      "week52_high": 361.0,
-      "week52_low": 179.0,
-      "pct_above_52w_low": 31.8,
-      "pct_below_52w_high": 34.6,
-      "near_52w_low": false,
-      "tags": [],
-      "is_opportunity": false,
-      "screener_url": "https://www.screener.in/company/VEDL/consolidated/",
-      "ratios": {
-        "pe": 6.98,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 38.2,
-        "roce": 16.1,
-        "de": null,
-        "div_yield": 14.4,
-        "market_cap": 92101.0
-      }
-    },
-    {
       "symbol": "LICHSGFIN",
       "name": "LIC Housing Finance Ltd",
       "sector": "Financial Services",
@@ -15955,6 +16011,30 @@
         "de": null,
         "div_yield": 1.65,
         "market_cap": 33334.0
+      }
+    },
+    {
+      "symbol": "AJANTPHARM",
+      "name": "Ajanta Pharma Ltd",
+      "sector": "Healthcare",
+      "current_price": 3310.0,
+      "week52_high": 3797.0,
+      "week52_low": 2501.0,
+      "pct_above_52w_low": 32.3,
+      "pct_below_52w_high": 12.8,
+      "near_52w_low": false,
+      "tags": [],
+      "is_opportunity": false,
+      "screener_url": "https://www.screener.in/company/AJANTPHARM/consolidated/",
+      "ratios": {
+        "pe": 32.8,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 27.1,
+        "roce": 34.5,
+        "de": null,
+        "div_yield": 0.97,
+        "market_cap": 41366.0
       }
     },
     {
@@ -16077,30 +16157,6 @@
         "de": null,
         "div_yield": 0.5,
         "market_cap": 17218.0
-      }
-    },
-    {
-      "symbol": "AJANTPHARM",
-      "name": "Ajanta Pharma Ltd",
-      "sector": "Healthcare",
-      "current_price": 3310.0,
-      "week52_high": 3797.0,
-      "week52_low": 2484.0,
-      "pct_above_52w_low": 33.3,
-      "pct_below_52w_high": 12.8,
-      "near_52w_low": false,
-      "tags": [],
-      "is_opportunity": false,
-      "screener_url": "https://www.screener.in/company/AJANTPHARM/consolidated/",
-      "ratios": {
-        "pe": 32.8,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 27.1,
-        "roce": 34.5,
-        "de": null,
-        "div_yield": 0.97,
-        "market_cap": 41366.0
       }
     },
     {
@@ -16452,10 +16508,10 @@
       "name": "Max Healthcare Institute Ltd",
       "sector": "Healthcare",
       "current_price": 1090.0,
-      "week52_high": 1182.0,
+      "week52_high": 1176.0,
       "week52_low": 797.0,
       "pct_above_52w_low": 36.8,
-      "pct_below_52w_high": 7.8,
+      "pct_below_52w_high": 7.3,
       "near_52w_low": false,
       "tags": [],
       "is_opportunity": false,
@@ -16964,6 +17020,30 @@
       }
     },
     {
+      "symbol": "PFOCUS",
+      "name": "Prime Focus Ltd",
+      "sector": "Media Entertainment & Publication",
+      "current_price": 237.0,
+      "week52_high": 367.0,
+      "week52_low": 168.0,
+      "pct_above_52w_low": 41.1,
+      "pct_below_52w_high": 35.4,
+      "near_52w_low": false,
+      "tags": [],
+      "is_opportunity": false,
+      "screener_url": "https://www.screener.in/company/PFOCUS/consolidated/",
+      "ratios": {
+        "pe": 82.1,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 15.7,
+        "roce": 11.3,
+        "de": null,
+        "div_yield": 0.0,
+        "market_cap": 18430.0
+      }
+    },
+    {
       "symbol": "FSL",
       "name": "Firstsource Solutions Ltd",
       "sector": "Services",
@@ -17084,27 +17164,27 @@
       }
     },
     {
-      "symbol": "PFOCUS",
-      "name": "Prime Focus Ltd",
-      "sector": "Media Entertainment & Publication",
-      "current_price": 237.0,
-      "week52_high": 367.0,
-      "week52_low": 166.0,
+      "symbol": "TMCV",
+      "name": "Tata Motors Ltd",
+      "sector": "Capital Goods",
+      "current_price": 454.0,
+      "week52_high": 509.0,
+      "week52_low": 318.0,
       "pct_above_52w_low": 42.8,
-      "pct_below_52w_high": 35.4,
+      "pct_below_52w_high": 10.8,
       "near_52w_low": false,
       "tags": [],
       "is_opportunity": false,
-      "screener_url": "https://www.screener.in/company/PFOCUS/consolidated/",
+      "screener_url": "https://www.screener.in/company/TMCV/consolidated/",
       "ratios": {
-        "pe": 82.1,
+        "pe": 23.4,
         "industry_pe": null,
         "pb": null,
-        "roe": 15.7,
-        "roce": 11.3,
+        "roe": 34.0,
+        "roce": 35.9,
         "de": null,
-        "div_yield": 0.0,
-        "market_cap": 18430.0
+        "div_yield": 0.88,
+        "market_cap": 167127.0
       }
     },
     {
@@ -17158,6 +17238,32 @@
       }
     },
     {
+      "symbol": "GLENMARK",
+      "name": "Glenmark Pharmaceuticals Ltd",
+      "sector": "Healthcare",
+      "current_price": 2657.0,
+      "week52_high": 2714.0,
+      "week52_low": 1842.0,
+      "pct_above_52w_low": 44.2,
+      "pct_below_52w_high": 2.1,
+      "near_52w_low": false,
+      "tags": [
+        "NEAR_52W_HIGH"
+      ],
+      "is_opportunity": true,
+      "screener_url": "https://www.screener.in/company/GLENMARK/consolidated/",
+      "ratios": {
+        "pe": 37.0,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 23.6,
+        "roce": 39.8,
+        "de": null,
+        "div_yield": 0.19,
+        "market_cap": 74987.0
+      }
+    },
+    {
       "symbol": "ABCAPITAL",
       "name": "Aditya Birla Capital Ltd",
       "sector": "Financial Services",
@@ -17205,32 +17311,6 @@
         "de": null,
         "div_yield": 0.0,
         "market_cap": 36243.0
-      }
-    },
-    {
-      "symbol": "GLENMARK",
-      "name": "Glenmark Pharmaceuticals Ltd",
-      "sector": "Healthcare",
-      "current_price": 2657.0,
-      "week52_high": 2714.0,
-      "week52_low": 1830.0,
-      "pct_above_52w_low": 45.2,
-      "pct_below_52w_high": 2.1,
-      "near_52w_low": false,
-      "tags": [
-        "NEAR_52W_HIGH"
-      ],
-      "is_opportunity": true,
-      "screener_url": "https://www.screener.in/company/GLENMARK/consolidated/",
-      "ratios": {
-        "pe": 37.0,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 23.6,
-        "roce": 39.8,
-        "de": null,
-        "div_yield": 0.19,
-        "market_cap": 74987.0
       }
     },
     {
@@ -17355,30 +17435,6 @@
         "de": null,
         "div_yield": 0.29,
         "market_cap": 73686.0
-      }
-    },
-    {
-      "symbol": "TMCV",
-      "name": "Tata Motors Ltd",
-      "sector": "Capital Goods",
-      "current_price": 454.0,
-      "week52_high": 509.0,
-      "week52_low": 308.0,
-      "pct_above_52w_low": 47.4,
-      "pct_below_52w_high": 10.8,
-      "near_52w_low": false,
-      "tags": [],
-      "is_opportunity": false,
-      "screener_url": "https://www.screener.in/company/TMCV/consolidated/",
-      "ratios": {
-        "pe": 23.4,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 34.0,
-        "roce": 35.9,
-        "de": null,
-        "div_yield": 0.88,
-        "market_cap": 167127.0
       }
     },
     {
@@ -18664,6 +18720,30 @@
       }
     },
     {
+      "symbol": "SHRIPISTON",
+      "name": "SPR Auto Technologies Ltd",
+      "sector": "Automobile and Auto Components",
+      "current_price": 4262.0,
+      "week52_high": 4843.0,
+      "week52_low": 2571.0,
+      "pct_above_52w_low": 65.8,
+      "pct_below_52w_high": 12.0,
+      "near_52w_low": false,
+      "tags": [],
+      "is_opportunity": false,
+      "screener_url": "https://www.screener.in/company/SHRIPISTON/consolidated/",
+      "ratios": {
+        "pe": 32.8,
+        "industry_pe": null,
+        "pb": null,
+        "roe": 21.4,
+        "roce": 20.8,
+        "de": null,
+        "div_yield": 0.23,
+        "market_cap": 19772.0
+      }
+    },
+    {
       "symbol": "GVT&D",
       "name": "GE Vernova T&D India Ltd",
       "sector": "Capital Goods",
@@ -18685,30 +18765,6 @@
         "de": null,
         "div_yield": 0.24,
         "market_cap": 107413.0
-      }
-    },
-    {
-      "symbol": "SHRIPISTON",
-      "name": "SPR Auto Technologies Ltd",
-      "sector": "Automobile and Auto Components",
-      "current_price": 4262.0,
-      "week52_high": 4843.0,
-      "week52_low": 2558.0,
-      "pct_above_52w_low": 66.6,
-      "pct_below_52w_high": 12.0,
-      "near_52w_low": false,
-      "tags": [],
-      "is_opportunity": false,
-      "screener_url": "https://www.screener.in/company/SHRIPISTON/consolidated/",
-      "ratios": {
-        "pe": 32.8,
-        "industry_pe": null,
-        "pb": null,
-        "roe": 21.4,
-        "roce": 20.8,
-        "de": null,
-        "div_yield": 0.23,
-        "market_cap": 19772.0
       }
     },
     {
